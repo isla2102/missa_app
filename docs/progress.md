@@ -1202,3 +1202,9 @@
   - `.ai-workspace/design.md`: 태블릿 상단 상태바 안전영역(40px), 좌우 여백(24px), 하단 여백, 가로 100% 규격 확정 기록.
   - `.ai-workspace/Project_Status.md`: 최신 상태 동기화 완료.
 - 다음: Codex 세션으로 인수인계 및 홈 화면 PWA 새로고침 버튼 추가 작업 진행.
+
+
+## 2026-10-25 PWA 앱 새로고침 버튼
+- 승인:사용자 진행해.보기 설정에 기존 보조 버튼으로 앱 새로고침 추가(location.reload).저장소 삭제 없음.
+- 검증:check-pwa-reload 5 PASS(실제재로드/날짜/저장소/성가번호/JS오류),check-stage8-integration 45 PASS.설정화면 캡처 확인.실제iPad 검증은 별도.
+- 다음:GitHub 반영 후 iPad 홈화면 앱에서 보기 설정의 새로고침과 저장값 복원 확인.8단계 진행 중.
