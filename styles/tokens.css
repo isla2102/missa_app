@@ -406,7 +406,7 @@
   --foundation-reader-system-score-overlay-z: 3;
   --ui-reader-system-score-overlay-z: var(--foundation-reader-system-score-overlay-z);
   --reader-system-score-overlay-z: var(--ui-reader-system-score-overlay-z);
-  --foundation-reader-system-score-overlay-space: 0;
+  --foundation-reader-system-score-overlay-space: 1rem;
   --ui-reader-system-score-overlay-space: var(--foundation-reader-system-score-overlay-space);
   --reader-system-score-overlay-space: var(--ui-reader-system-score-overlay-space);
   --foundation-reader-system-paper-ink: #171C18;

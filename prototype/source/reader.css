@@ -114,6 +114,9 @@
  .reader__season-period[aria-current="true"] { border-width: var(--reader-selection-frame-width); }
  .reader__session-select { width: max-content; }
  .reader__score-photo { border: var(--reader-score-border-width) solid var(--reader-card-border-color); background: var(--reader-score-paper); display: block; width: 100%; height: auto; }
+ .reader__score[data-score-kind="reengraved"] .reader__score-photo { filter:url("#reader-score-ink"); background:transparent; }
+ .reader__score-ink { flood-color:var(--reader-theme-ink); }
+ .reader__score-filters { position:absolute; inline-size:0; block-size:0; overflow:hidden; }
  .reader__creed-panel[hidden] { display: none; }
  .reader__text-scroll { min-block-size: 0; overflow: visible; }
  .reader__item--compact-score { display: block; min-block-size: 0; }

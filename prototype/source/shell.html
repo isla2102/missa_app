@@ -14,7 +14,7 @@
 <style>{{READER_CSS}}</style>
 </head>
 
-<body><main class="reader" data-js="reader" data-orientation="landscape">
+<body><svg class="reader__score-filters" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><defs><filter id="reader-score-ink" color-interpolation-filters="sRGB"><feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.2126 -0.7152 -0.0722 0 1" result="ink-mask"/><feComposite in="ink-mask" in2="SourceAlpha" operator="in" result="ink-alpha"/><feFlood class="reader__score-ink" result="ink-color"/><feComposite in="ink-color" in2="ink-alpha" operator="in"/></filter></defs></svg><main class="reader" data-js="reader" data-orientation="landscape">
 <header class="reader__header reader__header--navigation">
  <div class="reader__header-group"><h1 class="reader__title reader__brand">MISSA</h1><span data-js="parish-name"></span></div>
  <div class="reader__header-group reader__header-controls"><label class="reader__label-hidden" for="date">날짜</label><input id="date" type="date" value="2026-10-18" data-js="date" class="missa-input"><button type="button" class="reader__season-badge missa-button" data-js="liturgical-season" aria-haspopup="dialog" aria-controls="season-dialog"></button><span data-js="liturgical-day" aria-live="polite"></span><label class="reader__label-hidden" for="slot">회차</label><select id="slot" class="reader__session-select missa-input" data-js="slot"></select><label class="reader__label-hidden" for="mode">모드</label><select id="mode" data-js="mode" class="missa-input"><option value="beginner">예비신자</option><option value="regular">일반 신자</option></select></div>
