@@ -691,10 +691,11 @@ function applyReaderTheme(value,persist=true){
  if(!readerThemes.some(([key])=>key===value))value='a';readerTheme=value;document.documentElement?.setAttribute('data-reader-theme',value);
  if(persist){try{localStorage.setItem('missa.reader.appearance.v1',value);}catch{return false;}}return true;
 }
-let viewerOrientation='landscape';
+let orientationPreference='auto';
+let viewerOrientation=window.innerHeight>window.innerWidth?'portrait':'landscape';
 function setViewerOrientation(value){
  if(!['auto','portrait','landscape'].includes(value))return;
- captureReaderScroll();persistReader();viewerOrientation=value;find('reader').setAttribute('data-orientation',value);
+ captureReaderScroll();persistReader();orientationPreference=value;viewerOrientation=value==='auto'?(window.innerHeight>window.innerWidth?'portrait':'landscape'):value;find('reader').setAttribute('data-orientation',viewerOrientation);
  find('viewport-status').textContent=value==='auto'?'':'뷰어 미리보기 · '+(value==='portrait'?'세로 768 × 1024':'가로 1024 × 768')+' · 좁은 창에서는 너비 축소';
  find('viewport-rotate').hidden=value==='auto';find('viewport-reset').hidden=value==='auto';
  find('viewport-rotate').textContent=value==='portrait'?'가로로 전환':'세로로 전환';
@@ -714,7 +715,7 @@ function showPanel(which, trigger) {
  if (which === 'settings') {
   text('뷰어 방향 미리보기로 화면을 가로·세로 크기로 바꿔 볼 수 있습니다. 세로 화면이 창보다 높으면 브라우저를 스크롤하세요. 실제 기기의 터치·브라우저 UI까지 재현하지는 않습니다.');
   const orientationGroup=document.createElement('div');orientationGroup.className='reader__row';orientationGroup.setAttribute('role','group');orientationGroup.setAttribute('aria-label','뷰어 방향 미리보기');
-  [['landscape','가로 1024 × 768'],['portrait','세로 768 × 1024'],['auto','현재 화면에 맞춤']].forEach(([value,label])=>{const b=createReaderButton();b.type='button';b.textContent=label;b.setAttribute('aria-pressed',String(viewerOrientation===value));b.onclick=()=>{find('drawer').close();setViewerOrientation(value);find('part-next').focus({preventScroll:true});};orientationGroup.append(b);});body.append(orientationGroup);
+  [['landscape','가로 1024 × 768'],['portrait','세로 768 × 1024'],['auto','현재 화면에 맞춤']].forEach(([value,label])=>{const b=createReaderButton();b.type='button';b.textContent=label;b.setAttribute('aria-pressed',String(orientationPreference===value));b.onclick=()=>{find('drawer').close();setViewerOrientation(value);find('part-next').focus({preventScroll:true});};orientationGroup.append(b);});body.append(orientationGroup);
   const fontLabel=document.createElement('label');fontLabel.className='reader__field';fontLabel.textContent='본문 글꼴';const fontSelect=document.createElement('select');fontSelect.setAttribute('aria-label','본문 글꼴');[['serif','명조'],['sans','고딕']].forEach(([value,label])=>{const option=document.createElement('option');option.value=value;option.textContent=label;fontSelect.append(option);});fontSelect.value=readerBodyFont;const fontStatus=document.createElement('p');fontStatus.setAttribute('role','status');fontSelect.onchange=()=>{fontStatus.textContent=applyReaderBodyFont(fontSelect.value)?'본문 글꼴을 저장했습니다.':'현재 화면에 적용했습니다. 저장소 제한으로 새로고침 후 유지되지 않을 수 있습니다.';};fontLabel.append(fontSelect);body.append(fontLabel,fontStatus);text('본문 기본: 18px · 줄 간격 1.6 · 기본 여백. 제목·버튼·메뉴는 고딕입니다.');
   const theme=document.createElement('label');theme.className='reader__field';theme.textContent='배경·글자색';const select=document.createElement('select');select.setAttribute('aria-label','배경·글자색 테마');readerThemes.forEach(([value,label])=>{const option=document.createElement('option');option.value=value;option.textContent=label;select.append(option);});select.value=readerTheme;const themeStatus=document.createElement('p');themeStatus.setAttribute('role','status');select.onchange=()=>{const saved=applyReaderTheme(select.value);themeStatus.textContent=saved?'테마를 저장했습니다.':'이 화면에는 적용했습니다. 저장소 제한으로 새로고침 후에는 유지되지 않을 수 있습니다.';};theme.append(select);body.append(theme,themeStatus);
   const reloadButton=createReaderButton();reloadButton.type='button';reloadButton.textContent='앱 새로고침';reloadButton.setAttribute('data-js','app-reload');reloadButton.onclick=()=>window.location.reload();body.append(reloadButton);
@@ -755,7 +756,7 @@ find('part-prev').onclick = () => go(Math.max(0,part-1));
 find('part-next').onclick = () => go(Math.min(parts.length-1,part+1));
 find('page-prev').onclick = () => turnSpread(-1);
 find('page-next').onclick = () => turnSpread(1);
-find('mode').onchange = render; find('slot').onchange = () => { setViewerOrientation(viewerOrientation);context(); render(); };
+find('mode').onchange = render; find('slot').onchange = () => { setViewerOrientation(orientationPreference);context(); render(); };
 find('date').onchange = () => {captureReaderScroll();persistReader();collectView=0;readerScrolls={};position.fill(null);part=0;spread=0;currentAnchor=contents[0][0].id;readerDate=null;context();render({anchorKey:currentAnchor});};
 document.querySelectorAll('[data-panel]').forEach(button => button.onclick = () => showPanel(button.dataset.panel,button));
 find('close').onclick = () => find('drawer').close();
@@ -772,7 +773,7 @@ function scheduleViewportReflow(){
  },150);
 }
 if(typeof ResizeObserver!=='undefined')new ResizeObserver(scheduleViewportReflow).observe(find('book'));
-window.addEventListener('resize',scheduleViewportReflow);
+window.addEventListener('resize',()=>{if(orientationPreference==='auto'){const next=window.innerHeight>window.innerWidth?'portrait':'landscape';if(next!==viewerOrientation)setViewerOrientation('auto');}scheduleViewportReflow();});
 document.fonts?.ready.then(()=>scheduleReflow());
 find('tutorial-prev').onclick=()=>{tutorialIndex=Math.max(0,tutorialIndex-1);paintTutorial();};
 find('tutorial-next').onclick=nextTutorial;
@@ -800,7 +801,7 @@ if(/^\d{4}-\d{2}-\d{2}$/.test(urlDateParam||'')){
 loadReaderDate(find('date').value,true);
 find('book').addEventListener('scroll',readerScrolled,true);
 window.addEventListener('pagehide',()=>{captureReaderScroll();persistReader();});
-setViewerOrientation(viewerOrientation);context(); render();
+setViewerOrientation(orientationPreference);context(); render();
 if(!hasSeenTutorial())showTutorial();
 
 function appendHymnBackupControls(body){

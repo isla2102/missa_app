@@ -558,3 +558,8 @@ Flutter·SQLite·JSON은 권장 아키텍처이며 현재 구현된 앱 스택�
 
 ## 2026-10-25 겹침형 스크롤바 폭
 - 페이지본문역마진유지.폭을차지하지않는스크롤바는is-overlay-scrollbar변형으로padding-inline-end에기존reader-system-page-scroll-outset사용.일반형은기존scroll-size사용.제목과본문가용폭동일.새토큰없음.
+
+
+## 2026-10-25 기기 방향·버튼 확정 변경
+- 기본자동기기방향,수동가로/세로선택유지.세로도전체뷰포트100dvh사용.기존고정검수크기정책대체.
+- 메뉴SVG는reader-system-space-6(24px),버튼action-hit(44px).목차main-hit(40px),justify-self:end.기존토큰재사용,새기초값없음.

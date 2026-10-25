@@ -293,3 +293,6 @@ v78: 본문명조18px기준/1.6/기본여백. 보기설정→본문글꼴에서�
 
 
 스크롤가용폭검사:`node tools/check-scroll-width.cjs`(Chrome/WebKit).일반·겹침형스크롤바의제목/본문폭대조.
+
+
+기본방향은기기자동전환입니다.수동가로/세로선택후자동으로돌리려면보기설정의현재화면에맞춤을선택하세요.세로도화면전체높이를사용합니다.검사:`node tools/check-device-orientation.cjs`.
