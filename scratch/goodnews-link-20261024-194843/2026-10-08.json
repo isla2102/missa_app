@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-08",
+  "date": "2026-10-08",
+  "observance": "연중 제27주간 목요일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261008"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님, 모든 것이 당신의 권능 안에 있어, 당신 뜻을 거스를 자 없나이다.\n당신이 하늘과 땅을 지으시고 하늘 아래 모든 것을 만드셨으니,\n당신은 만물의 주님이시옵니다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 영원하신 하느님,\n저희 공로와 소망보다 더 큰 은혜를 베풀어 주시니\n저희 기도를 들으시어\n양심의 가책을 받은 저희 죄를 용서하시고\n감히 청하지 못하는 은혜도 내려 주소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n주님께서 세우신 이 제사를 받아들이시어\n저희가 정성을 다하여 마땅히 거행하는 이 거룩한 신비로\n저희를 거룩하게 하시고 주님의 구원을 이루소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "당신을 바라는 이에게, 당신을 찾는 영혼에게 주님은 좋으신 분.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "전능하신 하느님,\n성체를 받아 모신 저희가 이 성사의 힘으로 자라나\n마침내 그리스도와 하나 되게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<여러분은 율법에 따른 행위로 성령을 받았습니까? 아니면, 복음을 듣고 믿어서 성령을 받았습니까?>",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 갈라티아서 말씀입니다.3,1-5",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "1 아, 어리석은 갈라티아 사람들이여!",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "예수 그리스도께서 십자가에 못 박히신 모습으로",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "여러분 눈앞에 생생히 새겨져 있는데, 누가 여러분을 호렸단 말입니까?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "2 나는 여러분에게서 이 한 가지만은 알고 싶습니다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "여러분은 율법에 따른 행위로 성령을 받았습니까?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "아니면, 복음을 듣고 믿어서 성령을 받았습니까?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "3 여러분은 그렇게도 어리석습니까?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "성령으로 시작하고서는 육으로 마칠 셈입니까?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "4 여러분의 그 많은 체험이 헛일이라는 말입니까?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "참으로 헛일이라는 말입니까?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "5 그렇다면 여러분에게 성령을 주시고",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "여러분 가운데에서 기적을 이루시는 분께서,",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "율법에 따른 여러분의 행위 때문에 그리하시는 것입니까?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "아니면, 여러분이 복음을 듣고 믿기 때문에 그리하시는 것입니까?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261008"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "루카 1,69-70.71-72.73-75(◎ 68 참조)",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 찬미받으소서, 주 이스라엘의 하느님. 주님은 당신 백성을 찾아오셨네.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 우리를 위하여 당신 종 다윗 집안에서, 힘센 구원자를 세워 주셨네. 거룩한 예언자들의 입으로, 예로부터 말씀하신 대로 하셨네. ◎",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 우리 원수들에게서, 우리를 미워하는 자들의 손에서, 우리를 구원하시리라. 그분은 우리 조상들에게 자비를 베푸시고, 당신의 거룩한 계약을 기억하셨네. ◎",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 우리 조상 아브라함에게 맹세하신 대로, 우리가 원수들의 손에서 풀려나, 아무 두려움 없이, 한평생 당신 앞에서, 거룩하고 의롭게 당신을 섬기게 하셨네. ◎",
+          "sourceRef": "goodnews-20261008"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "사도 16,14 참조",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님, 저희 마음을 열어 주시어 당신 아드님 말씀에 귀 기울이게 하소서.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261008"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<청하여라, 너희에게 주실 것이다.>",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.11,5-13",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 제자들에게 5 이르셨다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "“너희 가운데 누가 벗이 있는데,",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "한밤중에 그 벗을 찾아가 이렇게 말하였다고 하자.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "‘여보게, 빵 세 개만 꾸어 주게.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "6 내 벗이 길을 가다가 나에게 들렀는데 내놓을 것이 없네.’",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "7 그러면 그 사람이 안에서,",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "‘나를 괴롭히지 말게. 벌써 문을 닫아걸고 아이들과 함께 잠자리에 들었네.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "그러니 지금 일어나서 건네줄 수가 없네.’ 하고 대답할 것이다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "8 내가 너희에게 말한다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "그 사람이 벗이라는 이유 때문에 일어나서 빵을 주지는 않는다 하더라도,",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "그가 줄곧 졸라 대면 마침내 일어나서 그에게 필요한 만큼 다 줄 것이다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "9 내가 너희에게 말한다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "청하여라, 너희에게 주실 것이다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "찾아라, 너희가 얻을 것이다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "문을 두드려라, 너희에게 열릴 것이다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "10 누구든지 청하는 이는 받고, 찾는 이는 얻고,",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "문을 두드리는 이에게는 열릴 것이다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "11 너희 가운데 어느 아버지가 아들이 생선을 청하는데,",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "생선 대신에 뱀을 주겠느냐?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "12 달걀을 청하는데 전갈을 주겠느냐?",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "13 너희가 악해도 자녀들에게는 좋은 것을 줄 줄 알거든,",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "하늘에 계신 아버지께서야 당신께 청하는 이들에게",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "text",
+          "text": "성령을 얼마나 더 잘 주시겠느냐?”",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p26",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261008"
+        },
+        {
+          "id": "gospel-p27",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261008"
+        }
+      ]
+    }
+  ]
+}

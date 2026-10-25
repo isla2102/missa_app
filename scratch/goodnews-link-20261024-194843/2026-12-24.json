@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-24",
+  "date": "2026-12-24",
+  "observance": "(자) 12월 24일",
+  "sourceRefs": [
+    "goodnews-20261224"
+  ],
+  "sections": [
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<다윗의 나라는 주님 앞에서 영원할 것이다.>",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사무엘기 하권의 말씀입니다.7,1-5.8ㄷ-12.14ㄱ.16",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "다윗 1 임금이 자기 궁에 자리 잡고,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "주님께서 그를 사방의 모든 원수에게서 평온하게 해 주셨을 때이다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "2 임금이 나탄 예언자에게 말하였다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "“보시오, 나는 향백나무 궁에 사는데,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "하느님의 궤는 천막에 머무르고 있소.”",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "3 나탄이 임금에게 말하였다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "“주님께서 임금님과 함께 계시니,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "가셔서 무엇이든 마음 내키시는 대로 하십시오.”",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "4 그런데 그날 밤, 주님의 말씀이 나탄에게 내렸다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "5 “나의 종 다윗에게 가서 말하여라.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "‘주님이 이렇게 말한다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "내가 살 집을 네가 짓겠다는 말이냐?",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "8 나는 양 떼를 따라다니던 너를 목장에서 데려다가,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "내 백성 이스라엘의 영도자로 세웠다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "9 또한 네가 어디를 가든지 너와 함께 있으면서,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "모든 원수를 네 앞에서 물리쳤다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "나는 너의 이름을 세상 위인들의 이름처럼 위대하게 만들어 주었다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "10 나는 내 백성 이스라엘을 위하여 한곳을 정하고,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "그곳에 그들을 심어 그들이 제자리에서 살게 하겠다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "그러면 이스라엘은 더 이상 불안해하지 않아도 되고,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "다시는 전처럼, 불의한 자들이 그들을 괴롭히지 않을 것이다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "11 곧 내가 나의 백성 이스라엘에게 판관을 임명하던 때부터 해 온 것처럼,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "나는 너를 모든 원수에게서 평온하게 해 주겠다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "더 나아가 주님이 너에게 한 집안을 일으켜 주리라고 선언한다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "12 너의 날수가 다 차서 조상들과 함께 잠들게 될 때,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "네 몸에서 나와 네 뒤를 이을 후손을 내가 일으켜 세우고,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "text",
+          "text": "그의 나라를 튼튼하게 하겠다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p30",
+          "role": "text",
+          "text": "14 나는 그의 아버지가 되고 그는 나의 아들이 될 것이다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p31",
+          "role": "text",
+          "text": "16 너의 집안과 나라가 네 앞에서 영원히 굳건해지고,",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p32",
+          "role": "text",
+          "text": "네 왕좌가 영원히 튼튼하게 될 것이다.’”",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p33",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "reading-1-p34",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261224"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 89(88),2-3.4-5.27과 29(◎ 2ㄱ 참조)",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님, 당신 자애를 영원히 노래하오리다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님의 자애를 영원히 노래하오리다. 제 입은 당신의 진실을 대대로 전하오리다. 제가 아뢰나이다. “주님은 자애를 영원히 세우시고, 진실을 하늘에 굳히셨나이다.” ◎",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 나는 내가 뽑은 이와 계약을 맺고, 나의 종 다윗에게 맹세하였노라. “영원토록 네 후손을 굳건히 하고, 대대로 이어 갈 네 왕좌를 세우노라.” ◎",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 그는 나를 부르리라. “당신은 저의 아버지, 저의 하느님, 제 구원의 바위.” 영원토록 그에게 내 자애를 베풀리니, 그와 맺은 내 계약 변함이 없으리라. ◎",
+          "sourceRef": "goodnews-20261224"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 떠오르는 별, 영원한 빛, 정의의 태양이신 주님, 어서 오소서. 어둠 속 죽음의 그늘에 앉아 있는 이들을 비추소서.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261224"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<높은 곳에서 별이 우리를 찾아오셨다.>",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.1,67-79",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 요한의 67 아버지 즈카르야는 성령으로 가득 차 이렇게 예언하였다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "68 “주 이스라엘의 하느님께서는 찬미받으소서.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "그분께서는 당신 백성을 찾아와 속량하시고",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "69 당신 종 다윗 집안에서 우리를 위하여 힘센 구원자를 일으키셨습니다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "70 당신의 거룩한 예언자들의 입을 통하여 예로부터 말씀하신 대로",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "71 우리 원수들에게서, 우리를 미워하는 모든 자의 손에서",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "우리를 구원하시려는 것입니다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "72 그분께서는 우리 조상들에게 자비를 베푸시고",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "당신의 거룩한 계약을 기억하셨습니다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "73 이 계약은 우리 조상 아브라함에게 하신 맹세로",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "74 원수들 손에서 구원된 우리가 두려움 없이",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "75 한평생 당신 앞에서 거룩하고 의롭게 당신을 섬기도록 해 주시려는 것입니다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "76 아기야, 너는 지극히 높으신 분의 예언자라 불리고",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "주님을 앞서 가 그분의 길을 준비하리니",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "77 죄를 용서받아 구원됨을 주님의 백성에게 깨우쳐 주려는 것이다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "78 우리 하느님의 크신 자비로 높은 곳에서 별이 우리를 찾아오시어",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "79 어둠과 죽음의 그늘에 앉아 있는 이들을 비추시고",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "우리 발을 평화의 길로 이끌어 주실 것이다.”",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261224"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261224"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-24",
+  "originalPath": "로마미사경본/미사통상문.pdf",
+  "libraryPath": "data/source-library/ordinary/originals/미사통상문.pdf",
+  "bytes": 30678090,
+  "sha256": "d9c06a692c21b9ad10e9a884726362fba2f24d99646cff284fef92432de9ba03",
+  "pages": 238,
+  "textLayerPages": 0,
+  "referenceRole": "user-selected-primary-visual-reference",
+  "editionStatus": "not-verified",
+  "ocrStatus": "unverified-search-only",
+  "visualChecks": [
+    {
+      "pdfPage": 3,
+      "bookPageNavigation": 537,
+      "topic": "시작 예식·성호경"
+    },
+    {
+      "pdfPage": 15,
+      "bookPageNavigation": 549,
+      "topic": "니케아 신경·악보 참조"
+    },
+    {
+      "pdfPage": 16,
+      "bookPageNavigation": 550,
+      "topic": "사도 신경·보편 지향 기도"
+    },
+    {
+      "pdfPage": 73,
+      "bookPageNavigation": 607,
+      "topic": "감사 기도 제1양식 · 83항"
+    },
+    {
+      "pdfPage": 82,
+      "bookPageNavigation": 616,
+      "topic": "감사 기도 제2양식 · 99항"
+    },
+    {
+      "pdfPage": 87,
+      "bookPageNavigation": 621,
+      "topic": "감사 기도 제3양식 · 107항"
+    },
+    {
+      "pdfPage": 93,
+      "bookPageNavigation": 627,
+      "topic": "감사 기도 제4양식 · 116항"
+    },
+    {
+      "pdfPage": 99,
+      "bookPageNavigation": 633,
+      "topic": "영성체 예식 · 124항"
+    },
+    {
+      "pdfPage": 106,
+      "bookPageNavigation": 640,
+      "topic": "마침 예식 · 140항"
+    },
+    {
+      "pdfPage": 183,
+      "bookPageNavigation": 717,
+      "topic": "라틴어 미사 통상문"
+    },
+    {
+      "pdfPage": 207,
+      "bookPageNavigation": 741,
+      "topic": "화해 감사 기도 제1양식"
+    },
+    {
+      "pdfPage": 238,
+      "bookPageNavigation": 772,
+      "topic": "부록 마지막 쪽"
+    }
+  ],
+  "scope": "Selected page images visually checked; not a complete line-by-line collation."
+}

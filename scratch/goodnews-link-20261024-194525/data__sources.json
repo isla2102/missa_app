@@ -1,0 +1,20 @@
+{
+  "cbck-20261018": {
+    "url": "https://missa.cbck.or.kr/DailyMissa/20261018",
+    "checkedAt": "2026-10-19",
+    "method": "manual-reviewed-page-snapshot",
+    "sha256": "7bd6637507b6447e43285d5d8897222374b739cfde06e704c6bcf53388431aa3",
+    "rightsStatus": "copyright-notice-present-permission-not-confirmed",
+    "scope": "local-review",
+    "note": "공개 열람을 재배포 허가로 간주하지 않음. 본문 자동 추출 서비스와 인쇄 지면의 차이가 있을 수 있음."
+  },
+  "user-hwp-202610": {
+    "url": "../data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+    "checkedAt": "2026-10-24",
+    "method": "user-provided-hwp-record-and-boundary-validation",
+    "sha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+    "scope": "local-review",
+    "rightsStatus": "permission-not-confirmed",
+    "note": "제공 HWP의 날짜·고유문 제목·기도 종결구·본문 레코드 일치 검사. 10월 24일은 텍스트 검토 포함. 전체 지면 육안 교정과 독서·복음 검증은 아님. verified는 앱 본문 표시를 위한 이 범위의 검증 상태임."
+  }
+}

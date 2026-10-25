@@ -1,0 +1,3 @@
+@layer components {
+ .missa-response { padding: var(--reader-content-inset); border-radius: var(--reader-radius); color: var(--assembly-ink); background: var(--assembly-surface); }
+}

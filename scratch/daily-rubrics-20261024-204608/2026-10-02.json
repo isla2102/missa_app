@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-02",
+  "date": "2026-10-02",
+  "observance": "수호천사 기념일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261002"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님의 모든 천사들아, 주님을 찬미하여라. 영원히 찬송하고 찬양하여라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "하느님,\n놀라우신 섭리로 천사들을 보내시어 저희를 지켜 주시니\n저희가 사는 동안 천사들의 보호를 받다가\n마침내 천사들과 함께 영원한 기쁨을 누리게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n주님의 천사들을 공경하며 바치는 이 예물을 받으시고 자비를 베푸시어\n저희가 언제나 천사들의 보호로 현세의 모든 위험을 이겨 내고\n마침내 영원한 생명을 얻게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "저의 하느님, 천사들 앞에서 당신께 찬미 노래 부르나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n이 성사로 영원한 생명의 양식을 주시니\n천사들의 도움으로\n저희가 평화와 구원의 길을 걷게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<나의 천사가 앞장설 것이다.>",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 탈출기의 말씀입니다.23,20-23",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "주님께서 이렇게 말씀하신다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "20 “보라, 내가 너희 앞에 천사를 보내어,",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "길에서 너희를 지키고 내가 마련한 곳으로 너희를 데려가게 하겠다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "21 너희는 그 앞에서 조심하고 그의 말을 들어라.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "그가 너희 죄를 용서하지 않으리니, 그를 거역하지 마라.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "그는 내 이름을 지니고 있다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "22 너희가 그의 말을 잘 들어 내가 일러 준 것을 모두 실행하면,",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "나는 너희 원수들을 나의 원수로 삼고,",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "너희의 적들을 나의 적으로 삼겠다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "23 나의 천사가 앞장서서",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "너희를 아모리족, 히타이트족, 프리즈족,",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "가나안족, 히위족, 여부스족이 사는 곳으로 데려갈 것이다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "나는 그들을 멸종시키겠다.”",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261002"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 91(90),1-2.3-4ㄱㄴ.4ㄷ-6.10-11(◎ 11 참조)",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님이 당신 천사들에게 명령하시어 네가 가는 모든 길을 지켜 주시리라.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 지극히 높으신 분의 보호 아래 사는 이, 전능하신 분의 그늘 안에 머무는 이, 주님께 아뢰어라. “나의 피신처, 나의 산성, 나의 하느님, 나 그분께 의지하네.” ◎",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 그분은 사냥꾼의 덫에서, 끔찍한 역병에서, 너를 구하여 주시리라. 당신 깃으로 너를 덮어 주시리니, 너는 그분 날개 밑으로 피신하리라. ◎",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 그분 진실은 방패와 갑옷이라네. 너는 무서워하지 않으리라, 한밤의 공포도, 대낮에 날아드는 화살도, 어둠 속을 떠도는 역병도, 한낮에 창궐하는 괴질도. ◎",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 너에게는 불행이 다가오지 않고, 네 천막에는 재앙이 얼씬도 못하리라. 그분이 당신 천사들에게 명령하시어, 네가 가는 모든 길을 지켜 주시리라. ◎",
+          "sourceRef": "goodnews-20261002"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "시편 103(102),21",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님을 찬미하여라, 주님의 모든 군대들아, 그분 뜻을 따르는 모든 신하들아.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261002"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<하늘에서 그들의 천사들이 하늘에 계신 내 아버지의 얼굴을 늘 보고 있다.>",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.18,1-5.10",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "1 그때에 제자들이 예수님께 다가와,",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "“하늘 나라에서는 누가 가장 큰 사람입니까?” 하고 물었다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "2 그러자 예수님께서 어린이 하나를 불러 그들 가운데에 세우시고 3 이르셨다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "“내가 진실로 너희에게 말한다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "너희가 회개하여 어린이처럼 되지 않으면,",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "결코 하늘 나라에 들어가지 못한다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "4 그러므로 누구든지 이 어린이처럼 자신을 낮추는 이가",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "하늘 나라에서 가장 큰 사람이다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "5 또 누구든지 이런 어린이 하나를 내 이름으로 받아들이면",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "나를 받아들이는 것이다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "10 너희는 이 작은 이들 가운데 하나라도 업신여기지 않도록 주의하여라.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "내가 너희에게 말한다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "하늘에서 그들의 천사들이 하늘에 계신 내 아버지의 얼굴을 늘 보고 있다.”",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261002"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261002"
+        }
+      ]
+    }
+  ]
+}

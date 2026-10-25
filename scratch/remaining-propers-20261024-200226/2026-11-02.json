@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-02",
+  "date": "2026-11-02",
+  "observance": "(자) 죽은 모든 이를 기억하는 위령의 날 - 첫째 미사",
+  "sourceRefs": [
+    "goodnews-20261102"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<나는 알고 있다네, 나의 구원자께서 살아 계심을.>",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 욥기의 말씀입니다.19,1.23-27ㄴ",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "1 욥이 말을 받았다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "23 “아, 제발 누가 나의 이야기를 적어 두었으면!",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "제발 누가 비석에다 기록해 주었으면!",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "24 철필과 납으로 바위에다 영원히 새겨 주었으면!",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "25 그러나 나는 알고 있다네, 나의 구원자께서 살아 계심을.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "그분께서는 마침내 먼지 위에서 일어서시리라.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "26 내 살갗이 이토록 벗겨진 뒤에라도 이 내 몸으로 나는 하느님을 보리라.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "27 내가 기어이 뵙고자 하는 분,",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "내 눈은 다른 이가 아니라 바로 그분을 보리라.”",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261102"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-2-p1",
+          "role": "text",
+          "text": "<그리스도의 피로 의롭게 된 우리는 그분을 통하여 하느님의 진노에서 구원을 받게 될 것입니다.>",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 로마서 말씀입니다.5,5-11",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p3",
+          "role": "text",
+          "text": "형제 여러분, 5 희망은 우리를 부끄럽게 하지 않습니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p4",
+          "role": "text",
+          "text": "우리가 받은 성령을 통하여",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p5",
+          "role": "text",
+          "text": "하느님의 사랑이 우리 마음에 부어졌기 때문입니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p6",
+          "role": "text",
+          "text": "6 우리가 아직 나약하던 시절,",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p7",
+          "role": "text",
+          "text": "그리스도께서는 정해진 때에 불경한 자들을 위하여 돌아가셨습니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p8",
+          "role": "text",
+          "text": "7 의로운 이를 위해서라도 죽을 사람은 거의 없습니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p9",
+          "role": "text",
+          "text": "혹시 착한 사람을 위해서라면 누가 죽겠다고 나설지도 모릅니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p10",
+          "role": "text",
+          "text": "8 그런데 우리가 아직 죄인이었을 때에",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p11",
+          "role": "text",
+          "text": "그리스도께서 우리를 위하여 돌아가심으로써,",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p12",
+          "role": "text",
+          "text": "하느님께서는 우리에 대한 당신의 사랑을 증명해 주셨습니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p13",
+          "role": "text",
+          "text": "9 그러므로 이제 그분의 피로 의롭게 된 우리가 그분을 통하여",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p14",
+          "role": "text",
+          "text": "하느님의 진노에서 구원을 받게 되리라는 것은 더욱 분명합니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p15",
+          "role": "text",
+          "text": "10 우리가 하느님의 원수였을 때에",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p16",
+          "role": "text",
+          "text": "그분 아드님의 죽음으로 그분과 화해하게 되었다면,",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p17",
+          "role": "text",
+          "text": "화해가 이루어진 지금 그 아드님의 생명으로 구원을 받게 되리라는 것은",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p18",
+          "role": "text",
+          "text": "더욱 분명합니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p19",
+          "role": "text",
+          "text": "11 그뿐 아니라 우리는 또한 우리 주 예수 그리스도를 통하여 하느님을 자랑합니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p20",
+          "role": "text",
+          "text": "이 그리스도를 통하여 이제 화해가 이루어진 것입니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p21",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "reading-2-p22",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261102"
+        }
+      ]
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 27(26),1.4.7과 8ㄷ과 9ㄱ.13-14(◎ 1ㄱ 또는 13)",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님은 나의 빛, 나의 구원이시다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "guidance",
+          "text": "또는",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "assembly",
+          "text": "◎ 저는 산 이들의 땅에서 주님의 어지심을 보리라 믿나이다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님은 나의 빛, 나의 구원. 나 누구를 두려워하랴? 주님은 내 생명의 요새. 나 누구를 무서워하랴? ◎",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 주님께 청하는 오직 한 가지, 나 그것을 얻고자 하니, 내 한평생 주님의 집에 살며, 주님의 아름다움 바라보고, 그분의 성전 우러러보는 것이라네. ◎",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "psalm-p7",
+          "role": "text",
+          "text": "○ 주님, 부르짖는 제 소리 들어 주소서. 자비를 베푸시어 응답하소서. 제가 당신 얼굴을 찾고 있나이다. 당신 얼굴 제게서 감추지 마소서. ◎",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "psalm-p8",
+          "role": "text",
+          "text": "○ 저는 산 이들의 땅에서, 주님의 어지심을 보리라 믿나이다. 주님께 바라라. 힘내어 마음을 굳게 가져라. 주님께 바라라. ◎",
+          "sourceRef": "goodnews-20261102"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "마태 25,34 참조",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 내 아버지께 복을 받은 이들아 와서, 세상 창조 때부터 너희를 위하여 준비된 나라를 차지하여라.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261102"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<기뻐하고 즐거워하여라. 너희가 하늘에서 받을 상이 크다.>",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.5,1-12ㄴ",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 1 예수님께서는 군중을 보시고 산으로 오르셨다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "그분께서 자리에 앉으시자 제자들이 그분께 다가왔다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "2 예수님께서 입을 여시어 그들을 이렇게 가르치셨다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "3 “행복하여라, 마음이 가난한 사람들! 하늘 나라가 그들의 것이다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "4 행복하여라, 슬퍼하는 사람들! 그들은 위로를 받을 것이다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "5 행복하여라, 온유한 사람들! 그들은 땅을 차지할 것이다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "6 행복하여라, 의로움에 주리고 목마른 사람들! 그들은 흡족해질 것이다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "7 행복하여라, 자비로운 사람들! 그들은 자비를 입을 것이다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "8 행복하여라, 마음이 깨끗한 사람들! 그들은 하느님을 볼 것이다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "9 행복하여라, 평화를 이루는 사람들! 그들은 하느님의 자녀라 불릴 것이다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "10 행복하여라, 의로움 때문에 박해를 받는 사람들!",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "하늘 나라가 그들의 것이다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "11 사람들이 나 때문에 너희를 모욕하고 박해하며,",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "너희를 거슬러 거짓으로 온갖 사악한 말을 하면, 너희는 행복하다!",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "12 기뻐하고 즐거워하여라. 너희가 하늘에서 받을 상이 크다.”",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261102"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261102"
+        }
+      ]
+    }
+  ]
+}

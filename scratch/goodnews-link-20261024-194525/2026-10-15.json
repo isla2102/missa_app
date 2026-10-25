@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-15",
+  "date": "2026-10-15",
+  "observance": "예수의 성녀 데레사 동정 학자 기념일",
+  "sourceRefs": [
+    "user-hwp-202610"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "사슴이 시냇물을 그리워하듯, 하느님, 제 영혼이 당신을 그리나이다.\n제 영혼이 하느님을, 생명의 하느님을 목말라하나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "하느님,\n성령을 통하여 복된 데레사를 뽑으시어\n교회에 완덕의 새로운 길을 보여 주셨으니\n저희가 언제나 그의 거룩한 가르침을 따라\n참된 성덕의 열망으로 불타오르게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n복된 데레사의 정성 어린 봉헌을 기꺼워하셨듯이\n주님께 바치는 저희 예물도 기꺼이 받아 주소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "주님의 자애를 영원히 노래하오리다. 제 입은 당신의 진실을 대대로 전하오리다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주 하느님,\n주님의 가족에게 천상 양식을 베풀어 주셨으니\n저희도 복된 데레사를 본받아\n영원토록 주님의 자비로운 사랑을 즐거이 노래하게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

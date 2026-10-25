@@ -1,0 +1,60 @@
+2026-10-18 18:24:15,993 INFO [06-sanctus]                 Book.java:560  | 1 sheet in C:\Users\imsup\00_개인프로젝트\매일미사_예비신자앱\work\music-omr-inputs\06-sanctus.tif
+2026-10-18 18:24:16,054 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-18 18:24:16,054 INFO []                 Book.java:2525 | Book stored as work\music-omr-output\06-sanctus.omr
+2026-10-18 18:24:16,063 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-10-18 18:24:16,063 INFO [06-sanctus]       StepMonitoring.java:98   | LOAD
+2026-10-18 18:24:16,140 INFO [06-sanctus]            SheetStub.java:1278 | Loaded image #1 1840x2310 from C:\Users\imsup\00_개인프로젝트\매일미사_예비신자앱\work\music-omr-inputs\06-sanctus.tif
+2026-10-18 18:24:16,141 INFO [06-sanctus]       StepMonitoring.java:98   | BINARY
+2026-10-18 18:24:16,399 INFO [06-sanctus]       StepMonitoring.java:98   | SCALE
+2026-10-18 18:24:16,401 INFO [06-sanctus]         ScaleBuilder.java:254  | Beam  guessed height: 16 -- 0.25 of [13..26] range
+2026-10-18 18:24:16,402 INFO [06-sanctus]         ScaleBuilder.java:271  | Beam measured height: 14 -- 0.08 of [13..26] range at 85% of needed quorum
+2026-10-18 18:24:16,403 INFO [06-sanctus]         ScaleBuilder.java:401  | Normalized black jitter: 14.29 %
+2026-10-18 18:24:16,403 INFO [06-sanctus]            ScaleStep.java:65   | Scale{ interline(26,28,30) line(4,6,8) beam(14)}
+2026-10-18 18:24:16,404 INFO [06-sanctus]       StepMonitoring.java:98   | GRID
+2026-10-18 18:24:16,551 INFO [06-sanctus]       LinesRetriever.java:1508 | Global slope: 0.00000
+2026-10-18 18:24:16,561 INFO [06-sanctus]    ClustersRetriever.java:326  | Retrieved raw line clusters: 5 of sizes [5] with interline(26,28,30)
+2026-10-18 18:24:16,686 INFO [06-sanctus]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5]
+2026-10-18 18:24:16,956 INFO [06-sanctus]        SystemManager.java:800  | 1 part along 5 systems
+2026-10-18 18:24:16,957 INFO [06-sanctus]                 Book.java:543  | Created scores: [{Score 1}]
+2026-10-18 18:24:16,958 INFO [06-sanctus]       StepMonitoring.java:98   | HEADERS
+2026-10-18 18:24:17,129 INFO [06-sanctus]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-18 18:24:17,152 INFO [06-sanctus]           StemScaler.java:143  | No stem peak found, computing defaults
+2026-10-18 18:24:17,153 INFO [06-sanctus]        StemSeedsStep.java:86   | stem(6 max:8)
+2026-10-18 18:24:17,168 INFO [06-sanctus]       StepMonitoring.java:98   | BEAMS
+2026-10-18 18:24:20,609 INFO [06-sanctus]       StepMonitoring.java:98   | LEDGERS
+2026-10-18 18:24:20,774 INFO [06-sanctus]       StepMonitoring.java:98   | HEADS
+2026-10-18 18:24:28,647 INFO [06-sanctus]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:-1.1] NOTEHEAD_BLACK[L:-1.2,R:-1.3]}
+2026-10-18 18:24:28,647 INFO [06-sanctus]       StepMonitoring.java:98   | STEMS
+2026-10-18 18:24:28,831 INFO [06-sanctus]       StepMonitoring.java:98   | REDUCTION
+2026-10-18 18:24:28,880 INFO [06-sanctus]        ReductionStep.java:105  | Stems free length median value: 99 pixels, 3.5 interlines
+2026-10-18 18:24:28,884 INFO [06-sanctus]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-18 18:24:28,885 INFO [06-sanctus]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-18 18:24:28,888 INFO [06-sanctus]       StepMonitoring.java:98   | TEXTS
+2026-10-18 18:24:34,033 INFO [06-sanctus]       StepMonitoring.java:98   | MEASURES
+2026-10-18 18:24:34,034 INFO [06-sanctus]                 Page.java:307  | 15 raw measures: [2 in system#1, 4 in system#2, 3 in system#3, 3 in system#4, 3 in system#5]
+2026-10-18 18:24:34,035 INFO [06-sanctus]       StepMonitoring.java:98   | CHORDS
+2026-10-18 18:24:34,039 INFO [06-sanctus]       StepMonitoring.java:98   | CURVES
+2026-10-18 18:24:34,632 INFO [06-sanctus]         SlursBuilder.java:240  | Slurs: 17
+2026-10-18 18:24:34,643 INFO [06-sanctus]      SegmentsBuilder.java:155  | Segments: 1
+2026-10-18 18:24:34,644 INFO [06-sanctus]       StepMonitoring.java:98   | SYMBOLS
+2026-10-18 18:24:35,394 INFO [06-sanctus]       StepMonitoring.java:98   | LINKS
+2026-10-18 18:24:35,416 INFO [06-sanctus]             KeyInter.java:1331 | Key built KeyInter#3723{(0.172) staff:5 KEY_CANCEL pitch:0.1 fifths:null}
+2026-10-18 18:24:35,425 INFO [06-sanctus]       StepMonitoring.java:98   | RHYTHMS
+2026-10-18 18:24:35,463 INFO [06-sanctus]       StepMonitoring.java:98   | PAGE
+2026-10-18 18:24:35,467 WARN [06-sanctus]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2], please check time signatures
+2026-10-18 18:24:35,468 WARN [06-sanctus]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [3, 4, 5, 6], please check time signatures
+2026-10-18 18:24:35,470 WARN [06-sanctus]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [7, 8, 9], please check time signatures
+2026-10-18 18:24:35,470 WARN [06-sanctus]         MeasureFixer.java:343  | System#4 No target duration for measures local IDs [10, 11, 12], please check time signatures
+2026-10-18 18:24:35,472 WARN [06-sanctus]         MeasureFixer.java:343  | System#5 No target duration for measures local IDs [13, 14, 15], please check time signatures
+2026-10-18 18:24:35,473 INFO [06-sanctus]                 Book.java:2584 | Book{06-sanctus} storing
+2026-10-18 18:24:35,543 INFO [06-sanctus]                 Book.java:2565 | Stored /book.xml
+2026-10-18 18:24:35,598 INFO [06-sanctus]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-18 18:24:36,055 INFO [06-sanctus]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-18 18:24:36,056 INFO [06-sanctus]                 Book.java:2525 | Book stored as work\music-omr-output\06-sanctus.omr
+2026-10-18 18:24:36,063 INFO [06-sanctus]            SheetStub.java:1655 | Sheet disposed
+2026-10-18 18:24:36,108 INFO [06-sanctus]                 Book.java:2050 | End of Stub#1
+2026-10-18 18:24:36,108 INFO [06-sanctus]                 Book.java:2057 | End of Book{06-sanctus}
+2026-10-18 18:24:36,351 INFO [06-sanctus]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-18 18:24:36,354 INFO [06-sanctus]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1]
+2026-10-18 18:24:36,379 INFO [06-sanctus]        ScoreExporter.java:164  | Score 06-sanctus exported to work\music-omr-output\06-sanctus.mxl
+2026-10-18 18:24:36,436 INFO [06-sanctus]                Score.java:181  | Closing {Score 1}

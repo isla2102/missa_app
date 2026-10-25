@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-12",
+  "date": "2026-11-12",
+  "observance": "(홍) 성 요사팟 주교 순교자 기념일",
+  "sourceRefs": [
+    "goodnews-20261112",
+    "user-hwp-202611"
+  ],
+  "sections": [
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<그를 종이 아니라 사랑하는 형제로 맞아들여 주십시오.>",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 필레몬서 말씀입니다.7-20",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "사랑하는 그대여, 7 나는 그대의 사랑으로 큰 기쁨과 격려를 받았습니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "그대 덕분에 성도들이 마음에 생기를 얻었기 때문입니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "8 그래서 나는 그리스도 안에서 큰 확신을 가지고",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그대가 마땅히 해야 할 일을 명령할 수도 있지만,",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "9 사랑 때문에 오히려 부탁을 하려고 합니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "나 바오로는 늙은이인 데다가",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "이제는 그리스도 예수님 때문에 수인까지 된 몸입니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "10 이러한 내가 옥중에서 얻은 내 아들",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "오네시모스의 일로 그대에게 부탁하는 것입니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "11 그가 전에는 그대에게 쓸모없는 사람이었지만,",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "이제는 그대에게도 나에게도 쓸모 있는 사람이 되었습니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "12 나는 내 심장과 같은 그를 그대에게 돌려보냅니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "13 그를 내 곁에 두어,",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "복음 때문에 내가 감옥에 갇혀 있는 동안",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "그대 대신에 나를 시중들게 할 생각도 있었지만,",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "14 그대의 승낙 없이는 아무것도 하고 싶지 않았습니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "그대의 선행이 강요가 아니라 자의로 이루어지게 하려는 것입니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "15 그가 잠시 그대에게서 떨어져 있었던 것은",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "아마도 그를 영원히 돌려받기 위한 것이었는지도 모릅니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "16 이제 그대는 그를 더 이상 종이 아니라 종 이상으로,",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "곧 사랑하는 형제로 돌려받게 되었습니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "그가 나에게 특별히 사랑받는 형제라면,",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "그대에게는 인간적으로 보나 주님 안에서 보나 더욱 그렇지 않습니까?",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "17 그러므로 그대가 나를 동지로 여긴다면,",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "나를 맞아들이듯이 그를 맞아들여 주십시오.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "18 그가 그대에게 손실을 입혔거나 빚을 진 것이 있거든",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "text",
+          "text": "내 앞으로 계산하십시오.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p30",
+          "role": "text",
+          "text": "19 나 바오로가 이 말을 직접 씁니다. 내가 갚겠습니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p31",
+          "role": "text",
+          "text": "그렇다고 나에게 빚을 진 덕분에",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p32",
+          "role": "text",
+          "text": "지금의 그대가 있다는 사실을 말하려는 것은 아닙니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p33",
+          "role": "text",
+          "text": "20 그렇습니다, 형제여! 나는 주님 안에서 그대의 덕을 보려고 합니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p34",
+          "role": "text",
+          "text": "그리스도 안에서 내 마음이 생기를 얻게 해 주십시오.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p35",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "reading-1-p36",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261112"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 146(145),6ㄷ-7.8-9ㄱ.9ㄴㄷ-10ㄱㄴ(◎ 5ㄱ)",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 행복하여라, 야곱의 하느님을 구원자로 모시는 이!",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님은 영원히 신의를 지키시고, 억눌린 이에게 권리를 찾아 주시며, 굶주린 이에게 먹을 것을 주시네. 주님은 잡힌 이를 풀어 주시네. ◎",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 주님은 눈먼 이를 보게 하시며, 주님은 꺾인 이를 일으켜 세우시네. 주님은 의인을 사랑하시고, 주님은 이방인을 보살피시네. ◎",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님은 고아와 과부를 돌보시나, 악인의 길은 꺾어 버리시네. 주님은 영원히 다스리신다. 시온아, 네 하느님이 대대로 다스리신다. ◎",
+          "sourceRef": "goodnews-20261112"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "요한 15,5 참조",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 나는 포도나무요 너희는 가지다. 내 안에 머무르고 나도 그 안에 머무르는 사람은 많은 열매를 맺으리라.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261112"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<하느님의 나라는 너희 가운데에 있다.>",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.17,20-25",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 20 예수님께서는 바리사이들에게서",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "하느님의 나라가 언제 오느냐는 질문을 받으시고 그들에게 대답하셨다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "“하느님의 나라는 눈에 보이는 모습으로 오지 않는다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "21 또 ‘보라, 여기에 있다.’,",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "또는 ‘저기에 있다.’ 하고 사람들이 말하지도 않을 것이다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "보라, 하느님의 나라는 너희 가운데에 있다.”",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "22 예수님께서 제자들에게 이르셨다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "“너희가 사람의 아들의 날을 하루라도 보려고",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "갈망할 때가 오겠지만 보지 못할 것이다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "23 사람들이 너희에게 ‘보라, 저기에 계시다.’,",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "또는 ‘보라, 여기에 계시다.’ 할 것이다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "그러나 너희는 나서지도 말고 따라가지도 마라.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "24 번개가 치면 하늘 이쪽 끝에서 하늘 저쪽 끝까지 비추는 것처럼,",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "사람의 아들도 자기의 날에 그러할 것이다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "25 그러나 그는 먼저 많은 고난을 겪고",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "이 세대에게 배척을 받아야 한다.”",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261112"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261112"
+        }
+      ]
+    },
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "하느님의 거룩한 이들은 주님의 가르침과 아버지의 법을 따라 끝까지 한마음 한 믿음으로 형제들을 사랑하였네.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "주님,\n복된 요사팟 주교가 성령을 충만히 받아 양들을 위하여 목숨을 바쳤으니\n그의 전구를 들으시어\n저희도 성령의 힘으로 형제들을 위하여 기꺼이 생명을 바치게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "지극히 인자하신 하느님,\n이 예물 위에 복을 내리시어\n거룩한 요사팟 주교가 피를 흘려 지킨 믿음이\n저희 안에서 굳건히 자라나게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "주님이 말씀하신다. 나 때문에 제 목숨을 잃는 사람은 영원히 살리라.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n이 천상 잔치로 저희에게 용기와 평화의 성령을 보내 주시어\n저희가 거룩한 요사팟 주교를 본받아\n교회의 영광과 일치를 위하여 기꺼이 저희 삶을 바치게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    }
+  ]
+}

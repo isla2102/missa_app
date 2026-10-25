@@ -1,0 +1,22 @@
+{
+  "completed": [
+    "아멘",
+    "자비송",
+    "주님의 기도 맺음 환호",
+    "365번 알렐루야 후렴",
+    "하느님의 어린양",
+    "주님의 기도 (2)"
+  ],
+  "reviewStatus": "photo/screenshot compared; parish final proofread pending",
+  "rescanRequests": [],
+  "scanFormat": "한 면씩 평평하게, 전체 오선·가사·박자·조표가 잘리지 않게, 가능하면 300dpi 이상 PDF 또는 원본 이미지. 출처/작곡자가 적힌 표지나 목차도 있으면 제공.",
+  "additionalScoreNeeded": {
+    "score": "보편 지향 기도 응답",
+    "status": "사용자 요청으로 악보/낭송 카드만 구성. 선율 미확정, 녹음 요청하지 않음."
+  },
+  "pendingTranscription": [
+    "대영광송 4면 · 새 사진 수신 · 손글씨 성가대/합송 수정 사용자 확정",
+    "거룩하시도다 · 새 사진 수신",
+    "신앙의 신비여 3양식 · 새 사진 수신"
+  ]
+}

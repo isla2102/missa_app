@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-20",
+  "date": "2026-10-20",
+  "observance": "연중 제29주간 화요일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261020"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "하느님, 당신이 응답해 주시니, 제가 당신께 부르짖나이다.\n귀 기울여 제 말씀 들어 주소서.\n주님, 당신 눈동자처럼 저를 보호하소서. 당신 날개 그늘에 저를 숨겨 주소서.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 영원하신 하느님,\n저희가 언제나 성실한 마음으로\n하느님을 정성껏 섬기게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 자유로운 마음으로 이 예물을 바치오니\n주님의 은총으로 저희를 씻으시어\n저희가 주님께 드리는 이 성찬의 제사로 더욱 깨끗해지게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "보라, 주님의 눈은 당신을 경외하는 이들에게, 당신 자애를 바라는 이들에게 머무르신다. 주님은 죽음에서 목숨을 건지시고, 굶주릴 때 먹여 살리신다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 천상 잔치에 자주 참여하여\n현세에서 도움도 받고 영원한 신비도 배우게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<유다인과 이민족을 하나로 만드신 그리스도는 우리의 평화이십니다.>",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 에페소서 말씀입니다.2,12-22",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분, 12 그때에는 여러분이 그리스도와 관계가 없었고,",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "이스라엘 공동체에서 멀리 떨어져 있었으며,",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "약속의 계약과도 무관하였고,",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "이 세상에서 아무 희망도 가지지 못한 채",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "하느님 없이 살았다는 사실을 기억하십시오.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "13 그러나 이제, 한때 멀리 있던 여러분이",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "그리스도 예수님 안에서 그리스도의 피로 하느님과 가까워졌습니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "14 그리스도는 우리의 평화이십니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "그분께서는 당신의 몸으로 유다인과 이민족을 하나로 만드시고",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "이 둘을 가르는 장벽인 적개심을 허무셨습니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "15 또 그 모든 계명과 조문과 함께 율법을 폐지하셨습니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "그렇게 하여 당신 안에서 두 인간을 하나의 새 인간으로 창조하시어",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "평화를 이룩하시고,",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "16 십자가를 통하여 양쪽을 한 몸 안에서 하느님과 화해시키시어,",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "그 적개심을 당신 안에서 없애셨습니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "17 이렇게 그리스도께서는 세상에 오시어,",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "멀리 있던 여러분에게도 평화를 선포하시고",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "가까이 있던 이들에게도 평화를 선포하셨습니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "18 그래서 그분을 통하여 우리 양쪽이 한 성령 안에서",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "아버지께 나아가게 되었습니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "19 그러므로 여러분은 이제 더 이상 외국인도 아니고 이방인도 아닙니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "성도들과 함께 한 시민이며 하느님의 한 가족입니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "20 여러분은 사도들과 예언자들의 기초 위에 세워진 건물이고,",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "그리스도 예수님께서는 바로 모퉁잇돌이십니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "21 그리스도 안에서 전체가 잘 결합된 이 건물이",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "주님 안에서 거룩한 성전으로 자라납니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "text",
+          "text": "22 여러분도 그리스도 안에서 성령을 통하여",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p30",
+          "role": "text",
+          "text": "하느님의 거처로 함께 지어지고 있습니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p31",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "reading-1-p32",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261020"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 85(84),9ㄱㄴㄷ과 10.11-12.13-14(◎ 9ㄴㄷ 참조)",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님은 당신 백성에게 평화를 말씀하신다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 하느님 말씀을 나는 듣고자 하노라. 당신 백성, 당신께 충실한 이에게, 주님은 진정 평화를 말씀하신다. 그분을 경외하는 이에게 구원이 가까우니, 영광은 우리 땅에 머물리라. ◎",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 자애와 진실이 서로 만나고, 정의와 평화가 입을 맞추리라. 진실이 땅에서 돋아나고, 정의가 하늘에서 굽어보리라. ◎",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님이 복을 베푸시어, 우리 땅이 열매를 내리라. 정의가 그분 앞을 걸어가고, 그분은 그 길로 나아가시리라. ◎",
+          "sourceRef": "goodnews-20261020"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 21,36 참조",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 너희는 사람의 아들 앞에 설 수 있도록 늘 깨어 기도하여라.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261020"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<행복하여라, 주인이 와서 볼 때에 깨어 있는 종들!>",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.12,35-38",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 제자들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "35 “너희는 허리에 띠를 매고 등불을 켜 놓고 있어라.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "36 혼인 잔치에서 돌아오는 주인이 도착하여 문을 두드리면",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "곧바로 열어 주려고 기다리는 사람처럼 되어라.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "37 행복하여라, 주인이 와서 볼 때에 깨어 있는 종들!",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "내가 진실로 너희에게 말한다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "그 주인은 띠를 매고 그들을 식탁에 앉게 한 다음,",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "그들 곁으로 가서 시중을 들 것이다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "38 주인이 밤중에 오든 새벽에 오든 종들의 그러한 모습을 보게 되면,",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "그 종들은 행복하다!”",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261020"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261020"
+        }
+      ]
+    }
+  ]
+}

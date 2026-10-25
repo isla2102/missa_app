@@ -1,0 +1,617 @@
+
+<!DOCTYPE html>
+<html> 
+<head> 
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+
+<meta name="viewport" content="user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, width=device-width" />
+
+<meta name = "format-detection" content = "telephone=no"/>
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="/web/css/style_mobile.css" />
+<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+<link rel="stylesheet" type="text/css" href="style_sungga.css" />
+	<link rel="stylesheet" href="/web/css/common.css" type="text/css"/>
+
+	<script type="text/javascript" src="/include/GNBBS/scripts/gnmenu.js"></script>
+
+<script type="text/javascript" src="/web/js/jquery-1.10.2.min.js"></script>
+
+<script language="javascript" type="text/javascript">
+
+	function musicShowHide(divShow, divHide) {
+		var divmusic 
+		divmusic = document.getElementById(divShow);
+		divmusic.style.display = 'block'; 
+
+		divmusic = document.getElementById(divHide);
+		divmusic.style.display = 'none'; 
+
+	}
+
+
+	window.addEventListener('load', function () {
+		setTimeout(scrollTo, 0, 0, 1);
+	}, false);
+
+	$(document).on('keyup', '#search', function() { 
+		if ($(this).val().length > 0) { 
+			$('#icon_clear').fadeIn(300); 
+		   // Do Ajax call 
+
+		} 
+		else { 
+			$('#icon_clear').fadeOut(300); 
+		} 
+	}); 
+
+	$(document).on('click','#icon_clear',function() { 
+		$('#search').val(''); 
+		$('#searchList').empty();
+		$('#GoodnewsContent').show();
+		$(this).fadeOut(300); 
+	}); 
+
+$(function () { 
+    var minlength = 1; 
+ 
+    $("#search").keyup(function () { 
+        var that = this, 
+        value = $(this).val(); 
+ 
+        if (value.length >= minlength ) { 
+				$.ajax({ 
+                type: "POST", 
+                url: "sungga_json.asp", 
+                data: "searchText=" + value, 
+                dataType: "text", 
+                success: function(data){ 
+					$('#searchList').empty();
+					$('#GoodnewsContent').hide();
+					
+					if (data.length > 0 )
+					{
+						$('#searchList').append(data);
+					}
+					else
+					{
+						$('#searchList').append("<li><center><a href='#'><b>검색된 성가가 없습니다.</b></a></center></li>");
+					}
+
+				}
+
+            }); 
+        } 
+		else
+		{
+					$('#searchList').empty();
+					$('#GoodnewsContent').show();
+		}
+    }); 
+}); 
+
+
+</script>
+</head>
+
+
+<body >
+<div id="wrap">
+	<div id="gnmenu">
+		 <style type="text/css">
+.logo{
+	position:absolute;
+	display:block;
+	
+
+}
+
+.logo img{
+	padding-left:8px;
+	padding-top:0px;
+	width:120px;
+	height:42px;
+}
+
+.boxgn {
+	overflow:hidden;
+	margin: 10px;
+	padding: 10px;
+	color:#999;
+	border: 1px solid #c8c8c8;
+	
+	box-shadow: 0 1px 2px #d3d3d3;
+	-webkit-box-shadow: 0 1px 2px #d3d3d3;
+	background: #fff;
+}
+
+
+
+.copyright {
+	font-family:맑은 고딕;  
+	text-align: center;
+	font-size: 14px;
+	color:#464646;
+	line-height:1.6em;
+	padding-bottom:20px;
+	border-bottom:1px solid #c8c8c8;
+	
+}
+
+</style>
+	<div class="logo">	
+		<h1>
+			<a href=/><img src="http://common.catholic.or.kr/include/images/gnlogo-new.png" art="굿뉴스로고" border="0"></a>
+		 </h1>
+	</div>	
+     
+         <ul>
+		 <p class="login">
+		 
+			<a href="https://member.catholic.or.kr/login/login.asp?fromMobile=mobile&RootRefer=app.catholic.or.kr&flag=5&sunggaId=1" >로그인</a>
+			</a>
+		 </p>
+		 </ul>
+		
+		
+		<article class="mobile_gn">
+        	
+            <ul class="boxgn">
+            	
+				<li>
+					<article class="menu">
+                    	<a href="/web/bible/" style="cursor:pointer;">
+                    	<!--
+						<figure>
+                    	<img src="/web/images/index/gnmenu/bible.png"  alt="가톨릭성경"/>
+                    	</figure>
+						-->
+                    	<p class="figcaption">가톨릭성경</p>
+                		</a>
+                    </article>
+               </li>
+                <li>
+                	<article class="menu">
+                    	<a href="/web/missa/" style="cursor:pointer;">
+                    	<!--
+						<figure>
+                    	<img src="/web/images/index/gnmenu/missa.png"  alt="매일미사"/>
+                    	</figure>
+						-->
+                    	<p class="figcaption">매일미사</p>
+                		</a>
+                    </article>
+                </li>
+                <li>
+                	<article class="menu">
+                    	<a href="/web/divine_office/" style="cursor:pointer;">
+                    	<!--
+						<figure>
+                    	<img src="/web/images/index/gnmenu/divine_office.png"  alt="성무일도"/>
+                    	</figure>
+						-->
+                    	<p class="figcaption">성무일도</p>
+                		</a>
+                    </article>
+                </li>
+                <li>
+                	<article class="menu">
+                    	<a href="/web/prayer/" style="cursor:pointer;">
+                    	<!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/prayer.png"  alt="기도문"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">기도문</p>
+                    	</a>
+                	</article>
+                </li>
+                <li>
+                	<article class="menu">
+                    	<a href="/web/sungga/" style="cursor:pointer;">
+                    	<!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/sungga.png"  alt="가톨릭성가"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">가톨릭성가</p>
+                    	</a>
+                	</article>
+                </li>
+                <li>
+                	<article class="menu">
+                    	<a href="/web/saint/" style="cursor:pointer;">
+                    	<!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/saint.png"  alt="가톨릭성인"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">가톨릭성인</p>
+                		</a>
+                    </article>
+                </li>
+                <li>
+                	<article class="menu">
+                    	<a href="/web/holyplace/" style="cursor:pointer;">
+                    	<!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/holyplace.png"  alt="가톨릭성지"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">가톨릭성지</p>
+                		</a>
+                    </article>
+                </li>
+                <li>    
+                    <article class="menu">
+                    	<a href="/web/dic/">	
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/dic.png" alt="가톨릭사전"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">가톨릭사전</p>
+                		</a>
+                    </article>
+                </li>
+                <li>                
+                    <article class="menu">
+                    	<a href="http://photo.catholic.or.kr/albumm/">
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/CatholicOfKorea.png" alt="가톨릭갤러리"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">가톨릭갤러리</p>
+                    	</a>
+                	</article>
+                </li>
+                <li>                
+                    <article class="menu">
+                    	<a href="/web/addr">
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/CatholicOfKorea.png" alt="가톨릭주소록"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">가톨릭주소록</p>
+                    	</a>
+                	</article>
+                </li>
+                <li>
+                    <article class="menu">
+                    	<a href="/web/bondang/">	
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/bondang.png"  alt="본당정보"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">본당정보</p>
+                		</a>
+                    </article>
+                </li>
+                <li>
+                    <article class="menu">
+                    	<a href="/web/map/">
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/map.png"  alt="내주변본당"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">내주변본당</p>
+                		</a>
+                    </article>
+                </li>
+                <li>
+                    <article class="menu">
+                    	<a href="/web/news/">
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/news.png" alt="가톨릭뉴스"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">가톨릭뉴스</p>
+                        </a>
+                	</article>
+                </li>
+                <li>
+                    <article class="menu">
+                    	<a href="/web/samok/">
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/samok.png"  alt="사목수첩"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">사목수첩</p>
+                        </a>
+                	</article>
+                </li>
+                <li>
+                    <article class="menu">
+                    	<a href="/web/doctrine/">
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/doctrine.png"alt="가톨릭교리서"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">가톨릭교리서</p>
+                        </a>
+                	</article>
+                </li>
+                <li> 
+                    <article class="menu">
+                    	<a href="/web/peter/">
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/bbs.png" alt="게시판"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">게시판</p>
+                        </a>
+                	</article>
+                </li>
+				<li> 
+                    <article class="menu">
+                    	<a href="http://pds.catholic.or.kr/pdsm">
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/bbs.png" alt="자료실"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">자료실</p>
+                        </a>
+                	</article>
+                </li>
+				<li> 
+                    <article class="menu">
+                    	<a href="/web/calendar/">
+                        <!--
+                        <figure>
+                    	<img src="/web/images/index/gnmenu/bbs.png" alt="자료실"/>
+                    	</figure>
+                        -->
+                    	<p class="figcaption">굿뉴스일정관리</p>
+                        </a>
+                	</article>
+                </li>
+                <li>                  
+                    
+                </li>
+            </ul>	
+        </article>
+                
+        		
+                <p class="copyright">ⓒ GoodNews</p>
+        		
+    	</footer>  
+	</div> 
+
+	<div id="gncontents">
+		 <header id="header">
+				
+
+        <!--1) 로고 및 부제목 -->
+        
+        <div class="logo_Group">
+                
+			    <h1><a href="javascript:showMenu();" id="menuBtn" title=" 메뉴" class="btn_menu"><img src="http://mobile.catholic.or.kr/web/images/menu.png"  width="20" height="20" border="0" /></a></h1>
+                
+                <span class="logo_Contents">
+                        <a href="/web/sungga" >가톨릭 성가</a>
+                </span>
+                
+			    <div class="site_menu">
+				    <ul>
+                        
+                            
+                            
+
+				    </ul>
+			    </div>
+                
+                <div class="goHome"><a href="http://mobile.catholic.or.kr/" ><img src="http://mobile.catholic.or.kr/web/images/home.png" alt="가톨릭인터넷 모바일 굿뉴스" height="20" width="20" border="0"></a></div>
+        </div>
+  
+    
+
+ 
+		</header>
+
+	<div style="padding:5px">
+
+
+<div class="ui-input-search ui-shadow-inset ui-btn-corner-all ui-btn-shadow ui-icon-searchfield ui-body-c"> 
+<input id='search' name='search' type='search' placeholder="번호,제목,가사로 검색가능" class="ui-input-text"> 
+ <a id="icon_clear" title="clear text" class="ui-input-clear ui-btn ui-btn-up-c ui-btn-icon-notext ui-btn-corner-all ui-shadow ui-input-clear-hidden" href="#" > 
+	 <span class="ui-btn-inner ui-btn-corner-all"> 
+		<span class="ui-btn-text">clear text</span> 
+		<span class="ui-icon ui-icon-delete ui-icon-shadow"></span> 
+	 </span> 
+  </a> 
+</div> 
+<div>
+		<ul id="searchList" name="searchList" class="List"></ul>
+</div>
+
+<div id="GoodnewsContent">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+    <tr>
+	    <td align="center">
+		<div class="menu_tab">			
+		<table>
+			<tr>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=0" class="s" >전체</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=1" class="s" >1</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=2" class="s" >100</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=3" class="s" >200</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=4" class="s" >300</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  class="on">
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=5" class="s" >400</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=6" class="s" >500</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+			</tr>
+		</table>
+		</div>	
+    	</td>
+    </tr>
+</table>
+
+<div id="ContentsWrap">
+		      
+</div>
+
+
+
+
+
+</div>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+    <tr>
+	    <td align="center">
+		<div class="menu_tab">			
+		<table>
+			<tr>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=0" class="s" >전체</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=1" class="s" >1</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=2" class="s" >100</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=3" class="s" >200</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=4" class="s" >300</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  class="on">
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=5" class="s" >400</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+				<td  >
+					<div class="box">
+					<span class="l"></span>
+					<a href="default.asp?flag=6" class="s" >500</a>
+					<span class="r"></span>
+					</div>
+				</td>
+
+			</tr>
+		</table>
+		</div>	
+    	</td>
+    </tr>
+</table> 
+
+	<footer id="footer">
+		
+
+<p class="footerClass">
+    
+        <a href="http://www.catholic.or.kr/goodnewsbody.asp?strMoblie=mobile">PC버전</a><span>|</span>
+    
+    <a href="/web/rule/agreement/serviceagreements.asp" target="_top"> 서비스약관</a><span>|</span>
+    <a href="/web/rule/privacy/privacy.asp" target="_top">개인정보 보호정책</a>
+</p>
+<p class="footerLogo">
+    ⓒ GoodNews
+</p>
+
+
+<!--script language="JavaScript" SRC="http://common.catholic.or.kr/include/js/wlcollector.js"></script-->
+<script language="JavaScript" SRC="http://common.catholic.or.kr/include/js/ga.js"></script> 
+	</footer>	
+</div>
+
+</body>
+<SCRIPT type=text/javascript>
+    var t = "가톨릭 성가 - 가톨릭인터넷 굿뉴스";
+    if (t != "") window.document.title = "가톨릭 성가 - 가톨릭인터넷 굿뉴스";
+</SCRIPT>
+</html>

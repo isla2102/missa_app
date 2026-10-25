@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-12",
+  "date": "2026-10-12",
+  "observance": "연중 제28주간 월요일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261012"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님, 당신이 죄악을 헤아리신다면, 주님, 감당할 자 누구이리까?\n이스라엘의 하느님, 당신은 용서하는 분이시옵니다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "주님,\n주님의 넘치는 은총으로 언제나 저희와 함께하시어\n저희가 끊임없이 좋은 일을 하도록 이끌어 주소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n신자들이 바치는 기도와 예물을 받아들이시고\n이 정성된 제사로 저희가 천상 영광을 누리게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "부자들도 궁색해져 굶주리게 되지만, 주님을 찾는 이에게는 좋은 것뿐이리라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n엄위하신 주님 앞에 엎드려 비오니\n저희를 그리스도의 거룩한 살과 피로 기르시어\n그 신성에 참여하게 하소서.\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<우리는 여종의 자녀가 아니라 자유의 몸인 부인의 자녀입니다.>",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 갈라티아서 말씀입니다.4,22-24.26-27.31─5,1",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분, 22 아브라함에게 두 아들이 있었는데 하나는 여종에게서 났고",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "하나는 자유의 몸인 부인에게서 났다고 기록되어 있습니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "23 그런데 여종에게서 난 아들은 육에 따라 태어났고,",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "자유의 몸인 부인에게서 난 아들은 약속의 결과로 태어났습니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "24 여기에는 우의적인 뜻이 있습니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "이 여자들은 두 계약을 가리킵니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "하나는 시나이 산에서 나온 여자로 종살이할 자식을 낳는데,",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "바로 하가르입니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "26 그러나 하늘에 있는 예루살렘은 자유의 몸으로서",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "우리의 어머니입니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "27 성경에 이렇게 기록되어 있습니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "“즐거워하여라, 아이를 낳지 못하는 여인아!",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "기뻐 소리쳐라, 환성을 올려라, 산고를 겪어 보지 못한 여인아!",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "버림받은 여인의 자녀가 남편 가진 여인의 자녀보다 더 많기 때문이다.”",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "31 그러므로 형제 여러분, 우리는 여종의 자녀가 아니라",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "자유의 몸인 부인의 자녀입니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "5,1 그리스도께서는 우리를 자유롭게 하시려고 해방시켜 주셨습니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "그러니 굳건히 서서 다시는 종살이의 멍에를 메지 마십시오.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261012"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 113(112),1ㄴㄷ-2.3-4.5ㄱ과 6-7(◎ 2 참조)",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님의 이름은 영원히 찬미받으소서.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 찬양하여라, 주님의 종들아. 찬양하여라, 주님의 이름을. 주님의 이름은 찬미받으소서, 이제부터 영원까지. ◎",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 해 뜨는 데서 해 지는 데까지, 주님의 이름은 찬양받으소서. 주님은 모든 민족들 위에 높으시고, 그분의 영광은 하늘 위에 높으시네. ◎",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 누가 우리 하느님이신 주님 같으랴? 하늘과 땅을 굽어보시는 분, 억눌린 이를 흙먼지에서 일으켜 세우시고, 불쌍한 이를 잿더미에서 들어 올리시는 분. ◎",
+          "sourceRef": "goodnews-20261012"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "시편 95(94),7.8",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 오늘 너희는 주님 목소리에 귀를 기울여라. 너희 마음을 무디게 하지 마라.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261012"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<이 세대는 요나 예언자의 표징밖에는 어떠한 표징도 받지 못할 것이다.>",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.11,29-32",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 29 군중이 점점 더 모여들자",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "예수님께서 말씀하기 시작하셨다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "“이 세대는 악한 세대다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "이 세대가 표징을 요구하지만",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "요나 예언자의 표징밖에는 어떠한 표징도 받지 못할 것이다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "30 요나가 니네베 사람들에게 표징이 된 것처럼,",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "사람의 아들도 이 세대 사람들에게 그러할 것이다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "31 심판 때에 남방 여왕이 이 세대 사람들과 함께 되살아나",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "이 세대 사람들을 단죄할 것이다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "그 여왕이 솔로몬의 지혜를 들으려고 땅끝에서 왔기 때문이다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "그러나 보라, 솔로몬보다 더 큰 이가 여기에 있다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "32 심판 때에 니네베 사람들이 이 세대와 함께 다시 살아나",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "이 세대를 단죄할 것이다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "그들이 요나의 설교를 듣고 회개하였기 때문이다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "그러나 보라, 요나보다 더 큰 이가 여기에 있다.”",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261012"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261012"
+        }
+      ]
+    }
+  ]
+}

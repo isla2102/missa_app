@@ -1,0 +1,221 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MISSA · 6단계 버튼·선택 시안 v2 · B 확정</title><style>@layer tokens, base, layout, components, responsive, utilities;
+@layer tokens {
+ :root {
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-25: .625rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --radius-12: .75rem;
+  --hit-44: 2.75rem;
+  --layout-padding: var(--space-4);
+  --layout-gap: var(--space-3);
+  --content-padding: var(--space-25);
+  --control-padding-compact: var(--space-1);
+  --control-padding-block: var(--space-2);
+  --control-padding-inline: var(--space-25);
+  --control-hit: var(--hit-44);
+  --shape-rounded: var(--radius-12);
+  --reader-padding: var(--layout-padding);
+  --reader-gap: var(--layout-gap);
+  --reader-item-gap: var(--layout-gap);
+  --reader-content-inset: var(--content-padding);
+  --reader-header-control-padding: var(--control-padding-compact);
+  --reader-control-padding-block: var(--control-padding-block);
+  --reader-control-padding-inline: var(--control-padding-inline);
+  --reader-control-hit: var(--control-hit);
+  --reader-radius: var(--shape-rounded);
+  --font-family-sans: 'Malgun Gothic', system-ui, sans-serif;
+  --font-family-serif: Batang, 'Times New Roman', serif;
+  --font-size-18: 1.125rem;
+  --line-height-160: 1.6;
+  --font-ui: var(--font-family-sans);
+  --font-body: var(--font-family-serif);
+  --font-body-size: var(--font-size-18);
+  --font-body-leading: var(--line-height-160);
+  --reader-ui-font: var(--font-ui);
+  --reader-body-font: var(--font-body);
+  --reader-body-size: var(--font-body-size);
+  --reader-body-leading: var(--font-body-leading);
+ }
+ :root[data-reader-font="sans"] { --font-body: var(--font-family-sans); }
+}
+
+@layer tokens {
+ :root {
+  --foundation-theme-bg: #EEE7DA;
+  --foundation-theme-surface: #F7F1E7;
+  --foundation-theme-ink: #25342E;
+  --foundation-theme-muted: #4C5C52;
+  --foundation-theme-accent: #70283F;
+  --foundation-theme-soft: #DEE6DB;
+  --foundation-theme-line: #72816F;
+  --foundation-theme-on-accent: #FFFFFF;
+  --foundation-scroll-min: 10rem;
+  --foundation-reading-min: 22rem;
+  --foundation-psalm-min: 14rem;
+  --foundation-hymn-number-width: 5rem;
+  --foundation-hymn-label-width: 6rem;
+  --foundation-reading-note-z: 2;
+  --foundation-reading-note-size: .875rem;
+  --foundation-header-gap: .375rem;
+  --foundation-header-compact-size: .875rem;
+  --foundation-brand-size: 1.5rem;
+  --foundation-preview-portrait-width: 48rem;
+  --foundation-preview-portrait-height: 64rem;
+  --foundation-preview-landscape-width: 64rem;
+  --foundation-preview-landscape-height: 48rem;
+  --foundation-dialogue-width: 12rem;
+  --foundation-score-action-z: 2;
+  --foundation-score-action-font: 0.75rem;
+  --foundation-score-action-padding: 0.25rem;
+  --foundation-score-action-hit: 1.5rem;
+  --foundation-modal-width: 90rem;
+  --foundation-modal-height: 92dvh;
+  --foundation-marker-width: 1.25rem;
+  --foundation-marker-gap: .375rem;
+  --foundation-choice-card-z: 0;
+  --foundation-choice-marker-z: 1;
+  --foundation-choice-marker-space: 1.25rem;
+  --foundation-response-weight: 700;
+  --foundation-response-border: 2px;
+  --foundation-toc-target: 1.5rem;
+  --foundation-toc-gap: .125rem;
+  --foundation-rail-max: 16rem;
+  --foundation-score-height: 3rem;
+  --foundation-panel: 28rem;
+  --foundation-focus-ring: 3px solid currentColor;
+  --ui-theme-bg: var(--foundation-theme-bg);
+  --ui-theme-surface: var(--foundation-theme-surface);
+  --ui-theme-ink: var(--foundation-theme-ink);
+  --ui-theme-muted: var(--foundation-theme-muted);
+  --ui-theme-accent: var(--foundation-theme-accent);
+  --ui-theme-soft: var(--foundation-theme-soft);
+  --ui-theme-line: var(--foundation-theme-line);
+  --ui-theme-on-accent: var(--foundation-theme-on-accent);
+  --ui-score-paper: var(--ui-theme-surface);
+  --ui-scroll-min: var(--foundation-scroll-min);
+  --ui-reading-min: var(--foundation-reading-min);
+  --ui-psalm-min: var(--foundation-psalm-min);
+  --ui-hymn-number-width: var(--foundation-hymn-number-width);
+  --ui-hymn-label-width: var(--foundation-hymn-label-width);
+  --ui-reading-note-z: var(--foundation-reading-note-z);
+  --ui-reading-note-size: var(--foundation-reading-note-size);
+  --ui-header-gap: var(--foundation-header-gap);
+  --ui-header-compact-size: var(--foundation-header-compact-size);
+  --ui-brand-size: var(--foundation-brand-size);
+  --ui-preview-portrait-width: var(--foundation-preview-portrait-width);
+  --ui-preview-portrait-height: var(--foundation-preview-portrait-height);
+  --ui-preview-landscape-width: var(--foundation-preview-landscape-width);
+  --ui-preview-landscape-height: var(--foundation-preview-landscape-height);
+  --ui-dialogue-width: var(--foundation-dialogue-width);
+  --ui-score-action-z: var(--foundation-score-action-z);
+  --ui-score-action-font: var(--foundation-score-action-font);
+  --ui-score-action-padding: var(--foundation-score-action-padding);
+  --ui-score-action-hit: var(--foundation-score-action-hit);
+  --ui-modal-width: var(--foundation-modal-width);
+  --ui-modal-height: var(--foundation-modal-height);
+  --ui-marker-width: var(--foundation-marker-width);
+  --ui-marker-gap: var(--foundation-marker-gap);
+  --ui-choice-card-z: var(--foundation-choice-card-z);
+  --ui-choice-marker-z: var(--foundation-choice-marker-z);
+  --ui-choice-marker-space: var(--foundation-choice-marker-space);
+  --ui-guide-ink: var(--ui-theme-accent);
+  --ui-guide-surface: var(--ui-theme-soft);
+  --ui-response-weight: var(--foundation-response-weight);
+  --ui-response-border: var(--foundation-response-border);
+  --ui-toc-target: var(--foundation-toc-target);
+  --ui-toc-gap: var(--foundation-toc-gap);
+  --ui-rail-max: var(--foundation-rail-max);
+  --ui-score-height: var(--foundation-score-height);
+  --ui-panel: var(--foundation-panel);
+  --state-focus-ring: var(--foundation-focus-ring);
+  --reader-theme-bg: var(--ui-theme-bg);
+  --reader-theme-surface: var(--ui-theme-surface);
+  --reader-theme-ink: var(--ui-theme-ink);
+  --reader-theme-muted: var(--ui-theme-muted);
+  --reader-theme-accent: var(--ui-theme-accent);
+  --reader-theme-soft: var(--ui-theme-soft);
+  --reader-theme-line: var(--ui-theme-line);
+  --reader-theme-on-accent: var(--ui-theme-on-accent);
+  --reader-score-paper: var(--ui-score-paper);
+  --reader-scroll-min: var(--ui-scroll-min);
+  --reader-reading-min: var(--ui-reading-min);
+  --reader-psalm-min: var(--ui-psalm-min);
+  --reader-hymn-number-width: var(--ui-hymn-number-width);
+  --reader-hymn-label-width: var(--ui-hymn-label-width);
+  --reader-reading-note-z: var(--ui-reading-note-z);
+  --reader-reading-note-size: var(--ui-reading-note-size);
+  --reader-header-gap: var(--ui-header-gap);
+  --reader-header-compact-size: var(--ui-header-compact-size);
+  --reader-brand-size: var(--ui-brand-size);
+  --reader-preview-portrait-width: var(--ui-preview-portrait-width);
+  --reader-preview-portrait-height: var(--ui-preview-portrait-height);
+  --reader-preview-landscape-width: var(--ui-preview-landscape-width);
+  --reader-preview-landscape-height: var(--ui-preview-landscape-height);
+  --reader-dialogue-width: var(--ui-dialogue-width);
+  --reader-score-action-z: var(--ui-score-action-z);
+  --reader-score-action-font: var(--ui-score-action-font);
+  --reader-score-action-padding: var(--ui-score-action-padding);
+  --reader-score-action-hit: var(--ui-score-action-hit);
+  --reader-modal-width: var(--ui-modal-width);
+  --reader-modal-height: var(--ui-modal-height);
+  --reader-marker-width: var(--ui-marker-width);
+  --reader-marker-gap: var(--ui-marker-gap);
+  --reader-choice-card-z: var(--ui-choice-card-z);
+  --reader-choice-marker-z: var(--ui-choice-marker-z);
+  --reader-choice-marker-space: var(--ui-choice-marker-space);
+  --reader-guide-ink: var(--ui-guide-ink);
+  --reader-guide-surface: var(--ui-guide-surface);
+  --reader-response-weight: var(--ui-response-weight);
+  --reader-response-border: var(--ui-response-border);
+  --reader-toc-target: var(--ui-toc-target);
+  --reader-toc-gap: var(--ui-toc-gap);
+  --reader-rail-max: var(--ui-rail-max);
+  --reader-score-height: var(--ui-score-height);
+  --reader-panel: var(--ui-panel);
+  --focus-ring: var(--state-focus-ring);
+ }
+ :root[data-reader-theme="b"] {
+  --foundation-theme-bg: #DDD3C0;
+  --foundation-theme-surface: #E9DFCD;
+  --foundation-theme-ink: #29352D;
+  --foundation-theme-muted: #4F5C4E;
+  --foundation-theme-accent: #70283F;
+  --foundation-theme-soft: #D2DCCB;
+  --foundation-theme-line: #6E7A68;
+ }
+ :root[data-reader-theme="c"] {
+  --foundation-score-paper: #E9DFCD;
+  --ui-score-paper: var(--foundation-score-paper);
+  --foundation-theme-bg: #272225;
+  --foundation-theme-surface: #312A2D;
+  --foundation-theme-ink: #EEE2D8;
+  --foundation-theme-muted: #C9B8B0;
+  --foundation-theme-accent: #E0A3B5;
+  --foundation-theme-soft: #40353A;
+  --foundation-theme-line: #A58B91;
+  --foundation-theme-on-accent: #312027;
+  color-scheme: dark;
+ }
+}
+
+@layer tokens {
+ :root {
+  --foundation-selected-tint: 12%;
+  --state-selected-surface: color-mix(in srgb, var(--ui-theme-accent) var(--foundation-selected-tint), var(--ui-theme-surface));
+  --state-selected-ink: var(--ui-theme-accent);
+  --state-selected-border: var(--ui-theme-accent);
+  --button-selected-surface: var(--state-selected-surface);
+  --button-selected-ink: var(--state-selected-ink);
+  --button-selected-border: var(--state-selected-border);
+ }
+}
+
+@layer tokens { :root {--draft-max:72rem;--draft-frame:64rem;--draft-height:40rem;--draft-side:11rem;--draft-card-min:17rem;--draft-border:1px;--draft-strong:2px;--draft-small:.875rem;--draft-dim:color-mix(in srgb,var(--reader-theme-ink) 60%,var(--reader-theme-surface));--draft-selected:color-mix(in srgb,var(--reader-theme-accent) 12%,var(--reader-theme-surface));--draft-border-color:var(--reader-theme-line);--draft-weight:700;} }
+@layer base { * {box-sizing:border-box;} body {margin:0;background:var(--reader-theme-bg);color:var(--reader-theme-ink);font-family:var(--reader-ui-font);line-height:1.6;} h1,h2,h3,p {margin:0;} button,select {font:inherit;color:inherit;min-height:var(--reader-control-hit);padding:var(--reader-control-padding-block) var(--reader-control-padding-inline);border-radius:var(--reader-radius);border:var(--draft-border) solid var(--draft-border-color);background:var(--reader-theme-surface);} button {cursor:pointer;} button:disabled {cursor:default;color:var(--draft-dim);border-style:dashed;} :focus-visible {outline:var(--focus-ring);outline-offset:var(--space-1);} a {color:var(--reader-theme-accent);} }
+@layer layout { .show {max-width:var(--draft-max);padding:var(--reader-padding);margin:auto;display:grid;gap:var(--reader-gap);} .show__row {display:flex;align-items:center;flex-wrap:wrap;gap:var(--reader-gap);} .show__cards {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,var(--draft-card-min)),1fr));gap:var(--reader-gap);} .show__card {display:grid;align-content:start;gap:var(--reader-gap);border:var(--draft-border) solid var(--reader-theme-line);border-radius:var(--reader-radius);padding:var(--reader-padding);background:var(--reader-theme-surface);} .show__viewport {overflow:auto;} .scene {width:var(--draft-frame);height:var(--draft-height);display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:var(--reader-gap);padding:var(--reader-padding);border:var(--draft-border) solid var(--reader-theme-line);background:var(--reader-theme-bg);} .scene__header {display:flex;align-items:center;justify-content:space-between;gap:var(--reader-gap);} .scene__workspace {display:grid;grid-template-columns:minmax(0,1fr) var(--draft-side);gap:var(--reader-gap);min-height:0;} .scene__book {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--reader-gap);min-height:0;} .scene__page {overflow:auto;min-height:0;padding:var(--reader-padding);border:var(--draft-border) solid var(--reader-theme-line);border-radius:var(--reader-radius);background:var(--reader-theme-surface);} .scene__rail {padding:var(--reader-padding);border:var(--draft-border) solid var(--reader-theme-line);border-radius:var(--reader-radius);} .scene__body {font:var(--reader-body-size)/var(--reader-body-leading) var(--reader-body-font);margin-block:var(--reader-gap);} .scene__title {color:var(--reader-theme-accent);} }
+@layer components { .choice {display:flex;gap:var(--space-1);flex-wrap:wrap;margin-block:var(--reader-gap);} .control {color:var(--reader-theme-accent);border-color:var(--reader-theme-line);} .control[aria-pressed="true"] {font-weight:var(--draft-weight);} .control[aria-pressed="true"]::before {content:'✓ ';} .control--primary {background:var(--reader-theme-accent);color:var(--reader-theme-on-accent);border-color:var(--reader-theme-accent);} .show[data-style="b"] {--choice-fill:var(--reader-theme-accent);--choice-ink:var(--reader-theme-on-accent);--choice-border:var(--reader-theme-accent);} .show[data-style="b"] {--choice-fill:var(--button-selected-surface);--choice-ink:var(--reader-theme-accent);--choice-border:var(--reader-theme-accent);} .show[data-style="c"] {--choice-fill:transparent;--choice-ink:var(--reader-theme-accent);--choice-border:transparent;} .choice__button[aria-pressed="true"] {background:var(--choice-fill);color:var(--choice-ink);border-color:var(--choice-border);} .show[data-style="c"] .choice__button {border-color:transparent;background:transparent;} .show[data-style="c"] .choice__button[aria-pressed="true"] {text-decoration:underline;text-underline-offset:var(--space-1);} .show__small {font-size:var(--draft-small);} .scene__response {padding:var(--reader-content-inset);border-radius:var(--reader-radius);background:var(--reader-theme-accent);color:var(--reader-theme-on-accent);} .show__focus {outline:var(--focus-ring);outline-offset:var(--space-1);} .show__sample {padding:var(--reader-content-inset);border:var(--draft-border) solid var(--reader-theme-line);border-radius:var(--reader-radius);} }
+</style></head><body><main class="show" data-style="b"><h1>버튼·선택 탭 비교</h1><p>색·간격·모서리는 유지하고 선택 상태의 강조만 바꿉니다.</p><div class="show__row" role="group" aria-label="디자인 후보"><button class="control" type="button" data-option="a" aria-pressed="false">A · 채움</button><button class="control" type="button" data-option="b" aria-pressed="true">B · 은은한 면</button><button class="control" type="button" data-option="c" aria-pressed="false">C · 글자 중심</button><label for="theme">배경</label><select id="theme"><option value="a">미색</option><option value="b">종이색</option><option value="c">와인 다크</option></select></div><div class="show__cards"><article class="show__card"><h2>A · 채움</h2><p>선택한 항목을 짙은 와인 면으로 표시합니다. 선택 상태가 가장 또렷합니다.</p></article><article class="show__card"><h2>B · 은은한 면 · 추천</h2><p>선택 항목은 옅은 와인 면과 체크로 표시합니다. 본문 응답의 강조를 덜 방해합니다.</p></article><article class="show__card"><h2>C · 글자 중심</h2><p>선택 항목에 체크와 밑줄을 표시합니다. 화면에서 버튼이 차지하는 느낌이 가장 적습니다.</p></article></div><h2>가로 화면에서 비교</h2><p class="show__small">폭 1024px 고정 · 좁은 창은 가로 스크롤 · 버튼을 직접 눌러보세요.</p><div class="show__viewport"><section class="scene" aria-label="가로 화면 버튼 적용 예시"><header class="scene__header"><button class="control" type="button">← 시작 예식</button><h2 class="scene__title">말씀 전례</h2><button class="control" type="button">성찬 전례 →</button><button class="control" type="button">목차 접기</button></header><div class="scene__workspace"><div class="scene__book"><article class="scene__page"><div class="show__row"><h3 class="scene__title">신앙 고백</h3><div class="choice" role="group" aria-label="신경 선택"><button class="control choice__button" type="button" aria-pressed="true" aria-label="니케아 신경">니케아 신경</button><button class="control choice__button" type="button" aria-pressed="false" aria-label="사도 신경">사도 신경</button></div></div><p class="scene__body">본문은 같은 위치에서 읽습니다.<br>명조 18px · 줄 간격 1.6.<br><br>위의 선택 버튼을 누르면 선택 상태가 바뀝니다. 이 문장은 시안용 예시입니다.</p><p class="scene__response">◎ 하느님, 감사합니다.</p><div class="choice" role="group" aria-label="낭송 성가 선택"><button class="control choice__button" type="button" aria-pressed="true" aria-label="낭송">낭송</button><button class="control choice__button" type="button" aria-pressed="false" aria-label="성가">성가</button></div></article><article class="scene__page"><h3 class="scene__title">버튼 상태</h3><p>기본</p><div class="choice"><button class="control" type="button">안내</button><button class="control" type="button">닫기</button></div><p>주요 동작</p><div class="choice"><button class="control control--primary" type="button">편성 저장</button></div><p>비활성</p><div class="choice"><button class="control" type="button" disabled>적용 완료</button></div><p>키보드 초점 예시</p><div class="choice"><button class="control show__focus" type="button">악보 확대</button></div><p class="show__small">Tab 키로 실제 초점 이동도 확인할 수 있습니다.</p></article></div><aside class="scene__rail"><h3 class="scene__title">목차</h3><p>복음</p><p><strong>신앙 고백 · 현재</strong></p><p>보편 지향 기도</p></aside></div><footer class="scene__header"><button class="control" type="button">← 복음</button><span>선택 탭·상태 비교</span><button class="control" type="button">다음 →</button></footer></section></div><p class="show__sample" role="status" data-js="status">B · 은은한 면 · 확정</p><p class="show__small">색 이외에 체크·굵기·밑줄로 선택 구분 / 최소 높이44px / 새 모션·왼쪽 장식선 없음. 저장·이동 버튼은 모양 비교용이며 실제 데이터를 바꾸지 않습니다.</p><a href="05-wireframe-v4.html">승인한 5단계 배치 보기</a></main><script>
+const root=document.querySelector('.show'),status=document.querySelector('[data-js="status"]');document.querySelectorAll('[data-option]').forEach(b=>b.onclick=()=>{root.dataset.style=b.dataset.option;document.querySelectorAll('[data-option]').forEach(n=>n.setAttribute('aria-pressed',String(n===b)));status.textContent=b.textContent+' 비교 중';});document.querySelectorAll('.choice[role="group"]').forEach(g=>g.querySelectorAll('button').forEach(b=>b.onclick=()=>{g.querySelectorAll('button').forEach(n=>n.setAttribute('aria-pressed',String(n===b)));status.textContent=b.textContent+' 선택 예시';}));document.querySelector('#theme').onchange=e=>{document.documentElement.dataset.readerTheme=e.target.value;};
+</script></body></html>

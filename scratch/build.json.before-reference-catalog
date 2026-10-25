@@ -1,0 +1,30 @@
+{
+  "baseline": "review/02-ia-v53.html",
+  "output": "review/02-ia-current.html",
+  "bindings": {
+    "dailyDocuments": {
+      "path": "data/days/2026-10-18.json",
+      "array": true
+    },
+    "dailySources": {
+      "path": "data/sources.json",
+      "array": false
+    },
+    "dailyMissaSnapshot": {
+      "path": "docs/references/daily-missa-20261018.json",
+      "array": false
+    },
+    "reengravedPrincipalScores": {
+      "path": "docs/교중미사악보/reengraved/registry.json",
+      "array": false
+    },
+    "scorePreviewSizes": {
+      "path": "review/source/score-preview-sizes.json",
+      "array": false
+    }
+  },
+  "modules": {
+    "READER_STATE": "review/source/reader-state.cjs",
+    "DAILY_DOCUMENT": "review/source/daily-document.cjs"
+  }
+}

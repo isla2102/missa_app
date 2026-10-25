@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-12",
+  "date": "2026-12-12",
+  "observance": "(자) 대림 제2주간 토요일",
+  "sourceRefs": [
+    "goodnews-20261212",
+    "user-hwp-202612"
+  ],
+  "sections": [
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<엘리야가 다시 오리라.>",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 집회서의 말씀입니다.48,1-4.9-11",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "그 무렵 1 엘리야 예언자가 불처럼 일어섰는데 그의 말은 횃불처럼 타올랐다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "2 엘리야는 그들에게 굶주림을 불러들였고",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "자신의 열정으로 그들의 수를 감소시켰다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "3 주님의 말씀에 따라 그는 하늘을 닫아 버리고",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "세 번씩이나 불을 내려보냈다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "4 엘리야여, 당신은 놀라운 일들로 얼마나 큰 영광을 받았습니까?",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "누가 당신처럼 자랑스러울 수 있겠습니까?",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "9 당신은 불 소용돌이 속에서 불 마차에 태워 들어 올려졌습니다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "10 당신은 정해진 때를 대비하여",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "주님의 분노가 터지기 전에 그것을 진정시키고",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "아버지의 마음을 자식에게 되돌리며",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "야곱의 지파들을 재건하리라고 기록되어 있습니다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "11 당신을 본 사람들과 사랑 안에서 잠든 사람들은 행복합니다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "우리도 반드시 살아날 것입니다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261212"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 80(79),2ㄱㄷㄹ과 3ㄴㄷ.15-16.18-19(◎ 4)",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 하느님, 저희를 다시 일으켜 주소서. 당신 얼굴을 비추소서. 저희가 구원되리이다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 이스라엘의 목자시여, 귀를 기울이소서. 커룹들 위에 좌정하신 분, 광채와 함께 나타나소서. 당신 권능을 떨치시어, 저희를 도우러 오소서. ◎",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 만군의 하느님, 어서 돌아오소서. 하늘에서 굽어살피시고, 이 포도나무를 찾아오소서. 당신 오른손이 심으신 나뭇가지를, 당신 위해 키우신 아들을 찾아오소서. ◎",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 당신 오른쪽에 있는 사람에게, 당신 위해 키우신 인간의 아들에게 손을 얹으소서. 저희는 당신을 떠나지 않으오리다. 저희를 살려 주소서. 당신 이름을 부르오리다. ◎",
+          "sourceRef": "goodnews-20261212"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 3,4.6",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 너희는 주님의 길을 마련하여라. 그분의 길을 곧게 내어라. 모든 사람이 하느님의 구원을 보리라.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261212"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<엘리야가 이미 왔지만 사람들은 그를 알아보지 못하였다.>",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.17,10-13",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "산에서 내려올 때에 10 제자들이 예수님께,",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "“율법 학자들은 어찌하여 엘리야가 먼저 와야 한다고 말합니까?” 하고 물었다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "11 그러자 예수님께서 대답하셨다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "“과연 엘리야가 와서 모든 것을 바로잡을 것이다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "12 내가 너희에게 말한다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "엘리야는 이미 왔지만, 사람들은 그를 알아보지 못하고 제멋대로 다루었다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "그처럼 사람의 아들도 그들에게 고난을 받을 것이다.”",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "13 그제야 제자들은 그것이 세례자 요한을 두고 하신 말씀인 줄을 깨달았다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261212"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261212"
+        }
+      ]
+    },
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "커룹들 위에 좌정하신 주님, 오소서. 당신 얼굴을 비추소서. 저희가 구원되리이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하신 하느님,\n하느님의 찬란한 빛으로 저희 마음을 밝히시어\n밤의 어둠을 모두 몰아내시고\n외아드님께서 오실 때에 저희가 빛의 자녀로 드러나게 하소서.\n성자께서는 성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n이 예물을 정성껏 봉헌하며 비오니\n주님께서 제정하신 거룩한 신비의 거행으로\n저희 구원이 온전히 이루어지게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "주님이 말씀하신다. 보라, 내가 곧 간다. 상도 가져가, 사람마다 제 행실대로 갚아 주리라.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n주님께서는 인자하시니\n이 성사의 힘으로 저희 죄를 깨끗이 씻어 주시어\n다가오는 성탄 축제를 준비하게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    }
+  ]
+}

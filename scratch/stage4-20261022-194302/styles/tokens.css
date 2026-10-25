@@ -1,0 +1,42 @@
+@layer tokens, base, layout, components, responsive, utilities;
+@layer tokens {
+ :root {
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-25: .625rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --radius-12: .75rem;
+  --hit-44: 2.75rem;
+  --layout-padding: var(--space-4);
+  --layout-gap: var(--space-3);
+  --content-padding: var(--space-25);
+  --control-padding-compact: var(--space-1);
+  --control-padding-block: var(--space-2);
+  --control-padding-inline: var(--space-25);
+  --control-hit: var(--hit-44);
+  --shape-rounded: var(--radius-12);
+  --reader-padding: var(--layout-padding);
+  --reader-gap: var(--layout-gap);
+  --reader-item-gap: var(--layout-gap);
+  --reader-content-inset: var(--content-padding);
+  --reader-header-control-padding: var(--control-padding-compact);
+  --reader-control-padding-block: var(--control-padding-block);
+  --reader-control-padding-inline: var(--control-padding-inline);
+  --reader-control-hit: var(--control-hit);
+  --reader-radius: var(--shape-rounded);
+  --font-family-sans: 'Malgun Gothic', system-ui, sans-serif;
+  --font-family-serif: Batang, 'Times New Roman', serif;
+  --font-size-18: 1.125rem;
+  --line-height-160: 1.6;
+  --font-ui: var(--font-family-sans);
+  --font-body: var(--font-family-serif);
+  --font-body-size: var(--font-size-18);
+  --font-body-leading: var(--line-height-160);
+  --reader-ui-font: var(--font-ui);
+  --reader-body-font: var(--font-body);
+  --reader-body-size: var(--font-body-size);
+  --reader-body-leading: var(--font-body-leading);
+ }
+ :root[data-reader-font="sans"] { --font-body: var(--font-family-sans); }
+}

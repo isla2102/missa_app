@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-30",
+  "date": "2026-11-30",
+  "observance": "(홍) 성 안드레아 사도 축일",
+  "sourceRefs": [
+    "goodnews-20261130"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<믿음은 들음에서 오고 들음은 그리스도의 말씀으로 이루어집니다.>",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 로마서 말씀입니다.10,9-18",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분, 9 예수님은 주님이시라고 입으로 고백하고",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "하느님께서 예수님을 죽은 이들 가운데에서 일으키셨다고",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "마음으로 믿으면 구원을 받을 것입니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "10 곧 마음으로 믿어 의로움을 얻고, 입으로 고백하여 구원을 얻습니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "11 성경도 “그를 믿는 이는 누구나",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "부끄러운 일을 당하지 않으리라.” 하고 말합니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "12 유다인과 그리스인 사이에 차별이 없습니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "같은 주님께서 모든 사람의 주님으로서,",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "당신을 받들어 부르는 모든 이에게 풍성한 은혜를 베푸십니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "13 과연 “주님의 이름을 받들어 부르는 이는",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "모두 구원을 받을 것입니다.”",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "14 그런데 자기가 믿지 않는 분을 어떻게 받들어 부를 수 있겠습니까?",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "자기가 들은 적이 없는 분을 어떻게 믿을 수 있겠습니까?",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "선포하는 사람이 없으면 어떻게 들을 수 있겠습니까?",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "15 파견되지 않았으면 어떻게 선포할 수 있겠습니까?",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "이는 성경에 기록된 그대로입니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "“기쁜 소식을 전하는 이들의 발이 얼마나 아름다운가!”",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "16 그러나 모든 사람이 복음에 순종한 것은 아닙니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "사실 이사야도 “주님, 저희가 전한 말을 누가 믿었습니까?” 하고 말합니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "17 그러므로 믿음은 들음에서 오고",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "들음은 그리스도의 말씀으로 이루어집니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "18 그러나 나는 묻습니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "그들이 들은 적이 없다는 것입니까?",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "물론 들었습니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "“그들의 소리는 온 땅으로, 그들의 말은 누리 끝까지 퍼져 나갔다.”",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261130"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 19(18),2-3.4-5ㄱㄴ(◎ 5ㄱ)",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 그 소리 온 누리에 퍼져 나가네.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 하늘은 하느님의 영광을 말하고, 창공은 그분의 솜씨를 알리네. 낮은 낮에게 말을 건네고, 밤은 밤에게 앎을 전하네. ◎",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 말도 없고 이야기도 없으며, 목소리조차 들리지 않지만, 그 소리 온 누리에 퍼져 나가고, 그 말은 땅끝까지 번져 나가네. ◎",
+          "sourceRef": "goodnews-20261130"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "마태 4,19 참조",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 나를 따라오너라. 내가 너희를 사람 낚는 어부로 만들리라.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261130"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<그들은 곧바로 그물을 버리고 예수님을 따랐다.>",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.4,18-22",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 18 예수님께서는 갈릴래아 호숫가를 지나가시다가",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "두 형제, 곧 베드로라는 시몬과 그의 동생 안드레아가",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "호수에 어망을 던지는 것을 보셨다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "그들은 어부였다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "19 예수님께서 그들에게 이르셨다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "“나를 따라오너라. 내가 너희를 사람 낚는 어부로 만들겠다.”",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "20 그러자 그들은 곧바로 그물을 버리고 예수님을 따랐다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "21 거기에서 더 가시다가 예수님께서 다른 두 형제,",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "곧 제베대오의 아들 야고보와 그의 동생 요한이 배에서",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "아버지 제베대오와 함께 그물을 손질하는 것을 보시고 그들을 부르셨다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "22 그들은 곧바로 배와 아버지를 버려두고 그분을 따랐다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261130"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261130"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-25",
+  "date": "2026-10-25",
+  "observance": "연중 제30주일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261025"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님을 찾는 마음은 기뻐하여라.\n주님과 그 권능을 구하여라. 언제나 그 얼굴을 찾아라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 영원하신 하느님,\n저희 안에 믿음과 희망과 사랑이 자라나게 하시고\n저희가 하느님의 계명을 지켜 영원한 생명을 얻게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n주님께 올리는 이 예물을 굽어보시고\n저희가 바치는 제사가 주님께 영광이 되게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "당신의 구원에 우리가 환호하며, 하느님 이름으로 깃발을 높이리이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n성체성사의 은혜를 풍부히 내려 주시어\n저희가 거행하는 이 신비를 그대로 실천하게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<너희가 과부와 고아를 억누른다면 나는 분노를 터뜨릴 것이다.>",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 탈출기의 말씀입니다.22,20-26",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "주님께서 이렇게 말씀하신다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "20 “너희는 이방인을 억압하거나 학대해서는 안 된다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "너희도 이집트 땅에서 이방인이었다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "21 너희는 어떤 과부나 고아도 억눌러서는 안 된다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "22 너희가 그들을 억눌러 그들이 나에게 부르짖으면,",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "나는 그 부르짖음을 들어줄 것이다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "23 그러면 나는 분노를 터뜨려 칼로 너희를 죽이겠다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "그러면 너희 아내들은 과부가 되고, 너희 아들들은 고아가 될 것이다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "24 너희가 나의 백성에게, 너희 곁에 사는 가난한 이에게 돈을 꾸어 주었으면,",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "그에게 채권자처럼 행세해서도 안 되고, 이자를 물려서도 안 된다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "25 너희가 이웃의 겉옷을 담보로 잡았으면, 해가 지기 전에 돌려주어야 한다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "26 그가 덮을 것이라고는 그것뿐이고,",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "몸을 가릴 것이라고는 그 겉옷뿐인데, 무엇을 덮고 자겠느냐?",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "그가 나에게 부르짖으면 나는 들어줄 것이다. 나는 자비하다.”",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261025"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-2-p1",
+          "role": "text",
+          "text": "<여러분은 우상들을 버리고 돌아서서 하느님을 섬기며 하느님의 아드님을 기다리고 있습니다.>",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 테살로니카 1서 말씀입니다.1,5ㄴ-10",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p3",
+          "role": "text",
+          "text": "형제 여러분, 5 우리가 여러분을 위하여",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p4",
+          "role": "text",
+          "text": "여러분 가운데에서 어떻게 처신하였는지 여러분은 알고 있습니다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p5",
+          "role": "text",
+          "text": "6 또한 여러분은 큰 환난 속에서도 성령께서 주시는 기쁨으로 말씀을 받아들여,",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p6",
+          "role": "text",
+          "text": "우리와 주님을 본받는 사람이 되었습니다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p7",
+          "role": "text",
+          "text": "7 그리하여 여러분은 마케도니아와 아카이아의 모든 신자에게",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p8",
+          "role": "text",
+          "text": "본보기가 되었습니다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p9",
+          "role": "text",
+          "text": "8 주님의 말씀이 여러분에게서 시작하여",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p10",
+          "role": "text",
+          "text": "마케도니아와 아카이아에 울려 퍼졌을 뿐만 아니라,",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p11",
+          "role": "text",
+          "text": "하느님에 대한 여러분의 믿음이 곳곳에 알려졌습니다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p12",
+          "role": "text",
+          "text": "그러니 우리는 더 말할 필요가 없습니다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p13",
+          "role": "text",
+          "text": "9 사실 그곳 사람들이 우리에 관한 이야기를 전하고 있습니다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p14",
+          "role": "text",
+          "text": "우리가 여러분을 찾아갔을 때에 여러분이 우리를 어떻게 받아들였는지,",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p15",
+          "role": "text",
+          "text": "여러분이 어떻게 우상들을 버리고 하느님께 돌아서서",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p16",
+          "role": "text",
+          "text": "살아 계신 참하느님을 섬기게 되었는지,",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p17",
+          "role": "text",
+          "text": "10 그리고 여러분이 어떻게",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p18",
+          "role": "text",
+          "text": "하느님께서 죽은 이들 가운데에서 일으키신 그분의 아드님,",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p19",
+          "role": "text",
+          "text": "곧 닥쳐오는 진노에서 우리를 구해 주실 예수님께서",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p20",
+          "role": "text",
+          "text": "하늘로부터 오실 것을 기다리게 되었는지 말하고 있습니다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p21",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "reading-2-p22",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261025"
+        }
+      ]
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 18(17),2-3ㄱ.3ㄴㄷ-4.47과 51(◎ 2)",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 저의 힘이신 주님, 당신을 사랑하나이다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 저의 힘이신 주님, 당신을 사랑하나이다. 주님은 저의 반석, 저의 산성, 저의 구원자시옵니다. ◎",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 주님은 저의 하느님, 이 몸 숨는 저의 바위, 저의 방패, 제 구원의 뿔, 저의 성채시옵니다. 찬양하올 주님 불렀을 때, 저는 원수에게서 구원되었나이다. ◎",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님은 살아 계시다! 나의 반석 찬미받으시리니, 내 구원의 하느님 드높으시다. 주님은 당신 임금에게 큰 구원 베푸시고, 당신의 메시아에게 자애를 베푸신다. ◎",
+          "sourceRef": "goodnews-20261025"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "요한 14,23 참조",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 누구든지 나를 사랑하면 내 말을 지키리니 내 아버지도 그를 사랑하시고 우리가 가서 그와 함께 살리라.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261025"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<주 너의 하느님을 사랑해야 한다. 네 이웃을 너 자신처럼 사랑해야 한다.>",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.22,34-40",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 34 예수님께서 사두가이들의 말문을 막아 버리셨다는 소식을 듣고",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "바리사이들이 한데 모였다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "35 그들 가운데 율법 교사 한 사람이 예수님을 시험하려고 물었다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "36 “스승님, 율법에서 가장 큰 계명은 무엇입니까?”",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "37 예수님께서 그에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "“‘네 마음을 다하고 네 목숨을 다하고 네 정신을 다하여",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "주 너의 하느님을 사랑해야 한다.’",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "38 이것이 가장 크고 첫째가는 계명이다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "39 둘째도 이와 같다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "‘네 이웃을 너 자신처럼 사랑해야 한다.’는 것이다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "40 온 율법과 예언서의 정신이 이 두 계명에 달려 있다.”",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261025"
+        }
+      ]
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "intercessions-p1",
+          "role": "guidance",
+          "text": "<각 공동체 스스로 준비한 기도를 바치는 것이 바람직하다.>",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "intercessions-p2",
+          "role": "text",
+          "text": "1. 교회를 위하여 기도합시다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "intercessions-p3",
+          "role": "text",
+          "text": "보호자이신 주님, 교회를 주님의 성령으로 이끌어 주시어, 언제나 주님만을 믿고 섬기며 어려움 속에서도 성령의 은총으로 주님 말씀을 힘차게 선포하게 하소서.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "intercessions-p4",
+          "role": "text",
+          "text": "2. 정치인들을 위하여 기도합시다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "intercessions-p5",
+          "role": "text",
+          "text": "진리의 빛이신 주님, 이 땅의 정치인들을 굽어살피시어, 올바르게 판단하고, 말을 앞세우기보다 실천할 수 있도록 이끌어 주소서.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "intercessions-p6",
+          "role": "text",
+          "text": "3. 굶주리는 이들을 위하여 기도합시다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "intercessions-p7",
+          "role": "text",
+          "text": "참목자이신 주님, 사회적 불평등 속에서 굶주리는 이들을 보살펴 주시어, 그들이 현실적 어려움을 겪지 않게 하시고, 저희가 사회 구조와 제도를 개선하는 데 힘과 지혜를 모으게 하소서.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "intercessions-p8",
+          "role": "text",
+          "text": "4. 디지털 세상 안에서 살아가는 젊은이들을 위하여 기도합시다.",
+          "sourceRef": "goodnews-20261025"
+        },
+        {
+          "id": "intercessions-p9",
+          "role": "text",
+          "text": "창조주이신 주님, 젊은이들에게 식별의 은총을 주시어, 디지털 문화를 지혜롭게 활용하여 참된 만남과 나눔을 실천하고, 세상에 희망의 복음을 전하는 주님의 도구가 되게 하소서.",
+          "sourceRef": "goodnews-20261025"
+        }
+      ]
+    }
+  ]
+}

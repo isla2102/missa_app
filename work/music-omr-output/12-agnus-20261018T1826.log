@@ -1,0 +1,66 @@
+2026-10-18 18:26:38,960 INFO [12-agnus]                 Book.java:560  | 1 sheet in C:\Users\imsup\00_개인프로젝트\매일미사_예비신자앱\work\music-omr-inputs\12-agnus.tif
+2026-10-18 18:26:39,024 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-18 18:26:39,024 INFO []                 Book.java:2525 | Book stored as work\music-omr-output\12-agnus.omr
+2026-10-18 18:26:39,027 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-10-18 18:26:39,028 INFO [12-agnus]       StepMonitoring.java:98   | LOAD
+2026-10-18 18:26:39,183 INFO [12-agnus]            SheetStub.java:1278 | Loaded image #1 2460x1960 from C:\Users\imsup\00_개인프로젝트\매일미사_예비신자앱\work\music-omr-inputs\12-agnus.tif
+2026-10-18 18:26:39,184 INFO [12-agnus]       StepMonitoring.java:98   | BINARY
+2026-10-18 18:26:39,497 INFO [12-agnus]       StepMonitoring.java:98   | SCALE
+2026-10-18 18:26:39,500 INFO [12-agnus]         ScaleBuilder.java:254  | Beam  guessed height: 21 -- 0.25 of [17..34] range
+2026-10-18 18:26:39,501 INFO [12-agnus]         ScaleBuilder.java:271  | Beam measured height: 19 -- 0.12 of [17..34] range at 78% of needed quorum
+2026-10-18 18:26:39,501 INFO [12-agnus]         ScaleBuilder.java:401  | Normalized black jitter: 16.22 %
+2026-10-18 18:26:39,503 INFO [12-agnus]            ScaleStep.java:65   | Scale{ interline(34,37,40) line(6,9,12) beam(19)}
+2026-10-18 18:26:39,503 INFO [12-agnus]       StepMonitoring.java:98   | GRID
+2026-10-18 18:26:39,620 INFO [12-agnus]       LinesRetriever.java:1508 | Global slope: -0.02124
+2026-10-18 18:26:39,626 INFO [12-agnus]    ClustersRetriever.java:326  | Retrieved raw line clusters: 3 of sizes [5] with interline(34,37,40)
+2026-10-18 18:26:39,717 INFO [12-agnus]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3]
+2026-10-18 18:26:39,935 INFO [12-agnus]        SystemManager.java:134  | Indentation detected for system #3
+2026-10-18 18:26:39,935 INFO [12-agnus]        SystemManager.java:744  | 2 pages found in sheet
+2026-10-18 18:26:39,936 INFO [12-agnus]        SystemManager.java:800  | Page #1: 1 part along 2 systems
+2026-10-18 18:26:39,937 INFO [12-agnus]        SystemManager.java:800  | Page #2: 1 part along 1 system
+2026-10-18 18:26:39,939 INFO [12-agnus]                 Book.java:543  | Created scores: [{Score 1}, {Score 2}]
+2026-10-18 18:26:39,939 INFO [12-agnus]       StepMonitoring.java:98   | HEADERS
+2026-10-18 18:26:40,430 INFO [12-agnus]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-18 18:26:40,450 INFO [12-agnus]           StemScaler.java:143  | No stem peak found, computing defaults
+2026-10-18 18:26:40,451 INFO [12-agnus]        StemSeedsStep.java:86   | stem(9 max:12)
+2026-10-18 18:26:40,462 INFO [12-agnus]       StepMonitoring.java:98   | BEAMS
+2026-10-18 18:26:46,966 INFO [12-agnus]       StepMonitoring.java:98   | LEDGERS
+2026-10-18 18:26:47,086 INFO [12-agnus]       StepMonitoring.java:98   | HEADS
+2026-10-18 18:26:56,891 INFO [12-agnus]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-3.1]}
+2026-10-18 18:26:56,895 INFO [12-agnus]       StepMonitoring.java:98   | STEMS
+2026-10-18 18:26:57,026 INFO [12-agnus]       StepMonitoring.java:98   | REDUCTION
+2026-10-18 18:26:57,036 INFO [12-agnus]        ReductionStep.java:105  | Stems free length median value: 135 pixels, 3.6 interlines
+2026-10-18 18:26:57,037 INFO [12-agnus]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-18 18:26:57,038 INFO [12-agnus]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-18 18:26:57,038 INFO [12-agnus]       StepMonitoring.java:98   | TEXTS
+2026-10-18 18:27:00,595 INFO [12-agnus]       StepMonitoring.java:98   | MEASURES
+2026-10-18 18:27:00,598 INFO [12-agnus]                 Page.java:307  | 5 raw measures: [3 in system#1, 2 in system#2]
+2026-10-18 18:27:00,599 INFO [12-agnus]                 Page.java:307  | 2 raw measures: [2 in system#3]
+2026-10-18 18:27:00,599 INFO [12-agnus]       StepMonitoring.java:98   | CHORDS
+2026-10-18 18:27:00,604 INFO [12-agnus]       StepMonitoring.java:98   | CURVES
+2026-10-18 18:27:01,495 INFO [12-agnus]         SlursBuilder.java:240  | Slurs: 17
+2026-10-18 18:27:01,505 INFO [12-agnus]      SegmentsBuilder.java:155  | Segments: 5
+2026-10-18 18:27:01,506 INFO [12-agnus]       StepMonitoring.java:98   | SYMBOLS
+2026-10-18 18:27:02,616 INFO [12-agnus]       StepMonitoring.java:98   | LINKS
+2026-10-18 18:27:02,621 INFO [12-agnus]             KeyInter.java:1198 | No effective key before AlterInter#1945{(0.246) staff:2 NATURAL pitch:-5.0}
+2026-10-18 18:27:02,625 INFO [12-agnus]             KeyInter.java:1198 | No effective key before AlterInter#1990{(0.426) staff:3 NATURAL pitch:-4.0}
+2026-10-18 18:27:02,629 INFO [12-agnus]       StepMonitoring.java:98   | RHYTHMS
+2026-10-18 18:27:02,637 INFO [12-agnus]       StepMonitoring.java:98   | PAGE
+2026-10-18 18:27:02,638 WARN [12-agnus]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3], please check time signatures
+2026-10-18 18:27:02,639 WARN [12-agnus]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [4, 5], please check time signatures
+2026-10-18 18:27:02,639 WARN [12-agnus]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [1, 2], please check time signatures
+2026-10-18 18:27:02,640 INFO [12-agnus]                 Book.java:2584 | Book{12-agnus} storing
+2026-10-18 18:27:02,725 INFO [12-agnus]                 Book.java:2565 | Stored /book.xml
+2026-10-18 18:27:02,800 INFO [12-agnus]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-18 18:27:03,119 INFO [12-agnus]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-18 18:27:03,119 INFO [12-agnus]                 Book.java:2525 | Book stored as work\music-omr-output\12-agnus.omr
+2026-10-18 18:27:03,124 INFO [12-agnus]            SheetStub.java:1655 | Sheet disposed
+2026-10-18 18:27:03,187 INFO [12-agnus]                 Book.java:2050 | End of Stub#1
+2026-10-18 18:27:03,188 INFO [12-agnus]                 Book.java:2057 | End of Book{12-agnus}
+2026-10-18 18:27:03,379 INFO [12-agnus]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-18 18:27:03,382 INFO [12-agnus]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1]
+2026-10-18 18:27:03,387 INFO [12-agnus]        ScoreExporter.java:164  | Score 12-agnus.mvt1 exported to work\music-omr-output\12-agnus.mvt1.mxl
+2026-10-18 18:27:03,389 INFO [12-agnus]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1]
+2026-10-18 18:27:03,397 INFO [12-agnus]        ScoreExporter.java:164  | Score 12-agnus.mvt2 exported to work\music-omr-output\12-agnus.mvt2.mxl
+2026-10-18 18:27:03,483 INFO [12-agnus]                Score.java:181  | Closing {Score 1}
+2026-10-18 18:27:03,483 INFO [12-agnus]                Score.java:181  | Closing {Score 2}

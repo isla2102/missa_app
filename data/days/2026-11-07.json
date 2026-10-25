@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-07",
+  "date": "2026-11-07",
+  "observance": "(녹) 연중 제31주간 토요일",
+  "sourceRefs": [
+    "goodnews-20261107",
+    "user-hwp-202611"
+  ],
+  "sections": [
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<나에게 힘을 주시는 분 안에서 나는 모든 것을 할 수 있습니다.>",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 필리피서 말씀입니다.4,10-19",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분,",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "10 여러분이 나를 생각해 주는 마음을 마침내 다시 한번 보여 주었기에,",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "나는 주님 안에서 크게 기뻐합니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "사실 여러분은 줄곧 나를 생각해 주었지만",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "그것을 보여 줄 기회가 없었던 것입니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "11 내가 궁핍해서 이런 말을 하는 것은 아닙니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "나는 어떠한 처지에서도 만족하는 법을 배웠습니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "12 나는 비천하게 살 줄도 알고 풍족하게 살 줄도 압니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "배부르거나 배고프거나 넉넉하거나 모자라거나",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "그 어떠한 경우에도 잘 지내는 비결을 알고 있습니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "13 나에게 힘을 주시는 분 안에서 나는 모든 것을 할 수 있습니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "14 그러나 내가 겪는 환난에 여러분이 동참한 것은 잘한 일입니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "15 필리피 신자 여러분,",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "복음 선포를 시작할 무렵 내가 마케도니아를 떠날 때,",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "여러분 외에는 나와 주고받는 관계에 있는 교회가 하나도 없었음을",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "여러분도 알고 있습니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "16 내가 테살로니카에 있을 때에도",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "여러분은 두어 번 필요한 것을 보내 주었습니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "17 물론 내가 선물을 바라는 것은 아닙니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "여러분에게 많은 이익이 돌아가기를 바랄 뿐입니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "18 나는 모든 것을 다 받아 넉넉하게 되었습니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "여러분이 에파프로디토스 편에 보낸 것을 받아 풍족합니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "그것은 향기로운 예물이며 하느님 마음에 드는 훌륭한 제물입니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "19 나의 하느님께서는 그리스도 예수님 안에서 영광스럽게 베푸시는",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "당신의 그 풍요로움으로, 여러분에게 필요한 모든 것을 채워 주실 것입니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261107"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 112(111),1ㄴㄷ-2.5-6.8ㄱ과 9(◎ 1ㄴ)",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 행복하여라, 주님을 경외하는 이!",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 행복하여라, 주님을 경외하고, 그분 계명을 큰 즐거움으로 삼는 이! 그의 후손은 땅에서 융성하고, 올곧은 세대는 복을 받으리라. ◎",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 잘되리라, 후하게 꾸어 주고, 자기 일을 바르게 처리하는 이! 그는 언제나 흔들리지 않으리니, 영원히 의인으로 기억되리라. ◎",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 그 마음 굳세어 두려워하지 않네. 가난한 이에게 넉넉히 나누어 주니, 그의 의로움은 길이 이어지고, 그의 뿔은 영광 속에 높이 들리리라. ◎",
+          "sourceRef": "goodnews-20261107"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "2코린 8,9 참조",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 예수 그리스도는 부유하시면서도 우리를 위하여 가난하게 되시어 우리도 그 가난으로 부유해지게 하셨네.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261107"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<너희가 불의한 재물을 다루는 데에 성실하지 못하면 누가 너희에게 참된 것을 맡기겠느냐?>",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.16,9ㄴ-15",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 제자들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "9 “불의한 재물로 친구들을 만들어라.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "그래서 재물이 없어질 때에",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "그들이 너희를 영원한 거처로 맞아들이게 하여라.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "10 아주 작은 일에 성실한 사람은 큰일에도 성실하고,",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "아주 작은 일에 불의한 사람은 큰일에도 불의하다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "11 그러니 너희가 불의한 재물을 다루는 데에 성실하지 못하면,",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "누가 너희에게 참된 것을 맡기겠느냐?",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "12 또 너희가 남의 것을 다루는 데에 성실하지 못하면,",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "누가 너희에게 너희의 몫을 내주겠느냐?",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "13 어떠한 종도 두 주인을 섬길 수 없다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "한쪽은 미워하고 다른 쪽은 사랑하며,",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "한쪽은 떠받들고 다른 쪽은 업신여기게 된다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "너희는 하느님과 재물을 함께 섬길 수 없다.”",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "14 돈을 좋아하는 바리사이들이 이 모든 말씀을 듣고 예수님을 비웃었다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "15 그러자 예수님께서 그들에게 이르셨다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "“너희는 사람들 앞에서 스스로 의롭다고 하는 자들이다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "그러나 하느님께서는 너희 마음을 아신다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "사실 사람들에게 높이 평가되는 것이 하느님 앞에서는 혐오스러운 것이다.”",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261107"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261107"
+        }
+      ]
+    },
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님, 저를 버리지 마소서. 저의 하느님, 저를 멀리하지 마소서. 주님, 제 구원의 힘이시여, 어서 저를 도우소서.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 자비로우신 하느님,\n은총을 베푸시어 저희가 하느님을 합당히 섬기고\n영원한 행복을 바라보며 거침없이 달려가게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 바치는 이 제물을 거룩한 제사로 받아들이시어\n저희에게 주님의 자비를 가득히 베풀어 주소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "주님, 저에게 생명의 길 가르치시니, 당신 얼굴 뵈오며 기쁨에 넘치리이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n천상의 성사로 저희를 새롭게 하셨으니\n저희에게 주님의 힘찬 능력을 드러내시어\n주님께서 약속하신 은혜를 얻게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    }
+  ]
+}

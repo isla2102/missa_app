@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-22",
+  "date": "2026-10-22",
+  "observance": "연중 제29주간 목요일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261022"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "하느님, 당신이 응답해 주시니, 제가 당신께 부르짖나이다.\n귀 기울여 제 말씀 들어 주소서.\n주님, 당신 눈동자처럼 저를 보호하소서. 당신 날개 그늘에 저를 숨겨 주소서.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 영원하신 하느님,\n저희가 언제나 성실한 마음으로\n하느님을 정성껏 섬기게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 자유로운 마음으로 이 예물을 바치오니\n주님의 은총으로 저희를 씻으시어\n저희가 주님께 드리는 이 성찬의 제사로 더욱 깨끗해지게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "보라, 주님의 눈은 당신을 경외하는 이들에게, 당신 자애를 바라는 이들에게 머무르신다. 주님은 죽음에서 목숨을 건지시고, 굶주릴 때 먹여 살리신다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 천상 잔치에 자주 참여하여\n현세에서 도움도 받고 영원한 신비도 배우게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<여러분이 사랑에 뿌리를 내리고 그것을 기초로 삼아 하느님의 온갖 충만하심으로 충만하게 되기를 빕니다.>",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 에페소서 말씀입니다.3,14-21",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분, 14 나는 아버지 앞에 무릎을 꿇습니다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "15 하늘과 땅에 있는 모든 종족이 아버지에게서 이름을 받습니다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "16 아버지께서 당신의 풍성한 영광에 따라 성령을 통하여",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "여러분의 내적 인간이 당신 힘으로 굳세어지게 하시고,",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "17 여러분의 믿음을 통하여 그리스도께서 여러분의 마음 안에 사시게 하시며,",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "여러분이 사랑에 뿌리를 내리고 그것을 기초로 삼게 하시기를 빕니다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "18 그리하여 여러분이 모든 성도와 함께",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "너비와 길이와 높이와 깊이가 어떠한지 깨닫는 능력을 지니고,",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "19 인간의 지각을 뛰어넘는 그리스도의 사랑을 알게 해 주시기를 빕니다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "이렇게 하여 여러분이 하느님의 온갖 충만하심으로 충만하게 되기를 빕니다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "20 우리 안에서 활동하시는 힘으로,",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "우리가 청하거나 생각하는 모든 것보다",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "훨씬 더 풍성히 이루어 주실 수 있는 분,",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "21 그분께 교회 안에서, 그리고 그리스도 예수님 안에서",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "세세 대대로 영원무궁토록 영광이 있기를 빕니다. 아멘.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261022"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 33(32),1-2.4-5.11-12.18-19(◎ 5ㄴ 참조)",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님의 자애가 온 땅에 가득하네.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 의인들아, 주님 안에서 환호하여라. 올곧은 이에게는 찬양이 어울린다. 비파 타며 주님을 찬송하고, 열 줄 수금으로 찬미 노래 불러라. ◎",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 주님의 말씀은 바르고, 그 하신 일 모두 진실하다. 주님은 정의와 공정을 좋아하시네. 그분의 자애가 온 땅에 가득하네. ◎",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님의 뜻은 영원히 이어지고, 그 마음속 계획은 대대로 이어진다. 행복하여라, 주님을 하느님으로 모시는 민족, 그분이 당신 소유로 뽑으신 백성! ◎",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 보라, 주님의 눈은 당신을 경외하는 이들에게, 당신 자애를 바라는 이들에게 머무르신다. 죽음에서 그들의 목숨 건지시고, 굶주릴 때 살리려 하심이네. ◎",
+          "sourceRef": "goodnews-20261022"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "필리 3,8-9 참조",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 나는 그리스도를 얻고 그분 안에 머물려고 모든 것을 해로운 쓰레기로 여기노라.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261022"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<나는 평화를 주러 온 것이 아니라 분열을 일으키러 왔다.>",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.12,49-53",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 제자들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "49 “나는 세상에 불을 지르러 왔다. 그 불이 이미 타올랐으면 얼마나 좋으랴?",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "50 내가 받아야 하는 세례가 있다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "이 일이 다 이루어질 때까지 내가 얼마나 짓눌릴 것인가?",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "51 내가 세상에 평화를 주러 왔다고 생각하느냐? 아니다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "내가 너희에게 말한다. 오히려 분열을 일으키러 왔다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "52 이제부터는 한 집안의 다섯 식구가 서로 갈라져,",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "세 사람이 두 사람에게 맞서고 두 사람이 세 사람에게 맞설 것이다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "53 아버지가 아들에게, 아들이 아버지에게, 어머니가 딸에게, 딸이 어머니에게",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "시어머니가 며느리에게, 며느리가 시어머니에게 맞서 갈라지게 될 것이다.”",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261022"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261022"
+        }
+      ]
+    }
+  ]
+}

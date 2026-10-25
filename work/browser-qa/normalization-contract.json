@@ -1,0 +1,12 @@
+{
+  "restoreStyled": true,
+  "cancelStyled": true,
+  "factory": true,
+  "underlined": false,
+  "ui": {
+    "family": "\"Malgun Gothic\", system-ui, sans-serif",
+    "size": "16px",
+    "primary": true
+  },
+  "seasonButtonsStyled": true
+}

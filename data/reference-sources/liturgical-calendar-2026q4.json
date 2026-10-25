@@ -1,0 +1,749 @@
+{
+  "scope": "2026-10-01 through 2026-12-31; temporal season/week information, not a full precedence calendar",
+  "sourceUrl": "https://missa.cbck.or.kr/Liturgy",
+  "checkedAt": "2026-10-24",
+  "anchors": {
+    "ordinaryWeek34Sunday": "2026-11-22",
+    "adventFirstSunday": "2026-11-29",
+    "christmas": "2026-12-25"
+  },
+  "method": "Sunday-based week arithmetic using official 2026 anchors; Christmas octave day count; independent of selected Mass observance",
+  "days": [
+    {
+      "date": "2026-10-01",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 26,
+      "weekday": "목요일",
+      "label": "제26주간 목요일"
+    },
+    {
+      "date": "2026-10-02",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 26,
+      "weekday": "금요일",
+      "label": "제26주간 금요일"
+    },
+    {
+      "date": "2026-10-03",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 26,
+      "weekday": "토요일",
+      "label": "제26주간 토요일"
+    },
+    {
+      "date": "2026-10-04",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 27,
+      "weekday": "주일",
+      "label": "제27주일"
+    },
+    {
+      "date": "2026-10-05",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 27,
+      "weekday": "월요일",
+      "label": "제27주간 월요일"
+    },
+    {
+      "date": "2026-10-06",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 27,
+      "weekday": "화요일",
+      "label": "제27주간 화요일"
+    },
+    {
+      "date": "2026-10-07",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 27,
+      "weekday": "수요일",
+      "label": "제27주간 수요일"
+    },
+    {
+      "date": "2026-10-08",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 27,
+      "weekday": "목요일",
+      "label": "제27주간 목요일"
+    },
+    {
+      "date": "2026-10-09",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 27,
+      "weekday": "금요일",
+      "label": "제27주간 금요일"
+    },
+    {
+      "date": "2026-10-10",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 27,
+      "weekday": "토요일",
+      "label": "제27주간 토요일"
+    },
+    {
+      "date": "2026-10-11",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 28,
+      "weekday": "주일",
+      "label": "제28주일"
+    },
+    {
+      "date": "2026-10-12",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 28,
+      "weekday": "월요일",
+      "label": "제28주간 월요일"
+    },
+    {
+      "date": "2026-10-13",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 28,
+      "weekday": "화요일",
+      "label": "제28주간 화요일"
+    },
+    {
+      "date": "2026-10-14",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 28,
+      "weekday": "수요일",
+      "label": "제28주간 수요일"
+    },
+    {
+      "date": "2026-10-15",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 28,
+      "weekday": "목요일",
+      "label": "제28주간 목요일"
+    },
+    {
+      "date": "2026-10-16",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 28,
+      "weekday": "금요일",
+      "label": "제28주간 금요일"
+    },
+    {
+      "date": "2026-10-17",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 28,
+      "weekday": "토요일",
+      "label": "제28주간 토요일"
+    },
+    {
+      "date": "2026-10-18",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 29,
+      "weekday": "주일",
+      "label": "제29주일"
+    },
+    {
+      "date": "2026-10-19",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 29,
+      "weekday": "월요일",
+      "label": "제29주간 월요일"
+    },
+    {
+      "date": "2026-10-20",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 29,
+      "weekday": "화요일",
+      "label": "제29주간 화요일"
+    },
+    {
+      "date": "2026-10-21",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 29,
+      "weekday": "수요일",
+      "label": "제29주간 수요일"
+    },
+    {
+      "date": "2026-10-22",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 29,
+      "weekday": "목요일",
+      "label": "제29주간 목요일"
+    },
+    {
+      "date": "2026-10-23",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 29,
+      "weekday": "금요일",
+      "label": "제29주간 금요일"
+    },
+    {
+      "date": "2026-10-24",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 29,
+      "weekday": "토요일",
+      "label": "제29주간 토요일"
+    },
+    {
+      "date": "2026-10-25",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 30,
+      "weekday": "주일",
+      "label": "제30주일"
+    },
+    {
+      "date": "2026-10-26",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 30,
+      "weekday": "월요일",
+      "label": "제30주간 월요일"
+    },
+    {
+      "date": "2026-10-27",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 30,
+      "weekday": "화요일",
+      "label": "제30주간 화요일"
+    },
+    {
+      "date": "2026-10-28",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 30,
+      "weekday": "수요일",
+      "label": "제30주간 수요일"
+    },
+    {
+      "date": "2026-10-29",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 30,
+      "weekday": "목요일",
+      "label": "제30주간 목요일"
+    },
+    {
+      "date": "2026-10-30",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 30,
+      "weekday": "금요일",
+      "label": "제30주간 금요일"
+    },
+    {
+      "date": "2026-10-31",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 30,
+      "weekday": "토요일",
+      "label": "제30주간 토요일"
+    },
+    {
+      "date": "2026-11-01",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 31,
+      "weekday": "주일",
+      "label": "제31주일"
+    },
+    {
+      "date": "2026-11-02",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 31,
+      "weekday": "월요일",
+      "label": "제31주간 월요일"
+    },
+    {
+      "date": "2026-11-03",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 31,
+      "weekday": "화요일",
+      "label": "제31주간 화요일"
+    },
+    {
+      "date": "2026-11-04",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 31,
+      "weekday": "수요일",
+      "label": "제31주간 수요일"
+    },
+    {
+      "date": "2026-11-05",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 31,
+      "weekday": "목요일",
+      "label": "제31주간 목요일"
+    },
+    {
+      "date": "2026-11-06",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 31,
+      "weekday": "금요일",
+      "label": "제31주간 금요일"
+    },
+    {
+      "date": "2026-11-07",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 31,
+      "weekday": "토요일",
+      "label": "제31주간 토요일"
+    },
+    {
+      "date": "2026-11-08",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 32,
+      "weekday": "주일",
+      "label": "제32주일"
+    },
+    {
+      "date": "2026-11-09",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 32,
+      "weekday": "월요일",
+      "label": "제32주간 월요일"
+    },
+    {
+      "date": "2026-11-10",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 32,
+      "weekday": "화요일",
+      "label": "제32주간 화요일"
+    },
+    {
+      "date": "2026-11-11",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 32,
+      "weekday": "수요일",
+      "label": "제32주간 수요일"
+    },
+    {
+      "date": "2026-11-12",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 32,
+      "weekday": "목요일",
+      "label": "제32주간 목요일"
+    },
+    {
+      "date": "2026-11-13",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 32,
+      "weekday": "금요일",
+      "label": "제32주간 금요일"
+    },
+    {
+      "date": "2026-11-14",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 32,
+      "weekday": "토요일",
+      "label": "제32주간 토요일"
+    },
+    {
+      "date": "2026-11-15",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 33,
+      "weekday": "주일",
+      "label": "제33주일"
+    },
+    {
+      "date": "2026-11-16",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 33,
+      "weekday": "월요일",
+      "label": "제33주간 월요일"
+    },
+    {
+      "date": "2026-11-17",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 33,
+      "weekday": "화요일",
+      "label": "제33주간 화요일"
+    },
+    {
+      "date": "2026-11-18",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 33,
+      "weekday": "수요일",
+      "label": "제33주간 수요일"
+    },
+    {
+      "date": "2026-11-19",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 33,
+      "weekday": "목요일",
+      "label": "제33주간 목요일"
+    },
+    {
+      "date": "2026-11-20",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 33,
+      "weekday": "금요일",
+      "label": "제33주간 금요일"
+    },
+    {
+      "date": "2026-11-21",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 33,
+      "weekday": "토요일",
+      "label": "제33주간 토요일"
+    },
+    {
+      "date": "2026-11-22",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 34,
+      "weekday": "주일",
+      "label": "제34주일"
+    },
+    {
+      "date": "2026-11-23",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 34,
+      "weekday": "월요일",
+      "label": "제34주간 월요일"
+    },
+    {
+      "date": "2026-11-24",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 34,
+      "weekday": "화요일",
+      "label": "제34주간 화요일"
+    },
+    {
+      "date": "2026-11-25",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 34,
+      "weekday": "수요일",
+      "label": "제34주간 수요일"
+    },
+    {
+      "date": "2026-11-26",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 34,
+      "weekday": "목요일",
+      "label": "제34주간 목요일"
+    },
+    {
+      "date": "2026-11-27",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 34,
+      "weekday": "금요일",
+      "label": "제34주간 금요일"
+    },
+    {
+      "date": "2026-11-28",
+      "seasonKey": "ordinary",
+      "seasonLabel": "연중",
+      "week": 34,
+      "weekday": "토요일",
+      "label": "제34주간 토요일"
+    },
+    {
+      "date": "2026-11-29",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 1,
+      "weekday": "주일",
+      "label": "제1주일"
+    },
+    {
+      "date": "2026-11-30",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 1,
+      "weekday": "월요일",
+      "label": "제1주간 월요일"
+    },
+    {
+      "date": "2026-12-01",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 1,
+      "weekday": "화요일",
+      "label": "제1주간 화요일"
+    },
+    {
+      "date": "2026-12-02",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 1,
+      "weekday": "수요일",
+      "label": "제1주간 수요일"
+    },
+    {
+      "date": "2026-12-03",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 1,
+      "weekday": "목요일",
+      "label": "제1주간 목요일"
+    },
+    {
+      "date": "2026-12-04",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 1,
+      "weekday": "금요일",
+      "label": "제1주간 금요일"
+    },
+    {
+      "date": "2026-12-05",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 1,
+      "weekday": "토요일",
+      "label": "제1주간 토요일"
+    },
+    {
+      "date": "2026-12-06",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 2,
+      "weekday": "주일",
+      "label": "제2주일"
+    },
+    {
+      "date": "2026-12-07",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 2,
+      "weekday": "월요일",
+      "label": "제2주간 월요일"
+    },
+    {
+      "date": "2026-12-08",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 2,
+      "weekday": "화요일",
+      "label": "제2주간 화요일"
+    },
+    {
+      "date": "2026-12-09",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 2,
+      "weekday": "수요일",
+      "label": "제2주간 수요일"
+    },
+    {
+      "date": "2026-12-10",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 2,
+      "weekday": "목요일",
+      "label": "제2주간 목요일"
+    },
+    {
+      "date": "2026-12-11",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 2,
+      "weekday": "금요일",
+      "label": "제2주간 금요일"
+    },
+    {
+      "date": "2026-12-12",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 2,
+      "weekday": "토요일",
+      "label": "제2주간 토요일"
+    },
+    {
+      "date": "2026-12-13",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 3,
+      "weekday": "주일",
+      "label": "제3주일"
+    },
+    {
+      "date": "2026-12-14",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 3,
+      "weekday": "월요일",
+      "label": "제3주간 월요일"
+    },
+    {
+      "date": "2026-12-15",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 3,
+      "weekday": "화요일",
+      "label": "제3주간 화요일"
+    },
+    {
+      "date": "2026-12-16",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 3,
+      "weekday": "수요일",
+      "label": "제3주간 수요일"
+    },
+    {
+      "date": "2026-12-17",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 3,
+      "weekday": "목요일",
+      "label": "제3주간 목요일"
+    },
+    {
+      "date": "2026-12-18",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 3,
+      "weekday": "금요일",
+      "label": "제3주간 금요일"
+    },
+    {
+      "date": "2026-12-19",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 3,
+      "weekday": "토요일",
+      "label": "제3주간 토요일"
+    },
+    {
+      "date": "2026-12-20",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 4,
+      "weekday": "주일",
+      "label": "제4주일"
+    },
+    {
+      "date": "2026-12-21",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 4,
+      "weekday": "월요일",
+      "label": "제4주간 월요일"
+    },
+    {
+      "date": "2026-12-22",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 4,
+      "weekday": "화요일",
+      "label": "제4주간 화요일"
+    },
+    {
+      "date": "2026-12-23",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 4,
+      "weekday": "수요일",
+      "label": "제4주간 수요일"
+    },
+    {
+      "date": "2026-12-24",
+      "seasonKey": "advent",
+      "seasonLabel": "대림",
+      "week": 4,
+      "weekday": "목요일",
+      "label": "제4주간 목요일"
+    },
+    {
+      "date": "2026-12-25",
+      "seasonKey": "christmas",
+      "seasonLabel": "성탄",
+      "week": null,
+      "weekday": "금요일",
+      "label": "주님 성탄 대축일"
+    },
+    {
+      "date": "2026-12-26",
+      "seasonKey": "christmas",
+      "seasonLabel": "성탄",
+      "week": null,
+      "weekday": "토요일",
+      "label": "팔일 축제 제2일"
+    },
+    {
+      "date": "2026-12-27",
+      "seasonKey": "christmas",
+      "seasonLabel": "성탄",
+      "week": null,
+      "weekday": "주일",
+      "label": "팔일 축제 제3일"
+    },
+    {
+      "date": "2026-12-28",
+      "seasonKey": "christmas",
+      "seasonLabel": "성탄",
+      "week": null,
+      "weekday": "월요일",
+      "label": "팔일 축제 제4일"
+    },
+    {
+      "date": "2026-12-29",
+      "seasonKey": "christmas",
+      "seasonLabel": "성탄",
+      "week": null,
+      "weekday": "화요일",
+      "label": "팔일 축제 제5일"
+    },
+    {
+      "date": "2026-12-30",
+      "seasonKey": "christmas",
+      "seasonLabel": "성탄",
+      "week": null,
+      "weekday": "수요일",
+      "label": "팔일 축제 제6일"
+    },
+    {
+      "date": "2026-12-31",
+      "seasonKey": "christmas",
+      "seasonLabel": "성탄",
+      "week": null,
+      "weekday": "목요일",
+      "label": "팔일 축제 제7일"
+    }
+  ]
+}

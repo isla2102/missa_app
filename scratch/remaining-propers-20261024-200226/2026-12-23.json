@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-23",
+  "date": "2026-12-23",
+  "observance": "(자) 12월 23일",
+  "sourceRefs": [
+    "goodnews-20261223"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<주님의 날이 오기 전에 내가 너희에게 엘리야 예언자를 보내리라.>",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 말라키 예언서의 말씀입니다.3,1-4.23-24",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "주 하느님께서 이렇게 말씀하신다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "1 “보라, 내가 나의 사자를 보내니 그가 내 앞에서 길을 닦으리라.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "너희가 찾던 주님, 그가 홀연히 자기 성전으로 오리라.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "너희가 좋아하는 계약의 사자",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "보라, 그가 온다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "─ 만군의 주님께서 말씀하신다. ─",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "2 그가 오는 날을 누가 견디어 내며",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "그가 나타날 때에 누가 버티고 서 있을 수 있겠느냐?",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "그는 제련사의 불 같고 염색공의 잿물 같으리라.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "3 그는 은 제련사와 정련사처럼 앉아 레위의 자손들을 깨끗하게 하고",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "그들을 금과 은처럼 정련하여 주님에게 의로운 제물을 바치게 하리라.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "4 그러면 유다와 예루살렘의 제물이 옛날처럼, 지난날처럼 주님 마음에 들리라.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "23 보라, 주님의 크고 두려운 날이 오기 전에",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "내가 너희에게 엘리야 예언자를 보내리라.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "24 그가 부모의 마음을 자녀에게 돌리고 자녀의 마음을 부모에게 돌리리라.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "그래야 내가 와서 이 땅을 파멸로 내리치지 않으리라.”",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261223"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 25(24),4-5ㄱㄴ.8-9.10과 14(◎ 루카 21,28)",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 허리를 펴고 머리를 들어라. 너희의 속량이 가까웠다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님, 당신의 길을 알려 주시고, 당신의 행로를 가르쳐 주소서. 저를 가르치시어 당신 진리로 이끄소서. 당신은 제 구원의 하느님이시옵니다. ◎",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 주님은 어질고 바르시니, 죄인들에게도 길을 가르치신다. 가련한 이 올바른 길 걷게 하시고, 가난한 이 당신 길 알게 하신다. ◎",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님의 계약과 법규를 지키는 이들에게, 주님의 모든 길은 자애와 진실이라네. 주님은 당신을 경외하는 이와 사귀시고, 당신의 계약 그들에게 알려 주신다. ◎",
+          "sourceRef": "goodnews-20261223"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 민족들의 임금님, 교회의 모퉁잇돌이신 주님, 어서 오소서. 흙으로 빚으신 사람을 구원하소서.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261223"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<세례자 요한의 탄생>",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.1,57-66",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "57 엘리사벳은 해산달이 차서 아들을 낳았다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "58 이웃과 친척들은 주님께서 엘리사벳에게 큰 자비를 베푸셨다는 것을 듣고,",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "그와 함께 기뻐하였다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "59 여드레째 되는 날, 그들은 아기의 할례식에 갔다가",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "아버지의 이름을 따서 아기를 즈카르야라고 부르려 하였다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "60 그러나 아기 어머니는 “안 됩니다. 요한이라고 불러야 합니다.” 하고 말하였다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "61 그들은 “당신의 친척 가운데에는 그런 이름을 가진 이가 없습니다.” 하며,",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "62 그 아버지에게 아기의 이름을 무엇이라 하겠느냐고 손짓으로 물었다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "63 즈카르야는 글 쓰는 판을 달라고 하여 ‘그의 이름은 요한’이라고 썼다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "그러자 모두 놀라워하였다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "64 그때에 즈카르야는 즉시 입이 열리고 혀가 풀려",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "말을 하기 시작하면서 하느님을 찬미하였다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "65 그리하여 이웃이 모두 두려움에 휩싸였다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "그리고 이 모든 일이 유다의 온 산악 지방에서 화제가 되었다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "66 소문을 들은 이들은 모두 그것을 마음에 새기며,",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "“이 아기가 대체 무엇이 될 것인가?” 하고 말하였다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "정녕 주님의 손길이 그를 보살피고 계셨던 것이다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261223"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261223"
+        }
+      ]
+    }
+  ]
+}

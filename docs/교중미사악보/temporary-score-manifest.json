@@ -1,0 +1,146 @@
+{
+  "status": "temporary-user-provided",
+  "defaultSession": "main",
+  "attachmentsOnlyFor": "main",
+  "rightsStatus": "unverified",
+  "files": [
+    {
+      "file": "KakaoTalk_20261018_172809020.jpg",
+      "sha256": "0f50ff6563a9ce3652bc3f1986a96fa876d754dc321e97ab9d6c3a497c0cb93e"
+    },
+    {
+      "file": "KakaoTalk_20261018_172809020_01.jpg",
+      "sha256": "d03f0f5f5d1fc0737a3054c52a73ff72dfe6d5b610e7903bd64ffc273b38f5df"
+    },
+    {
+      "file": "KakaoTalk_20261018_172809020_02.jpg",
+      "sha256": "565d731fab1664f3aad3c57db7a159ba7a597f251e4538959a1923cbe446039e"
+    },
+    {
+      "file": "KakaoTalk_20261018_172809020_03.jpg",
+      "sha256": "627f8c0bbcf5b80ab4a2b36756c844c0697f33269b16e8b0002b33ab20ac8b37"
+    },
+    {
+      "file": "KakaoTalk_20261018_172809020_04.jpg",
+      "sha256": "334ba444c89ada5c7260a7c0c2b2a0f0b437124734536a04c9f3e110f2910d3d"
+    },
+    {
+      "file": "KakaoTalk_20261018_172809020_05.jpg",
+      "sha256": "92d850557b6cabb5fc101d6879e1afaf972f3c3bac28b30bc97c34a971053dff"
+    },
+    {
+      "file": "KakaoTalk_20261018_172809020_06.jpg",
+      "sha256": "98d9613fc7e5c223fecaf893e5b268860dc61af8292288efc13450ea99f0e433"
+    },
+    {
+      "file": "KakaoTalk_20261018_172809020_07.jpg",
+      "sha256": "eb711b74cf62a96b83baaadf5ab9051c4f5436852fea9d48a5e9ed19f596f7b8"
+    }
+  ],
+  "mapping": {
+    "자비송": [
+      {
+        "path": "../docs/교중미사악보/KakaoTalk_20261018_172809020.jpg",
+        "title": "자비송",
+        "rotation": 0,
+        "width": 3000,
+        "height": 4000,
+        "temporary": true,
+        "source": "user-provided",
+        "licenseStatus": "unverified"
+      }
+    ],
+    "대영광송": [
+      {
+        "path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_01.jpg",
+        "title": "대영광송 앞부분",
+        "rotation": -90,
+        "width": 3000,
+        "height": 4000,
+        "temporary": true,
+        "source": "user-provided",
+        "licenseStatus": "unverified"
+      },
+      {
+        "path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_02.jpg",
+        "title": "대영광송 이어지는 부분",
+        "rotation": 180,
+        "width": 4000,
+        "height": 3000,
+        "temporary": true,
+        "source": "user-provided",
+        "licenseStatus": "unverified"
+      }
+    ],
+    "거룩하시도다 · 신앙의 신비여": [
+      {
+        "path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_03.jpg",
+        "title": "거룩하시도다 · 신앙의 신비여 (함께 촬영)",
+        "rotation": 180,
+        "width": 4000,
+        "height": 3000,
+        "temporary": true,
+        "source": "user-provided",
+        "licenseStatus": "unverified"
+      }
+    ],
+    "아멘": [
+      {
+        "path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_04.jpg",
+        "title": "아멘",
+        "rotation": 0,
+        "width": 3000,
+        "height": 4000,
+        "temporary": true,
+        "source": "user-provided",
+        "licenseStatus": "unverified"
+      }
+    ],
+    "주님의 기도": [
+      {
+        "path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_05.jpg",
+        "title": "주님의 기도 앞부분",
+        "rotation": 0,
+        "width": 3000,
+        "height": 4000,
+        "temporary": true,
+        "source": "user-provided",
+        "licenseStatus": "unverified"
+      },
+      {
+        "path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_06.jpg",
+        "title": "주님의 기도 이어지는 부분",
+        "rotation": 0,
+        "width": 3000,
+        "height": 4000,
+        "temporary": true,
+        "source": "user-provided",
+        "licenseStatus": "unverified"
+      }
+    ],
+    "주님의 기도 맺음 환호": [
+      {
+        "path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_07.jpg",
+        "title": "주님의 기도 맺음 환호 · 하느님의 어린양 (함께 촬영)",
+        "rotation": 0,
+        "width": 3000,
+        "height": 4000,
+        "temporary": true,
+        "source": "user-provided",
+        "licenseStatus": "unverified"
+      }
+    ],
+    "하느님의 어린양": [
+      {
+        "path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_07.jpg",
+        "title": "하느님의 어린양 · 주님의 기도 맺음 환호 (함께 촬영)",
+        "rotation": 0,
+        "width": 3000,
+        "height": 4000,
+        "temporary": true,
+        "source": "user-provided",
+        "licenseStatus": "unverified"
+      }
+    ]
+  }
+}

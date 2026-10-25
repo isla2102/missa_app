@@ -1,0 +1,3663 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "label": "2026-10-01 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 existing proper sections unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 existing proper sections unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 schema/source refs"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 입당송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 입당송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 본기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 본기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 예물 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 예물 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 영성체송 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 영성체송 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 영성체 후 기도 record text equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 영성체 후 기도 next instructions separate"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 selects own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 observance"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 본기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 본기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 본기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 예물 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 예물 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 예물 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 preface not merged into offertory"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 영성체 후 기도 visible own text"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 영성체 후 기도 single Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 영성체 후 기도 date source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 own GoodNews Gospel"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 partial status"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 mode regular same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 mode beginner same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 slot dawn same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 slot main same document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 slot youth same document"
+    },
+    {
+      "pass": true,
+      "label": "outside linked month missing"
+    },
+    {
+      "pass": true,
+      "label": "outside month no stale prayer"
+    },
+    {
+      "pass": true,
+      "label": "representative actual page contains Oct25 prayer"
+    },
+    {
+      "pass": true,
+      "label": "October date restored after reload"
+    }
+  ],
+  "errors": [],
+  "dates": 31,
+  "scope": "proper-text/date/mode/session; not complete lectionary or visual source proof"
+}

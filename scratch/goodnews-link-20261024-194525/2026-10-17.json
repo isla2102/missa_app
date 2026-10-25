@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-17",
+  "date": "2026-10-17",
+  "observance": "안티오키아의 성 이냐시오 주교 순교자 기념일",
+  "sourceRefs": [
+    "user-hwp-202610"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "나는 그리스도와 함께 십자가에 못 박혔으니, 이제는 내가 사는 것이 아니라 그리스도가 내 안에 사시는 것이다. 나는 나를 사랑하시고 나를 위하여 당신 자신을 바치신 하느님의 아드님에 대한 믿음으로 사노라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 영원하신 하느님,\n거룩한 순교자들의 신앙 고백으로\n그리스도의 신비체인 교회를 영광스럽게 하시니\n순교로 불멸의 월계관을 받은 복된 이냐시오를 본받아\n저희도 굳센 믿음으로 영원한 구원에 이르게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n복된 이냐시오가 순교로 그리스도의 밀알이 되어\n주님께 깨끗한 빵을 봉헌하였으니\n저희가 정성껏 바치는 이 제물을 받아 주소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "나는 그리스도의 밀알이다. 짐승들의 이빨에 가루가 되어 깨끗한 빵이 되리라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n복된 이냐시오의 천상 탄일에 하늘의 양식을 받아 모셨으니\n저희가 새로운 힘을 얻어\n말과 행동으로 참된 그리스도인이 되게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

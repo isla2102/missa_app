@@ -1,0 +1,4649 @@
+{
+  "month": "2026-10",
+  "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+  "sha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+  "newDocuments": 29,
+  "totalDates": 31,
+  "verification": "HWP record text, explicit headings, unique prayer ending and date boundaries; not full visual proofreading",
+  "entries": [
+    {
+      "date": "2026-10-01",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 신명 32,10-12 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 8762,
+              "paragraph": 38,
+              "text": "주님은 그를 감싸안아 돌보아 주시고, 당신 눈동자처럼 지켜 주셨네. 독수리가 날개를 펴서 새끼를 들어 올려 죽지 위에 얹어 나르듯, 주님 홀로 그를 인도하셨네."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "81b4cfc011609684faaaa6b11f60852de471c3dffc276a790aeb382e46c4826e"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 9234,
+              "paragraph": 40,
+              "text": "하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 9328,
+              "paragraph": 41,
+              "text": "비천한 이들과 어린아이들을 하느님의 나라로 이끌어 주시니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 9476,
+              "paragraph": 42,
+              "text": "저희가 복된 데레사의 길을 충실히 따라"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 9604,
+              "paragraph": 43,
+              "text": "그의 전구로 하느님의 영원한 영광을 뵈옵게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 9746,
+              "paragraph": 44,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 9902,
+              "paragraph": 45,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "ea76a769f4f52096719c3c746bc4839d1a11255074919ef54f9b5053f7b721a8"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 10210,
+              "paragraph": 47,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 10302,
+              "paragraph": 48,
+              "text": "복된 데레사를 기리는 저희가 놀라우신 주님을 찬양하며"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 10446,
+              "paragraph": 49,
+              "text": "지극히 높으신 주님 앞에 엎드려 청하오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 10576,
+              "paragraph": 50,
+              "text": "그의 공로를 기꺼워하셨듯이"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 10690,
+              "paragraph": 51,
+              "text": "저희가 바치는 제사도 기쁘게 받아 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 10822,
+              "paragraph": 52,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f4d78c5689f5d789620c8fc71fa2b4e724df74c8102a46fcf40405142a041060"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 마태 18,3 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 11166,
+              "paragraph": 54,
+              "text": "주님이 말씀하신다. 너희가 회개하여 어린이처럼 되지 않으면, 결코 하늘 나라에 들어가지 못하리라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "eeab3fa4c85864cd550351397c15da6198a0239b22d698318efe02a28f6dcafd"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 11658,
+              "paragraph": 56,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 11750,
+              "paragraph": 57,
+              "text": "저희가 받아 모신 성체의 힘으로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 11870,
+              "paragraph": 58,
+              "text": "복된 데레사가 주님께 바친 그 사랑이 저희 안에서도 타오르게 하시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 12030,
+              "paragraph": 59,
+              "text": "저희가 모든 사람의 구원을 위하여 자신을 바치게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 12178,
+              "paragraph": 60,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "53f83c463a5a5a4b02cdfa534688053da8d9ec01497b3d602eff0ced48a118a9"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 다니 3,58 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 13236,
+              "paragraph": 65,
+              "text": "주님의 모든 천사들아, 주님을 찬미하여라. 영원히 찬송하고 찬양하여라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "fde14d8f325194875ab31992056324b8f1d0228b4d083d9fe13cd42b6e2f48c0"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 13572,
+              "paragraph": 67,
+              "text": "하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 13666,
+              "paragraph": 68,
+              "text": "놀라우신 섭리로 천사들을 보내시어 저희를 지켜 주시니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 13810,
+              "paragraph": 69,
+              "text": "저희가 사는 동안 천사들의 보호를 받다가"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 13940,
+              "paragraph": 70,
+              "text": "마침내 천사들과 함께 영원한 기쁨을 누리게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 14082,
+              "paragraph": 71,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 14238,
+              "paragraph": 72,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "ac55c49bc87f16f670c9c4169f9d22979acb833698663bf981adb27e4857a7f4"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 14546,
+              "paragraph": 74,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 14638,
+              "paragraph": 75,
+              "text": "주님의 천사들을 공경하며 바치는 이 예물을 받으시고 자비를 베푸시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 14798,
+              "paragraph": 76,
+              "text": "저희가 언제나 천사들의 보호로 현세의 모든 위험을 이겨 내고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 14950,
+              "paragraph": 77,
+              "text": "마침내 영원한 생명을 얻게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 15074,
+              "paragraph": 78,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 15280,
+              "paragraph": 79,
+              "text": "감사송 <천사들이 드러내는 하느님의 영광>"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 15420,
+              "paragraph": 80,
+              "text": "거룩하신 아버지, 전능하시고 영원하신 주 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 15560,
+              "paragraph": 81,
+              "text": "언제나 어디서나 아버지께 감사함이"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 15682,
+              "paragraph": 82,
+              "text": "참으로 마땅하고 옳은 일이며 저희 도리요 구원의 길이옵니다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 15914,
+              "paragraph": 83,
+              "text": "저희는 아버지께서 창조하신 천사들과 대천사들에게"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 16052,
+              "paragraph": 84,
+              "text": "더없는 사랑과 존경을 드리나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 16174,
+              "paragraph": 85,
+              "text": "그들은 아버지의 영광과 위엄을 끊임없이 찬미하며"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 16312,
+              "paragraph": 86,
+              "text": "우리 주 그리스도를 통하여"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 16426,
+              "paragraph": 87,
+              "text": "아버지께서 만물 위에 가장 드높으신 분임을 드러내고 있나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 16900,
+              "paragraph": 88,
+              "text": "그리스도를 통하여 주님 앞에서"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 17018,
+              "paragraph": 89,
+              "text": "천사들의 군대가 영원히 기뻐하며"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 17138,
+              "paragraph": 90,
+              "text": "주님의 위엄을 흠숭하오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 17250,
+              "paragraph": 91,
+              "text": "저희도 환호하며 그들과 소리를 모아 주님을 찬미하나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 17398,
+              "paragraph": 92,
+              "text": "◎ 거룩하시도다! ……."
+            }
+          ],
+          "textSha256": "a3538aa97d95c6fa1b28c3531afb11fd5cee04f04ac86fe7c6b7d0a9bceaff4f"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 138(137),1 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 17754,
+              "paragraph": 94,
+              "text": "저의 하느님, 천사들 앞에서 당신께 찬미 노래 부르나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "24b4b67babb4dc1b1af3321047a225178221a8c8823c1f24082e5142d6d8f405"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 18086,
+              "paragraph": 96,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 18178,
+              "paragraph": 97,
+              "text": "이 성사로 영원한 생명의 양식을 주시니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 18306,
+              "paragraph": 98,
+              "text": "천사들의 도움으로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 18410,
+              "paragraph": 99,
+              "text": "저희가 평화와 구원의 길을 걷게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 18540,
+              "paragraph": 100,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "11a8b9e283020a71f27148fdc608d49b993080bb3a1ab3873a85c29f504098dc"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 다니 3,29.30.31.43.42 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 19622,
+              "paragraph": 105,
+              "text": "주님, 저희가 당신께 죄를 짓고 당신 계명을 따르지 않았기에,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 19778,
+              "paragraph": 106,
+              "text": "당신은 진실한 판결에 따라 저희에게 그 모든 것을 하셨나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 19934,
+              "paragraph": 107,
+              "text": "당신의 이름을 영광스럽게 하소서. 저희에게 크신 자비를 베푸소서."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "3e5a931b3c061a68add45cbfceb5028870d69763d8e94da0dd61f1f908b1c5a2"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 20264,
+              "paragraph": 109,
+              "text": "전능하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 20368,
+              "paragraph": 110,
+              "text": "크신 자비와 용서를 베푸시고 끊임없이 은총을 내려 주시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 20516,
+              "paragraph": 111,
+              "text": "약속하신 그곳으로 저희가 달려가"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 20636,
+              "paragraph": 112,
+              "text": "영원한 행복을 누리게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 20754,
+              "paragraph": 113,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 20910,
+              "paragraph": 114,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "7524e8a4a9e17ae9575606fadc76bcd1558568066d356e7b2c2688c17cd68431"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 21218,
+              "paragraph": 116,
+              "text": "자비로우신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 21324,
+              "paragraph": 117,
+              "text": "저희가 드리는 예물을 받아들이시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 21446,
+              "paragraph": 118,
+              "text": "이 제사로 저희에게 온갖 복을 내려 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 21580,
+              "paragraph": 119,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "2d120e3fca69065d60ea823a577958b921dd4f1a410de02c754a95fe1aca7fba"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 119(118),49-50 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 21944,
+              "paragraph": 121,
+              "text": "주님, 당신 종에게 하신 말씀을 기억하소서. 저는 그 말씀에 희망을 두었나이다. 당신 말씀 고통 속에서도 위로가 되나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e4bd8328eaf9ae801e1d93fe220c3981cbe89ff7005ee45e88c93b9f87aa9d6d"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 22384,
+              "paragraph": 123,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 22476,
+              "paragraph": 124,
+              "text": "천상 신비로 저희 몸과 마음을 새롭게 하시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 22610,
+              "paragraph": 125,
+              "text": "저희가 그리스도의 죽음을 전하며 그 수난에 참여하고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 22752,
+              "paragraph": 126,
+              "text": "그 영광도 함께 누리게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 22872,
+              "paragraph": 127,
+              "text": "성자께서는 영원히 살아 계시며 다스리시나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "98bc21dd9d167fa8ba87ea1a72f60dce6dca03edbd9573c8c58f4b5a21392e86"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 에스 4,17②-③참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 23936,
+              "paragraph": 132,
+              "text": "주님, 모든 것이 당신의 권능 안에 있어, 당신 뜻을 거스를 자 없나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 24106,
+              "paragraph": 133,
+              "text": "당신이 하늘과 땅을 지으시고 하늘 아래 모든 것을 만드셨으니,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 24262,
+              "paragraph": 134,
+              "text": "당신은 만물의 주님이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 24380,
+              "paragraph": 135,
+              "text": "<대영광송>"
+            }
+          ],
+          "textSha256": "e370aafb4fa5e017491edbc303bb81cfb43eae8a5d9c89f4f258cb894584dfe0"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 24650,
+              "paragraph": 137,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 24766,
+              "paragraph": 138,
+              "text": "저희 공로와 소망보다 더 큰 은혜를 베풀어 주시니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 24906,
+              "paragraph": 139,
+              "text": "저희 기도를 들으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 25014,
+              "paragraph": 140,
+              "text": "양심의 가책을 받은 저희 죄를 용서하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 25144,
+              "paragraph": 141,
+              "text": "감히 청하지 못하는 은혜도 내려 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 25274,
+              "paragraph": 142,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 25430,
+              "paragraph": 143,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 25562,
+              "paragraph": 144,
+              "text": "<신경>"
+            }
+          ],
+          "textSha256": "dc13d5d96e248327736ece7b90ad93ec9a9895497aec9b19da45c30975ac920b"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 25832,
+              "paragraph": 146,
+              "text": "주님, 주님께서 세우신 이 제사를 받아들이시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 25968,
+              "paragraph": 147,
+              "text": "저희가 정성을 다하여 마땅히 거행하는 이 거룩한 신비로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 26114,
+              "paragraph": 148,
+              "text": "저희를 거룩하게 하시고 주님의 구원을 이루소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 26252,
+              "paragraph": 149,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 26378,
+              "paragraph": 150,
+              "text": "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+            }
+          ],
+          "textSha256": "116d9f6e5c1b73c0e92ab3173100fe1ab0b4008d130ead7da2911a4f006c30bd"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 애가 3,25",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 26736,
+              "paragraph": 152,
+              "text": "당신을 바라는 이에게, 당신을 찾는 영혼에게 주님은 좋으신 분."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9a5b36f6d0a2c4e5fb9a3923f1c0450418987d02fef6ed377d5672df793c55b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 27074,
+              "paragraph": 154,
+              "text": "전능하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 27178,
+              "paragraph": 155,
+              "text": "성체를 받아 모신 저희가 이 성사의 힘으로 자라나"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 27318,
+              "paragraph": 156,
+              "text": "마침내 그리스도와 하나 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 27444,
+              "paragraph": 157,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "17e009b77f25fcb2ff9e19cbe8e04d6faff8d6d6f36e7ff6edecc24fc292358d"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 에스 4,17②-③참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 28506,
+              "paragraph": 162,
+              "text": "주님, 모든 것이 당신의 권능 안에 있어, 당신 뜻을 거스를 자 없나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 28676,
+              "paragraph": 163,
+              "text": "당신이 하늘과 땅을 지으시고 하늘 아래 모든 것을 만드셨으니,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 28832,
+              "paragraph": 164,
+              "text": "당신은 만물의 주님이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e370aafb4fa5e017491edbc303bb81cfb43eae8a5d9c89f4f258cb894584dfe0"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 29122,
+              "paragraph": 166,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 29238,
+              "paragraph": 167,
+              "text": "저희 공로와 소망보다 더 큰 은혜를 베풀어 주시니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 29378,
+              "paragraph": 168,
+              "text": "저희 기도를 들으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 29486,
+              "paragraph": 169,
+              "text": "양심의 가책을 받은 저희 죄를 용서하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 29616,
+              "paragraph": 170,
+              "text": "감히 청하지 못하는 은혜도 내려 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 29746,
+              "paragraph": 171,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 29902,
+              "paragraph": 172,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "dc13d5d96e248327736ece7b90ad93ec9a9895497aec9b19da45c30975ac920b"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 30210,
+              "paragraph": 174,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 30302,
+              "paragraph": 175,
+              "text": "주님께서 세우신 이 제사를 받아들이시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 30430,
+              "paragraph": 176,
+              "text": "저희가 정성을 다하여 마땅히 거행하는 이 거룩한 신비로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 30576,
+              "paragraph": 177,
+              "text": "저희를 거룩하게 하시고 주님의 구원을 이루소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 30714,
+              "paragraph": 178,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f59782769d1bd978406cf78f508d7695f80158bb8d2d686aa695ec6bc77b9ec1"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 애가 3,25",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 31052,
+              "paragraph": 180,
+              "text": "당신을 바라는 이에게, 당신을 찾는 영혼에게 주님은 좋으신 분."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9a5b36f6d0a2c4e5fb9a3923f1c0450418987d02fef6ed377d5672df793c55b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 31390,
+              "paragraph": 182,
+              "text": "전능하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 31494,
+              "paragraph": 183,
+              "text": "성체를 받아 모신 저희가 이 성사의 힘으로 자라나"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 31634,
+              "paragraph": 184,
+              "text": "마침내 그리스도와 하나 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 31760,
+              "paragraph": 185,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "17e009b77f25fcb2ff9e19cbe8e04d6faff8d6d6f36e7ff6edecc24fc292358d"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 에스 4,17②-③참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 32822,
+              "paragraph": 190,
+              "text": "주님, 모든 것이 당신의 권능 안에 있어, 당신 뜻을 거스를 자 없나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 32992,
+              "paragraph": 191,
+              "text": "당신이 하늘과 땅을 지으시고 하늘 아래 모든 것을 만드셨으니,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 33148,
+              "paragraph": 192,
+              "text": "당신은 만물의 주님이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e370aafb4fa5e017491edbc303bb81cfb43eae8a5d9c89f4f258cb894584dfe0"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 33438,
+              "paragraph": 194,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 33554,
+              "paragraph": 195,
+              "text": "저희 공로와 소망보다 더 큰 은혜를 베풀어 주시니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 33694,
+              "paragraph": 196,
+              "text": "저희 기도를 들으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 33802,
+              "paragraph": 197,
+              "text": "양심의 가책을 받은 저희 죄를 용서하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 33932,
+              "paragraph": 198,
+              "text": "감히 청하지 못하는 은혜도 내려 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 34062,
+              "paragraph": 199,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 34218,
+              "paragraph": 200,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "dc13d5d96e248327736ece7b90ad93ec9a9895497aec9b19da45c30975ac920b"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 34526,
+              "paragraph": 202,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 34618,
+              "paragraph": 203,
+              "text": "주님께서 세우신 이 제사를 받아들이시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 34746,
+              "paragraph": 204,
+              "text": "저희가 정성을 다하여 마땅히 거행하는 이 거룩한 신비로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 34892,
+              "paragraph": 205,
+              "text": "저희를 거룩하게 하시고 주님의 구원을 이루소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 35030,
+              "paragraph": 206,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f59782769d1bd978406cf78f508d7695f80158bb8d2d686aa695ec6bc77b9ec1"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 애가 3,25",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 35368,
+              "paragraph": 208,
+              "text": "당신을 바라는 이에게, 당신을 찾는 영혼에게 주님은 좋으신 분."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9a5b36f6d0a2c4e5fb9a3923f1c0450418987d02fef6ed377d5672df793c55b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 35706,
+              "paragraph": 210,
+              "text": "전능하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 35810,
+              "paragraph": 211,
+              "text": "성체를 받아 모신 저희가 이 성사의 힘으로 자라나"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 35950,
+              "paragraph": 212,
+              "text": "마침내 그리스도와 하나 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 36076,
+              "paragraph": 213,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "17e009b77f25fcb2ff9e19cbe8e04d6faff8d6d6f36e7ff6edecc24fc292358d"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 루카 1,28.42 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 37166,
+              "paragraph": 218,
+              "text": "은총이 가득하신 마리아님, 기뻐하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 37296,
+              "paragraph": 219,
+              "text": "주님께서 함께 계시니 여인 중에 복되시며, 태중의 아드님 또한 복되시나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "208c15b265cac63929ee5984f7c3b3f49013d873e288b01070172022cb12fb9f"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 37638,
+              "paragraph": 221,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 37730,
+              "paragraph": 222,
+              "text": "천사의 아룀으로 성자께서 사람이 되심을 알았으니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 37868,
+              "paragraph": 223,
+              "text": "복되신 동정 마리아의 전구를 들으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 37994,
+              "paragraph": 224,
+              "text": "성자의 수난과 십자가로 부활의 영광에 이르는 은총을"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 38136,
+              "paragraph": 225,
+              "text": "저희에게 내려 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 38246,
+              "paragraph": 226,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 38402,
+              "paragraph": 227,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "044ecbcf09560c9384ad71f54a2f8d35d806892cd6693b53651bbf170a9e172c"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 38710,
+              "paragraph": 229,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 38802,
+              "paragraph": 230,
+              "text": "정성껏 드리는 이 예물을 받으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 38924,
+              "paragraph": 231,
+              "text": "저희가 합당하게 성자의 신비를 기념하며"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 39052,
+              "paragraph": 232,
+              "text": "그분께서 약속하신 영원한 생명을 얻게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 39188,
+              "paragraph": 233,
+              "text": "성자께서는 영원히 살아 계시며 다스리시나이다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 39324,
+              "paragraph": 234,
+              "text": "<복되신 동정 마리아 감사송 1 또는 2>"
+            }
+          ],
+          "textSha256": "cb32b31c438f7bd11d00ffe98df58c2e80de1bfaf27be7f8e33133a44950f74a"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 루카 1,31 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 39674,
+              "paragraph": 236,
+              "text": "보라, 네가 잉태하여 아들을 낳으리니, 그 이름을 예수라 하여라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e028100c3d2c15de34e753d9689dad2bc12895e4967416e49da2e39643233ff0"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 40014,
+              "paragraph": 238,
+              "text": "주 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 40112,
+              "paragraph": 239,
+              "text": "이 성사로 성자의 죽음과 부활을 전하는 저희가"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 40248,
+              "paragraph": 240,
+              "text": "성자의 고난에 참여하여"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 40358,
+              "paragraph": 241,
+              "text": "그 기쁨과 영광도 함께 누리게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 40486,
+              "paragraph": 242,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "d3b90de8d17ff6a3f6f71def24370e5a096da577541f1497b93cb01c85227c47"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 에스 4,17②-③참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 41548,
+              "paragraph": 247,
+              "text": "주님, 모든 것이 당신의 권능 안에 있어, 당신 뜻을 거스를 자 없나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 41718,
+              "paragraph": 248,
+              "text": "당신이 하늘과 땅을 지으시고 하늘 아래 모든 것을 만드셨으니,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 41874,
+              "paragraph": 249,
+              "text": "당신은 만물의 주님이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e370aafb4fa5e017491edbc303bb81cfb43eae8a5d9c89f4f258cb894584dfe0"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 42164,
+              "paragraph": 251,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 42280,
+              "paragraph": 252,
+              "text": "저희 공로와 소망보다 더 큰 은혜를 베풀어 주시니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 42420,
+              "paragraph": 253,
+              "text": "저희 기도를 들으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 42528,
+              "paragraph": 254,
+              "text": "양심의 가책을 받은 저희 죄를 용서하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 42658,
+              "paragraph": 255,
+              "text": "감히 청하지 못하는 은혜도 내려 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 42788,
+              "paragraph": 256,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 42944,
+              "paragraph": 257,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "dc13d5d96e248327736ece7b90ad93ec9a9895497aec9b19da45c30975ac920b"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 43252,
+              "paragraph": 259,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 43344,
+              "paragraph": 260,
+              "text": "주님께서 세우신 이 제사를 받아들이시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 43472,
+              "paragraph": 261,
+              "text": "저희가 정성을 다하여 마땅히 거행하는 이 거룩한 신비로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 43618,
+              "paragraph": 262,
+              "text": "저희를 거룩하게 하시고 주님의 구원을 이루소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 43756,
+              "paragraph": 263,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f59782769d1bd978406cf78f508d7695f80158bb8d2d686aa695ec6bc77b9ec1"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 애가 3,25",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 44094,
+              "paragraph": 265,
+              "text": "당신을 바라는 이에게, 당신을 찾는 영혼에게 주님은 좋으신 분."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9a5b36f6d0a2c4e5fb9a3923f1c0450418987d02fef6ed377d5672df793c55b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 44432,
+              "paragraph": 267,
+              "text": "전능하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 44536,
+              "paragraph": 268,
+              "text": "성체를 받아 모신 저희가 이 성사의 힘으로 자라나"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 44676,
+              "paragraph": 269,
+              "text": "마침내 그리스도와 하나 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 44802,
+              "paragraph": 270,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "17e009b77f25fcb2ff9e19cbe8e04d6faff8d6d6f36e7ff6edecc24fc292358d"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 에스 4,17②-③참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 45864,
+              "paragraph": 275,
+              "text": "주님, 모든 것이 당신의 권능 안에 있어, 당신 뜻을 거스를 자 없나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 46034,
+              "paragraph": 276,
+              "text": "당신이 하늘과 땅을 지으시고 하늘 아래 모든 것을 만드셨으니,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 46190,
+              "paragraph": 277,
+              "text": "당신은 만물의 주님이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e370aafb4fa5e017491edbc303bb81cfb43eae8a5d9c89f4f258cb894584dfe0"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 46480,
+              "paragraph": 279,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 46596,
+              "paragraph": 280,
+              "text": "저희 공로와 소망보다 더 큰 은혜를 베풀어 주시니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 46736,
+              "paragraph": 281,
+              "text": "저희 기도를 들으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 46844,
+              "paragraph": 282,
+              "text": "양심의 가책을 받은 저희 죄를 용서하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 46974,
+              "paragraph": 283,
+              "text": "감히 청하지 못하는 은혜도 내려 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 47104,
+              "paragraph": 284,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 47260,
+              "paragraph": 285,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "dc13d5d96e248327736ece7b90ad93ec9a9895497aec9b19da45c30975ac920b"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 47568,
+              "paragraph": 287,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 47662,
+              "paragraph": 288,
+              "text": "주님께서 세우신 이 제사를 받아들이시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 47790,
+              "paragraph": 289,
+              "text": "저희가 정성을 다하여 마땅히 거행하는 이 거룩한 신비로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 47936,
+              "paragraph": 290,
+              "text": "저희를 거룩하게 하시고 주님의 구원을 이루소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 48074,
+              "paragraph": 291,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f59782769d1bd978406cf78f508d7695f80158bb8d2d686aa695ec6bc77b9ec1"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 애가 3,25",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 48412,
+              "paragraph": 293,
+              "text": "당신을 바라는 이에게, 당신을 찾는 영혼에게 주님은 좋으신 분."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9a5b36f6d0a2c4e5fb9a3923f1c0450418987d02fef6ed377d5672df793c55b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 48750,
+              "paragraph": 295,
+              "text": "전능하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 48854,
+              "paragraph": 296,
+              "text": "성체를 받아 모신 저희가 이 성사의 힘으로 자라나"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 48994,
+              "paragraph": 297,
+              "text": "마침내 그리스도와 하나 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 49120,
+              "paragraph": 298,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "17e009b77f25fcb2ff9e19cbe8e04d6faff8d6d6f36e7ff6edecc24fc292358d"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 에스 4,17②-③참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 50184,
+              "paragraph": 303,
+              "text": "주님, 모든 것이 당신의 권능 안에 있어, 당신 뜻을 거스를 자 없나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 50354,
+              "paragraph": 304,
+              "text": "당신이 하늘과 땅을 지으시고 하늘 아래 모든 것을 만드셨으니,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 50510,
+              "paragraph": 305,
+              "text": "당신은 만물의 주님이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e370aafb4fa5e017491edbc303bb81cfb43eae8a5d9c89f4f258cb894584dfe0"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 50800,
+              "paragraph": 307,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 50916,
+              "paragraph": 308,
+              "text": "저희 공로와 소망보다 더 큰 은혜를 베풀어 주시니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 51056,
+              "paragraph": 309,
+              "text": "저희 기도를 들으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 51164,
+              "paragraph": 310,
+              "text": "양심의 가책을 받은 저희 죄를 용서하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 51294,
+              "paragraph": 311,
+              "text": "감히 청하지 못하는 은혜도 내려 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 51424,
+              "paragraph": 312,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 51580,
+              "paragraph": 313,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "dc13d5d96e248327736ece7b90ad93ec9a9895497aec9b19da45c30975ac920b"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 51888,
+              "paragraph": 315,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 51980,
+              "paragraph": 316,
+              "text": "주님께서 세우신 이 제사를 받아들이시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 52108,
+              "paragraph": 317,
+              "text": "저희가 정성을 다하여 마땅히 거행하는 이 거룩한 신비로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 52254,
+              "paragraph": 318,
+              "text": "저희를 거룩하게 하시고 주님의 구원을 이루소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 52392,
+              "paragraph": 319,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f59782769d1bd978406cf78f508d7695f80158bb8d2d686aa695ec6bc77b9ec1"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 애가 3,25",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 52730,
+              "paragraph": 321,
+              "text": "당신을 바라는 이에게, 당신을 찾는 영혼에게 주님은 좋으신 분."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9a5b36f6d0a2c4e5fb9a3923f1c0450418987d02fef6ed377d5672df793c55b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 53068,
+              "paragraph": 323,
+              "text": "전능하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 53172,
+              "paragraph": 324,
+              "text": "성체를 받아 모신 저희가 이 성사의 힘으로 자라나"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 53312,
+              "paragraph": 325,
+              "text": "마침내 그리스도와 하나 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 53438,
+              "paragraph": 326,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "17e009b77f25fcb2ff9e19cbe8e04d6faff8d6d6f36e7ff6edecc24fc292358d"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 130(129),3-4 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 54602,
+              "paragraph": 332,
+              "text": "주님, 당신이 죄악을 헤아리신다면, 주님, 감당할 자 누구이리까?"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 54762,
+              "paragraph": 333,
+              "text": "이스라엘의 하느님, 당신은 용서하는 분이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 54902,
+              "paragraph": 334,
+              "text": "<대영광송>"
+            }
+          ],
+          "textSha256": "056cb83583cde5ce4db18ec91024ac7c8246b6ac7e306cfed15522fd6aee44fe"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 55172,
+              "paragraph": 336,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 55264,
+              "paragraph": 337,
+              "text": "주님의 넘치는 은총으로 언제나 저희와 함께하시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 55402,
+              "paragraph": 338,
+              "text": "저희가 끊임없이 좋은 일을 하도록 이끌어 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 55542,
+              "paragraph": 339,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 55698,
+              "paragraph": 340,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 55830,
+              "paragraph": 341,
+              "text": "<신경>"
+            }
+          ],
+          "textSha256": "1cc91bc0df42c25fef2c7a6aea2675cbbbc8cf8919e0c1349daf4e7e28a6de2c"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 56100,
+              "paragraph": 343,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 56192,
+              "paragraph": 344,
+              "text": "신자들이 바치는 기도와 예물을 받아들이시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 56324,
+              "paragraph": 345,
+              "text": "이 정성된 제사로 저희가 천상 영광을 누리게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 56468,
+              "paragraph": 346,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 56594,
+              "paragraph": 347,
+              "text": "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+            }
+          ],
+          "textSha256": "c39eefcb31bd32e965da0472051f25d4adbf25ac197c6740442fd9e1c731d5c5"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 34(33),11",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 56962,
+              "paragraph": 349,
+              "text": "부자들도 궁색해져 굶주리게 되지만, 주님을 찾는 이에게는 좋은 것뿐이리라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "1a9bbf3a8863f4bd8f1325b4af37f9d6442f3db763a3cfb92e9b77859bd014b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 57312,
+              "paragraph": 351,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 57404,
+              "paragraph": 352,
+              "text": "엄위하신 주님 앞에 엎드려 비오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 57526,
+              "paragraph": 353,
+              "text": "저희를 그리스도의 거룩한 살과 피로 기르시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 57660,
+              "paragraph": 354,
+              "text": "그 신성에 참여하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 57776,
+              "paragraph": 355,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "6730e50fad05c19df62c8bb1a7bc016c0e611419b97a96dc0d2828214de2a702"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 130(129),3-4 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 58858,
+              "paragraph": 360,
+              "text": "주님, 당신이 죄악을 헤아리신다면, 주님, 감당할 자 누구이리까?"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 59018,
+              "paragraph": 361,
+              "text": "이스라엘의 하느님, 당신은 용서하는 분이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "056cb83583cde5ce4db18ec91024ac7c8246b6ac7e306cfed15522fd6aee44fe"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 59330,
+              "paragraph": 363,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 59422,
+              "paragraph": 364,
+              "text": "주님의 넘치는 은총으로 언제나 저희와 함께하시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 59560,
+              "paragraph": 365,
+              "text": "저희가 끊임없이 좋은 일을 하도록 이끌어 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 59700,
+              "paragraph": 366,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 59856,
+              "paragraph": 367,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "1cc91bc0df42c25fef2c7a6aea2675cbbbc8cf8919e0c1349daf4e7e28a6de2c"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 60164,
+              "paragraph": 369,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 60256,
+              "paragraph": 370,
+              "text": "신자들이 바치는 기도와 예물을 받아들이시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 60388,
+              "paragraph": 371,
+              "text": "이 정성된 제사로 저희가 천상 영광을 누리게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 60532,
+              "paragraph": 372,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "c39eefcb31bd32e965da0472051f25d4adbf25ac197c6740442fd9e1c731d5c5"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 34(33),11",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 60880,
+              "paragraph": 374,
+              "text": "부자들도 궁색해져 굶주리게 되지만, 주님을 찾는 이에게는 좋은 것뿐이리라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "1a9bbf3a8863f4bd8f1325b4af37f9d6442f3db763a3cfb92e9b77859bd014b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 61230,
+              "paragraph": 376,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 61322,
+              "paragraph": 377,
+              "text": "엄위하신 주님 앞에 엎드려 비오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 61444,
+              "paragraph": 378,
+              "text": "저희를 그리스도의 거룩한 살과 피로 기르시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 61578,
+              "paragraph": 379,
+              "text": "그 신성에 참여하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 61694,
+              "paragraph": 380,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "6730e50fad05c19df62c8bb1a7bc016c0e611419b97a96dc0d2828214de2a702"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 130(129),3-4 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 62776,
+              "paragraph": 385,
+              "text": "주님, 당신이 죄악을 헤아리신다면, 주님, 감당할 자 누구이리까?"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 62936,
+              "paragraph": 386,
+              "text": "이스라엘의 하느님, 당신은 용서하는 분이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "056cb83583cde5ce4db18ec91024ac7c8246b6ac7e306cfed15522fd6aee44fe"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 63248,
+              "paragraph": 388,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 63340,
+              "paragraph": 389,
+              "text": "주님의 넘치는 은총으로 언제나 저희와 함께하시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 63478,
+              "paragraph": 390,
+              "text": "저희가 끊임없이 좋은 일을 하도록 이끌어 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 63618,
+              "paragraph": 391,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 63774,
+              "paragraph": 392,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "1cc91bc0df42c25fef2c7a6aea2675cbbbc8cf8919e0c1349daf4e7e28a6de2c"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 64082,
+              "paragraph": 394,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 64174,
+              "paragraph": 395,
+              "text": "신자들이 바치는 기도와 예물을 받아들이시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 64306,
+              "paragraph": 396,
+              "text": "이 정성된 제사로 저희가 천상 영광을 누리게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 64450,
+              "paragraph": 397,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "c39eefcb31bd32e965da0472051f25d4adbf25ac197c6740442fd9e1c731d5c5"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 34(33),11",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 64798,
+              "paragraph": 399,
+              "text": "부자들도 궁색해져 굶주리게 되지만, 주님을 찾는 이에게는 좋은 것뿐이리라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "1a9bbf3a8863f4bd8f1325b4af37f9d6442f3db763a3cfb92e9b77859bd014b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 65148,
+              "paragraph": 401,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 65240,
+              "paragraph": 402,
+              "text": "엄위하신 주님 앞에 엎드려 비오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 65362,
+              "paragraph": 403,
+              "text": "저희를 그리스도의 거룩한 살과 피로 기르시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 65496,
+              "paragraph": 404,
+              "text": "그 신성에 참여하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 65612,
+              "paragraph": 405,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "6730e50fad05c19df62c8bb1a7bc016c0e611419b97a96dc0d2828214de2a702"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 130(129),3-4 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 66694,
+              "paragraph": 410,
+              "text": "주님, 당신이 죄악을 헤아리신다면, 주님, 감당할 자 누구이리까?"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 66854,
+              "paragraph": 411,
+              "text": "이스라엘의 하느님, 당신은 용서하는 분이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "056cb83583cde5ce4db18ec91024ac7c8246b6ac7e306cfed15522fd6aee44fe"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 67166,
+              "paragraph": 413,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 67258,
+              "paragraph": 414,
+              "text": "주님의 넘치는 은총으로 언제나 저희와 함께하시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 67396,
+              "paragraph": 415,
+              "text": "저희가 끊임없이 좋은 일을 하도록 이끌어 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 67536,
+              "paragraph": 416,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 67692,
+              "paragraph": 417,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "1cc91bc0df42c25fef2c7a6aea2675cbbbc8cf8919e0c1349daf4e7e28a6de2c"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 68000,
+              "paragraph": 419,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 68092,
+              "paragraph": 420,
+              "text": "신자들이 바치는 기도와 예물을 받아들이시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 68224,
+              "paragraph": 421,
+              "text": "이 정성된 제사로 저희가 천상 영광을 누리게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 68368,
+              "paragraph": 422,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "c39eefcb31bd32e965da0472051f25d4adbf25ac197c6740442fd9e1c731d5c5"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 34(33),11",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 68716,
+              "paragraph": 424,
+              "text": "부자들도 궁색해져 굶주리게 되지만, 주님을 찾는 이에게는 좋은 것뿐이리라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "1a9bbf3a8863f4bd8f1325b4af37f9d6442f3db763a3cfb92e9b77859bd014b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 69066,
+              "paragraph": 426,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 69158,
+              "paragraph": 427,
+              "text": "엄위하신 주님 앞에 엎드려 비오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 69280,
+              "paragraph": 428,
+              "text": "저희를 그리스도의 거룩한 살과 피로 기르시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 69414,
+              "paragraph": 429,
+              "text": "그 신성에 참여하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 69530,
+              "paragraph": 430,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "6730e50fad05c19df62c8bb1a7bc016c0e611419b97a96dc0d2828214de2a702"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 42(41),2-3",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 70706,
+              "paragraph": 435,
+              "text": "사슴이 시냇물을 그리워하듯, 하느님, 제 영혼이 당신을 그리나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 70868,
+              "paragraph": 436,
+              "text": "제 영혼이 하느님을, 생명의 하느님을 목말라하나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e6e8b07733f671ced564e5167ea4f4e420bd4772843526059ab9a051abd10f14"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 71184,
+              "paragraph": 438,
+              "text": "하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 71278,
+              "paragraph": 439,
+              "text": "성령을 통하여 복된 데레사를 뽑으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 71404,
+              "paragraph": 440,
+              "text": "교회에 완덕의 새로운 길을 보여 주셨으니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 71534,
+              "paragraph": 441,
+              "text": "저희가 언제나 그의 거룩한 가르침을 따라"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 71664,
+              "paragraph": 442,
+              "text": "참된 성덕의 열망으로 불타오르게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 71794,
+              "paragraph": 443,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 71950,
+              "paragraph": 444,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "6706c11432e2ec63911aa9045b0b5e3fffc412fdc478f4bef6c60a321cf0cde9"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 72258,
+              "paragraph": 446,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 72350,
+              "paragraph": 447,
+              "text": "복된 데레사의 정성 어린 봉헌을 기꺼워하셨듯이"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 72486,
+              "paragraph": 448,
+              "text": "주님께 바치는 저희 예물도 기꺼이 받아 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 72624,
+              "paragraph": 449,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "672a6e7e47de8fc3a8332d0c5210c153106a9ec2e43929b2ccb52c71336b9feb"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 89(88),2",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 72970,
+              "paragraph": 451,
+              "text": "주님의 자애를 영원히 노래하오리다. 제 입은 당신의 진실을 대대로 전하오리다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "ab3adba75ede6f4540219a4b3f2eeb170877c22671e0677a6149569033ff9cb3"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 73324,
+              "paragraph": 453,
+              "text": "주 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 73422,
+              "paragraph": 454,
+              "text": "주님의 가족에게 천상 양식을 베풀어 주셨으니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 73556,
+              "paragraph": 455,
+              "text": "저희도 복된 데레사를 본받아"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 73672,
+              "paragraph": 456,
+              "text": "영원토록 주님의 자비로운 사랑을 즐거이 노래하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 73820,
+              "paragraph": 457,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "07074aef318a3f40aac3673f92aed7789933f95f2fed4ff9b4367c69750db568"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 130(129),3-4 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 74896,
+              "paragraph": 462,
+              "text": "주님, 당신이 죄악을 헤아리신다면, 주님, 감당할 자 누구이리까?"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 75056,
+              "paragraph": 463,
+              "text": "이스라엘의 하느님, 당신은 용서하는 분이시옵니다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "056cb83583cde5ce4db18ec91024ac7c8246b6ac7e306cfed15522fd6aee44fe"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 75368,
+              "paragraph": 465,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 75460,
+              "paragraph": 466,
+              "text": "주님의 넘치는 은총으로 언제나 저희와 함께하시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 75598,
+              "paragraph": 467,
+              "text": "저희가 끊임없이 좋은 일을 하도록 이끌어 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 75738,
+              "paragraph": 468,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 75894,
+              "paragraph": 469,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "1cc91bc0df42c25fef2c7a6aea2675cbbbc8cf8919e0c1349daf4e7e28a6de2c"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 76202,
+              "paragraph": 471,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 76294,
+              "paragraph": 472,
+              "text": "신자들이 바치는 기도와 예물을 받아들이시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 76426,
+              "paragraph": 473,
+              "text": "이 정성된 제사로 저희가 천상 영광을 누리게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 76570,
+              "paragraph": 474,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "c39eefcb31bd32e965da0472051f25d4adbf25ac197c6740442fd9e1c731d5c5"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 34(33),11",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 76918,
+              "paragraph": 476,
+              "text": "부자들도 궁색해져 굶주리게 되지만, 주님을 찾는 이에게는 좋은 것뿐이리라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "1a9bbf3a8863f4bd8f1325b4af37f9d6442f3db763a3cfb92e9b77859bd014b6"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 77268,
+              "paragraph": 478,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 77360,
+              "paragraph": 479,
+              "text": "엄위하신 주님 앞에 엎드려 비오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 77482,
+              "paragraph": 480,
+              "text": "저희를 그리스도의 거룩한 살과 피로 기르시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 77616,
+              "paragraph": 481,
+              "text": "그 신성에 참여하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 77732,
+              "paragraph": 482,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "6730e50fad05c19df62c8bb1a7bc016c0e611419b97a96dc0d2828214de2a702"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 갈라 2,19-20 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 78836,
+              "paragraph": 487,
+              "text": "나는 그리스도와 함께 십자가에 못 박혔으니, 이제는 내가 사는 것이 아니라 그리스도가 내 안에 사시는 것이다. 나는 나를 사랑하시고 나를 위하여 당신 자신을 바치신 하느님의 아드님에 대한 믿음으로 사노라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "2f1eac55fe00b60065f48b2c9b3a37e4c75d5ba0aa5a69fc9006bf6b1ca64133"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 79394,
+              "paragraph": 489,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 79510,
+              "paragraph": 490,
+              "text": "거룩한 순교자들의 신앙 고백으로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 79630,
+              "paragraph": 491,
+              "text": "그리스도의 신비체인 교회를 영광스럽게 하시니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 79764,
+              "paragraph": 492,
+              "text": "순교로 불멸의 월계관을 받은 복된 이냐시오를 본받아"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 79906,
+              "paragraph": 493,
+              "text": "저희도 굳센 믿음으로 영원한 구원에 이르게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 80048,
+              "paragraph": 494,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 80204,
+              "paragraph": 495,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "28d256bf8796bd012acfec202374669c15791da238ffa8e281134f8ddf401a73"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 80512,
+              "paragraph": 497,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 80604,
+              "paragraph": 498,
+              "text": "복된 이냐시오가 순교로 그리스도의 밀알이 되어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 80740,
+              "paragraph": 499,
+              "text": "주님께 깨끗한 빵을 봉헌하였으니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 80860,
+              "paragraph": 500,
+              "text": "저희가 정성껏 바치는 이 제물을 받아 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 80996,
+              "paragraph": 501,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9ec0a4702941b0a42b3e2f8470f6660acd32d12819b39b5a3b8353613c7a2af1"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 81320,
+              "paragraph": 503,
+              "text": "나는 그리스도의 밀알이다. 짐승들의 이빨에 가루가 되어 깨끗한 빵이 되리라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "bbce14f13a3eeda6cfc9161c04ff75f449aaf7fbd6f27010d675be778d46a9d4"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 81672,
+              "paragraph": 505,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 81764,
+              "paragraph": 506,
+              "text": "복된 이냐시오의 천상 탄일에 하늘의 양식을 받아 모셨으니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 81912,
+              "paragraph": 507,
+              "text": "저희가 새로운 힘을 얻어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 82024,
+              "paragraph": 508,
+              "text": "말과 행동으로 참된 그리스도인이 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 82160,
+              "paragraph": 509,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "389ba711347b84f8aaf97e4f839bd2eaac336d4700252ec283b98d47a1eacc94"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "status": "existing-preserved",
+      "sha256": "19479838f6b7716112c05274e364bcbe247a31c0db3b09ff461a481c92929737"
+    },
+    {
+      "date": "2026-10-19",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 17(16),6.8 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 88044,
+              "paragraph": 543,
+              "text": "하느님, 당신이 응답해 주시니, 제가 당신께 부르짖나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 88196,
+              "paragraph": 544,
+              "text": "귀 기울여 제 말씀 들어 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 88320,
+              "paragraph": 545,
+              "text": "주님, 당신 눈동자처럼 저를 보호하소서. 당신 날개 그늘에 저를 숨겨 주소서."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e059c058b484573da1bb2840ab13f7be6d8949b99ef66c5fe2d3827eff98c898"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 88664,
+              "paragraph": 547,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 88780,
+              "paragraph": 548,
+              "text": "저희가 언제나 성실한 마음으로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 88898,
+              "paragraph": 549,
+              "text": "하느님을 정성껏 섬기게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 89018,
+              "paragraph": 550,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 89174,
+              "paragraph": 551,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "fa83fe1acd928622bc07df9d833901aa8db932930d7b6d53787ebc52dc6cb1e6"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 89482,
+              "paragraph": 553,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 89574,
+              "paragraph": 554,
+              "text": "저희가 자유로운 마음으로 이 예물을 바치오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 89708,
+              "paragraph": 555,
+              "text": "주님의 은총으로 저희를 씻으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 89828,
+              "paragraph": 556,
+              "text": "저희가 주님께 드리는 이 성찬의 제사로 더욱 깨끗해지게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 89984,
+              "paragraph": 557,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "a3d7b9e2fa82a9faf641d80531f5c918030da5b995a1eefa227e924872cc5a1f"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 33(32),18-19 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 90344,
+              "paragraph": 559,
+              "text": "보라, 주님의 눈은 당신을 경외하는 이들에게, 당신 자애를 바라는 이들에게 머무르신다. 주님은 죽음에서 목숨을 건지시고, 굶주릴 때 먹여 살리신다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f0b10b1874c6cfedd21bd621dc20da27c77820a7e067535ef3c4c410ad301112"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 90812,
+              "paragraph": 561,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 90904,
+              "paragraph": 562,
+              "text": "저희가 천상 잔치에 자주 참여하여"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 91026,
+              "paragraph": 563,
+              "text": "현세에서 도움도 받고 영원한 신비도 배우게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 91168,
+              "paragraph": 564,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9d39da78e169e7f9e8b629c0b5c996fe5b89619fb545e270985dd79ad728efce"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 17(16),6.8 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 92240,
+              "paragraph": 569,
+              "text": "하느님, 당신이 응답해 주시니, 제가 당신께 부르짖나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 92392,
+              "paragraph": 570,
+              "text": "귀 기울여 제 말씀 들어 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 92516,
+              "paragraph": 571,
+              "text": "주님, 당신 눈동자처럼 저를 보호하소서. 당신 날개 그늘에 저를 숨겨 주소서."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e059c058b484573da1bb2840ab13f7be6d8949b99ef66c5fe2d3827eff98c898"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 92860,
+              "paragraph": 573,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 92976,
+              "paragraph": 574,
+              "text": "저희가 언제나 성실한 마음으로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 93094,
+              "paragraph": 575,
+              "text": "하느님을 정성껏 섬기게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 93214,
+              "paragraph": 576,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 93370,
+              "paragraph": 577,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "fa83fe1acd928622bc07df9d833901aa8db932930d7b6d53787ebc52dc6cb1e6"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 93678,
+              "paragraph": 579,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 93770,
+              "paragraph": 580,
+              "text": "저희가 자유로운 마음으로 이 예물을 바치오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 93904,
+              "paragraph": 581,
+              "text": "주님의 은총으로 저희를 씻으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 94024,
+              "paragraph": 582,
+              "text": "저희가 주님께 드리는 이 성찬의 제사로 더욱 깨끗해지게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 94180,
+              "paragraph": 583,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "a3d7b9e2fa82a9faf641d80531f5c918030da5b995a1eefa227e924872cc5a1f"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 33(32),18-19 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 94540,
+              "paragraph": 585,
+              "text": "보라, 주님의 눈은 당신을 경외하는 이들에게, 당신 자애를 바라는 이들에게 머무르신다. 주님은 죽음에서 목숨을 건지시고, 굶주릴 때 먹여 살리신다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f0b10b1874c6cfedd21bd621dc20da27c77820a7e067535ef3c4c410ad301112"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 95008,
+              "paragraph": 587,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 95100,
+              "paragraph": 588,
+              "text": "저희가 천상 잔치에 자주 참여하여"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 95222,
+              "paragraph": 589,
+              "text": "현세에서 도움도 받고 영원한 신비도 배우게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 95364,
+              "paragraph": 590,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9d39da78e169e7f9e8b629c0b5c996fe5b89619fb545e270985dd79ad728efce"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 17(16),6.8 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 96436,
+              "paragraph": 595,
+              "text": "하느님, 당신이 응답해 주시니, 제가 당신께 부르짖나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 96588,
+              "paragraph": 596,
+              "text": "귀 기울여 제 말씀 들어 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 96712,
+              "paragraph": 597,
+              "text": "주님, 당신 눈동자처럼 저를 보호하소서. 당신 날개 그늘에 저를 숨겨 주소서."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e059c058b484573da1bb2840ab13f7be6d8949b99ef66c5fe2d3827eff98c898"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 97056,
+              "paragraph": 599,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 97172,
+              "paragraph": 600,
+              "text": "저희가 언제나 성실한 마음으로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 97290,
+              "paragraph": 601,
+              "text": "하느님을 정성껏 섬기게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 97410,
+              "paragraph": 602,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 97566,
+              "paragraph": 603,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "fa83fe1acd928622bc07df9d833901aa8db932930d7b6d53787ebc52dc6cb1e6"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 97874,
+              "paragraph": 605,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 97966,
+              "paragraph": 606,
+              "text": "저희가 자유로운 마음으로 이 예물을 바치오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 98100,
+              "paragraph": 607,
+              "text": "주님의 은총으로 저희를 씻으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 98220,
+              "paragraph": 608,
+              "text": "저희가 주님께 드리는 이 성찬의 제사로 더욱 깨끗해지게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 98376,
+              "paragraph": 609,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "a3d7b9e2fa82a9faf641d80531f5c918030da5b995a1eefa227e924872cc5a1f"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 33(32),18-19 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 98736,
+              "paragraph": 611,
+              "text": "보라, 주님의 눈은 당신을 경외하는 이들에게, 당신 자애를 바라는 이들에게 머무르신다. 주님은 죽음에서 목숨을 건지시고, 굶주릴 때 먹여 살리신다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f0b10b1874c6cfedd21bd621dc20da27c77820a7e067535ef3c4c410ad301112"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 99204,
+              "paragraph": 613,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 99296,
+              "paragraph": 614,
+              "text": "저희가 천상 잔치에 자주 참여하여"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 99418,
+              "paragraph": 615,
+              "text": "현세에서 도움도 받고 영원한 신비도 배우게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 99560,
+              "paragraph": 616,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9d39da78e169e7f9e8b629c0b5c996fe5b89619fb545e270985dd79ad728efce"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 17(16),6.8 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 100632,
+              "paragraph": 621,
+              "text": "하느님, 당신이 응답해 주시니, 제가 당신께 부르짖나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 100784,
+              "paragraph": 622,
+              "text": "귀 기울여 제 말씀 들어 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 100908,
+              "paragraph": 623,
+              "text": "주님, 당신 눈동자처럼 저를 보호하소서. 당신 날개 그늘에 저를 숨겨 주소서."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e059c058b484573da1bb2840ab13f7be6d8949b99ef66c5fe2d3827eff98c898"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 101252,
+              "paragraph": 625,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 101368,
+              "paragraph": 626,
+              "text": "저희가 언제나 성실한 마음으로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 101486,
+              "paragraph": 627,
+              "text": "하느님을 정성껏 섬기게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 101606,
+              "paragraph": 628,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 101762,
+              "paragraph": 629,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "fa83fe1acd928622bc07df9d833901aa8db932930d7b6d53787ebc52dc6cb1e6"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 102070,
+              "paragraph": 631,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 102162,
+              "paragraph": 632,
+              "text": "저희가 자유로운 마음으로 이 예물을 바치오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 102296,
+              "paragraph": 633,
+              "text": "주님의 은총으로 저희를 씻으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 102416,
+              "paragraph": 634,
+              "text": "저희가 주님께 드리는 이 성찬의 제사로 더욱 깨끗해지게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 102572,
+              "paragraph": 635,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "a3d7b9e2fa82a9faf641d80531f5c918030da5b995a1eefa227e924872cc5a1f"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 33(32),18-19 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 102932,
+              "paragraph": 637,
+              "text": "보라, 주님의 눈은 당신을 경외하는 이들에게, 당신 자애를 바라는 이들에게 머무르신다. 주님은 죽음에서 목숨을 건지시고, 굶주릴 때 먹여 살리신다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f0b10b1874c6cfedd21bd621dc20da27c77820a7e067535ef3c4c410ad301112"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 103400,
+              "paragraph": 639,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 103492,
+              "paragraph": 640,
+              "text": "저희가 천상 잔치에 자주 참여하여"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 103614,
+              "paragraph": 641,
+              "text": "현세에서 도움도 받고 영원한 신비도 배우게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 103756,
+              "paragraph": 642,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9d39da78e169e7f9e8b629c0b5c996fe5b89619fb545e270985dd79ad728efce"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 17(16),6.8 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 104828,
+              "paragraph": 647,
+              "text": "하느님, 당신이 응답해 주시니, 제가 당신께 부르짖나이다."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 104980,
+              "paragraph": 648,
+              "text": "귀 기울여 제 말씀 들어 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 105104,
+              "paragraph": 649,
+              "text": "주님, 당신 눈동자처럼 저를 보호하소서. 당신 날개 그늘에 저를 숨겨 주소서."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "e059c058b484573da1bb2840ab13f7be6d8949b99ef66c5fe2d3827eff98c898"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 105448,
+              "paragraph": 651,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 105564,
+              "paragraph": 652,
+              "text": "저희가 언제나 성실한 마음으로"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 105682,
+              "paragraph": 653,
+              "text": "하느님을 정성껏 섬기게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 105802,
+              "paragraph": 654,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 105958,
+              "paragraph": 655,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "fa83fe1acd928622bc07df9d833901aa8db932930d7b6d53787ebc52dc6cb1e6"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 106266,
+              "paragraph": 657,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 106358,
+              "paragraph": 658,
+              "text": "저희가 자유로운 마음으로 이 예물을 바치오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 106492,
+              "paragraph": 659,
+              "text": "주님의 은총으로 저희를 씻으시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 106612,
+              "paragraph": 660,
+              "text": "저희가 주님께 드리는 이 성찬의 제사로 더욱 깨끗해지게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 106768,
+              "paragraph": 661,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "a3d7b9e2fa82a9faf641d80531f5c918030da5b995a1eefa227e924872cc5a1f"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 33(32),18-19 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 107128,
+              "paragraph": 663,
+              "text": "보라, 주님의 눈은 당신을 경외하는 이들에게, 당신 자애를 바라는 이들에게 머무르신다. 주님은 죽음에서 목숨을 건지시고, 굶주릴 때 먹여 살리신다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f0b10b1874c6cfedd21bd621dc20da27c77820a7e067535ef3c4c410ad301112"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 107596,
+              "paragraph": 665,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 107688,
+              "paragraph": 666,
+              "text": "저희가 천상 잔치에 자주 참여하여"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 107810,
+              "paragraph": 667,
+              "text": "현세에서 도움도 받고 영원한 신비도 배우게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 107952,
+              "paragraph": 668,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9d39da78e169e7f9e8b629c0b5c996fe5b89619fb545e270985dd79ad728efce"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "status": "existing-preserved",
+      "sha256": "785e997d6ea24093b0ea4b0cd08686b5504682f94568305dd97487322f2d2477"
+    },
+    {
+      "date": "2026-10-25",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 105(104),3-4",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 113210,
+              "paragraph": 699,
+              "text": "주님을 찾는 마음은 기뻐하여라."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 113332,
+              "paragraph": 700,
+              "text": "주님과 그 권능을 구하여라. 언제나 그 얼굴을 찾아라."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 113478,
+              "paragraph": 701,
+              "text": "<대영광송>"
+            }
+          ],
+          "textSha256": "03f1625514ed890f803c96eb64b3386889149839410518b697e9a09f007a80a7"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 113748,
+              "paragraph": 703,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 113864,
+              "paragraph": 704,
+              "text": "저희 안에 믿음과 희망과 사랑이 자라나게 하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 114002,
+              "paragraph": 705,
+              "text": "저희가 하느님의 계명을 지켜 영원한 생명을 얻게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 114150,
+              "paragraph": 706,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 114306,
+              "paragraph": 707,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 114438,
+              "paragraph": 708,
+              "text": "<신경>"
+            }
+          ],
+          "textSha256": "319466b1ab9b953bcc5446aa985ddda385f683467465308bf4a4624a82a4fb58"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 114708,
+              "paragraph": 710,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 114800,
+              "paragraph": 711,
+              "text": "주님께 올리는 이 예물을 굽어보시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 114924,
+              "paragraph": 712,
+              "text": "저희가 바치는 제사가 주님께 영광이 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 115064,
+              "paragraph": 713,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 115190,
+              "paragraph": 714,
+              "text": "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+            }
+          ],
+          "textSha256": "a45ec828122977c51b432d38bb895a118464b195dab989c0746117133d52fb68"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 20(19),6 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 115562,
+              "paragraph": 716,
+              "text": "당신의 구원에 우리가 환호하며, 하느님 이름으로 깃발을 높이리이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f4bb8caeef394e83749059ce6b0065520491d76f1bd134fc8835c3b547bfd589"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 115904,
+              "paragraph": 718,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 115996,
+              "paragraph": 719,
+              "text": "성체성사의 은혜를 풍부히 내려 주시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 116122,
+              "paragraph": 720,
+              "text": "저희가 거행하는 이 신비를 그대로 실천하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 116264,
+              "paragraph": 721,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9922f2ea7dd958fc6fa604787825d7d432ebf0be80423f5805adbf63774d648f"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 105(104),3-4",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 117334,
+              "paragraph": 726,
+              "text": "주님을 찾는 마음은 기뻐하여라."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 117456,
+              "paragraph": 727,
+              "text": "주님과 그 권능을 구하여라. 언제나 그 얼굴을 찾아라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "03f1625514ed890f803c96eb64b3386889149839410518b697e9a09f007a80a7"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 117774,
+              "paragraph": 729,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 117890,
+              "paragraph": 730,
+              "text": "저희 안에 믿음과 희망과 사랑이 자라나게 하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 118028,
+              "paragraph": 731,
+              "text": "저희가 하느님의 계명을 지켜 영원한 생명을 얻게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 118176,
+              "paragraph": 732,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 118332,
+              "paragraph": 733,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "319466b1ab9b953bcc5446aa985ddda385f683467465308bf4a4624a82a4fb58"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 118640,
+              "paragraph": 735,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 118732,
+              "paragraph": 736,
+              "text": "주님께 올리는 이 예물을 굽어보시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 118856,
+              "paragraph": 737,
+              "text": "저희가 바치는 제사가 주님께 영광이 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 118996,
+              "paragraph": 738,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "a45ec828122977c51b432d38bb895a118464b195dab989c0746117133d52fb68"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 20(19),6 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 119348,
+              "paragraph": 740,
+              "text": "당신의 구원에 우리가 환호하며, 하느님 이름으로 깃발을 높이리이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f4bb8caeef394e83749059ce6b0065520491d76f1bd134fc8835c3b547bfd589"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 119690,
+              "paragraph": 742,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 119782,
+              "paragraph": 743,
+              "text": "성체성사의 은혜를 풍부히 내려 주시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 119908,
+              "paragraph": 744,
+              "text": "저희가 거행하는 이 신비를 그대로 실천하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 120050,
+              "paragraph": 745,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9922f2ea7dd958fc6fa604787825d7d432ebf0be80423f5805adbf63774d648f"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 105(104),3-4",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 121120,
+              "paragraph": 750,
+              "text": "주님을 찾는 마음은 기뻐하여라."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 121242,
+              "paragraph": 751,
+              "text": "주님과 그 권능을 구하여라. 언제나 그 얼굴을 찾아라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "03f1625514ed890f803c96eb64b3386889149839410518b697e9a09f007a80a7"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 121560,
+              "paragraph": 753,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 121676,
+              "paragraph": 754,
+              "text": "저희 안에 믿음과 희망과 사랑이 자라나게 하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 121814,
+              "paragraph": 755,
+              "text": "저희가 하느님의 계명을 지켜 영원한 생명을 얻게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 121962,
+              "paragraph": 756,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 122118,
+              "paragraph": 757,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "319466b1ab9b953bcc5446aa985ddda385f683467465308bf4a4624a82a4fb58"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 122426,
+              "paragraph": 759,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 122518,
+              "paragraph": 760,
+              "text": "주님께 올리는 이 예물을 굽어보시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 122642,
+              "paragraph": 761,
+              "text": "저희가 바치는 제사가 주님께 영광이 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 122782,
+              "paragraph": 762,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "a45ec828122977c51b432d38bb895a118464b195dab989c0746117133d52fb68"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 20(19),6 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 123134,
+              "paragraph": 764,
+              "text": "당신의 구원에 우리가 환호하며, 하느님 이름으로 깃발을 높이리이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f4bb8caeef394e83749059ce6b0065520491d76f1bd134fc8835c3b547bfd589"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 123476,
+              "paragraph": 766,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 123568,
+              "paragraph": 767,
+              "text": "성체성사의 은혜를 풍부히 내려 주시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 123694,
+              "paragraph": 768,
+              "text": "저희가 거행하는 이 신비를 그대로 실천하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 123836,
+              "paragraph": 769,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9922f2ea7dd958fc6fa604787825d7d432ebf0be80423f5805adbf63774d648f"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 124918,
+              "paragraph": 774,
+              "text": "주님은 이 거룩한 사람들을 참사랑으로 뽑으시고, 영원한 영광을 주셨네."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 125082,
+              "paragraph": 775,
+              "text": "<대영광송>"
+            }
+          ],
+          "textSha256": "04919f4ae85eb09c6428394040507cf48becfc2058e3b7f802fd060ae4d01543"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 125352,
+              "paragraph": 777,
+              "text": "하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 125446,
+              "paragraph": 778,
+              "text": "복된 사도들을 통하여 구원의 신비를 저희에게 알려 주셨으니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 125596,
+              "paragraph": 779,
+              "text": "거룩한 시몬과 유다의 전구를 들으시고 자비를 베푸시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 125740,
+              "paragraph": 780,
+              "text": "하느님을 믿는 백성이 나날이 늘어나 교회가 끊임없이 발전하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 125902,
+              "paragraph": 781,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 126058,
+              "paragraph": 782,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "8edc1a6d50e1dcbd9fb2b97554cf43a4b198b5b1821d419c0cda7bb2d82a33fa"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 126366,
+              "paragraph": 784,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 126458,
+              "paragraph": 785,
+              "text": "거룩한 시몬과 유다 사도의 영광을 기리며 이 예물을 드리오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 126610,
+              "paragraph": 786,
+              "text": "저희 믿음을 새롭게 하시어 거룩한 제사를 합당히 거행하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 126768,
+              "paragraph": 787,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 126894,
+              "paragraph": 788,
+              "text": "<사도 감사송>"
+            }
+          ],
+          "textSha256": "960163e1954939a9c0f91e93661229c96b74927c84083225cf662853fe429e16"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 요한 14,23 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 127216,
+              "paragraph": 790,
+              "text": "주님이 말씀하신다. 누구든지 나를 사랑하면 내 말을 지키리니, 내 아버지도 그를 사랑하시고, 우리가 가서 그와 함께 살리라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "ff4db33109bc929ca0bd770b562cd50605cbfb6fdb53a07fd16ff3208bdf7f8b"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 127658,
+              "paragraph": 792,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 127750,
+              "paragraph": 793,
+              "text": "저희가 성체를 받아 모시고 성령 안에서 간절히 청하오니"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 127896,
+              "paragraph": 794,
+              "text": "시몬과 유다 사도의 순교를 기념하는 저희를"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 128028,
+              "paragraph": 795,
+              "text": "주님의 사랑으로 지켜 주소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 128146,
+              "paragraph": 796,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "2fdc0966b8388ef1c72c0f8f305222ec9375b6d549715a9eb00777701c7b1a91"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 105(104),3-4",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 129216,
+              "paragraph": 801,
+              "text": "주님을 찾는 마음은 기뻐하여라."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 129338,
+              "paragraph": 802,
+              "text": "주님과 그 권능을 구하여라. 언제나 그 얼굴을 찾아라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "03f1625514ed890f803c96eb64b3386889149839410518b697e9a09f007a80a7"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 129656,
+              "paragraph": 804,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 129772,
+              "paragraph": 805,
+              "text": "저희 안에 믿음과 희망과 사랑이 자라나게 하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 129910,
+              "paragraph": 806,
+              "text": "저희가 하느님의 계명을 지켜 영원한 생명을 얻게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 130058,
+              "paragraph": 807,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 130214,
+              "paragraph": 808,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "319466b1ab9b953bcc5446aa985ddda385f683467465308bf4a4624a82a4fb58"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 130522,
+              "paragraph": 810,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 130614,
+              "paragraph": 811,
+              "text": "주님께 올리는 이 예물을 굽어보시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 130738,
+              "paragraph": 812,
+              "text": "저희가 바치는 제사가 주님께 영광이 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 130878,
+              "paragraph": 813,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "a45ec828122977c51b432d38bb895a118464b195dab989c0746117133d52fb68"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 20(19),6 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 131230,
+              "paragraph": 815,
+              "text": "당신의 구원에 우리가 환호하며, 하느님 이름으로 깃발을 높이리이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f4bb8caeef394e83749059ce6b0065520491d76f1bd134fc8835c3b547bfd589"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 131572,
+              "paragraph": 817,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 131664,
+              "paragraph": 818,
+              "text": "성체성사의 은혜를 풍부히 내려 주시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 131790,
+              "paragraph": 819,
+              "text": "저희가 거행하는 이 신비를 그대로 실천하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 131932,
+              "paragraph": 820,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9922f2ea7dd958fc6fa604787825d7d432ebf0be80423f5805adbf63774d648f"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 105(104),3-4",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 133002,
+              "paragraph": 825,
+              "text": "주님을 찾는 마음은 기뻐하여라."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 133124,
+              "paragraph": 826,
+              "text": "주님과 그 권능을 구하여라. 언제나 그 얼굴을 찾아라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "03f1625514ed890f803c96eb64b3386889149839410518b697e9a09f007a80a7"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 133442,
+              "paragraph": 828,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 133558,
+              "paragraph": 829,
+              "text": "저희 안에 믿음과 희망과 사랑이 자라나게 하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 133696,
+              "paragraph": 830,
+              "text": "저희가 하느님의 계명을 지켜 영원한 생명을 얻게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 133844,
+              "paragraph": 831,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 134000,
+              "paragraph": 832,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "319466b1ab9b953bcc5446aa985ddda385f683467465308bf4a4624a82a4fb58"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 134308,
+              "paragraph": 834,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 134400,
+              "paragraph": 835,
+              "text": "주님께 올리는 이 예물을 굽어보시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 134524,
+              "paragraph": 836,
+              "text": "저희가 바치는 제사가 주님께 영광이 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 134664,
+              "paragraph": 837,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "a45ec828122977c51b432d38bb895a118464b195dab989c0746117133d52fb68"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 20(19),6 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 135016,
+              "paragraph": 839,
+              "text": "당신의 구원에 우리가 환호하며, 하느님 이름으로 깃발을 높이리이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f4bb8caeef394e83749059ce6b0065520491d76f1bd134fc8835c3b547bfd589"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 135358,
+              "paragraph": 841,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 135450,
+              "paragraph": 842,
+              "text": "성체성사의 은혜를 풍부히 내려 주시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 135576,
+              "paragraph": 843,
+              "text": "저희가 거행하는 이 신비를 그대로 실천하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 135718,
+              "paragraph": 844,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9922f2ea7dd958fc6fa604787825d7d432ebf0be80423f5805adbf63774d648f"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "status": "linked-propers-only",
+      "sections": [
+        {
+          "title": "입당송",
+          "sourceHeading": "입당송 시편 105(104),3-4",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 136788,
+              "paragraph": 849,
+              "text": "주님을 찾는 마음은 기뻐하여라."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 136910,
+              "paragraph": 850,
+              "text": "주님과 그 권능을 구하여라. 언제나 그 얼굴을 찾아라."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "03f1625514ed890f803c96eb64b3386889149839410518b697e9a09f007a80a7"
+        },
+        {
+          "title": "본기도",
+          "sourceHeading": "본기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 137228,
+              "paragraph": 852,
+              "text": "전능하시고 영원하신 하느님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 137344,
+              "paragraph": 853,
+              "text": "저희 안에 믿음과 희망과 사랑이 자라나게 하시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 137482,
+              "paragraph": 854,
+              "text": "저희가 하느님의 계명을 지켜 영원한 생명을 얻게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 137630,
+              "paragraph": 855,
+              "text": "성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 137786,
+              "paragraph": 856,
+              "text": "우리 주 예수 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "319466b1ab9b953bcc5446aa985ddda385f683467465308bf4a4624a82a4fb58"
+        },
+        {
+          "title": "예물 기도",
+          "sourceHeading": "예물 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 138094,
+              "paragraph": 858,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 138186,
+              "paragraph": 859,
+              "text": "주님께 올리는 이 예물을 굽어보시고"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 138310,
+              "paragraph": 860,
+              "text": "저희가 바치는 제사가 주님께 영광이 되게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 138450,
+              "paragraph": 861,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "a45ec828122977c51b432d38bb895a118464b195dab989c0746117133d52fb68"
+        },
+        {
+          "title": "영성체송",
+          "sourceHeading": "영성체송 시편 20(19),6 참조",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 138802,
+              "paragraph": 863,
+              "text": "당신의 구원에 우리가 환호하며, 하느님 이름으로 깃발을 높이리이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "f4bb8caeef394e83749059ce6b0065520491d76f1bd134fc8835c3b547bfd589"
+        },
+        {
+          "title": "영성체 후 기도",
+          "sourceHeading": "영성체 후 기도",
+          "bodyRecords": [
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 139144,
+              "paragraph": 865,
+              "text": "주님,"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 139236,
+              "paragraph": 866,
+              "text": "성체성사의 은혜를 풍부히 내려 주시어"
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 139362,
+              "paragraph": 867,
+              "text": "저희가 거행하는 이 신비를 그대로 실천하게 하소서."
+            },
+            {
+              "stream": "BodyText/Section0",
+              "recordOffset": 139504,
+              "paragraph": 868,
+              "text": "우리 주 그리스도를 통하여 비나이다."
+            }
+          ],
+          "deferredFollowingRecords": [],
+          "textSha256": "9922f2ea7dd958fc6fa604787825d7d432ebf0be80423f5805adbf63774d648f"
+        }
+      ]
+    }
+  ]
+}

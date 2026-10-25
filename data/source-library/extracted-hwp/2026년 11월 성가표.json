@@ -1,0 +1,1430 @@
+{
+  "sourcePath": "data/source-library/hymn-schedules/originals/2026년 11월 성가표.hwp",
+  "sha256": "452987895fa8e65cb3648f783bd431da71746edf168e6ac4d9250fc37d2e8e73",
+  "kind": "hymn-schedules",
+  "status": "extracted-not-proofread",
+  "paragraphs": [
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 28,
+      "paragraph": 1,
+      "text": "2026년 11월 위령성월"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 968,
+      "paragraph": 3,
+      "text": "입당"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 1109,
+      "paragraph": 4,
+      "text": "예물준비"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 1254,
+      "paragraph": 5,
+      "text": "성체"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 1395,
+      "paragraph": 6,
+      "text": "파견"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 1536,
+      "paragraph": 7,
+      "text": "1(일)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 1681,
+      "paragraph": 8,
+      "text": "모든 성인 대축일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 1836,
+      "paragraph": 9,
+      "text": "38"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 1977,
+      "paragraph": 10,
+      "text": "238"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 2120,
+      "paragraph": 11,
+      "text": "226"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 2263,
+      "paragraph": 12,
+      "text": "151"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 2406,
+      "paragraph": 13,
+      "text": "166"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 2549,
+      "paragraph": 14,
+      "text": "167"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 2692,
+      "paragraph": 15,
+      "text": "294"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 2835,
+      "paragraph": 16,
+      "text": "2(월)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 2980,
+      "paragraph": 17,
+      "text": "죽은 모든 이를 기억하는 위령의 날"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 3155,
+      "paragraph": 18,
+      "text": "227"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 3298,
+      "paragraph": 19,
+      "text": "517"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 3572,
+      "paragraph": 20,
+      "text": "436"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 3715,
+      "paragraph": 21,
+      "text": "462"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 3989,
+      "paragraph": 22,
+      "text": "27"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 4130,
+      "paragraph": 23,
+      "text": "3(화)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 4275,
+      "paragraph": 24,
+      "text": "연중 제31주간 화요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 4436,
+      "paragraph": 25,
+      "text": "59"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 4577,
+      "paragraph": 26,
+      "text": "210"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 4851,
+      "paragraph": 27,
+      "text": "152"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 4994,
+      "paragraph": 28,
+      "text": "188"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 5268,
+      "paragraph": 29,
+      "text": "229"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 5411,
+      "paragraph": 30,
+      "text": "4(수)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 5556,
+      "paragraph": 31,
+      "text": "성 가롤로 보로메오 주교 기념일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 5727,
+      "paragraph": 32,
+      "text": "421"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 5870,
+      "paragraph": 33,
+      "text": "211"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 6144,
+      "paragraph": 34,
+      "text": "153"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 6287,
+      "paragraph": 35,
+      "text": "197"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 6561,
+      "paragraph": 36,
+      "text": "227"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 6704,
+      "paragraph": 37,
+      "text": "5(목)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 6849,
+      "paragraph": 38,
+      "text": "연중 제31주간 목요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 7010,
+      "paragraph": 39,
+      "text": "61"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 7151,
+      "paragraph": 40,
+      "text": "212"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 7425,
+      "paragraph": 41,
+      "text": "154"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 7568,
+      "paragraph": 42,
+      "text": "198"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 7842,
+      "paragraph": 43,
+      "text": "228"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 7985,
+      "paragraph": 44,
+      "text": "6(금)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 8130,
+      "paragraph": 45,
+      "text": "연중 제31주간 금요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 8291,
+      "paragraph": 46,
+      "text": "426"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 8434,
+      "paragraph": 47,
+      "text": "213"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 8708,
+      "paragraph": 48,
+      "text": "155"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 8851,
+      "paragraph": 49,
+      "text": "496"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 9125,
+      "paragraph": 50,
+      "text": "229"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 9268,
+      "paragraph": 51,
+      "text": "7(토)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 9413,
+      "paragraph": 52,
+      "text": "연중 제31주간 토요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 9574,
+      "paragraph": 53,
+      "text": "62"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 9715,
+      "paragraph": 54,
+      "text": "215"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 9989,
+      "paragraph": 55,
+      "text": "156"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 10132,
+      "paragraph": 56,
+      "text": "498"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 10406,
+      "paragraph": 57,
+      "text": "232"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 10549,
+      "paragraph": 58,
+      "text": "8(일)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 10694,
+      "paragraph": 59,
+      "text": "연중 제32주일(평신도 주일)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 10863,
+      "paragraph": 60,
+      "text": "27"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 11004,
+      "paragraph": 61,
+      "text": "235"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 11147,
+      "paragraph": 62,
+      "text": "216"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 11290,
+      "paragraph": 63,
+      "text": "157"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 11433,
+      "paragraph": 64,
+      "text": "499"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 11576,
+      "paragraph": 65,
+      "text": "498"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 11719,
+      "paragraph": 66,
+      "text": "227"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 11862,
+      "paragraph": 67,
+      "text": "9(월)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 12007,
+      "paragraph": 68,
+      "text": "라테라노 대성전 봉헌 축일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 12172,
+      "paragraph": 69,
+      "text": "67"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 12313,
+      "paragraph": 70,
+      "text": "217"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 12587,
+      "paragraph": 71,
+      "text": "158"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 12730,
+      "paragraph": 72,
+      "text": "501"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 13004,
+      "paragraph": 73,
+      "text": "69"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 13145,
+      "paragraph": 74,
+      "text": "10(화)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 13292,
+      "paragraph": 75,
+      "text": "성 대 레오 교황 학자 기념일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 13461,
+      "paragraph": 76,
+      "text": "55"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 13602,
+      "paragraph": 77,
+      "text": "218"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 13876,
+      "paragraph": 78,
+      "text": "159"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 14019,
+      "paragraph": 79,
+      "text": "502"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 14293,
+      "paragraph": 80,
+      "text": "228"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 14436,
+      "paragraph": 81,
+      "text": "11(수)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 14583,
+      "paragraph": 82,
+      "text": "투르의 성 마르티노 주교 기념일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 14754,
+      "paragraph": 83,
+      "text": "56"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 14895,
+      "paragraph": 84,
+      "text": "219"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 15169,
+      "paragraph": 85,
+      "text": "160"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 15312,
+      "paragraph": 86,
+      "text": "504"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 15586,
+      "paragraph": 87,
+      "text": "27"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 15727,
+      "paragraph": 88,
+      "text": "12(목)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 15874,
+      "paragraph": 89,
+      "text": "성 요사팟 주교 순교자 기념일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 16043,
+      "paragraph": 90,
+      "text": "35"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 16184,
+      "paragraph": 91,
+      "text": "220"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 16458,
+      "paragraph": 92,
+      "text": "161"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 16601,
+      "paragraph": 93,
+      "text": "506"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 16875,
+      "paragraph": 94,
+      "text": "227"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 17018,
+      "paragraph": 95,
+      "text": "13(금)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 17165,
+      "paragraph": 96,
+      "text": "연중 제32주간 금요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 17326,
+      "paragraph": 97,
+      "text": "12"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 17467,
+      "paragraph": 98,
+      "text": "221"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 17741,
+      "paragraph": 99,
+      "text": "163"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 17884,
+      "paragraph": 100,
+      "text": "151"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 18158,
+      "paragraph": 101,
+      "text": "228"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 18301,
+      "paragraph": 102,
+      "text": "14(토)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 18448,
+      "paragraph": 103,
+      "text": "연중 제32주간 토요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 18609,
+      "paragraph": 104,
+      "text": "229"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 18752,
+      "paragraph": 105,
+      "text": "332"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 19026,
+      "paragraph": 106,
+      "text": "164"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 19169,
+      "paragraph": 107,
+      "text": "152"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 19443,
+      "paragraph": 108,
+      "text": "27"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 19584,
+      "paragraph": 109,
+      "text": "15(일)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 19733,
+      "paragraph": 110,
+      "text": "연중 제33주일(세계 가난한 이의 날)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 19912,
+      "paragraph": 111,
+      "text": "48"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 20053,
+      "paragraph": 112,
+      "text": "41"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 20194,
+      "paragraph": 113,
+      "text": "446"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 20337,
+      "paragraph": 114,
+      "text": "46"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 20478,
+      "paragraph": 115,
+      "text": "31"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 20619,
+      "paragraph": 116,
+      "text": "436"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 20762,
+      "paragraph": 117,
+      "text": "65"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 20903,
+      "paragraph": 118,
+      "text": "16(월)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 21050,
+      "paragraph": 119,
+      "text": "연중 제33주간 월요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 21211,
+      "paragraph": 120,
+      "text": "421"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 21354,
+      "paragraph": 121,
+      "text": "340"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 21628,
+      "paragraph": 122,
+      "text": "165"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 21771,
+      "paragraph": 123,
+      "text": "153"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 22045,
+      "paragraph": 124,
+      "text": "227"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 22188,
+      "paragraph": 125,
+      "text": "17(화)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 22335,
+      "paragraph": 126,
+      "text": "헝가리의 성녀 엘리사벳 수도자 기념일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 22512,
+      "paragraph": 127,
+      "text": "32"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 22653,
+      "paragraph": 128,
+      "text": "342"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 22927,
+      "paragraph": 129,
+      "text": "166"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 23070,
+      "paragraph": 130,
+      "text": "154"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 23344,
+      "paragraph": 131,
+      "text": "27"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 23485,
+      "paragraph": 132,
+      "text": "18(수)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 23632,
+      "paragraph": 133,
+      "text": "연중 제33주간 수요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 23793,
+      "paragraph": 134,
+      "text": "229"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 23936,
+      "paragraph": 135,
+      "text": "510"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 24210,
+      "paragraph": 136,
+      "text": "167"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 24353,
+      "paragraph": 137,
+      "text": "157"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 24627,
+      "paragraph": 138,
+      "text": "63"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 24768,
+      "paragraph": 139,
+      "text": "19(목)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 24915,
+      "paragraph": 140,
+      "text": "연중 제33주간 목요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 25076,
+      "paragraph": 141,
+      "text": "65"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 25217,
+      "paragraph": 142,
+      "text": "511"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 25491,
+      "paragraph": 143,
+      "text": "168"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 25634,
+      "paragraph": 144,
+      "text": "158"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 25908,
+      "paragraph": 145,
+      "text": "521"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 26051,
+      "paragraph": 146,
+      "text": "20(금)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 26198,
+      "paragraph": 147,
+      "text": "연중 제33주간 금요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 26359,
+      "paragraph": 148,
+      "text": "27"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 26500,
+      "paragraph": 149,
+      "text": "512"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 26774,
+      "paragraph": 150,
+      "text": "169"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 26917,
+      "paragraph": 151,
+      "text": "159"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 27191,
+      "paragraph": 152,
+      "text": "232"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 27334,
+      "paragraph": 153,
+      "text": "21(토)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 27481,
+      "paragraph": 154,
+      "text": "복되신 동정 마리아의 자헌 기념일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 27654,
+      "paragraph": 155,
+      "text": "240"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 27797,
+      "paragraph": 156,
+      "text": "241"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 28071,
+      "paragraph": 157,
+      "text": "170"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 28214,
+      "paragraph": 158,
+      "text": "160"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 28488,
+      "paragraph": 159,
+      "text": "249"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 28631,
+      "paragraph": 160,
+      "text": "22(일)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 28778,
+      "paragraph": 161,
+      "text": "온 누리의 임금이신 우리 주 예수 그리스도왕 대축일(교중)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 28979,
+      "paragraph": 162,
+      "text": "79"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 29120,
+      "paragraph": 163,
+      "text": "239"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 29263,
+      "paragraph": 164,
+      "text": "514"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 29406,
+      "paragraph": 165,
+      "text": "171"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 29549,
+      "paragraph": 166,
+      "text": "163"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 29692,
+      "paragraph": 167,
+      "text": "198"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 29835,
+      "paragraph": 168,
+      "text": "75"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 29976,
+      "paragraph": 169,
+      "text": "온 누리의 임금이신 우리 주 예수 그리스도왕 대축일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 30169,
+      "paragraph": 170,
+      "text": "78"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 30310,
+      "paragraph": 171,
+      "text": "239"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 30453,
+      "paragraph": 172,
+      "text": "514"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 30596,
+      "paragraph": 173,
+      "text": "171"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 30739,
+      "paragraph": 174,
+      "text": "163"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 30882,
+      "paragraph": 175,
+      "text": "198"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 31025,
+      "paragraph": 176,
+      "text": "75"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 31166,
+      "paragraph": 177,
+      "text": "23(월)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 31313,
+      "paragraph": 178,
+      "text": "연중 제34주간 월요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 31474,
+      "paragraph": 179,
+      "text": "16"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 31615,
+      "paragraph": 180,
+      "text": "513"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 31889,
+      "paragraph": 181,
+      "text": "174"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 32032,
+      "paragraph": 182,
+      "text": "172"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 32306,
+      "paragraph": 183,
+      "text": "228"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 32449,
+      "paragraph": 184,
+      "text": "24(화)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 32596,
+      "paragraph": 185,
+      "text": "성 안드레아 둥락 사제와 동료 순교자들 기념일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 32783,
+      "paragraph": 186,
+      "text": "227"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 32926,
+      "paragraph": 187,
+      "text": "210"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 33200,
+      "paragraph": 188,
+      "text": "175"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 33343,
+      "paragraph": 189,
+      "text": "164"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 33617,
+      "paragraph": 190,
+      "text": "521"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 33760,
+      "paragraph": 191,
+      "text": "25(수)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 33907,
+      "paragraph": 192,
+      "text": "연중 제34주간 수요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 34068,
+      "paragraph": 193,
+      "text": "21"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 34209,
+      "paragraph": 194,
+      "text": "211"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 34483,
+      "paragraph": 195,
+      "text": "176"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 34626,
+      "paragraph": 196,
+      "text": "165"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 34900,
+      "paragraph": 197,
+      "text": "232"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 35043,
+      "paragraph": 198,
+      "text": "26(목)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 35190,
+      "paragraph": 199,
+      "text": "연중 제34주간 목요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 35351,
+      "paragraph": 200,
+      "text": "27"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 35492,
+      "paragraph": 201,
+      "text": "212"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 35766,
+      "paragraph": 202,
+      "text": "178"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 35909,
+      "paragraph": 203,
+      "text": "166"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 36183,
+      "paragraph": 204,
+      "text": "229"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 36326,
+      "paragraph": 205,
+      "text": "27(금)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 36473,
+      "paragraph": 206,
+      "text": "연중 제34주간 금요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 36634,
+      "paragraph": 207,
+      "text": "65"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 36775,
+      "paragraph": 208,
+      "text": "213"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 37049,
+      "paragraph": 209,
+      "text": "179"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 37192,
+      "paragraph": 210,
+      "text": "167"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 37466,
+      "paragraph": 211,
+      "text": "227"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 37609,
+      "paragraph": 212,
+      "text": "28(토)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 37758,
+      "paragraph": 213,
+      "text": "연중 제34주간 토요일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 37919,
+      "paragraph": 214,
+      "text": "26"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 38060,
+      "paragraph": 215,
+      "text": "215"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 38334,
+      "paragraph": 216,
+      "text": "180"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 38477,
+      "paragraph": 217,
+      "text": "168"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 38751,
+      "paragraph": 218,
+      "text": "228"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 38894,
+      "paragraph": 219,
+      "text": "29(일)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 39043,
+      "paragraph": 220,
+      "text": "대림 제1주일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 39194,
+      "paragraph": 221,
+      "text": "91"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 39335,
+      "paragraph": 222,
+      "text": "243"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 39478,
+      "paragraph": 223,
+      "text": "218"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 39621,
+      "paragraph": 224,
+      "text": "182"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 39764,
+      "paragraph": 225,
+      "text": "169"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 39907,
+      "paragraph": 226,
+      "text": "180"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 40050,
+      "paragraph": 227,
+      "text": "95"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 40191,
+      "paragraph": 228,
+      "text": "30(월)"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 40338,
+      "paragraph": 229,
+      "text": "성 안드레아 사도 축일"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 40499,
+      "paragraph": 230,
+      "text": "88"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 40640,
+      "paragraph": 231,
+      "text": "216"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 40914,
+      "paragraph": 232,
+      "text": "187"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 41057,
+      "paragraph": 233,
+      "text": "170"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 41331,
+      "paragraph": 234,
+      "text": "290"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 41474,
+      "paragraph": 235,
+      "text": "장례"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 41615,
+      "paragraph": 236,
+      "text": "입당 329 화답송 51(1-2절) 봉헌 210 영성체 166 228 고별식(분향) 고별식 노래 파견 227"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 41872,
+      "paragraph": 237,
+      "text": "혼배"
+    },
+    {
+      "stream": "BodyText/Section0",
+      "recordOffset": 42013,
+      "paragraph": 238,
+      "text": "입당 337 화답송 46 봉헌 340, 217 성체 165, 163 파견 299"
+    }
+  ]
+}

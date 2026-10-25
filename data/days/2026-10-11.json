@@ -1,0 +1,805 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-11",
+  "date": "2026-10-11",
+  "observance": "연중 제28주일 · 군인 주일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261011"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님, 당신이 죄악을 헤아리신다면, 주님, 감당할 자 누구이리까?\n이스라엘의 하느님, 당신은 용서하는 분이시옵니다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "주님,\n주님의 넘치는 은총으로 언제나 저희와 함께하시어\n저희가 끊임없이 좋은 일을 하도록 이끌어 주소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n신자들이 바치는 기도와 예물을 받아들이시고\n이 정성된 제사로 저희가 천상 영광을 누리게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "부자들도 궁색해져 굶주리게 되지만, 주님을 찾는 이에게는 좋은 것뿐이리라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n엄위하신 주님 앞에 엎드려 비오니\n저희를 그리스도의 거룩한 살과 피로 기르시어\n그 신성에 참여하게 하소서.\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<주님께서 잔치를 베푸시고, 모든 사람의 얼굴에서 눈물을 닦아 내시리라.>",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.25,6-10ㄱ",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "6 만군의 주님께서는 이 산 위에서 모든 민족들을 위하여",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "살진 음식과 잘 익은 술로 잔치를,",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "살지고 기름진 음식과 잘 익고 잘 거른 술로 잔치를 베푸시리라.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "7 그분께서는 이 산 위에서 모든 겨레들에게 씌워진 너울과",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "모든 민족들에게 덮인 덮개를 없애시리라.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "8 그분께서는 죽음을 영원히 없애 버리시리라.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "주 하느님께서는 모든 사람의 얼굴에서 눈물을 닦아 내시고",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "당신 백성의 수치를 온 세상에서 치워 주시리라.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "정녕 주님께서 말씀하셨다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "9 그날에 이렇게들 말하리라.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "“보라, 이분은 우리의 하느님이시다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "우리는 이분께 희망을 걸었고 이분께서는 우리를 구원해 주셨다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "이분이야말로 우리가 희망을 걸었던 주님이시다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "이분의 구원으로 우리 기뻐하고 즐거워하자.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "10 주님의 손이 이 산 위에 머무르신다.”",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261011"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-2-p1",
+          "role": "text",
+          "text": "<나에게 힘을 주시는 분 안에서 나는 모든 것을 할 수 있습니다.>",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 필리피서 말씀입니다.4,12-14.19-20",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p3",
+          "role": "text",
+          "text": "형제 여러분, 12 나는 비천하게 살 줄도 알고 풍족하게 살 줄도 압니다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p4",
+          "role": "text",
+          "text": "배부르거나 배고프거나 넉넉하거나 모자라거나",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p5",
+          "role": "text",
+          "text": "그 어떠한 경우에도 잘 지내는 비결을 알고 있습니다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p6",
+          "role": "text",
+          "text": "13 나에게 힘을 주시는 분 안에서 나는 모든 것을 할 수 있습니다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p7",
+          "role": "text",
+          "text": "14 그러나 내가 겪는 환난에 여러분이 동참한 것은 잘한 일입니다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p8",
+          "role": "text",
+          "text": "19 나의 하느님께서는 그리스도 예수님 안에서",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p9",
+          "role": "text",
+          "text": "영광스럽게 베푸시는 당신의 그 풍요로움으로,",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p10",
+          "role": "text",
+          "text": "여러분에게 필요한 모든 것을 채워 주실 것입니다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p11",
+          "role": "text",
+          "text": "20 우리의 하느님 아버지께 영원무궁토록 영광이 있기를 빕니다. 아멘.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p12",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "reading-2-p13",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261011"
+        }
+      ]
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 23(22),1-3ㄱ.3ㄴㄷ-4.5.6(◎ 6ㄷㄹ)",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 저는 오래오래 주님 집에 사오리다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님은 나의 목자, 아쉬울 것 없어라. 푸른 풀밭에 나를 쉬게 하시고, 잔잔한 물가로 나를 이끄시어, 내 영혼에 생기 돋우어 주시네. ◎",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 당신 이름 위하여, 나를 바른길로 이끌어 주시네. 어둠의 골짜기를 간다 하여도, 당신 함께 계시오니, 두려울 것 없나이다. 당신의 막대와 지팡이, 저에게 위안이 되나이다. ◎",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 원수들 보는 앞에서 제게 상을 차려 주시고, 머리에 향유를 발라 주시니, 제 술잔 넘치도록 가득하옵니다. ◎",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 제 한평생 모든 날에 은총과 자애만이 따르리니, 저는 오래오래 주님 집에 사오리다. ◎",
+          "sourceRef": "goodnews-20261011"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "에페 1,17-18 참조",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 우리 주 예수 그리스도의 아버지, 저희 마음의 눈을 밝혀 주시어 부르심을 받은 저희의 희망을 알게 하여 주소서.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261011"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<아무나 만나는 대로 잔치에 불러오너라.>",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.22,1-14",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서는 여러 가지 비유로",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "수석 사제들과 백성의 원로들에게 1 말씀하셨다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "2 “하늘 나라는 자기 아들의 혼인 잔치를 베푼 어떤 임금에게 비길 수 있다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "3 그는 종들을 보내어 혼인 잔치에 초대받은 이들을 불러오게 하였다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "그러나 그들은 오려고 하지 않았다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "4 그래서 다시 다른 종들을 보내며 이렇게 일렀다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "‘초대받은 이들에게, ′내가 잔칫상을 이미 차렸소.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "황소와 살진 짐승을 잡고 모든 준비를 마쳤으니,",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "어서 혼인 잔치에 오시오.′하고 말하여라.’",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "5 그러나 그들은 아랑곳하지 않고,",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "어떤 자는 밭으로 가고 어떤 자는 장사하러 갔다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "6 그리고 나머지 사람들은 종들을 붙잡아 때리고 죽였다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "7 임금은 진노하였다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "그래서 군대를 보내어 그 살인자들을 없애고",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "그들의 고을을 불살라 버렸다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "8 그러고 나서 종들에게 말하였다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "‘혼인 잔치는 준비되었는데 초대받은 자들은 마땅하지 않구나.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "9 그러니 고을 어귀로 가서",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "아무나 만나는 대로 잔치에 불러오너라.’",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "10 그래서 그 종들은 거리에 나가",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "악한 사람 선한 사람 할 것 없이 만나는 대로 데려왔다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "잔칫방은 손님들로 가득 찼다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "text",
+          "text": "11 임금이 손님들을 둘러보려고 들어왔다가,",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p26",
+          "role": "text",
+          "text": "혼인 예복을 입지 않은 사람 하나를 보고,",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p27",
+          "role": "text",
+          "text": "12 ‘친구여, 그대는 혼인 예복도 갖추지 않고 어떻게 여기 들어왔나?’ 하고 물으니,",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p28",
+          "role": "text",
+          "text": "그는 아무 말도 하지 못하였다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p29",
+          "role": "text",
+          "text": "13 그러자 임금이 하인들에게 말하였다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p30",
+          "role": "text",
+          "text": "‘이자의 손과 발을 묶어서 바깥 어둠 속으로 내던져 버려라.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p31",
+          "role": "text",
+          "text": "거기에서 울며 이를 갈 것이다.’",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p32",
+          "role": "text",
+          "text": "14 사실 부르심을 받은 이들은 많지만 선택된 이들은 적다.”",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p33",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-p34",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261011"
+        }
+      ]
+    },
+    {
+      "id": "gospel-option-2",
+      "kind": "gospel",
+      "title": "복음 · 대안 2",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-option-2-p1",
+          "role": "text",
+          "text": "<아무나 만나는 대로 잔치에 불러오너라.>",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다. 22,1-10",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p3",
+          "role": "text",
+          "text": "그때에 예수님께서는 여러 가지 비유로",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p4",
+          "role": "text",
+          "text": "수석 사제들과 백성의 원로들에게 1 말씀하셨다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p5",
+          "role": "text",
+          "text": "2 “하늘 나라는 자기 아들의 혼인 잔치를 베푼 어떤 임금에게 비길 수 있다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p6",
+          "role": "text",
+          "text": "3 그는 종들을 보내어 혼인 잔치에 초대받은 이들을 불러오게 하였다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p7",
+          "role": "text",
+          "text": "그러나 그들은 오려고 하지 않았다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p8",
+          "role": "text",
+          "text": "4 그래서 다시 다른 종들을 보내며 이렇게 일렀다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p9",
+          "role": "text",
+          "text": "‘초대받은 이들에게, ′내가 잔칫상을 이미 차렸소.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p10",
+          "role": "text",
+          "text": "황소와 살진 짐승을 잡고 모든 준비를 마쳤으니,",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p11",
+          "role": "text",
+          "text": "어서 혼인 잔치에 오시오.′하고 말하여라.’",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p12",
+          "role": "text",
+          "text": "5 그러나 그들은 아랑곳하지 않고,",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p13",
+          "role": "text",
+          "text": "어떤 자는 밭으로 가고 어떤 자는 장사하러 갔다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p14",
+          "role": "text",
+          "text": "6 그리고 나머지 사람들은 종들을 붙잡아 때리고 죽였다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p15",
+          "role": "text",
+          "text": "7 임금은 진노하였다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p16",
+          "role": "text",
+          "text": "그래서 군대를 보내어 그 살인자들을 없애고",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p17",
+          "role": "text",
+          "text": "그들의 고을을 불살라 버렸다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p18",
+          "role": "text",
+          "text": "8 그러고 나서 종들에게 말하였다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p19",
+          "role": "text",
+          "text": "‘혼인 잔치는 준비되었는데 초대받은 자들은 마땅하지 않구나.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p20",
+          "role": "text",
+          "text": "9 그러니 고을 어귀로 가서 아무나 만나는 대로 잔치에 불러오너라.’",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p21",
+          "role": "text",
+          "text": "10 그래서 그 종들은 거리에 나가",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p22",
+          "role": "text",
+          "text": "악한 사람 선한 사람 할 것 없이 만나는 대로 데려왔다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p23",
+          "role": "text",
+          "text": "잔칫방은 손님들로 가득 찼다.”",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p24",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "gospel-option-2-p25",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261011"
+        }
+      ]
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "intercessions-p1",
+          "role": "guidance",
+          "text": "<각 공동체 스스로 준비한 기도를 바치는 것이 바람직하다.>",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "intercessions-p2",
+          "role": "text",
+          "text": "1. 교회를 위하여 기도합시다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "intercessions-p3",
+          "role": "text",
+          "text": "희망이신 주님, 주님께 희망을 두고 살아가는 교회를 이끄시어, 주님의 잔치에 이웃을 초대하여 기쁨과 희망을 함께 나누고, 주님께서 베푸시는 풍요를 널리 전하게 하소서.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "intercessions-p4",
+          "role": "text",
+          "text": "2. 우리나라의 평화를 위하여 기도합시다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "intercessions-p5",
+          "role": "text",
+          "text": "보호자이신 주님, 남과 북으로 갈라져 있는 저희 민족을 굽어보시어, 주님의 진리를 찾고 따르며 일치와 평화를 위하여 힘을 모으게 하소서.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "intercessions-p6",
+          "role": "text",
+          "text": "3. 군인 주일을 맞아, 군인들과 군종 사제들을 위하여 기도합시다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "intercessions-p7",
+          "role": "text",
+          "text": "평화의 주님, 평화를 지키는 군인들을 돌보아 주시어, 그들에게 건강과 용기를 주시고, 군의 복음화를 위하여 파견된 군종 사제들이 믿음과 열정으로 그들을 보살피게 하소서.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "intercessions-p8",
+          "role": "text",
+          "text": "4. 본당 공동체를 위하여 기도합시다.",
+          "sourceRef": "goodnews-20261011"
+        },
+        {
+          "id": "intercessions-p9",
+          "role": "text",
+          "text": "자비하신 주님, 저희 본당 공동체를 굽어보시어, 주님께서 가르쳐 주신 사랑을 실천하고, 언제나 주님께 감사와 영광을 드리며 기쁘게 살아가게 하소서.",
+          "sourceRef": "goodnews-20261011"
+        }
+      ]
+    }
+  ]
+}

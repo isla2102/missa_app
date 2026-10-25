@@ -1,0 +1,261 @@
+{
+  "cases": [
+    {
+      "orientation": "landscape",
+      "mode": "recite",
+      "kyrie": 0,
+      "part": 0,
+      "pages": 6
+    },
+    {
+      "orientation": "landscape",
+      "mode": "recite",
+      "kyrie": 0,
+      "part": 1,
+      "pages": 8
+    },
+    {
+      "orientation": "landscape",
+      "mode": "recite",
+      "kyrie": 0,
+      "part": 2,
+      "pages": 16
+    },
+    {
+      "orientation": "landscape",
+      "mode": "recite",
+      "kyrie": 0,
+      "part": 3,
+      "pages": 4
+    },
+    {
+      "orientation": "landscape",
+      "mode": "recite",
+      "kyrie": 2,
+      "part": 0,
+      "pages": 6
+    },
+    {
+      "orientation": "landscape",
+      "mode": "recite",
+      "kyrie": 2,
+      "part": 1,
+      "pages": 8
+    },
+    {
+      "orientation": "landscape",
+      "mode": "recite",
+      "kyrie": 2,
+      "part": 2,
+      "pages": 16
+    },
+    {
+      "orientation": "landscape",
+      "mode": "recite",
+      "kyrie": 2,
+      "part": 3,
+      "pages": 4
+    },
+    {
+      "orientation": "landscape",
+      "mode": "chant",
+      "kyrie": 0,
+      "part": 0,
+      "pages": 6
+    },
+    {
+      "orientation": "landscape",
+      "mode": "chant",
+      "kyrie": 0,
+      "part": 1,
+      "pages": 8
+    },
+    {
+      "orientation": "landscape",
+      "mode": "chant",
+      "kyrie": 0,
+      "part": 2,
+      "pages": 16
+    },
+    {
+      "orientation": "landscape",
+      "mode": "chant",
+      "kyrie": 0,
+      "part": 3,
+      "pages": 4
+    },
+    {
+      "orientation": "landscape",
+      "mode": "chant",
+      "kyrie": 2,
+      "part": 0,
+      "pages": 6
+    },
+    {
+      "orientation": "landscape",
+      "mode": "chant",
+      "kyrie": 2,
+      "part": 1,
+      "pages": 8
+    },
+    {
+      "orientation": "landscape",
+      "mode": "chant",
+      "kyrie": 2,
+      "part": 2,
+      "pages": 16
+    },
+    {
+      "orientation": "landscape",
+      "mode": "chant",
+      "kyrie": 2,
+      "part": 3,
+      "pages": 4
+    },
+    {
+      "orientation": "auto",
+      "mode": "recite",
+      "kyrie": 0,
+      "part": 0,
+      "pages": 6
+    },
+    {
+      "orientation": "auto",
+      "mode": "recite",
+      "kyrie": 0,
+      "part": 1,
+      "pages": 8
+    },
+    {
+      "orientation": "auto",
+      "mode": "recite",
+      "kyrie": 0,
+      "part": 2,
+      "pages": 16
+    },
+    {
+      "orientation": "auto",
+      "mode": "recite",
+      "kyrie": 0,
+      "part": 3,
+      "pages": 4
+    },
+    {
+      "orientation": "auto",
+      "mode": "recite",
+      "kyrie": 2,
+      "part": 0,
+      "pages": 6
+    },
+    {
+      "orientation": "auto",
+      "mode": "recite",
+      "kyrie": 2,
+      "part": 1,
+      "pages": 8
+    },
+    {
+      "orientation": "auto",
+      "mode": "recite",
+      "kyrie": 2,
+      "part": 2,
+      "pages": 16
+    },
+    {
+      "orientation": "auto",
+      "mode": "recite",
+      "kyrie": 2,
+      "part": 3,
+      "pages": 4
+    },
+    {
+      "orientation": "auto",
+      "mode": "chant",
+      "kyrie": 0,
+      "part": 0,
+      "pages": 6
+    },
+    {
+      "orientation": "auto",
+      "mode": "chant",
+      "kyrie": 0,
+      "part": 1,
+      "pages": 8
+    },
+    {
+      "orientation": "auto",
+      "mode": "chant",
+      "kyrie": 0,
+      "part": 2,
+      "pages": 16
+    },
+    {
+      "orientation": "auto",
+      "mode": "chant",
+      "kyrie": 0,
+      "part": 3,
+      "pages": 4
+    },
+    {
+      "orientation": "auto",
+      "mode": "chant",
+      "kyrie": 2,
+      "part": 0,
+      "pages": 6
+    },
+    {
+      "orientation": "auto",
+      "mode": "chant",
+      "kyrie": 2,
+      "part": 1,
+      "pages": 8
+    },
+    {
+      "orientation": "auto",
+      "mode": "chant",
+      "kyrie": 2,
+      "part": 2,
+      "pages": 16
+    },
+    {
+      "orientation": "auto",
+      "mode": "chant",
+      "kyrie": 2,
+      "part": 3,
+      "pages": 4
+    }
+  ],
+  "row": [
+    {
+      "text": "참회 예식",
+      "width": 87.03125,
+      "top": 186.796875,
+      "bottom": 218.796875
+    },
+    {
+      "text": "제1양식",
+      "width": 75.71875,
+      "top": 186.796875,
+      "bottom": 218.796875
+    },
+    {
+      "text": "제2양식",
+      "width": 75.71875,
+      "top": 186.796875,
+      "bottom": 218.796875
+    },
+    {
+      "text": "제3양식",
+      "width": 76.125,
+      "top": 186.796875,
+      "bottom": 218.796875
+    },
+    {
+      "text": "",
+      "width": 32,
+      "top": 186.796875,
+      "bottom": 218.796875
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-23",
+  "date": "2026-10-23",
+  "observance": "연중 제29주간 금요일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261023"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "하느님, 당신이 응답해 주시니, 제가 당신께 부르짖나이다.\n귀 기울여 제 말씀 들어 주소서.\n주님, 당신 눈동자처럼 저를 보호하소서. 당신 날개 그늘에 저를 숨겨 주소서.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 영원하신 하느님,\n저희가 언제나 성실한 마음으로\n하느님을 정성껏 섬기게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 자유로운 마음으로 이 예물을 바치오니\n주님의 은총으로 저희를 씻으시어\n저희가 주님께 드리는 이 성찬의 제사로 더욱 깨끗해지게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "보라, 주님의 눈은 당신을 경외하는 이들에게, 당신 자애를 바라는 이들에게 머무르신다. 주님은 죽음에서 목숨을 건지시고, 굶주릴 때 먹여 살리신다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 천상 잔치에 자주 참여하여\n현세에서 도움도 받고 영원한 신비도 배우게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<그리스도의 몸은 하나입니다. 주님도 한 분이시고 믿음도 하나이며 세례도 하나입니다.>",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 에페소서 말씀입니다.4,1-6",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분,",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "1 주님 안에서 수인이 된 내가 여러분에게 권고합니다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "여러분이 받은 부르심에 합당하게 살아가십시오.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "2 겸손과 온유를 다하고, 인내심을 가지고 사랑으로 서로 참아 주며,",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "3 성령께서 평화의 끈으로 이루어 주신 일치를 보존하도록 애쓰십시오.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "4 하느님께서 여러분을 부르실 때에 하나의 희망을 주신 것처럼,",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "그리스도의 몸도 하나이고 성령도 한 분이십니다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "5 주님도 한 분이시고 믿음도 하나이며 세례도 하나이고,",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "6 만물의 아버지이신 하느님도 한 분이십니다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "그분은 만물 위에, 만물을 통하여, 만물 안에 계십니다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261023"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 24(23),1-2.3-4ㄱㄴ.5-6(◎ 6 참조)",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님, 이들이 당신 얼굴을 찾는 세대이옵니다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님의 것이라네, 온 땅과 그 안에 가득 찬 것들, 온 누리와 그 안에 사는 것들. 그분이 물 위에 세우시고, 강 위에 굳히셨네. ◎",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 누가 주님의 산에 오를 수 있으랴? 누가 그 거룩한 곳에 설 수 있으랴? 손이 깨끗하고 마음이 결백한 이, 헛된 것에 정신을 팔지 않는 이라네. ◎",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 그는 주님께 복을 받으리라. 구원의 하느님께 의로움을 얻으리라. 이들이 야곱이라네. 그분을 찾는 세대, 그분 얼굴을 찾는 세대라네. ◎",
+          "sourceRef": "goodnews-20261023"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "마태 11,25 참조",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 하늘과 땅의 주님이신 아버지, 찬미받으소서. 아버지는 하늘 나라의 신비를 철부지들에게 드러내 보이셨나이다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261023"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<너희는 땅과 하늘의 징조는 풀이할 줄 알면서 이 시대는 어찌하여 풀이할 줄 모르느냐?>",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.12,54-59",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 54 예수님께서 군중에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "“너희는 구름이 서쪽에서 올라오는 것을 보면 곧",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "‘비가 오겠다.’ 하고 말한다. 과연 그대로 된다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "55 또 남풍이 불면 ‘더워지겠다.’ 하고 말한다. 과연 그대로 된다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "56 위선자들아, 너희는 땅과 하늘의 징조는 풀이할 줄 알면서,",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "이 시대는 어찌하여 풀이할 줄 모르느냐?",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "57 너희는 왜 올바른 일을 스스로 판단하지 못하느냐?",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "58 너를 고소한 자와 함께 재판관에게 갈 때, 도중에 그와 합의를 보도록 힘써라.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "그러지 않으면 그가 너를 재판관에게 끌고 가,",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "재판관은 너를 옥리에게 넘기고 옥리는 너를 감옥에 가둘 것이다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "59 내가 너에게 말한다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "네가 마지막 한 닢까지 갚기 전에는 결코 거기에서 나오지 못할 것이다.”",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261023"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261023"
+        }
+      ]
+    }
+  ]
+}

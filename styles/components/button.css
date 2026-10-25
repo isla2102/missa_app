@@ -1,0 +1,9 @@
+@layer components {
+
+ .missa-button { min-block-size: var(--button-hit); padding: var(--button-padding-block) var(--button-padding-inline); border-radius: var(--button-radius); color: var(--button-ink); background: var(--button-surface); border: var(--button-border-width) solid var(--button-line); font-family: var(--button-font-family); font-size: var(--button-font-size); line-height: var(--button-leading); }
+ .missa-button[aria-pressed="true"] { color: var(--button-selected-ink); background: var(--button-selected-surface); border-color: var(--button-selected-border); font-weight: var(--reader-response-weight); }
+ .missa-button--primary { --button-hit:var(--reader-system-button-action-hit); --button-font-size:var(--reader-system-button-main-size);  color: var(--button-primary-ink); background: var(--button-primary-surface); border-color: var(--button-primary-line); font-weight: var(--button-primary-weight); }
+ .missa-button:disabled { color: var(--button-disabled-ink); border-color: var(--button-disabled-line); border-style: solid; background: var(--button-surface); cursor: default; }
+ .missa-button:focus-visible { outline: var(--focus-ring); outline-offset: var(--focus-offset); }
+
+}

@@ -1,0 +1,271 @@
+{
+  "results": [
+    {
+      "file": "prototype/index.html",
+      "checks": [
+        {
+          "label": "two stored collect alternatives, not concatenated",
+          "pass": true
+        },
+        {
+          "label": "collect common introduction and Amen once",
+          "pass": true
+        },
+        {
+          "label": "collect source selected date",
+          "pass": true
+        },
+        {
+          "label": "second collect body selected",
+          "pass": true
+        },
+        {
+          "label": "제1독서 one closing acclamation",
+          "pass": true
+        },
+        {
+          "label": "제1독서 one assembly reply",
+          "pass": true
+        },
+        {
+          "label": "제2독서 one closing acclamation",
+          "pass": true
+        },
+        {
+          "label": "제2독서 one assembly reply",
+          "pass": true
+        },
+        {
+          "label": "복음 one closing acclamation",
+          "pass": true
+        },
+        {
+          "label": "복음 one assembly reply",
+          "pass": true
+        },
+        {
+          "label": "예물 기도 Amen once",
+          "pass": true
+        },
+        {
+          "label": "예물 기도 proper marked as priest",
+          "pass": true
+        },
+        {
+          "label": "영성체 후 기도 Amen once",
+          "pass": true
+        },
+        {
+          "label": "영성체 후 기도 proper marked as priest",
+          "pass": true
+        },
+        {
+          "label": "postcommunion introduction precedes proper",
+          "pass": true
+        },
+        {
+          "label": "source with duplicate Amen normalized",
+          "pass": true
+        },
+        {
+          "label": "preface opening dialogue once",
+          "pass": true
+        },
+        {
+          "label": "daily preface replaces generic preface once",
+          "pass": true
+        },
+        {
+          "label": "Sanctus slot once",
+          "pass": true
+        },
+        {
+          "label": "new document not stale snapshot",
+          "pass": true
+        },
+        {
+          "label": "collect choice clamped across date",
+          "pass": true
+        },
+        {
+          "label": "collect source resolved from paragraph ref",
+          "pass": true
+        },
+        {
+          "label": "proper source date not hardcoded",
+          "pass": true
+        },
+        {
+          "label": "unverified collect suppressed",
+          "pass": true
+        },
+        {
+          "label": "missing date no stale collect/source",
+          "pass": true
+        },
+        {
+          "label": "예물 기도 missing proper no invented completion",
+          "pass": true
+        },
+        {
+          "label": "영성체 후 기도 missing proper no invented completion",
+          "pass": true
+        },
+        {
+          "label": "missing Gospel not another date",
+          "pass": true
+        },
+        {
+          "label": "postcommunion single pagination stream",
+          "pass": true
+        },
+        {
+          "label": "collect single pagination stream",
+          "pass": true
+        },
+        {
+          "label": "continued proper does not repeat introduction",
+          "pass": true
+        },
+        {
+          "label": "unverified acclamation verse suppressed",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "file": "review/07-system-sample-v1.html",
+      "checks": [
+        {
+          "label": "two stored collect alternatives, not concatenated",
+          "pass": true
+        },
+        {
+          "label": "collect common introduction and Amen once",
+          "pass": true
+        },
+        {
+          "label": "collect source selected date",
+          "pass": true
+        },
+        {
+          "label": "second collect body selected",
+          "pass": true
+        },
+        {
+          "label": "제1독서 one closing acclamation",
+          "pass": true
+        },
+        {
+          "label": "제1독서 one assembly reply",
+          "pass": true
+        },
+        {
+          "label": "제2독서 one closing acclamation",
+          "pass": true
+        },
+        {
+          "label": "제2독서 one assembly reply",
+          "pass": true
+        },
+        {
+          "label": "복음 one closing acclamation",
+          "pass": true
+        },
+        {
+          "label": "복음 one assembly reply",
+          "pass": true
+        },
+        {
+          "label": "예물 기도 Amen once",
+          "pass": true
+        },
+        {
+          "label": "예물 기도 proper marked as priest",
+          "pass": true
+        },
+        {
+          "label": "영성체 후 기도 Amen once",
+          "pass": true
+        },
+        {
+          "label": "영성체 후 기도 proper marked as priest",
+          "pass": true
+        },
+        {
+          "label": "postcommunion introduction precedes proper",
+          "pass": true
+        },
+        {
+          "label": "source with duplicate Amen normalized",
+          "pass": true
+        },
+        {
+          "label": "preface opening dialogue once",
+          "pass": true
+        },
+        {
+          "label": "daily preface replaces generic preface once",
+          "pass": true
+        },
+        {
+          "label": "Sanctus slot once",
+          "pass": true
+        },
+        {
+          "label": "new document not stale snapshot",
+          "pass": true
+        },
+        {
+          "label": "collect choice clamped across date",
+          "pass": true
+        },
+        {
+          "label": "collect source resolved from paragraph ref",
+          "pass": true
+        },
+        {
+          "label": "proper source date not hardcoded",
+          "pass": true
+        },
+        {
+          "label": "unverified collect suppressed",
+          "pass": true
+        },
+        {
+          "label": "missing date no stale collect/source",
+          "pass": true
+        },
+        {
+          "label": "예물 기도 missing proper no invented completion",
+          "pass": true
+        },
+        {
+          "label": "영성체 후 기도 missing proper no invented completion",
+          "pass": true
+        },
+        {
+          "label": "missing Gospel not another date",
+          "pass": true
+        },
+        {
+          "label": "postcommunion single pagination stream",
+          "pass": true
+        },
+        {
+          "label": "collect single pagination stream",
+          "pass": true
+        },
+        {
+          "label": "continued proper does not repeat introduction",
+          "pass": true
+        },
+        {
+          "label": "unverified acclamation verse suppressed",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

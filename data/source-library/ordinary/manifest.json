@@ -1,0 +1,480 @@
+[
+  {
+    "key": "seoul",
+    "filename": "미사통상문_서울대교구.docx",
+    "sourcePath": "미사통상문_서울대교구.docx",
+    "copyPath": "data/source-library/ordinary/originals/미사통상문_서울대교구.docx",
+    "sha256": "1f6dc36f292b09def5755ac3e28977d67379e2810caf1a75edcb9c2c75f25efd",
+    "paragraphsNonemptyText": 160,
+    "textChars": 19079,
+    "media": [
+      {
+        "name": "image1.gif",
+        "path": "data/source-library/ordinary/media/seoul/image1.gif",
+        "width": 35,
+        "height": 35,
+        "sha256": "98eb8b443af9d6455d128f516fad1f588a2a895b57dd611dc9d39c29484eb9c6"
+      }
+    ],
+    "imagePlacements": 5,
+    "numberedItems": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146
+    ],
+    "hasApostlesBody": false
+  },
+  {
+    "key": "cbck",
+    "filename": "미사통상문_한국천주교주교회.docx",
+    "sourcePath": "미사통상문_한국천주교주교회.docx",
+    "copyPath": "data/source-library/ordinary/originals/미사통상문_한국천주교주교회.docx",
+    "sha256": "56d5cdfa1623af461d4171091772ebf5ad24ab0a3e654c93f31c48d6fcbaaaf7",
+    "paragraphsNonemptyText": 508,
+    "textChars": 14260,
+    "media": [
+      {
+        "name": "image1.png",
+        "path": "data/source-library/ordinary/media/cbck/image1.png",
+        "width": 1314,
+        "height": 209,
+        "sha256": "eb0ec425fdfcbf17ffb3bc35fb1c896b92fae6248c312946c30c683a75f9b586"
+      },
+      {
+        "name": "image2.png",
+        "path": "data/source-library/ordinary/media/cbck/image2.png",
+        "width": 1308,
+        "height": 207,
+        "sha256": "7ae8fc255d016cc42adf58bc771aa6a67419e80ddaba7100d412d437b8ffd087"
+      },
+      {
+        "name": "image3.png",
+        "path": "data/source-library/ordinary/media/cbck/image3.png",
+        "width": 1310,
+        "height": 418,
+        "sha256": "1aa72c9ff55bddb9afecf957f609c3554049e722be2796cc33a2afa13982bd7d"
+      },
+      {
+        "name": "image4.png",
+        "path": "data/source-library/ordinary/media/cbck/image4.png",
+        "width": 1309,
+        "height": 442,
+        "sha256": "c932b773441ecbf707c93d51311c2b5907a2b14046918b0e776251464816191c"
+      },
+      {
+        "name": "image5.png",
+        "path": "data/source-library/ordinary/media/cbck/image5.png",
+        "width": 1310,
+        "height": 215,
+        "sha256": "f07a043bffc04939773bf572fb1309711088952191439c7e169349b142f82232"
+      },
+      {
+        "name": "image6.png",
+        "path": "data/source-library/ordinary/media/cbck/image6.png",
+        "width": 1309,
+        "height": 211,
+        "sha256": "a39cef33cde3fcde806e2d0dbf9dd2f75a9857d466c692b0cf0f6bfa1ce1afb8"
+      },
+      {
+        "name": "image7.png",
+        "path": "data/source-library/ordinary/media/cbck/image7.png",
+        "width": 1309,
+        "height": 210,
+        "sha256": "919a39c5f7498ea484336a3e63c661e9aa17674ae5a214c5e53c9045ab541f1c"
+      },
+      {
+        "name": "image8.png",
+        "path": "data/source-library/ordinary/media/cbck/image8.png",
+        "width": 1314,
+        "height": 405,
+        "sha256": "4d943927c9eee064df7068965de5bf58f6034b97a44208b7b9fc02f8cea5431a"
+      },
+      {
+        "name": "image9.png",
+        "path": "data/source-library/ordinary/media/cbck/image9.png",
+        "width": 1312,
+        "height": 414,
+        "sha256": "77aa446a73ebf24a3b753f977f03faf9c2625452325f84cda617f0d5bbdb714f"
+      },
+      {
+        "name": "image10.png",
+        "path": "data/source-library/ordinary/media/cbck/image10.png",
+        "width": 1312,
+        "height": 190,
+        "sha256": "0b6f2fa148481f8993e9b09ab14a3d41cc4316b5fc30f6692b5d9ebcdf1ab37c"
+      },
+      {
+        "name": "image11.png",
+        "path": "data/source-library/ordinary/media/cbck/image11.png",
+        "width": 1313,
+        "height": 188,
+        "sha256": "9f84a16e86985ba35ffc52b6343d9a83182865c16b548a848f9f1a01480dbff9"
+      },
+      {
+        "name": "image12.png",
+        "path": "data/source-library/ordinary/media/cbck/image12.png",
+        "width": 1311,
+        "height": 195,
+        "sha256": "5ae59df3a39076036591629c038a70574cfe5293e91c505f75ce4cf1dbeb7bfc"
+      },
+      {
+        "name": "image13.png",
+        "path": "data/source-library/ordinary/media/cbck/image13.png",
+        "width": 1310,
+        "height": 192,
+        "sha256": "e5219fb41217990e1ca3d7d51aea75794e845a56bf90aac6b84db400327a4558"
+      },
+      {
+        "name": "image14.png",
+        "path": "data/source-library/ordinary/media/cbck/image14.png",
+        "width": 1310,
+        "height": 192,
+        "sha256": "0e194c1ae64b02f28d5b193470d9714ca6817086978cd629519effd47a4091af"
+      },
+      {
+        "name": "image15.png",
+        "path": "data/source-library/ordinary/media/cbck/image15.png",
+        "width": 1309,
+        "height": 1029,
+        "sha256": "405a5b0b703d99dfb74869ce88eb77375528d74a8dd05ab11036b805818a0a8a"
+      },
+      {
+        "name": "image16.png",
+        "path": "data/source-library/ordinary/media/cbck/image16.png",
+        "width": 1310,
+        "height": 207,
+        "sha256": "bbd10f466fda9cdd78ca9691797af4c0b986212ddac1db57c1bc43dd43ceaabc"
+      },
+      {
+        "name": "image17.png",
+        "path": "data/source-library/ordinary/media/cbck/image17.png",
+        "width": 1311,
+        "height": 199,
+        "sha256": "110262cd6f29b186589f25f564112ca1a74f77d60b17e6bbe602c7cef7ffeb7e"
+      },
+      {
+        "name": "image18.png",
+        "path": "data/source-library/ordinary/media/cbck/image18.png",
+        "width": 1310,
+        "height": 204,
+        "sha256": "ac98e491869c552c156fb2f684f0e142332e40525d23f86d5e698673b8e17d0c"
+      },
+      {
+        "name": "image19.png",
+        "path": "data/source-library/ordinary/media/cbck/image19.png",
+        "width": 1310,
+        "height": 209,
+        "sha256": "90fba017e2edd6c35477da664642d49a1d3577b9bfae993153a5e2f2c8fa94e9"
+      },
+      {
+        "name": "image20.png",
+        "path": "data/source-library/ordinary/media/cbck/image20.png",
+        "width": 1311,
+        "height": 198,
+        "sha256": "339a1165fcf81f0740b9fbba0a05333609b5928a3767e6b57086f8ed99a36011"
+      },
+      {
+        "name": "image21.png",
+        "path": "data/source-library/ordinary/media/cbck/image21.png",
+        "width": 1310,
+        "height": 213,
+        "sha256": "2ed8d4454080cccc1db76107b594771367c37900f3f13a18b4a5a88384472099"
+      },
+      {
+        "name": "image22.png",
+        "path": "data/source-library/ordinary/media/cbck/image22.png",
+        "width": 1310,
+        "height": 212,
+        "sha256": "82654415c962a8f884fb9f227d36017fb9b4056a0bbd9c9b25e9006f527f28ba"
+      },
+      {
+        "name": "image23.png",
+        "path": "data/source-library/ordinary/media/cbck/image23.png",
+        "width": 1311,
+        "height": 653,
+        "sha256": "99f8683415566e661d9158b622e450bb8d0b8284cf927ab0fd5d59e79e510521"
+      },
+      {
+        "name": "image24.png",
+        "path": "data/source-library/ordinary/media/cbck/image24.png",
+        "width": 1311,
+        "height": 648,
+        "sha256": "ff5a889c01f6ad938c20b12ea62d53febb0735ed510d3582de10fa9b82dd038a"
+      },
+      {
+        "name": "image25.png",
+        "path": "data/source-library/ordinary/media/cbck/image25.png",
+        "width": 1311,
+        "height": 198,
+        "sha256": "20e2251ead58f05f4dc366d2cd218cd0126daf62e6a5c90925e42657eff7d7c3"
+      },
+      {
+        "name": "image26.png",
+        "path": "data/source-library/ordinary/media/cbck/image26.png",
+        "width": 1310,
+        "height": 419,
+        "sha256": "8b4847fab3b5b2535c10d27b2a0d133f8ec0aa0ea155f136dc740f11aadcdff8"
+      },
+      {
+        "name": "image27.png",
+        "path": "data/source-library/ordinary/media/cbck/image27.png",
+        "width": 1313,
+        "height": 672,
+        "sha256": "12e46558bb16730bed31de358dcd4e3ab5d5ef5078a5ef6fd8b553315610dd42"
+      },
+      {
+        "name": "image28.png",
+        "path": "data/source-library/ordinary/media/cbck/image28.png",
+        "width": 1312,
+        "height": 196,
+        "sha256": "32dc50d04a02fb4276f35efc7abbaa33e409c32482166839ea3386b6c1f9f372"
+      },
+      {
+        "name": "image29.png",
+        "path": "data/source-library/ordinary/media/cbck/image29.png",
+        "width": 1310,
+        "height": 1085,
+        "sha256": "720767b048a40766462791bb7f7fa6555aeecd36c99c937a2e770f6b39b18782"
+      },
+      {
+        "name": "image30.png",
+        "path": "data/source-library/ordinary/media/cbck/image30.png",
+        "width": 1311,
+        "height": 877,
+        "sha256": "ee73960d78e7f9d6669e7c4e8658a0a3c43076c534817db09407da4ca2389ac7"
+      },
+      {
+        "name": "image31.png",
+        "path": "data/source-library/ordinary/media/cbck/image31.png",
+        "width": 1312,
+        "height": 205,
+        "sha256": "47630c1e52f11b72630bf2cf63c19858bc20f43ca2522e787229701145fdd8bd"
+      },
+      {
+        "name": "image32.png",
+        "path": "data/source-library/ordinary/media/cbck/image32.png",
+        "width": 1310,
+        "height": 864,
+        "sha256": "b693985721635b92e4344098f968ad358f57430824fa21e36470360959dc3aa5"
+      },
+      {
+        "name": "image33.png",
+        "path": "data/source-library/ordinary/media/cbck/image33.png",
+        "width": 1311,
+        "height": 206,
+        "sha256": "30e68245289388216e1a7c5e0e3c853528d8ed291e1b331385df2f14464f67cc"
+      },
+      {
+        "name": "image34.png",
+        "path": "data/source-library/ordinary/media/cbck/image34.png",
+        "width": 1311,
+        "height": 218,
+        "sha256": "947868f82ab25bf2e6492fbc8078e68ecd4e237324bcbdc86f5c5bf6d6701bc9"
+      },
+      {
+        "name": "image35.png",
+        "path": "data/source-library/ordinary/media/cbck/image35.png",
+        "width": 1311,
+        "height": 214,
+        "sha256": "99ef7b784b16dc38e9bbf693ad4ab82fab6cd0661586fcb0535541f7ac34d891"
+      },
+      {
+        "name": "image36.png",
+        "path": "data/source-library/ordinary/media/cbck/image36.png",
+        "width": 1310,
+        "height": 657,
+        "sha256": "53b2d798fa75b5208c539f32e247e0cd3dfc3bcb356e92da723a346b02445d6c"
+      },
+      {
+        "name": "image37.png",
+        "path": "data/source-library/ordinary/media/cbck/image37.png",
+        "width": 1311,
+        "height": 424,
+        "sha256": "5ce0405283f2732e497e557b2069f61319fd636533aa1c022a89b04d4736d3da"
+      },
+      {
+        "name": "image38.png",
+        "path": "data/source-library/ordinary/media/cbck/image38.png",
+        "width": 1310,
+        "height": 215,
+        "sha256": "8701910595ae2addabbeae9afac9f189852f257304437e3cf95381c55f361f86"
+      },
+      {
+        "name": "image40.png",
+        "path": "data/source-library/ordinary/media/cbck/image40.png",
+        "width": 1313,
+        "height": 202,
+        "sha256": "40a60fc93ad142ad14ce3dffc775336eb747be084fd769d25a50c6d3177928dc"
+      },
+      {
+        "name": "image41.png",
+        "path": "data/source-library/ordinary/media/cbck/image41.png",
+        "width": 1313,
+        "height": 203,
+        "sha256": "c723cde815fc9b0b843eac7e2a29bb043adab06214646b864e40e9bcea5ffd85"
+      },
+      {
+        "name": "image42.png",
+        "path": "data/source-library/ordinary/media/cbck/image42.png",
+        "width": 1313,
+        "height": 440,
+        "sha256": "d4b8b626b3ccd6b4cceb1b59e40ff36047c8a4896e615e0772dac66d260d20c1"
+      },
+      {
+        "name": "image43.png",
+        "path": "data/source-library/ordinary/media/cbck/image43.png",
+        "width": 1314,
+        "height": 210,
+        "sha256": "d7a353b61787e191a52ad7811f70fcec865332e329c2d5559afa1a8d5eba24c9"
+      },
+      {
+        "name": "image44.png",
+        "path": "data/source-library/ordinary/media/cbck/image44.png",
+        "width": 1311,
+        "height": 210,
+        "sha256": "54b3cd50ca69b6edefa4af00ea3e4d7d2a929ad9a5fc333b6a53b8f8bf0d8366"
+      },
+      {
+        "name": "image39.png",
+        "path": "data/source-library/ordinary/media/cbck/image39.png",
+        "width": 1313,
+        "height": 209,
+        "sha256": "3c63aa085e632e0db3079088bf54e59e88d359dc78b562972fd41276ad16cb27"
+      }
+    ],
+    "imagePlacements": 57,
+    "numberedItems": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146
+    ],
+    "hasApostlesBody": true
+  }
+]

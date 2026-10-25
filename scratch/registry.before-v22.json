@@ -1,0 +1,44 @@
+{
+  "아멘": [
+    {
+      "kind": "engraved",
+      "title": "아멘",
+      "path": "../docs/교중미사악보/reengraved/amen.pdf",
+      "preview": "../docs/교중미사악보/reengraved/amen.svg",
+      "status": "사진 대조 완료 · 본당 최종 교정 전"
+    }
+  ],
+  "자비송": [
+    {
+      "kind": "engraved",
+      "title": "자비송",
+      "path": "../docs/교중미사악보/reengraved/kyrie.pdf",
+      "preview": "../docs/교중미사악보/reengraved/kyrie.svg",
+      "scope": "principal",
+      "sourceKey": "자비송",
+      "status": "원본 대조 · 본당 최종 교정 전"
+    }
+  ],
+  "주님의 기도 맺음 환호": [
+    {
+      "kind": "engraved",
+      "title": "주님의 기도 맺음 환호",
+      "path": "../docs/교중미사악보/reengraved/doxology.pdf",
+      "preview": "../docs/교중미사악보/reengraved/doxology.svg",
+      "scope": "principal",
+      "sourceKey": "주님의 기도 맺음 환호",
+      "status": "원본 대조 · 본당 최종 교정 전"
+    }
+  ],
+  "복음 환호송": [
+    {
+      "kind": "engraved",
+      "title": "복음 환호송",
+      "path": "../docs/교중미사악보/reengraved/alleluia-365.pdf",
+      "preview": "../docs/교중미사악보/reengraved/alleluia-365.svg",
+      "scope": "parish-common",
+      "sourceKey": "복음 환호송",
+      "status": "원본 대조 · 본당 최종 교정 전"
+    }
+  ]
+}

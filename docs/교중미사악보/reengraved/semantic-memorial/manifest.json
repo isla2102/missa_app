@@ -1,0 +1,29 @@
+[
+  {
+    "key": "memorial-ordinary",
+    "title": "신앙의 신비여 · 연중",
+    "notes": 36,
+    "systems": 2,
+    "pages": 1,
+    "widthMm": 297,
+    "heightMm": 210
+  },
+  {
+    "key": "memorial-lent",
+    "title": "신앙의 신비여 · 사순",
+    "notes": 40,
+    "systems": 3,
+    "pages": 1,
+    "widthMm": 297,
+    "heightMm": 210
+  },
+  {
+    "key": "memorial-easter",
+    "title": "신앙의 신비여 · 부활",
+    "notes": 31,
+    "systems": 3,
+    "pages": 1,
+    "widthMm": 297,
+    "heightMm": 210
+  }
+]

@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-02",
+  "date": "2026-12-02",
+  "observance": "(자) 대림 제1주간 수요일",
+  "sourceRefs": [
+    "goodnews-20261202"
+  ],
+  "sections": [
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<주님께서 모든 사람에게 잔치를 베푸시고 그들의 얼굴에서 눈물을 닦아내신다.>",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.25,6-10ㄱ",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "그날 6 만군의 주님께서는 이 산 위에서 모든 민족들을 위하여",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "살진 음식과 잘 익은 술로 잔치를,",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "살지고 기름진 음식과 잘 익고 잘 거른 술로 잔치를 베푸시리라.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "7 그분께서는 이 산 위에서",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "모든 겨레들에게 씌워진 너울과 모든 민족들에게 덮인 덮개를 없애시리라.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "8 그분께서는 죽음을 영원히 없애 버리시리라.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "주 하느님께서는 모든 사람의 얼굴에서 눈물을 닦아 내시고",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "당신 백성의 수치를 온 세상에서 치워 주시리라.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "정녕 주님께서 말씀하셨다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "9 그날에 이렇게들 말하리라. “보라, 이분은 우리의 하느님이시다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "우리는 이분께 희망을 걸었고 이분께서는 우리를 구원해 주셨다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "이분이야말로 우리가 희망을 걸었던 주님이시다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "이분의 구원으로 우리 기뻐하고 즐거워하자.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "10 주님의 손이 이 산 위에 머무르신다.”",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261202"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 23(22),1-3ㄱ.3ㄴㄷ-4.5.6(◎ 6ㄷㄹ)",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 저는 오래오래 주님 집에 사오리다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님은 나의 목자, 아쉬울 것 없어라. 푸른 풀밭에 나를 쉬게 하시고, 잔잔한 물가로 나를 이끄시어, 내 영혼에 생기 돋우어 주시네. ◎",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 당신 이름 위하여 나를 바른길로 이끌어 주시네. 어둠의 골짜기를 간다 하여도, 당신 함께 계시오니 두려울 것 없나이다. 당신의 막대와 지팡이, 저에게 위안이 되나이다. ◎",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 원수들 보는 앞에서 제게 상을 차려 주시고, 머리에 향유를 발라 주시니, 제 술잔 넘치도록 가득하옵니다. ◎",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 제 한평생 모든 날에 은총과 자애만이 따르리니, 저는 오래오래 주님 집에 사오리다. ◎",
+          "sourceRef": "goodnews-20261202"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 보라, 당신 백성 구원하러 주님이 오시리니 주님을 맞이하러 달려가는 이는 복되어라.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261202"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<예수님께서 많은 병자를 고쳐 주시고 빵을 많게 하셨다.>",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.15,29-37",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 29 예수님께서는 갈릴래아 호숫가로 가셨다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "그리고 산에 오르시어 거기에 자리를 잡고 앉으셨다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "30 그러자 많은 군중이",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "다리저는 이들과 눈먼 이들과 다른 불구자들과 말못하는 이들,",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "그리고 또 다른 많은 이들을 데리고 예수님께 다가왔다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "그들을 그분 발치에 데려다 놓자 예수님께서는 그들을 고쳐 주셨다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "31 그리하여 말못하는 이들이 말을 하고 불구자들이 온전해지고",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "다리저는 이들이 제대로 걸으며 눈먼 이들이 보게 되자,",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "군중이 이를 보고 놀라 이스라엘의 하느님을 찬양하였다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "32 예수님께서 제자들을 가까이 불러 이르셨다. “저 군중이 가엾구나.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "벌써 사흘 동안이나 내 곁에 머물렀는데 먹을 것이 없으니 말이다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "길에서 쓰러질지도 모르니 그들을 굶겨서 돌려보내고 싶지 않다.”",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "33 제자들이 예수님께 “이 광야에서 이렇게 많은 군중을",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "배불리 먹일 만한 빵을 어디서 구하겠습니까?” 하고 말하였다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "34 예수님께서 “너희에게 빵이 몇 개나 있느냐?” 하시자,",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "그들이 “일곱 개가 있고 물고기도 조금 있습니다.” 하고 대답하였다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "35 예수님께서는 군중에게 땅에 앉으라고 분부하셨다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "36 그리고 빵 일곱 개와 물고기들을 손에 들고 감사를 드리신 다음",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "떼어 제자들에게 주시니, 제자들이 군중에게 나누어 주었다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "37 사람들은 모두 배불리 먹었다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "그리고 남은 조각을 모았더니 일곱 바구니에 가득 찼다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261202"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261202"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "indexUrl": "https://www.cbck.or.kr/Board/K7020",
+  "purpose": "monthly-proper-prayers-not-verified-full-readings",
+  "issues": [
+    {
+      "month": "2026-10",
+      "url": "https://www.cbck.or.kr/Board/K7020/20261395",
+      "formats": [
+        "hwp",
+        "hwpx"
+      ]
+    },
+    {
+      "month": "2026-12",
+      "url": "https://www.cbck.or.kr/Board/K7020/20262479",
+      "publishedAt": "2026-10-15 16:30",
+      "formats": [
+        "hwp",
+        "hwpx"
+      ]
+    }
+  ],
+  "downloadPolicy": "no-automatic-download-pending-permission"
+}

@@ -1,0 +1,153 @@
+{
+  "아멘": [
+    {
+      "kind": "engraved",
+      "title": "아멘",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/amen.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/amen.svg",
+      "status": "사진 대조 완료 · 본당 최종 교정 전",
+      "systems": 1,
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    }
+  ],
+  "자비송": [
+    {
+      "kind": "engraved",
+      "title": "자비송",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/kyrie.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/kyrie.svg",
+      "scope": "principal",
+      "sourceKey": "자비송",
+      "status": "원본 대조 · 본당 최종 교정 전",
+      "systems": 6,
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    }
+  ],
+  "주님의 기도 맺음 환호": [
+    {
+      "kind": "engraved",
+      "title": "주님의 기도 맺음 환호",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/doxology.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/doxology.svg",
+      "scope": "principal",
+      "sourceKey": "주님의 기도 맺음 환호",
+      "status": "원본 대조 · 본당 최종 교정 전",
+      "systems": 1,
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    }
+  ],
+  "복음 환호송": [
+    {
+      "kind": "engraved",
+      "title": "복음 환호송",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/alleluia-365.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/alleluia-365.svg",
+      "scope": "parish-common",
+      "sourceKey": "복음 환호송",
+      "status": "원본 대조 · 본당 최종 교정 전",
+      "systems": 1,
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    }
+  ],
+  "하느님의 어린양": [
+    {
+      "kind": "engraved",
+      "title": "하느님의 어린양",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/agnus.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/agnus.svg",
+      "scope": "principal",
+      "sourceKey": "하느님의 어린양",
+      "status": "새 사진 대조 · 1·2절 반복을 펼쳐 표기 · 본당 최종 교정 전",
+      "systems": 3,
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    }
+  ],
+  "주님의 기도": [
+    {
+      "kind": "engraved",
+      "title": "주님의 기도",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/lords-prayer.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/lords-prayer.svg",
+      "scope": "principal",
+      "sourceKey": "주님의 기도",
+      "systems": 5,
+      "status": "사진 대조 · 본당 최종 교정 전",
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    }
+  ],
+  "대영광송": [
+    {
+      "kind": "engraved",
+      "title": "대영광송",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/gloria.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/gloria.svg",
+      "scope": "principal",
+      "sourceKey": "대영광송",
+      "systems": 21,
+      "status": "사진 대조 · 본당 최종 교정 전",
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    }
+  ],
+  "거룩하시도다": [
+    {
+      "kind": "engraved",
+      "title": "거룩하시도다",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/sanctus.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/sanctus.svg",
+      "scope": "principal",
+      "sourceKey": "거룩하시도다",
+      "systems": 6,
+      "status": "사진 대조 · 본당 최종 교정 전",
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    }
+  ],
+  "신앙의 신비여": [
+    {
+      "kind": "engraved",
+      "title": "신앙의 신비여 · 연중",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/memorial-ordinary.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/memorial-ordinary.svg",
+      "scope": "principal",
+      "sourceKey": "신앙의 신비여",
+      "systems": 2,
+      "status": "사진 대조 · 본당 최종 교정 전",
+      "season": "ordinary",
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    },
+    {
+      "kind": "engraved",
+      "title": "신앙의 신비여 · 사순",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/memorial-lent.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/memorial-lent.svg",
+      "scope": "principal",
+      "sourceKey": "신앙의 신비여",
+      "systems": 3,
+      "status": "사진 대조 · 본당 최종 교정 전",
+      "season": "lent",
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    },
+    {
+      "kind": "engraved",
+      "title": "신앙의 신비여 · 부활",
+      "path": "../docs/교중미사악보/reengraved/semantic-a4/memorial-easter.pdf",
+      "preview": "../docs/교중미사악보/reengraved/semantic-a4/memorial-easter.svg",
+      "scope": "principal",
+      "sourceKey": "신앙의 신비여",
+      "systems": 3,
+      "status": "사진 대조 · 본당 최종 교정 전",
+      "season": "easter",
+      "layout": "297mm-width-autofit-role-systems",
+      "printSize": "A4 portrait 210 x 297 mm"
+    }
+  ]
+}

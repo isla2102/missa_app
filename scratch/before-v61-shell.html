@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MISSA · 2단계 정보 구조 검토 v60</title>
+<style>{{READER_CSS}}</style>
+</head>
+
+<body><main class="reader" data-js="reader" data-orientation="auto">
+<header class="reader__header reader__header--navigation">
+ <div class="reader__header-group"><h1 class="reader__title reader__brand">MISSA</h1><span>내 본당</span></div>
+ <div class="reader__header-group reader__header-controls"><label class="reader__label-hidden" for="date">날짜</label><input id="date" type="date" value="2026-10-18" data-js="date"><button type="button" class="reader__season-badge" data-js="liturgical-season" aria-haspopup="dialog" aria-controls="season-dialog"></button><span data-js="liturgical-day" aria-live="polite"></span><label class="reader__label-hidden" for="slot">회차</label><select id="slot" class="reader__session-select" data-js="slot"><option value="dawn">새벽미사</option><option value="main" selected>교중미사</option><option value="youth">저녁미사</option></select><label class="reader__label-hidden" for="mode">모드</label><select id="mode" data-js="mode"><option value="beginner">예비신자</option><option value="regular">일반 신자</option></select></div>
+ <button type="button" class="reader__menu-toggle" data-js="header-menu" aria-label="성가와 주요 기도문 메뉴" aria-haspopup="dialog">☰ 메뉴</button><nav class="reader__header-group reader__header-tools" aria-label="성가와 기도"><button type="button" data-panel="hymn">성가</button><button type="button" data-panel="prayer">주요 기도문</button></nav>
+</header>
+<div class="reader__row"><p class="reader__notice" data-js="context" role="status"></p><span data-js="viewport-status" role="status"></span><button type="button" data-js="viewport-rotate" hidden>방향 전환</button><button type="button" data-js="viewport-reset" hidden>화면에 맞춤</button></div>
+<p class="reader__notice" data-js="content-readiness" role="status"></p>
+<div class="reader__workspace"><section class="reader__body" aria-labelledby="part-title">
+ <div class="reader__section-heading"><h2 class="reader__title" id="part-title" data-js="part-title">시작 예식</h2><nav class="reader__part-nav" aria-label="미사 순서 이동"><button type="button" class="reader__part-prev" data-js="part-prev"></button><button type="button" class="reader__part-next" data-js="part-next"></button></nav></div>
+ <div class="reader__book" data-js="book"></div>
+ <nav class="reader__turns" aria-label="두 페이지씩 이전·다음 전례로 넘기기"><button type="button" class="reader__turn-button" data-js="page-prev">← 앞쪽 두 페이지</button><span data-js="page-context"></span><button type="button" class="reader__turn-button reader__turn-boundary" data-js="page-next">뒤쪽 두 페이지 →</button></nav>
+</section>
+<nav class="reader__row reader__tools" aria-label="리더 도구"><button type="button" data-panel="settings">보기 설정</button><button type="button" data-panel="info">안내</button></nav>
+<aside class="reader__rail" aria-labelledby="rail-title"><h2 class="reader__rail-title" id="rail-title"><span aria-hidden="true">☷</span> 목차</h2><nav data-js="toc-rail" aria-label="미사 전체 세부 목차"></nav></aside></div>
+
+<dialog class="reader__drawer" data-js="drawer" aria-labelledby="drawer-title"><div class="reader__header"><h2 id="drawer-title" data-js="drawer-title">목차</h2><button type="button" data-js="close">닫기</button></div><div data-js="drawer-body"></div></dialog>
+</main>
+<dialog class="reader__tutorial" data-js="tutorial" aria-labelledby="tutorial-title"><h2 id="tutorial-title" data-js="tutorial-title">미사 뷰어 사용 안내</h2><p data-js="tutorial-step" role="status"></p><p data-js="tutorial-copy"></p><nav class="reader__row" aria-label="튜토리얼 단계"><button type="button" data-js="tutorial-prev">이전</button><button type="button" data-js="tutorial-next">다음</button><button type="button" data-js="tutorial-later">나중에 보기</button></nav></dialog>
+<dialog class="reader__score-modal" data-js="score-modal" aria-labelledby="score-modal-title"><div class="reader__modal-heading"><h2 id="score-modal-title" data-js="score-modal-title">악보 크게 보기</h2><button type="button" data-js="score-modal-close">닫기</button></div><div class="reader__score-modal-body" data-js="score-modal-body"></div></dialog>
+<dialog class="reader__tutorial" id="season-help-dialog" data-js="season-help-modal" aria-labelledby="season-help-title" aria-describedby="season-help-text"><div class="reader__modal-heading"><h2 id="season-help-title" data-js="season-help-title"></h2><button type="button" data-js="season-help-close">닫기</button></div><p id="season-help-text" data-js="season-help-text"></p><a data-js="season-help-source" target="_blank" rel="noopener noreferrer">전례 시기 설명 출처</a></dialog>
+<dialog class="reader__tutorial" id="season-dialog" data-js="season-modal" aria-labelledby="season-modal-title"><div class="reader__modal-heading"><h2 id="season-modal-title" data-js="season-modal-title">전례 시기</h2><button type="button" data-js="season-modal-close">닫기</button></div><div data-js="season-modal-body"></div></dialog>
+<dialog class="reader__tutorial" data-js="source-dialog" aria-labelledby="source-dialog-title"><div class="reader__modal-heading"><h2 id="source-dialog-title" data-js="source-dialog-title">악보 출처</h2><button type="button" data-js="source-dialog-close">닫기</button></div><div data-js="source-dialog-body"></div></dialog>
+<script>{{READER_JS}}</script></body></html>

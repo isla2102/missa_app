@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-10",
+  "date": "2026-12-10",
+  "observance": "(자) 대림 제2주간 목요일",
+  "sourceRefs": [
+    "goodnews-20261210"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<나는 이스라엘의 거룩한 분, 너의 구원자이다.>",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.41,13-20",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "13 나 주님이 너의 하느님, 내가 네 오른손을 붙잡아 주고 있다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "나는 너에게 말한다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "“두려워하지 마라. 내가 너를 도와주리라.”",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "14 두려워하지 마라, 벌레 같은 야곱아,",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "구더기 같은 이스라엘아! 내가 너를 도와주리라.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "주님의 말씀이다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "이스라엘의 거룩한 분이 너의 구원자이다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "15 보라, 내가 너를 날카로운 타작기로, 날이 많은 새 타작기로 만들리니",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "너는 산들을 타작하여 잘게 바수고 언덕들을 지푸라기처럼 만들리라.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "16 네가 그것들을 까부르면 바람이 쓸어 가고 폭풍이 그것들을 흩날려 버리리라.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "그러나 너는 주님 안에서 기뻐 뛰놀고",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "이스라엘의 거룩한 분 안에서 자랑스러워하리라.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "17 가련한 이들과 가난한 이들이 물을 찾지만",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "물이 없어 갈증으로 그들의 혀가 탄다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "나 주님이 그들에게 응답하고",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "나 이스라엘의 하느님이 그들을 버리지 않으리라.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "18 나는 벌거숭이산들 위에 강물이,",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "골짜기들 가운데에 샘물이 솟아나게 하리라.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "광야를 못으로, 메마른 땅을 수원지로 만들리라.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "19 나는 광야에 향백나무와 아카시아, 도금양나무와 소나무를 갖다 놓고",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "사막에 방백나무와 사철가막살나무와 젓나무를 함께 심으리라.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "20 이는 주님께서 그것을 손수 이루시고",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "이스라엘의 거룩하신 분께서 그것을 창조하셨음을",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "모든 이가 보아 알고 살펴 깨닫게 하시려는 것이다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261210"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 145(144),1과 9.10-11.12-13ㄱㄴ(◎ 8)",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님은 너그럽고 자비하시며 분노에 더디시고 자애가 넘치시네.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 저의 임금이신 하느님, 당신을 높이 기리나이다. 영영 세세 당신 이름을 찬미하나이다. 주님은 모두에게 좋으시며, 그 자비 모든 조물 위에 내리시네. ◎",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 주님, 모든 조물이 당신을 찬송하고, 당신께 충실한 이들이 당신을 찬미하나이다. 당신 나라의 영광을 노래하고, 당신의 권능을 이야기하나이다. ◎",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 당신의 위업과 그 나라의 존귀한 영광, 사람들에게 알리나이다. 당신의 나라는 영원무궁한 나라, 당신의 통치는 모든 세대에 미치나이다. ◎",
+          "sourceRef": "goodnews-20261210"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "이사 45,8",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 하늘아, 위에서 이슬을 내려라. 구름아, 의로움을 뿌려라. 땅은 열려 구원이 피어나게 하여라.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261210"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<세례자 요한보다 더 큰 인물은 나오지 않았다.>",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.11,11-15",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 군중에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "11 “내가 진실로 너희에게 말한다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "여자에게서 태어난 이들 가운데",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "세례자 요한보다 더 큰 인물은 나오지 않았다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "그러나 하늘 나라에서는 가장 작은 이라도 그보다 더 크다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "12 세례자 요한 때부터 지금까지 하늘 나라는 폭행을 당하고 있다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "폭력을 쓰는 자들이 하늘 나라를 빼앗으려고 한다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "13 모든 예언서와 율법은 요한에 이르기까지 예언하였다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "14 너희가 그것을 받아들이고자 한다면,",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "요한이 바로 오기로 되어 있는 엘리야다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "15 귀 있는 사람은 들어라.”",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261210"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261210"
+        }
+      ]
+    }
+  ]
+}

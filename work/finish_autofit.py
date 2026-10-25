@@ -1,0 +1,7 @@
+from pathlib import Path
+import shutil,json
+entry='''\n## 2026-10-19 악보 가로 자동맞춤 v36\n- 기존 원본 조판 보존, reengraved/autofit/에 11양식(9묶음) MusicXML/SVG/PDF 별도 생성. A4 가로 폭 297mm, 좌우 3mm 최소 여백, 각 오선 폭 자동 맞춤. 시스템 사이 2mm, 마지막 PDF 페이지는 내용 높이로 crop하여 하단 여백 제거.\n- 사제 선창/성가대/합송 역할 표기를 정규화하고 역할 지시마다 새 오선 시작. 신앙의 신비여는 선창 6음 뒤 합송 별도 줄. 대영광송 손글씨 역할 수정 보존. 과밀한 줄을 나누고 페이지 경계에서 중복 조표/음자리표 제거.\n- 대영광송 4쪽→2쪽, 주님의 기도 2쪽→1쪽. 짧은 곡을 같은 쪽에 배치한 전체 합본 output/pdf/parish-scores-autofit.pdf 7쪽. 뷰어는 곡별 단일 연속 SVG와 곡별 PDF로 연결, 로딩 전 크기 메타데이터 갱신.\n- 모든 note XML(음높이/길이/가사/붙임줄/이음줄) 전후 동일 검사 통과. PDF 전체 7쪽 PNG 직접 열어 시각 검수, 연속 SVG 별도 렌더 확인. node syntax 및 test-reader-v36 전체 UI회귀 통과. 음악 내용은 본당 최종 교정 전, 실제 브라우저 시각 QA 미실행. 최신 review/02-ia-v36.html, 2단계 보완 유지.\n'''
+for name in ['docs/progress.md','design.md']:
+ p=Path(name);shutil.copy2(p,'scratch/'+p.name+'.before-v36');p.write_text(p.read_text(encoding='utf-8')+entry,encoding='utf-8',newline='\r\n')
+p=Path('README.md');shutil.copy2(p,'scratch/README.before-v36.md');p.write_text(p.read_text(encoding='utf-8')+'\n### 악보 폭 자동맞춤 조판\n- work/autofit_scores.py: 기존 MusicXML을 읽어 297mm 폭 조판 및 역할별 줄 나눔. work/music-deps의 Verovio/svglib/reportlab 및 pypdf 사용.\n- work/bundle_autofit.py: 짧은 곡을 같은 쪽에 담아 output/pdf/parish-scores-autofit.pdf 생성.\n- 검토 화면 review/02-ia-v36.html은 docs/교중미사악보/reengraved/autofit/ 자산을 사용.\n',encoding='utf-8',newline='\r\n')
+print('Saved score layout history and regeneration notes.')

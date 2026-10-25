@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-28",
+  "date": "2026-10-28",
+  "observance": "성 시몬과 성 유다(타대오) 사도 축일",
+  "sourceRefs": [
+    "user-hwp-202610"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님은 이 거룩한 사람들을 참사랑으로 뽑으시고, 영원한 영광을 주셨네.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "하느님,\n복된 사도들을 통하여 구원의 신비를 저희에게 알려 주셨으니\n거룩한 시몬과 유다의 전구를 들으시고 자비를 베푸시어\n하느님을 믿는 백성이 나날이 늘어나 교회가 끊임없이 발전하게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n거룩한 시몬과 유다 사도의 영광을 기리며 이 예물을 드리오니\n저희 믿음을 새롭게 하시어 거룩한 제사를 합당히 거행하게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "주님이 말씀하신다. 누구든지 나를 사랑하면 내 말을 지키리니, 내 아버지도 그를 사랑하시고, 우리가 가서 그와 함께 살리라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 성체를 받아 모시고 성령 안에서 간절히 청하오니\n시몬과 유다 사도의 순교를 기념하는 저희를\n주님의 사랑으로 지켜 주소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

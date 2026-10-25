@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-11",
+  "date": "2026-12-11",
+  "observance": "(자) 대림 제2주간 금요일",
+  "sourceRefs": [
+    "goodnews-20261211"
+  ],
+  "sections": [
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<아, 네가 내 계명들에 주의를 기울였다면.>",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.48,17-19",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "17 이스라엘의 거룩하신 분",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "너의 구원자이신 주님께서 이렇게 말씀하신다.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "“나는 주 너의 하느님",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "너에게 유익하도록 너를 가르치고",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "네가 가야 할 길로 너를 인도하는 이다.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "18 아, 네가 내 계명들에 주의를 기울였다면",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "너의 평화가 강물처럼, 너의 의로움이 바다 물결처럼 넘실거렸을 것을.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "19 네 후손들이 모래처럼, 네 몸의 소생들이 모래알처럼 많았을 것을.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "그들의 이름이 내 앞에서 끊어지지도 없어지지도 않았을 것을.”",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261211"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 1,1-2.3.4와 6(◎ 요한 8,12 참조)",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님, 당신을 따르는 이는 생명의 빛을 얻으리이다.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 행복하여라! 악인의 뜻에 따라 걷지 않는 사람, 죄인의 길에 들어서지 않으며, 오만한 자의 자리에 앉지 않는 사람, 오히려 주님의 가르침을 좋아하고, 밤낮으로 그 가르침을 되새기는 사람. ◎",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 그는 시냇가에 심은 나무 같아, 제때에 열매 맺고, 잎이 아니 시들어, 하는 일마다 모두 잘되리라. ◎",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 악인은 그렇지 않으니, 바람에 흩날리는 검불 같아라. 의인의 길은 주님이 아시고, 악인의 길은 멸망에 이르리라. ◎",
+          "sourceRef": "goodnews-20261211"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 주님이 오시니 마중 나가자. 주님은 평화의 임금이시다.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261211"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<그들은 요한의 말도 사람의 아들의 말도 듣지 않는다.>",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.11,16-19",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 군중에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "16 “이 세대를 무엇에 비기랴?",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "장터에 앉아 서로 부르며 이렇게 말하는 아이들과 같다.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "17 ‘우리가 피리를 불어 주어도 너희는 춤추지 않고",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "우리가 곡을 하여도 너희는 가슴을 치지 않았다.’",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "18 사실 요한이 와서 먹지도 않고 마시지도 않자,",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "‘저자는 마귀가 들렸다.’ 하고 말한다.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "19 그런데 사람의 아들이 와서 먹고 마시자,",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "‘보라, 저자는 먹보요 술꾼이며 세리와 죄인들의 친구다.’ 하고 말한다.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "그러나 지혜가 옳다는 것은 그 지혜가 이룬 일로 드러났다.”",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261211"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261211"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

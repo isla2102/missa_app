@@ -1,0 +1,195 @@
+@layer tokens, base, layout, components, responsive, utilities;
+@layer base {
+
+ * { scrollbar-width:auto; scrollbar-color:auto; box-sizing: border-box; border-color: var(--reader-theme-line); }
+ body { font-family: var(--reader-ui-font); margin: 0; color: var(--reader-theme-ink); background: var(--reader-theme-bg); }
+ p { margin:0; }
+ a { color: var(--reader-theme-accent); }
+ dialog { border-color:var(--reader-system-line); border-radius: var(--reader-radius); color: var(--reader-theme-ink); background: var(--reader-system-surface-panel); }
+ button, input, select { max-width: 100%; }
+ button { cursor: pointer; }
+ :focus-visible { outline: var(--focus-ring); outline-offset: var(--focus-offset); }
+
+}
+@layer layout {
+
+ .reader__metadata { min-inline-size: 0; }
+ .reader__toc-toggle { grid-column:2; grid-row:1; justify-self:end; inline-size:var(--reader-system-rail-compact); display:grid; place-items:center; }
+ .reader__workspace.is-toc-collapsed { grid-template-columns:minmax(0,1fr) var(--reader-system-rail-compact); }
+ .reader__workspace.is-toc-collapsed .reader__book { grid-column:1; }
+
+ .reader { height: 100dvh; display: grid; grid-template-rows: auto auto minmax(0, 1fr); padding: var(--reader-system-shell-inset); gap: var(--reader-gap); }
+ .reader[data-orientation="portrait"] { inline-size: min(100%, var(--reader-preview-portrait-width)); block-size: var(--reader-preview-portrait-height); margin-inline: auto; }
+ .reader[data-orientation="landscape"] { inline-size: min(100%, var(--reader-preview-landscape-width)); block-size: var(--reader-preview-landscape-height); margin-inline: auto; }
+ .reader__header, .reader__row, .reader__footer { display: flex; align-items: center; flex-wrap: wrap; gap: var(--reader-gap); }
+ .reader__header, .reader__footer { justify-content: space-between; }
+ .reader__header--navigation { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); align-items:center; gap:var(--reader-system-space-2); overflow-x:auto; }
+ .reader__header-controls { justify-self:center; }
+ .reader__header-tools { justify-self:end; }
+
+ .reader__header-group { display: flex; flex-wrap: nowrap; align-items: center; gap: var(--reader-header-gap); white-space: nowrap; flex-shrink: 0; }
+ .reader__brand { font-size: var(--reader-brand-size); }
+ .reader__label-hidden { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); }
+ .reader__section-heading { grid-column: 1; grid-row: 1; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: var(--reader-gap); }
+ .reader__part-nav { display: contents; }
+ .reader__part-prev { grid-column: 1; grid-row: 1; justify-self: start; }
+ .reader__part-next { grid-column: 3; grid-row: 1; justify-self: end; }
+ .reader__title { font-size:var(--reader-system-type-part); line-height:var(--reader-system-leading-heading); font-weight:var(--reader-system-weight-heading); color: var(--reader-theme-accent); margin: 0; grid-column: 2; grid-row: 1; text-align: center; }
+ .reader__notice { margin: 0; }
+ .reader__workspace { min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) var(--reader-rail-width); grid-template-rows: auto minmax(0, 1fr) auto; gap: var(--reader-gap); }
+ .reader__rail { grid-column: 2; grid-row: 2; min-height: 0; max-width: 100%; overflow:auto; overflow-wrap:anywhere; border:0; padding-inline:var(--reader-system-space-2); border-radius:var(--reader-radius); scrollbar-gutter:stable; }
+
+ .reader__toc-group-title { font-size:var(--reader-system-toc-size); line-height:var(--reader-system-toc-leading); color:var(--reader-theme-ink); font-weight:700; margin-block:var(--reader-system-space-4) var(--reader-system-space-2); }
+ .reader__toc-list { display:grid; gap:0; margin:0; padding-inline-start:var(--reader-system-space-4); font-size:var(--reader-system-toc-size); color:var(--reader-theme-muted); }
+ .reader__body { display: contents; }
+ .reader__tools { grid-column:2; grid-row:3; justify-content:flex-end; gap:var(--reader-system-space-1); }
+ .reader__book { grid-column: 1; grid-row: 2; position: relative; container-type: size; touch-action: pan-y; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--reader-gap); }
+ .reader__page { border-radius: var(--reader-radius); background: var(--reader-theme-surface); min-height: 0; border: var(--reader-card-border-width) solid var(--reader-card-border-color); padding: var(--reader-padding); overflow: auto; overflow-wrap: anywhere; }
+ .reader__page--measure { position: absolute; inset-block: 0; inset-inline-start: 0; width: calc((100% - var(--reader-gap)) / 2); visibility: hidden; pointer-events: none; }
+ .reader__page--reading { display: block; overflow: auto; }
+ .reader__page--reading-psalm { display: block; }
+ .reader__item--psalm { display: block; min-block-size: 0; }
+ .reader__psalm-content { min-block-size: 0; overflow: visible; }
+ .reader__item--reading { display: block; min-block-size: 0; }
+ .reader__reading-content { display: block; min-block-size: 0; }
+ .reader__reading-liturgy > * { flex-shrink: 0; }
+ .reader__reading-body { min-block-size: 0; overflow: visible; }
+ .reader__page--oversize { overflow: auto; }
+ .reader__item:last-child { margin-block-end: 0; }
+ .reader__item { margin-block:0 var(--reader-system-section-gap); }
+ .reader__item-heading { --button-font-size:var(--reader-system-button-option-size); --button-leading:var(--reader-system-button-line); --button-hit:var(--reader-system-button-option-hit); --button-padding-block:var(--reader-system-compact-pad); display:flex; flex-wrap:wrap; align-items:center; min-block-size:var(--reader-system-heading-row); gap:var(--reader-system-space-2); margin-block-end:0; }
+ .reader__item-title { display:flex; align-items:center; min-block-size:var(--reader-system-heading-row); font-size:var(--reader-system-type-section); line-height:var(--reader-system-leading-heading); font-weight:var(--reader-system-weight-heading); color: var(--reader-item-title-ink); margin-block: 0; }
+ .reader__item-text { font-family: var(--reader-body-font); font-size: var(--reader-body-size); line-height: var(--reader-body-leading); margin-block: 0; white-space: pre-line; }
+ .reader__content-card { margin-block:0; padding-inline:0; border-radius: var(--reader-radius); border: var(--reader-content-border-width) solid var(--reader-card-border-color); padding-block:0; }
+ .reader__turn-boundary[data-next-part="true"] { font-weight: var(--reader-response-weight); text-decoration: underline; }
+ .reader__turns { grid-column: 1; grid-row: 3; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: var(--reader-gap); }
+ .reader__turn-button { min-inline-size: 0; max-inline-size: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; justify-self: start; }
+ .reader__turn-boundary { justify-self: end; }
+ .reader__drawer { overflow:auto; --button-hit:var(--reader-system-button-main-hit); --button-leading:var(--reader-system-button-line); --button-padding-block:var(--reader-system-space-2); }
+ .reader__field { display:grid; gap:var(--reader-system-space-2); margin-block:var(--reader-system-space-4); }
+
+}
+@layer components {
+
+ .reader__item.reader__item--flow { display:flex; flex-direction:column; row-gap:var(--reader-system-flow-gap); }
+ .reader__item--joined { margin-block-end:var(--reader-system-flow-gap); }
+ 
+ .reader__header--navigation input, .reader__header--navigation select { --input-hit:var(--reader-system-button-main-hit); --input-leading:var(--reader-system-button-line); --input-padding-block:var(--reader-system-space-2); }
+ .reader__header-controls input[type="date"] { inline-size:var(--reader-system-date-width); --input-padding-inline:var(--reader-system-field-inline); }
+ .reader__header-controls input::-webkit-datetime-edit { padding:0; }
+ .reader__header-controls input::-webkit-calendar-picker-indicator { margin:0; padding:0; inline-size:var(--reader-system-type-ui); }
+ .reader__header-controls select { appearance:none; field-sizing:content; padding-inline:var(--reader-system-field-inline) var(--reader-system-field-end); background-image:var(--reader-system-select-arrow); background-position:right var(--reader-system-field-inline) center; background-size:var(--reader-system-arrow-size); background-repeat:no-repeat; }
+ .reader__sticky-heading { position:static; z-index:var(--reader-heading-z); background:var(--reader-theme-surface); padding:0; margin:0; min-block-size:var(--reader-system-heading-row); }
+ .reader[data-orientation="portrait"] .reader__sticky-heading { position: static; }
+ .reader__page--measure .reader__sticky-heading { position: static; }
+ [hidden] { display: none; }
+
+ .reader__dialogue { display: grid; grid-template-columns:minmax(0,1fr); gap:var(--reader-system-flow-gap); }
+ .reader__liturgy { font-family: var(--reader-body-font); font-size: var(--reader-body-size); line-height: var(--reader-body-leading); display:grid; gap:var(--reader-system-flow-gap); }
+ .reader__reading-liturgy { flex: 1; min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__dialogue--stacked { grid-template-columns: minmax(0, 1fr); }
+ .reader__content-card--liturgy { border: 0; padding: 0; }
+ .reader__speech-card { margin-block:0; border-radius: var(--reader-radius); border: var(--reader-speech-border-width) solid var(--reader-card-border-color); padding-block:var(--reader-system-speech-inset); padding-inline:var(--reader-system-space-3); }
+ .reader__speech-card--assembly { --reader-system-inline-note-ink:var(--reader-system-note-on-response); padding-block:var(--reader-system-speech-inset); padding-inline:var(--reader-system-space-3); color: var(--assembly-ink); background: var(--assembly-surface); border: 0; font-weight: var(--reader-response-weight); }
+ .reader__speech-card--alternative { position: relative; isolation: isolate; z-index: var(--reader-choice-card-z); }
+ .reader__alternative-marker { display:block; text-align:end; font-family:var(--reader-ui-font); font-size:var(--reader-guidance-size); line-height:var(--reader-system-leading-body); font-weight:400; color:var(--reader-guide-ink); }
+ 
+ .reader__speech-card--guide { padding-block:0; }
+ .reader__guidance { margin-block:var(--reader-system-space-1); font-family:var(--reader-ui-font); font-size:var(--reader-guidance-size); line-height:var(--reader-system-leading-body); color:var(--reader-system-inline-note-ink); background:transparent; padding:0; font-weight:400; }
+ .reader__speech-row { display: grid; grid-template-columns: var(--reader-marker-width) minmax(0, 1fr); column-gap: var(--reader-marker-gap); }
+ .reader__speech-row--unmarked { grid-template-columns: minmax(0, 1fr); }
+ .reader__speech-marker { text-align: center; white-space:nowrap; }
+ .reader__speech-body { min-inline-size: 0; }
+ .reader__speech-text { white-space:pre-line; }
+ .reader__item--collect { display: block; min-block-size: 0; }
+ .reader__collect-scroll { min-block-size: 0; overflow: visible; }
+ .reader__season-badge { border-width:var(--button-border-width); }
+ 
+ 
+ .reader__score-modal-body { min-block-size: 0; overflow: auto; }
+ .reader__pdf-object { display: block; width: 100%; height: 100%; min-height: 60dvh; }
+ .reader__modal-heading { display: flex; justify-content: space-between; align-items: center; gap: var(--reader-gap); }
+ .reader__season-period { border: var(--reader-card-border-width) solid var(--reader-card-border-color); padding: var(--reader-content-inset); margin-block: var(--reader-item-gap); }
+ .reader__season-help { flex-shrink: 0; }
+ .reader__season-period[aria-current="true"] { border-width: var(--reader-selection-frame-width); }
+ .reader__session-select { width: max-content; }
+ .reader__score-photo { border: var(--reader-score-border-width) solid var(--reader-card-border-color); background: var(--reader-score-paper); display: block; width: 100%; height: auto; }
+ .reader__creed-panel[hidden] { display: none; }
+ .reader__text-scroll { min-block-size: 0; overflow: visible; }
+ .reader__item--compact-score { display: block; min-block-size: 0; }
+ .reader__content-card--compact { min-block-size: 0; overflow: visible; }
+ .reader__score-scroll { min-block-size: 0; overflow: visible; }
+ .reader__item--score { display: block; min-block-size: 0; }
+ .reader__content-card--score { min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__penitential-heading { flex-wrap:wrap; gap:var(--reader-compact-choice-gap); }
+ .reader__penitential-heading .reader__prayer-option { flex-wrap:nowrap; gap:var(--reader-compact-choice-gap); }
+ .reader__guidance-toggle { --button-surface:var(--reader-theme-accent); --button-ink:var(--reader-theme-surface); --button-border-width:0; --button-padding-inline:var(--reader-system-space-1); --button-padding-block:var(--reader-system-space-1); margin-inline-start:auto; inline-size:var(--reader-system-heading-row); min-block-size:var(--reader-system-heading-row); padding:var(--reader-system-space-1); border:0; background:var(--reader-theme-accent); color:var(--reader-theme-surface); display:grid; place-items:center; }
+ .reader__creed-heading { flex-wrap: nowrap; gap: var(--reader-header-gap); }
+ .reader__creed-heading .reader__prayer-option { flex-wrap: nowrap; margin-block-end: 0; }
+ .reader__hymn-heading { flex-wrap: nowrap; gap: var(--reader-header-gap); }
+ .reader__hymn-number-form { display: flex; align-items: center; gap: var(--reader-header-gap); min-inline-size: 0; }
+ .reader__hymn-number-form input { --input-hit:var(--reader-system-number-height); --input-padding-block:var(--reader-system-space-1); --input-leading:var(--reader-system-button-line); inline-size: var(--reader-hymn-number-width); min-inline-size: 0; }
+ .reader__hymn-number-form label { white-space: nowrap; }
+ .reader__hymn-form { display:grid; gap:0; }
+ .reader__hymn-field { display: grid; grid-template-columns: var(--reader-hymn-label-width) minmax(0, 1fr); align-items: center; column-gap: var(--reader-gap); }
+ .reader__hymn-field input { inline-size: 100%; min-inline-size: 0; }
+ .reader__hymn-save { justify-self: end; }
+ .reader__prayer-option { display:flex; flex-wrap:wrap; gap:var(--reader-system-space-2); margin:0; }
+ .reader__score { padding-block:var(--reader-system-score-overlay-space); border: var(--reader-score-border-width) solid var(--reader-card-border-color); position:relative; margin:0; }
+  .reader__score-heading { display:flex; align-items:center; gap:var(--reader-system-space-2); font-family:var(--reader-ui-font); font-size:var(--reader-system-type-note); line-height:var(--reader-system-leading-body); color:var(--ui-theme-muted); position:absolute; inset-block-start:0; inset-inline:var(--reader-system-space-2); z-index:var(--reader-system-score-overlay-z); }
+ .reader__header, .reader__part-nav, .reader__turns, .reader__tools { --button-font-size:var(--reader-system-button-main-size); --button-hit:var(--reader-system-button-main-hit); --button-leading:var(--reader-system-button-line); --button-padding-block:var(--reader-system-space-2); }
+ .reader__page--fixed { display:flex; flex-direction:column; row-gap:var(--reader-system-flow-gap); overflow:hidden; }
+ .reader__fixed-heading { position:static; flex-shrink:0; min-block-size:var(--reader-system-heading-row); margin:0; padding:0; }
+ .reader__fixed-heading .reader__item-heading { margin:0; }
+ .reader__page-scroll { min-block-size:0; inline-size:calc(100% + var(--reader-system-page-scroll-outset)); margin-inline-end:calc(-1 * var(--reader-system-page-scroll-outset)); padding-inline-end:var(--reader-system-scroll-size); overflow:auto; border-radius:0; flex:1; scrollbar-gutter:stable; }
+ .reader__score-source { position:absolute; inset-block-end:var(--reader-system-space-2); inset-inline-end:var(--reader-system-space-2); z-index:var(--reader-system-score-overlay-z); display:block; text-align: end; font-size: var(--reader-score-action-font); margin-block-start: var(--reader-header-gap); }
+ .reader__score-enlarge { --button-font-size:var(--reader-system-button-option-size); --button-hit:var(--reader-system-button-option-hit); --button-leading:var(--reader-system-button-line); --button-padding-block:var(--reader-system-space-1); position:absolute; inset-block-start:0; inset-inline-end:0; z-index:var(--reader-system-score-overlay-z); margin:0; flex-shrink:0; }
+ .reader__book--continuous { display: block; overflow: auto; }
+ .reader__page--continuous { overflow: visible; }
+ .reader__book--continuous .reader__reading-content { display: block; min-block-size: 0; }
+ .reader__book--continuous .reader__reading-liturgy { display: grid; }
+ .reader__book--continuous .reader__reading-body { min-block-size: 0; overflow: visible; }
+ .reader__book--continuous .reader__score-scroll { min-block-size: 0; overflow: visible; }
+ .reader__book--continuous .reader__text-scroll { min-block-size: 0; overflow: visible; }
+ .reader__book--continuous .reader__collect-scroll { min-block-size: 0; overflow: visible; }
+ .reader__book--continuous .reader__psalm-content { min-block-size: 0; overflow: visible; }
+ .reader__reading-heading { min-block-size:var(--reader-system-heading-row); display:flex; align-items:center; justify-content: space-between; gap: var(--reader-header-gap); }
+ .reader__reading-note { position: relative; z-index: var(--reader-reading-note-z); font-size: var(--reader-reading-note-size); font-weight: normal; color: var(--reader-guide-ink); }
+ .reader__bow-phrase { text-decoration: underline; text-underline-offset: .2em; }
+ .reader__menu-toggle { display: none; }
+ .reader[data-orientation="portrait"] .reader__header--navigation { grid-template-columns:minmax(0,1fr) auto; gap:var(--reader-header-gap); font-size:var(--reader-header-compact-size); }
+ .reader[data-orientation="portrait"] .reader__header-controls { grid-column:1 / -1; grid-row:2; flex-wrap:wrap; }
+ .reader[data-orientation="portrait"] .reader__header-tools { display: none; }
+ .reader[data-orientation="portrait"] .reader__menu-toggle { display: block; flex-shrink: 0; }
+ .reader__staff { display: block; width: 100%; height: var(--reader-score-height); }
+ .reader__toc-link { display:block; min-block-size:var(--reader-system-toc-hit); padding:var(--reader-system-space-1) var(--reader-system-space-2); font-family:var(--reader-ui-font); font-size:var(--reader-system-toc-size); line-height:var(--reader-system-toc-leading); color:var(--reader-theme-ink); text-decoration:none; border-radius:var(--reader-radius); overflow-wrap:anywhere; }
+ .reader__toc-link[aria-current="location"] { font-weight:700; color:var(--reader-theme-accent); }
+ .reader__toc-visible { background:var(--reader-system-toc-current); }
+ .reader__toc-visible--first { border-start-start-radius:var(--reader-radius); border-start-end-radius:var(--reader-radius); }
+ .reader__toc-visible--last { border-end-start-radius:var(--reader-radius); border-end-end-radius:var(--reader-radius); }
+ .reader__toc-link:hover { background:var(--reader-system-toc-current); }
+ .reader__tools .missa-button { --button-padding-inline:var(--reader-system-space-1); --button-font-size:var(--reader-system-type-note); inline-size:var(--reader-system-button-main-hit); }
+ .reader__icon { display:block; inline-size:var(--reader-system-icon-size); block-size:var(--reader-system-icon-size); fill:none; stroke:currentColor; stroke-width:1.75; stroke-linecap:round; stroke-linejoin:round; }
+ .reader__icon-button { --button-padding-inline:var(--reader-system-space-2); inline-size:var(--reader-system-button-main-hit); display:grid; place-items:center; }
+ .reader__toc-major { display:none; word-break:keep-all; overflow-wrap:normal; }
+ .reader__workspace.is-toc-collapsed .reader__toc-list { display:none; }
+ .reader__workspace.is-toc-collapsed .reader__toc-group-title { display:none; }
+ .reader__workspace.is-toc-collapsed .reader__toc-major { display:block; color:var(--reader-theme-ink); font-size:var(--reader-system-toc-size); line-height:var(--reader-system-toc-leading); text-align:center; text-decoration:none; padding:var(--reader-system-space-2) 0; margin-block-end:var(--reader-system-space-2); border-radius:var(--reader-radius); }
+ .reader__toc-major[aria-current="true"] { color:var(--reader-theme-accent); background:var(--reader-system-toc-current); font-weight:700; }
+ *::-webkit-scrollbar { inline-size:var(--reader-system-scroll-size); block-size:var(--reader-system-scroll-size); }
+ *::-webkit-scrollbar-track { background:transparent; border-radius:var(--reader-system-scroll-radius); margin-block:var(--reader-system-space-2); }
+ *::-webkit-scrollbar-thumb { background:var(--reader-system-scroll-thumb); border-radius:var(--reader-system-scroll-radius); }
+ *::-webkit-scrollbar-button { display:none; }
+
+
+}
+@layer utilities {
+
+ [data-review-frames="true"] .reader { outline:var(--reader-system-inspect-line) solid var(--reader-system-inspect-layout); outline-offset:calc(-1 * var(--reader-system-inspect-line)); }
+ [data-review-frames="true"] :is(.reader__header,.reader__header-group,.reader__workspace,.reader__book,.reader__section-heading,.reader__turns,.reader__tools) { outline:var(--reader-system-inspect-line) dashed var(--reader-system-inspect-layout); outline-offset:calc(-1 * var(--reader-system-inspect-line)); }
+ [data-review-frames="true"] :is(.reader__page,.reader__rail,.reader__page-scroll,.reader__fixed-heading,.reader__content-card,.reader__score,.overlay) { outline:var(--reader-system-inspect-line) solid var(--reader-system-inspect-frame); outline-offset:calc(-1 * var(--reader-system-inspect-line)); }
+ [data-review-frames="true"] :is(.reader__item,.reader__item-heading,.reader__liturgy,.reader__speech-card,.reader__speech-row,.reader__speech-body,.reader__guidance,.reader__score-heading,.reader__toc-group-title,.reader__toc-list) { outline:var(--reader-system-inspect-line) dotted var(--reader-system-inspect-text); outline-offset:calc(-1 * var(--reader-system-inspect-line)); }
+ [data-review-frames="true"] :is(.missa-button,.missa-input,.reader__toc-link,.reader__toc-major) { outline:var(--reader-system-inspect-line) solid var(--reader-system-inspect-control); outline-offset:calc(-1 * var(--reader-system-inspect-line)); }
+ [data-review-frames="true"] :focus-visible { outline:var(--focus-ring); outline-offset:var(--focus-offset); }
+
+}

@@ -1,0 +1,757 @@
+{
+  "archiveName": "가톨릭성가(ENC).zip",
+  "archiveSha256": "9703213a78cc15e1620c9a3899c065e24efa6be5888d67df27466fc23a06edde",
+  "entryCount": 525,
+  "scope": "local source reference, no Encore binary rendering/conversion claim",
+  "scores": {
+    "자비송": {
+      "title": "자비송",
+      "confirmedNumber": null,
+      "matchStatus": "unresolved",
+      "candidates": [
+        {
+          "numbers": [
+            306
+          ],
+          "file": "306 자비송-김대붕(2009-9-13).enc",
+          "path": "../docs/references/catholic-enc/306 자비송-김대붕(2009-9-13).enc",
+          "sha256": "26b04c5f15a51c0074b1d140da4ced6db035ec1881944c358614b84f0189a353",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=306"
+          ]
+        },
+        {
+          "numbers": [
+            310
+          ],
+          "file": "310 자비송-손상오(2009-9-18).enc",
+          "path": "../docs/references/catholic-enc/310 자비송-손상오(2009-9-18).enc",
+          "sha256": "88bf262a74423662cf154c37870fb7ae7c86c17ac6afad34b00fc41693d1822d",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=310"
+          ]
+        },
+        {
+          "numbers": [
+            315
+          ],
+          "file": "315 자비송-이문근(2009-9-27).enc",
+          "path": "../docs/references/catholic-enc/315 자비송-이문근(2009-9-27).enc",
+          "sha256": "73057d5a828e7ec1e7e8771bfeea4a5ce6bf881b43d094ce6635f01bcbaa6fe9",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=315"
+          ]
+        },
+        {
+          "numbers": [
+            320
+          ],
+          "file": "320 자비송-이문근(2009-9-27).enc",
+          "path": "../docs/references/catholic-enc/320 자비송-이문근(2009-9-27).enc",
+          "sha256": "db361099a3271db93aa52b30503a8d8e7a5db1bcffdabb3b0fa2e1609b6ac87c",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=320"
+          ]
+        },
+        {
+          "numbers": [
+            325
+          ],
+          "file": "325 자비송-이문근(2009-10-6).enc",
+          "path": "../docs/references/catholic-enc/325 자비송-이문근(2009-10-6).enc",
+          "sha256": "add4fc1788de6125761326b9facd0d0b018a32cf33f93f7a6ebd2d5d81f5fceb",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=325"
+          ]
+        },
+        {
+          "numbers": [
+            350
+          ],
+          "file": "350 자비송(위령)-김대붕(2009-12-3).enc",
+          "path": "../docs/references/catholic-enc/350 자비송(위령)-김대붕(2009-12-3).enc",
+          "sha256": "1ae08c3ee71b81dfdec960abf0ac2b3eca46cd6bef585424f3d9edb732dfc77e",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=350"
+          ]
+        },
+        {
+          "numbers": [
+            354
+          ],
+          "file": "354 자비송(2009-12-3).enc",
+          "path": "../docs/references/catholic-enc/354 자비송(2009-12-3).enc",
+          "sha256": "f6a9b443bbdeb5c8f3d1c12f58e850ae19c114592491df229c4e855934d62522",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=354"
+          ]
+        }
+      ]
+    },
+    "대영광송": {
+      "title": "대영광송",
+      "confirmedNumber": null,
+      "matchStatus": "unresolved",
+      "candidates": [
+        {
+          "numbers": [
+            307
+          ],
+          "file": "307 대영광송(2009-9-13).enc",
+          "path": "../docs/references/catholic-enc/307 대영광송(2009-9-13).enc",
+          "sha256": "ad1bab1be99aaa9db78028840b473249f061e9f80cec0d2a5bd2cf846e290d27",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=307"
+          ]
+        },
+        {
+          "numbers": [
+            311
+          ],
+          "file": "311 대영광송(2009-9-24).enc",
+          "path": "../docs/references/catholic-enc/311 대영광송(2009-9-24).enc",
+          "sha256": "5f8e123b74bd0ed2b45bcdb4c12be7b1f577fd9d6e5487502adc8339f7f88678",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=311"
+          ]
+        },
+        {
+          "numbers": [
+            316
+          ],
+          "file": "316 대영광송(2009-9-27).enc",
+          "path": "../docs/references/catholic-enc/316 대영광송(2009-9-27).enc",
+          "sha256": "9d986eb7da4c31e4dd48c6c7f7ef8360d971c6d294fdc3209527753fa3ee4cc9",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=316"
+          ]
+        },
+        {
+          "numbers": [
+            321
+          ],
+          "file": "321 대영광송(2009-9-28).enc",
+          "path": "../docs/references/catholic-enc/321 대영광송(2009-9-28).enc",
+          "sha256": "43e61ac039a835f2a7e693905ad5ed359400f9d4914931239f574e228496b7a0",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=321"
+          ]
+        },
+        {
+          "numbers": [
+            326
+          ],
+          "file": "326 대영광송(2009-10-7).enc",
+          "path": "../docs/references/catholic-enc/326 대영광송(2009-10-7).enc",
+          "sha256": "9b4439417f6592004d9ea0c0c9f5045a26b6a7b769cebb87c35898a8d95ba926",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=326"
+          ]
+        }
+      ]
+    },
+    "거룩하시도다": {
+      "title": "거룩하시도다",
+      "confirmedNumber": null,
+      "matchStatus": "unresolved",
+      "candidates": [
+        {
+          "numbers": [
+            308
+          ],
+          "file": "308 거룩하시도다(2009-9-18).enc",
+          "path": "../docs/references/catholic-enc/308 거룩하시도다(2009-9-18).enc",
+          "sha256": "1ae2aee929fa408a61da26781ffab1902e198498e8f6d01694c350b9c14144c7",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=308"
+          ]
+        },
+        {
+          "numbers": [
+            312
+          ],
+          "file": "312 거룩하시도다(2009-9-24).enc",
+          "path": "../docs/references/catholic-enc/312 거룩하시도다(2009-9-24).enc",
+          "sha256": "fb8661e838273aad102ab9c407774840d845e17c9f63178435dc43d77e1a2ec3",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=312"
+          ]
+        },
+        {
+          "numbers": [
+            317
+          ],
+          "file": "317 거룩하시도다(2009-9-27).enc",
+          "path": "../docs/references/catholic-enc/317 거룩하시도다(2009-9-27).enc",
+          "sha256": "70cc8a61ee4c161a26e779f7dcfca9add0e8c0fd3b4ea608436c19a8b3e95437",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=317"
+          ]
+        },
+        {
+          "numbers": [
+            322
+          ],
+          "file": "322 거룩하시도다(2009-9-30).enc",
+          "path": "../docs/references/catholic-enc/322 거룩하시도다(2009-9-30).enc",
+          "sha256": "3dc8d7d09209cd42830861b1d0559026167b6af26bb55801eb3980856658230d",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=322"
+          ]
+        },
+        {
+          "numbers": [
+            327
+          ],
+          "file": "327 거룩하시도다(2009-10-12).enc",
+          "path": "../docs/references/catholic-enc/327 거룩하시도다(2009-10-12).enc",
+          "sha256": "31792820c3de0b4d51d264a0d527546762765fb2f0a394c8db85a43d97f94a5c",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=327"
+          ]
+        },
+        {
+          "numbers": [
+            333
+          ],
+          "file": "333 거룩하시도다.enc",
+          "path": "../docs/references/catholic-enc/333 거룩하시도다.enc",
+          "sha256": "088717b54c1dfc69aefed50d755d656ec9567f97a274b00256b1a03563fecf93",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=333"
+          ]
+        },
+        {
+          "numbers": [
+            341
+          ],
+          "file": "341 거룩하시도다(2009-10-28).enc",
+          "path": "../docs/references/catholic-enc/341 거룩하시도다(2009-10-28).enc",
+          "sha256": "831d02283c643d04af1b958d1244f63c083fc8c3e61ca232153f5f10afa46371",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=341"
+          ]
+        },
+        {
+          "numbers": [
+            348
+          ],
+          "file": "348 거룩하시도다(2009-11-4).enc",
+          "path": "../docs/references/catholic-enc/348 거룩하시도다(2009-11-4).enc",
+          "sha256": "31408d56b55b42de48fd5108941714f5234f038ee1a4137bc25596165216e307",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=348"
+          ]
+        },
+        {
+          "numbers": [
+            351
+          ],
+          "file": "351 거룩하시도다(2009-12-3).enc",
+          "path": "../docs/references/catholic-enc/351 거룩하시도다(2009-12-3).enc",
+          "sha256": "106176d3709f912a76535e28ca87d1d840792e3828f935c7e253deb14c92c7f6",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=351"
+          ]
+        },
+        {
+          "numbers": [
+            357
+          ],
+          "file": "357 거룩하시도다(2010-11-1).enc",
+          "path": "../docs/references/catholic-enc/357 거룩하시도다(2010-11-1).enc",
+          "sha256": "cfa6b8ef26f3695f26b43971f9035782811e2013d4467c0cae4ca7aef6841b02",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=357"
+          ]
+        }
+      ]
+    },
+    "신앙의 신비여": {
+      "title": "신앙의 신비여",
+      "confirmedNumber": null,
+      "matchStatus": "unresolved",
+      "candidates": [
+        {
+          "numbers": [
+            314
+          ],
+          "file": "314 신앙의 신비여(2009-9-24).enc",
+          "path": "../docs/references/catholic-enc/314 신앙의 신비여(2009-9-24).enc",
+          "sha256": "5ad591ace24afaeebf7106bea7ec2f4a56c5aa198e13c87dcef7ade6929b1fc8",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=314"
+          ]
+        },
+        {
+          "numbers": [
+            373
+          ],
+          "file": "373 신앙의 신비여(2014-4-26).enc",
+          "path": "../docs/references/catholic-enc/373 신앙의 신비여(2014-4-26).enc",
+          "sha256": "68e4b0372d361c2f29846ca1bece6f2cb709fb049f1b853ce8c5b94004e8376e",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=373"
+          ]
+        },
+        {
+          "numbers": [
+            374
+          ],
+          "file": "374 신앙의 신비여(2014-4-26).enc",
+          "path": "../docs/references/catholic-enc/374 신앙의 신비여(2014-4-26).enc",
+          "sha256": "b93791d45854b94173f18502ae1673ea2e035a0e9eee04295125424231144db2",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=374"
+          ]
+        },
+        {
+          "numbers": [
+            375
+          ],
+          "file": "375 신앙의 신비여(2014-4-26).enc",
+          "path": "../docs/references/catholic-enc/375 신앙의 신비여(2014-4-26).enc",
+          "sha256": "507f524a9b0c5757fb2501c1cda7acfc7b7e582891d1d2bd693aee283008d342",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=375"
+          ]
+        },
+        {
+          "numbers": [
+            376
+          ],
+          "file": "376 신앙의 신비여(2014-4-26).enc",
+          "path": "../docs/references/catholic-enc/376 신앙의 신비여(2014-4-26).enc",
+          "sha256": "98a5f4c5623ad1732b6a1ad06295393dd57c08fc3f393f2c5e1eef4c10c11487",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=376"
+          ]
+        }
+      ]
+    },
+    "아멘": {
+      "title": "아멘",
+      "confirmedNumber": null,
+      "matchStatus": "unresolved",
+      "candidates": [
+        {
+          "numbers": [
+            377,
+            378,
+            379
+          ],
+          "file": "377-379 아멘(2014-4-27).enc",
+          "path": "../docs/references/catholic-enc/377-379 아멘(2014-4-27).enc",
+          "sha256": "52af94040330f2e50ca40b708c1036458ce39fbf83f99b983b698d27494e20fc",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=377",
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=378",
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=379"
+          ]
+        },
+        {
+          "numbers": [
+            380,
+            381,
+            382
+          ],
+          "file": "380-382 아멘(2014-4-27).enc",
+          "path": "../docs/references/catholic-enc/380-382 아멘(2014-4-27).enc",
+          "sha256": "c8a340cd13b3264b1f2fa15051b0f6e45560b861183eca9e81cedb96bb88e9da",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=380",
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=381",
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=382"
+          ]
+        },
+        {
+          "numbers": [
+            383,
+            384,
+            385
+          ],
+          "file": "383-385 아멘(2014-4-27).enc",
+          "path": "../docs/references/catholic-enc/383-385 아멘(2014-4-27).enc",
+          "sha256": "01513ddd59142bc59074566f9438e00dfd194739ac53287ec12501a95e047c24",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=383",
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=384",
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=385"
+          ]
+        },
+        {
+          "numbers": [
+            386
+          ],
+          "file": "386 아멘(2014-4-27).enc",
+          "path": "../docs/references/catholic-enc/386 아멘(2014-4-27).enc",
+          "sha256": "4ed3b4aa646431606c2b0befa67bac9d666db05bc8bf84750712225b620da8af",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=386"
+          ]
+        }
+      ]
+    },
+    "주님의 기도": {
+      "title": "주님의 기도",
+      "confirmedNumber": null,
+      "matchStatus": "unresolved",
+      "candidates": [
+        {
+          "numbers": [
+            318
+          ],
+          "file": "318 주님의 기도(2009-9-27).enc",
+          "path": "../docs/references/catholic-enc/318 주님의 기도(2009-9-27).enc",
+          "sha256": "179a17c57afdbf9931032b6b0748043c664ab82123cfc30e77e323c4a316840f",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=318"
+          ]
+        },
+        {
+          "numbers": [
+            323
+          ],
+          "file": "323 주님의 기도(2009-9-30).enc",
+          "path": "../docs/references/catholic-enc/323 주님의 기도(2009-9-30).enc",
+          "sha256": "ee5aa831e80549abcb51cc73cda12ad5005c538942de46f984a3f7596842bdec",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=323"
+          ]
+        },
+        {
+          "numbers": [
+            387
+          ],
+          "file": "387 주님의 기도.enc",
+          "path": "../docs/references/catholic-enc/387 주님의 기도.enc",
+          "sha256": "b6883255a14f5a98b32e3014a65b991c1050e94141319a755367d26319da11a9",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=387"
+          ]
+        },
+        {
+          "numbers": [
+            388
+          ],
+          "file": "388 주님의 기도(2014-4-27).enc",
+          "path": "../docs/references/catholic-enc/388 주님의 기도(2014-4-27).enc",
+          "sha256": "fc80e9a533598ea2c4a7d5279a03088135c9b4231b43160e02ac20d42a229af5",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=388"
+          ]
+        }
+      ]
+    },
+    "하느님의 어린양": {
+      "title": "하느님의 어린양",
+      "confirmedNumber": null,
+      "matchStatus": "unresolved",
+      "candidates": [
+        {
+          "numbers": [
+            497
+          ],
+          "file": "497 하느님의 어린양.enc",
+          "path": "../docs/references/catholic-enc/497 하느님의 어린양.enc",
+          "sha256": "d883b34591ce673b9ec9898b11a9004c6a3d631ed5a0509be26cb18fc0a71960",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=497"
+          ]
+        },
+        {
+          "numbers": [
+            160
+          ],
+          "file": "160 하느님의 어린양.enc",
+          "path": "../docs/references/catholic-enc/160 하느님의 어린양.enc",
+          "sha256": "7095af3d48b7d73b4f947a28c2ba98d2cc0c4f24404d714099f4e61c631973ef",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=160"
+          ]
+        },
+        {
+          "numbers": [
+            309
+          ],
+          "file": "309 하느님의 어린양(2009-9-18).enc",
+          "path": "../docs/references/catholic-enc/309 하느님의 어린양(2009-9-18).enc",
+          "sha256": "e434f9ea294311353939a0ae8dfde69d05ba4e376f9cc3879b387dc8d876d4e8",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=309"
+          ]
+        },
+        {
+          "numbers": [
+            313
+          ],
+          "file": "313 하느님의 어린양(2009-9-24).enc",
+          "path": "../docs/references/catholic-enc/313 하느님의 어린양(2009-9-24).enc",
+          "sha256": "3922bd85718868d748ba036da923e56c2cdaa578f8abba158f6f705fcefd0b1e",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=313"
+          ]
+        },
+        {
+          "numbers": [
+            319
+          ],
+          "file": "319 하느님의 어린양(2009-9-27).enc",
+          "path": "../docs/references/catholic-enc/319 하느님의 어린양(2009-9-27).enc",
+          "sha256": "980060472649b01d84f32a01fa546beaf374088a2c42bf9cfd3101ac435f2356",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=319"
+          ]
+        },
+        {
+          "numbers": [
+            324
+          ],
+          "file": "324 하느님의 어린양(2009-10-6).enc",
+          "path": "../docs/references/catholic-enc/324 하느님의 어린양(2009-10-6).enc",
+          "sha256": "38851bcf8de1e03a66e8af0eb51f5ab2079e3208e71943d69944c070af059e02",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=324"
+          ]
+        },
+        {
+          "numbers": [
+            328
+          ],
+          "file": "328 하느님의 어린양(2009-10-12).enc",
+          "path": "../docs/references/catholic-enc/328 하느님의 어린양(2009-10-12).enc",
+          "sha256": "809e72b4f2211254ece0490924b3ea336190bdf0c1422df5709ee28557e0bb37",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=328"
+          ]
+        },
+        {
+          "numbers": [
+            335
+          ],
+          "file": "335 하느님의 어린양.enc",
+          "path": "../docs/references/catholic-enc/335 하느님의 어린양.enc",
+          "sha256": "b6befbfd4313b8df6dcd1ea5e187ef1208466560efcd76236c9599c39f3ed3c4",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=335"
+          ]
+        },
+        {
+          "numbers": [
+            343
+          ],
+          "file": "343 하느님의 어린양(2009-10-28).enc",
+          "path": "../docs/references/catholic-enc/343 하느님의 어린양(2009-10-28).enc",
+          "sha256": "730d87ddd20324a7dd2e01fa1a726f9ecb24f0bc4aadbc6fc8f758bb10cc98a7",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=343"
+          ]
+        },
+        {
+          "numbers": [
+            343
+          ],
+          "file": "343 하느님의 어린양.enc",
+          "path": "../docs/references/catholic-enc/343 하느님의 어린양.enc",
+          "sha256": "a877f41f2bc30d63854d1d366b319cd053d61fa727074b30e5ec7c4e0591fa6f",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=343"
+          ]
+        },
+        {
+          "numbers": [
+            352
+          ],
+          "file": "352 하느님의 어린양(2009-12-3).enc",
+          "path": "../docs/references/catholic-enc/352 하느님의 어린양(2009-12-3).enc",
+          "sha256": "d6ee75feea580529f22d526e0a6f82e4787b98ccf3057fcbfbdc12a2e6a42e96",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=352"
+          ]
+        },
+        {
+          "numbers": [
+            358
+          ],
+          "file": "358 하느님의 어린양(2011-1-20).enc",
+          "path": "../docs/references/catholic-enc/358 하느님의 어린양(2011-1-20).enc",
+          "sha256": "a70d7a96d274bb71a365f1fea0e02b80bf244482719c383097800d9989502a8c",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=358"
+          ]
+        }
+      ]
+    },
+    "복음 환호송": {
+      "title": "복음 환호송",
+      "confirmedNumber": 365,
+      "matchStatus": "user-confirmed-and-16-note-melody-checked",
+      "candidates": [
+        {
+          "numbers": [
+            331
+          ],
+          "file": "331 복음환호송(2009-10-12).enc",
+          "path": "../docs/references/catholic-enc/331 복음환호송(2009-10-12).enc",
+          "sha256": "286db98b05df2da30fd512d76e56d3317e11a2720d9609e9d80b18440fbf55fc",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=331"
+          ]
+        },
+        {
+          "numbers": [
+            339
+          ],
+          "file": "339 복음 환호송(2009-10-28).enc",
+          "path": "../docs/references/catholic-enc/339 복음 환호송(2009-10-28).enc",
+          "sha256": "fed4d455950085ef6c23e8b74e0f3bfb990814eacef1daa149b0b7f229425020",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=339"
+          ]
+        },
+        {
+          "numbers": [
+            364
+          ],
+          "file": "364 복음환호송(2012-7-14).enc",
+          "path": "../docs/references/catholic-enc/364 복음환호송(2012-7-14).enc",
+          "sha256": "8dadf870a8bde815480b05f28e3e00e9906a9b289c9c1315944885cb972d07ba",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=364"
+          ]
+        },
+        {
+          "numbers": [
+            365
+          ],
+          "file": "365 복음환호송(2014-4-25).enc",
+          "path": "../docs/references/catholic-enc/365 복음환호송(2014-4-25).enc",
+          "sha256": "678709a6cf60abeb7e335aa4b2e992d6b08a747a48d2bc4b092d1490c1c28fcd",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=365"
+          ]
+        },
+        {
+          "numbers": [
+            366
+          ],
+          "file": "366 복음환호송(2014-4-25).enc",
+          "path": "../docs/references/catholic-enc/366 복음환호송(2014-4-25).enc",
+          "sha256": "68dbf2fb12bc0c7b23acfcfff69b3fb11c1a807be034f68448aec920d43f2166",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=366"
+          ]
+        }
+      ],
+      "sourceUrl": "https://app.catholic.or.kr/web/sungga/default.asp?flag=5&sunggaId=365"
+    },
+    "주님의 기도 맺음 환호": {
+      "title": "주님의 기도 맺음 환호",
+      "confirmedNumber": null,
+      "matchStatus": "unresolved",
+      "candidates": [
+        {
+          "numbers": [
+            318
+          ],
+          "file": "318 주님의 기도(2009-9-27).enc",
+          "path": "../docs/references/catholic-enc/318 주님의 기도(2009-9-27).enc",
+          "sha256": "179a17c57afdbf9931032b6b0748043c664ab82123cfc30e77e323c4a316840f",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=318"
+          ]
+        },
+        {
+          "numbers": [
+            323
+          ],
+          "file": "323 주님의 기도(2009-9-30).enc",
+          "path": "../docs/references/catholic-enc/323 주님의 기도(2009-9-30).enc",
+          "sha256": "ee5aa831e80549abcb51cc73cda12ad5005c538942de46f984a3f7596842bdec",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=323"
+          ]
+        },
+        {
+          "numbers": [
+            387
+          ],
+          "file": "387 주님의 기도.enc",
+          "path": "../docs/references/catholic-enc/387 주님의 기도.enc",
+          "sha256": "b6883255a14f5a98b32e3014a65b991c1050e94141319a755367d26319da11a9",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=387"
+          ]
+        },
+        {
+          "numbers": [
+            388
+          ],
+          "file": "388 주님의 기도(2014-4-27).enc",
+          "path": "../docs/references/catholic-enc/388 주님의 기도(2014-4-27).enc",
+          "sha256": "fc80e9a533598ea2c4a7d5279a03088135c9b4231b43160e02ac20d42a229af5",
+          "matchStatus": "title-only-not-melody-confirmed",
+          "officialPages": [
+            "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=388"
+          ]
+        }
+      ],
+      "note": "주님의 기도 항목에 수록된 맺음 환호가 같은 곡인지 추가 대조 필요"
+    }
+  }
+}

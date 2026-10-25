@@ -1,0 +1,1043 @@
+{
+  "summary": {
+    "checks": 256,
+    "failures": [],
+    "errors": []
+  },
+  "results": [
+    {
+      "file": "prototype/index.html",
+      "checks": [
+        {
+          "label": "three independent penitential forms",
+          "pass": true
+        },
+        {
+          "label": "form 1 renderer",
+          "pass": true
+        },
+        {
+          "label": "form 1 absolution instruction",
+          "pass": true
+        },
+        {
+          "label": "form 2 renderer",
+          "pass": true
+        },
+        {
+          "label": "form 2 absolution instruction",
+          "pass": true
+        },
+        {
+          "label": "missing second form filled",
+          "pass": true
+        },
+        {
+          "label": "form 3 renderer",
+          "pass": true
+        },
+        {
+          "label": "form 3 absolution instruction",
+          "pass": true
+        },
+        {
+          "label": "third form does not leak first form gestures",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-2-variant-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-2-variant-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part 0 rendered",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-3-choir rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-3-last rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-response-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-petition-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-response-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-petition-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-response-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-petition-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-response-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-conclusion rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-amen rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part 1 rendered",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-0-preparation rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2-sanctus rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2-institution rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2-memorial rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2-offering rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2-amen rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-3-doxology rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-5-agnus rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-5-hymn rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part 2 rendered",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-2-variant-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-2-variant-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-2-variant-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-2-response rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part 3 rendered",
+          "pass": true
+        },
+        {
+          "label": "beginner original rubrics retained",
+          "pass": true
+        },
+        {
+          "label": "beginner gesture visible",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-2-variant-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-2-variant-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part 0 rendered",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-3-choir rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-3-last rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-response-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-petition-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-response-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-petition-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-response-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-petition-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-response-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-conclusion rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-amen rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part 1 rendered",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-0-preparation rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2-sanctus rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2-institution rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2-memorial rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2-offering rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2-amen rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-3-doxology rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-5-agnus rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-5-hymn rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part 2 rendered",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-2-variant-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-2-variant-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-2-variant-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-2-response rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part 3 rendered",
+          "pass": true
+        },
+        {
+          "label": "regular original rubrics retained",
+          "pass": true
+        },
+        {
+          "label": "regular gesture visible",
+          "pass": true
+        },
+        {
+          "label": "unverified bell/bowing instructions removed",
+          "pass": true
+        },
+        {
+          "label": "personal names are source placeholders",
+          "pass": true
+        },
+        {
+          "label": "institution rubric anchored before words",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "file": "review/07-system-sample-v1.html",
+      "checks": [
+        {
+          "label": "three independent penitential forms",
+          "pass": true
+        },
+        {
+          "label": "form 1 renderer",
+          "pass": true
+        },
+        {
+          "label": "form 1 absolution instruction",
+          "pass": true
+        },
+        {
+          "label": "form 2 renderer",
+          "pass": true
+        },
+        {
+          "label": "form 2 absolution instruction",
+          "pass": true
+        },
+        {
+          "label": "missing second form filled",
+          "pass": true
+        },
+        {
+          "label": "form 3 renderer",
+          "pass": true
+        },
+        {
+          "label": "form 3 absolution instruction",
+          "pass": true
+        },
+        {
+          "label": "third form does not leak first form gestures",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-2-variant-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-2-variant-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-0-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part 0 rendered",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-3-choir rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-3-last rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-response-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-petition-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-response-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-petition-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-response-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-petition-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-response-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-conclusion rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-1-item-7-amen rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part 1 rendered",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-0-preparation rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2-sanctus rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2-institution rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2-memorial rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2-offering rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-2-amen rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-3-doxology rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-5-agnus rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-5-hymn rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-2-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part 2 rendered",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-2-variant-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-2-variant-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-2-variant-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-2-response rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part-3-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "beginner part 3 rendered",
+          "pass": true
+        },
+        {
+          "label": "beginner original rubrics retained",
+          "pass": true
+        },
+        {
+          "label": "beginner gesture visible",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-2-variant-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-2-variant-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-0-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part 0 rendered",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-3-choir rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-3-last rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-response-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-petition-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-response-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-petition-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-response-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-petition-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-response-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-conclusion rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-1-item-7-amen rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part 1 rendered",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-0-preparation rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2-sanctus rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2-institution rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2-memorial rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2-offering rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-2-amen rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-3-doxology rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-5-agnus rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-5 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-5-hymn rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-2-item-6 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part 2 rendered",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-0 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-1 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-2-variant-2 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-2-variant-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-2-variant-4 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-2-response rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part-3-item-3 rubric prefix stripped",
+          "pass": true
+        },
+        {
+          "label": "regular part 3 rendered",
+          "pass": true
+        },
+        {
+          "label": "regular original rubrics retained",
+          "pass": true
+        },
+        {
+          "label": "regular gesture visible",
+          "pass": true
+        },
+        {
+          "label": "unverified bell/bowing instructions removed",
+          "pass": true
+        },
+        {
+          "label": "personal names are source placeholders",
+          "pass": true
+        },
+        {
+          "label": "institution rubric anchored before words",
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

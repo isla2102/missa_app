@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-21",
+  "date": "2026-11-21",
+  "observance": "(백) 복되신 동정 마리아의 자헌 기념일",
+  "sourceRefs": [
+    "goodnews-20261121"
+  ],
+  "sections": [
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<딸 시온아, 즐거워하여라. 내가 이제 가서 머무르리라.>",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 즈카르야 예언서의 말씀입니다.2,14-17",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "14 “딸 시온아, 기뻐하며 즐거워하여라.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "정녕 내가 이제 가서 네 한가운데에 머무르리라.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "주님의 말씀이다.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "15 그날에 많은 민족이 주님과 결합하여 그들은 내 백성이 되고",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "나는 그들 한가운데에 머무르리라.”",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "그때에 너는 만군의 주님께서 나를 너에게 보내셨음을 알게 되리라.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "16 주님께서는 이 거룩한 땅에서 유다를 당신 몫으로 삼으시고",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "예루살렘을 다시 선택하시리라.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "17 모든 인간은 주님 앞에서 조용히 하여라.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "그분께서 당신의 거룩한 처소에서 일어나셨다.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261121"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "루카 1,46ㄴ-47.48-49.50-51.52-53.54-55",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 영원하신 성부의 아드님을 잉태하신 동정 마리아는 복되시다!",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 내 영혼이 주님을 찬양하고, 내 구원자 하느님 안에서 내 마음 기뻐 뛰노네. ◎",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 그분은 비천한 당신 종을 굽어보셨네. 이제부터 과연 모든 세대가 나를 복되다 하리라. 전능하신 분이 나에게 큰일을 하셨으니, 그 이름은 거룩하신 분이시다. ◎",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 그분 자비는 세세 대대로, 그분을 두려워하는 이들에게 미치리라. 그분은 당신 팔로 권능을 떨치시어, 마음이 교만한 자들을 흩으셨네. ◎",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 권세 있는 자를 자리에서 내치시고, 비천한 이를 들어 올리셨네. 굶주린 이를 좋은 것으로 채워 주시고, 부유한 자를 빈손으로 돌려보내셨네. ◎",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "psalm-p7",
+          "role": "text",
+          "text": "○ 당신 자비를 기억하시어, 당신 종 이스라엘을 돌보셨으니, 우리 조상들에게 말씀하신 대로, 아브라함과 그 후손에게 그분의 자비 영원하리라. ◎",
+          "sourceRef": "goodnews-20261121"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 11,28 참조",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 하느님 말씀을 듣고 지키는 이들은 행복하여라.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261121"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<예수님께서 제자들을 가리키시며 이르셨다. “이들이 내 어머니고 내 형제들이다.”>",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.12,46-50",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 46 예수님께서 군중에게 말씀하고 계시는데,",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "그분의 어머니와 형제들이 그분과 이야기하려고 밖에 서 있었다.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "47 그래서 어떤 이가 예수님께, “보십시오, 스승님의 어머님과 형제들이",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "스승님과 이야기하려고 밖에 서 계십니다.” 하고 말하였다.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "48 그러자 예수님께서 당신께 말한 사람에게,",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "“누가 내 어머니고 누가 내 형제들이냐?” 하고 반문하셨다.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "49 그리고 당신의 제자들을 가리키시며 이르셨다.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "“이들이 내 어머니고 내 형제들이다.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "50 하늘에 계신 내 아버지의 뜻을 실행하는 사람이 내 형제요 누이요 어머니다.”",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261121"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261121"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

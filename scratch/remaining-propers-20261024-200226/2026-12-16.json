@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-16",
+  "date": "2026-12-16",
+  "observance": "(자) 대림 제3주간 수요일",
+  "sourceRefs": [
+    "goodnews-20261216"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<하늘아, 위에서 이슬을 내려라.>",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.45,6ㄴ-8.18.21ㅁ-25",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "6 내가 주님이고 다른 이가 없다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "7 나는 빛을 만드는 이요 어둠을 창조하는 이다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "나는 행복을 주는 이요 불행을 일으키는 이다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "나 주님이 이 모든 것을 이룬다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "8 하늘아, 위에서 이슬을 내려라. 구름아, 의로움을 뿌려라.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "땅은 열려 구원이 피어나게, 의로움도 함께 싹트게 하여라.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "나 주님이 이것을 창조하였다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "18 주님께서 말씀하신다. 하늘을 창조하신 분, 그분께서 하느님이시다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "땅을 빚으시고 땅을 만드신 분, 그분께서 그것을 굳게 세우셨다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "그분께서는 그것을 혼돈으로 창조하지 않으시고",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "살 수 있는 곳으로 빚어 만드셨다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "내가 주님이다. 다른 이가 없다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "21 나 주님이 아니냐? 나밖에는 다른 신이 아무도 없다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "의롭고 구원을 베푸는 하느님, 나 말고는 아무도 없다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "22 땅끝들아, 모두 나에게 돌아와 구원을 받아라.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "나는 하느님, 다른 이가 없다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "23 내가 나 자신을 두고 맹세한다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "내 입에서 의로운 말이 나갔으니 그 말은 돌이킬 수 없는 것이다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "정녕 모두 나에게 무릎을 꿇고 입으로 맹세하며 24 말하리라.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "“주님께만 의로움과 권능이 있다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "그분께 격분하는 자들은 모두 그분 앞에 와서 부끄러운 일을 당하리라.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "25 이스라엘의 모든 후손들은 주님 안에서 승리와 영예를 얻으리라.”",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261216"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 85(84),9ㄱㄴㄷ과 10.11-12.13-14(◎ 이사 45,8)",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 하늘아, 위에서 이슬을 내려라. 구름아, 의로움을 뿌려라.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 하느님 말씀을 나는 듣고자 하노라. 당신 백성, 당신께 충실한 이에게, 주님은 진정 평화를 말씀하신다. 그분을 경외하는 이에게 구원이 가까우니, 영광은 우리 땅에 머물리라. ◎",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 자애와 진실이 서로 만나고, 정의와 평화가 입을 맞추리라. 진실이 땅에서 돋아나고, 정의가 하늘에서 굽어보리라. ◎",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님이 복을 베푸시어, 우리 땅이 열매를 내리라. 정의가 그분 앞을 걸어가고, 그분은 그 길로 나아가시리라. ◎",
+          "sourceRef": "goodnews-20261216"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "이사 40,9-10 참조",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 기쁜 소식을 전하는 너는 목소리를 한껏 높여라. 보라, 주 하느님이 권능을 떨치며 오신다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261216"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<요한에게 가서 너희가 보고 들은 것을 전하여라.>",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.7,18ㄴ-23",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 18 요한은 자기 제자들 가운데에서 두 사람을 불러",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "19 주님께 보내며, “오실 분이 선생님이십니까?",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "아니면 저희가 다른 분을 기다려야 합니까?” 하고 여쭙게 하였다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "20 그 사람들이 예수님께 다가와 말하였다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "“세례자 요한이 저희를 보내어, ‘오실 분이 선생님이십니까?",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "아니면 저희가 다른 분을 기다려야 합니까?’ 하고 여쭈어 보라고 하셨습니다.”",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "21 그때에 예수님께서는 질병과 병고와 악령에 시달리는 많은 사람을 고쳐 주시고,",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "또 많은 눈먼 이를 볼 수 있게 해 주셨다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "22 예수님께서 그들에게 대답하셨다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "“요한에게 가서 너희가 보고 들은 것을 전하여라.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "눈먼 이들이 보고 다리저는 이들이 제대로 걸으며,",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "나병 환자들이 깨끗해지고 귀먹은 이들이 들으며,",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "죽은 이들이 되살아나고 가난한 이들이 복음을 듣는다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "23 나에게 의심을 품지 않는 이는 행복하다.”",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261216"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261216"
+        }
+      ]
+    }
+  ]
+}

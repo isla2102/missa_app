@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-23",
+  "status": "draft-prepared-not-sent",
+  "recipient": {
+    "department": "한국천주교중앙협의회 총무부",
+    "email": "mano@cbck.or.kr",
+    "phone": "02-460-7552",
+    "source": "https://cbck.or.kr/Copyright"
+  },
+  "formPage": "https://cbck.or.kr/Board/K7300/13009902",
+  "attachmentUrl": "https://cbck.or.kr/FileDownload?oid=13009902&fid=13008426",
+  "draftPath": "docs/research/source-access/02-permission-inquiry-draft.txt",
+  "missing": [
+    "senderName",
+    "replyEmail",
+    "affiliationIfApplicable",
+    "futureDistributionAndRevenuePlan"
+  ],
+  "permission": "unconfirmed",
+  "outboundMessageSent": false
+}

@@ -1,0 +1,730 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-18",
+  "date": "2026-10-18",
+  "observance": "민족들의 복음화를 위한 미사(전교 주일)",
+  "sourceRefs": [
+    "cbck-20261018",
+    "goodnews-20261018"
+  ],
+  "sections": [
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "text",
+          "text": "주님,",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "offertory-p2",
+          "role": "text",
+          "text": "그리스도께서 모든 이를 구원하시려고",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "offertory-p3",
+          "role": "text",
+          "text": "스스로 자신을 바치셨으니",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "offertory-p4",
+          "role": "text",
+          "text": "그리스도를 통하여 모든 민족들이",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "offertory-p5",
+          "role": "text",
+          "text": "해 뜨는 데서 해 지는 데까지 주님의 이름을 찬양하며",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "offertory-p6",
+          "role": "text",
+          "text": "언제나 어디서나 주님께 하나의 제사를 봉헌하게 하소서.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "offertory-p7",
+          "role": "text",
+          "text": "우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "cbck-20261018"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "preface-p1",
+          "role": "text",
+          "text": "<연중 주일 감사송 6 : 영원한 파스카의 보증>",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p2",
+          "role": "text",
+          "text": "거룩하신 아버지, 전능하시고 영원하신 주 하느님,",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p3",
+          "role": "text",
+          "text": "언제나 어디서나 아버지께 감사함이",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p4",
+          "role": "text",
+          "text": "참으로 마땅하고 옳은 일이며 저희 도리요 구원의 길이옵니다.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p5",
+          "role": "text",
+          "text": "저희는 주님 안에서 숨 쉬고 움직이며 살아가오니",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p6",
+          "role": "text",
+          "text": "이 세상에서 날마다 주님의 인자하심을 체험할 뿐 아니라",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p7",
+          "role": "text",
+          "text": "영원한 생명을 보장받고 있나이다.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p8",
+          "role": "text",
+          "text": "주님께서는 성령을 통하여",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p9",
+          "role": "text",
+          "text": "예수님을 죽은 이들 가운데서 일으키셨으니",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p10",
+          "role": "text",
+          "text": "성령의 첫 열매를 지닌 저희에게도",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p11",
+          "role": "text",
+          "text": "파스카 신비가 영원히 이어지리라 희망하고 있나이다.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p12",
+          "role": "text",
+          "text": "그러므로 저희도 모든 천사와 함께 주님을 찬미하며",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "preface-p13",
+          "role": "text",
+          "text": "기쁨에 넘쳐 큰 소리로 노래하나이다.",
+          "sourceRef": "cbck-20261018"
+        }
+      ]
+    },
+    {
+      "id": "post-communion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "post-communion-p1",
+          "role": "text",
+          "text": "주님, 저희가 구원의 성체를 받아 모시고 비오니",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "post-communion-p2",
+          "role": "text",
+          "text": "영원한 생명의 보증인 이 성사의 힘으로",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "post-communion-p3",
+          "role": "text",
+          "text": "저희 안에 참된 믿음이 자라나게 하소서.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "post-communion-p4",
+          "role": "text",
+          "text": "우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "cbck-20261018"
+        }
+      ]
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "intercessions-p1",
+          "role": "text",
+          "text": "<각 공동체 스스로 준비한 기도를 바치는 것이 바람직하다.>",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "intercessions-p2",
+          "role": "text",
+          "text": "1. 교회를 위하여 기도합시다.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "intercessions-p3",
+          "role": "text",
+          "text": "거룩하신 주님, 주님의 교회에 그리스도의 빛을 비추시어, 교회가 구원의 신비를 깊이 깨닫고, 그 신비에 온전히 참여하며, 민족들의 복음화에 힘쓰게 하소서.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "intercessions-p4",
+          "role": "text",
+          "text": "2. 세계 지도자들을 위하여 기도합시다.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "intercessions-p5",
+          "role": "text",
+          "text": "자비하신 주님, 세계 지도자들에게 사랑과 절제의 영을 주시어, 자국의 이익만을 생각하기보다 고통을 겪는 나라들을 살피며 공동선을 실현하도록 이끌어 주소서.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "intercessions-p6",
+          "role": "text",
+          "text": "3. 감옥에 갇힌 이들을 위하여 기도합시다.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "intercessions-p7",
+          "role": "text",
+          "text": "위로의 샘이신 주님, 감옥에 갇힌 이들을 참된 회개로 이끌어 주시어, 죄를 진심으로 뉘우치며 새 삶을 준비하게 하시고, 그들의 범죄로 피해받은 이들에게 위로와 힘을 주소서.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "intercessions-p8",
+          "role": "text",
+          "text": "4. 가정 공동체를 위하여 기도합시다.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "intercessions-p9",
+          "role": "text",
+          "text": "사랑이신 주님, 어려움에 있는 가정들을 돌보아 주시어, 주님의 한결같은 사랑과 자비를 믿고 온전히 의탁하며, 어머니인 교회 안에서 힘을 얻게 하소서.",
+          "sourceRef": "cbck-20261018"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "하느님,\n모든 사람이 진리를 깨달아 구원되기를 바라시니\n수확할 밭에 일꾼들을 많이 보내시어\n모든 이에게 복음을 전하게 하시고\n하느님의 백성이 생명의 말씀을 듣고 성사로 힘을 얻어\n구원과 사랑의 길을 걷게 하소서.\n성부와 성령과 함께 천주로서\n영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "cbck-20261018"
+        },
+        {
+          "id": "collect-p2",
+          "role": "priest",
+          "text": "하느님,\n참빛이신 성자를 이 세상에 보내셨으니\n약속하신 성령을 내리시어\n사람들 마음속에 언제나 진리의 씨앗을 심고\n신앙의 꽃을 피우게 하시며\n모든 이가 세례로 다시 태어나 새 생명을 얻고\n하느님 나라에서 한 백성을 이루게 하소서.\n성부와 성령과 함께 천주로서\n영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "cbck-20261018"
+        }
+      ]
+    },
+    {
+      "id": "intercession-conclusion",
+      "kind": "prayer",
+      "title": "사제 마침 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm-score",
+      "kind": "psalm",
+      "title": "주보 화답송 악보",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<모든 민족들이 주님의 산으로 밀려들리라.>",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.2,1-5",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "1 아모츠의 아들 이사야가 유다와 예루살렘에 관하여 환시로 받은 말씀.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "2 세월이 흐른 뒤에 이러한 일이 이루어지리라.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "주님의 집이 서 있는 산은 모든 산들 위에 굳게 세워지고",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "언덕들보다 높이 솟아오르리라.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "모든 민족들이 그리로 밀려들고",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "3 수많은 백성들이 모여 오면서 말하리라.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "“자, 주님의 산으로 올라가자. 야곱의 하느님 집으로!",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "그러면 그분께서 당신의 길을 우리에게 가르치시어",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "우리가 그분의 길을 걷게 되리라.”",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "이는 시온에서 가르침이 나오고 예루살렘에서 주님의 말씀이 나오기 때문이다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "4 그분께서 민족들 사이에 재판관이 되시고",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "수많은 백성들 사이에 심판관이 되시리라.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "그러면 그들은 칼을 쳐서 보습을 만들고 창을 쳐서 낫을 만들리라.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "한 민족이 다른 민족을 거슬러 칼을 쳐들지도 않고",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "다시는 전쟁을 배워 익히지도 않으리라.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "5 야곱 집안아, 자, 주님의 빛 속에 걸어가자!",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261018"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-2-p1",
+          "role": "text",
+          "text": "<선포하는 사람이 없으면 어떻게 들을 수 있겠습니까? 파견되지 않았으면 어떻게 선포할 수 있겠습니까?>",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 로마서 말씀입니다.10,9-18",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p3",
+          "role": "text",
+          "text": "형제 여러분, 여러분이 9 예수님은 주님이시라고 입으로 고백하고",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p4",
+          "role": "text",
+          "text": "하느님께서 예수님을 죽은 이들 가운데에서 일으키셨다고",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p5",
+          "role": "text",
+          "text": "마음으로 믿으면 구원을 받을 것입니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p6",
+          "role": "text",
+          "text": "10 곧 마음으로 믿어 의로움을 얻고, 입으로 고백하여 구원을 얻습니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p7",
+          "role": "text",
+          "text": "11 성경도 “그를 믿는 이는 누구나 부끄러운 일을 당하지 않으리라.” 하고 말합니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p8",
+          "role": "text",
+          "text": "12 유다인과 그리스인 사이에 차별이 없습니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p9",
+          "role": "text",
+          "text": "같은 주님께서 모든 사람의 주님으로서,",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p10",
+          "role": "text",
+          "text": "당신을 받들어 부르는 모든 이에게 풍성한 은혜를 베푸십니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p11",
+          "role": "text",
+          "text": "13 과연 “주님의 이름을 받들어 부르는 이는 모두 구원을 받을 것입니다.”",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p12",
+          "role": "text",
+          "text": "14 그런데 자기가 믿지 않는 분을 어떻게 받들어 부를 수 있겠습니까?",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p13",
+          "role": "text",
+          "text": "자기가 들은 적이 없는 분을 어떻게 믿을 수 있겠습니까?",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p14",
+          "role": "text",
+          "text": "선포하는 사람이 없으면 어떻게 들을 수 있겠습니까?",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p15",
+          "role": "text",
+          "text": "15 파견되지 않았으면 어떻게 선포할 수 있겠습니까?",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p16",
+          "role": "text",
+          "text": "이는 성경에 기록된 그대로입니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p17",
+          "role": "text",
+          "text": "“기쁜 소식을 전하는 이들의 발이 얼마나 아름다운가!”",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p18",
+          "role": "text",
+          "text": "16 그러나 모든 사람이 복음에 순종한 것은 아닙니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p19",
+          "role": "text",
+          "text": "사실 이사야도 “주님, 저희가 전한 말을 누가 믿었습니까?” 하고 말합니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p20",
+          "role": "text",
+          "text": "17 그러므로 믿음은 들음에서 오고 들음은 그리스도의 말씀으로 이루어집니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p21",
+          "role": "text",
+          "text": "18 그러나 나는 묻습니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p22",
+          "role": "text",
+          "text": "그들이 들은 적이 없다는 것입니까? 물론 들었습니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p23",
+          "role": "text",
+          "text": "“그들의 소리는 온 땅으로, 그들의 말은 누리 끝까지 퍼져 나갔다.”",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p24",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "reading-2-p25",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261018"
+        }
+      ]
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 98(97),1.2-3ㄱㄴ.3ㄷㄹ-4.5-6(◎ 2 참조 또는 3ㄷㄹ)",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님은 민족들의 눈앞에 당신 정의를 드러내셨네.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "guidance",
+          "text": "또는",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "assembly",
+          "text": "◎ 우리 하느님의 구원을 온 세상 땅끝마다 모두 보았네.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님께 노래하여라, 새로운 노래. 그분이 기적들을 일으키셨네. 그분의 오른손이, 거룩한 그 팔이 승리를 가져오셨네. ◎",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 주님은 당신 구원을 알리셨네. 민족들의 눈앞에, 당신 정의를 드러내셨네. 이스라엘 집안을 위하여, 당신 자애와 진실을 기억하셨네. ◎",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "psalm-p7",
+          "role": "text",
+          "text": "○ 우리 하느님의 구원을, 온 세상 땅끝마다 모두 보았네. 주님께 환성 올려라, 온 세상아. 즐거워하며 환호하여라, 찬미 노래 불러라. ◎",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "psalm-p8",
+          "role": "text",
+          "text": "○ 비파 타며 주님께 찬미 노래 불러라. 비파에 가락 맞춰 노래 불러라. 쇠 나팔 뿔 나팔 소리에 맞춰, 임금이신 주님 앞에서 환성 올려라. ◎",
+          "sourceRef": "goodnews-20261018"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "마태 28,19.20 참조",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "(◎ 알렐루야.)",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 너희는 가서 모든 민족들을 가르쳐라. 내가 세상 끝 날까지 언제나 너희와 함께 있으리라.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "text",
+          "text": "(◎ 알렐루야.)",
+          "sourceRef": "goodnews-20261018"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<너희는 가서 모든 민족들을 제자로 삼아라.>",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.28,16-20",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 16 열한 제자는 갈릴래아로 떠나 예수님께서 분부하신 산으로 갔다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "17 그들은 예수님을 뵙고 엎드려 경배하였다. 그러나 더러는 의심하였다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "18 예수님께서는 그들에게 다가가 이르셨다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "“나는 하늘과 땅의 모든 권한을 받았다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "19 그러므로 너희는 가서 모든 민족들을 제자로 삼아,",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "아버지와 아들과 성령의 이름으로 세례를 주고,",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "20 내가 너희에게 명령한 모든 것을 가르쳐 지키게 하여라.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "보라, 내가 세상 끝 날까지 언제나 너희와 함께 있겠다.”",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261018"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261018"
+        }
+      ]
+    }
+  ]
+}

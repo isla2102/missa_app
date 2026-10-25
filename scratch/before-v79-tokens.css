@@ -1,0 +1,18 @@
+@layer tokens, base, layout, components, responsive, utilities;
+@layer tokens {
+ :root {
+  --font-family-sans: 'Malgun Gothic', system-ui, sans-serif;
+  --font-family-serif: Batang, 'Times New Roman', serif;
+  --font-size-18: 1.125rem;
+  --line-height-160: 1.6;
+  --font-ui: var(--font-family-sans);
+  --font-body: var(--font-family-serif);
+  --font-body-size: var(--font-size-18);
+  --font-body-leading: var(--line-height-160);
+  --reader-ui-font: var(--font-ui);
+  --reader-body-font: var(--font-body);
+  --reader-body-size: var(--font-body-size);
+  --reader-body-leading: var(--font-body-leading);
+ }
+ :root[data-reader-font="sans"] { --font-body: var(--font-family-sans); }
+}

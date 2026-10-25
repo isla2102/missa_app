@@ -1,0 +1,133 @@
+
+@layer tokens, base, layout, components, responsive, utilities;
+@layer tokens {
+ :root { --draft-hymn-label-width: 6rem; --draft-reading-note-z: 2; --draft-reading-note-size: .875rem; --draft-header-gap: .375rem; --draft-header-compact-size: .875rem; --draft-brand-size: 1.5rem; --draft-preview-portrait-width: 48rem; --draft-preview-portrait-height: 64rem; --draft-preview-landscape-width: 64rem; --draft-preview-landscape-height: 48rem; --draft-dialogue-width: 12rem; --draft-score-action-z: 2; --draft-score-action-font: 0.75rem; --draft-score-action-padding: 0.25rem; --draft-score-action-hit: 1.5rem; --draft-modal-width: 90rem; --draft-modal-height: 92dvh; --draft-marker-width: 1.25rem; --draft-marker-gap: .375rem; --draft-choice-card-z: 0; --draft-choice-marker-z: 1; --draft-choice-marker-space: 1.25rem; --draft-guide-ink: #244b66; --draft-guide-surface: #eef4f8; --draft-response-weight: 700; --draft-response-border: 2px; --draft-toc-target: 1.5rem; --draft-toc-gap: .125rem; --draft-rail-max: 16rem; --draft-score-height: 3rem; --draft-item-gap: .75rem; --draft-content-inset: .625rem; --draft-gap: .75rem; --draft-padding: 1rem; --draft-panel: 28rem; --draft-target: 2.75rem; --focus-ring: 3px solid currentColor; }
+}
+@layer base {
+ * { box-sizing: border-box; }
+ body { margin: 0; }
+ button, input, select { font: inherit; min-height: var(--draft-target); max-width: 100%; }
+ button { cursor: pointer; }
+ :focus-visible { outline: var(--focus-ring); outline-offset: 2px; }
+}
+@layer layout {
+ .reader { height: 100dvh; display: grid; grid-template-rows: auto auto minmax(0, 1fr); padding: var(--draft-padding); gap: var(--draft-gap); }
+ .reader[data-orientation="portrait"] { inline-size: min(100%, var(--draft-preview-portrait-width)); block-size: var(--draft-preview-portrait-height); margin-inline: auto; }
+ .reader[data-orientation="landscape"] { inline-size: min(100%, var(--draft-preview-landscape-width)); block-size: var(--draft-preview-landscape-height); margin-inline: auto; }
+ .reader__header, .reader__row, .reader__footer { display: flex; align-items: center; flex-wrap: wrap; gap: var(--draft-gap); }
+ .reader__header, .reader__footer { justify-content: space-between; }
+ .reader__header--navigation { flex-wrap: nowrap; gap: var(--draft-header-gap); overflow-x: auto; }
+ .reader__header-group { display: flex; flex-wrap: nowrap; align-items: center; gap: var(--draft-header-gap); white-space: nowrap; flex-shrink: 0; }
+ .reader__brand { font-size: var(--draft-brand-size); }
+ .reader__label-hidden { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); }
+ .reader__section-heading { grid-column: 1; grid-row: 1; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: var(--draft-gap); }
+ .reader__part-nav { display: contents; }
+ .reader__part-prev { grid-column: 1; grid-row: 1; justify-self: start; }
+ .reader__part-next { grid-column: 3; grid-row: 1; justify-self: end; }
+ .reader__title { margin: 0; grid-column: 2; grid-row: 1; text-align: center; }
+ .reader__notice { margin: 0; }
+ .reader__workspace { min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) fit-content(var(--draft-rail-max)); grid-template-rows: auto minmax(0, 1fr) auto; gap: var(--draft-gap); }
+ .reader__rail { grid-column: 2; grid-row: 2; min-height: 0; max-width: min(var(--draft-rail-max), 28vw); overflow: auto; overflow-wrap: anywhere; border-inline-start: 1px solid; padding-inline-start: var(--draft-gap); }
+ .reader__rail-title { margin: 0 0 var(--draft-gap); }
+ .reader__toc-group-title { margin-block: var(--draft-gap) var(--draft-toc-gap); }
+ .reader__toc-list { margin-block: 0; padding-inline-start: var(--draft-padding); }
+ .reader__body { display: contents; }
+ .reader__tools { grid-column: 2; grid-row: 3; justify-content: flex-end; }
+ .reader__book { grid-column: 1; grid-row: 2; position: relative; container-type: size; touch-action: pan-y; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--draft-gap); }
+ .reader__page { min-height: 0; border: 1px solid; padding: var(--draft-padding); overflow: hidden; overflow-wrap: anywhere; }
+ .reader__page--measure { position: absolute; inset-block: 0; inset-inline-start: 0; width: calc((100% - var(--draft-gap)) / 2); visibility: hidden; pointer-events: none; }
+ .reader__page--reading { display: flex; flex-direction: column; overflow: auto; }
+ .reader__page--reading-psalm { display: grid; grid-template-rows: minmax(0, 4fr) minmax(0, 1fr); gap: var(--draft-item-gap); }
+ .reader__item--psalm { min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__psalm-content { flex: 1; min-block-size: 0; overflow: auto; }
+ .reader__item--reading { flex: 1; min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__reading-content { flex: 1; min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__reading-liturgy > * { flex-shrink: 0; }
+ .reader__reading-body { flex: 1; min-block-size: 0; overflow: auto; }
+ .reader__page--oversize { overflow: auto; }
+ .reader__item:last-child { margin-block-end: 0; }
+ .reader__item { margin-block-end: var(--draft-item-gap); }
+ .reader__item-heading { display: flex; flex-wrap: wrap; align-items: center; gap: var(--draft-gap); margin-block-end: var(--draft-toc-gap); }
+ .reader__item-title { margin-block: 0 var(--draft-toc-gap); }
+ .reader__item-text { margin-block: 0; white-space: pre-line; }
+ .reader__content-card { border: 1px solid; padding: var(--draft-content-inset); }
+ .reader__turn-boundary[data-next-part="true"] { font-weight: var(--draft-response-weight); text-decoration: underline; }
+ .reader__turns { grid-column: 1; grid-row: 3; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: var(--draft-gap); }
+ .reader__turn-button { min-inline-size: 0; max-inline-size: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; justify-self: start; }
+ .reader__turn-boundary { justify-self: end; }
+ .reader__drawer { margin-inline-start: auto; margin-inline-end: 0; width: min(100%, var(--draft-panel)); max-height: 100%; overflow: auto; padding: var(--draft-padding); }
+ .reader__field { display: grid; gap: var(--draft-gap); margin-block: var(--draft-gap); }
+}
+@layer components {
+ .reader__toc-visible { border-inline: var(--draft-response-border) solid; padding-inline: var(--draft-toc-gap); }
+ .reader__toc-visible--first { border-block-start: var(--draft-response-border) solid; }
+ .reader__toc-visible--last { border-block-end: var(--draft-response-border) solid; }
+ .reader__dialogue { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--draft-dialogue-width)), 1fr)); gap: var(--draft-item-gap); }
+ .reader__liturgy { display: grid; gap: var(--draft-item-gap); }
+ .reader__reading-liturgy { flex: 1; min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__dialogue--stacked { grid-template-columns: minmax(0, 1fr); }
+ .reader__content-card--liturgy { border: 0; padding: 0; }
+ .reader__speech-card { border: 1px solid; padding: var(--draft-content-inset); }
+ .reader__speech-card--assembly { border-width: var(--draft-response-border); font-weight: var(--draft-response-weight); }
+ .reader__speech-card--alternative { position: relative; isolation: isolate; z-index: var(--draft-choice-card-z); padding-block-end: calc(var(--draft-content-inset) + var(--draft-choice-marker-space)); }
+ .reader__alternative-marker { position: absolute; inset-inline-end: var(--draft-content-inset); inset-block-end: var(--draft-toc-gap); z-index: var(--draft-choice-marker-z); }
+ .reader__tutorial { width: min(100%, var(--draft-panel)); padding: var(--draft-padding); }
+ .reader__guidance { color: var(--draft-guide-ink); background: var(--draft-guide-surface); padding: var(--draft-content-inset); font-weight: normal; }
+ .reader__speech-row { display: grid; grid-template-columns: var(--draft-marker-width) minmax(0, 1fr); column-gap: var(--draft-marker-gap); }
+ .reader__speech-marker { text-align: center; }
+ .reader__speech-body { min-inline-size: 0; }
+ .reader__speech-text { margin: 0; white-space: pre-line; }
+ .reader__item--collect { block-size: calc(100cqh - (2 * var(--draft-padding)) - 2px); display: grid; grid-template-rows: auto auto minmax(0, 1fr) auto; gap: var(--draft-item-gap); }
+ .reader__collect-scroll { min-block-size: 0; overflow: auto; overscroll-behavior: contain; }
+ .reader__season-badge { border: 2px solid; padding: var(--draft-toc-gap) var(--draft-content-inset); }
+ .reader__score-modal { width: min(96vw, var(--draft-modal-width)); height: var(--draft-modal-height); padding: var(--draft-padding); }
+ .reader__score-modal[open] { display: grid; grid-template-rows: auto minmax(0, 1fr); gap: var(--draft-gap); }
+ .reader__score-modal-body { min-block-size: 0; overflow: auto; }
+ .reader__pdf-object { display: block; width: 100%; height: 100%; min-height: 60dvh; }
+ .reader__modal-heading { display: flex; justify-content: space-between; align-items: center; gap: var(--draft-gap); }
+ .reader__season-period { border: 1px solid; padding: var(--draft-content-inset); margin-block: var(--draft-item-gap); }
+ .reader__season-help { flex-shrink: 0; }
+ .reader__season-period[aria-current="true"] { border-width: var(--draft-response-border); }
+ .reader__session-select { width: max-content; }
+ .reader__score-photo { display: block; width: 100%; height: auto; }
+ .reader__creed-panel[hidden] { display: none; }
+ .reader__text-scroll { min-block-size: 0; flex: 1; overflow: auto; overscroll-behavior: contain; }
+ .reader__item--score.reader__item--guided-score { grid-template-rows: auto auto minmax(0, 1fr); }
+ .reader__item--compact-score { max-block-size: calc(100cqh - (2 * var(--draft-padding)) - 2px); min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__content-card--compact { min-block-size: 0; overflow: auto; }
+ .reader__score-scroll { block-size: auto; min-block-size: 0; flex: 1; overflow: auto; overscroll-behavior: contain; }
+ .reader__item--score { block-size: calc(100cqh - (2 * var(--draft-padding)) - 2px); min-block-size: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); gap: var(--draft-toc-gap); }
+ .reader__content-card--score { min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__hymn-form { display: grid; gap: var(--draft-item-gap); }
+ .reader__hymn-field { display: grid; grid-template-columns: var(--draft-hymn-label-width) minmax(0, 1fr); align-items: center; column-gap: var(--draft-gap); }
+ .reader__hymn-field input { inline-size: 100%; min-inline-size: 0; }
+ .reader__hymn-save { justify-self: end; }
+ .reader__prayer-option { display: flex; flex-wrap: wrap; gap: var(--draft-toc-gap); margin-block-end: var(--draft-toc-gap); }
+ .reader__score { position: relative; margin: var(--draft-toc-gap) 0 0; }
+ .reader__score-enlarge { position: absolute; inset-block-start: var(--draft-toc-gap); inset-inline-end: var(--draft-toc-gap); z-index: var(--draft-score-action-z); font-size: var(--draft-score-action-font); padding: var(--draft-score-action-padding); min-block-size: var(--draft-score-action-hit); }
+ .reader__book--continuous { display: block; overflow: auto; }
+ .reader__page--continuous { overflow: visible; }
+ .reader__book--continuous .reader__item--reading { display: block; }
+ .reader__book--continuous .reader__reading-content { display: block; }
+ .reader__book--continuous .reader__reading-liturgy { display: grid; }
+ .reader__book--continuous .reader__reading-body { overflow: visible; }
+ .reader__book--continuous .reader__item--score { block-size: auto; display: block; }
+ .reader__book--continuous .reader__item--compact-score { max-block-size: none; }
+ .reader__book--continuous .reader__item--collect { block-size: auto; display: block; }
+ .reader__book--continuous .reader__score-scroll { overflow: visible; }
+ .reader__book--continuous .reader__text-scroll { overflow: visible; }
+ .reader__book--continuous .reader__collect-scroll { overflow: visible; }
+ .reader__book--continuous .reader__psalm-content { overflow: visible; }
+ .reader__reading-heading { display: flex; align-items: baseline; justify-content: space-between; gap: var(--draft-header-gap); }
+ .reader__reading-note { position: relative; z-index: var(--draft-reading-note-z); font-size: var(--draft-reading-note-size); font-weight: normal; color: var(--draft-guide-ink); }
+ .reader__bow-phrase { text-decoration: underline; text-underline-offset: .2em; }
+ .reader__menu-toggle { display: none; }
+ .reader[data-orientation="portrait"] .reader__header--navigation { flex-wrap: nowrap; gap: var(--draft-header-gap); overflow-x: auto; font-size: var(--draft-header-compact-size); }
+ .reader[data-orientation="portrait"] .reader__header-controls { flex-basis: auto; flex-wrap: nowrap; }
+ .reader[data-orientation="portrait"] .reader__header-tools { display: none; }
+ .reader[data-orientation="portrait"] .reader__menu-toggle { display: block; flex-shrink: 0; }
+ .reader__staff { display: block; width: 100%; height: var(--draft-score-height); }
+ .reader__prayer-button[aria-pressed="true"] { font-weight: bold; text-decoration: underline; }
+ .reader__toc-link { display: inline-block; min-height: var(--draft-toc-target); padding-block: var(--draft-toc-gap); }
+ .reader__toc-link[aria-current="location"] { font-weight: bold; text-decoration-thickness: 2px; }
+}

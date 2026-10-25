@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-22",
+  "date": "2026-12-22",
+  "observance": "(자) 12월 22일",
+  "sourceRefs": [
+    "goodnews-20261222"
+  ],
+  "sections": [
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<한나가 사무엘의 탄생을 감사드리다.>",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사무엘기 상권의 말씀입니다.1,24-28",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "그 무렵 사무엘이 24 젖을 떼자 한나는 그 아이를 데리고 올라갔다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "그는 삼 년 된 황소 한 마리에",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "밀가루 한 에파와 포도주를 채운 가죽 부대 하나를 싣고,",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "실로에 있는 주님의 집으로 아이를 데려갔다. 아이는 아직 나이가 어렸다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "25 사람들은 황소를 잡은 뒤 아이를 엘리에게 데리고 갔다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "26 한나가 엘리에게 말하였다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "“나리! 나리께서 살아 계시는 것이 틀림없듯이,",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "제가 여기 나리 앞에 서서 주님께 기도하던 바로 그 여자입니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "27 제가 기도한 것은 이 아이 때문입니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "주님께서는 제가 드린 청을 들어주셨습니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "그래서 저도 아이를 주님께 바치기로 하였습니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "이 아이는 평생을 주님께 바친 아이입니다.”",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "그런 다음 그들은 그곳에서 주님께 예배를 드렸다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261222"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "1사무 2,1.4-5.6-7.8ㄱㄴㄷㄹ(◎ 1ㄱ 참조)",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 저의 구원자 주님 안에서 제 마음 기뻐 뛰나이다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님 안에서 제 마음이 기뻐 뛰고, 주님 안에서 제 얼굴을 높이 드나이다. 당신의 구원을 기뻐하기에, 제 입은 원수들을 비웃나이다. ◎",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 힘센 용사들의 활은 부러지고, 비틀거리던 이들은 힘차게 일어선다. 배부른 자들은 양식을 얻으려 품을 팔고, 배고픈 이들은 더는 굶주리지 않는다. 아이 못낳던 여자는 일곱을 낳고, 아들 많은 여자는 홀로 시들어 간다. ◎",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님은 죽이기도 살리기도 하시며, 저승으로 내리기도 저승에서 올리기도 하신다. 주님은 가난하게도 가멸게도 하시며, 낮추기도 높이기도 하신다. ◎",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 주님은 비천한 이를 땅바닥에서 일으켜 세우시고, 가난한 이를 잿더미에서 들어 높이시어, 존귀한 이들과 한자리에 앉히시며, 영광스러운 자리를 차지하게 하신다. ◎",
+          "sourceRef": "goodnews-20261222"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 민족들의 임금님, 교회의 모퉁잇돌이신 주님, 어서 오소서. 흙으로 빚으신 사람을 구원하소서.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261222"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<전능하신 분께서 나에게 큰일을 하셨습니다.>",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.1,46-56",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 46 마리아가 말하였다. “내 영혼이 주님을 찬송하고",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "47 내 마음이 나의 구원자 하느님 안에서 기뻐 뛰니",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "48 그분께서 당신 종의 비천함을 굽어보셨기 때문입니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "이제부터 과연 모든 세대가 나를 행복하다 하리니",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "49 전능하신 분께서 나에게 큰일을 하셨기 때문입니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "그분의 이름은 거룩하고",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "50 그분의 자비는 대대로 당신을 경외하는 이들에게 미칩니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "51 그분께서는 당신 팔로 권능을 떨치시어",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "마음속 생각이 교만한 자들을 흩으셨습니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "52 통치자들을 왕좌에서 끌어내리시고 비천한 이들을 들어 높이셨으며",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "53 굶주린 이들을 좋은 것으로 배불리시고",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "부유한 자들을 빈손으로 내치셨습니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "54 당신의 자비를 기억하시어 당신 종 이스라엘을 거두어 주셨으니",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "55 우리 조상들에게 말씀하신 대로",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "그 자비가 아브라함과 그 후손에게 영원히 미칠 것입니다.”",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "56 마리아는 석 달가량 엘리사벳과 함께 지내다가 자기 집으로 돌아갔다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261222"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261222"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

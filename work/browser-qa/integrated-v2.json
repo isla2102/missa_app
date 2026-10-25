@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "name": "a-page",
+      "violations": []
+    },
+    {
+      "name": "a-menu",
+      "violations": []
+    },
+    {
+      "name": "a-settings",
+      "violations": []
+    },
+    {
+      "name": "a-guide",
+      "violations": []
+    },
+    {
+      "name": "a-score",
+      "violations": []
+    },
+    {
+      "name": "b-page",
+      "violations": []
+    },
+    {
+      "name": "b-menu",
+      "violations": []
+    },
+    {
+      "name": "b-settings",
+      "violations": []
+    },
+    {
+      "name": "b-guide",
+      "violations": []
+    },
+    {
+      "name": "b-score",
+      "violations": []
+    },
+    {
+      "name": "c-page",
+      "violations": []
+    },
+    {
+      "name": "c-menu",
+      "violations": []
+    },
+    {
+      "name": "c-settings",
+      "violations": []
+    },
+    {
+      "name": "c-guide",
+      "violations": []
+    },
+    {
+      "name": "c-score",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "minHit": 44,
+  "storageUnchanged": true,
+  "narrow320": true,
+  "focusTrap": true
+}

@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-13",
+  "date": "2026-10-13",
+  "observance": "연중 제28주간 화요일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261013"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님, 당신이 죄악을 헤아리신다면, 주님, 감당할 자 누구이리까?\n이스라엘의 하느님, 당신은 용서하는 분이시옵니다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "주님,\n주님의 넘치는 은총으로 언제나 저희와 함께하시어\n저희가 끊임없이 좋은 일을 하도록 이끌어 주소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n신자들이 바치는 기도와 예물을 받아들이시고\n이 정성된 제사로 저희가 천상 영광을 누리게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "부자들도 궁색해져 굶주리게 되지만, 주님을 찾는 이에게는 좋은 것뿐이리라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n엄위하신 주님 앞에 엎드려 비오니\n저희를 그리스도의 거룩한 살과 피로 기르시어\n그 신성에 참여하게 하소서.\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<할례는 중요하지 않습니다. 사랑으로 행동하는 믿음만이 중요할 따름입니다.>",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 갈라티아서 말씀입니다.5,1-6",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분, 1 그리스도께서는 우리를 자유롭게 하시려고 해방시켜 주셨습니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "그러니 굳건히 서서 다시는 종살이의 멍에를 메지 마십시오.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "2 자, 나 바오로가 여러분에게 말합니다. 만일 여러분이 할례를 받는다면",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그리스도는 여러분에게 아무 소용이 없을 것입니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "3 할례를 받는 모든 사람에게 내가 다시 분명히 말합니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "그들은 율법 전체를 지킬 의무가 있습니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "4 율법으로 의롭게 되려는 여러분은 모두 그리스도와 인연이 끊겼습니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "여러분은 은총에서 떨어져 나갔습니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "5 그러나 우리는 성령을 통하여 믿음으로 의로워지기를 간절히 희망합니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "6 사실 그리스도 예수님 안에서는",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "할례를 받았느냐 받지 않았느냐가 중요하지 않습니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "사랑으로 행동하는 믿음만이 중요할 따름입니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261013"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 119(118),41.43.44.45.47.48(◎ 41 참조)",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님, 당신 자애가 저에게 이르게 하소서.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님, 당신 자애, 당신 구원이, 말씀하신 대로 저에게 이르게 하소서. ◎",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 당신 법규에 희망을 두오니, 진리의 말씀을 제 입에서 결코 거두지 마소서. ◎",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 저는 언제나 당신의 가르침을, 길이길이 지키오리다. ◎",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 당신 규정을 따르기에, 저는 넓은 곳을 걸으오리다. ◎",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "psalm-p7",
+          "role": "text",
+          "text": "○ 저는 당신 계명으로 기꺼워하고, 그 계명을 사랑하나이다. ◎",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "psalm-p8",
+          "role": "text",
+          "text": "○ 사랑하는 당신 계명을 향해 두 손 쳐들고, 저는 당신 법령을 묵상하오리다. ◎",
+          "sourceRef": "goodnews-20261013"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "히브 4,12 참조",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 하느님 말씀은 살아 있고 힘이 있으며 마음의 생각과 속셈을 가려낸다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261013"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<자선을 베풀어라. 그러면 모든 것이 깨끗해질 것이다.>",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.11,37-41",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 37 예수님께서 다 말씀하시자,",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "어떤 바리사이가 자기 집에서 식사하자고 그분을 초대하였다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "그리하여 예수님께서 그 집에 들어가시어 자리에 앉으셨다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "38 그런데 그 바리사이는 예수님께서",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "식사 전에 먼저 손을 씻지 않으시는 것을 보고 놀랐다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "39 그러자 주님께서 그에게 이르셨다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "“정녕 너희 바리사이들은 잔과 접시의 겉은 깨끗이 하지만,",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "너희의 속은 탐욕과 사악으로 가득하다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "40 어리석은 자들아,",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "겉을 만드신 분께서 속도 만들지 않으셨느냐?",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "41 속에 담긴 것으로 자선을 베풀어라.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "그러면 모든 것이 깨끗해질 것이다.”",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261013"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261013"
+        }
+      ]
+    }
+  ]
+}

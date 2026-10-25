@@ -1,0 +1,623 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-20",
+  "date": "2026-12-20",
+  "observance": "(자) 대림 제4주일",
+  "sourceRefs": [
+    "goodnews-20261220",
+    "user-hwp-202612"
+  ],
+  "sections": [
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<다윗의 나라는 주님 앞에서 영원할 것이다.>",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사무엘기 하권의 말씀입니다.7,1-5.8ㄷ-12.14ㄱ.16",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "다윗 1 임금이 자기 궁에 자리 잡고,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "주님께서 그를 사방의 모든 원수에게서 평온하게 해 주셨을 때이다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "2 임금이 나탄 예언자에게 말하였다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "“보시오, 나는 향백나무 궁에 사는데, 하느님의 궤는 천막에 머무르고 있소.”",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "3 나탄이 임금에게 말하였다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "“주님께서 임금님과 함께 계시니, 가셔서 무엇이든 마음 내키시는 대로 하십시오.”",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "4 그런데 그날 밤, 주님의 말씀이 나탄에게 내렸다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "5 “나의 종 다윗에게 가서 말하여라.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "‘주님이 이렇게 말한다. 내가 살 집을 네가 짓겠다는 말이냐?",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "8 나는 양 떼를 따라다니던 너를 목장에서 데려다가,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "내 백성 이스라엘의 영도자로 세웠다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "9 또한 네가 어디를 가든지 너와 함께 있으면서,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "모든 원수를 네 앞에서 물리쳤다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "나는 너의 이름을 세상 위인들의 이름처럼 위대하게 만들어 주었다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "10 나는 내 백성 이스라엘을 위하여 한곳을 정하고,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "그곳에 그들을 심어 그들이 제자리에서 살게 하겠다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "그러면 이스라엘은 더 이상 불안해하지 않아도 되고,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "다시는 전처럼, 불의한 자들이 그들을 괴롭히지 않을 것이다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "11 곧 내가 나의 백성 이스라엘에게 판관을 임명하던 때부터 해 온 것처럼,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "나는 너를 모든 원수에게서 평온하게 해 주겠다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "더 나아가 주님이 너에게 한 집안을 일으켜 주리라고 선언한다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "12 너의 날수가 다 차서 조상들과 함께 잠들게 될 때,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "네 몸에서 나와 네 뒤를 이을 후손을 내가 일으켜 세우고,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "그의 나라를 튼튼하게 하겠다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "14 나는 그의 아버지가 되고 그는 나의 아들이 될 것이다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "16 너의 집안과 나라가 네 앞에서 영원히 굳건해지고,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "text",
+          "text": "네 왕좌가 영원히 튼튼하게 될 것이다.’”",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p30",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-1-p31",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261220"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-2-p1",
+          "role": "text",
+          "text": "<오랜 세월 감추어 두셨던 신비가 이제 알려지게 되었습니다.>",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-2-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 로마서 말씀입니다.16,25-27",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-2-p3",
+          "role": "text",
+          "text": "형제 여러분, 25 하느님은 내가 전하는 복음으로, 곧 예수 그리스도의 복음 선포로,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-2-p4",
+          "role": "text",
+          "text": "또 오랜 세월 감추어 두셨던 신비의 계시로",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-2-p5",
+          "role": "text",
+          "text": "여러분의 힘을 북돋아 주실 능력이 있는 분이십니다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-2-p6",
+          "role": "text",
+          "text": "26 이제는 모습을 드러낸 이 신비가 모든 민족들을 믿음의 순종으로 이끌도록,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-2-p7",
+          "role": "text",
+          "text": "영원하신 하느님의 명령에 따라 예언자들의 글을 통하여 알려지게 되었습니다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-2-p8",
+          "role": "text",
+          "text": "27 홀로 지혜로우신 하느님께 예수 그리스도를 통하여",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-2-p9",
+          "role": "text",
+          "text": "영원토록 영광이 있기를 빕니다. 아멘.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-2-p10",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "reading-2-p11",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261220"
+        }
+      ]
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 89(88),2-3.4-5.27과 29(◎ 2ㄱ 참조)",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님, 당신 자애를 영원히 노래하오리다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님의 자애를 영원히 노래하오리다. 제 입은 당신의 진실을 대대로 전하오리다. 제가 아뢰나이다. “주님은 자애를 영원히 세우시고, 진실을 하늘에 굳히셨나이다.” ◎",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 나는 내가 뽑은 이와 계약을 맺고, 나의 종 다윗에게 맹세하였노라. “영원토록 네 후손을 굳건히 하고, 대대로 이어 갈 네 왕좌를 세우노라.” ◎",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 그는 나를 부르리라. “당신은 저의 아버지, 저의 하느님, 제 구원의 바위.” 영원토록 그에게 내 자애를 베풀리니, 그와 맺은 내 계약 변함이 없으리라. ◎",
+          "sourceRef": "goodnews-20261220"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 1,38",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 보소서, 저는 주님의 종입니다. 말씀하신 대로 저에게 이루어지기를 바랍니다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261220"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<보라, 이제 네가 잉태하여 아들을 낳을 것이다.>",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.1,26-38",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 26 하느님께서는",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "가브리엘 천사를 갈릴래아 지방 나자렛이라는 고을로 보내시어,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "27 다윗 집안의 요셉이라는 사람과 약혼한 처녀를 찾아가게 하셨다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "그 처녀의 이름은 마리아였다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "28 천사가 마리아의 집으로 들어가 말하였다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "“은총이 가득한 이여, 기뻐하여라. 주님께서 너와 함께 계시다.”",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "29 이 말에 마리아는 몹시 놀랐다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "그리고 이 인사말이 무슨 뜻인가 하고 곰곰이 생각하였다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "30 천사가 다시 마리아에게 말하였다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "“두려워하지 마라, 마리아야. 너는 하느님의 총애를 받았다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "31 보라, 이제 네가 잉태하여 아들을 낳을 터이니 그 이름을 예수라 하여라.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "32 그분께서는 큰 인물이 되시고 지극히 높으신 분의 아드님이라 불리실 것이다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "주 하느님께서 그분의 조상 다윗의 왕좌를 그분께 주시어,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "33 그분께서 야곱 집안을 영원히 다스리시리니 그분의 나라는 끝이 없을 것이다.”",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "34 마리아가 천사에게, “저는 남자를 알지 못하는데,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "어떻게 그런 일이 있을 수 있겠습니까?” 하고 말하자,",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "35 천사가 마리아에게 대답하였다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "“성령께서 너에게 내려오시고 지극히 높으신 분의 힘이 너를 덮을 것이다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "그러므로 태어날 아기는 거룩하신 분, 하느님의 아드님이라고 불릴 것이다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "36 네 친척 엘리사벳을 보아라. 그 늙은 나이에도 아들을 잉태하였다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "아이를 못낳는 여자라고 불리던 그가 임신한 지 여섯 달이 되었다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "37 하느님께는 불가능한 일이 없다.”",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "text",
+          "text": "38 마리아가 말하였다. “보십시오, 저는 주님의 종입니다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p26",
+          "role": "text",
+          "text": "말씀하신 대로 저에게 이루어지기를 바랍니다.”",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p27",
+          "role": "text",
+          "text": "그러자 천사는 마리아에게서 떠나갔다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p28",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261220"
+        },
+        {
+          "id": "gospel-p29",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261220"
+        }
+      ]
+    },
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "하늘아, 위에서 이슬을 내려라. 구름아, 의로움을 뿌려라. 땅은 열려 구원이 피어나게 하여라.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "주님,\n천사의 아룀으로 성자께서 사람이 되심을 알았으니\n성자의 수난과 십자가로 부활의 영광에 이르는 은총을\n저희에게 내려 주소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n성령의 힘으로\n복되신 동정 마리아께서 성자를 잉태하게 하셨으니\n제대 위의 이 예물도 성령의 힘으로 거룩하게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "보라, 동정녀가 잉태하여 아들을 낳으리니, 그 이름을 임마누엘이라 하리라.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "전능하신 하느님,\n영원한 구원의 보증인 성체를 받아 모시고 비오니\n구원의 축제일이 가까워질수록 더욱 경건한 마음으로\n주님 성탄의 신비를 합당하게 거행하도록 도와주소서.\n성자께서는 영원히 살아 계시며 다스리시나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "needs-review",
+      "paragraphs": [
+        {
+          "id": "intercessions-p1",
+          "role": "guidance",
+          "text": "<각 공동체 스스로 준비한 기도를 바치는 것이 바람직하다.>",
+          "sourceRef": "goodnews-20261220"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-19",
+  "date": "2026-10-19",
+  "observance": "연중 제29주간 월요일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261019"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "하느님, 당신이 응답해 주시니, 제가 당신께 부르짖나이다.\n귀 기울여 제 말씀 들어 주소서.\n주님, 당신 눈동자처럼 저를 보호하소서. 당신 날개 그늘에 저를 숨겨 주소서.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 영원하신 하느님,\n저희가 언제나 성실한 마음으로\n하느님을 정성껏 섬기게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 자유로운 마음으로 이 예물을 바치오니\n주님의 은총으로 저희를 씻으시어\n저희가 주님께 드리는 이 성찬의 제사로 더욱 깨끗해지게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "보라, 주님의 눈은 당신을 경외하는 이들에게, 당신 자애를 바라는 이들에게 머무르신다. 주님은 죽음에서 목숨을 건지시고, 굶주릴 때 먹여 살리신다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 천상 잔치에 자주 참여하여\n현세에서 도움도 받고 영원한 신비도 배우게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<하느님께서는 우리를 그리스도와 함께 살리시고 하늘에 앉히셨습니다.>",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 에페소서 말씀입니다.2,1-10",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분, 1 여러분도 전에는 잘못과 죄를 저질러 죽었던 사람입니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "2 그 안에서 여러분은 한때 이 세상의 풍조에 따라, 공중을 다스리는 지배자,",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "곧 지금도 순종하지 않는 자들 안에서 작용하는 영을 따라 살았습니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "3 우리도 다 한때 그들 가운데에서 우리 육의 욕망에 이끌려 살면서,",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "육과 감각이 원하는 것을 따랐습니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "그리하여 우리도 본디 다른 사람들과 마찬가지로",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "하느님의 진노를 살 수밖에 없었습니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "4 그러나 자비가 풍성하신 하느님께서는 우리를 사랑하신 그 큰 사랑으로,",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "5 잘못을 저질러 죽었던 우리를 그리스도와 함께 살리셨습니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "─ 여러분은 이렇게 은총으로 구원을 받은 것입니다. ─",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "6 하느님께서는 그리스도 예수님 안에서",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "우리를 그분과 함께 일으키시고 그분과 함께 하늘에 앉히셨습니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "7 하느님께서는 이렇게 그리스도 예수님 안에서 우리에게 베푸신 호의로,",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "당신의 은총이 얼마나 엄청나게 풍성한지를",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "앞으로 올 모든 시대에 보여 주려고 하셨습니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "8 여러분은 믿음을 통하여 은총으로 구원을 받았습니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "이는 여러분에게서 나온 것이 아니라 하느님의 선물입니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "9 인간의 행위에서 나오는 것이 아니니 아무도 자기 자랑을 할 수 없습니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "10 우리는 하느님의 작품입니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "우리는 선행을 하도록 그리스도 예수님 안에서 창조되었습니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "하느님께서는 우리가 선행을 하며 살아가도록",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "그 선행을 미리 준비하셨습니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261019"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 100(99),1-2.3.4.5(◎ 3ㄴ 참조)",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님이 우리를 지으셨으니 우리는 그분의 것이라네.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 온 세상아, 주님께 환성 올려라. 기뻐하며 주님을 섬겨라. 환호하며 그분 앞에 나아가라. ◎",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 너희는 알아라, 주님은 하느님이시다. 그분이 우리를 지으셨으니 우리는 그분의 것, 그분의 백성, 그분 목장의 양 떼라네. ◎",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 감사하며 그분 문으로 들어가라. 찬양하며 그분 앞뜰로 들어가라. 그분을 찬송하며 그 이름 찬미하여라. ◎",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 주님은 참으로 좋으시고, 그분 자애는 영원하시며, 그분 진실은 대대에 이르신다. ◎",
+          "sourceRef": "goodnews-20261019"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "마태 5,3",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 행복하여라, 마음이 가난한 사람들! 하늘 나라가 그들의 것이다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261019"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<네가 마련해 둔 것은 누구 차지가 되겠느냐?>",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.12,13-21",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 13 군중 가운데에서 어떤 사람이 예수님께,",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "“스승님, 제 형더러 저에게 유산을 나누어 주라고 일러 주십시오.” 하고 말하였다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "14 그러자 예수님께서 그에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "“사람아, 누가 나를 너희의 재판관이나 중재인으로 세웠단 말이냐?”",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "15 그리고 사람들에게 이르셨다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "“너희는 주의하여라. 모든 탐욕을 경계하여라.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "아무리 부유하더라도 사람의 생명은 그의 재산에 달려 있지 않다.”",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "16 예수님께서 그들에게 비유를 들어 말씀하셨다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "“어떤 부유한 사람이 땅에서 많은 소출을 거두었다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "17 그래서 그는 속으로 ‘내가 수확한 것을 모아 둘 데가 없으니",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "어떻게 하나?’ 하고 생각하였다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "18 그러다가 말하였다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "‘이렇게 해야지. 곳간들을 헐어 내고 더 큰 것들을 지어,",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "거기에다 내 모든 곡식과 재물을 모아 두어야겠다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "19 그리고 나 자신에게 말해야지.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "′자, 네가 여러 해 동안 쓸 많은 재산을 쌓아 두었으니,",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "쉬면서 먹고 마시며 즐겨라.′’",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "20 그러나 하느님께서 그에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "‘어리석은 자야, 오늘 밤에 네 목숨을 되찾아 갈 것이다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "그러면 네가 마련해 둔 것은 누구 차지가 되겠느냐?’",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "21 자신을 위해서는 재화를 모으면서",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "하느님 앞에서는 부유하지 못한 사람이 바로 이러하다.”",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261019"
+        },
+        {
+          "id": "gospel-p26",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261019"
+        }
+      ]
+    }
+  ]
+}

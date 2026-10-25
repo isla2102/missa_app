@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-13",
+  "date": "2026-11-13",
+  "observance": "(녹) 연중 제32주간 금요일",
+  "sourceRefs": [
+    "goodnews-20261113",
+    "user-hwp-202611"
+  ],
+  "sections": [
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<이 가르침 안에 머물러 있는 이라야 아버지도 아드님도 모십니다.>",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 2서의 말씀입니다.4-9",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "선택받은 부인이여,",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "4 그대의 자녀들 가운데, 우리가 아버지에게서 받은 계명대로",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "진리 안에서 살아가는 사람들이 있는 것을 보고 나는 매우 기뻤습니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "5 부인, 이제 내가 그대에게 당부합니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "그러나 내가 그대에게 써 보내는 것은 무슨 새 계명이 아니라",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "우리가 처음부터 지녀 온 계명입니다. 곧 서로 사랑하라는 것입니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "6 그리고 그 사랑은 우리가 그분의 계명에 따라 살아가는 것이고,",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "그 계명은 그대들이 처음부터 들은 대로",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "그 사랑 안에서 살아가야 한다는 것입니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "7 속이는 자들이 세상으로 많이 나왔습니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "그들은 예수 그리스도께서 사람의 몸으로 오셨다고 고백하지 않는 자들입니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "그런 자는 속이는 자며 ‘그리스도의 적’입니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "8 여러분은 우리가 일하여 이루어 놓은 것을 잃지 않고",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "충만한 상을 받을 수 있도록 자신을 살피십시오.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "9 그리스도의 가르침 안에 머물러 있지 않고",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "그것을 벗어나는 자는 아무도 하느님을 모시고 있지 않습니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "이 가르침 안에 머물러 있는 이라야 아버지도 아드님도 모십니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261113"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 119(118),1.2.10.11.17.18(◎ 1 참조)",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 행복하여라, 주님의 가르침을 따라 사는 이들!",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 행복하여라, 온전한 길을 걷는 이들, 주님의 가르침을 따라 사는 이들! ◎",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 행복하여라, 그분의 법을 따르는 이들, 마음을 다하여 그분을 찾는 이들! ◎",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 제 마음 다하여 당신을 찾나이다. 당신 계명 떠나 헤매지 않게 하소서. ◎",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 행여 당신께 죄를 지을세라, 마음 깊이 당신 말씀 간직하나이다. ◎",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "psalm-p7",
+          "role": "text",
+          "text": "○ 당신 종에게 은혜를 베푸소서. 제가 살아 당신 말씀 지키오리다. ◎",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "psalm-p8",
+          "role": "text",
+          "text": "○ 제 눈을 열어 주소서. 당신의 놀라운 가르침 바라보리이다. ◎",
+          "sourceRef": "goodnews-20261113"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 21,28 참조",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 허리를 펴고 머리를 들어라. 너희의 속량이 가까웠다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261113"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<그날에 사람의 아들이 나타날 것이다.>",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.17,26-37",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 제자들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "26 “사람의 아들의 날에도 노아 때와 같은 일이 일어날 것이다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "27 노아가 방주에 들어가는 날까지",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "사람들은 먹고 마시고 장가들고 시집가고 하였는데,",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "홍수가 닥쳐 그들을 모두 멸망시켰다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "28 또한 롯 때와 같은 일이 일어날 것이다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "사람들은 먹고 마시고 사고팔고 심고 짓고 하였는데,",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "29 롯이 소돔을 떠난 그날에",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "하늘에서 불과 유황이 쏟아져 그들을 모두 멸망시켰다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "30 사람의 아들이 나타나는 날에도 그와 똑같을 것이다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "31 그날 옥상에 있는 이는 세간이 집 안에 있더라도 그것을 꺼내러 내려가지 말고,",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "마찬가지로 들에 있는 이도 뒤로 돌아서지 마라.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "32 너희는 롯의 아내를 기억하여라.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "33 제 목숨을 보존하려고 애쓰는 사람은 목숨을 잃고,",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "목숨을 잃는 사람은 목숨을 살릴 것이다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "34 내가 너희에게 말한다. 그날 밤에 두 사람이 한 침상에 있으면,",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "하나는 데려가고 하나는 버려둘 것이다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "35 두 여자가 함께 맷돌질을 하고 있으면,",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "하나는 데려가고 하나는 버려둘 것이다.”",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "(36)·37 제자들이 예수님께, “주님, 어디에서 말입니까?” 하고 묻자,",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "예수님께서 그들에게 이르셨다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "“시체가 있는 곳에 독수리들도 모여든다.”",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261113"
+        },
+        {
+          "id": "gospel-p26",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261113"
+        }
+      ]
+    },
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님, 제 기도 당신 앞에 이르게 하소서. 제 울부짖음에 귀를 기울이소서.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 자비로우신 하느님,\n저희에게 해로운 것을 모두 물리쳐 주시어\n저희가 평안한 몸과 마음으로\n자유로이 하느님의 뜻을 따르게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n이 제사를 자비로이 굽어보시어\n저희가 성자의 수난을 기념하며\n믿음과 사랑으로 그 신비를 따르게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "주님은 나의 목자, 아쉬울 것 없어라. 푸른 풀밭에 나를 쉬게 하시고, 잔잔한 물가로 나를 이끄시네.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 성체로 힘을 얻고 감사하며 자비를 바라오니\n저희에게 성령을 보내시어\n성령의 힘으로 저희 삶을 변화시켜 주소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    }
+  ]
+}

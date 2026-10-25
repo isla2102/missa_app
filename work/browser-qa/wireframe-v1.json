@@ -1,0 +1,15 @@
+{
+  "open": {
+    "w": 1024,
+    "h": 768,
+    "page": 385,
+    "overflow": true
+  },
+  "closed": {
+    "w": 1024,
+    "h": 768,
+    "page": 481,
+    "overflow": true
+  },
+  "violations": []
+}

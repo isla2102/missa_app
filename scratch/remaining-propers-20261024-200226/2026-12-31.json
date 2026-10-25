@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-31",
+  "date": "2026-12-31",
+  "observance": "(백) 성탄 팔일 축제 제7일",
+  "sourceRefs": [
+    "goodnews-20261231"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<여러분은 거룩하신 분에게서 기름부음을 받았습니다. 그래서 여러분은 모두 알고 있습니다.>",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 1서의 말씀입니다.2,18-21",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "18 자녀 여러분, 지금이 마지막 때입니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "‘그리스도의 적’이 온다고 여러분이 들은 그대로,",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "지금 많은 ‘그리스도의 적들’이 나타났습니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그래서 우리는 지금이 마지막 때임을 압니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "19 그들은 우리에게서 떨어져 나갔지만 우리에게 속한 자들은 아니었습니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "그들이 우리에게 속하였다면 우리와 함께 남아 있었을 것입니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "그러나 결국에는 그들이 아무도 우리에게 속하지 않는다는 사실이 드러났습니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "20 여러분은 거룩하신 분에게서 기름부음을 받았습니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "그래서 여러분은 모두 알고 있습니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "21 내가 여러분에게 이 글을 쓰는 까닭은,",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "여러분이 진리를 모르기 때문이 아니라 진리를 알기 때문입니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "또 진리에서는 어떠한 거짓말도 나오지 않기 때문입니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261231"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 96(95),1-2.11-12.13(◎ 11ㄱ)",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 하늘은 기뻐하고 땅은 즐거워하여라.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님께 노래하여라, 새로운 노래. 주님께 노래하여라, 온 세상아. 주님께 노래하여라, 그 이름 찬미하여라. 나날이 선포하여라, 그분의 구원을. ◎",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 하늘은 기뻐하고 땅은 즐거워하여라. 바다와 그 안에 가득 찬 것들은 소리쳐라. 들과 그 안에 있는 것도 모두 기뻐 뛰고, 숲속의 나무들도 모두 환호하여라. ◎",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 그분이 오신다. 주님 앞에서 환호하여라. 세상을 다스리러 그분이 오신다. 그분은 누리를 의롭게, 민족들을 진리로 다스리신다. ◎",
+          "sourceRef": "goodnews-20261231"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "요한 1,14.12 참조",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 말씀이 사람이 되시어 우리 가운데 사셨네. 그분은 당신을 받아들이는 모든 이를 하느님의 자녀가 되게 하셨네.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261231"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<말씀이 사람이 되셨다.>",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 요한이 전한 거룩한 복음의 시작입니다.1,1-18",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "1 한처음에 말씀이 계셨다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "말씀은 하느님과 함께 계셨는데 말씀은 하느님이셨다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "2 그분께서는 한처음에 하느님과 함께 계셨다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "3 모든 것이 그분을 통하여 생겨났고 그분 없이 생겨난 것은 하나도 없다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "4 그분 안에 생명이 있었으니 그 생명은 사람들의 빛이었다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "5 그 빛이 어둠 속에서 비치고 있지만 어둠은 그를 깨닫지 못하였다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "6 하느님께서 보내신 사람이 있었는데 그의 이름은 요한이었다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "7 그는 증언하러 왔다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "빛을 증언하여 자기를 통해 모든 사람이 믿게 하려는 것이었다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "8 그 사람은 빛이 아니었다. 빛을 증언하러 왔을 따름이다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "9 모든 사람을 비추는 참빛이 세상에 왔다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "10 그분께서 세상에 계셨고 세상이 그분을 통하여 생겨났지만",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "세상은 그분을 알아보지 못하였다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "11 그분께서 당신 땅에 오셨지만 그분의 백성은 그분을 맞아들이지 않았다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "12 그분께서는 당신을 받아들이는 이들, 당신의 이름을 믿는 모든 이에게",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "하느님의 자녀가 되는 권한을 주셨다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "13 이들은 혈통이나 육욕이나 남자의 욕망에서 난 것이 아니라",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "하느님에게서 난 사람들이다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "14 말씀이 사람이 되시어 우리 가운데 사셨다. 우리는 그분의 영광을 보았다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "은총과 진리가 충만하신 아버지의 외아드님으로서 지니신 영광을 보았다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "15 요한은 그분을 증언하여 외쳤다. “그분은 내가 이렇게 말한 분이시다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "‘내 뒤에 오시는 분은 내가 나기 전부터 계셨기에 나보다 앞서신 분이시다.’”",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "text",
+          "text": "16 그분의 충만함에서 우리 모두 은총에 은총을 받았다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p26",
+          "role": "text",
+          "text": "17 율법은 모세를 통하여 주어졌지만",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p27",
+          "role": "text",
+          "text": "은총과 진리는 예수 그리스도를 통하여 왔다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p28",
+          "role": "text",
+          "text": "18 아무도 하느님을 본 적이 없다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p29",
+          "role": "text",
+          "text": "아버지와 가장 가까우신 외아드님, 하느님이신 그분께서 알려 주셨다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p30",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261231"
+        },
+        {
+          "id": "gospel-p31",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261231"
+        }
+      ]
+    }
+  ]
+}

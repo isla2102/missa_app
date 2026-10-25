@@ -1,0 +1,435 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-21",
+  "date": "2026-12-21",
+  "observance": "(자) 12월 21일",
+  "sourceRefs": [
+    "goodnews-20261221"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<보셔요, 내 연인이 산을 뛰어넘어 오잖아요.>",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 아가의 말씀입니다.2,8-14",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "8 내 연인의 소리! 보셔요, 그이가 오잖아요.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "산을 뛰어오르고 언덕을 뛰어넘어 오잖아요.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "9 나의 연인은 노루나 젊은 사슴 같답니다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "보셔요, 그이가 우리 집 담장 앞에 서서",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "창틈으로 기웃거리고 창살 틈으로 들여다본답니다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "10 내 연인은 나에게 속삭이며 말했지요.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "“나의 애인이여, 일어나오. 나의 아름다운 여인이여, 이리 와 주오.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "11 자, 이제 겨울은 지나고 장마는 걷혔다오.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "12 땅에는 꽃이 모습을 드러내고 노래의 계절이 다가왔다오.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "우리 땅에서는 멧비둘기 소리가 들려온다오.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "13 무화과나무는 이른 열매를 맺어 가고 포도나무 꽃송이들은 향기를 내뿜는다오.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "나의 애인이여, 일어나오. 나의 아름다운 여인이여, 이리 와 주오.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "14 바위틈에 있는 나의 비둘기, 벼랑 속에 있는 나의 비둘기여!",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "그대의 모습을 보게 해 주오. 그대의 목소리를 듣게 해 주오.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "그대의 목소리는 달콤하고 그대의 모습은 어여쁘다오.”",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261221"
+        }
+      ]
+    },
+    {
+      "id": "reading-1-option-2",
+      "kind": "reading",
+      "title": "제1독서 · 대안 2",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-option-2-p1",
+          "role": "text",
+          "text": "<이스라엘의 임금 주님께서 네 한가운데에 계시다.>",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p2",
+          "role": "lector",
+          "text": "▥ 스바니야 예언서의 말씀입니다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p3",
+          "role": "text",
+          "text": "3,14-18ㄱ",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p4",
+          "role": "text",
+          "text": "14 딸 시온아, 환성을 올려라. 이스라엘아, 크게 소리쳐라.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p5",
+          "role": "text",
+          "text": "딸 예루살렘아, 마음껏 기뻐하고 즐거워하여라.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p6",
+          "role": "text",
+          "text": "15 주님께서 너에게 내리신 판결을 거두시고 너의 원수들을 쫓아내셨다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p7",
+          "role": "text",
+          "text": "이스라엘 임금 주님께서 네 한가운데에 계시니",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p8",
+          "role": "text",
+          "text": "다시는 네가 불행을 두려워하지 않으리라.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p9",
+          "role": "text",
+          "text": "16 그날에 사람들이 예루살렘에게 말하리라.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p10",
+          "role": "text",
+          "text": "“시온아, 두려워하지 마라. 힘없이 손을 늘어뜨리지 마라.”",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p11",
+          "role": "text",
+          "text": "17 주 너의 하느님, 승리의 용사께서 네 한가운데에 계시다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p12",
+          "role": "text",
+          "text": "그분께서 너를 두고 기뻐하며 즐거워하신다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p13",
+          "role": "text",
+          "text": "당신 사랑으로 너를 새롭게 해 주시고",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p14",
+          "role": "text",
+          "text": "너 때문에 환성을 올리며 기뻐하시리라.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p15",
+          "role": "text",
+          "text": "18 축제의 날인 양 그렇게 하시리라.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p16",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "reading-1-option-2-p17",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261221"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 33(32),2-3.11-12.20-21(◎ 1ㄱ과 3ㄱ 참조)",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 의인들아, 주님 안에서 환호하여라. 주님께 새로운 노래를 불러라.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 비파 타며 주님을 찬송하고, 열 줄 수금으로 찬미 노래 불러라. 주님께 노래하여라, 새로운 노래. 고운 가락을 내며 환성 올려라. ◎",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 주님의 뜻은 영원히 이어지고, 그 마음속 계획은 대대로 이어진다. 행복하여라, 주님을 하느님으로 모시는 민족, 그분이 당신 소유로 뽑으신 백성! ◎",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님은 우리 도움, 우리 방패. 우리 영혼이 주님을 기다리네. 그분 안에서 우리 마음 기뻐하고, 거룩하신 그 이름 우리가 신뢰하네. ◎",
+          "sourceRef": "goodnews-20261221"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 임마누엘, 저희 임금님, 어서 오소서. 주 하느님, 저희를 구원하소서.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261221"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<내 주님의 어머니께서 저에게 오시다니 어찌 된 일입니까?>",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.1,39-45",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "39 그 무렵 마리아는 길을 떠나, 서둘러 유다 산악 지방에 있는 한 고을로 갔다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "40 그리고 즈카르야의 집에 들어가 엘리사벳에게 인사하였다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "41 엘리사벳이 마리아의 인사말을 들을 때 그의 태 안에서 아기가 뛰놀았다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "엘리사벳은 성령으로 가득 차 42 큰 소리로 외쳤다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "“당신은 여인들 가운데에서 가장 복되시며 당신 태중의 아기도 복되십니다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "43 내 주님의 어머니께서 저에게 오시다니 어찌 된 일입니까?",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "44 보십시오, 당신의 인사말 소리가 제 귀에 들리자",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "저의 태 안에서 아기가 즐거워 뛰놀았습니다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "45 행복하십니다, 주님께서 하신 말씀이 이루어지리라고 믿으신 분!”",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261221"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261221"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-27",
+  "date": "2026-11-27",
+  "observance": "(녹) 연중 제34주간 금요일",
+  "sourceRefs": [
+    "goodnews-20261127",
+    "user-hwp-202611"
+  ],
+  "sections": [
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<그들은 저마다 자기 행실에 따라 심판을 받았습니다. 나는 새 예루살렘이 하늘로부터 내려오는 것을 보았습니다.>",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 묵시록의 말씀입니다.20,1-4.11―21,2",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "나 요한은 1 한 천사가 하늘에서 내려오는 것을 보았습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "그는 지하의 열쇠와 큰 사슬을 손에 들고 있었습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "2 그 천사가 용을, 곧 악마이며 사탄인 그 옛날의 뱀을 붙잡아",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "천 년 동안 움직이지 못하도록 결박하였습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "3 그리고 그를 지하로 던지고서는 그곳을 잠그고 그 위에다 봉인을 하여,",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "천 년이 끝날 때까지 다시는 민족들을 속이지 못하게 하였습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "그 뒤에 사탄은 잠시 풀려나게 되어 있습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "4 나는 또 어좌들을 보았는데, 그 위에 앉은 이들에게 심판할 권한이 주어졌습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "그리고 예수님에 대한 증언과 하느님의 말씀 때문에",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "목이 잘린 이들의 영혼을 보았습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "그들은 그 짐승이나 그의 상에 경배하지도 않고",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "이마와 손에 표를 받지도 않은 사람들입니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "그들은 살아나서 그리스도와 함께 천 년 동안 다스렸습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "11 나는 또 크고 흰 어좌와 그 위에 앉아 계신 분을 보았습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "땅과 하늘이 그분 앞에서 달아나 그 흔적조차 찾을 수가 없었습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "12 그리고 죽은 이들이 높은 사람 낮은 사람 할 것 없이",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "모두 어좌 앞에 서 있는 것을 보았습니다. 책들이 펼쳐졌습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "또 다른 책 하나가 펼쳐졌는데, 그것은 생명의 책이었습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "죽은 이들은 책에 기록된 대로 자기들의 행실에 따라 심판을 받았습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "13 바다가 그 안에 있는 죽은 이들을 내놓고,",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "죽음과 저승도 그 안에 있는 죽은 이들을 내놓았습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "그들은 저마다 자기 행실에 따라 심판을 받았습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "14 그리고 죽음과 저승이 불 못에 던져졌습니다. 이 불 못이 두 번째 죽음입니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "15 생명의 책에 기록되어 있지 않은 사람은 누구나 불 못에 던져졌습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "21,1 나는 또 새 하늘과 새 땅을 보았습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "첫 번째 하늘과 첫 번째 땅은 사라지고 바다도 더 이상 없었습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "text",
+          "text": "2 그리고 거룩한 도성 새 예루살렘이 신랑을 위하여 단장한 신부처럼 차리고",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p30",
+          "role": "text",
+          "text": "하늘로부터 하느님에게서 내려오는 것을 보았습니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p31",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "reading-1-p32",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261127"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 84(83),3.4.5와 6과 8ㄱ(◎ 묵시 21,3ㄴ 참조)",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 보라, 하느님의 거처는 사람들 가운데에 있다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님의 뜨락을 그리워하며, 이 영혼 여위어 가나이다. 살아 계신 하느님을 향하여, 이 몸과 이 마음 환성을 올리나이다. ◎",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 당신 제단 곁에 참새도 집을 짓고, 제비도 둥지를 틀어, 거기에 새끼를 치나이다. 만군의 주님, 저의 임금님, 저의 하느님! ◎",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 행복하옵니다, 당신 집에 사는 이들! 그들은 영원토록 당신을 찬양하리이다. 행복하옵니다, 당신께 힘을 얻는 사람들! 그들은 더욱더 힘차게 나아가리이다. ◎",
+          "sourceRef": "goodnews-20261127"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 21,28 참조",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 허리를 펴고 머리를 들어라. 너희의 속량이 가까웠다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261127"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<너희는 이러한 일들이 일어나는 것을 보거든 하느님의 나라가 가까이 온 줄 알아라.>",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.21,29-33",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서는 제자들에게",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "29 비유 하나를 말씀하셨다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "“무화과나무와 다른 모든 나무를 보아라.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "30 잎이 돋자마자,",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "너희는 그것을 보고 여름이 이미 가까이 온 줄을 저절로 알게 된다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "31 이와 같이 너희도 이러한 일들이 일어나는 것을 보거든,",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "하느님의 나라가 가까이 온 줄 알아라.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "32 내가 진실로 너희에게 말한다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "이 세대가 지나기 전에 모든 일이 일어날 것이다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "33 하늘과 땅은 사라질지라도 내 말은 결코 사라지지 않을 것이다.”",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261127"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261127"
+        }
+      ]
+    },
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "당신 백성, 당신께 충실한 이, 당신께 돌아오는 이에게 주님은 진정 평화를 말씀하신다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "주님,\n믿는 이들의 마음을 일깨우시어\n저희가 거룩한 구원의 열매를 풍성히 거두며\n주님의 자비로 더욱 큰 은총을 받게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n주님의 명에 따라 바치는 이 거룩한 예물을 받으시고\n저희가 언제나 주님의 계명을 지켜\n주님의 사랑에 합당한 제물이 되게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "주님을 찬양하여라, 모든 민족들아. 우리 위한 주님 사랑 굳건하여라.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "전능하신 하느님,\n이 거룩한 제사에서 성체를 모시고 기뻐하오니\n저희가 언제나 하느님 곁에 머무르게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-07",
+  "date": "2026-10-07",
+  "observance": "묵주 기도의 복되신 동정 마리아 기념일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261007"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "은총이 가득하신 마리아님, 기뻐하소서.\n주님께서 함께 계시니 여인 중에 복되시며, 태중의 아드님 또한 복되시나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "주님,\n천사의 아룀으로 성자께서 사람이 되심을 알았으니\n복되신 동정 마리아의 전구를 들으시어\n성자의 수난과 십자가로 부활의 영광에 이르는 은총을\n저희에게 내려 주소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n정성껏 드리는 이 예물을 받으시어\n저희가 합당하게 성자의 신비를 기념하며\n그분께서 약속하신 영원한 생명을 얻게 하소서.\n성자께서는 영원히 살아 계시며 다스리시나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "보라, 네가 잉태하여 아들을 낳으리니, 그 이름을 예수라 하여라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주 하느님,\n이 성사로 성자의 죽음과 부활을 전하는 저희가\n성자의 고난에 참여하여\n그 기쁨과 영광도 함께 누리게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<그들은 하느님께서 나에게 베푸신 은총을 인정하였습니다.>",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 갈라티아서 말씀입니다.2,1-2.7-14",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분, 1 십사 년 뒤에 나는 바르나바와 함께",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "티토도 데리고 예루살렘에 다시 올라갔습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "2 나는 계시를 받고 그리로 올라갔습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그리고 내가 다른 민족들에게 선포하는 복음을",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "그곳 주요 인사들에게 따로 설명하였습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "내가 지금 하고 있는 일이나 전에 한 일이",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "허사가 되지 않게 하려는 것이었습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "7 그들은 오히려 베드로가 할례 받은 이들에게 복음을 전하는 일을 위임받았듯이,",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "내가 할례 받지 않은 이들에게 복음을 전하는 일을",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "위임받았다는 사실을 알게 되었습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "8 할례 받은 이들을 위하여 베드로에게 사도직을 수행하게 해 주신 분께서,",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "나에게도 다른 민족들을 위한 사도직을 수행하게 해 주셨기 때문입니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "9 그리고 교회의 기둥으로 여겨지는 야고보와 케파와 요한은",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "하느님께서 나에게 베푸신 은총을 인정하고,",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "친교의 표시로 나와 바르나바에게 오른손을 내밀어 악수하였습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "그리하여 우리는 다른 민족들에게 가고",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "그들은 할례 받은 이들에게 가기로 하였습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "10 다만 우리는 가난한 이들을 기억하기로 하였고,",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "나는 바로 그 일을 열심히 해 왔습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "11 그런데 케파가 안티오키아에 왔을 때 나는 그를 정면으로 반대하였습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "그가 단죄받을 일을 하였기 때문입니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "12 야고보가 보낸 사람들이 오기 전에는 다른 민족들과 함께 음식을 먹더니,",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "그들이 오자 할례 받은 자들을 두려워한 나머지",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "몸을 사리며 다른 민족들과 거리를 두기 시작하였던 것입니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "13 나머지 유다인들도 그와 함께 위선을 저지르고,",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "바르나바까지도 그들과 함께 위선에 빠졌습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "text",
+          "text": "14 그러나 나는 그들이 복음의 진리에 따라 올바른 길을 걷지 않는 것을 보고,",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p30",
+          "role": "text",
+          "text": "모든 사람 앞에서 케파에게 말하였습니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p31",
+          "role": "text",
+          "text": "“당신은 유다인이면서도 유다인으로 살지 않고 이민족처럼 살면서,",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p32",
+          "role": "text",
+          "text": "어떻게 이민족들에게는 유다인처럼 살라고 강요할 수가 있다는 말입니까?”",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p33",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "reading-1-p34",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261007"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 117(116),1.2ㄱㄴ(◎ 마르 16,15 참조)",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 너희는 온 세상에 가서 복음을 선포하여라.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님을 찬양하여라, 모든 민족들아. 주님을 찬미하여라, 모든 겨레들아. ◎",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 우리 위한 주님 사랑 굳건하여라. 주님의 진실하심 영원하여라. ◎",
+          "sourceRef": "goodnews-20261007"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "로마 8,15 참조",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 우리는 성령을 받아 하느님의 자녀가 되었네. 이 성령의 힘으로 우리가 “아빠! 아버지!” 하고 외치네.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261007"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<주님, 저희에게도 기도하는 것을 가르쳐 주십시오.>",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.11,1-4",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "1 예수님께서 어떤 곳에서 기도하고 계셨다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "그분께서 기도를 마치시자 제자들 가운데 어떤 사람이,",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "“주님, 요한이 자기 제자들에게 가르쳐 준 것처럼,",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "저희에게도 기도하는 것을 가르쳐 주십시오.” 하고 말하였다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "2 예수님께서 그들에게 이르셨다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "“너희는 기도할 때 이렇게 하여라.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "‘아버지",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "아버지의 이름을 거룩히 드러내시며",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "아버지의 나라가 오게 하소서.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "3 날마다 저희에게 일용할 양식을 주시고",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "4 저희에게 잘못한 모든 이를 저희도 용서하오니",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "저희의 죄를 용서하시고",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "저희를 유혹에 빠지지 않게 하소서.’”",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261007"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261007"
+        }
+      ]
+    }
+  ]
+}

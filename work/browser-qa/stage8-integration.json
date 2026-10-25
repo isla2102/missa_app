@@ -1,0 +1,188 @@
+{
+  "timestamp": "2026-10-24T14:03:48.273Z",
+  "viewport": "1024x768",
+  "checks": [
+    {
+      "label": "review HTML loads with header",
+      "pass": true
+    },
+    {
+      "label": "review HTML has 6 date switch buttons",
+      "pass": true
+    },
+    {
+      "label": "2026-10-18 season matches (연중)",
+      "pass": true
+    },
+    {
+      "label": "2026-10-18 Gloria TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-10-18 Creed TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-10-18 Reading 2 TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-10-18 preface contains keyword",
+      "pass": true
+    },
+    {
+      "label": "2026-10-18 no duplicate Sanctus",
+      "pass": true
+    },
+    {
+      "label": "2026-10-18 has 4 petitions (actual: 4)",
+      "pass": true
+    },
+    {
+      "label": "2026-10-24 season matches (연중)",
+      "pass": true
+    },
+    {
+      "label": "2026-10-24 Gloria TOC matches (false)",
+      "pass": true
+    },
+    {
+      "label": "2026-10-24 Creed TOC matches (false)",
+      "pass": true
+    },
+    {
+      "label": "2026-10-24 Reading 2 TOC matches (false)",
+      "pass": true
+    },
+    {
+      "label": "2026-10-24 preface contains keyword",
+      "pass": true
+    },
+    {
+      "label": "2026-10-24 no duplicate Sanctus",
+      "pass": true
+    },
+    {
+      "label": "2026-10-24 missing notice",
+      "pass": true
+    },
+    {
+      "label": "2026-11-01 season matches (연중)",
+      "pass": true
+    },
+    {
+      "label": "2026-11-01 Gloria TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-11-01 Creed TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-11-01 Reading 2 TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-11-01 preface contains keyword",
+      "pass": true
+    },
+    {
+      "label": "2026-11-01 no duplicate Sanctus",
+      "pass": true
+    },
+    {
+      "label": "2026-11-01 has 4 petitions (actual: 4)",
+      "pass": true
+    },
+    {
+      "label": "2026-11-29 season matches (대림)",
+      "pass": true
+    },
+    {
+      "label": "2026-11-29 Gloria TOC matches (false)",
+      "pass": true
+    },
+    {
+      "label": "2026-11-29 Creed TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-11-29 Reading 2 TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-11-29 preface contains keyword",
+      "pass": true
+    },
+    {
+      "label": "2026-11-29 no duplicate Sanctus",
+      "pass": true
+    },
+    {
+      "label": "2026-11-29 has 4 petitions (actual: 4)",
+      "pass": true
+    },
+    {
+      "label": "2026-12-08 season matches (대림)",
+      "pass": true
+    },
+    {
+      "label": "2026-12-08 Gloria TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-12-08 Creed TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-12-08 Reading 2 TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-12-08 preface contains keyword",
+      "pass": true
+    },
+    {
+      "label": "2026-12-08 no duplicate Sanctus",
+      "pass": true
+    },
+    {
+      "label": "2026-12-08 missing notice",
+      "pass": true
+    },
+    {
+      "label": "2026-12-25 season matches (성탄)",
+      "pass": true
+    },
+    {
+      "label": "2026-12-25 Gloria TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-12-25 Creed TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-12-25 Reading 2 TOC matches (true)",
+      "pass": true
+    },
+    {
+      "label": "2026-12-25 preface contains keyword",
+      "pass": true
+    },
+    {
+      "label": "2026-12-25 no duplicate Sanctus",
+      "pass": true
+    },
+    {
+      "label": "2026-12-25 guidance only notice",
+      "pass": true
+    },
+    {
+      "label": "Parish reengraved scores catalog is intact",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "errors": []
+}

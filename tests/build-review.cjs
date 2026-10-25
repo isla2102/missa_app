@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict'),fs=require('node:fs');
+const {build,validateConfig}=require('../tools/build-review.cjs');
+const config=JSON.parse(fs.readFileSync('review/source/build.json','utf8'));
+const actual=build(config),baseline=fs.readFileSync(config.baseline,'utf8').replace(/\r\n/g,'\n');
+function canonical(html){for(const name of Object.keys(config.bindings)){const pattern=new RegExp('const '+name+'\\s*=\\s*(.*?);\\n');const match=html.match(pattern);assert.ok(match,name);html=html.replace(pattern,'const '+name+' = '+JSON.stringify(JSON.parse(match[1]))+';\n');}return html;}
+assert.equal(canonical(actual),canonical(baseline));assert.equal(build(config),actual);
+assert.throws(()=>validateConfig({...config,output:'../outside.html'}));assert.throws(()=>validateConfig({...config,output:config.baseline}));
+const evil=actual.match(/<script>([\s\S]*?)<\/script>/)[1];new (require('node:vm').Script)(evil);
+console.log('PASS generated page equals v53 (normalized JSON), deterministic build, output boundaries, syntax.');
+
+const {jsonForScript}=require('../tools/build-review.cjs');const attack='</script><script>alert(1)</script>';assert.ok(!jsonForScript(attack).includes('<'));assert.equal(JSON.parse(jsonForScript(attack)),attack);assert.throws(()=>validateConfig({...config,output:'review/02-ia-v52.html'}));
+const registry=JSON.parse(fs.readFileSync('docs/교중미사악보/reengraved/registry.json','utf8'));const path=require('node:path');for(const assets of Object.values(registry))for(const asset of assets)for(const file of [asset.path,asset.preview])assert.ok(fs.existsSync(path.resolve('review',file)),file);console.log('PASS embedded JSON escaping and registered PDF/SVG asset existence.');

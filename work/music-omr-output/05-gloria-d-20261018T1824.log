@@ -1,0 +1,59 @@
+2026-10-18 18:24:01,778 INFO [05-gloria-d]                 Book.java:560  | 1 sheet in C:\Users\imsup\00_개인프로젝트\매일미사_예비신자앱\work\music-omr-inputs\05-gloria-d.tif
+2026-10-18 18:24:01,831 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-18 18:24:01,832 INFO []                 Book.java:2525 | Book stored as work\music-omr-output\05-gloria-d.omr
+2026-10-18 18:24:01,837 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-10-18 18:24:01,837 INFO [05-gloria-d]       StepMonitoring.java:98   | LOAD
+2026-10-18 18:24:01,919 INFO [05-gloria-d]            SheetStub.java:1278 | Loaded image #1 1840x2250 from C:\Users\imsup\00_개인프로젝트\매일미사_예비신자앱\work\music-omr-inputs\05-gloria-d.tif
+2026-10-18 18:24:01,920 INFO [05-gloria-d]       StepMonitoring.java:98   | BINARY
+2026-10-18 18:24:02,167 INFO [05-gloria-d]       StepMonitoring.java:98   | SCALE
+2026-10-18 18:24:02,169 INFO [05-gloria-d]         ScaleBuilder.java:254  | Beam  guessed height: 17 -- 0.25 of [13..27] range
+2026-10-18 18:24:02,170 INFO [05-gloria-d]         ScaleBuilder.java:271  | Beam measured height: 17 -- 0.29 of [13..27] range at 35% of needed quorum
+2026-10-18 18:24:02,170 INFO [05-gloria-d]         ScaleBuilder.java:401  | Normalized black jitter: 13.79 %
+2026-10-18 18:24:02,171 INFO [05-gloria-d]            ScaleStep.java:65   | Scale{ interline(27,29,32) line(4,5,8) beam(17)}
+2026-10-18 18:24:02,171 INFO [05-gloria-d]       StepMonitoring.java:98   | GRID
+2026-10-18 18:24:02,310 INFO [05-gloria-d]       LinesRetriever.java:1508 | Global slope: 0.01941
+2026-10-18 18:24:02,329 INFO [05-gloria-d]    ClustersRetriever.java:326  | Retrieved raw line clusters: 5 of sizes [5] with interline(27,29,32)
+2026-10-18 18:24:02,421 INFO [05-gloria-d]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5]
+2026-10-18 18:24:02,628 INFO [05-gloria-d]        SystemManager.java:800  | 1 part along 5 systems
+2026-10-18 18:24:02,630 INFO [05-gloria-d]                 Book.java:543  | Created scores: [{Score 1}]
+2026-10-18 18:24:02,631 INFO [05-gloria-d]       StepMonitoring.java:98   | HEADERS
+2026-10-18 18:24:02,897 INFO [05-gloria-d]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-18 18:24:02,934 INFO [05-gloria-d]           StemScaler.java:143  | No stem peak found, computing defaults
+2026-10-18 18:24:02,935 INFO [05-gloria-d]        StemSeedsStep.java:86   | stem(5 max:8)
+2026-10-18 18:24:02,947 INFO [05-gloria-d]       StepMonitoring.java:98   | BEAMS
+2026-10-18 18:24:06,986 INFO [05-gloria-d]       StepMonitoring.java:98   | LEDGERS
+2026-10-18 18:24:07,055 INFO [05-gloria-d]       StepMonitoring.java:98   | HEADS
+2026-10-18 18:24:12,598 INFO [05-gloria-d]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:0.3] NOTEHEAD_BLACK[R:-0.8]}
+2026-10-18 18:24:12,599 INFO [05-gloria-d]       StepMonitoring.java:98   | STEMS
+2026-10-18 18:24:12,734 INFO [05-gloria-d]       StepMonitoring.java:98   | REDUCTION
+2026-10-18 18:24:12,742 INFO [05-gloria-d]        ReductionStep.java:105  | Stems free length median value: 105 pixels, 3.6 interlines
+2026-10-18 18:24:12,744 INFO [05-gloria-d]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-18 18:24:12,744 INFO [05-gloria-d]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-18 18:24:12,744 INFO [05-gloria-d]       StepMonitoring.java:98   | TEXTS
+2026-10-18 18:24:14,570 INFO [05-gloria-d]       StepMonitoring.java:98   | MEASURES
+2026-10-18 18:24:14,572 INFO [05-gloria-d]                 Page.java:307  | 21 raw measures: [4 in system#1, 4 in system#2, 4 in system#3, 4 in system#4, 5 in system#5]
+2026-10-18 18:24:14,573 INFO [05-gloria-d]       StepMonitoring.java:98   | CHORDS
+2026-10-18 18:24:14,577 INFO [05-gloria-d]       StepMonitoring.java:98   | CURVES
+2026-10-18 18:24:15,056 INFO [05-gloria-d]         SlursBuilder.java:240  | Slurs: 3
+2026-10-18 18:24:15,059 INFO [05-gloria-d]      SegmentsBuilder.java:155  | Segments: 0
+2026-10-18 18:24:15,063 INFO [05-gloria-d]       StepMonitoring.java:98   | SYMBOLS
+2026-10-18 18:24:15,303 INFO [05-gloria-d]       StepMonitoring.java:98   | LINKS
+2026-10-18 18:24:15,311 INFO [05-gloria-d]       StepMonitoring.java:98   | RHYTHMS
+2026-10-18 18:24:15,320 INFO [05-gloria-d]       StepMonitoring.java:98   | PAGE
+2026-10-18 18:24:15,322 WARN [05-gloria-d]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+2026-10-18 18:24:15,325 WARN [05-gloria-d]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [5, 6, 7, 8], please check time signatures
+2026-10-18 18:24:15,325 WARN [05-gloria-d]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [9, 10, 11, 12], please check time signatures
+2026-10-18 18:24:15,326 WARN [05-gloria-d]         MeasureFixer.java:343  | System#4 No target duration for measures local IDs [13, 14, 15, 16], please check time signatures
+2026-10-18 18:24:15,327 WARN [05-gloria-d]         MeasureFixer.java:343  | System#5 No target duration for measures local IDs [17, 18, 19, 20, 21], please check time signatures
+2026-10-18 18:24:15,328 INFO [05-gloria-d]                 Book.java:2584 | Book{05-gloria-d} storing
+2026-10-18 18:24:15,393 INFO [05-gloria-d]                 Book.java:2565 | Stored /book.xml
+2026-10-18 18:24:15,439 INFO [05-gloria-d]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-18 18:24:15,629 INFO [05-gloria-d]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-18 18:24:15,629 INFO [05-gloria-d]                 Book.java:2525 | Book stored as work\music-omr-output\05-gloria-d.omr
+2026-10-18 18:24:15,636 INFO [05-gloria-d]            SheetStub.java:1655 | Sheet disposed
+2026-10-18 18:24:15,692 INFO [05-gloria-d]                 Book.java:2050 | End of Stub#1
+2026-10-18 18:24:15,693 INFO [05-gloria-d]                 Book.java:2057 | End of Book{05-gloria-d}
+2026-10-18 18:24:15,863 INFO [05-gloria-d]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-18 18:24:15,865 INFO [05-gloria-d]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1]
+2026-10-18 18:24:15,882 INFO [05-gloria-d]        ScoreExporter.java:164  | Score 05-gloria-d exported to work\music-omr-output\05-gloria-d.mxl
+2026-10-18 18:24:15,940 INFO [05-gloria-d]                Score.java:181  | Closing {Score 1}

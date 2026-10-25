@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-18",
+  "date": "2026-12-18",
+  "observance": "(자) 12월 18일",
+  "sourceRefs": [
+    "goodnews-20261218",
+    "user-hwp-202612"
+  ],
+  "sections": [
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<내가 다윗을 위하여 의로운 싹을 돋아나게 하리라.>",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 예레미야서의 말씀입니다.23,5-8",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "5 보라, 그날이 온다! 주님의 말씀이다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "내가 다윗을 위하여 의로운 싹을 돋아나게 하리라.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "그 싹은 임금이 되어 다스리고 슬기롭게 일을 처리하며",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "세상에 공정과 정의를 이루리라.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "6 그의 시대에 유다가 구원을 받고 이스라엘이 안전하게 살리라.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "사람들이 그의 이름을 ‘주님은 우리의 정의’라고 부르리라.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "7 그러므로 이제 그날이 온다. 주님의 말씀이다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "그때에는 사람들이 더 이상 “이스라엘 자손들을 이집트에서 데리고 올라오신,",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "살아 계신 주님을 두고 맹세한다.” 하지 않고,",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "8 그 대신 “이스라엘 집안의 후손들을 북쪽 땅에서,",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "그리고 당신께서 쫓아 보내셨던 모든 나라에서 데리고 올라오신,",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "살아 계신 주님을 두고 맹세한다.”할 것이다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "그때에 그들은 자기 고향 땅에서 살게 될 것이다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261218"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 72(71),1-2.12-13.18-19ㄱㄴ(◎ 7ㄴㄷ 참조)",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님, 이 시대에 정의와 평화가 꽃피게 하소서.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 하느님, 당신의 공정을 임금에게, 당신의 정의를 임금의 아들에게 베푸소서. 그가 당신 백성을 정의로, 가련한 이들을 공정으로 다스리게 하소서. ◎",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 그는 하소연하는 불쌍한 이를, 도와줄 사람 없는 가련한 이를 구원하나이다. 약한 이, 불쌍한 이에게 동정을 베풀고, 불쌍한 이들의 목숨을 살려 주나이다. ◎",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주 하느님, 이스라엘의 하느님은 찬미받으시리라. 그분 홀로 기적들을 일으키신다. 영광스러운 그 이름 영원히 찬미받으시리라. 그 영광 온 누리에 가득하리라. ◎",
+          "sourceRef": "goodnews-20261218"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 이스라엘 집안의 영도자, 시나이 산에서 모세에게 법을 주셨으니 당신 팔을 펼치시어 저희를 구원하러 오소서.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261218"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<예수님께서는 다윗의 자손 요셉과 약혼한 마리아에게서 탄생하시리라.>",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.1,18-24",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "18 예수 그리스도께서는 이렇게 탄생하셨다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "그분의 어머니 마리아가 요셉과 약혼하였는데,",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "그들이 같이 살기 전에 마리아가 성령으로 말미암아 잉태한 사실이 드러났다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "19 마리아의 남편 요셉은 의로운 사람이었고",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "또 마리아의 일을 세상에 드러내고 싶지 않았으므로,",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "남모르게 마리아와 파혼하기로 작정하였다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "20 요셉이 그렇게 하기로 생각을 굳혔을 때,",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "꿈에 주님의 천사가 나타나 말하였다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "“다윗의 자손 요셉아, 두려워하지 말고 마리아를 아내로 맞아들여라.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "그 몸에 잉태된 아기는 성령으로 말미암은 것이다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "21 마리아가 아들을 낳으리니 그 이름을 예수라고 하여라.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "그분께서 당신 백성을 죄에서 구원하실 것이다.”",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "22 주님께서 예언자를 통하여 하신 말씀이 이루어지려고 이 모든 일이 일어났다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "곧 23 “보아라, 동정녀가 잉태하여 아들을 낳으리니",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "그 이름을 임마누엘이라고 하리라.” 하신 말씀이다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "임마누엘은 번역하면 ‘하느님께서 우리와 함께 계시다.’는 뜻이다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "24 잠에서 깨어난 요셉은 주님의 천사가 명령한 대로 아내를 맞아들였다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261218"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261218"
+        }
+      ]
+    },
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "어린양이 오시리라 요한이 선포하였네. 우리 임금님 그리스도 오시리라.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하신 하느님,\n죄의 멍에를 메고 구원을 기다려 온 저희가\n다시 맞는 성자의 탄생으로 옛 종살이에서 벗어나게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n성자의 죽음으로 죽음을 이기게 하셨으니\n이 제사로 저희를 어여삐 여기시어\n성자의 영원한 생명에 참여하게 하소서.\n성자께서는 영원히 살아 계시며 다스리시나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "그 이름을 임마누엘이라고 하리니, ‘하느님이 우리와 함께 계시다.’는 뜻이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 이 성전에서 주님의 자비를 입었으니\n다가오는 구원의 대축제를 정성껏 준비하게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    }
+  ]
+}

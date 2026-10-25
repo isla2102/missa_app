@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-04",
+  "date": "2026-10-04",
+  "observance": "연중 제27주일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261004"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님, 모든 것이 당신의 권능 안에 있어, 당신 뜻을 거스를 자 없나이다.\n당신이 하늘과 땅을 지으시고 하늘 아래 모든 것을 만드셨으니,\n당신은 만물의 주님이시옵니다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 영원하신 하느님,\n저희 공로와 소망보다 더 큰 은혜를 베풀어 주시니\n저희 기도를 들으시어\n양심의 가책을 받은 저희 죄를 용서하시고\n감히 청하지 못하는 은혜도 내려 주소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님, 주님께서 세우신 이 제사를 받아들이시어\n저희가 정성을 다하여 마땅히 거행하는 이 거룩한 신비로\n저희를 거룩하게 하시고 주님의 구원을 이루소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "당신을 바라는 이에게, 당신을 찾는 영혼에게 주님은 좋으신 분.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "전능하신 하느님,\n성체를 받아 모신 저희가 이 성사의 힘으로 자라나\n마침내 그리스도와 하나 되게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<만군의 주님의 포도밭은 이스라엘의 집안이다.>",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.5,1-7",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "1 내 친구를 위하여 나는 노래하리라,",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "내 애인이 자기 포도밭을 두고 부른 노래를.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "내 친구에게는 기름진 산등성이에 포도밭이 하나 있었네.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "2 땅을 일구고 돌을 골라내어 좋은 포도나무를 심었네.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "그 가운데에 탑을 세우고 포도 확도 만들었네.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "그러고는 좋은 포도가 맺기를 바랐는데 들포도를 맺었다네.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "3 자 이제, 예루살렘 주민들아, 유다 사람들아",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "나와 내 포도밭 사이에 시비를 가려 다오!",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "4 내 포도밭을 위하여 내가 무엇을 더 해야 했더란 말이냐?",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "내가 해 주지 않은 것이 무엇이란 말이냐?",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "나는 좋은 포도가 맺기를 바랐는데 어찌하여 들포도를 맺었느냐?",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "5 이제 내가 내 포도밭에 무슨 일을 하려는지 너희에게 알려 주리라.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "울타리를 걷어치워 뜯어 먹히게 하고 담을 허물어 짓밟히게 하리라.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "6 그것을 황폐하게 내버려두어",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "가지치기도 못 하고 김매기도 못 하게 하여",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "가시덤불과 엉겅퀴가 올라오게 하리라.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "또 구름에게 명령하여 그 위에 비를 내리지 못하게 하리라.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "7 만군의 주님의 포도밭은 이스라엘 집안이요",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "유다 사람들은 그분께서 좋아하시는 나무라네.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "그분께서는 공정을 바라셨는데 피 흘림이 웬 말이냐?",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "정의를 바라셨는데 울부짖음이 웬 말이냐?",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261004"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-2-p1",
+          "role": "text",
+          "text": "<그대로 실천하십시오. 그러면 평화의 하느님께서 여러분과 함께 계실 것입니다.>",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 필리피서 말씀입니다.4,6-9",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p3",
+          "role": "text",
+          "text": "형제 여러분, 6 아무것도 걱정하지 마십시오.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p4",
+          "role": "text",
+          "text": "어떠한 경우에든 감사하는 마음으로 기도하고 간구하며",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p5",
+          "role": "text",
+          "text": "여러분의 소원을 하느님께 아뢰십시오.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p6",
+          "role": "text",
+          "text": "7 그러면 사람의 모든 이해를 뛰어넘는 하느님의 평화가",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p7",
+          "role": "text",
+          "text": "여러분의 마음과 생각을 그리스도 예수님 안에서 지켜 줄 것입니다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p8",
+          "role": "text",
+          "text": "8 끝으로, 형제 여러분, 참된 것과 고귀한 것과 의로운 것과",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p9",
+          "role": "text",
+          "text": "정결한 것과 사랑스러운 것과 영예로운 것은 무엇이든지,",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p10",
+          "role": "text",
+          "text": "또 덕이 되는 것과 칭송받는 것은 무엇이든지 다 마음에 간직하십시오.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p11",
+          "role": "text",
+          "text": "9 그리고 나에게서 배우고 받고 듣고 본 것을 그대로 실천하십시오.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p12",
+          "role": "text",
+          "text": "그러면 평화의 하느님께서 여러분과 함께 계실 것입니다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "reading-2-p14",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261004"
+        }
+      ]
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 80(79),9와 12.13-14.15-16.19-20(◎ 이사 5,7ㄱㄴ 참조)",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님의 포도밭은 이스라엘 집안이라네.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 당신이 이집트에서 포도나무 하나를 뽑아 오시어, 민족들을 몰아내고 심으셨나이다. 그 줄기들은 바다까지, 그 햇순들은 강까지 뻗었나이다. ◎",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 어찌하여 당신은 그 울타리를 허물어, 지나가는 사람마다 따 먹게 하셨나이까? 숲에서 나온 멧돼지가 파헤치고, 들짐승이 짓밟아 버리나이다. ◎",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 만군의 하느님, 어서 돌아오소서. 하늘에서 굽어살피시고, 이 포도나무를 찾아오소서. 당신 오른손이 심으신 나뭇가지를, 당신 위해 키우신 아들을 찾아오소서. ◎",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 저희는 당신을 떠나지 않으오리다. 저희를 살려 주소서. 당신 이름을 부르오리다. 주 만군의 하느님, 저희를 다시 일으켜 주소서. 당신 얼굴을 비추소서. 저희가 구원되리이다. ◎",
+          "sourceRef": "goodnews-20261004"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "요한 15,16 참조",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 내가 너희를 세상에서 뽑아 세웠으니, 가서 열매를 맺어라. 너희 열매는 길이 남으리라.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261004"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<주인은 다른 소작인들에게 포도밭을 내줄 것입니다.>",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.21,33-43",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 수석 사제들과 백성의 원로들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "33 “다른 비유를 들어 보아라. 어떤 밭 임자가",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "‘포도밭을 일구어 울타리를 둘러치고 포도 확을 파고 탑을 세웠다.’",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "그리고 소작인들에게 내주고 멀리 떠났다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "34 포도 철이 가까워지자",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "그는 자기 몫의 소출을 받아 오라고 소작인들에게 종들을 보냈다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "35 그런데 소작인들은 그들을 붙잡아 하나는 매질하고",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "하나는 죽이고 하나는 돌을 던져 죽이기까지 하였다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "36 주인이 다시 처음보다 더 많은 종을 보냈지만,",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "소작인들은 그들에게도 같은 짓을 하였다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "37 주인은 마침내 ‘내 아들이야 존중해 주겠지.’ 하며 그들에게 아들을 보냈다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "38 그러나 소작인들은 아들을 보자,",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "‘저자가 상속자다. 자, 저자를 죽여 버리고",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "우리가 그의 상속 재산을 차지하자.’ 하고 저희끼리 말하면서,",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "39 그를 붙잡아 포도밭 밖으로 던져 죽여 버렸다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "40 그러니 포도밭 주인이 와서 그 소작인들을 어떻게 하겠느냐?”",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "41 “그렇게 악한 자들은 가차 없이 없애 버리고,",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "제때에 소출을 바치는 다른 소작인들에게 포도밭을 내줄 것입니다.” 하고",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "그들이 대답하자, 42 예수님께서 그들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "“너희는 성경에서 이 말씀을 읽어 본 적이 없느냐?",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "‘집 짓는 이들이 내버린 돌, 그 돌이 모퉁이의 머릿돌이 되었네.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "이는 주님께서 이루신 일, 우리 눈에 놀랍기만 하네.’",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "text",
+          "text": "43 그러므로 내가 너희에게 말한다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p26",
+          "role": "text",
+          "text": "하느님께서는 너희에게서 하느님의 나라를 빼앗아,",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p27",
+          "role": "text",
+          "text": "그 소출을 내는 민족에게 주실 것이다.”",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p28",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261004"
+        },
+        {
+          "id": "gospel-p29",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261004"
+        }
+      ]
+    }
+  ]
+}

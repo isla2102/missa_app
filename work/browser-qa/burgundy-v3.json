@@ -1,0 +1,32 @@
+[
+  {
+    "paper": "ivory",
+    "emphasis": "quiet",
+    "issues": []
+  },
+  {
+    "paper": "ivory",
+    "emphasis": "rich",
+    "issues": []
+  },
+  {
+    "paper": "paper",
+    "emphasis": "quiet",
+    "issues": []
+  },
+  {
+    "paper": "paper",
+    "emphasis": "rich",
+    "issues": []
+  },
+  {
+    "paper": "dark",
+    "emphasis": "quiet",
+    "issues": []
+  },
+  {
+    "paper": "dark",
+    "emphasis": "rich",
+    "issues": []
+  }
+]

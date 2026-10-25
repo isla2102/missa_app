@@ -1,0 +1,1524 @@
+{
+  "status": "extraction-candidates-only",
+  "files": [
+    {
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "paragraphs": 866,
+      "extractedPath": "data/source-library/extracted-hwp/매일미사202610_고유기도문.json",
+      "dateGroups": 31,
+      "missingDates": []
+    },
+    {
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "paragraphs": 931,
+      "extractedPath": "data/source-library/extracted-hwp/매일미사202611_고유기도문.json",
+      "dateGroups": 32,
+      "missingDates": []
+    },
+    {
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "paragraphs": 987,
+      "extractedPath": "data/source-library/extracted-hwp/매일미사202612_고유기도문.json",
+      "dateGroups": 41,
+      "missingDates": []
+    },
+    {
+      "sourcePath": "data/source-library/hymn-schedules/originals/2026년 10월 성가표(수정보완판).hwp",
+      "sha256": "fb3cb38fdf46e95e4786981ee0c3a3bbbfb53726b6d885d3ccae011656ffe1de",
+      "paragraphs": 234,
+      "extractedPath": "data/source-library/extracted-hwp/2026년 10월 성가표(수정보완판).json",
+      "dateGroups": 0,
+      "missingDates": []
+    },
+    {
+      "sourcePath": "data/source-library/hymn-schedules/originals/2026년 11월 성가표(수정보완판).hwp",
+      "sha256": "66a7217425b0c03336a08228d4d41dd29646d3b12e19f72eae34b3b1474dd032",
+      "paragraphs": 237,
+      "extractedPath": "data/source-library/extracted-hwp/2026년 11월 성가표(수정보완판).json",
+      "dateGroups": 0,
+      "missingDates": []
+    },
+    {
+      "sourcePath": "data/source-library/hymn-schedules/originals/2026년 11월 성가표.hwp",
+      "sha256": "452987895fa8e65cb3648f783bd431da71746edf168e6ac4d9250fc37d2e8e73",
+      "paragraphs": 237,
+      "extractedPath": "data/source-library/extracted-hwp/2026년 11월 성가표.json",
+      "dateGroups": 0,
+      "missingDates": []
+    }
+  ],
+  "dates": [
+    {
+      "date": "2026-10-01",
+      "heading": "10월 1일 목요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-02",
+      "heading": "10월 2일 금요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-03",
+      "heading": "10월 3일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-04",
+      "heading": "10월 4일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-05",
+      "heading": "10월 5일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-06",
+      "heading": "10월 6일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-07",
+      "heading": "10월 7일 수요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-08",
+      "heading": "10월 8일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-09",
+      "heading": "10월 9일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-10",
+      "heading": "10월 10일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-11",
+      "heading": "10월 11일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-12",
+      "heading": "10월 12일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-13",
+      "heading": "10월 13일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-14",
+      "heading": "10월 14일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-15",
+      "heading": "10월 15일 목요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-16",
+      "heading": "10월 16일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-17",
+      "heading": "10월 17일 토요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-18",
+      "heading": "10월 18일 연중 제29주일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-19",
+      "heading": "10월 19일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-20",
+      "heading": "10월 20일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-21",
+      "heading": "10월 21일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-22",
+      "heading": "10월 22일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-23",
+      "heading": "10월 23일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-24",
+      "heading": "10월 24일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-25",
+      "heading": "10월 25일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-26",
+      "heading": "10월 26일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-27",
+      "heading": "10월 27일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-28",
+      "heading": "10월 28일 수요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-29",
+      "heading": "10월 29일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-30",
+      "heading": "10월 30일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-10-31",
+      "heading": "10월 31일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-01",
+      "heading": "11월 1일 주일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-02",
+      "heading": "11월 2일 월요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-02",
+      "heading": "11월 2일 월요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-02",
+      "heading": "11월 2일 월요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-03",
+      "heading": "11월 3일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-04",
+      "heading": "11월 4일 수요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-05",
+      "heading": "11월 5일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-06",
+      "heading": "11월 6일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-07",
+      "heading": "11월 7일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-08",
+      "heading": "11월 8일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-09",
+      "heading": "11월 9일 월요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-10",
+      "heading": "11월 10일 화요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-11",
+      "heading": "11월 11일 수요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-12",
+      "heading": "11월 12일 목요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-13",
+      "heading": "11월 13일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-14",
+      "heading": "11월 14일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-15",
+      "heading": "11월 15일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-16",
+      "heading": "11월 16일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-17",
+      "heading": "11월 17일 화요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-18",
+      "heading": "11월 18일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-19",
+      "heading": "11월 19일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-20",
+      "heading": "11월 20일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-21",
+      "heading": "11월 21일 토요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-22",
+      "heading": "11월 22일 주일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-23",
+      "heading": "11월 23일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-24",
+      "heading": "11월 24일 화요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-25",
+      "heading": "11월 25일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-26",
+      "heading": "11월 26일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-27",
+      "heading": "11월 27일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-28",
+      "heading": "11월 28일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-29",
+      "heading": "11월 29일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-11-30",
+      "heading": "11월 30일 월요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-01",
+      "heading": "12월 1일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-02",
+      "heading": "12월 2일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-03",
+      "heading": "12월 3일 목요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-04",
+      "heading": "12월 4일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-05",
+      "heading": "12월 5일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-06",
+      "heading": "12월 6일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-07",
+      "heading": "12월 7일 월요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-08",
+      "heading": "12월 8일 화요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-09",
+      "heading": "12월 9일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-10",
+      "heading": "12월 10일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-11",
+      "heading": "12월 11일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-12",
+      "heading": "12월 12일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-13",
+      "heading": "12월 13일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-14",
+      "heading": "12월 14일 월요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-15",
+      "heading": "12월 15일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-16",
+      "heading": "12월 16일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-17",
+      "heading": "12월 17일 목요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [],
+      "missingHeadings": [
+        "영성체 후 기도",
+        "예물 기도",
+        "본기도",
+        "입당송",
+        "영성체송"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-17",
+      "heading": "12월 17일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-18",
+      "heading": "12월 18일 금요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [],
+      "missingHeadings": [
+        "영성체 후 기도",
+        "예물 기도",
+        "본기도",
+        "입당송",
+        "영성체송"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-18",
+      "heading": "12월 18일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-19",
+      "heading": "12월 19일 토요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [],
+      "missingHeadings": [
+        "영성체 후 기도",
+        "예물 기도",
+        "본기도",
+        "입당송",
+        "영성체송"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-19",
+      "heading": "12월 19일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-20",
+      "heading": "12월 20일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-21",
+      "heading": "12월 21일 월요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [],
+      "missingHeadings": [
+        "영성체 후 기도",
+        "예물 기도",
+        "본기도",
+        "입당송",
+        "영성체송"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-21",
+      "heading": "12월 21일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-22",
+      "heading": "12월 22일 화요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [],
+      "missingHeadings": [
+        "영성체 후 기도",
+        "예물 기도",
+        "본기도",
+        "입당송",
+        "영성체송"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-22",
+      "heading": "12월 22일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-23",
+      "heading": "12월 23일 수요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [],
+      "missingHeadings": [
+        "영성체 후 기도",
+        "예물 기도",
+        "본기도",
+        "입당송",
+        "영성체송"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-23",
+      "heading": "12월 23일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-24",
+      "heading": "12월 24일 목요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [],
+      "missingHeadings": [
+        "영성체 후 기도",
+        "예물 기도",
+        "본기도",
+        "입당송",
+        "영성체송"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-24",
+      "heading": "12월 24일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-24",
+      "heading": "12월 24일 목요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-25",
+      "heading": "12월 25일 금요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-25",
+      "heading": "12월 25일 금요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-25",
+      "heading": "12월 25일 목요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-26",
+      "heading": "12월 26일 토요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-27",
+      "heading": "12월 27일 주일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-28",
+      "heading": "12월 28일 월요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-29",
+      "heading": "12월 29일 화요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-30",
+      "heading": "12월 30일 수요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    },
+    {
+      "date": "2026-12-31",
+      "heading": "12월 31일 목요일",
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sections": [
+        "입당송",
+        "본기도",
+        "예물 기도",
+        "영성체송",
+        "영성체 후 기도"
+      ],
+      "missingHeadings": [],
+      "status": "needs-review"
+    }
+  ],
+  "uniqueDates": 92,
+  "linkedAppDates": [
+    "2026-10-18",
+    "2026-10-24"
+  ],
+  "limitations": [
+    "原문 서식·표 셀 배치는 미복원. 성가표 문단 순서는 배정 규칙으로 사용하지 않음.",
+    "고유기도문은 독서·복음 전체 자료가 아님.",
+    "각 section에는 후속 지시문이 포함될 수 있으므로 검증 없이 앱에 투입하지 않음."
+  ],
+  "linkedDateScope": {
+    "2026-10-24": "five proper sections only; readings and Gospel missing"
+  }
+}

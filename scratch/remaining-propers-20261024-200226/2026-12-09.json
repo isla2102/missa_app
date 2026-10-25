@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-09",
+  "date": "2026-12-09",
+  "observance": "(자) 대림 제2주간 수요일",
+  "sourceRefs": [
+    "goodnews-20261209"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<전능하신 주님께서는 피곤한 이에게 힘을 주신다.>",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.40,25-31",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "25 “너희는 나를 누구와 비교하겠느냐? 나를 누구와 같다고 하겠느냐?”",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "거룩하신 분께서 말씀하신다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "26 너희는 눈을 높이 들고 보아라. 누가 저 별들을 창조하였느냐?",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그 군대를 수대로 다 불러내시고",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "그들 모두의 이름을 부르시는 분이시다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "그분께서는 능력이 크시고 권능이 막강하시어 하나도 빠지는 일이 없다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "27 야곱아, 네가 어찌 이런 말을 하느냐?",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "이스라엘아, 네가 어찌 이렇게 이야기하느냐?",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "“나의 길은 주님께 숨겨져 있고",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "나의 권리는 나의 하느님께서 못 보신 채 없어져 버린다.”",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "28 너는 알지 않느냐? 너는 듣지 않았느냐?",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "주님은 영원하신 하느님, 땅끝까지 창조하신 분이시다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "그분께서는 피곤한 줄도 지칠 줄도 모르시고",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "그분의 슬기는 헤아릴 길이 없다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "29 그분께서는 피곤한 이에게 힘을 주시고",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "기운이 없는 이에게 기력을 북돋아 주신다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "30 젊은이들도 피곤하여 지치고 청년들도 비틀거리기 마련이지만",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "31 주님께 바라는 이들은 새 힘을 얻고 독수리처럼 날개 치며 올라간다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "그들은 뛰어도 지칠 줄 모르고 걸어도 피곤한 줄 모른다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261209"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 103(102),1-2.3-4.8과 10(◎ 1ㄱ)",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 내 영혼아, 주님을 찬미하여라.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 내 영혼아, 주님을 찬미하여라. 내 안의 모든 것도 거룩하신 그 이름 찬미하여라. 내 영혼아, 주님을 찬미하여라. 그분의 온갖 은혜 하나도 잊지 마라. ◎",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 네 모든 잘못을 용서하시고, 네 모든 아픔을 없애시는 분. 네 목숨을 구렁에서 구해 내시고, 자애와 자비의 관을 씌우시는 분. ◎",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님은 자비롭고 너그러우시며, 분노에는 더디시나 자애는 넘치시네. 우리를 죄대로 다루지 않으시고, 우리의 잘못대로 갚지 않으시네. ◎",
+          "sourceRef": "goodnews-20261209"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 보라, 당신 백성 구원하러 주님이 오시리니 주님을 맞이하러 달려가는 이는 복되어라.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261209"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<고생하는 너희는 모두 나에게 오너라.>",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.11,28-30",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 말씀하셨다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "28 “고생하며 무거운 짐을 진 너희는 모두 나에게 오너라.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "내가 너희에게 안식을 주겠다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "29 나는 마음이 온유하고 겸손하니 내 멍에를 메고 나에게 배워라.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "그러면 너희가 안식을 얻을 것이다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "30 정녕 내 멍에는 편하고 내 짐은 가볍다.”",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261209"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261209"
+        }
+      ]
+    }
+  ]
+}

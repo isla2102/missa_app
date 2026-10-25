@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-20",
+  "date": "2026-11-20",
+  "observance": "(녹) 연중 제33주간 금요일",
+  "sourceRefs": [
+    "goodnews-20261120"
+  ],
+  "sections": [
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<나는 작은 두루마리를 받아 삼켰습니다.>",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 묵시록의 말씀입니다.10,8-11",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "하늘에서 들려온 목소리가 나 요한에게 8 말하였습니다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "“가서 바다와 땅을 디디고 서 있는 그 천사의 손에 펼쳐진 두루마리를 받아라.”",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "9 그래서 내가 그 천사에게 가서 작은 두루마리를 달라고 하자,",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그가 나에게 말하였습니다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "“이것을 받아 삼켜라.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "이것이 네 배를 쓰리게 하겠지만 입에는 꿀같이 달 것이다.”",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "10 그래서 나는 그 천사의 손에서 작은 두루마리를 받아 삼켰습니다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "과연 그것이 입에는 꿀같이 달았지만 먹고 나니 배가 쓰렸습니다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "11 그때에, “너는 많은 백성과 민족과 언어와 임금들에 관하여",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "다시 예언해야 한다.” 하는 소리가 나에게 들려왔습니다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261120"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 119(118),14.24.72.103.111.131(◎ 103ㄱ 참조)",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님, 당신 말씀 제 혀에 달콤하옵니다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 온갖 재산 다 얻은 듯, 당신 법의 길 걸으며 기뻐하나이다. ◎",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 당신 법이 저의 즐거움, 그 법은 저의 조언자이옵니다. ◎",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 당신 입에서 나온 가르침, 수천 냥 금은보다 제게는 값지옵니다. ◎",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 당신 말씀 제 혀에 얼마나 달콤한지! 그 말씀 제 입에 꿀보다 다옵니다. ◎",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "psalm-p7",
+          "role": "text",
+          "text": "○ 당신 법은 제 마음의 기쁨, 영원히 저의 재산이옵니다. ◎",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "psalm-p8",
+          "role": "text",
+          "text": "○ 당신 계명을 열망하기에, 저는 입을 벌리고 헐떡이나이다. ◎",
+          "sourceRef": "goodnews-20261120"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "요한 10,27 참조",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 내 양들은 내 목소리를 알아듣는다. 나는 그들을 알고 그들은 나를 따른다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261120"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<너희는 하느님의 집을 ‘강도들의 소굴’로 만들어 버렸다.>",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.19,45-48",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 45 예수님께서 성전에 들어가시어",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "물건을 파는 이들을 쫓아내기 시작하시며,",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "46 그들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "“‘나의 집은 기도의 집이 될 것이다.’라고 기록되어 있다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "그런데 너희는 이곳을 ‘강도들의 소굴’로 만들어 버렸다.”",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "47 예수님께서는 날마다 성전에서 가르치셨다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "수석 사제들과 율법 학자들과 백성의 지도자들은",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "예수님을 없앨 방법을 찾았다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "48 그러나 어떻게 해야 하는지 그 방도를 찾지 못하였다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "온 백성이 그분의 말씀을 듣느라고 곁을 떠나지 않았기 때문이다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261120"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261120"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

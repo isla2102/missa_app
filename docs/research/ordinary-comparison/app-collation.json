@@ -1,0 +1,649 @@
+{
+  "date": "2026-10-24",
+  "scope": {
+    "commonRecords": 21,
+    "commonResponseRecords": 8,
+    "notWholeMissal": true,
+    "notIndependentDoubleReview": true,
+    "excluded": [
+      "경본238쪽 전체 전문 교감",
+      "감사기도 I·III·IV",
+      "주교 강복·장엄 강복",
+      "사제의 모든 조용한 기도와 조건부 전구",
+      "날짜별 독서·고유기도·본당 기도 지향",
+      "악보 가사·음표 대조"
+    ]
+  },
+  "changes": [
+    {
+      "key": "대영광송",
+      "before": "+ 하늘 높은 데서는 하느님께 영광\n",
+      "after": "+ 하늘 높은 데서는 하느님께 영광.\n",
+      "pdfPage": 11,
+      "item": "8",
+      "reason": "문장부호"
+    },
+    {
+      "key": "대영광송",
+      "before": "기리나이다. 찬미하나이다.",
+      "after": "기리나이다, 찬미하나이다.",
+      "pdfPage": 11,
+      "item": "8",
+      "reason": "문장부호"
+    },
+    {
+      "key": "대영광송",
+      "before": "흠숭하나이다. 찬양하나이다.",
+      "after": "흠숭하나이다, 찬양하나이다.",
+      "pdfPage": 11,
+      "item": "8",
+      "reason": "문장부호"
+    },
+    {
+      "key": "신앙 고백",
+      "before": "참 하느님에게서 나신 참 하느님으로서",
+      "after": "참하느님에게서 나신 참하느님으로서",
+      "pdfPage": 15,
+      "item": "18",
+      "reason": "경본 띄어쓰기"
+    },
+    {
+      "key": "신앙 고백",
+      "before": "사도로부터 이어오는 교회",
+      "after": "사도로부터 이어 오는 교회",
+      "pdfPage": 16,
+      "item": "18",
+      "reason": "경본 띄어쓰기"
+    },
+    {
+      "key": "신앙 고백",
+      "before": "십자가에 못박혀",
+      "after": "십자가에 못 박혀",
+      "pdfPage": 16,
+      "item": "19",
+      "reason": "경본 띄어쓰기"
+    },
+    {
+      "key": "주님의 기도",
+      "before": "◎ 하늘에 계신 우리 아버지\n",
+      "after": "◎ 하늘에 계신 우리 아버지,\n",
+      "pdfPage": 100,
+      "item": "124",
+      "reason": "문장부호"
+    },
+    {
+      "key": "주님의 기도",
+      "before": "땅에서도 이루어지소서.",
+      "after": "땅에서도 이루어지소서!",
+      "pdfPage": 100,
+      "item": "124",
+      "reason": "문장부호"
+    },
+    {
+      "key": "하느님의 어린양",
+      "before": "세상의 죄를 없애시는 주님\n",
+      "after": "세상의 죄를 없애시는 주님,\n",
+      "pdfPage": 103,
+      "item": "130",
+      "reason": "세 호칭의 쉼표"
+    },
+    {
+      "key": "영성체 예식 · 영성체 성가",
+      "before": "한 말씀만 하소서, 제 영혼이 곧 나으리이다.",
+      "after": "한 말씀만 하소서. 제 영혼이 곧 나으리이다.",
+      "pdfPage": 104,
+      "item": "132",
+      "reason": "문장부호"
+    },
+    {
+      "key": "강복",
+      "before": "◎ 아멘",
+      "after": "◎ 아멘.",
+      "pdfPage": 106,
+      "item": "141",
+      "reason": "문장 종결"
+    },
+    {
+      "key": "복음",
+      "before": "◎ 또한 사제의 영과 함께.",
+      "after": "◎ 또한 사제(부제)의 영과 함께.",
+      "pdfPage": 14,
+      "item": "15",
+      "reason": "봉독자에 따른 원본 대안"
+    },
+    {
+      "key": "복음",
+      "before": "◎ 주님, 영광 받으소서.",
+      "after": "◎ 주님, 영광받으소서.",
+      "pdfPage": 14,
+      "item": "15",
+      "reason": "경본 띄어쓰기"
+    },
+    {
+      "key": "복음",
+      "before": "◎ 그리스도님 찬미합니다.",
+      "after": "◎ 그리스도님, 찬미합니다.",
+      "pdfPage": 14,
+      "item": "16",
+      "reason": "문장부호"
+    },
+    {
+      "key": "복음 환호송",
+      "before": "말씀이신 그리스도님 찬미받으소서.",
+      "after": "말씀이신 그리스도님, 찬미받으소서.",
+      "pdfPage": 13,
+      "item": "13",
+      "reason": "문장부호"
+    },
+    {
+      "key": "신앙의 신비여",
+      "before": "영광 받으소서.",
+      "after": "영광받으소서.",
+      "pdfPage": 84,
+      "item": "104",
+      "reason": "경본 띄어쓰기"
+    },
+    {
+      "key": "감사 기도",
+      "before": "+ 그리스도를 통하여, 그리스도와 함께, 그리스도 안에서\n성령으로 하나 되어, 전능하신 천주 성부",
+      "after": "+ 그리스도를 통하여\n그리스도와 함께\n그리스도 안에서\n성령으로 하나 되어\n전능하신 천주 성부",
+      "pdfPage": 86,
+      "item": "106",
+      "reason": "마침 영광송의 임의 쉼표 제거·원문 행 구분"
+    }
+  ],
+  "records": [
+    {
+      "key": "입당 성가",
+      "status": "variable-or-parish-content-not-collated-as-ordinary",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [],
+      "items": [],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "85043f1e43eda3bf05197258b6af7192a67c83309da2a4df1f0fe8cf83f9f29a"
+    },
+    {
+      "key": "성호경",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        3
+      ],
+      "items": [
+        1
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "7234d854e767d3461ee5d6458d9df93211d47896f3821159fba45be765eab97b"
+    },
+    {
+      "key": "인사",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        3,
+        4
+      ],
+      "items": [
+        2
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "5cc20c02f46086a144447bc60f60a4d0220443763c7c06521de66a469828a8fe"
+    },
+    {
+      "key": "참회 예식",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        5,
+        6
+      ],
+      "items": [
+        4
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "a04018e733665b8d2ec23511507e26e9379ec081360839e652c79b4f56377b11"
+    },
+    {
+      "key": "자비송",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        9,
+        10
+      ],
+      "items": [
+        7
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "4d3bb8c7076cab622b14754b385fc671fcbec55079fbfce41b89426a78c774ac"
+    },
+    {
+      "key": "대영광송",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        10,
+        11
+      ],
+      "items": [
+        8
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "cfc726f7695c5cca3d4818ec54d17fd3e65477de8e3bb65dbbe432b84d31fb79"
+    },
+    {
+      "key": "본기도",
+      "status": "common-responses-only-variable-text-excluded",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        12
+      ],
+      "items": [
+        9
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "705cf82daa611ea138341be76c21a84d23198541cdadf1271e59c040900e660d"
+    },
+    {
+      "key": "제1독서",
+      "status": "common-responses-only-variable-text-excluded",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        12
+      ],
+      "items": [
+        10
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "cc5c5dc76d03f59cd09575e5cc2ff701ee820daeb00819d2e0a9b0ec4b4fa179"
+    },
+    {
+      "key": "화답송",
+      "status": "common-responses-only-variable-text-excluded",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        12
+      ],
+      "items": [
+        11
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "1bc5ad37c8c059dd1694a3bba309c62f1c43e93c639226a7c5cc16e572789f34"
+    },
+    {
+      "key": "제2독서",
+      "status": "common-responses-only-variable-text-excluded",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        12
+      ],
+      "items": [
+        12
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "cc5c5dc76d03f59cd09575e5cc2ff701ee820daeb00819d2e0a9b0ec4b4fa179"
+    },
+    {
+      "key": "복음 환호송",
+      "status": "common-responses-only-variable-text-excluded",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        13
+      ],
+      "items": [
+        13
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "8497cfb83d6a469be817e1b835a8600ca0ec771fad79097f65f0bd446247754d"
+    },
+    {
+      "key": "복음",
+      "status": "common-responses-only-variable-text-excluded",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        14
+      ],
+      "items": [
+        15,
+        16
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "b952f891281893c5439b126a664ce302542b5dad51cc776e4d180f0ec574f36a"
+    },
+    {
+      "key": "강론",
+      "status": "variable-or-parish-content-not-collated-as-ordinary",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [],
+      "items": [],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "4ec283cecf24875e105450c9f17f191f5ca569ed4e0a1a3897a3bdbaa9801f69"
+    },
+    {
+      "key": "신앙 고백",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        15,
+        16
+      ],
+      "items": [
+        18,
+        19
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "219c84eb1fc219f7c734a9b9b5c3a3d7c7138eb2d62346bd4d57ea87bceb3b94"
+    },
+    {
+      "key": "보편 지향 기도",
+      "status": "variable-or-parish-content-not-collated-as-ordinary",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [],
+      "items": [],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "9bf52eafb9c4fa36d29b0b1ccc08899956f424a1f851e0ed2df14618fd817359"
+    },
+    {
+      "key": "예물 준비 · 봉헌 성가",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        18
+      ],
+      "items": [
+        29
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "304fec941aaeda436c778c8ee76c0c41be5ed0111b48011f21de5a93d67d188a"
+    },
+    {
+      "key": "예물 기도",
+      "status": "common-responses-only-variable-text-excluded",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        18
+      ],
+      "items": [
+        30
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "ca2b85da07c33fc8bfb6cd4d4938ce3e623e36d64d9c9b78fed66364f026dedc"
+    },
+    {
+      "key": "감사 기도",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        19,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "items": [
+        31,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "764293a4589bf8c2eb0a071e900e477bb18200f6589045f2be0152851c2877f2"
+    },
+    {
+      "key": "거룩하시도다",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        20,
+        82
+      ],
+      "items": [
+        31,
+        99
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "39ce42314205bbfca63596469e2413325455028b978cbd0fabfb9a6ac3f02a6f"
+    },
+    {
+      "key": "신앙의 신비여",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        84
+      ],
+      "items": [
+        104
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "2aa3cb1341e7a913dfdd0f291ff7cd018b6c668fc1d9a2310bf8cacd462b5bd8"
+    },
+    {
+      "key": "아멘",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        86
+      ],
+      "items": [
+        106
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "bab1aac543629896b47bf9f178cd1086dfdb522684c949c4cfea82e1a3446d7c"
+    },
+    {
+      "key": "주님의 기도",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        99,
+        100
+      ],
+      "items": [
+        124,
+        125
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "f6f9000c46218d2f90304d176968f42659e48873df3322a680d069635b274979"
+    },
+    {
+      "key": "주님의 기도 맺음 환호",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        101
+      ],
+      "items": [
+        125
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "526c554f7b4e6e73b6805f78815cba74926234ec6dbae64c56e23965f721e134"
+    },
+    {
+      "key": "평화 예식",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        101,
+        102
+      ],
+      "items": [
+        126,
+        127,
+        128
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "13b3a070ca9733c3afa5516447a7a7d099d81a2a7471685ef1d4305760b73805"
+    },
+    {
+      "key": "하느님의 어린양",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        103
+      ],
+      "items": [
+        130
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "46f0701c991f350c8a7fa6116e0a5b0c80775446222e8cac9736f4bc021e466c"
+    },
+    {
+      "key": "영성체 예식 · 영성체 성가",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        104
+      ],
+      "items": [
+        132
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "63546d9b8700d0c8b426491f920a6d98a3e1e5972e7a9d22ae3d1406181bb852"
+    },
+    {
+      "key": "영성체 후 기도",
+      "status": "common-responses-only-variable-text-excluded",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        105
+      ],
+      "items": [
+        139
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "3d1ded74c3f50ffc362ccccecc8b04cdb64e4f64d377fc53591e321b1ec94d75"
+    },
+    {
+      "key": "강복",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        106
+      ],
+      "items": [
+        141
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "295c1352048536de2b575cb1a368b127ec74f91292e892e29e2d7db058775cc8"
+    },
+    {
+      "key": "파견",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        109
+      ],
+      "items": [
+        144
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "1a38b1ea30dc3815c07953074429c7622f43bdf8c4cf7b454ccc4558bb1a1242"
+    },
+    {
+      "key": "파견 성가",
+      "status": "variable-or-parish-content-not-collated-as-ordinary",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [],
+      "items": [],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "a006cdb32654cb8545d4485c362fd607f1120102c24082509c787fd384c75497"
+    },
+    {
+      "key": "공지 사항",
+      "status": "variable-or-parish-content-not-collated-as-ordinary",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [],
+      "items": [],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "dec81681b1941ca2f2a8f58bfda8c2300fe63f4a0ed5f8a26ef5bdb76436f426"
+    },
+    {
+      "key": "참회 예식 제1양식",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        5,
+        6
+      ],
+      "items": [
+        4
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "a04018e733665b8d2ec23511507e26e9379ec081360839e652c79b4f56377b11"
+    },
+    {
+      "key": "참회 예식 제2양식",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        6,
+        7,
+        8
+      ],
+      "items": [
+        5
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "f3e7f4a3777ec1d1d22df6a5e7034fd48199637f1a08b4d10f4d7062e91d936f"
+    },
+    {
+      "key": "참회 예식 제3양식",
+      "status": "displayed-common-text-image-collated",
+      "date": "2026-10-24",
+      "method": "manual-comparison-with-user-provided-page-images",
+      "pdfPages": [
+        8,
+        9
+      ],
+      "items": [
+        6
+      ],
+      "comparisonPolicy": "Prayer words, spelling and punctuation checked for the currently represented scope. Screen line wrapping and role glyphs are presentation mappings. Single manual pass; not independent double-proofreading.",
+      "textSha256": "3c1c82ba6eecd206c9a69e79d086d961c5ed9a59dbb0d12df368cf8a6b2b6b4b"
+    }
+  ],
+  "notices": [
+    "신앙의 신비 세 응답의 시기별 고정 배정은 경본104항 규정이 아니라 기존 본당 표시 설정이다.",
+    "성가 모드의 악보 가사·음표는 별도 대조 대상이다.",
+    "고유문 미연결 자리표시자를 경본 본문 검증 완료로 취급하지 않는다."
+  ]
+}

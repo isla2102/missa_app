@@ -1,0 +1,44 @@
+{
+  "baseline": "review/02-ia-v81.html",
+  "output": "review/02-ia-current.html",
+  "bindings": {
+    "dailyDocuments": {
+      "path": "data/days/2026-10-18.json",
+      "array": true
+    },
+    "dailySources": {
+      "path": "data/sources.json",
+      "array": false
+    },
+    "dailyMissaSnapshot": {
+      "path": "docs/references/daily-missa-20261018.json",
+      "array": false
+    },
+    "reengravedPrincipalScores": {
+      "path": "docs/교중미사악보/reengraved/registry.json",
+      "array": false
+    },
+    "scorePreviewSizes": {
+      "path": "review/source/score-preview-sizes.json",
+      "array": false
+    },
+    "majorPrayerCatalog": {
+      "path": "data/reference-sources/major-prayers.json",
+      "array": false
+    },
+    "bulletinProvider": {
+      "path": "data/reference-sources/daegu-bulletin.json",
+      "array": false
+    },
+    "hymnScheduleCatalog": {
+      "path": "data/reference-sources/hymn-schedule-202610.json",
+      "array": false
+    }
+  },
+  "modules": {
+    "READER_STATE": "review/source/reader-state.cjs",
+    "DAILY_DOCUMENT": "review/source/daily-document.cjs",
+    "HYMN_STATE": "review/source/hymn-state.cjs",
+    "HYMN_BACKUP": "review/source/hymn-backup.cjs"
+  }
+}

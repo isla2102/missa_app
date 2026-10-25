@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-09",
+  "date": "2026-11-09",
+  "observance": "(백) 라테라노 대성전 봉헌 축일",
+  "sourceRefs": [
+    "goodnews-20261109"
+  ],
+  "sections": [
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<성전 오른쪽에서 흘러나오는 물을 보았네. 그 물이 닿는 곳마다 모두 구원을 받았네(따름 노래 “성전 오른쪽에서”).>",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 에제키엘 예언서의 말씀입니다.47,1-2.8-9.12",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "그 무렵 천사가 1 나를 데리고 주님의 집 어귀로 돌아갔다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "이 주님의 집 정면은 동쪽으로 나 있었는데,",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "주님의 집 문지방 밑에서 물이 솟아 동쪽으로 흐르고 있었다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그 물은 주님의 집 오른쪽 밑에서, 제단 남쪽으로 흘러내려 갔다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "2 그는 또 나를 데리고 북쪽 대문으로 나가서,",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "밖을 돌아 동쪽 대문 밖으로 데려갔다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "거기에서 보니 물이 오른쪽에서 나오고 있었다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "8 그가 나에게 말하였다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "“이 물은 동쪽 지역으로 나가, 아라바로 내려가서 바다로 들어간다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "이 물이 바다로 흘러들어 가면, 그 바닷물이 되살아난다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "9 그래서 이 강이 흘러가는 곳마다 온갖 생물이 우글거리며 살아난다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "이 물이 닿는 곳마다 바닷물이 되살아나기 때문에, 고기도 아주 많이 생겨난다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "이렇게 이 강이 닿는 곳마다 모든 것이 살아난다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "12 이 강가 이쪽저쪽에는 온갖 과일나무가 자라는데,",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "잎도 시들지 않으며 과일도 끊이지 않고 다달이 새 과일을 내놓는다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "이 물이 성전에서 나오기 때문이다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "그 과일은 양식이 되고 잎은 약이 된다.”",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261109"
+        }
+      ]
+    },
+    {
+      "id": "reading-1-option-2",
+      "kind": "reading",
+      "title": "제1독서 · 대안 2",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-option-2-p1",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 코린토 1서 말씀입니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p2",
+          "role": "text",
+          "text": "3,9ㄴ-11.16-17",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p3",
+          "role": "text",
+          "text": "형제 여러분, 9 여러분은 하느님의 건물입니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p4",
+          "role": "text",
+          "text": "10 나는 하느님께서 베푸신 은총에 따라 지혜로운 건축가로서 기초를 놓았고,",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p5",
+          "role": "text",
+          "text": "다른 사람은 집을 짓고 있습니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p6",
+          "role": "text",
+          "text": "그러나 어떻게 집을 지을지 저마다 잘 살펴야 합니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p7",
+          "role": "text",
+          "text": "11 아무도 이미 놓인 기초 외에 다른 기초를 놓을 수 없기 때문입니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p8",
+          "role": "text",
+          "text": "그 기초는 예수 그리스도이십니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p9",
+          "role": "text",
+          "text": "16 여러분이 하느님의 성전이고",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p10",
+          "role": "text",
+          "text": "하느님의 영께서 여러분 안에 계시다는 사실을 여러분은 모릅니까?",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p11",
+          "role": "text",
+          "text": "17 누구든지 하느님의 성전을 파괴하면 하느님께서도 그자를 파멸시키실 것입니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p12",
+          "role": "text",
+          "text": "하느님의 성전은 거룩하기 때문입니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p13",
+          "role": "text",
+          "text": "여러분이 바로 하느님의 성전입니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p14",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "reading-1-option-2-p15",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261109"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 46(45),2-3.5-6.8-9(◎ 5)",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 강물이 줄기줄기 하느님의 도성을, 지극히 높으신 분의 거룩한 거처를 즐겁게 하네.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 하느님은 우리의 피신처, 우리의 힘. 어려울 때마다 늘 도와주셨네. 우리는 두려워하지 않네. 땅이 뒤흔들린다 해도, 산들이 바다 깊이 빠진다 해도. ◎",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 강물이 줄기줄기 하느님의 도성을, 지극히 높으신 분의 거룩한 거처를 즐겁게 하네. 하느님이 그 안에 계시니 흔들리지 않네. 하느님이 동틀 녘에 구해 주시네. ◎",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 만군의 주님이 우리와 함께 계시네. 야곱의 하느님이 우리의 산성이시네. 와서 보아라, 주님의 업적을, 이 세상에 이루신 놀라운 일을! ◎",
+          "sourceRef": "goodnews-20261109"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "2역대 7,16 참조",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 내가 이 집을 선택하여 성별하고 이곳에 내 이름을 영원히 있게 하리라.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261109"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<예수님께서 성전이라고 하신 것은 당신 몸을 두고 하신 말씀이었다.>",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 요한이 전한 거룩한 복음입니다.2,13-22",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "13 유다인들의 파스카 축제가 가까워지자 예수님께서는 예루살렘에 올라가셨다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "14 그리고 성전에 소와 양과 비둘기를 파는 자들과",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "환전꾼들이 앉아 있는 것을 보시고,",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "15 끈으로 채찍을 만드시어 양과 소와 함께 그들을 모두 성전에서 쫓아내셨다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "또 환전상들의 돈을 쏟아 버리시고 탁자들을 엎어 버리셨다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "16 비둘기를 파는 자들에게는, “이것들을 여기에서 치워라.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "내 아버지의 집을 장사하는 집으로 만들지 마라.” 하고 이르셨다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "17 그러자 제자들은 “당신 집에 대한 열정이 저를 집어삼킬 것입니다.”라고",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "성경에 기록된 말씀이 생각났다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "18 그때에 유다인들이 예수님께,",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "“당신이 이런 일을 해도 된다는 무슨 표징을 보여 줄 수 있소?” 하고 말하였다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "19 그러자 예수님께서 그들에게 대답하셨다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "“이 성전을 허물어라. 그러면 내가 사흘 안에 다시 세우겠다.”",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "20 유다인들이 말하였다. “이 성전을 마흔여섯 해나 걸려 지었는데,",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "당신이 사흘 안에 다시 세우겠다는 말이오?”",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "21 그러나 그분께서 성전이라고 하신 것은 당신 몸을 두고 하신 말씀이었다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "22 예수님께서 죽은 이들 가운데에서 되살아나신 뒤에야,",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "제자들은 예수님께서 이 말씀을 하신 것을 기억하고,",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "성경과 그분께서 이르신 말씀을 믿게 되었다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261109"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261109"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

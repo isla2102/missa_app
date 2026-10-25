@@ -1,0 +1,76 @@
+2026-10-18 18:25:33,233 INFO [09-lords-a]                 Book.java:560  | 1 sheet in C:\Users\imsup\00_개인프로젝트\매일미사_예비신자앱\work\music-omr-inputs\09-lords-a.tif
+2026-10-18 18:25:33,329 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-18 18:25:33,330 INFO []                 Book.java:2525 | Book stored as work\music-omr-output\09-lords-a.omr
+2026-10-18 18:25:33,338 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-10-18 18:25:33,339 INFO [09-lords-a]       StepMonitoring.java:98   | LOAD
+2026-10-18 18:25:33,867 INFO [09-lords-a]            SheetStub.java:1278 | Loaded image #1 2460x3280 from C:\Users\imsup\00_개인프로젝트\매일미사_예비신자앱\work\music-omr-inputs\09-lords-a.tif
+2026-10-18 18:25:33,869 INFO [09-lords-a]       StepMonitoring.java:98   | BINARY
+2026-10-18 18:25:35,113 INFO [09-lords-a]       StepMonitoring.java:98   | SCALE
+2026-10-18 18:25:35,125 INFO [09-lords-a]         ScaleBuilder.java:254  | Beam  guessed height: 21 -- 0.25 of [17..35] range
+2026-10-18 18:25:35,125 INFO [09-lords-a]         ScaleBuilder.java:271  | Beam measured height: 19 -- 0.11 of [17..35] range at 66% of needed quorum
+2026-10-18 18:25:35,126 INFO [09-lords-a]         ScaleBuilder.java:401  | Normalized black jitter: 18.42 %
+2026-10-18 18:25:35,127 INFO [09-lords-a]            ScaleStep.java:65   | Scale{ interline(35,38,40) line(6,8,13) beam(19)}
+2026-10-18 18:25:35,129 INFO [09-lords-a]       StepMonitoring.java:98   | GRID
+2026-10-18 18:25:35,955 INFO [09-lords-a]       LinesRetriever.java:1508 | Global slope: -0.02961
+2026-10-18 18:25:35,971 INFO [09-lords-a]    ClustersRetriever.java:326  | Retrieved raw line clusters: 3 of sizes [5] with interline(35,38,40)
+2026-10-18 18:25:37,097 INFO [09-lords-a]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3]
+2026-10-18 18:25:39,088 INFO [09-lords-a]        SystemManager.java:800  | 1 part along 3 systems
+2026-10-18 18:25:39,089 INFO [09-lords-a]                 Book.java:543  | Created scores: [{Score 1}]
+2026-10-18 18:25:39,090 INFO [09-lords-a]       StepMonitoring.java:98   | HEADERS
+2026-10-18 18:25:39,507 INFO [09-lords-a]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-18 18:25:39,557 INFO [09-lords-a]           StemScaler.java:143  | No stem peak found, computing defaults
+2026-10-18 18:25:39,557 INFO [09-lords-a]        StemSeedsStep.java:86   | stem(8 max:13)
+2026-10-18 18:25:39,591 INFO [09-lords-a]       StepMonitoring.java:98   | BEAMS
+2026-10-18 18:25:53,450 INFO [09-lords-a]       StepMonitoring.java:98   | LEDGERS
+2026-10-18 18:25:54,338 INFO [09-lords-a]       StepMonitoring.java:98   | HEADS
+2026-10-18 18:26:12,407 INFO [09-lords-a]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-2.8]}
+2026-10-18 18:26:12,410 INFO [09-lords-a]       StepMonitoring.java:98   | STEMS
+2026-10-18 18:26:13,033 INFO [09-lords-a]       StepMonitoring.java:98   | REDUCTION
+2026-10-18 18:26:13,093 INFO [09-lords-a]        ReductionStep.java:105  | Stems free length median value: 137 pixels, 3.6 interlines
+2026-10-18 18:26:13,098 INFO [09-lords-a]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-18 18:26:13,098 INFO [09-lords-a]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-18 18:26:13,100 INFO [09-lords-a]       StepMonitoring.java:98   | TEXTS
+2026-10-18 18:26:19,912 INFO [09-lords-a]       StepMonitoring.java:98   | MEASURES
+2026-10-18 18:26:19,914 INFO [09-lords-a]                 Page.java:307  | 6 raw measures: [2 in system#1, 2 in system#2, 2 in system#3]
+2026-10-18 18:26:19,914 INFO [09-lords-a]       StepMonitoring.java:98   | CHORDS
+2026-10-18 18:26:19,916 INFO [09-lords-a]       StepMonitoring.java:98   | CURVES
+2026-10-18 18:26:21,082 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#4540[1650,2268][1692,2266] dist:2.39} Too many rookies: 61, giving up!
+2026-10-18 18:26:21,092 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#4809[2086,1858][2128,1857] dist:2.09} Too many rookies: 50, giving up!
+2026-10-18 18:26:21,163 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#6140[1700,2305][1738,2303] dist:2.34} Too many rookies: 60, giving up!
+2026-10-18 18:26:21,228 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#8239[2174,2235][2208,2233] dist:2.66} Too many rookies: 68, giving up!
+2026-10-18 18:26:21,249 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#8805[1710,2343][1743,2342] dist:0.54} Too many rookies: 63, giving up!
+2026-10-18 18:26:21,548 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#11404[2142,2275][2173,2273] dist:1.31} Too many rookies: 89, giving up!
+2026-10-18 18:26:21,567 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#11910[1694,2266][1723,2265] dist:2.35} Too many rookies: 50, giving up!
+2026-10-18 18:26:21,570 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#12243[1987,1862][2016,1861] dist:0.86} Too many rookies: 50, giving up!
+2026-10-18 18:26:21,640 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#13836[2139,2314][2164,2311] dist:1.89} Too many rookies: 61, giving up!
+2026-10-18 18:26:21,676 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#15195[1754,2262][1777,2262] dist:9.02} Too many rookies: 71, giving up!
+2026-10-18 18:26:21,692 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#15715[1897,2374][1918,2387] dist:3.17} Too many rookies: 63, giving up!
+2026-10-18 18:26:21,698 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#15715[1897,2374][1918,2387] dist:0.54} Too many rookies: 55, giving up!
+2026-10-18 18:26:21,758 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#17269[2136,2238][2157,2236] dist:0.63} Too many rookies: 53, giving up!
+2026-10-18 18:26:21,809 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#18415[1947,2327][1966,2326] dist:1.78} Too many rookies: 51, giving up!
+2026-10-18 18:26:21,818 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#18415[1947,2327][1966,2326] dist:0.54} Too many rookies: 76, giving up!
+2026-10-18 18:26:21,869 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SlurInfo{#19700[2189,2307][2207,2308] dist:6.36} Too many rookies: 63, giving up!
+2026-10-18 18:26:21,875 INFO [09-lords-a]         SlursBuilder.java:240  | Slurs: 29
+2026-10-18 18:26:22,227 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SegmentInfo{#7771[886,2263][940,2261] dist:0.42} Too many rookies: 52, giving up!
+2026-10-18 18:26:22,279 INFO [09-lords-a]        CurvesBuilder.java:532  | Curve: SegmentInfo{#8962[1189,2253][1236,2251] dist:0.30} Too many rookies: 55, giving up!
+2026-10-18 18:26:22,281 INFO [09-lords-a]      SegmentsBuilder.java:155  | Segments: 10
+2026-10-18 18:26:22,296 INFO [09-lords-a]       StepMonitoring.java:98   | SYMBOLS
+2026-10-18 18:26:23,663 INFO [09-lords-a]       StepMonitoring.java:98   | LINKS
+2026-10-18 18:26:23,664 INFO [09-lords-a]        SentenceInter.java:463  | No chord near SentenceInter#1533{(0.535) staff:1 mFont:144 Direction} m
+2026-10-18 18:26:23,683 INFO [09-lords-a]       StepMonitoring.java:98   | RHYTHMS
+2026-10-18 18:26:23,694 INFO [09-lords-a]       StepMonitoring.java:98   | PAGE
+2026-10-18 18:26:23,698 WARN [09-lords-a]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2], please check time signatures
+2026-10-18 18:26:23,699 WARN [09-lords-a]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [3, 4], please check time signatures
+2026-10-18 18:26:23,700 WARN [09-lords-a]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [5, 6], please check time signatures
+2026-10-18 18:26:23,701 INFO [09-lords-a]                 Book.java:2584 | Book{09-lords-a} storing
+2026-10-18 18:26:23,817 INFO [09-lords-a]                 Book.java:2565 | Stored /book.xml
+2026-10-18 18:26:23,931 INFO [09-lords-a]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-18 18:26:24,491 INFO [09-lords-a]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-18 18:26:24,491 INFO [09-lords-a]                 Book.java:2525 | Book stored as work\music-omr-output\09-lords-a.omr
+2026-10-18 18:26:24,497 INFO [09-lords-a]            SheetStub.java:1655 | Sheet disposed
+2026-10-18 18:26:24,551 INFO [09-lords-a]                 Book.java:2050 | End of Stub#1
+2026-10-18 18:26:24,551 INFO [09-lords-a]                 Book.java:2057 | End of Book{09-lords-a}
+2026-10-18 18:26:25,459 INFO [09-lords-a]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-18 18:26:25,462 INFO [09-lords-a]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1]
+2026-10-18 18:26:25,479 INFO [09-lords-a]        ScoreExporter.java:164  | Score 09-lords-a exported to work\music-omr-output\09-lords-a.mxl
+2026-10-18 18:26:25,561 INFO [09-lords-a]                Score.java:181  | Closing {Score 1}

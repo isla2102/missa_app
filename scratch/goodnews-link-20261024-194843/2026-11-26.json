@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-26",
+  "date": "2026-11-26",
+  "observance": "(녹) 연중 제34주간 목요일",
+  "sourceRefs": [
+    "goodnews-20261126"
+  ],
+  "sections": [
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<무너졌다, 대바빌론이!>",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 묵시록의 말씀입니다.18,1-2.21-23; 19,1-3.9ㄱㄴ",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "나 요한은 1 큰 권한을 가진 다른 천사가 하늘에서 내려오는 것을 보았는데,",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "그의 광채로 땅이 환해졌습니다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "2 그가 힘찬 소리로 외쳤습니다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "“무너졌다, 무너졌다, 대바빌론이! 바빌론이 마귀들의 거처가 되고",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "온갖 더러운 영들의 소굴, 온갖 더러운 새들의 소굴,",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "더럽고 미움받는 온갖 짐승들의 소굴이 되고 말았다.”",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "21 또 큰 능력을 지닌 한 천사가 맷돌처럼 큰 돌을 들어 바다에 던지며 말하였습니다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "“큰 도성 바빌론이 이처럼 세차게 던져질 터이니",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "다시는 그 모습을 찾아볼 수 없을 것이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "22 수금 타는 이들과 노래 부르는 이들,",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "피리 부는 이들과 나팔 부는 이들의 소리가 다시는 네 안에서 들리지 않고",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "어떠한 기술을 가진 장인도 다시는 네 안에서 찾아볼 수 없으며",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "맷돌 소리도 다시는 네 안에서 들리지 않을 것이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "23 등불의 빛도 다시는 네 안에서 비치지 않고",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "신랑과 신부의 목소리도 다시는 네 안에서 들리지 않을 것이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "너의 상인들이 땅의 세력가였기 때문이며",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "모든 민족들이 너의 마술에 속아 넘어갔기 때문이다.”",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "19,1 그 뒤에 나는 하늘에 있는 많은 무리가 내는 큰 목소리 같은 것을 들었습니다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "“할렐루야! 구원과 영광과 권능은 우리 하느님의 것.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "2 과연 그분의 심판은 참되고 의로우시다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "자기 불륜으로 땅을 파멸시킨 대탕녀를 심판하시고",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "그 손에 묻은 당신 종들의 피를 되갚아 주셨다.”",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "3 그들이 또 말하였습니다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "“할렐루야! 그 여자가 타는 연기가 영원무궁토록 올라간다.”",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "9 또 그 천사가 나에게 말하였습니다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "“‘어린양의 혼인 잔치에 초대받은 이들은 행복하다.’고 기록하여라.”",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "reading-1-p30",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261126"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 100(99),1-2.3.4.5(◎ 묵시 19,9ㄴ)",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 어린양의 혼인 잔치에 초대받은 이들은 행복하여라.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 온 세상아, 주님께 환성 올려라. 기뻐하며 주님을 섬겨라. 환호하며 그분 앞에 나아가라. ◎",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 너희는 알아라, 주님은 하느님이시다. 그분이 우리를 지으셨으니 우리는 그분의 것, 그분의 백성, 그분 목장의 양 떼라네. ◎",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 감사하며 그분 문으로 들어가라. 찬양하며 그분 앞뜰로 들어가라. 그분을 찬송하며 그 이름 찬미하여라. ◎",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 주님은 참으로 좋으시고, 그분 자애는 영원하시며, 그분 진실은 대대에 이르신다. ◎",
+          "sourceRef": "goodnews-20261126"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 21,28 참조",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 허리를 펴고 머리를 들어라. 너희의 속량이 가까웠다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261126"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<예루살렘은 다른 민족들의 시대가 다 찰 때까지 그들에게 짓밟힐 것이다.>",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.21,20-28",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 제자들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "20 “예루살렘이 적군에게 포위된 것을 보거든,",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "그곳이 황폐해질 때가 가까이 왔음을 알아라.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "21 그때에 유다에 있는 이들은 산으로 달아나고,",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "예루살렘에 있는 이들은 거기에서 빠져나가라.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "시골에 있는 이들은 예루살렘으로 들어가지 마라.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "22 그때가 바로 성경에 기록된 모든 말씀이 이루어지는 징벌의 날이기 때문이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "23 불행하여라, 그 무렵에 임신한 여자들과 젖먹이가 딸린 여자들!",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "이 땅에 큰 재난이, 이 백성에게 진노가 닥칠 것이기 때문이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "24 사람들은 칼날에 쓰러지고 포로가 되어 모든 민족들에게 끌려갈 것이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "그리고 예루살렘은 다른 민족들의 시대가 다 찰 때까지",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "그들에게 짓밟힐 것이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "25 그리고 해와 달과 별들에는 표징들이 나타나고,",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "땅에서는 바다와 거센 파도 소리에 자지러진 민족들이 공포에 휩싸일 것이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "26 사람들은 세상에 닥쳐오는 것들에 대한 두려운 예감으로 까무러칠 것이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "하늘의 세력들이 흔들릴 것이기 때문이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "27 그때에 ‘사람의 아들이’ 권능과 큰 영광을 떨치며",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "‘구름을 타고 오는 것을’ 사람들이 볼 것이다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "28 이러한 일들이 일어나기 시작하거든 허리를 펴고 머리를 들어라.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "너희의 속량이 가까웠기 때문이다.”",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261126"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261126"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

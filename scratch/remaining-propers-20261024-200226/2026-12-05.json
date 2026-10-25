@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-05",
+  "date": "2026-12-05",
+  "observance": "(자) 대림 제1주간 토요일",
+  "sourceRefs": [
+    "goodnews-20261205"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<네가 부르짖으면 주님께서 반드시 자비를 베푸시리라.>",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.30,19-21.23-26",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "이스라엘의 거룩하신 주 하느님께서 이렇게 말씀하신다.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "19 “예루살렘에 사는 너희 시온 백성아",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "너희는 다시 울지 않아도 되리라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "네가 부르짖으면 그분께서 반드시 너희에게 자비를 베푸시고",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "들으시는 대로 너희에게 응답하시리라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "20 비록 주님께서 너희에게 곤경의 빵과 고난의 물을 주시지만",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "너의 스승이신 그분께서는 더 이상 숨어 계시지 않으리니",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "너희 눈이 너희의 스승을 뵙게 되리라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "21 그리고 너희가 오른쪽으로 돌거나 왼쪽으로 돌 때",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "뒤에서 ‘이것이 바른길이니 이리로 가거라.’ 하시는 말씀을",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "너희 귀로 듣게 되리라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "23 그분께서 너희가 밭에 뿌린 씨앗을 위하여 비를 내리시니",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "밭에서 나는 곡식이 여물고 기름지리라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "그날에 너희의 가축은 넓은 초원에서 풀을 뜯고",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "24 밭일을 하는 소와 나귀는 삽과 거름대로 까불러 간을 맞춘 사료를 먹으리라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "25 큰 살육이 일어나는 날, 탑들이 무너질 때",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "높은 산 위마다, 솟아오른 언덕 위마다, 물이 흐르는 도랑들이 생기리라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "26 또 주님께서 당신 백성의 상처를 싸매 주시고",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "당신의 매를 맞아 터진 곳을 낫게 해 주시는 날",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "달빛은 햇빛처럼 되고 햇빛은 일곱 배나 밝아져",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "이레 동안의 빛을 한데 모은 듯하리라.”",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261205"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 147(146─147),1ㄴㄷ-2.3-4.5-6(◎ 이사 30,18 참조)",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님을 기다리는 이는 모두 행복하여라!",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 우리 하느님을 찬송하니 좋기도 하여라. 마땅한 찬양을 드리니 즐겁기도 하여라. 주님은 예루살렘을 세우시고 흩어진 이스라엘을 모으시네. ◎",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 주님은 마음이 부서진 이를 고치시고 그들의 상처를 싸매 주시네. 별들의 수를 정하시고 낱낱이 그 이름 지어 주시네. ◎",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 우리 주님은 위대하시고 권능이 넘치시네. 그 지혜는 헤아릴 길 없네. 주님은 가난한 이를 일으키시고 악인을 땅바닥까지 낮추시네. ◎",
+          "sourceRef": "goodnews-20261205"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "이사 33,22 참조",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님은 우리의 통치자, 우리의 지도자, 우리의 임금님 주님이 우리를 구원하시리라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261205"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<예수님께서는 군중을 보시고 가엾은 마음이 드셨다.>",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.9,35─10,1.6-8",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 35 예수님께서는 모든 고을과 마을을 두루 다니시면서,",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "회당에서 가르치시고 하늘 나라의 복음을 선포하시며,",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "병자와 허약한 이들을 모두 고쳐 주셨다.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "36 그분은 군중을 보시고 가엾은 마음이 드셨다.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "그들이 목자 없는 양들처럼 시달리며 기가 꺾여 있었기 때문이다.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "37 그래서 제자들에게 말씀하셨다. “수확할 것은 많은데 일꾼은 적다.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "38 그러니 수확할 밭의 주인님께 일꾼들을 보내 주십사고 청하여라.”",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "10,1 예수님께서 열두 제자를 가까이 부르시고",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "그들에게 더러운 영들에 대한 권한을 주시어,",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "그것들을 쫓아내고 병자와 허약한 이들을 모두 고쳐 주게 하셨다.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "5 예수님께서 이 열두 사람을 보내시며 이렇게 분부하셨다.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "6 “이스라엘 집안의 길 잃은 양들에게 가라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "7 가서 ‘하늘 나라가 가까이 왔다.’ 하고 선포하여라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "8 앓는 이들을 고쳐 주고 죽은 이들을 일으켜 주어라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "나병 환자들을 깨끗하게 해 주고 마귀들을 쫓아내어라.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "너희가 거저 받았으니 거저 주어라.”",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261205"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261205"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MISSA · 2단계 정보 구조 검토 v32</title>
+<style>
+@layer tokens, base, layout, components, responsive, utilities;
+@layer tokens {
+ :root { --draft-dialogue-width: 12rem; --draft-score-action-z: 2; --draft-score-action-font: 0.75rem; --draft-score-action-padding: 0.25rem; --draft-score-action-hit: 1.5rem; --draft-modal-width: 90rem; --draft-modal-height: 92dvh; --draft-marker-width: 1.25rem; --draft-marker-gap: .375rem; --draft-choice-card-z: 0; --draft-choice-marker-z: 1; --draft-choice-marker-space: 1.25rem; --draft-guide-ink: #244b66; --draft-guide-surface: #eef4f8; --draft-response-weight: 700; --draft-response-border: 2px; --draft-toc-target: 1.5rem; --draft-toc-gap: .125rem; --draft-rail-max: 16rem; --draft-score-height: 3rem; --draft-item-gap: .75rem; --draft-content-inset: .625rem; --draft-gap: .75rem; --draft-padding: 1rem; --draft-panel: 28rem; --draft-target: 2.75rem; --focus-ring: 3px solid currentColor; }
+}
+@layer base {
+ * { box-sizing: border-box; }
+ body { margin: 0; }
+ button, input, select { font: inherit; min-height: var(--draft-target); max-width: 100%; }
+ button { cursor: pointer; }
+ :focus-visible { outline: var(--focus-ring); outline-offset: 2px; }
+}
+@layer layout {
+ .reader { height: 100dvh; display: grid; grid-template-rows: auto auto minmax(0, 1fr); padding: var(--draft-padding); gap: var(--draft-gap); }
+ .reader__header, .reader__row, .reader__footer { display: flex; align-items: center; flex-wrap: wrap; gap: var(--draft-gap); }
+ .reader__header, .reader__footer { justify-content: space-between; }
+ .reader__section-heading { grid-column: 1; grid-row: 1; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: var(--draft-gap); }
+ .reader__part-nav { display: contents; }
+ .reader__part-prev { grid-column: 1; grid-row: 1; justify-self: start; }
+ .reader__part-next { grid-column: 3; grid-row: 1; justify-self: end; }
+ .reader__title { margin: 0; grid-column: 2; grid-row: 1; text-align: center; }
+ .reader__notice { margin: 0; }
+ .reader__workspace { min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) fit-content(var(--draft-rail-max)); grid-template-rows: auto minmax(0, 1fr) auto; gap: var(--draft-gap); }
+ .reader__rail { grid-column: 2; grid-row: 2; min-height: 0; max-width: min(var(--draft-rail-max), 28vw); overflow: auto; overflow-wrap: anywhere; border-inline-start: 1px solid; padding-inline-start: var(--draft-gap); }
+ .reader__rail-title { margin: 0 0 var(--draft-gap); }
+ .reader__toc-group-title { margin-block: var(--draft-gap) var(--draft-toc-gap); }
+ .reader__toc-list { margin-block: 0; padding-inline-start: var(--draft-padding); }
+ .reader__body { display: contents; }
+ .reader__tools { grid-column: 2; grid-row: 3; justify-content: flex-end; }
+ .reader__book { grid-column: 1; grid-row: 2; position: relative; container-type: size; touch-action: pan-y; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--draft-gap); }
+ .reader__page { min-height: 0; border: 1px solid; padding: var(--draft-padding); overflow: hidden; overflow-wrap: anywhere; }
+ .reader__page--measure { position: absolute; inset-block: 0; inset-inline-start: 0; width: calc((100% - var(--draft-gap)) / 2); visibility: hidden; pointer-events: none; }
+ .reader__page--reading { display: flex; flex-direction: column; overflow: auto; }
+ .reader__item--reading { flex: 1; min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__reading-content { flex: 1; min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__reading-liturgy > * { flex-shrink: 0; }
+ .reader__reading-body { flex: 1; min-block-size: 0; overflow: auto; }
+ .reader__page--oversize { overflow: auto; }
+ .reader__item:last-child { margin-block-end: 0; }
+ .reader__item { margin-block-end: var(--draft-item-gap); }
+ .reader__item-heading { display: flex; flex-wrap: wrap; align-items: center; gap: var(--draft-gap); margin-block-end: var(--draft-toc-gap); }
+ .reader__item-title { margin-block: 0 var(--draft-toc-gap); }
+ .reader__item-text { margin-block: 0; white-space: pre-line; }
+ .reader__content-card { border: 1px solid; padding: var(--draft-content-inset); }
+ .reader__turn-boundary[data-next-part="true"] { font-weight: var(--draft-response-weight); text-decoration: underline; }
+ .reader__turns { grid-column: 1; grid-row: 3; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: var(--draft-gap); }
+ .reader__turn-button { min-inline-size: 0; max-inline-size: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; justify-self: start; }
+ .reader__turn-boundary { justify-self: end; }
+ .reader__drawer { margin-inline-start: auto; margin-inline-end: 0; width: min(100%, var(--draft-panel)); max-height: 100%; overflow: auto; padding: var(--draft-padding); }
+ .reader__field { display: grid; gap: var(--draft-gap); margin-block: var(--draft-gap); }
+}
+@layer components {
+ .reader__toc-visible { border-inline: var(--draft-response-border) solid; padding-inline: var(--draft-toc-gap); }
+ .reader__toc-visible--first { border-block-start: var(--draft-response-border) solid; }
+ .reader__toc-visible--last { border-block-end: var(--draft-response-border) solid; }
+ .reader__dialogue { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--draft-dialogue-width)), 1fr)); gap: var(--draft-item-gap); }
+ .reader__liturgy { display: grid; gap: var(--draft-item-gap); }
+ .reader__reading-liturgy { flex: 1; min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__dialogue--stacked { grid-template-columns: minmax(0, 1fr); }
+ .reader__content-card--liturgy { border: 0; padding: 0; }
+ .reader__speech-card { border: 1px solid; padding: var(--draft-content-inset); }
+ .reader__speech-card--assembly { border-width: var(--draft-response-border); font-weight: var(--draft-response-weight); }
+ .reader__speech-card--alternative { position: relative; isolation: isolate; z-index: var(--draft-choice-card-z); padding-block-end: calc(var(--draft-content-inset) + var(--draft-choice-marker-space)); }
+ .reader__alternative-marker { position: absolute; inset-inline-end: var(--draft-content-inset); inset-block-end: var(--draft-toc-gap); z-index: var(--draft-choice-marker-z); }
+ .reader__tutorial { width: min(100%, var(--draft-panel)); padding: var(--draft-padding); }
+ .reader__guidance { color: var(--draft-guide-ink); background: var(--draft-guide-surface); padding: var(--draft-content-inset); font-weight: normal; }
+ .reader__speech-row { display: grid; grid-template-columns: var(--draft-marker-width) minmax(0, 1fr); column-gap: var(--draft-marker-gap); }
+ .reader__speech-marker { text-align: center; }
+ .reader__speech-body { min-inline-size: 0; }
+ .reader__speech-text { margin: 0; white-space: pre-line; }
+ .reader__item--collect { block-size: calc(100cqh - (2 * var(--draft-padding)) - 2px); display: grid; grid-template-rows: auto auto minmax(0, 1fr) auto; gap: var(--draft-item-gap); }
+ .reader__collect-scroll { min-block-size: 0; overflow: auto; overscroll-behavior: contain; }
+ .reader__season-badge { border: 2px solid; padding: var(--draft-toc-gap) var(--draft-content-inset); }
+ .reader__score-modal { width: min(96vw, var(--draft-modal-width)); height: var(--draft-modal-height); padding: var(--draft-padding); }
+ .reader__score-modal[open] { display: grid; grid-template-rows: auto minmax(0, 1fr); gap: var(--draft-gap); }
+ .reader__score-modal-body { min-block-size: 0; overflow: auto; }
+ .reader__pdf-object { display: block; width: 100%; height: 100%; min-height: 60dvh; }
+ .reader__modal-heading { display: flex; justify-content: space-between; align-items: center; gap: var(--draft-gap); }
+ .reader__season-period { border: 1px solid; padding: var(--draft-content-inset); margin-block: var(--draft-item-gap); }
+ .reader__season-help { flex-shrink: 0; }
+ .reader__season-period[aria-current="true"] { border-width: var(--draft-response-border); }
+ .reader__session-select { width: max-content; }
+ .reader__score-photo { display: block; width: 100%; height: auto; }
+ .reader__creed-panel[hidden] { display: none; }
+ .reader__text-scroll { min-block-size: 0; flex: 1; overflow: auto; overscroll-behavior: contain; }
+ .reader__item--score.reader__item--guided-score { grid-template-rows: auto auto minmax(0, 1fr); }
+ .reader__item--compact-score { max-block-size: calc(100cqh - (2 * var(--draft-padding)) - 2px); min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__content-card--compact { min-block-size: 0; overflow: auto; }
+ .reader__score-scroll { block-size: auto; min-block-size: 0; flex: 1; overflow: auto; overscroll-behavior: contain; }
+ .reader__item--score { block-size: calc(100cqh - (2 * var(--draft-padding)) - 2px); min-block-size: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); gap: var(--draft-toc-gap); }
+ .reader__content-card--score { min-block-size: 0; display: flex; flex-direction: column; }
+ .reader__prayer-option { display: flex; flex-wrap: wrap; gap: var(--draft-toc-gap); margin-block-end: var(--draft-toc-gap); }
+ .reader__score { position: relative; margin: var(--draft-toc-gap) 0 0; }
+ .reader__score-enlarge { position: absolute; inset-block-start: var(--draft-toc-gap); inset-inline-end: var(--draft-toc-gap); z-index: var(--draft-score-action-z); font-size: var(--draft-score-action-font); padding: var(--draft-score-action-padding); min-block-size: var(--draft-score-action-hit); }
+ .reader__staff { display: block; width: 100%; height: var(--draft-score-height); }
+ .reader__prayer-button[aria-pressed="true"] { font-weight: bold; text-decoration: underline; }
+ .reader__toc-link { display: inline-block; min-height: var(--draft-toc-target); padding-block: var(--draft-toc-gap); }
+ .reader__toc-link[aria-current="location"] { font-weight: bold; text-decoration-thickness: 2px; }
+}
+</style>
+</head>
+
+<body><main class="reader">
+<header class="reader__header">
+ <div class="reader__row"><h1 class="reader__title">MISSA</h1><span>내 본당</span></div>
+ <div class="reader__row"><label for="date">날짜</label><input id="date" type="date" value="2026-10-18" data-js="date"><span data-js="liturgical-day" aria-live="polite"></span><button type="button" class="reader__season-badge" data-js="liturgical-season" aria-haspopup="dialog" aria-controls="season-dialog"></button><label for="slot">회차</label><select id="slot" class="reader__session-select" data-js="slot"><option value="dawn">새벽미사</option><option value="main" selected>교중미사</option><option value="youth">저녁미사</option></select><label for="mode">모드</label><select id="mode" data-js="mode"><option value="beginner">예비신자</option><option value="regular">일반 신자</option></select></div>
+ <nav class="reader__row" aria-label="성가와 기도"><button type="button" data-panel="hymn">성가</button><button type="button" data-panel="prayer">주요 기도문</button></nav>
+</header>
+<p class="reader__notice" data-js="context" role="status"></p>
+<div class="reader__workspace"><section class="reader__body" aria-labelledby="part-title">
+ <div class="reader__section-heading"><h2 class="reader__title" id="part-title" data-js="part-title">시작 예식</h2><nav class="reader__part-nav" aria-label="미사 순서 이동"><button type="button" class="reader__part-prev" data-js="part-prev"></button><button type="button" class="reader__part-next" data-js="part-next"></button></nav></div>
+ <div class="reader__book" data-js="book"></div>
+ <nav class="reader__turns" aria-label="두 페이지씩 이전·다음 전례로 넘기기"><button type="button" class="reader__turn-button" data-js="page-prev">← 앞쪽 두 페이지</button><span data-js="page-context"></span><button type="button" class="reader__turn-button reader__turn-boundary" data-js="page-next">뒤쪽 두 페이지 →</button></nav>
+</section>
+<nav class="reader__row reader__tools" aria-label="리더 도구"><button type="button" data-panel="settings">보기 설정</button><button type="button" data-panel="info">안내</button></nav>
+<aside class="reader__rail" aria-labelledby="rail-title"><h2 class="reader__rail-title" id="rail-title"><span aria-hidden="true">☷</span> 목차</h2><nav data-js="toc-rail" aria-label="미사 전체 세부 목차"></nav></aside></div>
+
+<dialog class="reader__drawer" data-js="drawer" aria-labelledby="drawer-title"><div class="reader__header"><h2 id="drawer-title" data-js="drawer-title">목차</h2><button type="button" data-js="close">닫기</button></div><div data-js="drawer-body"></div></dialog>
+</main>
+<dialog class="reader__tutorial" data-js="tutorial" aria-labelledby="tutorial-title"><h2 id="tutorial-title" data-js="tutorial-title">미사 뷰어 사용 안내</h2><p data-js="tutorial-step" role="status"></p><p data-js="tutorial-copy"></p><nav class="reader__row" aria-label="튜토리얼 단계"><button type="button" data-js="tutorial-prev">이전</button><button type="button" data-js="tutorial-next">다음</button><button type="button" data-js="tutorial-later">나중에 보기</button></nav></dialog>
+<dialog class="reader__score-modal" data-js="score-modal" aria-labelledby="score-modal-title"><div class="reader__modal-heading"><h2 id="score-modal-title" data-js="score-modal-title">악보 크게 보기</h2><button type="button" data-js="score-modal-close">닫기</button></div><div class="reader__score-modal-body" data-js="score-modal-body"></div></dialog>
+<dialog class="reader__tutorial" id="season-help-dialog" data-js="season-help-modal" aria-labelledby="season-help-title" aria-describedby="season-help-text"><div class="reader__modal-heading"><h2 id="season-help-title" data-js="season-help-title"></h2><button type="button" data-js="season-help-close">닫기</button></div><p id="season-help-text" data-js="season-help-text"></p><a data-js="season-help-source" target="_blank" rel="noopener noreferrer">전례 시기 설명 출처</a></dialog>
+<dialog class="reader__tutorial" id="season-dialog" data-js="season-modal" aria-labelledby="season-modal-title"><div class="reader__modal-heading"><h2 id="season-modal-title" data-js="season-modal-title">전례 시기</h2><button type="button" data-js="season-modal-close">닫기</button></div><div data-js="season-modal-body"></div></dialog>
+<dialog class="reader__tutorial" data-js="source-dialog" aria-labelledby="source-dialog-title"><div class="reader__modal-heading"><h2 id="source-dialog-title" data-js="source-dialog-title">악보 출처</h2><button type="button" data-js="source-dialog-close">닫기</button></div><div data-js="source-dialog-body"></div></dialog>
+<script>
+'use strict';
+const find = name => document.querySelector(`[data-js="${name}"]`);
+const parts = [
+ {title:'시작 예식', pages:[['입당 · 성호경과 인사','공식 본문을 연결할 첫 번째 쪽입니다.'],['참회 예식 · 자비송 · 대영광송 · 본기도','같은 시작 예식의 이어지는 두 번째 쪽입니다.']]},
+ {title:'말씀 전례', pages:[['독서 · 화답송','말씀 전례의 첫 번째 쪽입니다.'],['복음 환호송 · 복음','말씀 전례의 두 번째 쪽입니다.'],['강론 · 신앙 고백','말씀 전례의 세 번째 쪽입니다.'],['보편 지향 기도','말씀 전례의 네 번째 쪽입니다.']]},
+ {title:'성찬 전례', pages:[['예물 준비 · 예물 기도','성찬 전례의 첫 번째 쪽입니다.'],['감사 기도','성찬 전례의 두 번째 쪽입니다.'],['주님의 기도 · 평화 예식','성찬 전례의 세 번째 쪽입니다.'],['영성체 · 영성체 후 기도','성찬 전례의 네 번째 쪽입니다.']]},
+ {title:'마침 예식', pages:[['공지 · 강복','마침 예식의 첫 번째 쪽입니다.'],['파견 · 파견 성가','마침 예식의 이어지는 두 번째 쪽입니다.']]}
+];
+
+const contents = [
+ [['입당 성가',0],['성호경',0],['인사',0],['참회 예식',1],['자비송',1],['대영광송',1],['본기도',1]],
+ [['제1독서',0],['화답송',0],['제2독서',0],['복음 환호송',1],['복음',1],['강론',2],['신앙 고백',2],['보편 지향 기도',3]],
+ [['봉헌 성가',0],['예물 기도',0],['감사기도 제2양식',1],['주님의 기도',2],['평화 예식',2],['영성체 예식 · 영성체 성가',3],['영성체 후 기도',3]],
+ [['공지 사항',0],['강복',0],['파견',1],['파견 성가',1]]
+].map((items, partIndex) => items.map(([title, page], index) => ({id:`part-${partIndex}-item-${index}`, title, page})));
+const frameSpecs = {"입당 성가": {"kind": "hymn", "source": "hymnSet", "role": "entrance"}, "성호경": {"kind": "prayer", "source": "ordinary", "prayerId": "성호경", "scoreSlot": false}, "인사": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 인사 양식에 따라 참여합니다."}, "참회 예식": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 참회 예식 양식에 따라 참여합니다."}, "자비송": {"kind": "prayer", "source": "ordinary", "condition": "선택한 예식에 따라 적용", "prayerId": "자비송", "scoreSlot": true}, "대영광송": {"kind": "prayer", "source": "ordinary", "condition": "전례일에 따라 포함 여부 결정", "prayerId": "대영광송", "scoreSlot": true}, "본기도": {"kind": "proper", "source": "liturgicalDay"}, "제1독서": {"kind": "proper", "source": "liturgicalDay"}, "화답송": {"kind": "proper", "source": "liturgicalDay"}, "제2독서": {"kind": "proper", "source": "liturgicalDay", "condition": "전례일에 따라 적용"}, "복음 환호송": {"kind": "proper", "source": "liturgicalDay"}, "복음": {"kind": "proper", "source": "liturgicalDay"}, "강론": {"kind": "choice", "source": "celebrant", "guide": "사제 또는 부제의 강론을 듣습니다."}, "신앙 고백": {"kind": "prayer", "source": "celebrant", "guide": "적용되는 전례일에 선택된 신앙 고백 양식으로 참여합니다.", "prayerId": "신앙 고백", "scoreSlot": true}, "보편 지향 기도": {"kind": "choice", "source": "parish", "guide": "본당에서 준비한 기도 지향에 따라 함께 기도합니다."}, "예물 준비 · 봉헌 성가": {"kind": "hymn", "source": "hymnSet", "role": "offertory"}, "예물 기도": {"kind": "proper", "source": "liturgicalDay"}, "감사 기도": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 감사 기도 양식에 따라 참여합니다."}, "주님의 기도": {"kind": "prayer", "source": "ordinary", "prayerId": "주님의 기도", "scoreSlot": true}, "평화 예식": {"kind": "choice", "source": "celebrant", "guide": "사제의 안내에 따라 평화 예식에 참여합니다."}, "영성체 예식 · 영성체 성가": {"kind": "proper", "source": "liturgicalDay", "role": "communion"}, "영성체 후 기도": {"kind": "proper", "source": "liturgicalDay"}, "공지 사항": {"kind": "choice", "source": "parish", "guide": "본당 공지가 있으면 안내를 듣습니다."}, "강복": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 강복 양식에 따라 참여합니다."}, "파견": {"kind": "choice", "source": "celebrant", "guide": "선택된 파견 양식에 따라 응답합니다."}, "파견 성가": {"kind": "hymn", "source": "hymnSet", "role": "recessional"}};
+contents[2].splice(1,0,{id:'part-2-item-0-preparation',title:'예물 준비 기도',page:0});
+contents[2].splice(contents[2].findIndex(x=>x.id==='part-2-item-5')+1,0,{id:'part-2-item-5-hymn',title:'영성체 성가',page:3});
+frameSpecs['봉헌 성가']={kind:'hymn',source:'hymnSet'};frameSpecs['예물 준비 기도']={kind:'prayer',source:'ordinary'};frameSpecs['감사기도 제2양식']=frameSpecs['감사 기도'];frameSpecs['영성체 성가']={kind:'hymn',source:'hymnSet'};
+
+const localOrdinaryReference = {"title": "교중미사 미사 통상문 — 사진 판독 텍스트 초안", "version": "0.1-draft", "createdOn": "2026-10-18", "status": "unverified-manual-transcription", "sourceDescription": "사용자 제공 본당 인쇄물 사진 8장, 인쇄면 1~14쪽. 사진은 복사·임베드·실행 참조하지 않음.", "rightsStatus": "unverified", "legend": {"+": "사제가 하는 부분", "◎": "합송", "○·●": "인쇄본의 교대 표기", "[안내]": "동작·해설, 일부는 요약", "[자료에 … 없음]": "빠진 원문을 추측하지 않고 표시"}, "warnings": ["공식 원문 대조 전의 대략 판독 초안이며 맞춤법·문장부호·희미한 글자는 재검토 필요.", "서로 다른 선택지는 자동 확정하지 않고 참조용으로 병기.", "시기별 응답 및 고유명사는 인쇄본의 표기이며 최신 전례 규칙·직책자 정보로 검증되지 않음.", "오늘의 독서·기도·복음 등 고유문은 사진에 없으므로 생성하지 않음."], "records": [{"id": "ordinary-01", "key": "입당 성가", "sourcePages": [1], "status": "draft-unverified", "text": "[자료 안내] 오늘 미사의 입당송 또는 입당 노래.\n[자료에 입당송 본문·성가 번호 없음]", "contentType": "variable-placeholder"}, {"id": "ordinary-02", "key": "성호경", "sourcePages": [1], "status": "draft-unverified", "text": "+ 성부와 성자와 성령의 이름으로.\n◎ 아멘."}, {"id": "ordinary-03", "key": "인사", "sourcePages": [1], "status": "draft-unverified", "text": "[안내] 사제는 팔을 벌리며 교우들에게 인사한다. 세 가지 중 한 가지.\n[선택지 1]\n+ 우리 주 예수 그리스도의 은총과 하느님의 사랑과 성령의 친교가 여러분 모두와 함께.\n◎ 또한 사제의 영과 함께.\n[또는 선택지 2]\n+ 하느님 우리 아버지와 주 예수 그리스도께서 내리시는 은총과 평화가 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n[또는 선택지 3]\n+ 주님께서 여러분과 함께.\n◎ 또한 사제의 영과 함께.", "selectionStatus": "unconfirmed-alternatives"}, {"id": "ordinary-04", "key": "참회 예식", "sourcePages": [2, 3], "status": "draft-unverified", "text": "[선택지 1 · 인쇄본에 수록된 양식, 자동 선택 아님]\n+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다.\n[안내] 잠깐 침묵한다. 그 다음에 모두 함께 고백 기도를 바친다.\n+ 전능하신 하느님과\n◎ 형제들에게 고백하오니 생각과 말과 행위로 죄를 많이 지었으며 자주 의무를 소홀히 하였나이다.\n[안내] 가슴을 치며 말한다.\n제 탓이요, 제 탓이요, 저의 큰 탓이옵니다.\n[안내] 이어서 계속한다.\n그러므로 간절히 바라오니 평생 동정이신 성모 마리아와 모든 천사와 성인과 형제들은 저를 위하여 하느님께 빌어 주소서.\n+ 전능하신 하느님, 저희에게 자비를 베푸시어 죄를 용서하시고 영원한 생명으로 이끌어 주소서.\n◎ 아멘.\n[또는 선택지 2 · 인쇄본에 수록된 양식, 자동 선택 아님]\n+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다.\n[안내] 잠깐 침묵한다. 그다음에 사제나 부제 또는 다른 봉사자가 자비송과 함께 하는 아래의 기도를 바친다. 이 기도는 그날의 전례나 축일에 맞게 바꿀 수 있다.\n+ 진심으로 뉘우치는 사람을 용서하러 오신 주님, 자비를 베푸소서.\n◎ 주님, 자비를 베푸소서.\n+ 죄인을 부르러 오신 그리스도님, 자비를 베푸소서.\n◎ 그리스도님, 자비를 베푸소서.\n+ 성부 오른편에 중개자로 계신 주님, 자비를 베푸소서.\n◎ 주님, 자비를 베푸소서.\n+ 전능하신 하느님, 저희에게 자비를 베푸시어 죄를 용서하시고 영원한 생명으로 이끌어 주소서.\n◎ 아멘.", "selectionStatus": "unconfirmed-alternatives"}, {"id": "ordinary-05", "key": "자비송", "sourcePages": [3], "status": "draft-unverified", "text": "[안내] 앞의 참회 예식에서 자비송을 바치지 않았으면 이렇게 바친다.\n+ 주님, 자비를 베푸소서.\n◎ 주님, 자비를 베푸소서.\n+ 그리스도님, 자비를 베푸소서.\n◎ 그리스도님, 자비를 베푸소서.\n+ 주님, 자비를 베푸소서.\n◎ 주님, 자비를 베푸소서."}, {"id": "ordinary-06", "key": "대영광송", "sourcePages": [4], "status": "draft-unverified", "text": "[안내] 대림과 사순 시기 밖의 모든 주일, 대축일과 축일, 그리고 성대하게 지내는 특별한 전례 거행 때에 모두 함께 노래한다. 노래하지 않을 경우는 모두 함께 낭송하거나 두 편으로 나누어 교대로 낭송한다.\n+ 하늘 높은 데서는 하느님께 영광\n○ 땅에서는 주님께서 사랑하시는 사람들에게 평화.\n● 주 하느님, 하늘의 임금님\n○ 전능하신 아버지 하느님\n● 주님을 기리나이다. 찬미하나이다.\n○ 주님을 흠숭하나이다. 찬양하나이다.\n● 주님 영광 크시오니 감사하나이다.\n○ 외아들 주 예수 그리스도님\n● 주 하느님, 성부의 아드님\n○ 하느님의 어린양\n● 세상의 죄를 없애시는 주님, 저희에게 자비를 베푸소서.\n○ 세상의 죄를 없애시는 주님, 저희의 기도를 들어주소서.\n● 성부 오른편에 앉아 계신 주님, 저희에게 자비를 베푸소서.\n◎ 홀로 거룩하시고, 홀로 주님이시며, 홀로 높으신 예수 그리스도님\n성령과 함께 아버지 하느님의 영광 안에 계시나이다. 아멘.", "editorialNotes": ["첫 안내는 인쇄본 문구를 판독한 것으로 실제 전례 엔진의 적용 판정이 아님."]}, {"id": "ordinary-07", "key": "본기도", "sourcePages": [4], "status": "draft-unverified", "text": "+ 기도합시다.\n[안내] 모두 사제와 함께 잠깐 침묵하며 기도한다.\n[자료에 오늘 본기도 본문 없음]\n……비나이다. 또는 ……다스리시나이다.\n◎ 아멘.", "contentType": "variable-placeholder"}, {"id": "ordinary-08", "key": "제1독서", "sourcePages": [5], "status": "draft-unverified", "text": "[안내] 앉는다.\n[자료에 오늘 독서 본문 없음]\n◆ 주님의 말씀입니다.\n◎ 하느님, 감사합니다.", "contentType": "variable-placeholder"}, {"id": "ordinary-09", "key": "화답송", "sourcePages": [5], "status": "draft-unverified", "text": "[자료에 오늘 화답송 본문 없음]\n◎ (후렴)\n[안내] 주보의 화답송을 노래한다.", "contentType": "variable-placeholder"}, {"id": "ordinary-10", "key": "제2독서", "sourcePages": [5], "status": "draft-unverified", "text": "[자료에 오늘 독서 본문 없음]\n◆ 주님의 말씀입니다.\n◎ 하느님, 감사합니다.", "contentType": "variable-placeholder"}, {"id": "ordinary-11", "key": "복음 환호송", "sourcePages": [5], "status": "draft-unverified", "text": "[안내] 선다. 인쇄본의 선택지를 병기하며 현재 시기·양식은 미확정.\n◎ 알렐루야\n[자료에 오늘 복음 환호송 본문 없음 · 해설자 또는 성가대]\n◎ 알렐루야\n[알렐루야를 하지 않는 시기의 선택지]\n◎ 그리스도님, 찬미와 영광 받으소서.\n또는 ◎ 말씀이신 그리스도님 찬미받으소서.\n또는 ◎ 길이요 진리요 생명이신 그리스도님, 찬미받으소서.", "selectionStatus": "unconfirmed-alternatives"}, {"id": "ordinary-12", "key": "복음", "sourcePages": [5], "status": "draft-unverified", "text": "+ 주님께서 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n+ (          )가(이) 전한 거룩한 복음입니다.\n[안내] 이마와 입술과 가슴에 십자 표시를 한다.\n◎ 주님, 영광 받으소서.\n[자료에 오늘 복음 본문 없음]\n+ 주님의 말씀입니다.\n◎ 그리스도님 찬미합니다.", "contentType": "variable-placeholder"}, {"id": "ordinary-13", "key": "강론", "sourcePages": [5], "status": "draft-unverified", "text": "[안내] 앉는다.\n[강론 원문 없음]"}, {"id": "ordinary-14", "key": "신앙 고백", "sourcePages": [6, 7], "status": "draft-unverified", "text": "[안내] 선다. 아래 두 양식은 인쇄본에 수록된 대안이며 자동 선택하지 않는다.\n[니케아 콘스탄티노폴리스 신경 · 인쇄본 표기는 “니케아 콘스탄티노플 신경”]\n+ 한 분이신 하느님을\n◎ 저는 믿나이다.\n전능하신 아버지, 하늘과 땅과 유형무형한 만물의 창조주를 믿나이다.\n또한 한 분이신 주 예수 그리스도, 하느님의 외아들\n영원으로부터 성부에게서 나신 분을 믿나이다.\n하느님에게서 나신 하느님, 빛에서 나신 빛\n참 하느님에게서 나신 참 하느님으로서, 창조되지 않고 나시어\n성부와 한 본체로서 만물을 창조하셨음을 믿나이다.\n성자께서는 저희 인간을 위하여, 저희 구원을 위하여\n하늘에서 내려오셨음을 믿나이다.\n[안내] 밑줄 부분에서 모두 깊은 절을 한다.\n또한 성령으로 인하여 동정 마리아에게서 육신을 취하시어\n사람이 되셨음을 믿나이다.\n본시오 빌라도 통치 아래서 저희를 위하여\n십자가에 못 박혀 수난하고 묻히셨으며\n성서 말씀대로 사흗날에 부활하시어\n하늘에 올라 성부 오른편에 앉아 계심을 믿나이다.\n그분께서는 산 이와 죽은 이를 심판하러 영광 속에 다시 오시리니\n그분의 나라는 끝이 없으리이다.\n또한 주님이시며 생명을 주시는 성령을 믿나이다.\n성령께서는 성부와 성자에게서 발하시고\n성부와 성자와 더불어 영광과 흠숭을 받으시며\n예언자들을 통하여 말씀하셨나이다.\n하나이고 거룩하고 보편되며 사도로부터 이어오는 교회를 믿나이다.\n죄를 씻는 유일한 세례를 믿으며\n죽은 이들의 부활과 내세의 삶을 기다리나이다. 아멘.\n[또는 사도 신경]\n+ 전능하신 천주 성부\n◎ 천지의 창조주를 저는 믿나이다.\n그 외아들 우리 주 예수 그리스도님\n[안내] 밑줄 부분에서 모두 깊은 절을 한다.\n성령으로 인하여 동정 마리아께 잉태되어 나시고\n본시오 빌라도 통치 아래서 고난을 받으시고\n십자가에 못박혀 돌아가시고 묻히셨으며\n저승에 가시어 사흗날에 죽은 이들 가운데서 부활하시고\n하늘에 올라 전능하신 천주 성부 오른편에 앉으시며\n그리로부터 산 이와 죽은 이를 심판하러 오시리라 믿나이다.\n성령을 믿으며\n거룩하고 보편된 교회와 모든 성인의 통공을 믿으며\n죄의 용서와 육신의 부활을 믿으며\n영원한 삶을 믿나이다.\n아멘.", "selectionStatus": "unconfirmed-alternatives"}, {"id": "ordinary-15", "key": "보편 지향 기도", "sourcePages": [7], "status": "draft-unverified", "text": "[자료에 오늘 보편 지향 기도 본문 없음]\n◎ 주님, 저희의 기도를 들어주소서.", "contentType": "variable-placeholder"}, {"id": "ordinary-16", "key": "예물 준비 · 봉헌 성가", "sourcePages": [7, 8], "status": "draft-unverified", "text": "[자료 안내] 봉헌 성가.\n+ 형제 여러분, 우리가 바치는 이 제사를\n전능하신 하느님 아버지께서 기꺼이 받아 주시도록 기도합시다.\n[안내] 선다.\n◎ 사제의 손으로 바치는 이 제사가\n주님의 이름에는 찬미와 영광이 되고\n저희와 온 교회에는 도움이 되게 하소서."}, {"id": "ordinary-17", "key": "예물 기도", "sourcePages": [8], "status": "draft-unverified", "text": "[자료에 오늘 예물 기도 본문 없음]\n+ ……비나이다. 또는 ……다스리시나이다.\n◎ 아멘.", "contentType": "variable-placeholder"}, {"id": "ordinary-18", "key": "감사 기도", "sourcePages": [8, 9, 10, 11], "status": "draft-unverified", "text": "[자료 안내] 인쇄본에 감사기도 제2양식이 수록되어 있다. 실제 미사에서 선택된 감사 기도·감사송은 미확정이다.\n[감사송 대화]\n+ 주님께서 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n+ 마음을 드높이.\n◎ 주님께 올립니다.\n+ 우리 주 하느님께 감사합시다.\n◎ 마땅하고 옳은 일입니다.\n[인쇄본 수록 감사송 · 선택 미확정]\n+ 거룩하신 아버지, 사랑하시는 성자 예수 그리스도를 통하여\n언제나 어디서나 아버지께 감사함이\n참으로 마땅하고 옳은 일이며 저희 도리요 구원의 길이옵니다.\n아버지께서는 말씀이신 그리스도를 통하여 모든 것을 창조하시고\n그분을 저희에게 구세주로 보내셨으니\n그분께서는 성령으로 인하여\n동정 마리아에게서 사람으로 태어나셨나이다.\n성자께서는 아버지의 뜻을 이루시고자\n십자가에서 팔을 벌려 백성을 아버지께 모아들이셨으며\n죽음을 이기고 부활하셨나이다.\n그러므로 저희는 모든 천사와 성인과 함께\n아버지의 영광을 찬양하나이다.\n[거룩하시도다 · 별도 카드 참조]\n+ 거룩하신 아버지, 아버지께서는 모든 거룩함의 샘이시옵니다.\n+ 간구하오니\n[안내] 종을 친다.\n성령의 힘으로 이 예물을 거룩하게 하시어\n우리 주 예수 그리스도의 몸과 + 피가 되게 하소서.\n스스로 원하신 수난이 다가오자 예수님께서는\n빵을 들고 감사를 드리신 다음\n쪼개어 제자들에게 주시며 말씀하셨나이다.\n너희는 모두 이것을 받아 먹어라.\n이는 너희를 위하여 내어줄 내 몸이다.\n[안내] 종을 치면 사제가 들어올린 축성된 빵을 바라본다. 사제가 성반에 내려놓은 다음 깊은 절을 할 때 함께 절을 한다.\n저녁을 잡수시고 같은 모양으로\n잔을 들어 다시 감사를 드리신 다음\n제자들에게 주시며 말씀하셨나이다.\n너희는 모두 이것을 받아 마셔라.\n이는 새롭고 영원한 계약을 맺는 내 피의 잔이니\n죄를 사하여 주려고\n너희와 많은 이를 위하여 흘릴 피다.\n너희는 나를 기억하여 이를 행하여라.\n[안내] 종을 치면 사제가 들어올린 성작을 바라본다. 사제가 성체포 위에 내려놓은 다음 깊은 절을 할 때 함께 절을 한다.\n[신앙의 신비여 · 별도 카드 참조]\n+ 아버지,\n저희는 그리스도의 죽음과 부활을 기념하며\n생명의 빵과 구원의 잔을 봉헌하나이다.\n또한 저희가 아버지 앞에 나아와 봉사하게 하시니 감사하나이다.\n간절히 청하오니\n저희가 그리스도의 몸과 피를 받아 모시어\n성령으로 모두 한 몸을 이루게 하소서.\n+ 주님, 온 세상에 널리 퍼져 있는 교회를 생각하시어\n교황 (레오14세)와\n저희 주교 (타대오와 요한보스코)와\n모든 성직자와 더불어 사랑의 교회를 이루게 하소서.\n+ 부활의 희망 속에 고이 잠든 교우들과\n세상을 떠난 다른 이들도 모두 생각하시어\n그들이 주님의 빛나는 얼굴을 뵈옵게 하소서.\n저희에게도 자비를 베푸시어\n영원으로부터 주님의 사랑을 받는\n하느님의 어머니 복되신 동정 마리아와\n그 배필이신 성 요셉과 복된 사도들과 모든 성인과 함께\n영원한 삶을 누리며\n성자 예수 그리스도를 통하여 아버지를 찬양하게 하소서.\n+ 그리스도를 통하여, 그리스도와 함께, 그리스도 안에서\n성령으로 하나 되어, 전능하신 천주 성부\n모든 영예와 영광을 영원히 받으소서.\n◎ 아멘.", "selectionStatus": "unconfirmed-printed-form", "editorialNotes": ["교황·주교 이름은 사진에 인쇄된 표기를 옮긴 것이며 현재 직책자 검증이나 실제 전례 설정이 아님.", "감사기도 제2양식을 자동 선택하지 않음.", "일부 줄바꿈과 문장부호를 읽기 좋게 정리함."]}, {"id": "ordinary-19", "key": "거룩하시도다", "sourcePages": [9], "status": "draft-unverified", "text": "◎ 거룩하시도다! 거룩하시도다! 거룩하시도다!\n온 누리의 주 하느님!\n하늘과 땅에 가득 찬 그 영광!\n높은 데서 호산나!\n주님의 이름으로 오시는 분, 찬미받으소서.\n높은 데서 호산나!"}, {"id": "ordinary-20", "key": "신앙의 신비여", "sourcePages": [10], "status": "draft-unverified", "text": "[인쇄본의 세 응답을 병기하며 현재 사용할 응답은 미확정]\n+ 신앙의 신비여!\n[연중시기 표기 응답]\n◎ 주님께서 오실 때까지 주님의 죽음을 전하며 부활을 선포하나이다.\n[또는 사순시기 표기 응답]\n◎ 주님께서 오실 때까지 이 빵을 먹고 이 잔을 마실 적마다 주님의 죽음을 전하나이다.\n[또는 부활시기 표기 응답]\n◎ 십자가와 부활로 저희를 구원하신 주님, 길이 영광 받으소서.", "selectionStatus": "unconfirmed-alternatives", "editorialNotes": ["시기 표시는 인쇄본 전사이며 앱 전례 규칙으로 채택하지 않음."]}, {"id": "ordinary-21", "key": "아멘", "sourcePages": [11], "status": "draft-unverified", "text": "◎ 아멘."}, {"id": "ordinary-22", "key": "주님의 기도", "sourcePages": [12], "status": "draft-unverified", "text": "+ 하느님의 자녀 되어, 구세주의 분부대로 삼가 아뢰오니\n◎ 하늘에 계신 우리 아버지\n아버지의 이름이 거룩히 빛나시며\n아버지의 나라가 오시며\n아버지의 뜻이 하늘에서와 같이\n땅에서도 이루어지소서.\n오늘 저희에게 일용할 양식을 주시고\n저희에게 잘못한 이를 저희가 용서하오니\n저희 죄를 용서하시고\n저희를 유혹에 빠지지 않게 하시고\n악에서 구하소서.\n+ 주님, 저희를 모든 악에서 구하시고\n한평생 평화롭게 하소서.\n주님의 자비로 저희를 언제나 죄에서 구원하시고\n모든 시련에서 보호하시어\n복된 희망을 품고\n구세주 예수 그리스도의 재림을 기다리게 하소서."}, {"id": "ordinary-23", "key": "주님의 기도 맺음 환호", "sourcePages": [12], "status": "draft-unverified", "text": "◎ 주님께 나라와 권능과 영광이 영원히 있나이다."}, {"id": "ordinary-24", "key": "평화 예식", "sourcePages": [13], "status": "draft-unverified", "text": "+ 주 예수 그리스도님, 일찍이 사도들에게 말씀하시기를\n“너희에게 평화를 두고 가며\n내 평화를 주노라.” 하셨으니\n저희 죄를 헤아리지 마시고 교회의 믿음을 보시어\n주님의 뜻대로 교회를 평화롭게 하시고 하나 되게 하소서.\n주님께서는 영원히 살아 계시며 다스리시나이다.\n◎ 아멘.\n+ 주님의 평화가 항상 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n+ 평화의 인사를 나누십시오.\n[안내] 모든 이는 가벼운 절을 하며 서로 평화와 친교와 사랑의 인사를 나눈다.\n◎ 평화를 빕니다."}, {"id": "ordinary-25", "key": "하느님의 어린양", "sourcePages": [13], "status": "draft-unverified", "text": "◎ 하느님의 어린양, 세상의 죄를 없애시는 주님\n자비를 베푸소서.\n하느님의 어린양, 세상의 죄를 없애시는 주님\n자비를 베푸소서.\n하느님의 어린양, 세상의 죄를 없애시는 주님\n평화를 주소서."}, {"id": "ordinary-26", "key": "영성체 예식 · 영성체 성가", "sourcePages": [13], "status": "draft-unverified", "text": "+ 보라! 하느님의 어린양, 세상의 죄를 없애시는 분이시니\n이 성찬에 초대받은 이는 복되도다.\n◎ 주님, 제 안에 주님을 모시기에 합당치 않사오나\n한 말씀만 하소서, 제 영혼이 곧 나으리이다.\n[자료에 오늘 영성체송·성가 번호 없음]"}, {"id": "ordinary-27", "key": "영성체 후 기도", "sourcePages": [14], "status": "draft-unverified", "text": "+ 기도합시다.\n[안내] 선다.\n[자료에 오늘 영성체 후 기도 본문 없음]\n……비나이다. 또는 ……다스리시나이다.\n◎ 아멘.", "contentType": "variable-placeholder"}, {"id": "ordinary-28", "key": "강복", "sourcePages": [14], "status": "draft-unverified", "text": "+ 주님께서 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n[안내] 모든 이는 머리를 숙이고 밑줄 부분에서 성호를 긋는다.\n+ 전능하신 천주 성부와 + 성자와 성령께서는\n여기 모인 모든 이에게 강복하소서.\n◎ 아멘", "selectionStatus": "unconfirmed-printed-form"}, {"id": "ordinary-29", "key": "파견", "sourcePages": [14], "status": "draft-unverified", "text": "[인쇄본에 수록된 네 선택지 · 실제 양식 미확정]\n+ 미사가 끝났으니 가서 복음을 전합시다.\n◎ 하느님 감사합니다.\n[또는]\n+ 주님과 함께 가서 복음을 전합시다.\n◎ 하느님 감사합니다.\n[또는]\n+ 평화로이 가서 주님을 찬양하며 삽시다.\n◎ 하느님 감사합니다.\n[또는]\n+ 미사가 끝났으니 평화로이 가십시오.\n◎ 하느님 감사합니다.", "selectionStatus": "unconfirmed-alternatives"}, {"id": "ordinary-30", "key": "파견 성가", "sourcePages": [14], "status": "draft-unverified", "text": "[자료 안내] 파견성가.\n[자료에 성가 번호·가사 없음]", "contentType": "variable-placeholder"}, {"id": "ordinary-31", "key": "공지 사항", "sourcePages": [], "status": "draft-unverified", "text": "[제공 자료에 공지 사항 본문 없음]", "contentType": "missing"}]};
+
+
+// Printed ◎ starts the assembly response; guidance does not end that speech turn.
+function spokenSegments(text, initial='text'){
+ const segments=[];let role=initial,current=null;
+ const add=(kind,value)=>{if(!current || current.kind!==kind){current={kind,parts:[]};segments.push(current);}current.parts.push(value);};
+ for(const raw of text.split('\n')){
+  const line=raw.trim();if(!line)continue;
+  if(/^\[(?:안내|프레임 안내|자료 안내)/.test(line) || line.startsWith('인쇄본 안내:')){
+   const part={kind:'guide',text:line};if(current && current.kind==='assembly')current.parts.push(part);else{segments.push({kind:'guide',parts:[part]});current=null;}continue;
+  }
+  if(line.startsWith('◎'))role='assembly';
+  else if(line.startsWith('+'))role='priest';
+  else if(line.startsWith('◆'))role='lector';
+  else if(line.startsWith('[')){segments.push({kind:'guide',parts:[{kind:'guide',text:line}]});current=null;continue;}
+  add(role,{kind:'text',text:line});
+ }
+ return segments;
+}
+function spokenRoleAt(text,offset,initial='text'){
+ let role=initial;for(const line of text.slice(0,offset).split('\n')){if(line.trim().startsWith('◎'))role='assembly';else if(line.trim().startsWith('+'))role='priest';else if(line.trim().startsWith('◆'))role='lector';}return role;
+}
+function liturgyNode(text,initial='text'){
+ const stack=document.createElement('div');stack.className='reader__liturgy';stack.__sourceText=text;stack.__initialRole=initial;
+ spokenSegments(text,initial).forEach(segment=>{
+  const parts=find('mode').value==='regular'?segment.parts.filter(part=>part.kind!=='guide'):segment.parts;if(!parts.length)return;
+  const card=document.createElement('div');card.className=segment.kind==='guide'?'reader__guidance':`reader__speech-card reader__speech-card--${segment.kind}`;
+  card.setAttribute('data-speech-role',segment.kind);
+  if(['assembly','priest','lector'].includes(segment.kind))card.setAttribute('aria-label',({assembly:'합송',priest:'사제의 부분',lector:'독서자의 부분'})[segment.kind]);
+
+  let speechBody=null;
+  const openRow=markerText=>{const row=document.createElement('div');row.className='reader__speech-row';const marker=document.createElement('span');marker.className='reader__speech-marker';marker.setAttribute('aria-hidden','true');marker.textContent=markerText;speechBody=document.createElement('div');speechBody.className='reader__speech-body';row.append(marker,speechBody);card.append(row);};
+  parts.forEach(part=>{
+   if(part.kind==='guide'){const p=document.createElement('p');p.className=segment.kind==='guide'?'reader__speech-text':'reader__speech-text reader__guidance';p.textContent='안내 · '+part.text.replace(/^\[(?:안내|프레임 안내|자료 안내)\]\s*|^인쇄본 안내:\s*/,'');if(segment.kind==='guide')card.append(p);else{if(!speechBody)openRow('');speechBody.append(p);}return;}
+   const match=part.text.match(/^([+◎◆○●])\s*/);if(match||!speechBody)openRow(match?match[1]:'');
+   const p=document.createElement('p');p.className='reader__speech-text';p.textContent=match?part.text.slice(match[0].length):part.text;speechBody.append(p);
+  });
+  stack.append(card);
+ });return stack;
+}
+function decorateLiturgy(root){
+ Array.from(root.querySelectorAll('.reader__item-text')).forEach(p=>{
+  const source=p.textContent;if(!source || p.parentElement?.getAttribute('data-content-source')==='cbck-daily-collect')return;
+  const parent=p.parentElement;p.replaceWith(liturgyNode(source));
+  if(parent?.classList.contains('reader__content-card') && !parent.classList.contains('reader__content-card--score'))parent.classList.add('reader__content-card--liturgy');
+ });
+}
+function replaceLiturgyText(root,text,initial='text'){
+ const target=root.querySelector('.reader__liturgy')||root.querySelector('.reader__item-text');
+ if(target){const parent=target.parentElement;target.replaceWith(liturgyNode(text,initial));if(parent?.classList.contains('reader__content-card') && !parent.classList.contains('reader__content-card--score'))parent.classList.add('reader__content-card--liturgy');}
+}
+
+const dailyMissaSnapshot = {"date": "2026-10-18", "title": "연중 제29주일", "observance": "민족들의 복음화를 위한 미사(전교 주일)", "season": "연중 시기", "sourceUrl": "https://missa.cbck.or.kr/DailyMissa/20261018", "status": "verified-page-snapshot-not-live-api", "collectVariants": ["하느님,\n모든 사람이 진리를 깨달아 구원되기를 바라시니\n수확할 밭에 일꾼들을 많이 보내시어\n모든 이에게 복음을 전하게 하시고\n하느님의 백성이 생명의 말씀을 듣고 성사로 힘을 얻어\n구원과 사랑의 길을 걷게 하소서.\n성부와 성령과 함께 천주로서\n영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.", "하느님,\n참빛이신 성자를 이 세상에 보내셨으니\n약속하신 성령을 내리시어\n사람들 마음속에 언제나 진리의 씨앗을 심고\n신앙의 꽃을 피우게 하시며\n모든 이가 세례로 다시 태어나 새 생명을 얻고\n하느님 나라에서 한 백성을 이루게 하소서.\n성부와 성령과 함께 천주로서\n영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다."]};
+
+function selectedDailyData(){return find('date').value===dailyMissaSnapshot.date?dailyMissaSnapshot:null;}
+function updateLiturgicalHeading(){
+ const day=selectedDailyData();find('liturgical-day').textContent=day?day.title+' · 전교 주일':'전례일 미연동';find('liturgical-season').textContent=currentSeason()?.title || (day?day.season:'시기 미확인');
+}
+function renderCollect(){
+ const section=document.createElement('section');section.className='reader__item reader__item--collect';
+ const h=document.createElement('h3');h.className='reader__item-title';h.textContent='본기도';section.append(h);
+ section.append(liturgyNode('+ 기도합시다.\n[안내] 모두 잠깐 침묵하며 기도합니다.'));
+ const day=selectedDailyData();const card=document.createElement('div');card.className='reader__content-card reader__collect-scroll';card.setAttribute('tabindex','0');card.setAttribute('aria-label','매일미사 본기도 본문');card.setAttribute('data-content-source','cbck-daily-collect');
+ if(!day){const label=document.createElement('p');label.textContent='선택 날짜 본문 연결 예정';card.append(label);}
+ const body=document.createElement('p');body.className='reader__item-text';
+ if(day){
+  const group=document.createElement('div');group.className='reader__prayer-option';group.setAttribute('role','group');group.setAttribute('aria-label','수록 본기도 표시');card.append(group);
+  const buttons=[];const show=index=>{body.textContent=day.collectVariants[index];buttons.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===index)));scheduleReflow(section.getAttribute('data-flow-key'));};
+  day.collectVariants.forEach((text,i)=>{const b=document.createElement('button');b.type='button';b.textContent=`수록 본문 ${i+1}`;b.setAttribute('aria-pressed',String(i===collectView));b.onclick=()=>{collectView=i;show(i);};buttons.push(b);group.append(b);});
+  body.textContent=day.collectVariants[collectView];
+  
+ }else body.textContent=frameMock;
+ card.append(body);
+ if(day){const source=document.createElement('a');source.href=day.sourceUrl;source.target='_blank';source.rel='noopener noreferrer';source.textContent='매일미사 출처 · 2026-10-18 (저장본, 실시간 연동 아님)';card.append(source);}
+ section.append(card,liturgyNode('◎ 아멘.'));return section;
+}
+let collectView=0;
+
+
+const seasonCalendar2026={year:2026,sourceUrl:'https://missa.cbck.or.kr/Liturgy',periods:[
+ {key:'ordinary',title:'연중 시기',start:'2026-01-12',end:'2026-02-17',description:'1월 12일 ~ 2월 17일'},
+ {key:'lent',title:'사순 시기',start:'2026-02-18',end:'2026-04-01',description:'2월 18일 재의 수요일 ~ 4월 2일 주님 만찬 미사 전'},
+ {key:'easter',title:'부활 시기',start:'2026-04-05',end:'2026-05-24',description:'4월 5일 주님 부활 대축일 ~ 5월 24일 성령 강림 대축일 (부활 성야부터)'},
+ {key:'ordinary',title:'연중 시기',start:'2026-05-25',end:'2026-11-28',description:'5월 25일 ~ 11월 28일'}
+]};
+function currentSeason(date=find('date').value){return seasonCalendar2026.periods.find(x=>date>=x.start && date<=x.end) || null;}
+const parishMemorialResponses={
+ ordinary:{label:'연중 시기',text:'◎ 주님께서 오실 때까지 주님의 죽음을 전하며 부활을 선포하나이다.',crop:[2050,540,1800,760]},
+ lent:{label:'사순 시기',text:'◎ 주님께서 오실 때까지 이 빵을 먹고 이 잔을 마실 적마다 주님의 죽음을 전하나이다.',crop:[2050,1330,1800,710]},
+ easter:{label:'부활 시기',text:'◎ 십자가와 부활로 저희를 구원하신 주님, 길이 영광 받으소서.',crop:[2050,2100,1800,700]}
+};
+function memorialResponse(){const season=currentSeason();return season?parishMemorialResponses[season.key]:null;}
+let scoreModalOpener=null,seasonModalOpener=null;
+function enlargeScoreButton(asset){const b=document.createElement('button');b.type='button';b.textContent='악보 크게 보기';b.className='reader__score-enlarge';b.setAttribute('aria-haspopup','dialog');b.onclick=()=>showScoreModal([asset],asset.title,b);return b;}
+function showScoreModal(assets,title,trigger){
+ scoreModalOpener=trigger;const body=find('score-modal-body');body.replaceChildren();find('score-modal-title').textContent=title+' · 악보 크게 보기';
+ assets.forEach(asset=>{
+  if(asset.kind==='engraved'){
+   const pdf=document.createElement('object');pdf.className='reader__pdf-object';pdf.type='application/pdf';pdf.data=encodeURI(asset.path)+'#view=FitH';pdf.setAttribute('aria-label',asset.title+' PDF 악보');
+   const fallback=document.createElement('a');fallback.href=encodeURI(asset.path);fallback.target='_blank';fallback.rel='noopener noreferrer';fallback.textContent='악보 파일 보기';pdf.append(fallback);body.append(pdf);
+  }else body.append(renderPhoto(asset,true));
+ });find('score-modal').showModal();find('score-modal-close').focus();
+}
+const seasonMeanings = {
+ ordinary: {title:'연중 시기', text:'예수 그리스도의 구원 신비 전체를 묵상하며, 그분의 말씀과 삶을 일상에서 따라 살아가는 시기입니다. 성탄 시기 뒤와 부활 시기 뒤, 두 구간으로 나뉩니다.'},
+ lent: {title:'사순 시기', text:'예수님의 수난과 죽음을 묵상하며 부활을 준비하는 시기입니다. 기도와 회개, 절제와 이웃을 위한 나눔으로 하느님께 돌아가도록 초대받습니다.'},
+ easter: {title:'부활 시기', text:'예수 그리스도의 부활을 기뻐하며 새 생명과 희망을 나누는 시기입니다. 주님 부활 대축일부터 성령 강림 대축일까지 이어지며, 부활하신 주님의 증인으로 살아가도록 초대받습니다.'}
+};
+let seasonHelpOpener=null;
+function showSeasonHelp(key,trigger){
+ const meaning=seasonMeanings[key];if(!meaning)return;
+ seasonHelpOpener=trigger;find('season-help-title').textContent=meaning.title+'란?';find('season-help-text').textContent=meaning.text;
+ find('season-help-source').href='https://home.catholic.or.kr/pdsm/bbs_view.asp?id=185256&menu=4798';
+ find('season-help-modal').showModal();find('season-help-close').focus();
+}
+function showSeasonModal(trigger){
+ seasonModalOpener=trigger;const body=find('season-modal-body');body.replaceChildren();const year=find('date').value.slice(0,4);find('season-modal-title').textContent=year+'년 전례 시기';
+ if(year==='2026'){
+  const current=currentSeason();seasonCalendar2026.periods.forEach(period=>{const card=document.createElement('section');card.className='reader__season-period';if(current===period)card.setAttribute('aria-current','true');const h=document.createElement('h3');h.textContent=period.title+(current===period?' · 현재 선택한 시기':'');const heading=document.createElement('div');heading.className='reader__modal-heading';const help=document.createElement('button');help.type='button';help.className='reader__season-help';help.textContent='?';help.setAttribute('aria-label',period.title+' 의미 알아보기');help.setAttribute('aria-haspopup','dialog');help.setAttribute('aria-controls','season-help-dialog');help.title=period.title+'란?';help.onclick=()=>showSeasonHelp(period.key,help);heading.append(h,help);const p=document.createElement('p');p.textContent=period.description;card.append(heading,p);body.append(card);});
+  const note=document.createElement('p');note.textContent='성주간 목요일 저녁부터 부활 성야 전까지는 파스카 성삼일입니다. 대림·성탄과 해당 경계의 상세 미사 구분은 후속 전례력 연결 대상입니다.';body.append(note);
+  const source=document.createElement('a');source.href=seasonCalendar2026.sourceUrl;source.target='_blank';source.rel='noopener noreferrer';source.textContent='2026년 전례력 자료';body.append(source);
+ }else{const p=document.createElement('p');p.textContent='선택한 연도의 전례 시기 자료 연결 전입니다.';body.append(p);}
+ find('season-modal').showModal();find('season-modal-close').focus();
+}
+function renderMockTextCard(title,source){
+ const section=document.createElement('section');section.className='reader__item';const h=document.createElement('h3');h.className='reader__item-title';h.textContent=title;
+ const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-content-source',source);const label=document.createElement('p');label.textContent=source==='parish-bulletin-mock'?'주보 공지 · mock · 신부님 안내':'매일미사 본문 · mock';const p=document.createElement('p');p.textContent=frameMock;card.append(label,p);section.append(h,card);
+ if(title!=='공지 사항')section.append(liturgyNode('◎ 아멘.'));return section;
+}
+function dismissalChoices(){return referenceText('파견').split('\n').filter(line=>line.startsWith('+')).map((text,i)=>({key:'dismissal-'+i,title:'파견',text}));}
+
+const scoreSourceCatalog = {"자비송": {"title": "자비송", "confirmedNumber": null, "matchStatus": "unresolved", "candidates": [{"numbers": [306], "file": "306 자비송-김대붕(2009-9-13).enc", "path": "../docs/references/catholic-enc/306 자비송-김대붕(2009-9-13).enc", "sha256": "26b04c5f15a51c0074b1d140da4ced6db035ec1881944c358614b84f0189a353", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=306"]}, {"numbers": [310], "file": "310 자비송-손상오(2009-9-18).enc", "path": "../docs/references/catholic-enc/310 자비송-손상오(2009-9-18).enc", "sha256": "88bf262a74423662cf154c37870fb7ae7c86c17ac6afad34b00fc41693d1822d", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=310"]}, {"numbers": [315], "file": "315 자비송-이문근(2009-9-27).enc", "path": "../docs/references/catholic-enc/315 자비송-이문근(2009-9-27).enc", "sha256": "73057d5a828e7ec1e7e8771bfeea4a5ce6bf881b43d094ce6635f01bcbaa6fe9", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=315"]}, {"numbers": [320], "file": "320 자비송-이문근(2009-9-27).enc", "path": "../docs/references/catholic-enc/320 자비송-이문근(2009-9-27).enc", "sha256": "db361099a3271db93aa52b30503a8d8e7a5db1bcffdabb3b0fa2e1609b6ac87c", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=320"]}, {"numbers": [325], "file": "325 자비송-이문근(2009-10-6).enc", "path": "../docs/references/catholic-enc/325 자비송-이문근(2009-10-6).enc", "sha256": "add4fc1788de6125761326b9facd0d0b018a32cf33f93f7a6ebd2d5d81f5fceb", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=325"]}, {"numbers": [350], "file": "350 자비송(위령)-김대붕(2009-12-3).enc", "path": "../docs/references/catholic-enc/350 자비송(위령)-김대붕(2009-12-3).enc", "sha256": "1ae08c3ee71b81dfdec960abf0ac2b3eca46cd6bef585424f3d9edb732dfc77e", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=350"]}, {"numbers": [354], "file": "354 자비송(2009-12-3).enc", "path": "../docs/references/catholic-enc/354 자비송(2009-12-3).enc", "sha256": "f6a9b443bbdeb5c8f3d1c12f58e850ae19c114592491df229c4e855934d62522", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=354"]}]}, "대영광송": {"title": "대영광송", "confirmedNumber": null, "matchStatus": "unresolved", "candidates": [{"numbers": [307], "file": "307 대영광송(2009-9-13).enc", "path": "../docs/references/catholic-enc/307 대영광송(2009-9-13).enc", "sha256": "ad1bab1be99aaa9db78028840b473249f061e9f80cec0d2a5bd2cf846e290d27", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=307"]}, {"numbers": [311], "file": "311 대영광송(2009-9-24).enc", "path": "../docs/references/catholic-enc/311 대영광송(2009-9-24).enc", "sha256": "5f8e123b74bd0ed2b45bcdb4c12be7b1f577fd9d6e5487502adc8339f7f88678", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=311"]}, {"numbers": [316], "file": "316 대영광송(2009-9-27).enc", "path": "../docs/references/catholic-enc/316 대영광송(2009-9-27).enc", "sha256": "9d986eb7da4c31e4dd48c6c7f7ef8360d971c6d294fdc3209527753fa3ee4cc9", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=316"]}, {"numbers": [321], "file": "321 대영광송(2009-9-28).enc", "path": "../docs/references/catholic-enc/321 대영광송(2009-9-28).enc", "sha256": "43e61ac039a835f2a7e693905ad5ed359400f9d4914931239f574e228496b7a0", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=321"]}, {"numbers": [326], "file": "326 대영광송(2009-10-7).enc", "path": "../docs/references/catholic-enc/326 대영광송(2009-10-7).enc", "sha256": "9b4439417f6592004d9ea0c0c9f5045a26b6a7b769cebb87c35898a8d95ba926", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=326"]}]}, "거룩하시도다": {"title": "거룩하시도다", "confirmedNumber": null, "matchStatus": "unresolved", "candidates": [{"numbers": [308], "file": "308 거룩하시도다(2009-9-18).enc", "path": "../docs/references/catholic-enc/308 거룩하시도다(2009-9-18).enc", "sha256": "1ae2aee929fa408a61da26781ffab1902e198498e8f6d01694c350b9c14144c7", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=308"]}, {"numbers": [312], "file": "312 거룩하시도다(2009-9-24).enc", "path": "../docs/references/catholic-enc/312 거룩하시도다(2009-9-24).enc", "sha256": "fb8661e838273aad102ab9c407774840d845e17c9f63178435dc43d77e1a2ec3", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=312"]}, {"numbers": [317], "file": "317 거룩하시도다(2009-9-27).enc", "path": "../docs/references/catholic-enc/317 거룩하시도다(2009-9-27).enc", "sha256": "70cc8a61ee4c161a26e779f7dcfca9add0e8c0fd3b4ea608436c19a8b3e95437", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=317"]}, {"numbers": [322], "file": "322 거룩하시도다(2009-9-30).enc", "path": "../docs/references/catholic-enc/322 거룩하시도다(2009-9-30).enc", "sha256": "3dc8d7d09209cd42830861b1d0559026167b6af26bb55801eb3980856658230d", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=322"]}, {"numbers": [327], "file": "327 거룩하시도다(2009-10-12).enc", "path": "../docs/references/catholic-enc/327 거룩하시도다(2009-10-12).enc", "sha256": "31792820c3de0b4d51d264a0d527546762765fb2f0a394c8db85a43d97f94a5c", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=327"]}, {"numbers": [333], "file": "333 거룩하시도다.enc", "path": "../docs/references/catholic-enc/333 거룩하시도다.enc", "sha256": "088717b54c1dfc69aefed50d755d656ec9567f97a274b00256b1a03563fecf93", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=333"]}, {"numbers": [341], "file": "341 거룩하시도다(2009-10-28).enc", "path": "../docs/references/catholic-enc/341 거룩하시도다(2009-10-28).enc", "sha256": "831d02283c643d04af1b958d1244f63c083fc8c3e61ca232153f5f10afa46371", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=341"]}, {"numbers": [348], "file": "348 거룩하시도다(2009-11-4).enc", "path": "../docs/references/catholic-enc/348 거룩하시도다(2009-11-4).enc", "sha256": "31408d56b55b42de48fd5108941714f5234f038ee1a4137bc25596165216e307", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=348"]}, {"numbers": [351], "file": "351 거룩하시도다(2009-12-3).enc", "path": "../docs/references/catholic-enc/351 거룩하시도다(2009-12-3).enc", "sha256": "106176d3709f912a76535e28ca87d1d840792e3828f935c7e253deb14c92c7f6", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=351"]}, {"numbers": [357], "file": "357 거룩하시도다(2010-11-1).enc", "path": "../docs/references/catholic-enc/357 거룩하시도다(2010-11-1).enc", "sha256": "cfa6b8ef26f3695f26b43971f9035782811e2013d4467c0cae4ca7aef6841b02", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=357"]}]}, "신앙의 신비여": {"title": "신앙의 신비여", "confirmedNumber": null, "matchStatus": "unresolved", "candidates": [{"numbers": [314], "file": "314 신앙의 신비여(2009-9-24).enc", "path": "../docs/references/catholic-enc/314 신앙의 신비여(2009-9-24).enc", "sha256": "5ad591ace24afaeebf7106bea7ec2f4a56c5aa198e13c87dcef7ade6929b1fc8", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=314"]}, {"numbers": [373], "file": "373 신앙의 신비여(2014-4-26).enc", "path": "../docs/references/catholic-enc/373 신앙의 신비여(2014-4-26).enc", "sha256": "68e4b0372d361c2f29846ca1bece6f2cb709fb049f1b853ce8c5b94004e8376e", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=373"]}, {"numbers": [374], "file": "374 신앙의 신비여(2014-4-26).enc", "path": "../docs/references/catholic-enc/374 신앙의 신비여(2014-4-26).enc", "sha256": "b93791d45854b94173f18502ae1673ea2e035a0e9eee04295125424231144db2", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=374"]}, {"numbers": [375], "file": "375 신앙의 신비여(2014-4-26).enc", "path": "../docs/references/catholic-enc/375 신앙의 신비여(2014-4-26).enc", "sha256": "507f524a9b0c5757fb2501c1cda7acfc7b7e582891d1d2bd693aee283008d342", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=375"]}, {"numbers": [376], "file": "376 신앙의 신비여(2014-4-26).enc", "path": "../docs/references/catholic-enc/376 신앙의 신비여(2014-4-26).enc", "sha256": "98a5f4c5623ad1732b6a1ad06295393dd57c08fc3f393f2c5e1eef4c10c11487", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=376"]}]}, "아멘": {"title": "아멘", "confirmedNumber": null, "matchStatus": "unresolved", "candidates": [{"numbers": [377, 378, 379], "file": "377-379 아멘(2014-4-27).enc", "path": "../docs/references/catholic-enc/377-379 아멘(2014-4-27).enc", "sha256": "52af94040330f2e50ca40b708c1036458ce39fbf83f99b983b698d27494e20fc", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=377", "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=378", "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=379"]}, {"numbers": [380, 381, 382], "file": "380-382 아멘(2014-4-27).enc", "path": "../docs/references/catholic-enc/380-382 아멘(2014-4-27).enc", "sha256": "c8a340cd13b3264b1f2fa15051b0f6e45560b861183eca9e81cedb96bb88e9da", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=380", "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=381", "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=382"]}, {"numbers": [383, 384, 385], "file": "383-385 아멘(2014-4-27).enc", "path": "../docs/references/catholic-enc/383-385 아멘(2014-4-27).enc", "sha256": "01513ddd59142bc59074566f9438e00dfd194739ac53287ec12501a95e047c24", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=383", "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=384", "https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=385"]}, {"numbers": [386], "file": "386 아멘(2014-4-27).enc", "path": "../docs/references/catholic-enc/386 아멘(2014-4-27).enc", "sha256": "4ed3b4aa646431606c2b0befa67bac9d666db05bc8bf84750712225b620da8af", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=386"]}]}, "주님의 기도": {"title": "주님의 기도", "confirmedNumber": null, "matchStatus": "unresolved", "candidates": [{"numbers": [318], "file": "318 주님의 기도(2009-9-27).enc", "path": "../docs/references/catholic-enc/318 주님의 기도(2009-9-27).enc", "sha256": "179a17c57afdbf9931032b6b0748043c664ab82123cfc30e77e323c4a316840f", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=318"]}, {"numbers": [323], "file": "323 주님의 기도(2009-9-30).enc", "path": "../docs/references/catholic-enc/323 주님의 기도(2009-9-30).enc", "sha256": "ee5aa831e80549abcb51cc73cda12ad5005c538942de46f984a3f7596842bdec", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=323"]}, {"numbers": [387], "file": "387 주님의 기도.enc", "path": "../docs/references/catholic-enc/387 주님의 기도.enc", "sha256": "b6883255a14f5a98b32e3014a65b991c1050e94141319a755367d26319da11a9", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=387"]}, {"numbers": [388], "file": "388 주님의 기도(2014-4-27).enc", "path": "../docs/references/catholic-enc/388 주님의 기도(2014-4-27).enc", "sha256": "fc80e9a533598ea2c4a7d5279a03088135c9b4231b43160e02ac20d42a229af5", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=388"]}]}, "하느님의 어린양": {"title": "하느님의 어린양", "confirmedNumber": null, "matchStatus": "unresolved", "candidates": [{"numbers": [497], "file": "497 하느님의 어린양.enc", "path": "../docs/references/catholic-enc/497 하느님의 어린양.enc", "sha256": "d883b34591ce673b9ec9898b11a9004c6a3d631ed5a0509be26cb18fc0a71960", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=497"]}, {"numbers": [160], "file": "160 하느님의 어린양.enc", "path": "../docs/references/catholic-enc/160 하느님의 어린양.enc", "sha256": "7095af3d48b7d73b4f947a28c2ba98d2cc0c4f24404d714099f4e61c631973ef", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=160"]}, {"numbers": [309], "file": "309 하느님의 어린양(2009-9-18).enc", "path": "../docs/references/catholic-enc/309 하느님의 어린양(2009-9-18).enc", "sha256": "e434f9ea294311353939a0ae8dfde69d05ba4e376f9cc3879b387dc8d876d4e8", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=309"]}, {"numbers": [313], "file": "313 하느님의 어린양(2009-9-24).enc", "path": "../docs/references/catholic-enc/313 하느님의 어린양(2009-9-24).enc", "sha256": "3922bd85718868d748ba036da923e56c2cdaa578f8abba158f6f705fcefd0b1e", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=313"]}, {"numbers": [319], "file": "319 하느님의 어린양(2009-9-27).enc", "path": "../docs/references/catholic-enc/319 하느님의 어린양(2009-9-27).enc", "sha256": "980060472649b01d84f32a01fa546beaf374088a2c42bf9cfd3101ac435f2356", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=319"]}, {"numbers": [324], "file": "324 하느님의 어린양(2009-10-6).enc", "path": "../docs/references/catholic-enc/324 하느님의 어린양(2009-10-6).enc", "sha256": "38851bcf8de1e03a66e8af0eb51f5ab2079e3208e71943d69944c070af059e02", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=324"]}, {"numbers": [328], "file": "328 하느님의 어린양(2009-10-12).enc", "path": "../docs/references/catholic-enc/328 하느님의 어린양(2009-10-12).enc", "sha256": "809e72b4f2211254ece0490924b3ea336190bdf0c1422df5709ee28557e0bb37", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=328"]}, {"numbers": [335], "file": "335 하느님의 어린양.enc", "path": "../docs/references/catholic-enc/335 하느님의 어린양.enc", "sha256": "b6befbfd4313b8df6dcd1ea5e187ef1208466560efcd76236c9599c39f3ed3c4", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=335"]}, {"numbers": [343], "file": "343 하느님의 어린양(2009-10-28).enc", "path": "../docs/references/catholic-enc/343 하느님의 어린양(2009-10-28).enc", "sha256": "730d87ddd20324a7dd2e01fa1a726f9ecb24f0bc4aadbc6fc8f758bb10cc98a7", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=343"]}, {"numbers": [343], "file": "343 하느님의 어린양.enc", "path": "../docs/references/catholic-enc/343 하느님의 어린양.enc", "sha256": "a877f41f2bc30d63854d1d366b319cd053d61fa727074b30e5ec7c4e0591fa6f", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=343"]}, {"numbers": [352], "file": "352 하느님의 어린양(2009-12-3).enc", "path": "../docs/references/catholic-enc/352 하느님의 어린양(2009-12-3).enc", "sha256": "d6ee75feea580529f22d526e0a6f82e4787b98ccf3057fcbfbdc12a2e6a42e96", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=352"]}, {"numbers": [358], "file": "358 하느님의 어린양(2011-1-20).enc", "path": "../docs/references/catholic-enc/358 하느님의 어린양(2011-1-20).enc", "sha256": "a70d7a96d274bb71a365f1fea0e02b80bf244482719c383097800d9989502a8c", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=358"]}]}, "복음 환호송": {"title": "복음 환호송", "confirmedNumber": 365, "matchStatus": "user-confirmed-and-16-note-melody-checked", "candidates": [{"numbers": [331], "file": "331 복음환호송(2009-10-12).enc", "path": "../docs/references/catholic-enc/331 복음환호송(2009-10-12).enc", "sha256": "286db98b05df2da30fd512d76e56d3317e11a2720d9609e9d80b18440fbf55fc", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=331"]}, {"numbers": [339], "file": "339 복음 환호송(2009-10-28).enc", "path": "../docs/references/catholic-enc/339 복음 환호송(2009-10-28).enc", "sha256": "fed4d455950085ef6c23e8b74e0f3bfb990814eacef1daa149b0b7f229425020", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=339"]}, {"numbers": [364], "file": "364 복음환호송(2012-7-14).enc", "path": "../docs/references/catholic-enc/364 복음환호송(2012-7-14).enc", "sha256": "8dadf870a8bde815480b05f28e3e00e9906a9b289c9c1315944885cb972d07ba", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=364"]}, {"numbers": [365], "file": "365 복음환호송(2014-4-25).enc", "path": "../docs/references/catholic-enc/365 복음환호송(2014-4-25).enc", "sha256": "678709a6cf60abeb7e335aa4b2e992d6b08a747a48d2bc4b092d1490c1c28fcd", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=365"]}, {"numbers": [366], "file": "366 복음환호송(2014-4-25).enc", "path": "../docs/references/catholic-enc/366 복음환호송(2014-4-25).enc", "sha256": "68dbf2fb12bc0c7b23acfcfff69b3fb11c1a807be034f68448aec920d43f2166", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=366"]}], "sourceUrl": "https://app.catholic.or.kr/web/sungga/default.asp?flag=5&sunggaId=365"}, "주님의 기도 맺음 환호": {"title": "주님의 기도 맺음 환호", "confirmedNumber": null, "matchStatus": "unresolved", "candidates": [{"numbers": [318], "file": "318 주님의 기도(2009-9-27).enc", "path": "../docs/references/catholic-enc/318 주님의 기도(2009-9-27).enc", "sha256": "179a17c57afdbf9931032b6b0748043c664ab82123cfc30e77e323c4a316840f", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=318"]}, {"numbers": [323], "file": "323 주님의 기도(2009-9-30).enc", "path": "../docs/references/catholic-enc/323 주님의 기도(2009-9-30).enc", "sha256": "ee5aa831e80549abcb51cc73cda12ad5005c538942de46f984a3f7596842bdec", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=323"]}, {"numbers": [387], "file": "387 주님의 기도.enc", "path": "../docs/references/catholic-enc/387 주님의 기도.enc", "sha256": "b6883255a14f5a98b32e3014a65b991c1050e94141319a755367d26319da11a9", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=387"]}, {"numbers": [388], "file": "388 주님의 기도(2014-4-27).enc", "path": "../docs/references/catholic-enc/388 주님의 기도(2014-4-27).enc", "sha256": "fc80e9a533598ea2c4a7d5279a03088135c9b4231b43160e02ac20d42a229af5", "matchStatus": "title-only-not-melody-confirmed", "officialPages": ["https://maria.catholic.or.kr/sungga/search/sungga_view.asp?ctxtIndex=388"]}], "note": "주님의 기도 항목에 수록된 맺음 환호가 같은 곡인지 추가 대조 필요"}};
+
+let sourceDialogOpener=null;
+function sourceForAsset(asset){return scoreSourceCatalog[asset.sourceKey] || Object.values(scoreSourceCatalog).find(x=>asset.title.startsWith(x.title));}
+function sourceButton(asset){
+ const entry=sourceForAsset(asset);if(!entry)return null;const b=document.createElement('button');b.type='button';b.textContent=entry.confirmedNumber?'가톨릭성가 '+entry.confirmedNumber+'번':'출처 · 번호 미확인';b.setAttribute('aria-haspopup','dialog');b.onclick=()=>showSourceDialog(entry,b);return b;
+}
+function showSourceDialog(entry,trigger){
+ sourceDialogOpener=trigger;find('source-dialog-title').textContent=entry.title+' · 출처';const body=find('source-dialog-body');body.replaceChildren();const note=document.createElement('p');note.textContent=entry.confirmedNumber?'가톨릭성가 '+entry.confirmedNumber+'번 · 본당 사용곡 사용자 확인 및 알렐루야 선율 대조':'동일 제목의 ZIP 수록 후보입니다. 사진 악보와 선율이 같은 번호는 아직 확인되지 않았습니다. 사진의 17·18 등은 인쇄물 번호이며 가톨릭성가 번호로 확정하지 않습니다.';body.append(note);
+ if(entry.sourceUrl){const a=document.createElement('a');a.href=entry.sourceUrl;a.target='_blank';a.rel='noopener noreferrer';a.textContent='굿뉴스 · 지정 성가 출처';body.append(a);}
+ const list=document.createElement('ul');entry.candidates.forEach(candidate=>{if(entry.confirmedNumber && !candidate.numbers.includes(entry.confirmedNumber))return;const li=document.createElement('li');const a=document.createElement('a');a.href=encodeURI(candidate.path);a.download=candidate.file;a.textContent=candidate.file;li.append(a);candidate.officialPages.forEach((url,i)=>{const link=document.createElement('a');link.href=url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=' · '+candidate.numbers[i]+'번 정보';li.append(link);});list.append(li);});body.append(list);find('source-dialog').showModal();find('source-dialog-close').focus();
+}
+function renderAlleluia(part=null){
+ const section=document.createElement('section');section.className='reader__item';const row=document.createElement('div');row.className='reader__item-heading';const h=document.createElement('h3');h.className='reader__item-title';h.textContent='복음 환호송';row.append(h);section.append(row);
+ const mode=parishPrayerPresentation['복음 환호송']||'chant';const group=document.createElement('div');group.className='reader__prayer-option';group.setAttribute('role','group');group.setAttribute('aria-label','알렐루야 표시 방식');row.append(group);
+ [['recite','낭송 · 본문'],['chant','성가 · 악보']].forEach(([key,label])=>{const b=document.createElement('button');b.type='button';b.className='reader__prayer-button';b.textContent=label;b.setAttribute('aria-pressed',String(mode===key));b.onclick=()=>{parishPrayerPresentation['복음 환호송']=key;scheduleReflow(section.getAttribute('data-flow-key'));};group.append(b);});
+ const response=()=>{const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-acclamation-role','assembly');if(mode==='chant')card.append(renderPhoto(reengravedPrincipalScores['복음 환호송'][0]));else card.append(liturgyNode('◎ 알렐루야, 알렐루야, 알렐루야.'));return card;};
+ const first=response();const choir=document.createElement('div');choir.className='reader__content-card';choir.setAttribute('data-acclamation-role','choir');choir.setAttribute('data-content-source','daily-acclamation-verse');const label=document.createElement('p');label.textContent='성가대';const p=document.createElement('p');p.className='reader__item-text';p.textContent=selectedDailyData()?'○ 주님이 말씀하신다. 너희는 가서 모든 민족들을 가르쳐라. 내가 세상 끝 날까지 언제나 너희와 함께 있으리라.':'[오늘의 복음 환호송 구절 · 매일미사 연결용 mock]\n'+frameMock;choir.append(label,p);const last=response();section.append(first,choir,last);if(part==='first')section.replaceChildren(row,first);else if(part==='choir')section.replaceChildren(choir);else if(part==='last')section.replaceChildren(last);return section;
+}
+
+const frameMock='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+let creedView='nicene',kyrieView='ordinary';
+function referenceText(key){return localOrdinaryReference.records.find(x=>x.key===key)?.text || '';}
+function variantCards(key){
+ const text=referenceText(key);
+ if(key==='인사')return text.split(/\[(?:또는 )?선택지 [123]\]/).slice(1).map((text,i)=>({key:`greeting-${i+1}`,title:`인사 · 선택지 ${i+1}`,text:text.split("\n").filter(line=>!line.trim().startsWith("◎")).join("\n").trim()}));
+ if(key==='참회 예식'){
+  const parts=text.split(/\[(?:또는 )?선택지 [12] ·[^\]]*\]/).slice(1);
+  return parts.map((text,i)=>({key:`penitential-${i+1}`,title:`참회 예식 · 선택지 ${i+1}`,text:i===0?text.trim():text.split('+ 진심으로')[0].trim()}));
+ }return [];
+}
+function kyrieText(){
+ if(kyrieView==='ordinary')return referenceText('자비송');
+ const text=referenceText('참회 예식');const index=text.indexOf('+ 진심으로');return index>=0?text.slice(index):'[참회 호칭 자료 미등록]';
+}
+function creedVariants(){
+ const text=referenceText('신앙 고백');
+ const nicene=text.split(/\[니케아[^\]]*\]/)[1]?.split('[또는 사도 신경]')[0]?.trim() || '';
+ const apostles=text.split('[또는 사도 신경]')[1]?.trim() || '';
+ return [{key:'nicene',title:'니케아 콘스탄티노플 신경',text:nicene},{key:'apostles',title:'사도 신경',text:apostles}];
+}
+function readingFrameText(title){
+ if(title==='보편 지향 기도')return '[매일미사 연결용 본문 · mock]\n'+frameMock;
+ if(title==='복음')return '+ 주님께서 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n+ (          )가(이) 전한 거룩한 복음입니다.\n[안내] 이마와 입술과 가슴에 작은 십자 표시를 합니다.\n◎ 주님, 영광 받으소서.\n[매일미사 복음 본문 · mock]\n'+frameMock+'\n+ 주님의 말씀입니다.\n◎ 그리스도님 찬미합니다.';
+ return (title==='제1독서'?'[안내] 앉아서 말씀을 듣습니다.\n':'')+'[매일미사 독서 본문 · mock]\n'+frameMock+'\n◆ 주님의 말씀입니다.\n◎ 하느님, 감사합니다.';
+}
+
+function ordinaryText(key, mode='beginner') {
+ if(key==='신앙의 신비여'){const response=memorialResponse();return '+ 신앙의 신비여!\n'+(response?response.text:'[선택 날짜의 시기 자료 연결 전]');}
+ if(key==='감사기도 제2양식')key='감사 기도';
+ if(key==='자비송')return kyrieText();
+ if(key==='보편 지향 기도 응답')return '◎ 주님, 저희의 기도를 들어주소서.';
+ const keys=key==='거룩하시도다 · 신앙의 신비여'?['거룩하시도다','신앙의 신비여']:[key];
+ let text=keys.map(name=>localOrdinaryReference.records.find(record=>record.key===name)?.text || '[제공 통상문 자료에 이 본문 없음]').join('\n\n');
+ if(key==='영성체 예식 · 영성체 성가')text=text.split('\n').filter(line=>!line.startsWith('[자료에 오늘 영성체송')).join('\n');
+ if(key==='감사 기도')text=text.replace('(타대오와 요한보스코)','(타대오와 협력 주교들)');
+ if(key==='감사 기도')text=text.split('\n').filter(line=>!line.startsWith('[자료 안내] 인쇄본에 감사기도') && line!=='[감사송 대화]' && line!=='[인쇄본 수록 감사송 · 선택 미확정]').join('\n');
+ return mode==='regular'?text.split('\n').filter(line=>!line.startsWith('[안내]')).join('\n'):text;
+}
+
+// The prototype holds parish presentation choices in memory only, shared by all Sunday sessions.
+const parishPrayerPresentation = Object.create(null);
+parishPrayerPresentation['보편 지향 기도 응답']='chant';
+const prayerSourceRefs = {textRef:null, scoreRef:null, sourceUrl:null, licenseStatus:'unverified'};
+const temporaryPrincipalScores = {"자비송": [{"path": "../docs/교중미사악보/KakaoTalk_20261018_172809020.jpg", "title": "자비송", "rotation": 0, "width": 3000, "height": 4000, "temporary": true, "source": "user-provided", "licenseStatus": "unverified"}], "대영광송": [{"path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_01.jpg", "title": "대영광송 앞부분", "rotation": -90, "width": 3000, "height": 4000, "temporary": true, "source": "user-provided", "licenseStatus": "unverified"}, {"path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_02.jpg", "title": "대영광송 이어지는 부분", "rotation": 180, "width": 4000, "height": 3000, "temporary": true, "source": "user-provided", "licenseStatus": "unverified"}], "거룩하시도다 · 신앙의 신비여": [{"path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_03.jpg", "title": "거룩하시도다 · 신앙의 신비여 (함께 촬영)", "rotation": 180, "width": 4000, "height": 3000, "temporary": true, "source": "user-provided", "licenseStatus": "unverified"}], "아멘": [{"path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_04.jpg", "title": "아멘", "rotation": 0, "width": 3000, "height": 4000, "temporary": true, "source": "user-provided", "licenseStatus": "unverified"}], "주님의 기도": [{"path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_05.jpg", "title": "주님의 기도 앞부분", "rotation": 0, "width": 3000, "height": 4000, "temporary": true, "source": "user-provided", "licenseStatus": "unverified"}, {"path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_06.jpg", "title": "주님의 기도 이어지는 부분", "rotation": 0, "width": 3000, "height": 4000, "temporary": true, "source": "user-provided", "licenseStatus": "unverified"}], "주님의 기도 맺음 환호": [{"path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_07.jpg", "title": "주님의 기도 맺음 환호 · 하느님의 어린양 (함께 촬영)", "rotation": 0, "width": 3000, "height": 4000, "temporary": true, "source": "user-provided", "licenseStatus": "unverified"}], "하느님의 어린양": [{"path": "../docs/교중미사악보/KakaoTalk_20261018_172809020_07.jpg", "title": "하느님의 어린양 · 주님의 기도 맺음 환호 (함께 촬영)", "rotation": 0, "width": 3000, "height": 4000, "temporary": true, "source": "user-provided", "licenseStatus": "unverified"}]};
+
+temporaryPrincipalScores['거룩하시도다']=temporaryPrincipalScores['거룩하시도다 · 신앙의 신비여'];
+temporaryPrincipalScores['신앙의 신비여']=temporaryPrincipalScores['거룩하시도다 · 신앙의 신비여'];
+
+temporaryPrincipalScores['대영광송']=temporaryPrincipalScores['대영광송'].flatMap((asset,index)=>[
+ {...asset,title:`대영광송 ${index*2+1}쪽`,crop:[0,0,2000,3000]},
+ {...asset,title:`대영광송 ${index*2+2}쪽`,crop:[2000,0,2000,3000]}
+]);
+temporaryPrincipalScores['거룩하시도다']=temporaryPrincipalScores['거룩하시도다'].map(asset=>({...asset,crop:[0,0,2000,3000],title:'거룩하시도다'}));
+temporaryPrincipalScores['신앙의 신비여']=temporaryPrincipalScores['신앙의 신비여'].map(asset=>({...asset,crop:[2000,0,2000,3000],title:'신앙의 신비여'}));
+
+temporaryPrincipalScores['하느님의 어린양']=temporaryPrincipalScores['하느님의 어린양'].map(asset=>({...asset,crop:[360,1800,2460,1960],title:'하느님의 어린양'}));
+
+const reengravedPrincipalScores = {"아멘": [{"kind": "engraved", "title": "아멘", "path": "../docs/교중미사악보/reengraved/amen.pdf", "preview": "../docs/교중미사악보/reengraved/amen.svg", "status": "사진 대조 완료 · 본당 최종 교정 전", "systems": 1}], "자비송": [{"kind": "engraved", "title": "자비송", "path": "../docs/교중미사악보/reengraved/kyrie.pdf", "preview": "../docs/교중미사악보/reengraved/kyrie.svg", "scope": "principal", "sourceKey": "자비송", "status": "원본 대조 · 본당 최종 교정 전", "systems": 6}], "주님의 기도 맺음 환호": [{"kind": "engraved", "title": "주님의 기도 맺음 환호", "path": "../docs/교중미사악보/reengraved/doxology.pdf", "preview": "../docs/교중미사악보/reengraved/doxology.svg", "scope": "principal", "sourceKey": "주님의 기도 맺음 환호", "status": "원본 대조 · 본당 최종 교정 전", "systems": 2}], "복음 환호송": [{"kind": "engraved", "title": "복음 환호송", "path": "../docs/교중미사악보/reengraved/alleluia-365.pdf", "preview": "../docs/교중미사악보/reengraved/alleluia-365.svg", "scope": "parish-common", "sourceKey": "복음 환호송", "status": "원본 대조 · 본당 최종 교정 전", "systems": 1}], "하느님의 어린양": [{"kind": "engraved", "title": "하느님의 어린양", "path": "../docs/교중미사악보/reengraved/agnus.pdf", "preview": "../docs/교중미사악보/reengraved/agnus.svg", "scope": "principal", "sourceKey": "하느님의 어린양", "status": "새 사진 대조 · 1·2절 반복을 펼쳐 표기 · 본당 최종 교정 전", "systems": 6}], "주님의 기도": [{"kind": "engraved", "title": "주님의 기도", "path": "../docs/교중미사악보/reengraved/lords-prayer.pdf", "preview": "../docs/교중미사악보/reengraved/lords-prayer-v26.svg", "scope": "principal", "sourceKey": "주님의 기도", "systems": 10, "status": "사진 대조 · 본당 최종 교정 전"}], "대영광송": [{"kind": "engraved", "title": "대영광송", "path": "../docs/교중미사악보/reengraved/gloria.pdf", "preview": "../docs/교중미사악보/reengraved/gloria-v26.svg", "scope": "principal", "sourceKey": "대영광송", "systems": 23, "status": "사진 대조 · 본당 최종 교정 전"}], "거룩하시도다": [{"kind": "engraved", "title": "거룩하시도다", "path": "../docs/교중미사악보/reengraved/sanctus.pdf", "preview": "../docs/교중미사악보/reengraved/sanctus.svg", "scope": "principal", "sourceKey": "거룩하시도다", "systems": 5, "status": "사진 대조 · 본당 최종 교정 전"}], "신앙의 신비여": [{"kind": "engraved", "title": "신앙의 신비여 · 연중", "path": "../docs/교중미사악보/reengraved/memorial-ordinary.pdf", "preview": "../docs/교중미사악보/reengraved/memorial-ordinary.svg", "scope": "principal", "sourceKey": "신앙의 신비여", "systems": 2, "status": "사진 대조 · 본당 최종 교정 전", "season": "ordinary"}, {"kind": "engraved", "title": "신앙의 신비여 · 사순", "path": "../docs/교중미사악보/reengraved/memorial-lent.pdf", "preview": "../docs/교중미사악보/reengraved/memorial-lent.svg", "scope": "principal", "sourceKey": "신앙의 신비여", "systems": 2, "status": "사진 대조 · 본당 최종 교정 전", "season": "lent"}, {"kind": "engraved", "title": "신앙의 신비여 · 부활", "path": "../docs/교중미사악보/reengraved/memorial-easter.pdf", "preview": "../docs/교중미사악보/reengraved/memorial-easter.svg", "scope": "principal", "sourceKey": "신앙의 신비여", "systems": 2, "status": "사진 대조 · 본당 최종 교정 전", "season": "easter"}]};
+function scoreAssets(prayerId) { if(prayerId==='복음 환호송')return reengravedPrincipalScores[prayerId]||[]; if(prayerId==='신앙의 신비여'){const season=currentSeason()?.key;return find('slot').value==='main' && season?(reengravedPrincipalScores[prayerId]||[]).filter(asset=>asset.season===season):[];}return (prayerId==='자비송' && kyrieView==='invocations') ? [] : find('slot').value === 'main' ? (reengravedPrincipalScores[prayerId] || temporaryPrincipalScores[prayerId] || []) : []; }
+function selectedSlotName() { return find('slot').selectedOptions[0].textContent; }
+
+const scorePreviewSizes={"../docs/교중미사악보/reengraved/agnus.svg": [1050.0, 905.0], "../docs/교중미사악보/reengraved/alleluia-365.svg": [1050.0, 131.0], "../docs/교중미사악보/reengraved/amen.svg": [506.0, 126.0], "../docs/교중미사악보/reengraved/doxology.svg": [1050.0, 285.0], "../docs/교중미사악보/reengraved/gloria-a.svg": [1050.0, 910.0], "../docs/교중미사악보/reengraved/gloria-b.svg": [1050.0, 912.0], "../docs/교중미사악보/reengraved/gloria-c.svg": [1050.0, 913.0], "../docs/교중미사악보/reengraved/gloria-d.svg": [1050.0, 750.0], "../docs/교중미사악보/reengraved/gloria-v26.svg": [1050.0, 3545.0], "../docs/교중미사악보/reengraved/gloria.svg": [1050.0, 3545.0], "../docs/교중미사악보/reengraved/kyrie.svg": [1050.0, 913.0], "../docs/교중미사악보/reengraved/lords-a.svg": [1050.0, 908.0], "../docs/교중미사악보/reengraved/lords-b.svg": [1050.0, 595.0], "../docs/교중미사악보/reengraved/lords-prayer-v26.svg": [1050.0, 1523.0], "../docs/교중미사악보/reengraved/lords-prayer.svg": [1050.0, 1523.0], "../docs/교중미사악보/reengraved/memorial-easter.svg": [1050.0, 287.0], "../docs/교중미사악보/reengraved/memorial-lent.svg": [1050.0, 285.0], "../docs/교중미사악보/reengraved/memorial-ordinary.svg": [1050.0, 285.0], "../docs/교중미사악보/reengraved/sanctus.svg": [1050.0, 750.0]};
+function renderPhoto(asset,enlarged=false){
+ const figure=document.createElement('figure');figure.className='reader__score';figure.setAttribute('data-score-kind',asset.kind==='engraved'?'reengraved':asset.kind==='mock'?'mock':'photo');
+ const caption=document.createElement('figcaption');caption.textContent=asset.kind==='remote'?'':(asset.kind==='engraved'?'교중미사 재조판 · ':asset.kind==='mock'?'악보 목데이터 · ':asset.kind==='remote'?'':'교중미사 임시 악보 · ')+asset.title+' ';if(!enlarged){caption.append(enlargeScoreButton(asset));const source=sourceButton(asset);if(source)caption.append(source);}figure.append(caption);
+ if(asset.kind==='engraved'||asset.kind==='mock'||asset.kind==='remote'){
+  const preview=document.createElement('img');preview.className='reader__score-photo';const dimensions=scorePreviewSizes[asset.preview||asset.path];if(dimensions){preview.setAttribute('width',String(dimensions[0]));preview.setAttribute('height',String(dimensions[1]));}preview.src=encodeURI(asset.preview||asset.path);preview.alt=asset.title+(asset.kind==='mock'?' · 악보 목데이터':asset.kind==='remote'?' · 굿뉴스 단성 악보':' · PDF와 동일한 조판');if(asset.kind==='remote'){preview.onerror=()=>{preview.remove();const p=document.createElement('p');p.textContent='악보를 불러오지 못했습니다. 번호와 인터넷 연결을 확인해 주세요.';figure.append(p);};}figure.append(preview);
+ }else{
+  const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('class','reader__score-photo');svg.setAttribute('role','img');svg.setAttribute('aria-label',asset.title+' · 사용자 제공 사진');
+  const quarter=Math.abs(asset.rotation)===90;const width=quarter?asset.height:asset.width;const height=quarter?asset.width:asset.height;svg.setAttribute('viewBox',asset.crop?asset.crop.join(' '):`0 0 ${width} ${height}`);
+  const image=document.createElementNS('http://www.w3.org/2000/svg','image');image.setAttribute('href',encodeURI(asset.path));image.setAttribute('width',String(asset.width));image.setAttribute('height',String(asset.height));if(asset.rotation===-90)image.setAttribute('transform',`translate(0 ${asset.width}) rotate(-90)`);if(asset.rotation===180)image.setAttribute('transform',`translate(${asset.width} ${asset.height}) rotate(180)`);svg.append(image);figure.append(svg);
+ }return figure;
+}
+function renderPrayerFrame(title, prayerId, scoreSlot=true, level=3) {
+ const frame=document.createElement('section');frame.className='reader__item';
+ const headingRow=document.createElement('div');headingRow.className='reader__item-heading';
+ const heading=document.createElement(`h${level}`);heading.className='reader__item-title';heading.textContent=title;headingRow.append(heading);
+ const group=document.createElement('div');group.className='reader__prayer-option';group.setAttribute('role','group');group.setAttribute('aria-label',`${title} 표시 방식`);
+ const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-content-source','ordinary+temporaryPrincipalScores');
+ if(scoreSlot)headingRow.append(group);frame.append(headingRow,card);
+ let printedGuide=null;
+ if(prayerId==='대영광송'){
+  printedGuide=document.createElement('p');printedGuide.className='reader__item-text';printedGuide.textContent=referenceText('대영광송').split('\n')[0].replace('[안내]','인쇄본 안내:');frame.insertBefore(printedGuide,card);
+ }
+ if(prayerId==='자비송'){
+  const variants=document.createElement('div');variants.className='reader__prayer-option';variants.setAttribute('role','group');variants.setAttribute('aria-label','자비송 양식 표시');headingRow.append(variants);
+  [['ordinary','일반 자비송'],['invocations','참회 호칭 포함']].forEach(([value,label])=>{const button=document.createElement('button');button.type='button';button.textContent=label;button.className='reader__prayer-button';button.setAttribute('aria-pressed',String(kyrieView===value));button.onclick=()=>{kyrieView=value;scheduleReflow(frame.getAttribute('data-flow-key'));};variants.append(button);});
+ }
+ function fill() {
+  card.replaceChildren();group.replaceChildren();const assets=scoreAssets(prayerId);
+  const mode=parishPrayerPresentation[prayerId] || (assets.length?'chant':'recite');
+  const compactScore=assets.length===1 && assets[0].systems>0 && (assets[0].systems<=2 || prayerId==='거룩하시도다');
+  const fullScorePage=mode==='chant' && assets.length>0 && !compactScore;
+  frame.className=fullScorePage?'reader__item reader__item--score':compactScore && mode==='chant'?'reader__item reader__item--compact-score':'reader__item';
+  if(fullScorePage && printedGuide)frame.className+=' reader__item--guided-score';
+  card.className=fullScorePage?'reader__content-card reader__content-card--score':'reader__content-card';
+  if(compactScore){card.setAttribute('data-score-layout','compact');if(mode==='chant')card.className+=' reader__content-card--compact';}
+  if(scoreSlot)[['recite','낭송 · 본문'],['chant','성가 · 악보']].forEach(([value,text])=>{
+   const button=document.createElement('button');button.type='button';button.className='reader__prayer-button';button.textContent=text;button.setAttribute('aria-pressed',String(mode===value));button.setAttribute('data-prayer-mode',value);
+   button.onclick=()=>{parishPrayerPresentation[prayerId]=value;fill();group.querySelector(`[data-prayer-mode="${value}"]`)?.focus();
+     if(frame.closest('.reader__book')){pendingPrayerFocus={key:frame.getAttribute('data-flow-key'),mode:value};scheduleReflow(frame.getAttribute('data-flow-key'));}
+    };group.append(button);
+  });
+  if(mode==='chant' && scoreSlot){
+   if(assets.length){
+    const scoreWindow=document.createElement('div');scoreWindow.className='reader__score-scroll';scoreWindow.setAttribute('tabindex','0');scoreWindow.setAttribute('role','region');scoreWindow.setAttribute('aria-label',`${title} 악보 · 카드 안에서 스크롤`);
+    assets.forEach(asset=>scoreWindow.append(renderPhoto(asset)));card.append(scoreWindow);
+   }
+   else{const p=document.createElement('p');p.textContent=`${selectedSlotName()} · 이 기도문의 임시 악보 미등록`;card.append(p);}
+  } else {const p=document.createElement('p');p.className='reader__item-text';p.lang='ko';p.textContent=ordinaryText(prayerId,find('mode').value);card.append(p);}
+  decorateLiturgy(card);
+ }
+ fill();return frame;
+}
+
+let creedDate=null;
+function renderCreed(){
+ const date=find('date').value;if(creedDate!==date){creedDate=date;creedView=['lent','easter'].includes(currentSeason()?.key)?'apostles':'nicene';}
+ const frame=document.createElement('section');frame.className='reader__item reader__item--score';
+ const row=document.createElement('div');row.className='reader__item-heading';
+ const h=document.createElement('h3');h.className='reader__item-title';h.textContent='신앙 고백';row.append(h);
+ const group=document.createElement('div');group.className='reader__prayer-option';group.setAttribute('role','group');group.setAttribute('aria-label','신앙 고백 양식 표시');row.append(group);frame.append(row);
+ const cards=[];const buttons=[];
+ creedVariants().forEach(variant=>{
+  const card=document.createElement('div');card.className='reader__content-card reader__content-card--score reader__creed-panel';card.setAttribute('data-variant',variant.key);
+  const scroll=document.createElement('div');scroll.className='reader__text-scroll';scroll.tabIndex=0;scroll.setAttribute('role','region');scroll.setAttribute('aria-label',variant.title+' · 카드 내부 스크롤');
+  const note=document.createElement('p');note.textContent='사순·부활에는 사도 신경을 기본 표시합니다. 사제의 선택에 따라 바꿀 수 있습니다.';
+  const p=document.createElement('p');p.className='reader__item-text';p.textContent=variant.text;scroll.append(note,p);card.append(scroll);frame.append(card);cards.push([variant.key,card]);
+  const b=document.createElement('button');b.type='button';b.className='reader__prayer-button';b.textContent=variant.title;b.setAttribute('data-creed-view',variant.key);b.onclick=()=>{creedView=variant.key;sync();};group.append(b);buttons.push([variant.key,b]);
+ });
+ function sync(){cards.forEach(([key,card])=>card.hidden=key!==creedView);buttons.forEach(([key,b])=>b.setAttribute('aria-pressed',String(key===creedView)));}
+ decorateLiturgy(frame);sync();return frame;
+}
+
+const hymnAssignments={};
+function hymnAssignmentKey(title){return find('date').value+'|'+find('slot').value+'|'+title;}
+function hymnScoreAsset(number,title){return {kind:'remote',title:'가톨릭성가 '+number+'번 · '+title,path:'https://maria.catholic.or.kr/sungga/Files/img/2012/201204'+String(number).padStart(4,'0')+'.jpg'};}
+function renderHymnScore(headingTitle){
+ const section=document.createElement('section');section.className='reader__item reader__item--score';
+ const row=document.createElement('div');row.className='reader__item-heading';const title=document.createElement('h3');title.className='reader__item-title';title.textContent=headingTitle;row.append(title);
+ const form=document.createElement('form');form.className='reader__prayer-option';
+ const label=document.createElement('label');const id='hymn-number-'+({'입당 성가':'entrance','봉헌 성가':'offertory','영성체 성가':'communion','파견 성가':'recessional'})[headingTitle];label.htmlFor=id;label.textContent='성가 번호';const input=document.createElement('input');input.id=id;input.type='number';input.min='1';input.max='528';input.step='1';input.required=true;input.setAttribute('aria-label',headingTitle+' 성가 번호');input.value=hymnAssignments[hymnAssignmentKey(headingTitle)]||'';
+ const submit=document.createElement('button');submit.type='submit';submit.textContent='악보 보기';form.append(label,input,submit);
+ const card=document.createElement('div');card.className='reader__content-card reader__content-card--score';card.setAttribute('data-content-source','goodnews-monophonic-score');
+ const scroll=document.createElement('div');scroll.className='reader__score-scroll';scroll.setAttribute('tabindex','0');scroll.setAttribute('role','region');scroll.setAttribute('aria-label',headingTitle+' 악보');
+ const status=document.createElement('p');status.setAttribute('aria-live','polite');
+ const fill=()=>{scroll.replaceChildren();const number=hymnAssignments[hymnAssignmentKey(headingTitle)];if(number){scroll.append(renderPhoto(hymnScoreAsset(number,headingTitle)));status.textContent='';status.hidden=true;}else{status.textContent='성가 번호를 입력해 주세요.';status.hidden=false;}};
+ form.onsubmit=event=>{event.preventDefault();const n=Number(input.value);if(!Number.isInteger(n)||n<1||n>528){status.hidden=false;status.textContent='1부터 528 사이의 성가 번호를 입력해 주세요.';return;}hymnAssignments[hymnAssignmentKey(headingTitle)]=n;fill();};
+ row.append(form);card.append(status,scroll);section.append(row,card);fill();return section;
+}
+let intercessionView='recite';
+function intercessionControls(anchor){const group=document.createElement('div');group.className='reader__prayer-option';group.setAttribute('role','group');group.setAttribute('aria-label','보편 지향 기도 응답 네 곳 표시');[['recite','낭송'],['chant','악보']].forEach(([value,label])=>{const b=document.createElement('button');b.type='button';b.className='reader__prayer-button';b.textContent=label;b.setAttribute('aria-pressed',String(intercessionView===value));b.onclick=()=>{intercessionView=value;scheduleReflow(anchor);};group.append(b);});return group;}
+function renderIntercessionResponse(){const node=document.createElement('section');node.className='reader__item';const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-content-source','parish-response-card');card.setAttribute('data-response-view',intercessionView);if(intercessionView==='recite')card.className+=' reader__content-card--liturgy';if(intercessionView==='chant'){const p=document.createElement('p');p.textContent='악보 준비 중';card.append(p);}else card.append(liturgyNode('◎ 주님, 저희의 기도를 들어주소서.'));node.append(card);return node;}
+let penitentialView=0;
+function renderPenitential(){
+ const node=document.createElement('section');node.className='reader__item reader__item--score';const row=document.createElement('div');row.className='reader__item-heading';const h=document.createElement('h3');h.className='reader__item-title';h.textContent='참회 예식';row.append(h);
+ const group=document.createElement('div');group.className='reader__prayer-option';group.setAttribute('role','group');group.setAttribute('aria-label','참회 예식 양식');row.append(group);
+ const card=document.createElement('div');card.className='reader__content-card reader__collect-scroll';const fill=()=>{group.replaceChildren();card.replaceChildren();['전능하신 하느님과','진심으로 뉘우치는'].forEach((label,index)=>{const b=document.createElement('button');b.type='button';b.textContent=label;b.className='reader__prayer-button';b.setAttribute('aria-pressed',String(penitentialView===index));b.onclick=()=>{penitentialView=index;fill();};group.append(b);});const options=referenceText('참회 예식').split(/\[(?:또는 )?선택지 [12] ·[^\]]*\]/).slice(1);card.append(liturgyNode(options[penitentialView].trim()));};node.append(row,card);fill();return node;
+}
+
+function renderItem(item) {
+ if(['입당 성가','봉헌 성가','영성체 성가','파견 성가'].includes(item.title))return renderHymnScore(item.title);
+ if(['예물 기도','영성체 후 기도'].includes(item.title))return renderMockTextCard(item.title,'cbck-daily-mock');
+ if(item.title==='강론'){const node=document.createElement('section');node.className='reader__item';const h=document.createElement('h3');h.className='reader__item-title';h.textContent='강론';const card=document.createElement('div');card.className='reader__content-card';const p=document.createElement('p');p.textContent='자리에 앉아 신부님의 강론을 듣습니다. 오늘 들은 말씀을 우리 삶에서 어떻게 실천할지 마음에 새겨 보세요.';card.append(p);node.append(h,card);return node;}
+ if(item.title==='공지 사항')return renderMockTextCard(item.title,'parish-bulletin-mock');
+ if(item.title==='예물 준비 기도'){const node=renderMockTextCard(item.title,'ordinary');node.replaceChildren();const h=document.createElement('h3');h.className='reader__item-title';h.textContent=item.title;node.append(h,liturgyNode(referenceText('예물 준비 · 봉헌 성가').split('\n').filter(line=>!line.startsWith('[자료 안내]')).join('\n')));return node;}
+ const spec=frameSpecs[item.title];
+ if(item.title==='본기도')return renderCollect();
+ if(item.title==='신앙 고백')return renderCreed();
+ if(item.title==='복음 환호송')return renderAlleluia();
+ let section;
+ if(spec.kind==='prayer') section=renderPrayerFrame(item.title,spec.prayerId,spec.scoreSlot);
+ else {
+  section=document.createElement('section');section.className='reader__item';
+  const h=document.createElement('h3');h.className='reader__item-title';h.textContent=item.title;section.append(h);
+  if(['제1독서','제2독서','복음','보편 지향 기도'].includes(item.title)){
+   const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-content-source','cbck-daily-mock');const p=document.createElement('p');p.className='reader__item-text';p.textContent=readingFrameText(item.title);card.append(p);section.append(card);
+  }else if(item.title==='화답송'){
+   const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-content-source','parish-bulletin-score');const p=document.createElement('p');p.textContent='주보 화답송 악보 표시 영역 · 악보 미등록';const note=document.createElement('p');note.textContent='주보 악보를 연결하면 이 카드 안에 표시합니다.';card.append(p,note);section.append(card);
+  }else if(item.title==='본기도'){
+   const card=document.createElement('div');card.className='reader__content-card';const p=document.createElement('p');p.className='reader__item-text';p.textContent='+ 기도합시다.\n[안내] 잠깐 침묵하며 기도한 뒤, 사제가 바치는 오늘의 본기도를 듣습니다. 본문이 연결되기 전에는 사제의 기도를 따라 참여합니다.\n◎ 아멘.';card.append(p);section.append(card);
+  }else if(spec.kind==='choice'){const p=document.createElement('p');p.className='reader__item-text';p.textContent=ordinaryText(item.title==='영성체 예식 · 영성체 성가'?'영성체 예식 · 영성체 성가':item.title,find('mode').value);section.append(p);}
+  else {const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-content-source',spec.source);const p=document.createElement('p');p.className='reader__item-text';p.lang='ko';p.textContent=ordinaryText(item.title==='영성체 예식 · 영성체 성가'?'영성체 예식 · 영성체 성가':item.title,find('mode').value);card.append(p);section.append(card);}
+ }
+ section.id=item.id;section.tabIndex=-1;
+ if(item.id===selectedItem){section.setAttribute('aria-current','location');}
+ return section;
+}
+
+let selectedItem = null;
+function jumpToItem(partIndex, item) {
+ part=partIndex;selectedItem=item.id;render({anchorKey:item.id});
+ const target=document.getElementById(item.id);target?.focus({preventScroll:true});
+}
+
+let part = 0, spread = 0, opener = null;
+const position = parts.map(() => null);
+const titles = {toc:'미사 목차',hymn:'회차별 성가',prayer:'주요 기도문',settings:'보기 설정',info:'안내 · 검토 v32'};
+function context() { updateLiturgicalHeading();find('context').textContent = `${selectedSlotName()} · 공통 주일 문서 · 통상문 사진 판독 초안 · 공식 대조 전 · 날짜별 고유문 미연동 · 정보 구조 검토 v32`; }
+function renderToc() {
+ const visibleIds=new Set(layouts.slice(spread*2,spread*2+2).flatMap(page=>page.blocks.map(block=>block.tocId)));const nav=find('toc-rail');const rail=nav.parentElement;const previousScroll=rail.scrollTop;let activeLink=null;nav.replaceChildren();
+ parts.forEach((item,partIndex)=>{
+  const group=document.createElement('section');const heading=document.createElement('h3');heading.className='reader__toc-group-title';heading.textContent=item.title;
+  const list=document.createElement('ol');list.className='reader__toc-list';
+  contents[partIndex].forEach(entry=>{
+   const li=document.createElement('li');const index=contents[partIndex].indexOf(entry);const isVisible=partIndex===part && visibleIds.has(entry.id);if(isVisible){li.className='reader__toc-visible';if(!visibleIds.has(contents[partIndex][index-1]?.id))li.className+=' reader__toc-visible--first';if(!visibleIds.has(contents[partIndex][index+1]?.id))li.className+=' reader__toc-visible--last';}const link=document.createElement('a');link.className='reader__toc-link';link.href=`#${entry.id}`;link.textContent=entry.title;
+   if(entry.id===selectedItem){activeLink=link;link.setAttribute('aria-current','location');link.setAttribute('aria-label',`${entry.title} · 현재 위치`);}
+   link.onclick=event=>{event.preventDefault();jumpToItem(partIndex,entry);};li.append(link);list.append(li);
+  });group.append(heading,list);nav.append(group);
+ });rail.scrollTop=previousScroll;if(activeLink && rail.getBoundingClientRect){const r=rail.getBoundingClientRect(),a=activeLink.getBoundingClientRect();rail.scrollTop=Math.max(0,rail.scrollTop+a.top-r.top-rail.clientHeight*0.25);}
+}
+
+
+let layouts=[],currentAnchor=null,pendingPrayerFocus=null,reflowFrame=null;
+const dailyIntercessions20261018=[
+ '교회를 위하여 기도합시다.\n거룩하신 주님, 주님의 교회에 그리스도의 빛을 비추시어, 교회가 구원의 신비를 깊이 깨닫고, 그 신비에 온전히 참여하며, 민족들의 복음화에 힘쓰게 하소서.',
+ '세계 지도자들을 위하여 기도합시다.\n자비하신 주님, 세계 지도자들에게 사랑과 절제의 영을 주시어, 자국의 이익만을 생각하기보다 고통을 겪는 나라들을 살피며 공동선을 실현하도록 이끌어 주소서.',
+ '감옥에 갇힌 이들을 위하여 기도합시다.\n위로의 샘이신 주님, 감옥에 갇힌 이들을 참된 회개로 이끌어 주시어, 죄를 진심으로 뉘우치며 새 삶을 준비하게 하시고, 그들의 범죄로 피해받은 이들에게 위로와 힘을 주소서.',
+ '가정 공동체를 위하여 기도합시다.\n사랑이신 주님, 어려움에 있는 가정들을 돌보아 주시어, 주님의 한결같은 사랑과 자비를 믿고 온전히 의탁하며, 어머니인 교회 안에서 힘을 얻게 하소서.'
+];
+function universalPrayerBlocks(item){
+ const dated=find('date').value==='2026-10-18';const petitions=dated?dailyIntercessions20261018:['[매일미사 기도 지향 · mock · 선택 날짜 자료 연결 예정]'];const result=[];
+ petitions.forEach((text,i)=>{
+  result.push({key:i?item.id+'-petition-'+(i+1):item.id,tocId:item.id,variant:{title:'보편 지향 기도',text:'○ '+text},hideHeading:i>0,group:'보편 지향 기도 지향'});
+  result.push({key:item.id+'-response-'+(i+1),tocId:item.id,variant:{title:'',text:'◎ 주님, 저희의 기도를 들어주소서.'},hideHeading:true,group:'보편 지향 기도 합송'});
+ });
+ result.push({key:item.id+'-conclusion',tocId:item.id,variant:{title:'사제 마침 기도',text:'[안내] 매일미사 사제 마침 기도 연결용 mock\n+ [사제 마침 기도 본문] … 우리 주 그리스도를 통하여 비나이다.'},group:'보편 지향 기도 마침'});
+ result.push({key:item.id+'-amen',tocId:item.id,variant:{title:'',text:'◎ 아멘.'},hideHeading:true,group:'보편 지향 기도 아멘'});return result;
+}
+function flowBlocks(partIndex) {
+ const blocks=[];
+ contents[partIndex].forEach(item=>{
+  const addPrayer=(suffix,title)=>blocks.push({key:`${item.id}-${suffix}`,tocId:item.id,prayerTitle:title});
+  if(item.title==='영성체 예식 · 영성체 성가')addPrayer('agnus','하느님의 어린양');
+  if(item.title==='참회 예식'){blocks.push({key:item.id,tocId:item.id,penitential:true,group:'참회 예식'});
+  }else if(item.title==='인사'){
+   variantCards(item.title).forEach((variant,index)=>blocks.push({key:index===0?item.id:`${item.id}-variant-${index+1}`,tocId:item.id,variant:{...variant,text:variant.text+(index===2?'\n◎ 또한 사제의 영과 함께.':''),title:item.title==='인사'?'인사':variant.title},hideHeading:item.title==='인사' && index>0,alternative:item.title==='인사' && index<2,group:item.title}));
+
+  }else if(item.title==='보편 지향 기도'){
+   universalPrayerBlocks(item).forEach(block=>blocks.push(block));
+  }else if(item.title==='복음 환호송'){
+   ['first','choir','last'].forEach((acclamationPart,i)=>blocks.push({key:i?`${item.id}-${acclamationPart}`:item.id,tocId:item.id,acclamationPart}));
+  }else if(item.title==='파견'){
+   dismissalChoices().forEach((variant,index)=>blocks.push({key:index?`${item.id}-variant-${index+1}`:item.id,tocId:item.id,variant,hideHeading:index>0,alternative:index<3,group:'파견'}));blocks.push({key:`${item.id}-response`,tocId:item.id,variant:{title:'',text:'◎ 하느님 감사합니다.'},hideHeading:true,group:'파견 합송'});
+  }else if(item.title==='감사기도 제2양식'){
+   const text=ordinaryText(item.title==='영성체 예식 · 영성체 성가'?'영성체 예식 · 영성체 성가':item.title,find('mode').value);
+   const first=text.split('[거룩하시도다 · 별도 카드 참조]');
+   const rest=(first[1]||'').split('[신앙의 신비여 · 별도 카드 참조]');
+   blocks.push({key:item.id,tocId:item.id,item,displayText:first[0]});
+   addPrayer('sanctus','거룩하시도다');
+   blocks.push({key:`${item.id}-institution`,tocId:item.id,item,displayTitle:'감사기도 제2양식 · 성찬 제정',displayText:rest[0]});
+   addPrayer('memorial','신앙의 신비여');
+   blocks.push({key:`${item.id}-offering`,tocId:item.id,item,displayTitle:'감사기도 제2양식 · 기념과 봉헌',displayText:(rest[1]||'').replace(/\n◎ 아멘\.$/,'')});
+   addPrayer('amen','아멘');
+  }else blocks.push({key:item.id,tocId:item.id,item});
+  if(item.title==='주님의 기도')addPrayer('doxology','주님의 기도 맺음 환호');
+  
+ });return blocks;
+}
+function renderBlock(block) {
+ let node;
+ if(block.penitential)node=renderPenitential();
+ else if(block.group==='보편 지향 기도 합송')node=renderIntercessionResponse();
+ else if(block.acclamationPart)node=renderAlleluia(block.acclamationPart);
+ else if(block.variant){
+  node=document.createElement('section');node.className='reader__item';const h=document.createElement('h3');h.className='reader__item-title';h.textContent=block.variant.title;
+  const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-choice-group',block.group);const p=document.createElement('p');p.className='reader__item-text';p.textContent=block.variant.text;card.append(p);if(!block.hideHeading)node.append(h);node.append(card);
+ }else if(block.transition!==undefined){
+  node=document.createElement('section');node.className='reader__item';const h=document.createElement('h3');h.textContent='다음 순서';
+  const p=document.createElement('p');p.textContent=block.transition<parts.length?`“${parts[block.transition].title}”로 넘겨주세요.`:'미사 순서 안내가 끝났습니다.';node.append(h,p);
+  if(block.transition<parts.length){const b=document.createElement('button');b.type='button';b.textContent=parts[block.transition].title+'로 이동 →';b.onclick=()=>go(block.transition);node.append(b);}
+ }else node=block.item?renderItem(block.item):renderPrayerFrame(block.prayerTitle,block.prayerTitle);
+ node.id=block.key;node.tabIndex=-1;node.setAttribute('data-flow-key',block.key);
+ if(block.displayText!==undefined)replaceLiturgyText(node,block.displayText);
+ if(block.displayTitle){const h=node.querySelector('h3');if(h)h.textContent=block.displayTitle;}
+ if(block.fragmentText!==undefined)replaceLiturgyText(node,block.fragmentText,block.fragmentRole||'text');
+ if(block.continued){const heading=node.querySelector('h3');if(heading)heading.textContent+=' (계속)';}
+ decorateLiturgy(node);
+ if(block.group==='보편 지향 기도 지향' && !block.hideHeading && !block.continued){const h=node.querySelector('h3');const row=document.createElement('div');row.className='reader__item-heading';h.replaceWith(row);row.append(h,intercessionControls(block.key));}
+ if(block.item?.title==='복음'){const lit=node.querySelector('.reader__liturgy');if(lit?.children[0]?.textContent.includes('주님께서 여러분과 함께') && lit.children[1]?.textContent.includes('또한 사제의 영과 함께')){const pair=document.createElement('div');pair.className='reader__dialogue';const priest=lit.children[0],assembly=lit.children[1];lit.insertBefore(pair,priest);pair.append(priest,assembly);}}
+ if(['제1독서','제2독서','복음'].includes(block.item?.title)){const lit=node.querySelector('.reader__liturgy');if(lit){const children=Array.from(lit.children);children.forEach((child,i)=>{const next=children[i+1];if(child.textContent.includes('주님의 말씀입니다.') && next?.getAttribute('data-speech-role')==='assembly'){const pair=document.createElement('div');pair.className='reader__dialogue';lit.insertBefore(pair,child);pair.append(child,next);}});}}
+ if(block.group==='인사' && block.variant.text.includes('◎')){const lit=node.querySelector('.reader__liturgy');if(lit && lit.children.length===2){const pair=document.createElement('div');pair.className='reader__dialogue';const children=Array.from(lit.children);lit.append(pair);pair.append(...children);}}
+ if(block.item?.title==='감사기도 제2양식'){const lit=node.querySelector('.reader__liturgy');if(lit){const children=Array.from(lit.children);children.forEach((child,i)=>{const next=children[i+1];if(child.getAttribute('data-speech-role')==='priest' && next?.getAttribute('data-speech-role')==='assembly' && child.textContent.length<=80 && next.textContent.length<=80){const pair=document.createElement('div');pair.className='reader__dialogue';lit.insertBefore(pair,child);pair.append(child,next);}});}}
+ if(['제1독서','제2독서'].includes(block.item?.title)){node.classList.add('reader__item--reading');node.querySelector('.reader__content-card')?.classList.add('reader__reading-content');const lit=node.querySelector('.reader__liturgy');lit?.classList.add('reader__reading-liturgy');Array.from(lit?.children||[]).filter(child=>child.getAttribute('data-speech-role')==='text').forEach(child=>child.classList.add('reader__reading-body'));}
+ if(['제1독서','제2독서','복음'].includes(block.item?.title)){node.querySelectorAll('.reader__dialogue').forEach(pair=>pair.classList.add('reader__dialogue--stacked'));}
+ if(block.alternative){const card=node.querySelector('.reader__speech-card');if(card){card.classList.add('reader__speech-card--alternative');card.setAttribute('aria-label',block.variant.key+' · 다른 양식 선택 가능');const marker=document.createElement('span');marker.className='reader__alternative-marker';marker.textContent='〈또는〉';marker.setAttribute('aria-hidden','true');card.append(marker);}}
+ return node;
+}
+function paginateFlow(blocks,fits,split) {
+ const pages=[];let current=[];
+ const flush=()=>{if(current.length){pages.push({blocks:current,oversize:false});current=[];}};
+ blocks.forEach(block=>{
+  if(fits([...current,block])){current.push(block);return;}
+  flush();
+  if(fits([block])){current=[block];return;}
+  const fragments=split(block);
+  fragments.forEach(fragment=>{
+   if(fits([...current,fragment]))current.push(fragment);
+   else {flush();if(fits([fragment]))current=[fragment];else pages.push({blocks:[fragment],oversize:true});}
+  });
+ });flush();return pages;
+}
+function spreadForAnchor(pages,key) {
+ const index=pages.findIndex(page=>page.blocks.some(block=>block.key===key));return index<0?0:Math.floor(index/2);
+}
+function sectionFlowKey(block){if(block.item?.title==='성호경'||block.group==='인사')return 'opening-sign-and-greeting';return block.prayerTitle?'prayer:'+block.prayerTitle:block.displayTitle?'section:'+block.displayTitle:block.tocId||block.key;}
+function paginateSections(blocks,fits,split,offset=0){const groups=[];blocks.forEach(block=>{const key=sectionFlowKey(block);if(groups.at(-1)?.key===key)groups.at(-1).blocks.push(block);else groups.push({key,blocks:[block]});});const pages=[];groups.forEach(group=>{let section=paginateFlow(group.blocks,fits,split);if(section.length>2)section=[section[0],{blocks:section.slice(1).flatMap(page=>page.blocks),oversize:true}];if(section.length===2 && (offset+pages.length)%2===1)pages.push({blocks:[],oversize:false,blank:true});pages.push(...section);});return pages;}
+function readingPagePlan(blocks){if(blocks[0]?.item?.title==='제1독서' && blocks[1]?.item?.title==='화답송' && blocks[2]?.item?.title==='제2독서')return {leading:[{blocks:blocks.slice(0,2),oversize:false,reading:true},{blocks:blocks.slice(2,3),oversize:false,reading:true}],rest:blocks.slice(3)};return {leading:[],rest:blocks};}
+function composePages() {
+ const probe=document.createElement('article');probe.className='reader__page reader__page--measure';probe.setAttribute('aria-hidden','true');probe.inert=true;find('book').append(probe);
+ const fits=blocks=>{probe.replaceChildren(...blocks.map(renderBlock));return probe.scrollHeight<=probe.clientHeight+1;};
+ const split=block=>{
+  if(block.penitential || ['신앙 고백','본기도','복음 환호송'].includes(block.item?.title))return [block];
+  const node=renderBlock(block);const paragraph=node.querySelector('.reader__liturgy');
+  if(!paragraph || paragraph.__sourceText.length<2)return [block];
+  const result=[];let remaining=paragraph.__sourceText,index=0,offset=0;
+  while(remaining.length){
+   let low=1,high=remaining.length,best=0;
+   const key=index?`${block.key}-continue-${index}`:block.key;
+   while(low<=high){const mid=Math.floor((low+high)/2);const fragment={...block,key,continued:index>0,fragmentRole:spokenRoleAt(paragraph.__sourceText,offset,paragraph.__initialRole),fragmentText:remaining.slice(0,mid)};if(fits([fragment])){best=mid;low=mid+1;}else high=mid-1;}
+   if(!best)return [block];
+   if(best<remaining.length){const newline=remaining.lastIndexOf('\n',best);const boundary=newline>best/2?newline:remaining.lastIndexOf(' ',best);if(boundary>best/2)best=boundary+1;}
+   result.push({...block,key,continued:index>0,fragmentRole:spokenRoleAt(paragraph.__sourceText,offset,paragraph.__initialRole),fragmentText:remaining.slice(0,best)});remaining=remaining.slice(best);offset+=best;index++;
+  }return result;
+ };
+ try{const plan=readingPagePlan(flowBlocks(part));return [...plan.leading,...paginateSections(plan.rest,fits,split,plan.leading.length)];}finally{probe.remove();}
+}
+function render(options={}) {
+ const book=find('book');if(book.clientWidth<2||book.clientHeight<2)return;
+ let anchor=options.anchorKey||currentAnchor||contents[part][0].id;
+ layouts=composePages();if(!layouts.length)return;if(options.edge==='last')anchor=layouts.at(-1).blocks[0].key;
+ spread=spreadForAnchor(layouts,anchor);
+ const visible=layouts.slice(spread*2,spread*2+2);
+ const anchorBlock=layouts.flatMap(page=>page.blocks).find(block=>block.key===anchor)||visible[0].blocks[0];
+ currentAnchor=anchorBlock.key;selectedItem=anchorBlock.tocId;position[part]=currentAnchor;
+ const nodes=visible.map((layout,index)=>{
+  const page=document.createElement('article');page.className=layout.reading?'reader__page reader__page--reading':layout.oversize?'reader__page reader__page--oversize':'reader__page';
+  page.setAttribute('aria-label',layout.blank?'빈 페이지 · 다음 섹션은 다음 펼침에서 시작':`${parts[part].title} ${spread*2+index+1}쪽`);
+  layout.blocks.forEach(block=>page.append(renderBlock(block)));return page;
+ });
+ if(nodes.length===1){const blank=document.createElement('article');blank.className='reader__page';blank.setAttribute('aria-label','빈 페이지');nodes.push(blank);}
+ book.replaceChildren(...nodes);find('part-title').textContent=parts[part].title;
+ 
+ find('part-prev').textContent=part?`← ${parts[part-1].title}`:'미사 시작';find('part-prev').disabled=part===0;
+ find('part-next').textContent=part<parts.length-1?`${parts[part+1].title} →`:'미사 마침';find('part-next').disabled=part===parts.length-1;
+ find('page-context').textContent=`${parts[part].title} · ${spread*2+1}–${Math.min(spread*2+2,layouts.length)}쪽 / 총 ${layouts.length}쪽`;
+ const turn=pageTurnState(part,spread,layouts.length);find('page-prev').disabled=!turn.previous;find('page-next').disabled=!turn.next;find('page-next').setAttribute('data-next-part',String(turn.nextPart));const previousLabel=turnDestination(-1),nextLabel=turnDestination(1);find('page-prev').title=previousLabel;find('page-next').title=nextLabel;find('page-prev').textContent='← '+previousLabel;find('page-next').textContent=nextLabel+' →';find('page-prev').setAttribute('aria-label',previousLabel+'로 이동');find('page-next').setAttribute('aria-label',nextLabel+'로 이동');hintNextPart(turn.nextPart);renderToc();
+ if(pendingPrayerFocus){const request=pendingPrayerFocus;pendingPrayerFocus=null;const block=Array.from(book.querySelectorAll('[data-flow-key]')).find(node=>node.getAttribute('data-flow-key')===request.key);block?.querySelector(`[data-prayer-mode="${request.mode}"]`)?.focus({preventScroll:true});}
+}
+function scheduleReflow(anchorKey=currentAnchor) {
+ if(reflowFrame!==null)cancelAnimationFrame(reflowFrame);
+ reflowFrame=requestAnimationFrame(()=>{reflowFrame=null;render({anchorKey});});
+}
+function go(index){part=index;currentAnchor=position[index]||contents[index][0].id;render({anchorKey:currentAnchor});}
+function flowBlockTitle(block,partIndex=part){const title=block.displayTitle||block.prayerTitle||block.variant?.title||block.item?.title||contents[partIndex].find(item=>item.id===block.tocId)?.title||parts[partIndex].title;return title+(block.acclamationPart==='last'?' · 합송':block.acclamationPart==='choir'?' · 성가대':block.continued?' (계속)':'');}
+function turnDestination(direction){const target=layouts[(spread+direction)*2];if(target?.blocks.length)return flowBlockTitle(target.blocks[0]);const index=part+direction;if(index<0)return '미사 시작';if(index>=parts.length)return '미사 마침';const item=direction<0?contents[index].at(-1):contents[index][0];return parts[index].title+' · '+item.title;}
+function pageTurnState(partIndex,spreadIndex,pageCount){const first=spreadIndex===0,last=(spreadIndex+1)*2>=pageCount;return {previous:!first||partIndex>0,next:!last||partIndex<parts.length-1,previousPart:first&&partIndex>0,nextPart:last&&partIndex<parts.length-1};}
+let nextPartHint=null;
+function hintNextPart(active){if(nextPartHint){nextPartHint.cancel();nextPartHint=null;}const button=find('page-next');if(active && button.animate && !globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches){nextPartHint=button.animate([{outlineWidth:'0px',outlineStyle:'solid',outlineColor:'currentColor',outlineOffset:'0px'},{outlineWidth:'3px',outlineStyle:'solid',outlineColor:'currentColor',outlineOffset:'3px'},{outlineWidth:'0px',outlineStyle:'solid',outlineColor:'currentColor',outlineOffset:'0px'}],{duration:1400,iterations:3});}}
+function turnSpread(direction){const page=layouts[(spread+direction)*2];if(page){render({anchorKey:page.blocks[0].key});return;}const target=part+direction;if(target<0||target>=parts.length)return;part=target;currentAnchor=null;selectedItem=null;render(direction<0?{edge:'last'}:{anchorKey:contents[part][0].id});}
+function swipeDirection(dx,dy){return Math.abs(dx)>=64 && Math.abs(dx)>Math.abs(dy)*1.5?(dx<0?1:-1):0;}
+function bindPageSwipe(book){let gesture=null;book.addEventListener('pointerdown',event=>{if(!event.isPrimary || event.button!==0 || event.target.closest('button,a,input,select,textarea,[contenteditable="true"]'))return;gesture={id:event.pointerId,x:event.clientX,y:event.clientY};});book.addEventListener('pointermove',event=>{if(!gesture||gesture.id!==event.pointerId)return;const dx=event.clientX-gesture.x,dy=event.clientY-gesture.y;if(Math.abs(dy)>16 && Math.abs(dy)>Math.abs(dx)){gesture=null;return;}if(Math.abs(dx)>16 && Math.abs(dx)>Math.abs(dy)*1.5 && event.cancelable)event.preventDefault();});book.addEventListener('pointerup',event=>{if(!gesture||gesture.id!==event.pointerId)return;const start=gesture;gesture=null;const direction=swipeDirection(event.clientX-start.x,event.clientY-start.y);if(direction)turnSpread(direction);});book.addEventListener('pointercancel',()=>gesture=null);book.addEventListener('pointerleave',()=>gesture=null);book.addEventListener('dragstart',event=>{if(event.target.tagName==='IMG')event.preventDefault();});}
+
+
+function showPanel(which, trigger) {
+ opener = trigger; const body = find('drawer-body'); body.replaceChildren(); find('drawer-title').textContent = titles[which];
+ const text = value => { const p = document.createElement('p'); p.textContent = value; body.append(p); };
+ if (which === 'hymn') { text(`${selectedSlotName()} · 미등록`); ['입당','봉헌','영성체','파견'].forEach(role => text(`${role} 성가 · 미등록`)); }
+ if (which === 'prayer') {
+  text('기도문 본문과 본당별 기도문 성가·악보를 카드에 표시합니다. 교중미사 사진 악보를 임시로 배치했습니다. 본문은 사용자 인쇄물의 판독 초안이며 공식 원문 대조 전입니다.');
+  ['성호경','자비송','대영광송','거룩하시도다','신앙의 신비여','아멘','주님의 기도','주님의 기도 맺음 환호','하느님의 어린양','성모송','영광송'].forEach(title=>body.append(renderPrayerFrame(title,title,title!=='성호경')));
+ }
+ if (which === 'settings') {
+  text('우측 하단에서 여는 e-book 보기 설정입니다. 이 단계는 항목 위치를 검토하며 실제 글자 크기·테마 적용은 후속 디자인 단계에서 구현합니다.');
+  const size = document.createElement('label'); size.className = 'reader__field'; size.textContent = '글자 크기 (배치 예시)'; const range = document.createElement('input'); range.type = 'range'; range.disabled = true; size.append(range); body.append(size);
+  const theme = document.createElement('label'); theme.className = 'reader__field'; theme.textContent = '배경 테마 (배치 예시)'; const select = document.createElement('select'); select.disabled = true; ['밝게','어둡게','종이'].forEach(name => { const option = document.createElement('option'); option.textContent = name; select.append(option); }); theme.append(select); body.append(theme);
+ }
+ if (which === 'info') {
+  const tutorialButton=document.createElement('button');tutorialButton.type='button';tutorialButton.textContent='기호와 사용법 튜토리얼 다시 보기';tutorialButton.onclick=()=>{find('drawer').close();requestAnimationFrame(()=>showTutorial(tutorialButton));};body.append(tutorialButton);
+  text('현재 예식의 내용이 왼쪽→오른쪽 두 페이지로 이어집니다. 아래 페이지 버튼이나 좌우 드래그로 두 페이지씩 넘기며, 끝에서는 다음 전례로 이어집니다. 제목 옆 버튼은 이전·다음 전례로 이동합니다.');
+  text('공식 전례력과 날짜별 고유문은 미연동입니다. 통상문은 사용자 제공 인쇄물의 검증 전 판독 초안입니다. 현재 검토 화면은 실제 표시 높이를 측정하여 예식 안에서 다음 페이지로 내용을 넘깁니다. 긴 본문은 계속 페이지로 분리하고, 악보는 카드 안에서 스크롤합니다. 극도로 작은 화면 등에서 제목·조작부조차 한 쪽에 들어가지 않는 예외에만 해당 페이지의 스크롤을 허용합니다.');
+  text('목차는 뷰어 오른쪽 상시 레일입니다. 안내 문구 없이 세부 링크와 현재 위치를 표시합니다. 성가·기도문·보기 설정·안내는 보조 Drawer를 유지합니다.');
+  text('프레임 규칙: 각 순서의 타이틀 아래에 변동 본문은 카드, 기도문은 본문·악보 카드, 선택 양식은 짧은 안내를 표시합니다. 모든 라틴어 본문은 검증 전 판독 초안이며 사진 악보는 사용자가 제공한 임시 교중미사 자료입니다.');
+  text('변동 본문 카드는 매일미사·전례집 자료 연결을 위한 자리입니다. 고정 본문은 통상문 자료를 사용합니다. 적용 여부와 선택 양식은 공식 데이터·본당 선택 확인 후 결정하며, 현재 분류는 프레임 검토용입니다.');
+  text('입당·봉헌·영성체·파견 성가 편성은 회차별 HymnSet입니다. 매일미사의 입당송·영성체송 같은 공통 전례일 본문과 구분합니다. 현재 공식 자료 자동 연동·성가 편집은 미구현이며 사용자 제공 사진 악보만 임시로 연결했습니다.');
+  text('기도문 카드는 고정 공식 본문과 본당별 기도문 성가 악보 참조를 분리합니다. 본당 설정은 세 주일 회차에 공통 적용하며, 회차별 네 성가 배정을 변경하지 않습니다. 낭송/성가 선택은 mock 체험으로 새로고침 시 초기화됩니다. 교중미사에 한해 사용자 제공 사진을 임시 표시합니다. 다른 회차에는 사진을 자동 배정하지 않습니다. 실제 기도문 본문·순서는 공통으로 유지하고 사진 리소스만 별도 참조합니다.');
+  text('영성체 프레임은 공통 본문 카드 위치를 보여줍니다. 세부 통상문·영성체송·회차별 성가의 내부 구성은 후속 프레임에서 나눌 수 있습니다.');
+  text('통상문 사진 8장은 이번 뷰어의 이미지 자료로 연결하지 않았습니다. 사진에서 추출한 텍스트 참조(JSON/Markdown)를 로컬에 저장하고 HTML에는 생성 시점의 텍스트 스냅샷을 넣었습니다. 날짜별 고유문이 없는 곳은 미등록 표시합니다. 선택지와 인쇄된 교황·주교 이름은 실제 현재 미사 설정으로 확정하지 않습니다.');
+  const refs=document.createElement('p');[['../docs/references/교중미사_통상문_텍스트_초안.md','텍스트 참조(Markdown)'],['../docs/references/교중미사_통상문_텍스트_초안.json','텍스트 데이터(JSON)']].forEach(([url,name])=>{const a=document.createElement('a');a.href=encodeURI(url);a.target='_blank';a.rel='noopener';a.textContent=name;refs.append(a,document.createTextNode(' '));});body.append(refs);
+  text('아멘은 사진 대조한 PDF 재조판본으로 부분 교체했습니다. 다른 곡은 기존 임시 사진을 유지합니다.');
+  text('악보 블록은 제목 줄을 제외한 한 페이지의 가용 높이를 사용하며, 사진이 더 길면 악보 카드 안에서 스크롤합니다.');
+  text('v13: ◎ 합송은 별도 강조 카드로, 안내는 라벨과 임시 안내 색으로 구분합니다. 인사의 세 사제 선택지 뒤에는 공통 합송을 한 번 표시합니다.');
+  text('v12: 인사 3개·참회 2개 카드를 분리하고 참회 호칭을 자비송 카드로 통합했습니다. 신앙 고백은 두 양식 버튼과 카드 내부 스크롤을 사용합니다. 독서·복음·보편 지향 기도는 매일미사 연결용 mock, 화답송은 주보 악보 미등록 프레임입니다. 대영광송 사진은 인쇄면 한 쪽씩 나누어 세로로 표시하며 원본 파일은 수정하지 않았습니다.');
+  text('테마와 글자 크기는 이번 정보 구조 단계에서 확정하지 않습니다. 화면 조작은 승인으로 기록되지 않습니다.');
+ }
+ find('drawer').showModal();
+}
+
+const tutorialKey='missa.reader.symbol-tutorial.v1';
+const tutorialSteps=[
+ ['◎ 합송','동그라미 두 개(◎)는 신자가 함께 바치는 부분입니다. 굵은 글씨와 강조 테두리 카드의 본문을 함께 바칩니다.'],
+ ['+ 사제의 부분','십자가 모양(+) 표시는 사제가 바치는 부분입니다. 신자는 듣고, 이어지는 ◎ 합송에 참여합니다.'],
+ ['안내와 선택 양식','안내 색으로 구분된 문장은 자세나 행동에 대한 설명입니다. 〈또는〉은 사제가 선택할 수 있는 다른 양식이 이어진다는 뜻입니다.'],
+ ['페이지와 악보','본문은 아래 페이지 버튼으로 넘깁니다. 긴 악보와 신앙 고백은 카드 안에서 스크롤합니다. 이 설명은 오른쪽 아래 안내에서 언제든 다시 볼 수 있습니다.']
+];
+let tutorialIndex=0,tutorialOpener=null,tutorialSeen=false;
+function paintTutorial(){const step=tutorialSteps[tutorialIndex];find('tutorial-title').textContent=step[0];find('tutorial-step').textContent=`${tutorialIndex+1} / ${tutorialSteps.length}`;find('tutorial-copy').textContent=step[1];find('tutorial-prev').disabled=tutorialIndex===0;find('tutorial-next').textContent=tutorialIndex===tutorialSteps.length-1?'시작하기':'다음';}
+function showTutorial(trigger=null){tutorialOpener=trigger;tutorialIndex=0;paintTutorial();find('tutorial').showModal();find('tutorial-next').focus();}
+function hasSeenTutorial(){try{return localStorage.getItem(tutorialKey)==='done';}catch{return tutorialSeen;}}
+function finishTutorial(){tutorialSeen=true;try{localStorage.setItem(tutorialKey,'done');}catch{}find('tutorial').close();}
+function nextTutorial(){if(tutorialIndex===tutorialSteps.length-1)finishTutorial();else{tutorialIndex++;paintTutorial();}}
+
+bindPageSwipe(find('book'));
+find('part-prev').onclick = () => go(Math.max(0,part-1));
+find('part-next').onclick = () => go(Math.min(parts.length-1,part+1));
+find('page-prev').onclick = () => turnSpread(-1);
+find('page-next').onclick = () => turnSpread(1);
+find('mode').onchange = render; find('slot').onchange = () => { context(); render(); };
+find('date').onchange = () => { collectView=0;context();render(); };
+document.querySelectorAll('[data-panel]').forEach(button => button.onclick = () => showPanel(button.dataset.panel,button));
+find('close').onclick = () => find('drawer').close();
+find('drawer').addEventListener('close', () => { render(); const target = selectedItem && document.getElementById(selectedItem); if (target) target.focus({preventScroll:true}); else opener?.focus(); });
+let observedBookSize='';
+if(typeof ResizeObserver!=='undefined')new ResizeObserver(entries=>{
+ const rect=entries[0].contentRect;const size=`${Math.round(rect.width)}|${Math.round(rect.height)}`;
+ if(size!==observedBookSize){observedBookSize=size;scheduleReflow();}
+}).observe(find('book'));
+window.addEventListener('resize',()=>scheduleReflow());
+document.fonts?.ready.then(()=>scheduleReflow());
+find('tutorial-prev').onclick=()=>{tutorialIndex=Math.max(0,tutorialIndex-1);paintTutorial();};
+find('tutorial-next').onclick=nextTutorial;
+find('tutorial-later').onclick=()=>find('tutorial').close();
+find('tutorial').addEventListener('close',()=>{const target=find('drawer').open?tutorialOpener:find('part-next');target?.focus();});
+find('score-modal-close').onclick=()=>find('score-modal').close();
+find('score-modal').addEventListener('close',()=>{find('score-modal-body').replaceChildren();(scoreModalOpener?.isConnected?scoreModalOpener:find('part-next'))?.focus();});
+find('liturgical-season').onclick=event=>showSeasonModal(event.currentTarget);
+find('season-help-close').onclick=()=>find('season-help-modal').close();
+find('season-help-modal').addEventListener('close',()=>seasonHelpOpener?.focus());
+find('season-modal-close').onclick=()=>find('season-modal').close();
+find('season-modal').addEventListener('close',()=>find('liturgical-season').focus());
+find('source-dialog-close').onclick=()=>find('source-dialog').close();
+find('source-dialog').addEventListener('close',()=>{(sourceDialogOpener?.isConnected?sourceDialogOpener:find('part-next'))?.focus();});
+context(); render();
+if(!hasSeenTutorial())showTutorial();
+</script></body></html>

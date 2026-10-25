@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-14",
+  "date": "2026-10-14",
+  "observance": "연중 제28주간 수요일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261014"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님, 당신이 죄악을 헤아리신다면, 주님, 감당할 자 누구이리까?\n이스라엘의 하느님, 당신은 용서하는 분이시옵니다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "주님,\n주님의 넘치는 은총으로 언제나 저희와 함께하시어\n저희가 끊임없이 좋은 일을 하도록 이끌어 주소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n신자들이 바치는 기도와 예물을 받아들이시고\n이 정성된 제사로 저희가 천상 영광을 누리게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "부자들도 궁색해져 굶주리게 되지만, 주님을 찾는 이에게는 좋은 것뿐이리라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n엄위하신 주님 앞에 엎드려 비오니\n저희를 그리스도의 거룩한 살과 피로 기르시어\n그 신성에 참여하게 하소서.\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<그리스도께 속한 이들은 자기 육을 욕정과 함께 십자가에 못 박았습니다.>",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 갈라티아서 말씀입니다.5,18-25",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분,",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "18 여러분이 성령의 인도를 받으면 율법 아래 있는 것이 아닙니다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "19 육의 행실은 자명합니다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그것은 곧 불륜, 더러움, 방탕,",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "20 우상 숭배, 마술, 적개심, 분쟁, 시기, 격분, 이기심, 분열, 분파,",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "21 질투, 만취, 흥청대는 술판, 그 밖에 이와 비슷한 것들입니다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "내가 여러분에게 이미 경고한 그대로 이제 다시 경고합니다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "이런 짓을 저지르는 자들은",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "하느님의 나라를 차지하지 못할 것입니다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "22 그러나 성령의 열매는 사랑, 기쁨, 평화, 인내, 호의, 선의, 성실,",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "23 온유, 절제입니다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "이러한 것들을 막는 법은 없습니다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "24 그리스도 예수님께 속한 이들은 자기 육을",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "그 욕정과 욕망과 함께 십자가에 못 박았습니다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "25 우리는 성령으로 사는 사람들이므로 성령을 따라갑시다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261014"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 1,1-2.3.4와 6(◎ 요한 8,12 참조)",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님, 당신을 따르는 이는 생명의 빛을 얻으리이다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 행복하여라! 악인의 뜻에 따라 걷지 않는 사람, 죄인의 길에 들어서지 않으며, 오만한 자의 자리에 앉지 않는 사람, 오히려 주님의 가르침을 좋아하고, 밤낮으로 그 가르침을 되새기는 사람. ◎",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 그는 시냇가에 심은 나무 같아, 제때에 열매 맺고, 잎이 아니 시들어, 하는 일마다 모두 잘되리라. ◎",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 악인은 그렇지 않으니, 바람에 흩날리는 검불 같아라. 의인의 길은 주님이 아시고, 악인의 길은 멸망에 이르리라. ◎",
+          "sourceRef": "goodnews-20261014"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "요한 10,27 참조",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 내 양들은 내 목소리를 알아듣는다. 나는 그들을 알고 그들은 나를 따른다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261014"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<불행하여라, 너희 바리사이들아! 너희 율법 교사들도 불행하여라!>",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.11,42-46",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 주님께서 말씀하셨다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "42 “불행하여라, 너희 바리사이들아!",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "너희가 박하와 운향과 모든 채소는 십일조를 내면서,",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "의로움과 하느님 사랑은 아랑곳하지 않기 때문이다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "그러한 십일조도 소홀히 해서는 안 되지만,",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "바로 이러한 것들을 실천해야 한다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "43 불행하여라, 너희 바리사이들아!",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "너희가 회당에서는 윗자리를 좋아하고",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "장터에서는 인사받기를 좋아하기 때문이다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "44 너희는 불행하여라!",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "너희가 드러나지 않는 무덤과 같기 때문이다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "사람들이 그 위를 밟고 다니면서도 무덤인 줄을 알지 못한다.”",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "45 율법 교사 가운데 어떤 사람이 예수님께,",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "“스승님, 그렇게 말씀하시면",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "저희까지 모욕하시는 것입니다.” 하고 말하였다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "46 그러자 예수님께서 이르셨다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "“너희 율법 교사들도 불행하여라!",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "너희가 힘겨운 짐을 사람들에게 지워 놓고,",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "너희 자신들은 그 짐에 손가락 하나 대려고 하지 않기 때문이다.”",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261014"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261014"
+        }
+      ]
+    }
+  ]
+}

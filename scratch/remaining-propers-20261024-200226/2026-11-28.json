@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-28",
+  "date": "2026-11-28",
+  "observance": "(녹) 연중 제34주간 토요일",
+  "sourceRefs": [
+    "goodnews-20261128"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<다시는 밤이 없습니다. 주님께서 그들의 빛이 되어 주실 것이기 때문입니다.>",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 묵시록의 말씀입니다.22,1-7",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "주님의 천사는 수정처럼 빛나는 생명수의 강을",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "나 요한에게 1 보여 주었습니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "그 강은 하느님과 어린양의 어좌에서 나와,",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "2 도성의 거리 한가운데를 흐르고 있었습니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "강 이쪽저쪽에는 열두 번 열매를 맺는 생명나무가 있어서",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "다달이 열매를 내놓습니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "그리고 그 나뭇잎은 민족들을 치료하는 데에 쓰입니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "3 그곳에는 더 이상 하느님의 저주를 받는 것이 없을 것입니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "도성 안에는 하느님과 어린양의 어좌가 있어,",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "그분의 종들이 그분을 섬기며 4 그분의 얼굴을 뵐 것입니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "그리고 그들의 이마에는 그분의 이름이 적혀 있을 것입니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "5 다시는 밤이 없고 등불도 햇빛도 필요 없습니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "주 하느님께서 그들의 빛이 되어 주실 것이기 때문입니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "그들은 영원무궁토록 다스릴 것입니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "6 그 천사가 또 나에게 말하였습니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "“이 말씀은 확실하고 참된 말씀이다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "주님, 곧 예언자들에게 영을 내려 주시는 하느님께서",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "머지않아 반드시 일어날 일들을 당신 종들에게 보여 주시려고",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "당신 천사를 보내신 것이다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "7 보라, 내가 곧 간다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "이 책에 기록된 예언의 말씀을 지키는 사람은 행복하다.”",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261128"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 95(94),1-2.3-5.6-7ㄱㄴㄷ(◎ 1코린 16,22ㄴ과 묵시 22,20ㄷ)",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 마라나 타! 오소서, 주 예수님!",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 어서 와 주님께 노래 부르세. 구원의 바위 앞에 환성 올리세. 감사하며 그분 앞에 나아가세. 노래하며 그분께 환성 올리세. ◎",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 주님은 위대하신 하느님, 모든 신들보다 위대하신 임금님. 땅속 깊은 곳도 그분 손안에. 높은 산봉우리도 그분 것이네. 바다도 그분 것, 몸소 만드셨네. 마른땅도 당신 손수 빚으셨네. ◎",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 어서 와 엎드려 경배드리세. 우리를 내신 주님 앞에 무릎 꿇으세. 그분은 우리의 하느님, 우리는 그분 목장의 백성, 그분 손이 이끄시는 양 떼로세. ◎",
+          "sourceRef": "goodnews-20261128"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 21,36 참조",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 너희는 사람의 아들 앞에 설 수 있도록 늘 깨어 기도하여라.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261128"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<너희는 앞으로 일어날 이 모든 일에서 벗어날 수 있도록 깨어 있어라.>",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.21,34-36",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 제자들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "34 “너희는 스스로 조심하여,",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "방탕과 만취와 일상의 근심으로",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "너희 마음이 물러지는 일이 없게 하여라.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "그리고 그날이 너희를 덫처럼 갑자기 덮치지 않게 하여라.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "35 그날은 온 땅 위에 사는 모든 사람에게 들이닥칠 것이다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "36 너희는 앞으로 일어날 이 모든 일에서 벗어나",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "사람의 아들 앞에 설 수 있는 힘을 지니도록",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "늘 깨어 기도하여라.”",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261128"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261128"
+        }
+      ]
+    }
+  ]
+}

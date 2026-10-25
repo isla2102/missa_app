@@ -1,0 +1,8 @@
+
+mode.value='beginner';date.value='2026-10-18';run("viewerOrientation='auto';part=1");
+const r50=run("renderBlock(flowBlocks(1).find(b=>b.item?.title==='제1독서'))");assert.ok(walk(r50).some(n=>n.classList.contains('reader__reading-note')&&n.textContent==='앉아서 말씀을 듣습니다.'));assert.ok(!walk(r50).some(n=>n.classList.contains('reader__guidance')&&n.textContent.includes('앉아서')));
+const g50=run("renderBlock(flowBlocks(1).find(b=>b.item?.title==='복음'))");const glory50=roles(g50).find(n=>n.textContent.includes('주님, 영광 받으소서.'));assert.ok(glory50.textContent.includes('작은 십자'));assert.ok(!glory50.textContent.includes('열한 제자'));assert.ok(roles(g50).some(n=>n.attrs['data-speech-role']==='text'&&n.textContent.includes('열한 제자')));
+run("parishPrayerPresentation['복음 환호송']='recite'");const ac50=run("renderAlleluia('first')");assert.ok(ac50.children[1].classList.contains('reader__content-card--liturgy'));
+const cr50=run('renderCreed()');assert.ok(walk(cr50).some(n=>n.classList.contains('reader__bow-phrase')));assert.equal(walk(ui.get('score-modal-body')).filter(n=>n.tagName==='object').length,0);
+assert.ok(html.includes('reader__menu-toggle'));assert.ok(html.includes("viewerOrientation==='portrait'?new Set([selectedItem])"));console.log('PASS v50 reading note/space, Gospel roles and guidance, single recitation border, SVG modal, bow underline, portrait menu and TOC.');
+run("viewerOrientation='portrait';part=1;selectedItem=contents[1][4].id;layouts=[{blocks:flowBlocks(1)}];spread=0;renderToc()");assert.equal(walk(ui.get('toc-rail')).filter(n=>n.classList.contains('reader__toc-visible')).length,1);run("showPanel('menu')");assert.ok(ui.get('drawer-body').textContent.includes('주요 기도문'));console.log('PASS v50 portrait single current TOC frame and menu entries.');

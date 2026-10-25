@@ -1,0 +1,288 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MISSA · 7단계 사용 흐름 검수</title><style>@layer tokens, base, layout, components, responsive, utilities;
+@layer tokens {
+ :root {
+  --foundation-dialog-guide: 32rem;
+  --foundation-dialog-drawer: 28rem;
+  --foundation-dialog-score: 90rem;
+  --foundation-dialog-height: 90dvh;
+  --foundation-overlay-shade: 30%;
+  --action-surface: var(--ui-theme-surface);
+  --action-ink: var(--ui-theme-accent);
+  --action-line: var(--ui-theme-accent);
+  --action-weight: var(--foundation-response-weight);
+  --response-surface: var(--ui-theme-accent);
+  --response-ink: var(--ui-theme-on-accent);
+  --dialog-guide-width: var(--foundation-dialog-guide);
+  --dialog-drawer-width: var(--foundation-dialog-drawer);
+  --dialog-score-width: var(--foundation-dialog-score);
+  --dialog-height: var(--foundation-dialog-height);
+  --dialog-backdrop: color-mix(in srgb,var(--ui-theme-ink) var(--foundation-overlay-shade),transparent);
+  --button-primary-surface: var(--action-surface);
+  --button-primary-ink: var(--action-ink);
+  --button-primary-line: var(--action-line);
+  --button-primary-weight: var(--action-weight);
+  --assembly-surface: var(--response-surface);
+  --assembly-ink: var(--response-ink);
+  --overlay-guide-width: var(--dialog-guide-width);
+  --overlay-drawer-width: var(--dialog-drawer-width);
+  --overlay-score-width: var(--dialog-score-width);
+  --overlay-max-height: var(--dialog-height);
+  --overlay-backdrop: var(--dialog-backdrop);
+  --foundation-toc-width: 12rem;
+  --layout-toc-width: var(--foundation-toc-width);
+  --reader-rail-width: var(--layout-toc-width);
+  --overlay-caption-size: var(--reader-header-compact-size);
+  --reader-heading-z: var(--ui-reading-note-z);
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-25: .625rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --radius-12: .75rem;
+  --hit-44: 2.75rem;
+  --layout-padding: var(--space-4);
+  --layout-gap: var(--space-3);
+  --content-padding: var(--space-25);
+  --control-padding-compact: var(--space-1);
+  --control-padding-block: var(--space-2);
+  --control-padding-inline: var(--space-25);
+  --control-hit: var(--hit-44);
+  --shape-rounded: var(--radius-12);
+  --reader-padding: var(--layout-padding);
+  --reader-gap: var(--layout-gap);
+  --reader-item-gap: var(--layout-gap);
+  --reader-content-inset: var(--content-padding);
+  --reader-header-control-padding: var(--control-padding-compact);
+  --reader-control-padding-block: var(--control-padding-block);
+  --reader-control-padding-inline: var(--control-padding-inline);
+  --reader-control-hit: var(--control-hit);
+  --reader-radius: var(--shape-rounded);
+  --font-family-sans: 'Malgun Gothic', system-ui, sans-serif;
+  --font-family-serif: Batang, 'Times New Roman', serif;
+  --font-size-18: 1.125rem;
+  --line-height-160: 1.6;
+  --font-ui: var(--font-family-sans);
+  --font-body: var(--font-family-serif);
+  --font-body-size: var(--font-size-18);
+  --font-body-leading: var(--line-height-160);
+  --reader-ui-font: var(--font-ui);
+  --reader-body-font: var(--font-body);
+  --reader-body-size: var(--font-body-size);
+  --reader-body-leading: var(--font-body-leading);
+ }
+ :root[data-reader-font="sans"] { --font-body: var(--font-family-sans); }
+}
+
+@layer tokens {
+ :root {
+  --foundation-theme-bg: #EEE7DA;
+  --foundation-theme-surface: #F7F1E7;
+  --foundation-theme-ink: #25342E;
+  --foundation-theme-muted: #4C5C52;
+  --foundation-theme-accent: #70283F;
+  --foundation-theme-soft: #DEE6DB;
+  --foundation-theme-line: #72816F;
+  --foundation-theme-on-accent: #FFFFFF;
+  --foundation-scroll-min: 10rem;
+  --foundation-reading-min: 22rem;
+  --foundation-psalm-min: 14rem;
+  --foundation-hymn-number-width: 5rem;
+  --foundation-hymn-label-width: 6rem;
+  --foundation-reading-note-z: 2;
+  --foundation-reading-note-size: .875rem;
+  --foundation-header-gap: .375rem;
+  --foundation-header-compact-size: .875rem;
+  --foundation-brand-size: 1.5rem;
+  --foundation-preview-portrait-width: 48rem;
+  --foundation-preview-portrait-height: 64rem;
+  --foundation-preview-landscape-width: 64rem;
+  --foundation-preview-landscape-height: 48rem;
+  --foundation-dialogue-width: 12rem;
+  --foundation-score-action-z: 2;
+  --foundation-score-action-font: 0.75rem;
+  --foundation-score-action-padding: 0.25rem;
+  --foundation-score-action-hit: 1.5rem;
+  --foundation-modal-width: 90rem;
+  --foundation-modal-height: 92dvh;
+  --foundation-marker-width: 1.25rem;
+  --foundation-marker-gap: .375rem;
+  --foundation-choice-card-z: 0;
+  --foundation-choice-marker-z: 1;
+  --foundation-choice-marker-space: 1.25rem;
+  --foundation-response-weight: 700;
+  --foundation-response-border: 2px;
+  --foundation-toc-target: 1.5rem;
+  --foundation-toc-gap: .125rem;
+  --foundation-rail-max: 16rem;
+  --foundation-score-height: 3rem;
+  --foundation-panel: 28rem;
+  --foundation-focus-ring: 3px solid currentColor;
+  --ui-theme-bg: var(--foundation-theme-bg);
+  --ui-theme-surface: var(--foundation-theme-surface);
+  --ui-theme-ink: var(--foundation-theme-ink);
+  --ui-theme-muted: var(--foundation-theme-muted);
+  --ui-theme-accent: var(--foundation-theme-accent);
+  --ui-theme-soft: var(--foundation-theme-soft);
+  --ui-theme-line: var(--foundation-theme-line);
+  --ui-theme-on-accent: var(--foundation-theme-on-accent);
+  --ui-score-paper: var(--ui-theme-surface);
+  --ui-scroll-min: var(--foundation-scroll-min);
+  --ui-reading-min: var(--foundation-reading-min);
+  --ui-psalm-min: var(--foundation-psalm-min);
+  --ui-hymn-number-width: var(--foundation-hymn-number-width);
+  --ui-hymn-label-width: var(--foundation-hymn-label-width);
+  --ui-reading-note-z: var(--foundation-reading-note-z);
+  --ui-reading-note-size: var(--foundation-reading-note-size);
+  --ui-header-gap: var(--foundation-header-gap);
+  --ui-header-compact-size: var(--foundation-header-compact-size);
+  --ui-brand-size: var(--foundation-brand-size);
+  --ui-preview-portrait-width: var(--foundation-preview-portrait-width);
+  --ui-preview-portrait-height: var(--foundation-preview-portrait-height);
+  --ui-preview-landscape-width: var(--foundation-preview-landscape-width);
+  --ui-preview-landscape-height: var(--foundation-preview-landscape-height);
+  --ui-dialogue-width: var(--foundation-dialogue-width);
+  --ui-score-action-z: var(--foundation-score-action-z);
+  --ui-score-action-font: var(--foundation-score-action-font);
+  --ui-score-action-padding: var(--foundation-score-action-padding);
+  --ui-score-action-hit: var(--foundation-score-action-hit);
+  --ui-modal-width: var(--foundation-modal-width);
+  --ui-modal-height: var(--foundation-modal-height);
+  --ui-marker-width: var(--foundation-marker-width);
+  --ui-marker-gap: var(--foundation-marker-gap);
+  --ui-choice-card-z: var(--foundation-choice-card-z);
+  --ui-choice-marker-z: var(--foundation-choice-marker-z);
+  --ui-choice-marker-space: var(--foundation-choice-marker-space);
+  --ui-guide-ink: var(--ui-theme-accent);
+  --ui-guide-surface: var(--ui-theme-soft);
+  --ui-response-weight: var(--foundation-response-weight);
+  --ui-response-border: var(--foundation-response-border);
+  --ui-toc-target: var(--foundation-toc-target);
+  --ui-toc-gap: var(--foundation-toc-gap);
+  --ui-rail-max: var(--foundation-rail-max);
+  --ui-score-height: var(--foundation-score-height);
+  --ui-panel: var(--foundation-panel);
+  --state-focus-ring: var(--foundation-focus-ring);
+  --reader-theme-bg: var(--ui-theme-bg);
+  --reader-theme-surface: var(--ui-theme-surface);
+  --reader-theme-ink: var(--ui-theme-ink);
+  --reader-theme-muted: var(--ui-theme-muted);
+  --reader-theme-accent: var(--ui-theme-accent);
+  --reader-theme-soft: var(--ui-theme-soft);
+  --reader-theme-line: var(--ui-theme-line);
+  --reader-theme-on-accent: var(--ui-theme-on-accent);
+  --reader-score-paper: var(--ui-score-paper);
+  --reader-scroll-min: var(--ui-scroll-min);
+  --reader-reading-min: var(--ui-reading-min);
+  --reader-psalm-min: var(--ui-psalm-min);
+  --reader-hymn-number-width: var(--ui-hymn-number-width);
+  --reader-hymn-label-width: var(--ui-hymn-label-width);
+  --reader-reading-note-z: var(--ui-reading-note-z);
+  --reader-reading-note-size: var(--ui-reading-note-size);
+  --reader-header-gap: var(--ui-header-gap);
+  --reader-header-compact-size: var(--ui-header-compact-size);
+  --reader-brand-size: var(--ui-brand-size);
+  --reader-preview-portrait-width: var(--ui-preview-portrait-width);
+  --reader-preview-portrait-height: var(--ui-preview-portrait-height);
+  --reader-preview-landscape-width: var(--ui-preview-landscape-width);
+  --reader-preview-landscape-height: var(--ui-preview-landscape-height);
+  --reader-dialogue-width: var(--ui-dialogue-width);
+  --reader-score-action-z: var(--ui-score-action-z);
+  --reader-score-action-font: var(--ui-score-action-font);
+  --reader-score-action-padding: var(--ui-score-action-padding);
+  --reader-score-action-hit: var(--ui-score-action-hit);
+  --reader-modal-width: var(--ui-modal-width);
+  --reader-modal-height: var(--ui-modal-height);
+  --reader-marker-width: var(--ui-marker-width);
+  --reader-marker-gap: var(--ui-marker-gap);
+  --reader-choice-card-z: var(--ui-choice-card-z);
+  --reader-choice-marker-z: var(--ui-choice-marker-z);
+  --reader-choice-marker-space: var(--ui-choice-marker-space);
+  --reader-guide-ink: var(--ui-guide-ink);
+  --reader-guide-surface: var(--ui-guide-surface);
+  --reader-response-weight: var(--ui-response-weight);
+  --reader-response-border: var(--ui-response-border);
+  --reader-toc-target: var(--ui-toc-target);
+  --reader-toc-gap: var(--ui-toc-gap);
+  --reader-rail-max: var(--ui-rail-max);
+  --reader-score-height: var(--ui-score-height);
+  --reader-panel: var(--ui-panel);
+  --focus-ring: var(--state-focus-ring);
+ }
+ :root[data-reader-theme="b"] {
+  --foundation-theme-bg: #DDD3C0;
+  --foundation-theme-surface: #E9DFCD;
+  --foundation-theme-ink: #29352D;
+  --foundation-theme-muted: #4F5C4E;
+  --foundation-theme-accent: #70283F;
+  --foundation-theme-soft: #D2DCCB;
+  --foundation-theme-line: #6E7A68;
+ }
+ :root[data-reader-theme="c"] {
+  --foundation-score-paper: #E9DFCD;
+  --ui-score-paper: var(--foundation-score-paper);
+  --foundation-theme-bg: #272225;
+  --foundation-theme-surface: #312A2D;
+  --foundation-theme-ink: #EEE2D8;
+  --foundation-theme-muted: #C9B8B0;
+  --foundation-theme-accent: #E0A3B5;
+  --foundation-theme-soft: #40353A;
+  --foundation-theme-line: #A58B91;
+  --foundation-theme-on-accent: #312027;
+  color-scheme: dark;
+ }
+}
+
+@layer tokens {
+ :root {
+  --foundation-selected-tint: 12%;
+  --state-selected-surface: color-mix(in srgb, var(--ui-theme-accent) var(--foundation-selected-tint), var(--ui-theme-surface));
+  --state-selected-ink: var(--ui-theme-accent);
+  --state-selected-border: var(--ui-theme-accent);
+  --button-selected-surface: var(--state-selected-surface);
+  --button-selected-ink: var(--state-selected-ink);
+  --button-selected-border: var(--state-selected-border);
+ }
+}
+
+@layer tokens {
+ :root {
+  --foundation-neutral-disabled-ink: #737373;
+  --foundation-neutral-disabled-line: #BBBBBB;
+  --state-disabled-ink: var(--foundation-neutral-disabled-ink);
+  --state-disabled-line: var(--foundation-neutral-disabled-line);
+  --button-disabled-ink: var(--state-disabled-ink);
+  --button-disabled-line: var(--state-disabled-line);
+ }
+ :root[data-reader-theme="c"] {
+  --foundation-neutral-disabled-ink: #AAAAAA;
+  --foundation-neutral-disabled-line: #666666;
+ }
+}
+
+@layer tokens {
+ :root {
+  --field-surface: var(--ui-theme-surface);
+  --field-ink: var(--ui-theme-ink);
+  --field-line: var(--ui-theme-line);
+  --input-surface: var(--field-surface);
+  --input-ink: var(--field-ink);
+  --input-line: var(--field-line);
+ }
+}
+@layer components {
+ .missa-button { min-block-size: var(--reader-control-hit); padding: var(--reader-control-padding-block) var(--reader-control-padding-inline); border-radius: var(--reader-radius); color: var(--reader-theme-accent); background: var(--reader-theme-surface); border: 1px solid var(--reader-theme-line); font: inherit; }
+ .missa-button[aria-pressed="true"] { color: var(--button-selected-ink); background: var(--button-selected-surface); border-color: var(--button-selected-border); font-weight: var(--reader-response-weight); }
+ .missa-button[aria-pressed="true"]::before { content: '✓ '; }
+ .missa-button--primary { color: var(--button-primary-ink); background: var(--button-primary-surface); border-color: var(--button-primary-line); font-weight: var(--button-primary-weight); }
+ .missa-button:disabled { color: var(--button-disabled-ink); border-color: var(--button-disabled-line); border-style: solid; background: var(--reader-theme-surface); cursor: default; }
+ .missa-button:focus-visible { outline: var(--focus-ring); }
+}
+@layer components {
+ .missa-input { min-block-size: var(--reader-control-hit); padding: var(--reader-control-padding-block) var(--reader-control-padding-inline); border: 1px solid var(--input-line); border-radius: var(--reader-radius); background: var(--input-surface); color: var(--input-ink); font: inherit; min-inline-size: 0; max-inline-size: 100%; }
+ .missa-input:focus-visible { outline: var(--focus-ring); }
+ .missa-input:disabled { color: var(--button-disabled-ink); border-color: var(--button-disabled-line); }
+ .missa-input[aria-invalid="true"] { border-color: var(--reader-theme-accent); }
+}
+@layer base { * {box-sizing:border-box;} body {margin:0;background:var(--reader-theme-bg);color:var(--reader-theme-ink);font:1rem/1.6 var(--reader-ui-font);} h1,h2,p {margin:0;} a {color:var(--reader-theme-accent);} button,summary,label {cursor:pointer;} :focus-visible {outline:var(--focus-ring);} } @layer layout { .check {padding:var(--reader-padding);display:grid;gap:var(--reader-gap);} .check__row {display:flex;align-items:center;flex-wrap:wrap;gap:var(--reader-gap);} .check__guide {padding:var(--reader-padding);border:1px solid var(--reader-theme-line);border-radius:var(--reader-radius);background:var(--reader-theme-surface);} .check__list {display:grid;gap:var(--reader-gap);margin-block:var(--reader-gap);} .check__item {display:flex;align-items:center;gap:var(--reader-gap);min-block-size:var(--reader-control-hit);} .check__viewport {overflow:auto;} .check__frame {display:block;width:var(--reader-preview-landscape-width);height:var(--reader-preview-landscape-height);border:0;outline:1px solid var(--reader-theme-line);} .check__notes {display:grid;gap:var(--reader-gap);} .check__notes textarea {width:100%;min-height:var(--reader-scroll-min);} } @layer components { .check__title {color:var(--reader-theme-accent);} .check__item input {width:var(--reader-marker-width);height:var(--reader-marker-width);accent-color:var(--reader-theme-accent);} .check__status {font-weight:var(--reader-response-weight);} [hidden] {display:none;} }</style></head><body><main class="check"><h1>7단계 · 사용 흐름 검수</h1><p>아래 실제 화면을 조작하고, 확인한 항목만 체크해 주세요. 체크는 사용자 확인 기록이며 자동 검사 통과나 단계 승인으로 처리하지 않습니다.</p><div class="check__row" role="group" aria-label="검수 순서"><button class="missa-button" type="button" data-flow="0" aria-pressed="true" aria-label="선택·저장">1 · 선택·저장</button><button class="missa-button" type="button" data-flow="1" aria-pressed="false" aria-label="읽기·표시">2 · 읽기·표시</button><button class="missa-button" type="button" data-flow="2" aria-pressed="false" aria-label="보조 화면">3 · 보조 화면</button></div><section class="check__guide" data-panel="0"><h2 class="check__title">1. 선택·저장</h2><div class="check__list"><label class="check__item"><input type="checkbox" data-step="0-0"><span><strong>1. 날짜별 추천</strong> — 상단 날짜를 10월 18일 → 10월 21일로 변경하고, 성가 패널의 추천 목록이 날짜에 맞춰 달라지는지 확인합니다.</span></label><label class="check__item"><input type="checkbox" data-step="0-1"><span><strong>2. 회차별 저장</strong> — 교중미사에서 성가 패널을 열고 입당 성가에 48, 63을 입력한 뒤 ‘편성 저장’을 누릅니다.</span></label><label class="check__item"><input type="checkbox" data-step="0-2"><span><strong>3. 새로고침 유지</strong> — 위쪽 ‘프로토타입 새로고침’을 누르고 성가 패널을 다시 열어 48, 63이 유지되는지 확인합니다.</span></label><label class="check__item"><input type="checkbox" data-step="0-3"><span><strong>4. 날짜·회차 분리</strong> — 새벽미사 또는 다른 날짜로 바꿨다가 원래 날짜·교중미사로 돌아와 저장한 편성이 유지되는지 확인합니다.</span></label></div></section><section class="check__guide" data-panel="1" hidden><h2 class="check__title">2. 읽기·표시</h2><div class="check__list"><label class="check__item"><input type="checkbox" data-step="1-0"><span><strong>1. 낭송·성가</strong> — 자비송·대영광송 등에서 낭송/성가를 전환하고 제목·본문 중복이나 빈 페이지가 없는지 확인합니다.</span></label><label class="check__item"><input type="checkbox" data-step="1-1"><span><strong>2. 양식 선택</strong> — 참회 1·2·3양식과 신앙고백 양식을 전환하고 선택 표시와 안내가 맞는지 확인합니다. 미연결 본문은 미연결 안내가 정상입니다.</span></label><label class="check__item"><input type="checkbox" data-step="1-2"><span><strong>3. 목차·읽기 위치</strong> — 본문을 읽는 중 목차를 접었다 펴도 같은 순서에 머무는지 확인합니다.</span></label><label class="check__item"><input type="checkbox" data-step="1-3"><span><strong>4. 테마·글꼴</strong> — 보기 설정에서 배경·본문 글꼴을 바꾸고 현재 순서와 스크롤 위치가 유지되는지 확인합니다.</span></label></div></section><section class="check__guide" data-panel="2" hidden><h2 class="check__title">3. 보조 화면</h2><div class="check__list"><label class="check__item"><input type="checkbox" data-step="2-0"><span><strong>1. 메뉴·설정</strong> — 메뉴에서 성가·주요 기도문·보기 설정으로 접근하고 닫은 뒤 열었던 버튼으로 돌아오는지 확인합니다.</span></label><label class="check__item"><input type="checkbox" data-step="2-1"><span><strong>2. 중앙 안내</strong> — 긴 안내 버튼을 눌러 중앙 창이 열리고 닫기·Esc로 돌아오는지 확인합니다.</span></label><label class="check__item"><input type="checkbox" data-step="2-2"><span><strong>3. 악보 모달</strong> — ‘악보 크게 보기’를 눌러 종이색 바탕·폭 맞춤·세로 스크롤과 닫기만 있는지 확인합니다.</span></label><label class="check__item"><input type="checkbox" data-step="2-3"><span><strong>4. 키보드</strong> — Tab으로 버튼·입력칸을 이동하고, 모달에서 배경 조작으로 초점이 빠지지 않는지 확인합니다.</span></label></div></section><div class="check__row"><button class="missa-button" type="button" data-js="reload">프로토타입 새로고침</button><a href="../prototype/index.html" target="_blank" rel="noopener">프로토타입만 새 탭으로 열기</a><p class="check__status" role="status" data-js="progress">0 / 12개 확인</p></div><p>가로 1024 × 768 실크기 · 좁은 창은 프레임을 가로로 스크롤하세요. 편성·설정은 별도 테스트 공간에 저장됩니다.</p><div class="check__viewport"><iframe class="check__frame" title="검수할 실제 미사 프로토타입" src="../prototype/index.html"></iframe></div><div class="check__notes"><label for="notes">발견한 문제</label><textarea class="missa-input" id="notes" placeholder="예: 10월 21일 교중미사 / 편성 저장 후 새로고침 / 입당 번호가 달라짐"></textarea><div class="check__row"><button class="missa-button missa-button--primary" type="button" data-js="export">검수 기록 내려받기</button><span>체크와 메모는 이 탭에만 유지됩니다. 필요하면 JSON 기록을 내려받으세요.</span></div></div></main><script>
+document.querySelectorAll('[data-flow]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-flow]').forEach(n=>n.setAttribute('aria-pressed',String(n===b)));document.querySelectorAll('[data-panel]').forEach(n=>n.hidden=n.dataset.panel!==b.dataset.flow);});document.querySelectorAll('[data-step]').forEach(n=>n.onchange=()=>{document.querySelector('[data-js="progress"]').textContent=document.querySelectorAll('[data-step]:checked').length+' / 12개 확인';});document.querySelector('[data-js="reload"]').onclick=()=>{const f=document.querySelector('iframe');f.src=f.getAttribute('src');};document.querySelector('[data-js="export"]').onclick=()=>{const report={stage:7,kind:'manual-review',checks:[...document.querySelectorAll('[data-step]')].map(n=>({id:n.dataset.step,checked:n.checked,text:n.parentElement.textContent})),notes:document.querySelector('#notes').value};const url=URL.createObjectURL(new Blob([JSON.stringify(report,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='missa-manual-review.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+</script></body></html>

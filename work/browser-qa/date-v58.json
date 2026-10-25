@@ -1,0 +1,9 @@
+{
+  "largeFontNoHeadingOverlap": true,
+  "dateCases": 31,
+  "missingDate": true,
+  "dateIsolation": true,
+  "rotationAnchor": true,
+  "largeFontCaptured": true,
+  "errors": []
+}

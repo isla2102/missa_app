@@ -1,0 +1,511 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-17",
+  "date": "2026-11-17",
+  "observance": "(백) 헝가리의 성녀 엘리사벳 수도자 기념일",
+  "sourceRefs": [
+    "goodnews-20261117"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<누구든지 문을 열면, 나는 그의 집에 들어가 그와 함께 먹을 것이다.>",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 묵시록의 말씀입니다.3,1-6.14-22",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "나 요한은 주님께서 나에게 말씀하시는 것을 들었습니다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "1 “사르디스 교회의 천사에게 써 보내라.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "‘하느님의 일곱 영과 일곱 별을 가진 이가 말한다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "나는 네가 한 일을 안다. 너는 살아 있다고 하지만 사실은 죽은 것이다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "2 깨어 있어라. 아직 남아 있지만 죽어 가는 것들을 튼튼하게 만들어라.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "나는 네가 한 일들이 나의 하느님 앞에서 완전하다고 보지 않는다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "3 그러므로 네가 가르침을 어떻게 받아들이고 어떻게 들었는지 되새겨,",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "그것을 지키고 또 회개하여라.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "네가 깨어나지 않으면 내가 도둑처럼 가겠다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "너는 내가 어느 때에 너에게 갈지 결코 알지 못할 것이다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "4 그러나 사르디스에는 자기 옷을 더럽히지 않은 사람이 몇 있다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "그들은 흰옷을 입고, 나와 함께 다닐 것이다. 그럴 자격이 있기 때문이다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "5 승리하는 사람은 이처럼 흰옷을 입을 것이다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "그리고 나는 생명의 책에서 그의 이름을 지우지 않을 것이고,",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "내 아버지와 그분의 천사들 앞에서 그의 이름을 안다고 증언할 것이다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "6 귀 있는 사람은 성령께서 여러 교회에 하시는 말씀을 들어라.’",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "14 라오디케이아 교회의 천사에게 써 보내라.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "‘아멘 그 자체이고 성실하고 참된 증인이며 하느님 창조의 근원인 이가 말한다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "15 나는 네가 한 일을 안다. 너는 차지도 않고 뜨겁지도 않다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "네가 차든지 뜨겁든지 하면 좋으련만!",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "16 네가 이렇게 미지근하여 뜨겁지도 않고 차지도 않으니,",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "나는 너를 입에서 뱉어 버리겠다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "17 ′나는 부자로서 풍족하여 모자람이 없다.′ 하고 네가 말하지만,",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "사실은 비참하고 가련하고 가난하고 눈멀고 벌거벗은 것을 깨닫지 못한다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "18 내가 너에게 권한다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "나에게서 불로 정련된 금을 사서 부자가 되고,",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "text",
+          "text": "흰옷을 사 입어 너의 수치스러운 알몸이 드러나지 않게 하고,",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p30",
+          "role": "text",
+          "text": "안약을 사서 눈에 발라 제대로 볼 수 있게 하여라.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p31",
+          "role": "text",
+          "text": "19 내가 사랑하는 사람들을 나는 책망도 하고 징계도 한다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p32",
+          "role": "text",
+          "text": "그러므로 열성을 다하고 회개하여라.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p33",
+          "role": "text",
+          "text": "20 보라, 내가 문 앞에 서서 문을 두드리고 있다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p34",
+          "role": "text",
+          "text": "누구든지 내 목소리를 듣고 문을 열면,",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p35",
+          "role": "text",
+          "text": "나는 그의 집에 들어가 그와 함께 먹고 그 사람도 나와 함께 먹을 것이다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p36",
+          "role": "text",
+          "text": "21 승리하는 사람은,",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p37",
+          "role": "text",
+          "text": "내가 승리한 뒤에 내 아버지의 어좌에 그분과 함께 앉은 것처럼,",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p38",
+          "role": "text",
+          "text": "내 어좌에 나와 함께 앉게 해 주겠다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p39",
+          "role": "text",
+          "text": "22 귀 있는 사람은 성령께서 여러 교회에 하시는 말씀을 들어라.’”",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p40",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "reading-1-p41",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261117"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 15(14),2-3ㄱ.3ㄴㄷ-4ㄱㄴ.5(◎ 묵시 3,21 참조)",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 승리하는 사람은 내 어좌에 나와 함께 앉으리라.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 흠 없이 걸어가고, 의로운 일을 하며, 마음속 진실을 말하는 이, 함부로 혀를 놀리지 않는 이라네. ◎",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 친구를 해치지 않으며, 이웃을 모욕하지 않는 이라네. 그는 악인을 업신여기지만, 주님을 경외하는 이들은 존중한다네. ◎",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 이자를 받으려 돈놀이 않으며, 죄 없는 이를 해치는 뇌물 받지 않는다네. 이 모든 것 행하는 그 사람, 영원토록 흔들림 없으리라. ◎",
+          "sourceRef": "goodnews-20261117"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "1요한 4,10",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 하느님은 우리를 사랑하시어 당신 아드님을 우리 죄를 위한 속죄 제물로 보내 주셨네.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261117"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<사람의 아들은 잃은 이들을 찾아 구원하러 왔다.>",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.19,1-10",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 1 예수님께서 예리코에 들어가시어 거리를 지나가고 계셨다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "2 마침 거기에 자캐오라는 사람이 있었는데, 그는 세관장이고 또 부자였다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "3 그는 예수님께서 어떠한 분이신지 보려고 애썼지만",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "군중에 가려 볼 수가 없었다. 키가 작았기 때문이다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "4 그래서 앞질러 달려가 돌무화과나무로 올라갔다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "그곳을 지나시는 예수님을 보려는 것이었다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "5 예수님께서 거기에 이르러 위를 쳐다보시며 그에게 이르셨다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "“자캐오야, 얼른 내려오너라. 오늘은 내가 네 집에 머물러야 하겠다.”",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "6 자캐오는 얼른 내려와 예수님을 기쁘게 맞아들였다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "7 그것을 보고 사람들은 모두",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "“저이가 죄인의 집에 들어가 묵는군.” 하고 투덜거렸다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "8 그러나 자캐오는 일어서서 주님께 말하였다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "“보십시오, 주님! 제 재산의 반을 가난한 이들에게 주겠습니다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "그리고 제가 다른 사람 것을 횡령하였다면 네 곱절로 갚겠습니다.”",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "9 그러자 예수님께서 그에게 이르셨다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "“오늘 이 집에 구원이 내렸다. 이 사람도 아브라함의 자손이기 때문이다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "10 사람의 아들은 잃은 이들을 찾아 구원하러 왔다.”",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261117"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261117"
+        }
+      ]
+    }
+  ]
+}

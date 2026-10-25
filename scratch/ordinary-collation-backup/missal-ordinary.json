@@ -1,0 +1,1418 @@
+{
+  "version": "1.0",
+  "sourceId": "user-roman-missal-ordinary-pdf",
+  "sourcePath": "data/source-library/ordinary/originals/미사통상문.pdf",
+  "scope": "Current prototype common ordinary and Eucharistic Prayer II; not all 238 pages transcribed.",
+  "records": [
+    {
+      "id": "ordinary-01",
+      "key": "입당 성가",
+      "sourcePages": [
+        1
+      ],
+      "status": "draft-unverified",
+      "text": "[자료에 입당송 본문·성가 번호 없음]",
+      "contentType": "variable-placeholder",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-02",
+      "key": "성호경",
+      "sourcePages": [
+        1
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 입당 노래가 끝나면 사제와 신자들은 서서 십자 성호를 긋는다. 사제는 성호를 그으며 교우들을 바라보고 말한다.\n+ 성부와 성자와 성령의 이름으로.\n◎ 아멘.",
+      "rubrics": [
+        {
+          "text": "입당 노래가 끝나면 사제와 신자들은 서서 십자 성호를 긋는다. 사제는 성호를 그으며 교우들을 바라보고 말한다.",
+          "pdfPage": 3,
+          "item": "1",
+          "placement": "before",
+          "anchor": null
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-03",
+      "key": "인사",
+      "sourcePages": [
+        1
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 이어서 사제는 팔을 벌리며 교우들에게 인사한다.\n[선택지 1]\n+ 우리 주 예수 그리스도의 은총과 하느님의 사랑과 성령의 친교가 여러분 모두와 함께.\n◎ 또한 사제의 영과 함께.\n[또는 선택지 2]\n+ 하느님 우리 아버지와 주 예수 그리스도께서 내리시는 은총과 평화가 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n[또는 선택지 3]\n+ 주님께서 여러분과 함께.\n◎ 또한 사제의 영과 함께.",
+      "selectionStatus": "unconfirmed-alternatives",
+      "rubrics": [
+        {
+          "text": "이어서 사제는 팔을 벌리며 교우들에게 인사한다.",
+          "pdfPage": 3,
+          "item": "2",
+          "placement": "before",
+          "anchor": null
+        }
+      ],
+      "bishopNote": {
+        "text": "주교는 주님께서 여러분과 함께. 대신에 첫인사로 이렇게 말한다.",
+        "prayer": "평화가 여러분과 함께.",
+        "pdfPage": 4,
+        "item": "2"
+      },
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-04",
+      "key": "참회 예식",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 그다음에 참회 예식이 이어진다. 사제는 신자들을 참회하도록 이끈다.\n+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다.\n[원문 지침] 잠깐 침묵한다. 그다음에 모두 함께 고백 기도를 바친다.\n+ 전능하신 하느님과\n◎ 형제들에게 고백하오니 생각과 말과 행위로 죄를 많이 지었으며 자주 의무를 소홀히 하였나이다.\n[원문 지침] 가슴을 치며 말한다.\n제 탓이요, 제 탓이요, 저의 큰 탓이옵니다.\n[원문 지침] 이어서 계속한다.\n그러므로 간절히 바라오니 평생 동정이신 성모 마리아와 모든 천사와 성인과 형제들은 저를 위하여 하느님께 빌어 주소서.\n[원문 지침] 사제의 사죄가 이어진다.\n+ 전능하신 하느님, 저희에게 자비를 베푸시어 죄를 용서하시고 영원한 생명으로 이끌어 주소서.\n◎ 아멘.",
+      "selectionStatus": "unconfirmed-alternatives",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-05",
+      "key": "자비송",
+      "sourcePages": [
+        3
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 앞의 참회 예식에서 자비송을 바치지 않았으면 이때 바친다.\n+ 주님, 자비를 베푸소서.\n◎ 주님, 자비를 베푸소서.\n+ 그리스도님, 자비를 베푸소서.\n◎ 그리스도님, 자비를 베푸소서.\n+ 주님, 자비를 베푸소서.\n◎ 주님, 자비를 베푸소서.",
+      "rubrics": [
+        {
+          "text": "앞의 참회 예식에서 자비송을 바치지 않았으면 이때 바친다.",
+          "pdfPage": 9,
+          "item": "7",
+          "placement": "before",
+          "anchor": null
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-06",
+      "key": "대영광송",
+      "sourcePages": [
+        4
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 이어서 정해진 때에는 대영광송을 노래하거나 낭송한다.\n+ 하늘 높은 데서는 하느님께 영광\n○ 땅에서는 주님께서 사랑하시는 사람들에게 평화.\n● 주 하느님, 하늘의 임금님\n○ 전능하신 아버지 하느님\n● 주님을 기리나이다. 찬미하나이다.\n○ 주님을 흠숭하나이다. 찬양하나이다.\n● 주님 영광 크시오니 감사하나이다.\n○ 외아들 주 예수 그리스도님\n● 주 하느님, 성부의 아드님\n○ 하느님의 어린양\n● 세상의 죄를 없애시는 주님, 저희에게 자비를 베푸소서.\n○ 세상의 죄를 없애시는 주님, 저희의 기도를 들어주소서.\n● 성부 오른편에 앉아 계신 주님, 저희에게 자비를 베푸소서.\n◎ 홀로 거룩하시고, 홀로 주님이시며, 홀로 높으신 예수 그리스도님\n성령과 함께 아버지 하느님의 영광 안에 계시나이다. 아멘.",
+      "editorialNotes": [
+        "첫 안내는 인쇄본 문구를 판독한 것으로 실제 전례 엔진의 적용 판정이 아님."
+      ],
+      "rubrics": [
+        {
+          "text": "이어서 정해진 때에는 대영광송을 노래하거나 낭송한다.",
+          "pdfPage": 10,
+          "item": "8",
+          "placement": "before",
+          "anchor": null
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-07",
+      "key": "본기도",
+      "sourcePages": [
+        4
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 대영광송이 끝나면 사제는 손을 모으고 말한다.\n+ 기도합시다.\n[원문 지침] 모두 사제와 함께 잠깐 침묵하며 기도한다.\n[원문 지침] 이어서 사제는 팔을 벌리고 본기도를 바친다. 기도가 끝나면 교우들은 환호한다.\n[선택 날짜 본기도 자료 미연결]\n◎ 아멘.",
+      "contentType": "variable-placeholder",
+      "rubrics": [
+        {
+          "text": "대영광송이 끝나면 사제는 손을 모으고 말한다.",
+          "pdfPage": 12,
+          "item": "9",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "모두 사제와 함께 잠깐 침묵하며 기도한다.\n이어서 사제는 팔을 벌리고 본기도를 바친다. 기도가 끝나면 교우들은 환호한다.",
+          "pdfPage": 12,
+          "item": "9",
+          "placement": "after",
+          "anchor": "+ 기도합시다."
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-08",
+      "key": "제1독서",
+      "sourcePages": [
+        5
+      ],
+      "status": "draft-unverified",
+      "text": "[자료에 오늘 독서 본문 없음]\n◆ [독서자] 주님의 말씀입니다.\n◎ 하느님, 감사합니다.",
+      "contentType": "variable-placeholder",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-09",
+      "key": "화답송",
+      "sourcePages": [
+        5
+      ],
+      "status": "draft-unverified",
+      "text": "[자료에 오늘 화답송 본문 없음]\n◎ (후렴)",
+      "contentType": "variable-placeholder",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-10",
+      "key": "제2독서",
+      "sourcePages": [
+        5
+      ],
+      "status": "draft-unverified",
+      "text": "[자료에 오늘 독서 본문 없음]\n◆ [독서자] 주님의 말씀입니다.\n◎ 하느님, 감사합니다.",
+      "contentType": "variable-placeholder",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-11",
+      "key": "복음 환호송",
+      "sourcePages": [
+        5
+      ],
+      "status": "draft-unverified",
+      "text": "◎ 알렐루야\n[자료에 오늘 복음 환호송 본문 없음 · 해설자 또는 성가대]\n◎ 알렐루야\n[알렐루야를 하지 않는 시기의 선택지]\n◎ 그리스도님, 찬미와 영광 받으소서.\n또는 ◎ 말씀이신 그리스도님 찬미받으소서.\n또는 ◎ 길이요 진리요 생명이신 그리스도님, 찬미받으소서.",
+      "selectionStatus": "unconfirmed-alternatives",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-12",
+      "key": "복음",
+      "sourcePages": [
+        5
+      ],
+      "status": "draft-unverified",
+      "text": "+ 주님께서 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n+ (          )가(이) 전한 거룩한 복음입니다.\n◎ 주님, 영광 받으소서.\n[자료에 오늘 복음 본문 없음]\n+ 주님의 말씀입니다.\n◎ 그리스도님 찬미합니다.",
+      "contentType": "variable-placeholder",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-13",
+      "key": "강론",
+      "sourcePages": [
+        5
+      ],
+      "status": "draft-unverified",
+      "text": "[강론 원문 없음]",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-14",
+      "key": "신앙 고백",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "status": "draft-unverified",
+      "text": "[니케아 콘스탄티노폴리스 신경 · 인쇄본 표기는 “니케아 콘스탄티노플 신경”]\n+ 한 분이신 하느님을\n◎ 저는 믿나이다.\n전능하신 아버지, 하늘과 땅과 유형무형한 만물의 창조주를 믿나이다.\n또한 한 분이신 주 예수 그리스도, 하느님의 외아들\n영원으로부터 성부에게서 나신 분을 믿나이다.\n하느님에게서 나신 하느님, 빛에서 나신 빛\n참 하느님에게서 나신 참 하느님으로서, 창조되지 않고 나시어\n성부와 한 본체로서 만물을 창조하셨음을 믿나이다.\n성자께서는 저희 인간을 위하여, 저희 구원을 위하여\n하늘에서 내려오셨음을 믿나이다.\n[원문 지침] 밑줄 부분에서 모두 깊은 절을 한다.\n또한 성령으로 인하여 동정 마리아에게서 육신을 취하시어\n사람이 되셨음을 믿나이다.\n본시오 빌라도 통치 아래서 저희를 위하여\n십자가에 못 박혀 수난하고 묻히셨으며\n성서 말씀대로 사흗날에 부활하시어\n하늘에 올라 성부 오른편에 앉아 계심을 믿나이다.\n그분께서는 산 이와 죽은 이를 심판하러 영광 속에 다시 오시리니\n그분의 나라는 끝이 없으리이다.\n또한 주님이시며 생명을 주시는 성령을 믿나이다.\n성령께서는 성부와 성자에게서 발하시고\n성부와 성자와 더불어 영광과 흠숭을 받으시며\n예언자들을 통하여 말씀하셨나이다.\n하나이고 거룩하고 보편되며 사도로부터 이어오는 교회를 믿나이다.\n죄를 씻는 유일한 세례를 믿으며\n죽은 이들의 부활과 내세의 삶을 기다리나이다. 아멘.\n[또는 사도 신경]\n+ 전능하신 천주 성부\n◎ 천지의 창조주를 저는 믿나이다.\n그 외아들 우리 주 예수 그리스도님\n[원문 지침] 밑줄 부분에서 모두 깊은 절을 한다.\n성령으로 인하여 동정 마리아께 잉태되어 나시고\n본시오 빌라도 통치 아래서 고난을 받으시고\n십자가에 못박혀 돌아가시고 묻히셨으며\n저승에 가시어 사흗날에 죽은 이들 가운데서 부활하시고\n하늘에 올라 전능하신 천주 성부 오른편에 앉으시며\n그리로부터 산 이와 죽은 이를 심판하러 오시리라 믿나이다.\n성령을 믿으며\n거룩하고 보편된 교회와 모든 성인의 통공을 믿으며\n죄의 용서와 육신의 부활을 믿으며\n영원한 삶을 믿나이다.\n아멘.",
+      "selectionStatus": "unconfirmed-alternatives",
+      "rubrics": [
+        {
+          "text": "밑줄 부분에서 모두 깊은 절을 한다.",
+          "pdfPage": 15,
+          "item": "18",
+          "placement": "before",
+          "anchor": "또한 성령으로 인하여"
+        },
+        {
+          "text": "밑줄 부분에서 모두 깊은 절을 한다.",
+          "pdfPage": 16,
+          "item": "19",
+          "placement": "before",
+          "anchor": "성령으로 인하여 동정 마리아께"
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-15",
+      "key": "보편 지향 기도",
+      "sourcePages": [
+        7
+      ],
+      "status": "draft-unverified",
+      "text": "[자료에 오늘 보편 지향 기도 본문 없음]\n◎ 주님, 저희의 기도를 들어주소서.",
+      "contentType": "variable-placeholder",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-16",
+      "key": "예물 준비 · 봉헌 성가",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 사제는 제대 한가운데로 가서 교우들을 바라보고 팔을 벌렸다 모으면서 말한다.\n+ 형제 여러분, 우리가 바치는 이 제사를\n전능하신 하느님 아버지께서 기꺼이 받아 주시도록 기도합시다.\n[원문 지침] 교우들은 일어서서 응답한다.\n◎ 사제의 손으로 바치는 이 제사가\n주님의 이름에는 찬미와 영광이 되고\n저희와 온 교회에는 도움이 되게 하소서.",
+      "rubrics": [
+        {
+          "text": "사제는 제대 한가운데로 가서 교우들을 바라보고 팔을 벌렸다 모으면서 말한다.",
+          "pdfPage": 18,
+          "item": "29",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "교우들은 일어서서 응답한다.",
+          "pdfPage": 18,
+          "item": "29",
+          "placement": "before",
+          "anchor": "◎ 사제의 손으로"
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-17",
+      "key": "예물 기도",
+      "sourcePages": [
+        8
+      ],
+      "status": "draft-unverified",
+      "text": "[자료에 오늘 예물 기도 본문 없음]\n+ ……비나이다. 또는 ……다스리시나이다.\n◎ 아멘.",
+      "contentType": "variable-placeholder",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-18",
+      "key": "감사 기도",
+      "sourcePages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 이 감사 기도에는 고유 감사송이 제시되어 있다. 그러나 다른 감사송, 특히 공통 감사송처럼 구원의 신비를 간추려 드러내는 감사송과 함께 바칠 수 있다.\n[감사송 대화]\n[원문 지침] 사제는 팔을 벌리며 말한다.\n+ 주님께서 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n[원문 지침] 사제는 손을 올리며 말한다.\n+ 마음을 드높이.\n◎ 주님께 올립니다.\n[원문 지침] 사제는 팔을 벌리고 계속한다.\n+ 우리 주 하느님께 감사합시다.\n◎ 마땅하고 옳은 일입니다.\n[인쇄본 수록 감사송 · 선택 미확정]\n+ 거룩하신 아버지, 사랑하시는 성자 예수 그리스도를 통하여\n언제나 어디서나 아버지께 감사함이\n참으로 마땅하고 옳은 일이며 저희 도리요 구원의 길이옵니다.\n아버지께서는 말씀이신 그리스도를 통하여 모든 것을 창조하시고\n그분을 저희에게 구세주로 보내셨으니\n그분께서는 성령으로 인하여\n동정 마리아에게서 사람으로 태어나셨나이다.\n성자께서는 아버지의 뜻을 이루시고자\n십자가에서 팔을 벌려 백성을 아버지께 모아들이셨으며\n죽음을 이기고 부활하셨나이다.\n그러므로 저희도 모든 천사와 성인과 함께 한목소리로\n주님의 영광을 찬양하나이다.\n[거룩하시도다 · 별도 카드 참조]\n[원문 지침] 사제는 팔을 벌리고 기도한다.\n+ 거룩하신 아버지, 아버지께서는 모든 거룩함의 샘이시옵니다.\n[원문 지침] 사제는 두 손을 모은 다음 예물 위에 펴 얹고 기도한다.\n+ 간구하오니\n성령의 힘으로 이 예물을 거룩하게 하시어\n[원문 지침] 사제는 손을 모으고 기도하며, 빵과 성작 위에 십자 표시를 한 번 한다.\n우리 주 예수 그리스도의 몸과 + 피가 되게 하소서.\n[원문 지침] 사제는 손을 모은다.\n[원문 지침] 아래의 기도문에서 주님의 말씀은 마디마다 또렷하게 발음한다.\n스스로 원하신 수난이 다가오자 예수님께서는\n[원문 지침] 사제는 제대 위에서 빵을 조금 들어 올리고 계속한다.\n빵을 들고 감사를 드리신 다음\n쪼개어 제자들에게 주시며 말씀하셨나이다.\n[원문 지침] 사제는 허리를 조금 굽힌다.\n너희는 모두 이것을 받아 먹어라.\n이는 너희를 위하여 내어 줄\n내 몸이다.\n[원문 지침] 사제는 축성된 빵을 받들어 교우들에게 보이고 성반에 내려놓은 다음, 깊은 절을 한다.\n[원문 지침] 이어서 계속한다.\n저녁을 잡수시고 같은 모양으로\n[원문 지침] 사제는 제대 위에서 성작을 조금 들어 올리고 계속한다.\n잔을 들어 다시 감사를 드리신 다음\n제자들에게 주시며 말씀하셨나이다.\n[원문 지침] 사제는 허리를 조금 굽힌다.\n너희는 모두 이것을 받아 마셔라.\n이는 새롭고 영원한 계약을 맺는 내 피의 잔이니\n죄를 사하여 주려고\n너희와 많은 이를 위하여 흘릴 피다.\n너희는 나를 기억하여 이를 행하여라.\n[원문 지침] 사제는 성작을 받들어 교우들에게 보이고 성체포 위에 내려놓은 다음, 깊은 절을 한다.\n[신앙의 신비여 · 별도 카드 참조]\n[원문 지침] 사제는 팔을 벌리고 기도한다.\n+ 아버지,\n저희는 그리스도의 죽음과 부활을 기념하며\n생명의 빵과 구원의 잔을 봉헌하나이다.\n또한 저희가 아버지 앞에 나아와 봉사하게 하시니 감사하나이다.\n간절히 청하오니\n저희가 그리스도의 몸과 피를 받아 모시어\n성령으로 모두 한 몸을 이루게 하소서.\n+ 주님, 온 세상에 널리 퍼져 있는 교회를 생각하시어\n교황 아무와\n저희 주교 아무와\n모든 성직자와 더불어 사랑의 교회를 이루게 하소서.\n+ 부활의 희망 속에 고이 잠든 교우들과\n세상을 떠난 다른 이들도 모두 생각하시어\n그들이 주님의 빛나는 얼굴을 뵈옵게 하소서.\n저희에게도 자비를 베푸시어\n영원으로부터 주님의 사랑을 받는\n하느님의 어머니 복되신 동정 마리아와\n그 배필이신 성 요셉과 복된 사도들과 모든 성인과 함께\n영원한 삶을 누리며\n[원문 지침] 사제는 손을 모은다.\n성자 예수 그리스도를 통하여 아버지를 찬양하게 하소서.\n[원문 지침] 주례 사제는 성반과 성작을 받들어 올리고 계속한다.\n+ 그리스도를 통하여, 그리스도와 함께, 그리스도 안에서\n성령으로 하나 되어, 전능하신 천주 성부\n모든 영예와 영광을 영원히 받으소서.\n◎ 아멘.",
+      "selectionStatus": "unconfirmed-printed-form",
+      "editorialNotes": [
+        "교황·주교 이름은 사진에 인쇄된 표기를 옮긴 것이며 현재 직책자 검증이나 실제 전례 설정이 아님.",
+        "감사기도 제2양식을 자동 선택하지 않음.",
+        "일부 줄바꿈과 문장부호를 읽기 좋게 정리함."
+      ],
+      "rubrics": [
+        {
+          "text": "이 감사 기도에는 고유 감사송이 제시되어 있다. 그러나 다른 감사송, 특히 공통 감사송처럼 구원의 신비를 간추려 드러내는 감사송과 함께 바칠 수 있다.",
+          "pdfPage": 82,
+          "item": "99",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "사제는 팔을 벌리며 말한다.",
+          "pdfPage": 19,
+          "item": "31",
+          "placement": "before",
+          "anchor": "+ 주님께서 여러분과 함께."
+        },
+        {
+          "text": "사제는 손을 올리며 말한다.",
+          "pdfPage": 19,
+          "item": "31",
+          "placement": "before",
+          "anchor": "+ 마음을 드높이."
+        },
+        {
+          "text": "사제는 팔을 벌리고 계속한다.",
+          "pdfPage": 19,
+          "item": "31",
+          "placement": "before",
+          "anchor": "+ 우리 주 하느님께 감사합시다."
+        },
+        {
+          "text": "사제는 팔을 벌리고 기도한다.",
+          "pdfPage": 82,
+          "item": "100",
+          "placement": "before",
+          "anchor": "+ 거룩하신 아버지, 아버지께서는"
+        },
+        {
+          "text": "사제는 두 손을 모은 다음 예물 위에 펴 얹고 기도한다.",
+          "pdfPage": 82,
+          "item": "101",
+          "placement": "before",
+          "anchor": "+ 간구하오니"
+        },
+        {
+          "text": "사제는 손을 모으고 기도하며, 빵과 성작 위에 십자 표시를 한 번 한다.",
+          "pdfPage": 83,
+          "item": "101",
+          "placement": "before",
+          "anchor": "우리 주 예수 그리스도의 몸과"
+        },
+        {
+          "text": "사제는 손을 모은다.\n아래의 기도문에서 주님의 말씀은 마디마다 또렷하게 발음한다.",
+          "pdfPage": 83,
+          "item": "102",
+          "placement": "before",
+          "anchor": "스스로 원하신 수난이"
+        },
+        {
+          "text": "사제는 제대 위에서 빵을 조금 들어 올리고 계속한다.",
+          "pdfPage": 83,
+          "item": "102",
+          "placement": "before",
+          "anchor": "빵을 들고 감사를"
+        },
+        {
+          "text": "사제는 허리를 조금 굽힌다.",
+          "pdfPage": 83,
+          "item": "102",
+          "placement": "before",
+          "anchor": "너희는 모두 이것을 받아 먹어라."
+        },
+        {
+          "text": "사제는 축성된 빵을 받들어 교우들에게 보이고 성반에 내려놓은 다음, 깊은 절을 한다.\n이어서 계속한다.",
+          "pdfPage": 83,
+          "item": "103",
+          "placement": "before",
+          "anchor": "저녁을 잡수시고"
+        },
+        {
+          "text": "사제는 제대 위에서 성작을 조금 들어 올리고 계속한다.",
+          "pdfPage": 83,
+          "item": "103",
+          "placement": "before",
+          "anchor": "잔을 들어 다시"
+        },
+        {
+          "text": "사제는 허리를 조금 굽힌다.",
+          "pdfPage": 83,
+          "item": "103",
+          "placement": "before",
+          "anchor": "너희는 모두 이것을 받아 마셔라."
+        },
+        {
+          "text": "사제는 성작을 받들어 교우들에게 보이고 성체포 위에 내려놓은 다음, 깊은 절을 한다.",
+          "pdfPage": 83,
+          "item": "103",
+          "placement": "before",
+          "anchor": "[신앙의 신비여 · 별도 카드 참조]"
+        },
+        {
+          "text": "사제는 팔을 벌리고 기도한다.",
+          "pdfPage": 84,
+          "item": "105",
+          "placement": "before",
+          "anchor": "+ 아버지,"
+        },
+        {
+          "text": "사제는 손을 모은다.",
+          "pdfPage": 85,
+          "item": "105",
+          "placement": "before",
+          "anchor": "성자 예수 그리스도를 통하여 아버지를"
+        },
+        {
+          "text": "주례 사제는 성반과 성작을 받들어 올리고 계속한다.",
+          "pdfPage": 86,
+          "item": "106",
+          "placement": "before",
+          "anchor": "+ 그리스도를 통하여"
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-19",
+      "key": "거룩하시도다",
+      "sourcePages": [
+        9
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 사제는 감사송 끝에 손을 모으고, 교우들과 함께 거룩하시도다를 노래하거나 분명한 목소리로 낭송하며 감사송을 마친다.\n◎ 거룩하시도다! 거룩하시도다! 거룩하시도다!\n온 누리의 주 하느님!\n하늘과 땅에 가득 찬 그 영광!\n높은 데서 호산나!\n주님의 이름으로 오시는 분, 찬미받으소서.\n높은 데서 호산나!",
+      "rubrics": [
+        {
+          "text": "사제는 감사송 끝에 손을 모으고, 교우들과 함께 거룩하시도다를 노래하거나 분명한 목소리로 낭송하며 감사송을 마친다.",
+          "pdfPage": 20,
+          "item": "31",
+          "placement": "before",
+          "anchor": null
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-20",
+      "key": "신앙의 신비여",
+      "sourcePages": [
+        10
+      ],
+      "status": "draft-unverified",
+      "text": "[인쇄본의 세 응답을 병기하며 현재 사용할 응답은 미확정]\n+ 신앙의 신비여!\n[연중시기 표기 응답]\n◎ 주님께서 오실 때까지 주님의 죽음을 전하며 부활을 선포하나이다.\n[또는 사순시기 표기 응답]\n◎ 주님께서 오실 때까지 이 빵을 먹고 이 잔을 마실 적마다 주님의 죽음을 전하나이다.\n[또는 부활시기 표기 응답]\n◎ 십자가와 부활로 저희를 구원하신 주님, 길이 영광 받으소서.",
+      "selectionStatus": "unconfirmed-alternatives",
+      "editorialNotes": [
+        "시기 표시는 인쇄본 전사이며 앱 전례 규칙으로 채택하지 않음."
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-21",
+      "key": "아멘",
+      "sourcePages": [
+        11
+      ],
+      "status": "draft-unverified",
+      "text": "◎ 아멘.",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-22",
+      "key": "주님의 기도",
+      "sourcePages": [
+        12
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 사제는 성작과 성반을 내려놓은 뒤, 손을 모으고 말한다.\n+ 하느님의 자녀 되어, 구세주의 분부대로 삼가 아뢰오니\n[원문 지침] 사제는 팔을 벌리고 교우들과 함께 기도한다.\n◎ 하늘에 계신 우리 아버지\n아버지의 이름이 거룩히 빛나시며\n아버지의 나라가 오시며\n아버지의 뜻이 하늘에서와 같이\n땅에서도 이루어지소서.\n오늘 저희에게 일용할 양식을 주시고\n저희에게 잘못한 이를 저희가 용서하오니\n저희 죄를 용서하시고\n저희를 유혹에 빠지지 않게 하시고\n악에서 구하소서.\n[원문 지침] 사제는 팔을 벌린 채 혼자서 계속하여 기도한다.\n+ 주님, 저희를 모든 악에서 구하시고\n한평생 평화롭게 하소서.\n주님의 자비로 저희를 언제나 죄에서 구원하시고\n모든 시련에서 보호하시어\n복된 희망을 품고\n구세주 예수 그리스도의 재림을 기다리게 하소서.\n[원문 지침] 사제는 손을 모은다.",
+      "rubrics": [
+        {
+          "text": "사제는 성작과 성반을 내려놓은 뒤, 손을 모으고 말한다.",
+          "pdfPage": 99,
+          "item": "124",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "사제는 팔을 벌리고 교우들과 함께 기도한다.",
+          "pdfPage": 99,
+          "item": "124",
+          "placement": "before",
+          "anchor": "◎ 하늘에 계신"
+        },
+        {
+          "text": "사제는 팔을 벌린 채 혼자서 계속하여 기도한다.",
+          "pdfPage": 100,
+          "item": "125",
+          "placement": "before",
+          "anchor": "+ 주님, 저희를"
+        },
+        {
+          "text": "사제는 손을 모은다.",
+          "pdfPage": 100,
+          "item": "125",
+          "placement": "after",
+          "anchor": "구세주 예수 그리스도의 재림을 기다리게 하소서."
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-23",
+      "key": "주님의 기도 맺음 환호",
+      "sourcePages": [
+        12
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 교우들은 아래의 환호로 기도를 끝맺는다.\n◎ 주님께 나라와 권능과 영광이 영원히 있나이다.",
+      "rubrics": [
+        {
+          "text": "교우들은 아래의 환호로 기도를 끝맺는다.",
+          "pdfPage": 101,
+          "item": "125",
+          "placement": "before",
+          "anchor": null
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-24",
+      "key": "평화 예식",
+      "sourcePages": [
+        13
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 그다음에 사제는 팔을 벌리고 분명한 목소리로 기도한다.\n+ 주 예수 그리스도님, 일찍이 사도들에게 말씀하시기를\n“너희에게 평화를 두고 가며\n내 평화를 주노라.” 하셨으니\n저희 죄를 헤아리지 마시고 교회의 믿음을 보시어\n주님의 뜻대로 교회를 평화롭게 하시고 하나 되게 하소서.\n[원문 지침] 사제는 손을 모은다.\n주님께서는 영원히 살아 계시며 다스리시나이다.\n◎ 아멘.\n[원문 지침] 사제는 교우들을 향하여 팔을 벌렸다 모으면서 말한다.\n+ 주님의 평화가 항상 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n[원문 지침] 이어서 경우에 따라 부제나 사제는 말한다.\n+ 평화의 인사를 나누십시오.\n[원문 지침] 모든 이는 가벼운 절을 하며 서로 평화와 친교와 사랑의 인사를 나눈다. 사제는 부제나 봉사자에게 평화의 인사를 한다.\n◎ 평화를 빕니다.",
+      "rubrics": [
+        {
+          "text": "그다음에 사제는 팔을 벌리고 분명한 목소리로 기도한다.",
+          "pdfPage": 101,
+          "item": "126",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "사제는 손을 모은다.",
+          "pdfPage": 101,
+          "item": "126",
+          "placement": "before",
+          "anchor": "주님께서는 영원히"
+        },
+        {
+          "text": "사제는 교우들을 향하여 팔을 벌렸다 모으면서 말한다.",
+          "pdfPage": 102,
+          "item": "127",
+          "placement": "before",
+          "anchor": "+ 주님의 평화가"
+        },
+        {
+          "text": "이어서 경우에 따라 부제나 사제는 말한다.",
+          "pdfPage": 102,
+          "item": "128",
+          "placement": "before",
+          "anchor": "+ 평화의 인사를"
+        },
+        {
+          "text": "모든 이는 가벼운 절을 하며 서로 평화와 친교와 사랑의 인사를 나눈다. 사제는 부제나 봉사자에게 평화의 인사를 한다.",
+          "pdfPage": 102,
+          "item": "128",
+          "placement": "before",
+          "anchor": "◎ 평화를"
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-25",
+      "key": "하느님의 어린양",
+      "sourcePages": [
+        13
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 그다음에 사제는 축성된 빵을 들어 성반에서 쪼개고, 작은 조각을 떼어 성작 안에 넣으며 속으로 기도한다.\n[원문 지침] 그동안 아래 기도를 노래하거나 낭송한다.\n◎ 하느님의 어린양, 세상의 죄를 없애시는 주님\n자비를 베푸소서.\n하느님의 어린양, 세상의 죄를 없애시는 주님\n자비를 베푸소서.\n하느님의 어린양, 세상의 죄를 없애시는 주님\n평화를 주소서.\n[원문 지침] 위의 기도는 축성된 빵을 쪼개는 동안 되풀이할 수 있다. 그러나 마지막에는 평화를 주소서.로 한다.",
+      "rubrics": [
+        {
+          "text": "그다음에 사제는 축성된 빵을 들어 성반에서 쪼개고, 작은 조각을 떼어 성작 안에 넣으며 속으로 기도한다.",
+          "pdfPage": 103,
+          "item": "129",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "그동안 아래 기도를 노래하거나 낭송한다.",
+          "pdfPage": 103,
+          "item": "130",
+          "placement": "before",
+          "anchor": "◎ 하느님의 어린양"
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-26",
+      "key": "영성체 예식 · 영성체 성가",
+      "sourcePages": [
+        13
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 사제는 깊은 절을 한 다음, 성체를 성반이나 성작 위에 조금 높이 받쳐 들고, 교우들을 향하여 분명한 목소리로 말한다.\n+ 보라! 하느님의 어린양, 세상의 죄를 없애시는 분이시니\n이 성찬에 초대받은 이는 복되도다.\n[원문 지침] 교우들과 함께 한 번 말한다.\n◎ 주님, 제 안에 주님을 모시기에 합당치 않사오나\n한 말씀만 하소서, 제 영혼이 곧 나으리이다.\n[자료에 오늘 영성체송·성가 번호 없음]",
+      "rubrics": [
+        {
+          "text": "사제는 깊은 절을 한 다음, 성체를 성반이나 성작 위에 조금 높이 받쳐 들고, 교우들을 향하여 분명한 목소리로 말한다.",
+          "pdfPage": 104,
+          "item": "132",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "교우들과 함께 한 번 말한다.",
+          "pdfPage": 104,
+          "item": "132",
+          "placement": "before",
+          "anchor": "◎ 주님, 제 안에"
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-27",
+      "key": "영성체 후 기도",
+      "sourcePages": [
+        14
+      ],
+      "status": "draft-unverified",
+      "text": "+ 기도합시다.\n[자료에 오늘 영성체 후 기도 본문 없음]\n……비나이다. 또는 ……다스리시나이다.\n◎ 아멘.",
+      "contentType": "variable-placeholder",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-28",
+      "key": "강복",
+      "sourcePages": [
+        14
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 그다음에 파견을 한다. 사제는 팔을 벌리고 교우들을 향하여 말한다.\n+ 주님께서 여러분과 함께.\n◎ 또한 사제의 영과 함께.\n[원문 지침] 사제는 교우들에게 강복한다.\n+ 전능하신 천주 성부와 + 성자와 성령께서는\n여기 모인 모든 이에게 강복하소서.\n◎ 아멘",
+      "selectionStatus": "unconfirmed-printed-form",
+      "rubrics": [
+        {
+          "text": "그다음에 파견을 한다. 사제는 팔을 벌리고 교우들을 향하여 말한다.",
+          "pdfPage": 106,
+          "item": "141",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "사제는 교우들에게 강복한다.",
+          "pdfPage": 106,
+          "item": "141",
+          "placement": "before",
+          "anchor": "+ 전능하신 천주"
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-29",
+      "key": "파견",
+      "sourcePages": [
+        14
+      ],
+      "status": "draft-unverified",
+      "text": "[원문 지침] 그다음에 부제나 사제는 손을 모으고 교우들에게 아래의 말이나 다른 알맞은 말을 한다.\n+ 미사가 끝났으니 가서 복음을 전합시다.\n◎ 하느님, 감사합니다.\n[또는]\n+ 주님과 함께 가서 복음을 전합시다.\n◎ 하느님, 감사합니다.\n[또는]\n+ 평화로이 가서 주님을 찬양하며 삽시다.\n◎ 하느님, 감사합니다.\n[또는]\n+ 미사가 끝났으니 평화로이 가십시오.\n◎ 하느님, 감사합니다.",
+      "selectionStatus": "unconfirmed-alternatives",
+      "rubrics": [
+        {
+          "text": "그다음에 부제나 사제는 손을 모으고 교우들에게 아래의 말이나 다른 알맞은 말을 한다.",
+          "pdfPage": 109,
+          "item": "144",
+          "placement": "before",
+          "anchor": null
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "id": "ordinary-30",
+      "key": "파견 성가",
+      "sourcePages": [
+        14
+      ],
+      "status": "draft-unverified",
+      "text": "[자료에 성가 번호·가사 없음]",
+      "contentType": "variable-placeholder",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "id": "ordinary-31",
+      "key": "공지 사항",
+      "sourcePages": [],
+      "status": "draft-unverified",
+      "text": "[제공 자료에 공지 사항 본문 없음]",
+      "contentType": "missing",
+      "bodyVerification": "not-complete",
+      "rubricVerification": "not-applicable"
+    },
+    {
+      "key": "참회 예식 제1양식",
+      "text": "[원문 지침] 그다음에 참회 예식이 이어진다. 사제는 신자들을 참회하도록 이끈다.\n+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다.\n[원문 지침] 잠깐 침묵한다. 그다음에 모두 함께 고백 기도를 바친다.\n+ 전능하신 하느님과\n◎ 형제들에게 고백하오니 생각과 말과 행위로 죄를 많이 지었으며 자주 의무를 소홀히 하였나이다.\n[원문 지침] 가슴을 치며 말한다.\n제 탓이요, 제 탓이요, 저의 큰 탓이옵니다.\n[원문 지침] 이어서 계속한다.\n그러므로 간절히 바라오니 평생 동정이신 성모 마리아와 모든 천사와 성인과 형제들은 저를 위하여 하느님께 빌어 주소서.\n[원문 지침] 사제의 사죄가 이어진다.\n+ 전능하신 하느님, 저희에게 자비를 베푸시어 죄를 용서하시고 영원한 생명으로 이끌어 주소서.\n◎ 아멘.",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "rubrics": [
+        {
+          "text": "그다음에 참회 예식이 이어진다. 사제는 신자들을 참회하도록 이끈다.",
+          "pdfPage": 5,
+          "item": "4",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "잠깐 침묵한다. 그다음에 모두 함께 고백 기도를 바친다.",
+          "pdfPage": 5,
+          "item": "4",
+          "placement": "after",
+          "anchor": "+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다."
+        },
+        {
+          "text": "가슴을 치며 말한다.",
+          "pdfPage": 5,
+          "item": "4",
+          "placement": "before",
+          "anchor": "제 탓이요"
+        },
+        {
+          "text": "이어서 계속한다.",
+          "pdfPage": 5,
+          "item": "4",
+          "placement": "before",
+          "anchor": "그러므로 간절히"
+        },
+        {
+          "text": "사제의 사죄가 이어진다.",
+          "pdfPage": 5,
+          "item": "4",
+          "placement": "before",
+          "anchor": "+ 전능하신 하느님, 저희에게"
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "key": "참회 예식 제2양식",
+      "text": "[원문 지침] 사제는 신자들을 참회하도록 이끈다.\n+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다.\n[원문 지침] 잠깐 침묵한다.\n[원문 지침] 그다음에 사제는 기도한다.\n+ 주님, 저희를 불쌍히 여기소서.\n◎ 저희는 주님께 죄를 지었나이다.\n+ 주님, 저희에게 자비를 베푸소서.\n◎ 또한 저희를 구원하여 주소서.\n[원문 지침] 사제의 사죄가 이어진다.\n+ 전능하신 하느님, 저희에게 자비를 베푸시어 죄를 용서하시고 영원한 생명으로 이끌어 주소서.\n◎ 아멘.",
+      "sourcePages": [
+        6,
+        7,
+        8
+      ],
+      "rubrics": [
+        {
+          "text": "사제는 신자들을 참회하도록 이끈다.",
+          "pdfPage": 6,
+          "item": "5",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "잠깐 침묵한다.\n그다음에 사제는 기도한다.",
+          "pdfPage": 6,
+          "item": "5",
+          "placement": "after",
+          "anchor": "+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다."
+        },
+        {
+          "text": "사제의 사죄가 이어진다.",
+          "pdfPage": 7,
+          "item": "5",
+          "placement": "before",
+          "anchor": "+ 전능하신 하느님, 저희에게"
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    },
+    {
+      "key": "참회 예식 제3양식",
+      "text": "[원문 지침] 사제는 신자들을 참회하도록 이끈다.\n+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다.\n[원문 지침] 잠깐 침묵한다.\n[원문 지침] 그다음에 사제나 부제 또는 다른 봉사자가 자비송과 함께 하는 아래의 기도를 바친다. 이 기도는 그날의 전례나 축일에 맞게 바꿀 수 있다.\n+ 진심으로 뉘우치는 사람을 용서하러 오신 주님, 자비를 베푸소서.\n◎ 주님, 자비를 베푸소서.\n+ 죄인을 부르러 오신 그리스도님, 자비를 베푸소서.\n◎ 그리스도님, 자비를 베푸소서.\n+ 성부 오른편에 중개자로 계신 주님, 자비를 베푸소서.\n◎ 주님, 자비를 베푸소서.\n[원문 지침] 사제의 사죄가 이어진다.\n+ 전능하신 하느님, 저희에게 자비를 베푸시어 죄를 용서하시고 영원한 생명으로 이끌어 주소서.\n◎ 아멘.",
+      "sourcePages": [
+        8,
+        9
+      ],
+      "rubrics": [
+        {
+          "text": "사제는 신자들을 참회하도록 이끈다.",
+          "pdfPage": 8,
+          "item": "6",
+          "placement": "before",
+          "anchor": null
+        },
+        {
+          "text": "잠깐 침묵한다.\n그다음에 사제나 부제 또는 다른 봉사자가 자비송과 함께 하는 아래의 기도를 바친다. 이 기도는 그날의 전례나 축일에 맞게 바꿀 수 있다.",
+          "pdfPage": 8,
+          "item": "6",
+          "placement": "after",
+          "anchor": "+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다."
+        },
+        {
+          "text": "사제의 사죄가 이어진다.",
+          "pdfPage": 8,
+          "item": "6",
+          "placement": "before",
+          "anchor": "+ 전능하신 하느님, 저희에게"
+        }
+      ],
+      "bodyVerification": "not-complete",
+      "rubricVerification": "image-checked"
+    }
+  ],
+  "penitentialForms": [
+    {
+      "id": "form-1",
+      "title": "제1양식",
+      "key": "참회 예식 제1양식",
+      "includesKyrie": false,
+      "pdfPages": [
+        5,
+        6
+      ],
+      "item": "4"
+    },
+    {
+      "id": "form-2",
+      "title": "제2양식",
+      "key": "참회 예식 제2양식",
+      "includesKyrie": false,
+      "pdfPages": [
+        6,
+        7,
+        8
+      ],
+      "item": "5"
+    },
+    {
+      "id": "form-3",
+      "title": "제3양식",
+      "key": "참회 예식 제3양식",
+      "includesKyrie": true,
+      "pdfPages": [
+        8,
+        9
+      ],
+      "item": "6"
+    }
+  ],
+  "boundaryNotes": {
+    "입당 성가": {
+      "text": "교우들이 모인 다음, 사제는 봉사자들과 함께 제대로 나아간다. 교우들은 그동안 입당 노래를 한다.",
+      "pdfPage": 3,
+      "item": "1"
+    },
+    "제1독서": {
+      "text": "이어서 독서자는 독서대로 가서 제1독서를 봉독한다. 모두 앉아서 경건히 듣는다.",
+      "pdfPage": 12,
+      "item": "10"
+    },
+    "화답송": {
+      "text": "시편 담당자나 선창자는 시편을 노래하거나 낭송하며, 교우들은 후렴으로 응답한다.",
+      "pdfPage": 12,
+      "item": "11"
+    },
+    "제2독서": {
+      "text": "제2독서가 있을 때에는 독서자가 독서대로 가서 제1독서 때와 같이 봉독한다.",
+      "pdfPage": 12,
+      "item": "12"
+    },
+    "복음 환호송": {
+      "text": "이어서 전례 시기가 요구하는 대로, 예식 규정에 따라 알렐루야나 복음 전 노래를 한다.",
+      "pdfPage": 13,
+      "item": "13"
+    },
+    "강론": {
+      "text": "이어서 강론을 한다. 사제나 부제는 모든 주일과 의무 축일에 강론을 해야 한다. 다른 날에도 강론하는 것이 바람직하다.",
+      "pdfPage": 14,
+      "item": "17"
+    },
+    "신앙 고백": {
+      "text": "강론이 끝나면, 규정에 따라 신앙 고백 곧 신경을 노래하거나 낭송한다.\n니케아-콘스탄티노폴리스 신경 대신에, 특히 사순 시기와 부활 시기에는, 이른바 사도 신경 곧 로마 교회의 세례 신경을 바칠 수 있다.",
+      "pdfPage": 16,
+      "item": "19"
+    },
+    "보편 지향 기도": {
+      "text": "그다음에 보편 지향 기도 곧 신자들의 기도를 바친다.",
+      "pdfPage": 16,
+      "item": "20"
+    },
+    "봉헌 성가": {
+      "text": "신경과 보편 지향 기도가 끝나면, 봉헌 노래를 시작한다. 그동안 봉사자들은 성체포, 성작 수건, 성작, 성작 덮개, 미사 경본을 제대 위에 놓는다.",
+      "pdfPage": 17,
+      "item": "21"
+    },
+    "예물 기도": {
+      "text": "이어서 사제는 팔을 벌리고 예물 기도를 바치며, 기도가 끝나면 교우들은 환호한다.",
+      "pdfPage": 18,
+      "item": "30"
+    },
+    "영성체 성가": {
+      "text": "영성체 노래는 사제가 성체를 모실 때에 시작한다.",
+      "pdfPage": 105,
+      "item": "136"
+    },
+    "영성체 후 기도": {
+      "text": "앞에서 침묵 기도를 하지 않았으면, 모두 사제와 함께 잠깐 침묵하며 기도한다. 이어서 사제는 팔을 벌리고 영성체 후 기도를 바친다. 그 끝에 교우들은 환호한다.",
+      "pdfPage": 105,
+      "item": "139"
+    },
+    "공지 사항": {
+      "text": "필요에 따라 사목 권고나 공지 사항을 짤막하게 한다.",
+      "pdfPage": 106,
+      "item": "140"
+    },
+    "인사": {
+      "text": "이어서 사제는 팔을 벌리며 교우들에게 인사한다.",
+      "pdfPage": 3,
+      "item": "2"
+    },
+    "파견": {
+      "text": "그다음에 부제나 사제는 손을 모으고 교우들에게 아래의 말이나 다른 알맞은 말을 한다.",
+      "pdfPage": 109,
+      "item": "144"
+    }
+  },
+  "rubrics": [
+    {
+      "text": "입당 노래가 끝나면 사제와 신자들은 서서 십자 성호를 긋는다. 사제는 성호를 그으며 교우들을 바라보고 말한다.",
+      "pdfPage": 3,
+      "item": "1",
+      "placement": "before",
+      "anchor": null,
+      "key": "성호경"
+    },
+    {
+      "text": "이어서 사제는 팔을 벌리며 교우들에게 인사한다.",
+      "pdfPage": 3,
+      "item": "2",
+      "placement": "before",
+      "anchor": null,
+      "key": "인사"
+    },
+    {
+      "text": "그다음에 참회 예식이 이어진다. 사제는 신자들을 참회하도록 이끈다.",
+      "pdfPage": 5,
+      "item": "4",
+      "placement": "before",
+      "anchor": null,
+      "key": "참회 예식 제1양식"
+    },
+    {
+      "text": "잠깐 침묵한다. 그다음에 모두 함께 고백 기도를 바친다.",
+      "pdfPage": 5,
+      "item": "4",
+      "placement": "after",
+      "anchor": "+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다.",
+      "key": "참회 예식 제1양식"
+    },
+    {
+      "text": "가슴을 치며 말한다.",
+      "pdfPage": 5,
+      "item": "4",
+      "placement": "before",
+      "anchor": "제 탓이요",
+      "key": "참회 예식 제1양식"
+    },
+    {
+      "text": "이어서 계속한다.",
+      "pdfPage": 5,
+      "item": "4",
+      "placement": "before",
+      "anchor": "그러므로 간절히",
+      "key": "참회 예식 제1양식"
+    },
+    {
+      "text": "사제의 사죄가 이어진다.",
+      "pdfPage": 5,
+      "item": "4",
+      "placement": "before",
+      "anchor": "+ 전능하신 하느님, 저희에게",
+      "key": "참회 예식 제1양식"
+    },
+    {
+      "text": "사제는 신자들을 참회하도록 이끈다.",
+      "pdfPage": 6,
+      "item": "5",
+      "placement": "before",
+      "anchor": null,
+      "key": "참회 예식 제2양식"
+    },
+    {
+      "text": "잠깐 침묵한다.\n그다음에 사제는 기도한다.",
+      "pdfPage": 6,
+      "item": "5",
+      "placement": "after",
+      "anchor": "+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다.",
+      "key": "참회 예식 제2양식"
+    },
+    {
+      "text": "사제의 사죄가 이어진다.",
+      "pdfPage": 7,
+      "item": "5",
+      "placement": "before",
+      "anchor": "+ 전능하신 하느님, 저희에게",
+      "key": "참회 예식 제2양식"
+    },
+    {
+      "text": "사제는 신자들을 참회하도록 이끈다.",
+      "pdfPage": 8,
+      "item": "6",
+      "placement": "before",
+      "anchor": null,
+      "key": "참회 예식 제3양식"
+    },
+    {
+      "text": "잠깐 침묵한다.\n그다음에 사제나 부제 또는 다른 봉사자가 자비송과 함께 하는 아래의 기도를 바친다. 이 기도는 그날의 전례나 축일에 맞게 바꿀 수 있다.",
+      "pdfPage": 8,
+      "item": "6",
+      "placement": "after",
+      "anchor": "+ 형제 여러분, 구원의 신비를 합당하게 거행하기 위하여 우리 죄를 반성합시다.",
+      "key": "참회 예식 제3양식"
+    },
+    {
+      "text": "사제의 사죄가 이어진다.",
+      "pdfPage": 8,
+      "item": "6",
+      "placement": "before",
+      "anchor": "+ 전능하신 하느님, 저희에게",
+      "key": "참회 예식 제3양식"
+    },
+    {
+      "text": "앞의 참회 예식에서 자비송을 바치지 않았으면 이때 바친다.",
+      "pdfPage": 9,
+      "item": "7",
+      "placement": "before",
+      "anchor": null,
+      "key": "자비송"
+    },
+    {
+      "text": "이어서 정해진 때에는 대영광송을 노래하거나 낭송한다.",
+      "pdfPage": 10,
+      "item": "8",
+      "placement": "before",
+      "anchor": null,
+      "key": "대영광송"
+    },
+    {
+      "text": "대영광송이 끝나면 사제는 손을 모으고 말한다.",
+      "pdfPage": 12,
+      "item": "9",
+      "placement": "before",
+      "anchor": null,
+      "key": "본기도"
+    },
+    {
+      "text": "모두 사제와 함께 잠깐 침묵하며 기도한다.\n이어서 사제는 팔을 벌리고 본기도를 바친다. 기도가 끝나면 교우들은 환호한다.",
+      "pdfPage": 12,
+      "item": "9",
+      "placement": "after",
+      "anchor": "+ 기도합시다.",
+      "key": "본기도"
+    },
+    {
+      "text": "밑줄 부분에서 모두 깊은 절을 한다.",
+      "pdfPage": 15,
+      "item": "18",
+      "placement": "before",
+      "anchor": "또한 성령으로 인하여",
+      "key": "신앙 고백"
+    },
+    {
+      "text": "밑줄 부분에서 모두 깊은 절을 한다.",
+      "pdfPage": 16,
+      "item": "19",
+      "placement": "before",
+      "anchor": "성령으로 인하여 동정 마리아께",
+      "key": "신앙 고백"
+    },
+    {
+      "text": "이 감사 기도에는 고유 감사송이 제시되어 있다. 그러나 다른 감사송, 특히 공통 감사송처럼 구원의 신비를 간추려 드러내는 감사송과 함께 바칠 수 있다.",
+      "pdfPage": 82,
+      "item": "99",
+      "placement": "before",
+      "anchor": null,
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 팔을 벌리며 말한다.",
+      "pdfPage": 19,
+      "item": "31",
+      "placement": "before",
+      "anchor": "+ 주님께서 여러분과 함께.",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 손을 올리며 말한다.",
+      "pdfPage": 19,
+      "item": "31",
+      "placement": "before",
+      "anchor": "+ 마음을 드높이.",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 팔을 벌리고 계속한다.",
+      "pdfPage": 19,
+      "item": "31",
+      "placement": "before",
+      "anchor": "+ 우리 주 하느님께 감사합시다.",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 팔을 벌리고 기도한다.",
+      "pdfPage": 82,
+      "item": "100",
+      "placement": "before",
+      "anchor": "+ 거룩하신 아버지, 아버지께서는",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 두 손을 모은 다음 예물 위에 펴 얹고 기도한다.",
+      "pdfPage": 82,
+      "item": "101",
+      "placement": "before",
+      "anchor": "+ 간구하오니",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 손을 모으고 기도하며, 빵과 성작 위에 십자 표시를 한 번 한다.",
+      "pdfPage": 83,
+      "item": "101",
+      "placement": "before",
+      "anchor": "우리 주 예수 그리스도의 몸과",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 손을 모은다.\n아래의 기도문에서 주님의 말씀은 마디마다 또렷하게 발음한다.",
+      "pdfPage": 83,
+      "item": "102",
+      "placement": "before",
+      "anchor": "스스로 원하신 수난이",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 제대 위에서 빵을 조금 들어 올리고 계속한다.",
+      "pdfPage": 83,
+      "item": "102",
+      "placement": "before",
+      "anchor": "빵을 들고 감사를",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 허리를 조금 굽힌다.",
+      "pdfPage": 83,
+      "item": "102",
+      "placement": "before",
+      "anchor": "너희는 모두 이것을 받아 먹어라.",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 축성된 빵을 받들어 교우들에게 보이고 성반에 내려놓은 다음, 깊은 절을 한다.\n이어서 계속한다.",
+      "pdfPage": 83,
+      "item": "103",
+      "placement": "before",
+      "anchor": "저녁을 잡수시고",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 제대 위에서 성작을 조금 들어 올리고 계속한다.",
+      "pdfPage": 83,
+      "item": "103",
+      "placement": "before",
+      "anchor": "잔을 들어 다시",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 허리를 조금 굽힌다.",
+      "pdfPage": 83,
+      "item": "103",
+      "placement": "before",
+      "anchor": "너희는 모두 이것을 받아 마셔라.",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 성작을 받들어 교우들에게 보이고 성체포 위에 내려놓은 다음, 깊은 절을 한다.",
+      "pdfPage": 83,
+      "item": "103",
+      "placement": "before",
+      "anchor": "[신앙의 신비여 · 별도 카드 참조]",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 팔을 벌리고 기도한다.",
+      "pdfPage": 84,
+      "item": "105",
+      "placement": "before",
+      "anchor": "+ 아버지,",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 손을 모은다.",
+      "pdfPage": 85,
+      "item": "105",
+      "placement": "before",
+      "anchor": "성자 예수 그리스도를 통하여 아버지를",
+      "key": "감사 기도"
+    },
+    {
+      "text": "주례 사제는 성반과 성작을 받들어 올리고 계속한다.",
+      "pdfPage": 86,
+      "item": "106",
+      "placement": "before",
+      "anchor": "+ 그리스도를 통하여",
+      "key": "감사 기도"
+    },
+    {
+      "text": "사제는 감사송 끝에 손을 모으고, 교우들과 함께 거룩하시도다를 노래하거나 분명한 목소리로 낭송하며 감사송을 마친다.",
+      "pdfPage": 20,
+      "item": "31",
+      "placement": "before",
+      "anchor": null,
+      "key": "거룩하시도다"
+    },
+    {
+      "text": "사제는 성작과 성반을 내려놓은 뒤, 손을 모으고 말한다.",
+      "pdfPage": 99,
+      "item": "124",
+      "placement": "before",
+      "anchor": null,
+      "key": "주님의 기도"
+    },
+    {
+      "text": "사제는 팔을 벌리고 교우들과 함께 기도한다.",
+      "pdfPage": 99,
+      "item": "124",
+      "placement": "before",
+      "anchor": "◎ 하늘에 계신",
+      "key": "주님의 기도"
+    },
+    {
+      "text": "사제는 팔을 벌린 채 혼자서 계속하여 기도한다.",
+      "pdfPage": 100,
+      "item": "125",
+      "placement": "before",
+      "anchor": "+ 주님, 저희를",
+      "key": "주님의 기도"
+    },
+    {
+      "text": "사제는 손을 모은다.",
+      "pdfPage": 100,
+      "item": "125",
+      "placement": "after",
+      "anchor": "구세주 예수 그리스도의 재림을 기다리게 하소서.",
+      "key": "주님의 기도"
+    },
+    {
+      "text": "교우들은 아래의 환호로 기도를 끝맺는다.",
+      "pdfPage": 101,
+      "item": "125",
+      "placement": "before",
+      "anchor": null,
+      "key": "주님의 기도 맺음 환호"
+    },
+    {
+      "text": "그다음에 사제는 팔을 벌리고 분명한 목소리로 기도한다.",
+      "pdfPage": 101,
+      "item": "126",
+      "placement": "before",
+      "anchor": null,
+      "key": "평화 예식"
+    },
+    {
+      "text": "사제는 손을 모은다.",
+      "pdfPage": 101,
+      "item": "126",
+      "placement": "before",
+      "anchor": "주님께서는 영원히",
+      "key": "평화 예식"
+    },
+    {
+      "text": "사제는 교우들을 향하여 팔을 벌렸다 모으면서 말한다.",
+      "pdfPage": 102,
+      "item": "127",
+      "placement": "before",
+      "anchor": "+ 주님의 평화가",
+      "key": "평화 예식"
+    },
+    {
+      "text": "이어서 경우에 따라 부제나 사제는 말한다.",
+      "pdfPage": 102,
+      "item": "128",
+      "placement": "before",
+      "anchor": "+ 평화의 인사를",
+      "key": "평화 예식"
+    },
+    {
+      "text": "모든 이는 가벼운 절을 하며 서로 평화와 친교와 사랑의 인사를 나눈다. 사제는 부제나 봉사자에게 평화의 인사를 한다.",
+      "pdfPage": 102,
+      "item": "128",
+      "placement": "before",
+      "anchor": "◎ 평화를",
+      "key": "평화 예식"
+    },
+    {
+      "text": "그다음에 사제는 축성된 빵을 들어 성반에서 쪼개고, 작은 조각을 떼어 성작 안에 넣으며 속으로 기도한다.",
+      "pdfPage": 103,
+      "item": "129",
+      "placement": "before",
+      "anchor": null,
+      "key": "하느님의 어린양"
+    },
+    {
+      "text": "그동안 아래 기도를 노래하거나 낭송한다.",
+      "pdfPage": 103,
+      "item": "130",
+      "placement": "before",
+      "anchor": "◎ 하느님의 어린양",
+      "key": "하느님의 어린양"
+    },
+    {
+      "text": "사제는 깊은 절을 한 다음, 성체를 성반이나 성작 위에 조금 높이 받쳐 들고, 교우들을 향하여 분명한 목소리로 말한다.",
+      "pdfPage": 104,
+      "item": "132",
+      "placement": "before",
+      "anchor": null,
+      "key": "영성체 예식 · 영성체 성가"
+    },
+    {
+      "text": "교우들과 함께 한 번 말한다.",
+      "pdfPage": 104,
+      "item": "132",
+      "placement": "before",
+      "anchor": "◎ 주님, 제 안에",
+      "key": "영성체 예식 · 영성체 성가"
+    },
+    {
+      "text": "그다음에 파견을 한다. 사제는 팔을 벌리고 교우들을 향하여 말한다.",
+      "pdfPage": 106,
+      "item": "141",
+      "placement": "before",
+      "anchor": null,
+      "key": "강복"
+    },
+    {
+      "text": "사제는 교우들에게 강복한다.",
+      "pdfPage": 106,
+      "item": "141",
+      "placement": "before",
+      "anchor": "+ 전능하신 천주",
+      "key": "강복"
+    },
+    {
+      "text": "그다음에 부제나 사제는 손을 모으고 교우들에게 아래의 말이나 다른 알맞은 말을 한다.",
+      "pdfPage": 109,
+      "item": "144",
+      "placement": "before",
+      "anchor": null,
+      "key": "파견"
+    },
+    {
+      "text": "사제는 제대 한가운데로 가서 교우들을 바라보고 팔을 벌렸다 모으면서 말한다.",
+      "pdfPage": 18,
+      "item": "29",
+      "placement": "before",
+      "anchor": null,
+      "key": "예물 준비 · 봉헌 성가"
+    },
+    {
+      "text": "교우들은 일어서서 응답한다.",
+      "pdfPage": 18,
+      "item": "29",
+      "placement": "before",
+      "anchor": "◎ 사제의 손으로",
+      "key": "예물 준비 · 봉헌 성가"
+    }
+  ],
+  "editorialNotes": [
+    "기존 사진 판독 본문에서 시작해 지시문을 경본 이미지와 대조해 교체. 전체 본문 교감 완료를 뜻하지 않음.",
+    "감사기도 I·III·IV, 주교 강복, 장엄 강복, 부록 양식은 현재 앱 선택기로 추가하지 않음.",
+    "공동 집전 사제 역할·교황/주교 이름은 추측 확정하지 않음."
+  ]
+}

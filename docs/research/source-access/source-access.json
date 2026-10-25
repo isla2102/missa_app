@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-23",
+  "ordinary": {
+    "url": "https://maria.catholic.or.kr/mi_pr/missa/ordinary.asp?day=20261023&missaid=16879",
+    "status": "source-and-css-inspected; full text not copied",
+    "cssSources": [
+      "https://maria.catholic.or.kr/common/css/base.css",
+      "https://maria.catholic.or.kr/common/css/layout.css",
+      "https://maria.catholic.or.kr/common/css/goodnews/goodnews.css"
+    ],
+    "declarations": [
+      {
+        "selector": "h3.t_desc02",
+        "size": "20px",
+        "color": "#d90099",
+        "font": "Nanum Gothic"
+      },
+      {
+        "selector": ".board_layout .sub_txt .missa_ordinary_tx02",
+        "size": "18px",
+        "color": "#444",
+        "font": "궁서"
+      },
+      {
+        "selector": ".board_layout .type1 .missa_ordinary_tx01",
+        "size": "18px",
+        "color": "#ec00a6",
+        "font": "Nanum Gothic"
+      },
+      {
+        "selector": ".board_layout .type1 .missa_ordinary_tx03",
+        "size": "14px",
+        "color": "#777",
+        "font": "Nanum Gothic"
+      },
+      {
+        "selector": ".board_layout .type1 .missa_ordinary_tx04",
+        "size": "14px",
+        "color": "#ec00a6",
+        "font": "Nanum Gothic"
+      },
+      {
+        "selector": ".board_layout.type1 .c81",
+        "color": "#ff0000"
+      }
+    ],
+    "limitation": "Stylesheet declarations, not browser computed-style proof. Selectors and specificity can change actual rendering. No external scripts copied."
+  },
+  "daily": {
+    "urlTemplate": "https://missa.cbck.or.kr/DailyMissa/{YYYYMMDD}",
+    "sampleUrl": "https://missa.cbck.or.kr/DailyMissa/20261014",
+    "verifiedDate": "2026-10-14",
+    "observedHeading": "2026년 10월 14일 수요일",
+    "sections": [
+      "입당송",
+      "본기도",
+      "제1독서",
+      "화답송",
+      "복음 환호송",
+      "복음",
+      "예물 기도",
+      "영성체송",
+      "영성체 후 묵상",
+      "영성체 후 기도",
+      "오늘의 묵상"
+    ],
+    "status": "one date inspected; no bulk crawl or full-text persistence",
+    "technicalFinding": "Visible HTML includes dated sections; screen scrolling is unnecessary for this observed page. Public API/SLA not verified.",
+    "availability": "Not all dates or future publication coverage tested."
+  },
+  "policy": {
+    "url": "https://cbck.or.kr/Copyright",
+    "checkedAt": "2026-10-23",
+    "observed": "Site notice disallows automated tools including scrapers.",
+    "status": "bulk collection not enabled; explicit use authorization unconfirmed",
+    "robots": "https://missa.cbck.or.kr/robots.txt returned 404; not interpreted as permission"
+  }
+}

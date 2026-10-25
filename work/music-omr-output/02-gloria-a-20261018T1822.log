@@ -1,0 +1,66 @@
+2026-10-18 18:22:56,980 INFO [02-gloria-a]                 Book.java:560  | 1 sheet in C:\Users\imsup\00_개인프로젝트\매일미사_예비신자앱\work\music-omr-inputs\02-gloria-a.tif
+2026-10-18 18:22:57,218 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-18 18:22:57,219 INFO []                 Book.java:2525 | Book stored as work\music-omr-output\02-gloria-a.omr
+2026-10-18 18:22:57,225 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-10-18 18:22:57,227 INFO [02-gloria-a]       StepMonitoring.java:98   | LOAD
+2026-10-18 18:22:57,480 INFO [02-gloria-a]            SheetStub.java:1278 | Loaded image #1 1840x2430 from C:\Users\imsup\00_개인프로젝트\매일미사_예비신자앱\work\music-omr-inputs\02-gloria-a.tif
+2026-10-18 18:22:57,485 INFO [02-gloria-a]       StepMonitoring.java:98   | BINARY
+2026-10-18 18:22:57,910 INFO [02-gloria-a]       StepMonitoring.java:98   | SCALE
+2026-10-18 18:22:57,951 INFO [02-gloria-a]         ScaleBuilder.java:254  | Beam  guessed height: 16 -- 0.25 of [13..26] range
+2026-10-18 18:22:57,954 INFO [02-gloria-a]         ScaleBuilder.java:271  | Beam measured height: 14 -- 0.08 of [13..26] range at 86% of needed quorum
+2026-10-18 18:22:57,954 INFO [02-gloria-a]         ScaleBuilder.java:401  | Normalized black jitter: 14.29 %
+2026-10-18 18:22:57,955 INFO [02-gloria-a]            ScaleStep.java:65   | Scale{ interline(25,28,31) line(4,6,8) beam(14)}
+2026-10-18 18:22:57,957 INFO [02-gloria-a]       StepMonitoring.java:98   | GRID
+2026-10-18 18:22:58,778 INFO [02-gloria-a]       LinesRetriever.java:1508 | Global slope: -0.01138
+2026-10-18 18:22:58,824 INFO [02-gloria-a]    ClustersRetriever.java:326  | Retrieved raw line clusters: 4 of sizes [5] with interline(25,28,31)
+2026-10-18 18:22:59,189 INFO [02-gloria-a]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4]
+2026-10-18 18:22:59,832 INFO [02-gloria-a]        SystemManager.java:134  | Indentation detected for system #1
+2026-10-18 18:22:59,835 INFO [02-gloria-a]        SystemManager.java:800  | 1 part along 4 systems
+2026-10-18 18:22:59,837 INFO [02-gloria-a]                 Book.java:543  | Created scores: [{Score 1}]
+2026-10-18 18:22:59,838 INFO [02-gloria-a]       StepMonitoring.java:98   | HEADERS
+2026-10-18 18:23:00,507 WARN [02-gloria-a]          ClefBuilder.java:658  | Staff#1 no recognized header clef.
+2026-10-18 18:23:01,237 INFO [02-gloria-a]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-18 18:23:01,291 INFO [02-gloria-a]           StemScaler.java:143  | No stem peak found, computing defaults
+2026-10-18 18:23:01,294 INFO [02-gloria-a]        StemSeedsStep.java:86   | stem(6 max:8)
+2026-10-18 18:23:01,422 INFO [02-gloria-a]       StepMonitoring.java:98   | BEAMS
+2026-10-18 18:23:05,529 INFO [02-gloria-a]       StepMonitoring.java:98   | LEDGERS
+2026-10-18 18:23:05,818 INFO [02-gloria-a]       StepMonitoring.java:98   | HEADS
+2026-10-18 18:23:11,264 INFO [02-gloria-a]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[R:-0.8]}
+2026-10-18 18:23:11,265 INFO [02-gloria-a]       StepMonitoring.java:98   | STEMS
+2026-10-18 18:23:12,170 INFO [02-gloria-a]       StepMonitoring.java:98   | REDUCTION
+2026-10-18 18:23:12,261 INFO [02-gloria-a]        ReductionStep.java:105  | Stems free length median value: 103 pixels, 3.7 interlines
+2026-10-18 18:23:12,273 INFO [02-gloria-a]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-18 18:23:12,275 INFO [02-gloria-a]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-18 18:23:12,276 INFO [02-gloria-a]       StepMonitoring.java:98   | TEXTS
+2026-10-18 18:23:16,516 INFO [02-gloria-a]       StepMonitoring.java:98   | MEASURES
+2026-10-18 18:23:16,531 INFO [02-gloria-a]                 Page.java:307  | 13 raw measures: [3 in system#1, 2 in system#2, 4 in system#3, 4 in system#4]
+2026-10-18 18:23:16,532 INFO [02-gloria-a]       StepMonitoring.java:98   | CHORDS
+2026-10-18 18:23:16,551 INFO [02-gloria-a]       StepMonitoring.java:98   | CURVES
+2026-10-18 18:23:17,857 INFO [02-gloria-a]         SlursBuilder.java:240  | Slurs: 6
+2026-10-18 18:23:18,026 INFO [02-gloria-a]      SegmentsBuilder.java:155  | Segments: 9
+2026-10-18 18:23:18,044 INFO [02-gloria-a]       StepMonitoring.java:98   | SYMBOLS
+2026-10-18 18:23:19,303 INFO [02-gloria-a]       StepMonitoring.java:98   | LINKS
+2026-10-18 18:23:19,323 WARN [02-gloria-a]             KeyInter.java:1174 | No effective clef before KeyAlterInter#89{(0.707/0.707) staff:1 FLAT pitch:0.0}
+2026-10-18 18:23:19,356 INFO [02-gloria-a]        SentenceInter.java:463  | No chord near SentenceInter#2169{(0.655) staff:2 mFont:52 Direction} (성가태)
+2026-10-18 18:23:19,357 INFO [02-gloria-a]        SentenceInter.java:463  | No chord near SentenceInter#2171{(0.554) staff:2 mFont:S-50 Direction} ,!_}.6°`
+2026-10-18 18:23:19,372 INFO [02-gloria-a]        SentenceInter.java:463  | No chord near SentenceInter#2209{(0.694) staff:3 mFont:S-66 Direction} 주 하 _ 느
+2026-10-18 18:23:19,373 INFO [02-gloria-a]        SentenceInter.java:463  | No chord near SentenceInter#2214{(0.532) staff:3 mFont:50 Direction} (다같이〉
+2026-10-18 18:23:19,379 INFO [02-gloria-a]        SentenceInter.java:463  | No chord near SentenceInter#2252{(0.638) staff:4 mFont:50 Direction} 〈성기미)
+2026-10-18 18:23:19,390 INFO [02-gloria-a]       StepMonitoring.java:98   | RHYTHMS
+2026-10-18 18:23:19,456 INFO [02-gloria-a]       StepMonitoring.java:98   | PAGE
+2026-10-18 18:23:19,465 WARN [02-gloria-a]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3], please check time signatures
+2026-10-18 18:23:19,467 WARN [02-gloria-a]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [4, 5], please check time signatures
+2026-10-18 18:23:19,468 WARN [02-gloria-a]         MeasureFixer.java:343  | System#3 No target duration for measures local IDs [6, 7, 8, 9], please check time signatures
+2026-10-18 18:23:19,469 WARN [02-gloria-a]         MeasureFixer.java:343  | System#4 No target duration for measures local IDs [10, 11, 12, 13], please check time signatures
+2026-10-18 18:23:19,472 INFO [02-gloria-a]                 Book.java:2584 | Book{02-gloria-a} storing
+2026-10-18 18:23:19,544 INFO [02-gloria-a]                 Book.java:2565 | Stored /book.xml
+2026-10-18 18:23:19,655 INFO [02-gloria-a]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-18 18:23:20,639 INFO [02-gloria-a]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-18 18:23:20,639 INFO [02-gloria-a]                 Book.java:2525 | Book stored as work\music-omr-output\02-gloria-a.omr
+2026-10-18 18:23:20,650 INFO [02-gloria-a]            SheetStub.java:1655 | Sheet disposed
+2026-10-18 18:23:20,695 INFO [02-gloria-a]                 Book.java:2050 | End of Stub#1
+2026-10-18 18:23:20,697 INFO [02-gloria-a]                 Book.java:2057 | End of Book{02-gloria-a}
+2026-10-18 18:23:21,366 INFO [02-gloria-a]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-18 18:23:22,173 INFO [02-gloria-a]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1]
+2026-10-18 18:23:22,284 INFO [02-gloria-a]        ScoreExporter.java:164  | Score 02-gloria-a exported to work\music-omr-output\02-gloria-a.mxl
+2026-10-18 18:23:22,342 INFO [02-gloria-a]                Score.java:181  | Closing {Score 1}

@@ -1,0 +1,1818 @@
+{
+  "count": 92,
+  "dates": [
+    {
+      "date": "2026-10-01",
+      "sourceRef": "goodnews-20261001",
+      "observance": "[(백) 아기 예수의 성녀 데레사 동정 학자 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(이사 66,10-14ㄷ)와 복음(마태 18,1-5)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-02",
+      "sourceRef": "goodnews-20261002",
+      "observance": "[(백) 수호천사 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-03",
+      "sourceRef": "goodnews-20261003",
+      "observance": "[(녹) 연중 제26주간 토요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-04",
+      "sourceRef": "goodnews-20261004",
+      "observance": "[(녹) 연중 제27주일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-05",
+      "sourceRef": "goodnews-20261005",
+      "observance": "[(녹) 연중 제27주간 월요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-06",
+      "sourceRef": "goodnews-20261006",
+      "observance": "[(녹) 연중 제27주간 화요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-07",
+      "sourceRef": "goodnews-20261007",
+      "observance": "[(백) 묵주 기도의 복되신 동정 마리아 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(사도 1,12-14)와 복음(루카 1,26-38)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-08",
+      "sourceRef": "goodnews-20261008",
+      "observance": "[(녹) 연중 제27주간 목요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-09",
+      "sourceRef": "goodnews-20261009",
+      "observance": "[(녹) 연중 제27주간 금요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-10",
+      "sourceRef": "goodnews-20261010",
+      "observance": "[(녹) 연중 제27주간 토요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-11",
+      "sourceRef": "goodnews-20261011",
+      "observance": "[(녹) 연중 제28주일(군인 주일)]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 2
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<강론 후 잠시 묵상한다.> <신경>",
+          "<강론 후 잠시 묵상한다.> <신경>"
+        ]
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-12",
+      "sourceRef": "goodnews-20261012",
+      "observance": "[(녹) 연중 제28주간 월요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-13",
+      "sourceRef": "goodnews-20261013",
+      "observance": "[(녹) 연중 제28주간 화요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-14",
+      "sourceRef": "goodnews-20261014",
+      "observance": "[(녹) 연중 제28주간 수요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-15",
+      "sourceRef": "goodnews-20261015",
+      "observance": "[(백) 예수의 성녀 데레사 동정 학자 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(로마 8,22-27)와 복음(요한 15,1-8)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-16",
+      "sourceRef": "goodnews-20261016",
+      "observance": "[(녹) 연중 제28주간 금요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-17",
+      "sourceRef": "goodnews-20261017",
+      "observance": "[(홍) 안티오키아의 성 이냐시오 주교 순교자 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(필리 3,17─4,1)와 복음(요한 12,24-26)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-18",
+      "sourceRef": "goodnews-20261018",
+      "observance": "[(녹) 연중 제29주일, 민족들의 복음화를 위한 미사(전교 주일)]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<강론 후 잠시 묵상한다.> <신경>"
+        ]
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-19",
+      "sourceRef": "goodnews-20261019",
+      "observance": "[(녹) 연중 제29주간 월요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-20",
+      "sourceRef": "goodnews-20261020",
+      "observance": "[(녹) 연중 제29주간 화요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-21",
+      "sourceRef": "goodnews-20261021",
+      "observance": "[(녹) 연중 제29주간 수요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-22",
+      "sourceRef": "goodnews-20261022",
+      "observance": "[(녹) 연중 제29주간 목요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-23",
+      "sourceRef": "goodnews-20261023",
+      "observance": "[(녹) 연중 제29주간 금요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-24",
+      "sourceRef": "goodnews-20261024",
+      "observance": "[(녹) 연중 제29주간 토요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-25",
+      "sourceRef": "goodnews-20261025",
+      "observance": "[(녹) 연중 제30주일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<강론 후 잠시 묵상한다.> <신경>"
+        ]
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-26",
+      "sourceRef": "goodnews-20261026",
+      "observance": "[(녹) 연중 제30주간 월요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-27",
+      "sourceRef": "goodnews-20261027",
+      "observance": "[(녹) 연중 제30주간 화요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-28",
+      "sourceRef": "goodnews-20261028",
+      "observance": "[(홍) 성 시몬과 성 유다(타대오) 사도 축일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-29",
+      "sourceRef": "goodnews-20261029",
+      "observance": "[(녹) 연중 제30주간 목요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-30",
+      "sourceRef": "goodnews-20261030",
+      "observance": "[(녹) 연중 제30주간 금요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-10-31",
+      "sourceRef": "goodnews-20261031",
+      "observance": "[(녹) 연중 제30주간 토요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-01",
+      "sourceRef": "goodnews-20261101",
+      "observance": "[(백) 모든 성인 대축일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-02",
+      "sourceRef": "goodnews-20261102",
+      "observance": "[(자) 죽은 모든 이를 기억하는 위령의 날 - 첫째 미사]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-03",
+      "sourceRef": "goodnews-20261103",
+      "observance": "[(녹) 연중 제31주간 화요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-04",
+      "sourceRef": "goodnews-20261104",
+      "observance": "[(백) 성 가롤로 보로메오 주교 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(로마 12,3-13)와 복음(요한 10,11-16)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-05",
+      "sourceRef": "goodnews-20261105",
+      "observance": "[(녹) 연중 제31주간 목요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-06",
+      "sourceRef": "goodnews-20261106",
+      "observance": "[(녹) 연중 제31주간 금요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-07",
+      "sourceRef": "goodnews-20261107",
+      "observance": "[(녹) 연중 제31주간 토요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-08",
+      "sourceRef": "goodnews-20261108",
+      "observance": "[(녹) 연중 제32주일(평신도 주일)]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 2,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-09",
+      "sourceRef": "goodnews-20261109",
+      "observance": "[(백) 라테라노 대성전 봉헌 축일]",
+      "variantCounts": {
+        "제1독서": 2,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-10",
+      "sourceRef": "goodnews-20261110",
+      "observance": "[(백) 성 대 레오 교황 학자 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(집회 39,6-10)와 복음(마태 16,13-19)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-11",
+      "sourceRef": "goodnews-20261111",
+      "observance": "[(백) 투르의 성 마르티노 주교 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(이사 61,1-3ㄹ)와 복음(마태 25,31-40)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-12",
+      "sourceRef": "goodnews-20261112",
+      "observance": "[(홍) 성 요사팟 주교 순교자 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(에페 4,1-7.11-13)와 복음(요한 17,20-26)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-13",
+      "sourceRef": "goodnews-20261113",
+      "observance": "[(녹) 연중 제32주간 금요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-14",
+      "sourceRef": "goodnews-20261114",
+      "observance": "[(녹) 연중 제32주간 토요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-15",
+      "sourceRef": "goodnews-20261115",
+      "observance": "[(녹) 연중 제33주일(세계 가난한 이의 날)]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 2
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-16",
+      "sourceRef": "goodnews-20261116",
+      "observance": "[(녹) 연중 제33주간 월요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-17",
+      "sourceRef": "goodnews-20261117",
+      "observance": "[(백) 헝가리의 성녀 엘리사벳 수도자 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(1요한 3,14-18)와 복음(루카 6,27-38)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-18",
+      "sourceRef": "goodnews-20261118",
+      "observance": "[(녹) 연중 제33주간 수요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-19",
+      "sourceRef": "goodnews-20261119",
+      "observance": "[(녹) 연중 제33주간 목요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-20",
+      "sourceRef": "goodnews-20261120",
+      "observance": "[(녹) 연중 제33주간 금요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-21",
+      "sourceRef": "goodnews-20261121",
+      "observance": "[(백) 복되신 동정 마리아의 자헌 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-22",
+      "sourceRef": "goodnews-20261122",
+      "observance": "[(백) 온 누리의 임금이신 우리 주 예수 그리스도 왕 대축일(성서 주간)]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-23",
+      "sourceRef": "goodnews-20261123",
+      "observance": "[(녹) 연중 제34주간 월요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-24",
+      "sourceRef": "goodnews-20261124",
+      "observance": "[(홍) 성 안드레아 둥락 사제와 동료 순교자들 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(지혜 3,1-9)와 복음(마태 10,17-22)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-25",
+      "sourceRef": "goodnews-20261125",
+      "observance": "[(녹) 연중 제34주간 수요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-26",
+      "sourceRef": "goodnews-20261126",
+      "observance": "[(녹) 연중 제34주간 목요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-27",
+      "sourceRef": "goodnews-20261127",
+      "observance": "[(녹) 연중 제34주간 금요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-28",
+      "sourceRef": "goodnews-20261128",
+      "observance": "[(녹) 연중 제34주간 토요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-29",
+      "sourceRef": "goodnews-20261129",
+      "observance": "[(자) 대림 제1주일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-11-30",
+      "sourceRef": "goodnews-20261130",
+      "observance": "[(홍) 성 안드레아 사도 축일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-01",
+      "sourceRef": "goodnews-20261201",
+      "observance": "[(자) 대림 제1주간 화요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-02",
+      "sourceRef": "goodnews-20261202",
+      "observance": "[(자) 대림 제1주간 수요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-03",
+      "sourceRef": "goodnews-20261203",
+      "observance": "[(백) 성 프란치스코 하비에르 사제 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(1코린 9,16-19.22-23)와 복음(마르 16,15-20ㄴ)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-04",
+      "sourceRef": "goodnews-20261204",
+      "observance": "[(자) 대림 제1주간 금요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-05",
+      "sourceRef": "goodnews-20261205",
+      "observance": "[(자) 대림 제1주간 토요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-06",
+      "sourceRef": "goodnews-20261206",
+      "observance": "[(자) 대림 제2주일(인권 주일, 사회 교리 주간)]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-07",
+      "sourceRef": "goodnews-20261207",
+      "observance": "[(백) 성 암브로시오 주교 학자 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(에페 3,8-12)와 복음(요한 10,11-16)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-08",
+      "sourceRef": "goodnews-20261208",
+      "observance": "[(백) 한국 교회의 수호자, 원죄 없이 잉태되신 복되신 동정 마리아 대축일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-09",
+      "sourceRef": "goodnews-20261209",
+      "observance": "[(자) 대림 제2주간 수요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-10",
+      "sourceRef": "goodnews-20261210",
+      "observance": "[(자) 대림 제2주간 목요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-11",
+      "sourceRef": "goodnews-20261211",
+      "observance": "[(자) 대림 제2주간 금요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-12",
+      "sourceRef": "goodnews-20261212",
+      "observance": "[(자) 대림 제2주간 토요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-13",
+      "sourceRef": "goodnews-20261213",
+      "observance": "[(자) 대림 제3주일(자선 주일)]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-14",
+      "sourceRef": "goodnews-20261214",
+      "observance": "[(백) 십자가의 성 요한 사제 학자 기념일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": [
+          "<또는, 기념일 독서(1코린 2,1-10ㄱ)와 복음(루카 14,25-33)을 봉독할 수 있다.>"
+        ]
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-15",
+      "sourceRef": "goodnews-20261215",
+      "observance": "[(자) 대림 제3주간 화요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-16",
+      "sourceRef": "goodnews-20261216",
+      "observance": "[(자) 대림 제3주간 수요일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-17",
+      "sourceRef": "goodnews-20261217",
+      "observance": "[(자) 12월 17일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-18",
+      "sourceRef": "goodnews-20261218",
+      "observance": "[(자) 12월 18일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-19",
+      "sourceRef": "goodnews-20261219",
+      "observance": "[(자) 12월 19일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-20",
+      "sourceRef": "goodnews-20261220",
+      "observance": "[(자) 대림 제4주일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-21",
+      "sourceRef": "goodnews-20261221",
+      "observance": "[(자) 12월 21일]",
+      "variantCounts": {
+        "제1독서": 2,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-22",
+      "sourceRef": "goodnews-20261222",
+      "observance": "[(자) 12월 22일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-23",
+      "sourceRef": "goodnews-20261223",
+      "observance": "[(자) 12월 23일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-24",
+      "sourceRef": "goodnews-20261224",
+      "observance": "[(자) 12월 24일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-25",
+      "sourceRef": "goodnews-20261225",
+      "observance": "[(백) 주님 성탄 대축일 - 밤 미사]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-26",
+      "sourceRef": "goodnews-20261226",
+      "observance": "[(홍) 성 스테파노 첫 순교자 축일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-27",
+      "sourceRef": "goodnews-20261227",
+      "observance": "[(백) 예수, 마리아, 요셉의 성가정 축일(가정 성화 주간)]",
+      "variantCounts": {
+        "제1독서": 2,
+        "제2독서": 2,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 2
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-28",
+      "sourceRef": "goodnews-20261228",
+      "observance": "[(홍) 죄 없는 아기 순교자들 축일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-29",
+      "sourceRef": "goodnews-20261229",
+      "observance": "[(백) 성탄 팔일 축제 제5일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-30",
+      "sourceRef": "goodnews-20261230",
+      "observance": "[(백) 성탄 팔일 축제 제6일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-31",
+      "sourceRef": "goodnews-20261231",
+      "observance": "[(백) 성탄 팔일 축제 제7일]",
+      "variantCounts": {
+        "제1독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "not-applicable",
+      "existingPrayersPreserved": true
+    }
+  ]
+}

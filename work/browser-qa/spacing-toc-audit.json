@@ -1,0 +1,4421 @@
+[
+  {
+    "theme": "a",
+    "view": "reading",
+    "centerError": 0,
+    "headerOverflow": false,
+    "page": {
+      "padding": [
+        "16px",
+        "16px",
+        "16px",
+        "16px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "normal"
+    },
+    "book": {
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "16px"
+    },
+    "buttons": [
+      {
+        "text": "연중",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성가",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "주요 기도문",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "세로로 전환",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "화면에 맞춤",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "← 시작 예식",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성찬 전례 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "← 시작 예식 · 본기도",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "복음 환호송 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "보기 설정",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "안내",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "목차 접기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      }
+    ],
+    "links": [
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": true
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 50,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      }
+    ]
+  },
+  {
+    "theme": "a",
+    "view": "creed",
+    "centerError": 0,
+    "headerOverflow": false,
+    "page": {
+      "padding": [
+        "16px",
+        "16px",
+        "16px",
+        "16px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "normal"
+    },
+    "book": {
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "16px"
+    },
+    "buttons": [
+      {
+        "text": "연중",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성가",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "주요 기도문",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "세로로 전환",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "화면에 맞춤",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "← 시작 예식",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성찬 전례 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "니케아 신경",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "사도 신경",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "낭송",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "악보",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "← 복음",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "사제 마침 기도 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "보기 설정",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "안내",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "목차 접기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      }
+    ],
+    "links": [
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": true
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 50,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      }
+    ]
+  },
+  {
+    "theme": "a",
+    "view": "hymn",
+    "centerError": 0,
+    "headerOverflow": false,
+    "page": {
+      "padding": [
+        "16px",
+        "16px",
+        "16px",
+        "16px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "normal"
+    },
+    "book": {
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "16px"
+    },
+    "buttons": [
+      {
+        "text": "연중",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성가",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "주요 기도문",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "세로로 전환",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "화면에 맞춤",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "← 시작 예식",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성찬 전례 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "← 시작 예식 · 본기도",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "복음 환호송 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "보기 설정",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "안내",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "목차 접기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "닫기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "편성 저장",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "전체 편성 백업",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "구버전 번호 가져오기 검토",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "이 회차에 적용",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      }
+    ],
+    "links": [
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": true
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 50,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      }
+    ]
+  },
+  {
+    "theme": "b",
+    "view": "reading",
+    "centerError": 0,
+    "headerOverflow": false,
+    "page": {
+      "padding": [
+        "16px",
+        "16px",
+        "16px",
+        "16px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "normal"
+    },
+    "book": {
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "16px"
+    },
+    "buttons": [
+      {
+        "text": "연중",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성가",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "주요 기도문",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "세로로 전환",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "화면에 맞춤",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "← 시작 예식",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성찬 전례 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "← 시작 예식 · 본기도",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "복음 환호송 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "보기 설정",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "안내",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "목차 접기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      }
+    ],
+    "links": [
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": true
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 50,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      }
+    ]
+  },
+  {
+    "theme": "b",
+    "view": "creed",
+    "centerError": 0,
+    "headerOverflow": false,
+    "page": {
+      "padding": [
+        "16px",
+        "16px",
+        "16px",
+        "16px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "normal"
+    },
+    "book": {
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "16px"
+    },
+    "buttons": [
+      {
+        "text": "연중",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성가",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "주요 기도문",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "세로로 전환",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "화면에 맞춤",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "← 시작 예식",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성찬 전례 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "니케아 신경",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "사도 신경",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "낭송",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "악보",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "← 복음",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "사제 마침 기도 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "보기 설정",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "안내",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "목차 접기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      }
+    ],
+    "links": [
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": true
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 50,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      }
+    ]
+  },
+  {
+    "theme": "b",
+    "view": "hymn",
+    "centerError": 0,
+    "headerOverflow": false,
+    "page": {
+      "padding": [
+        "16px",
+        "16px",
+        "16px",
+        "16px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "normal"
+    },
+    "book": {
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "16px"
+    },
+    "buttons": [
+      {
+        "text": "연중",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성가",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "주요 기도문",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "세로로 전환",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "화면에 맞춤",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "← 시작 예식",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성찬 전례 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "← 시작 예식 · 본기도",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "복음 환호송 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "보기 설정",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "안내",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "목차 접기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "닫기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "편성 저장",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "전체 편성 백업",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "구버전 번호 가져오기 검토",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "이 회차에 적용",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      }
+    ],
+    "links": [
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": true
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 50,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      }
+    ]
+  },
+  {
+    "theme": "c",
+    "view": "reading",
+    "centerError": 0,
+    "headerOverflow": false,
+    "page": {
+      "padding": [
+        "16px",
+        "16px",
+        "16px",
+        "16px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "normal"
+    },
+    "book": {
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "16px"
+    },
+    "buttons": [
+      {
+        "text": "연중",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성가",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "주요 기도문",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "세로로 전환",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "화면에 맞춤",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "← 시작 예식",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성찬 전례 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "← 시작 예식 · 본기도",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "복음 환호송 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "보기 설정",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "안내",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "목차 접기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      }
+    ],
+    "links": [
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": true
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 50,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      }
+    ]
+  },
+  {
+    "theme": "c",
+    "view": "creed",
+    "centerError": 0,
+    "headerOverflow": false,
+    "page": {
+      "padding": [
+        "16px",
+        "16px",
+        "16px",
+        "16px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "normal"
+    },
+    "book": {
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "16px"
+    },
+    "buttons": [
+      {
+        "text": "연중",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성가",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "주요 기도문",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "세로로 전환",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "화면에 맞춤",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "← 시작 예식",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성찬 전례 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "니케아 신경",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "사도 신경",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "낭송",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "악보",
+        "padding": [
+          "4px",
+          "12px",
+          "4px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 32
+      },
+      {
+        "text": "← 복음",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "사제 마침 기도 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "보기 설정",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "안내",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "목차 접기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      }
+    ],
+    "links": [
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": true
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 50,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      }
+    ]
+  },
+  {
+    "theme": "c",
+    "view": "hymn",
+    "centerError": 0,
+    "headerOverflow": false,
+    "page": {
+      "padding": [
+        "16px",
+        "16px",
+        "16px",
+        "16px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "normal"
+    },
+    "book": {
+      "padding": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "margin": [
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "gap": "16px"
+    },
+    "buttons": [
+      {
+        "text": "연중",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성가",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "주요 기도문",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "세로로 전환",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "화면에 맞춤",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "← 시작 예식",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "성찬 전례 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "← 시작 예식 · 본기도",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "복음 환호송 →",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "보기 설정",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "안내",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "목차 접기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "닫기",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "편성 저장",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      },
+      {
+        "text": "전체 편성 백업",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "구버전 번호 가져오기 검토",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 40
+      },
+      {
+        "text": "이 회차에 적용",
+        "padding": [
+          "8px",
+          "12px",
+          "8px",
+          "12px"
+        ],
+        "margin": [
+          "0px",
+          "0px",
+          "0px",
+          "0px"
+        ],
+        "gap": "normal",
+        "height": 44
+      }
+    ],
+    "links": [
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": true
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 50,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      },
+      {
+        "underline": "none",
+        "font": "14px",
+        "leading": "21px",
+        "height": 32,
+        "current": false
+      }
+    ]
+  }
+]

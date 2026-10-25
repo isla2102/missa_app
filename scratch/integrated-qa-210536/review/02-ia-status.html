@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>MISSA 작업 현황 · v72</title>
+<style>
+@layer tokens, base, layout, components, responsive, utilities;
+@layer tokens { :root { --draft-gap: 1rem; --draft-padding: 1.25rem; --draft-width: 70rem; --draft-card-min: 17rem; --draft-step: 2rem; --focus-ring: 3px solid currentColor; } }
+@layer base { body { margin: 0; } * { box-sizing: border-box; } h1,h2,h3,p { margin-block: 0; } a,summary { min-block-size: var(--draft-step); } :focus-visible { outline: var(--focus-ring); } summary { cursor: pointer; } }
+@layer layout { .status { max-inline-size: var(--draft-width); margin-inline: auto; padding: var(--draft-padding); display: grid; gap: calc(2 * var(--draft-gap)); } .status__section { display: grid; gap: var(--draft-gap); } .status__grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,var(--draft-card-min)),1fr)); gap: var(--draft-gap); } .status__header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--draft-gap); } }
+@layer components { .status__current { border: 2px solid; padding: var(--draft-padding); display: grid; gap: var(--draft-gap); } .status__card { border: 1px solid; padding: var(--draft-padding); display: grid; align-content: start; gap: var(--draft-gap); } .status__tree { list-style: none; margin: 0; padding-inline-start: var(--draft-gap); border-inline-start: 1px solid; } .status__tree li { padding: calc(var(--draft-gap) / 2); } .status__steps { display: flex; flex-wrap: wrap; gap: var(--draft-gap); padding-inline-start: var(--draft-padding); } .status__steps li { padding: calc(var(--draft-gap) / 2); } .status__steps [aria-current="step"] { outline: 2px solid; font-weight: bold; } .status__details { padding-block: var(--draft-gap); border-block-start: 1px solid; } .status__details ul { margin-block-end: 0; } }
+</style></head>
+<body><main class="status">
+<header class="status__header"><div class="status__section"><h1>MISSA 작업 현황</h1><p>2026-10-22 · v80 · 5단계 시안 검토</p></div><a href="02-ia-current.html">현재 앱 열기 →</a></header>
+<section class="status__current" aria-labelledby="now"><p>지금 할 일</p><h2 id="now">5단계 · 화면 배치 검토</h2><p><a href="05-wireframe-v1.html">5단계 배치 시안 열기 →</a></p><p>4단계 기초 정리 완료 · 두 페이지/목차 접기/상단 정보/바깥 스크롤 비교</p><p><strong>IA 승인 완료.</strong> 본문 연결·권리 확인·실제 기기 검증은 별도 진행합니다.</p></section>
+<section class="status__section" aria-labelledby="flow"><h2 id="flow">전체 순서</h2><ol class="status__steps"><li>기획</li><li>정보 구조 · 확정</li><li>디자인 방향 · 확정</li><li aria-current="step">토큰 · 현재</li><li>와이어프레임</li><li>컴포넌트</li><li>프로토타입</li><li>구현·검증</li></ol></section>
+<section class="status__section" aria-labelledby="done"><h2 id="done">완료 · 화면과 동작</h2><div class="status__grid">
+<article class="status__card"><h3>읽기 화면</h3><ul class="status__tree"><li>가로 기본 · 두 페이지</li><li>세로 · 한 열로 이어 읽기</li><li>본문 최소 높이 + 바깥 스크롤</li><li>기호와 본문 열 분리</li></ul></article>
+<article class="status__card"><h3>선택과 안내</h3><ul class="status__tree"><li>짧은 버튼 · 제목과 같은 행</li><li>긴 안내 → 버튼으로 열기</li><li>참회 양식과 자비송 중복 정리</li><li>악보 확대 → 이미지 모달</li></ul></article>
+<article class="status__card"><h3>성가 편성</h3><ul class="status__tree"><li>날짜·회차별 복수 곡 저장</li><li>추천 번호 → 선택해서 적용</li><li>JSON 백업·복원</li><li>구버전 번호 가져오기</li></ul></article>
+</div></section>
+<section class="status__section" aria-labelledby="qa"><h2 id="qa">검사 완료</h2><ul class="status__tree"><li><strong>10개</strong> 통합 검사 통과</li><li><strong>8개</strong> 가로·세로 화면 · 자동 접근성 위반 0</li><li><strong>10회</strong> 신앙 고백 실제 클릭 전환</li><li>안내 열기·닫기 / 백업·복원 / 읽던 위치 복구</li></ul><p>브라우저 자동 검사 결과입니다. 실제 태블릿 검사는 아래에 남아 있습니다.</p></section>
+<section class="status__section" aria-labelledby="left"><h2 id="left">남은 일 · 완료와 구분</h2><div class="status__grid">
+<article class="status__card"><h3>본문 연결</h3><ul class="status__tree"><li>제2양식 원문</li><li>날짜별 전체 미사 본문</li><li>주보 화답송 악보</li><li>다른 달 성가표</li></ul><p>현재 10월 성가표는 추천 자료이며, 본당 회차 편성 확정과 별개입니다.</p></article>
+<article class="status__card"><h3>권리 확인</h3><ul class="status__tree"><li>전문 내장·배포 범위</li><li>추가 자동 수집 허용 범위</li><li>서면 확인 전 추가 수입 보류</li></ul><p>허가가 완료된 상태가 아닙니다. 문의 발송도 하지 않았습니다.</p></article>
+<article class="status__card"><h3>실제 태블릿</h3><ul class="status__tree"><li>기기 방향 회전</li><li>손가락 스크롤·스와이프</li><li>OS 글자 확대</li><li>스크린리더·기기 브라우저</li></ul><p>실제 기기에서 아직 검증하지 않았습니다.</p></article>
+</div></section>
+<section class="status__section" aria-labelledby="next"><h2 id="next">다음 단계로 가는 길</h2><ul class="status__tree"><li><strong>완료:</strong> 화면 배치·이동 방식 확정</li><li>↓ IA 확정</li><li><strong>지금:</strong> 3단계 디자인 방향 비교</li><li>↓ 색상 / 글꼴 / 화면 분위기 선택</li><li>4단계 토큰·디자인 시스템 기초</li></ul></section>
+<section aria-label="상세 기록"><details class="status__details"><summary>상세 기록이 필요할 때만 펼치기</summary><ul><li><a href="../docs/02-ia-final-review.md">IA 최종 검토 원본</a></li><li><a href="../docs/progress.md">진행 이력</a></li><li><a href="../docs/content-source-policy.md">출처·이용 범위 기록</a></li></ul></details></section>
+</main></body></html>

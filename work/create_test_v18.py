@@ -1,0 +1,19 @@
+from pathlib import Path
+s=Path('work/test-reader-v17.cjs').read_text(encoding='utf-8').replace('02-ia-v17.html','02-ia-v18.html');s=s[:s.index('const entrance=')]
+s+='''
+for(const title of ['입당 성가','봉헌 성가','영성체 성가','파견 성가']){const n=run('renderHymnScore')(title);assert.ok(n.className.includes('reader__item--score'));assert.ok(n.textContent.includes('mock'));const b=walk(n).find(x=>x.tagName==='button'&&x.textContent==='악보 크게 보기');assert.ok(b);b.onclick();assert.equal(ui.get('score-modal').open,true);assert.ok(walk(ui.get('score-modal-body')).some(x=>x.tagName==='img'));ui.get('score-modal').close();}
+run("kyrieView='ordinary'");const amen=run("renderPrayerFrame('아멘','아멘')");const enlarge=walk(amen).find(n=>n.tagName==='button'&&n.textContent==='악보 크게 보기');assert.ok(enlarge);enlarge.onclick();assert.ok(walk(ui.get('score-modal-body')).some(n=>n.tagName==='object'&&n.type==='application/pdf'&&decodeURI(n.data).includes('amen.pdf')));assert.ok(!walk(amen).some(n=>n.tagName==='a'&&n.textContent==='PDF 열기'));
+for(const i of [0,1,2,3])for(const b of run(`flowBlocks(${i})`))assert.ok(run('renderBlock')(b));
+const flow=run('flowBlocks(2)');assert.ok(flow.findIndex(b=>b.item?.title==='봉헌 성가')<flow.findIndex(b=>b.item?.title==='예물 준비 기도'));assert.equal(flow.filter(b=>b.item?.title==='예물 준비 기도').length,1);assert.ok(flow.some(b=>b.item?.title==='영성체 성가'));
+for(const title of ['예물 기도','영성체 후 기도']){const n=run('renderItem')(run('contents.flat()').find(x=>x.title===title));assert.ok(walk(n).some(x=>x.attrs['data-content-source']==='cbck-daily-mock'));assert.ok(n.textContent.includes('mock'));assert.equal(n.textContent.includes('본문 없음'),false);}
+const notice=run("renderItem(contents.flat().find(x=>x.title==='공지 사항'))");assert.ok(walk(notice).some(n=>n.attrs['data-content-source']==='parish-bulletin-mock'));assert.ok(notice.textContent.includes('신부님'));
+const ep=run("ordinaryText('감사기도 제2양식')");for(const unwanted of ['미확정','[감사송 대화]','[인쇄본 수록 감사송'])assert.equal(ep.includes(unwanted),false);assert.ok(ep.includes('거룩하신 아버지'));assert.ok(flow.some(b=>b.item?.title==='감사기도 제2양식'));
+const dismissal=run("flowBlocks(3).filter(b=>b.group==='파견')");assert.equal(dismissal.length,4);assert.ok(dismissal.every(b=>!b.variant.text.includes('◎')));assert.equal(run("flowBlocks(3).filter(b=>b.group==='파견 합송').length"),1);
+const expected=[['2026-02-18','lent','이 빵을 먹고'],['2026-04-05','easter','십자가와 부활로'],['2026-05-24','easter','십자가와 부활로'],['2026-05-25','ordinary','부활을 선포'],['2026-10-18','ordinary','부활을 선포']];const crops=[];
+for(const [d,key,phrase] of expected){date.value=d;assert.equal(run('currentSeason().key'),key);assert.ok(run("ordinaryText('신앙의 신비여')").includes(phrase));const assets=run("scoreAssets('신앙의 신비여')");assert.equal(assets.length,1);crops.push(assets[0].crop.join(','));}assert.equal(new Set(crops).size,3);
+date.value='2026-04-03';assert.equal(run('currentSeason()'),null);assert.equal(run("scoreAssets('신앙의 신비여').length"),0);date.value='2026-10-18';run('showSeasonModal()');assert.equal(ui.get('season-modal').open,true);assert.ok(ui.get('season-modal-body').textContent.includes('5월 25일 ~ 11월 28일'));assert.equal(walk(ui.get('season-modal-body')).filter(n=>n.attrs['aria-current']==='true').length,1);date.value='2027-10-18';run('showSeasonModal()');assert.ok(ui.get('season-modal-body').textContent.includes('연결 전'));date.value='2026-10-18';
+assert.ok(html.includes('<option value="youth">저녁미사</option>'));assert.ok(html.includes('.reader__session-select { width: max-content; }'));
+assert.equal(/style="|!important/.test(html),false);
+console.log('PASS: all score kinds enlarge in modal/PDF object, four hymn mocks, separate preparation, daily prayer mocks/bulletin notice, EP II label cleanup, seasonal response+3 crops/boundaries, four dismissal choices+one response, season period modal, short evening label/intrinsic select width.');
+'''
+Path('work/test-reader-v18.cjs').write_text(s,encoding='utf-8',newline='\r\n')

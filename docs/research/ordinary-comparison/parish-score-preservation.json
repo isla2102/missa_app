@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-24",
+  "activeFilesUnchanged": true,
+  "scoreAssetsUnchanged": true,
+  "activeHashes": {
+    "prototype/index.html": "7c599e634e86cd6997f3142ab4bd3b296d6e83db7cb8d49ad7886f8975e8b845",
+    "prototype/source/reader.js": "5e7d25dc50afea2bb1bd92a4dc964a95059a1718a5c7e9242405a53777a2568d",
+    "review/07-system-sample-v1.html": "259400735b5ea79ed80b5b3b9579dd9551a335bf7edf781e24e475d77e8e1c74",
+    "docs/교중미사악보/reengraved/registry.json": "9420f682393a9e403f4fbbaecb6fb562e88cf444edc6e6b863d4a413c30071c9"
+  },
+  "scoreAssetCount": 37
+}

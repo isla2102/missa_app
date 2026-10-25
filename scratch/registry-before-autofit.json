@@ -1,0 +1,131 @@
+{
+  "아멘": [
+    {
+      "kind": "engraved",
+      "title": "아멘",
+      "path": "../docs/교중미사악보/reengraved/amen.pdf",
+      "preview": "../docs/교중미사악보/reengraved/amen.svg",
+      "status": "사진 대조 완료 · 본당 최종 교정 전",
+      "systems": 1
+    }
+  ],
+  "자비송": [
+    {
+      "kind": "engraved",
+      "title": "자비송",
+      "path": "../docs/교중미사악보/reengraved/kyrie.pdf",
+      "preview": "../docs/교중미사악보/reengraved/kyrie.svg",
+      "scope": "principal",
+      "sourceKey": "자비송",
+      "status": "원본 대조 · 본당 최종 교정 전",
+      "systems": 6
+    }
+  ],
+  "주님의 기도 맺음 환호": [
+    {
+      "kind": "engraved",
+      "title": "주님의 기도 맺음 환호",
+      "path": "../docs/교중미사악보/reengraved/doxology.pdf",
+      "preview": "../docs/교중미사악보/reengraved/doxology.svg",
+      "scope": "principal",
+      "sourceKey": "주님의 기도 맺음 환호",
+      "status": "원본 대조 · 본당 최종 교정 전",
+      "systems": 2
+    }
+  ],
+  "복음 환호송": [
+    {
+      "kind": "engraved",
+      "title": "복음 환호송",
+      "path": "../docs/교중미사악보/reengraved/alleluia-365.pdf",
+      "preview": "../docs/교중미사악보/reengraved/alleluia-365.svg",
+      "scope": "parish-common",
+      "sourceKey": "복음 환호송",
+      "status": "원본 대조 · 본당 최종 교정 전",
+      "systems": 1
+    }
+  ],
+  "하느님의 어린양": [
+    {
+      "kind": "engraved",
+      "title": "하느님의 어린양",
+      "path": "../docs/교중미사악보/reengraved/agnus.pdf",
+      "preview": "../docs/교중미사악보/reengraved/agnus.svg",
+      "scope": "principal",
+      "sourceKey": "하느님의 어린양",
+      "status": "새 사진 대조 · 1·2절 반복을 펼쳐 표기 · 본당 최종 교정 전",
+      "systems": 6
+    }
+  ],
+  "주님의 기도": [
+    {
+      "kind": "engraved",
+      "title": "주님의 기도",
+      "path": "../docs/교중미사악보/reengraved/lords-prayer.pdf",
+      "preview": "../docs/교중미사악보/reengraved/lords-prayer-v26.svg",
+      "scope": "principal",
+      "sourceKey": "주님의 기도",
+      "systems": 10,
+      "status": "사진 대조 · 본당 최종 교정 전"
+    }
+  ],
+  "대영광송": [
+    {
+      "kind": "engraved",
+      "title": "대영광송",
+      "path": "../docs/교중미사악보/reengraved/gloria.pdf",
+      "preview": "../docs/교중미사악보/reengraved/gloria-v26.svg",
+      "scope": "principal",
+      "sourceKey": "대영광송",
+      "systems": 23,
+      "status": "사진 대조 · 본당 최종 교정 전"
+    }
+  ],
+  "거룩하시도다": [
+    {
+      "kind": "engraved",
+      "title": "거룩하시도다",
+      "path": "../docs/교중미사악보/reengraved/sanctus.pdf",
+      "preview": "../docs/교중미사악보/reengraved/sanctus.svg",
+      "scope": "principal",
+      "sourceKey": "거룩하시도다",
+      "systems": 5,
+      "status": "사진 대조 · 본당 최종 교정 전"
+    }
+  ],
+  "신앙의 신비여": [
+    {
+      "kind": "engraved",
+      "title": "신앙의 신비여 · 연중",
+      "path": "../docs/교중미사악보/reengraved/memorial-ordinary.pdf",
+      "preview": "../docs/교중미사악보/reengraved/memorial-ordinary.svg",
+      "scope": "principal",
+      "sourceKey": "신앙의 신비여",
+      "systems": 2,
+      "status": "사진 대조 · 본당 최종 교정 전",
+      "season": "ordinary"
+    },
+    {
+      "kind": "engraved",
+      "title": "신앙의 신비여 · 사순",
+      "path": "../docs/교중미사악보/reengraved/memorial-lent.pdf",
+      "preview": "../docs/교중미사악보/reengraved/memorial-lent.svg",
+      "scope": "principal",
+      "sourceKey": "신앙의 신비여",
+      "systems": 2,
+      "status": "사진 대조 · 본당 최종 교정 전",
+      "season": "lent"
+    },
+    {
+      "kind": "engraved",
+      "title": "신앙의 신비여 · 부활",
+      "path": "../docs/교중미사악보/reengraved/memorial-easter.pdf",
+      "preview": "../docs/교중미사악보/reengraved/memorial-easter.svg",
+      "scope": "principal",
+      "sourceKey": "신앙의 신비여",
+      "systems": 2,
+      "status": "사진 대조 · 본당 최종 교정 전",
+      "season": "easter"
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "dates": [
+    {
+      "date": "2026-10-01",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-02",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-03",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-04",
+      "status": "linked",
+      "petitions": 4,
+      "sourceRef": "goodnews-20261004"
+    },
+    {
+      "date": "2026-10-05",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-06",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-07",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-08",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-09",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-10",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-11",
+      "status": "linked",
+      "petitions": 4,
+      "sourceRef": "goodnews-20261011"
+    },
+    {
+      "date": "2026-10-12",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-13",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-14",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-15",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-16",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-17",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-18",
+      "status": "linked",
+      "petitions": 4,
+      "sourceRef": "goodnews-20261018"
+    },
+    {
+      "date": "2026-10-19",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-20",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-21",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-22",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-23",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-24",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-25",
+      "status": "linked",
+      "petitions": 4,
+      "sourceRef": "goodnews-20261025"
+    },
+    {
+      "date": "2026-10-26",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-27",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-28",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-29",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-30",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-10-31",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-01",
+      "status": "note-only",
+      "petitions": 0,
+      "sourceRef": "goodnews-20261101"
+    },
+    {
+      "date": "2026-11-02",
+      "status": "note-only",
+      "petitions": 0,
+      "sourceRef": "goodnews-20261102"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-04",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-05",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-06",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-07",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-08",
+      "status": "note-only",
+      "petitions": 0,
+      "sourceRef": "goodnews-20261108"
+    },
+    {
+      "date": "2026-11-09",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-10",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-11",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-12",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-13",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-14",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-15",
+      "status": "note-only",
+      "petitions": 0,
+      "sourceRef": "goodnews-20261115"
+    },
+    {
+      "date": "2026-11-16",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-17",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-18",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-19",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-20",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-21",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-22",
+      "status": "note-only",
+      "petitions": 0,
+      "sourceRef": "goodnews-20261122"
+    },
+    {
+      "date": "2026-11-23",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-24",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-25",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-26",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-27",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-28",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-11-29",
+      "status": "note-only",
+      "petitions": 0,
+      "sourceRef": "goodnews-20261129"
+    },
+    {
+      "date": "2026-11-30",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-01",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-02",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-03",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-04",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-05",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-06",
+      "status": "note-only",
+      "petitions": 0,
+      "sourceRef": "goodnews-20261206"
+    },
+    {
+      "date": "2026-12-07",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-08",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-09",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-10",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-11",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-12",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-13",
+      "status": "note-only",
+      "petitions": 0,
+      "sourceRef": "goodnews-20261213"
+    },
+    {
+      "date": "2026-12-14",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-15",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-16",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-17",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-18",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-19",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-20",
+      "status": "note-only",
+      "petitions": 0,
+      "sourceRef": "goodnews-20261220"
+    },
+    {
+      "date": "2026-12-21",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-22",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-23",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-24",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-25",
+      "status": "note-only",
+      "petitions": 0,
+      "sourceRef": "goodnews-20261225"
+    },
+    {
+      "date": "2026-12-26",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-27",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-28",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-29",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-30",
+      "status": "absent",
+      "petitions": 0
+    },
+    {
+      "date": "2026-12-31",
+      "status": "absent",
+      "petitions": 0
+    }
+  ],
+  "linkedDates": 4,
+  "noteOnlyDates": 10,
+  "petitions": 16,
+  "scope": "available sample petitions; source gives no priest conclusion"
+}

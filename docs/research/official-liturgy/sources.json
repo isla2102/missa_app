@@ -1,0 +1,114 @@
+{
+  "checkedAt": "2026-10-23",
+  "scope": "로마 전례의 일반 미사 중심; 특별 예식·성사 예식 전체 조사 아님",
+  "documents": [
+    {
+      "id": "SC",
+      "title": "거룩한 전례에 관한 헌장 — Sacrosanctum Concilium",
+      "authority": "제2차 바티칸 공의회",
+      "edition": "1963-12-04",
+      "language": "영어",
+      "type": "공의회 헌장",
+      "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+      "checked": "7,10–14항 및 제6장 성음악의 112항을 중심으로 선별 확인",
+      "limit": "전체 공의회 문헌·후속 개정 전부를 검토한 것은 아님"
+    },
+    {
+      "id": "GIRM",
+      "title": "로마 미사 경본 총지침 — General Instruction of the Roman Missal",
+      "authority": "교황청 경신성사성 / 교황청 게재",
+      "edition": "교황청 영문 게재본; 미국 지역 적응 포함",
+      "language": "영어",
+      "type": "미사 경본 총지침",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20030317_ordinamento-messale_en.html",
+      "checked": "34–45,46–90,91–105항 중 미사 구조·침묵·역할 관련 내용 선별 확인",
+      "limit": "미국 적응인 자세·선곡 목록 등을 한국에 그대로 적용하지 않음"
+    },
+    {
+      "id": "K-GIRM",
+      "title": "로마 미사 경본 총지침·미사 독서 목록 지침 한국어판 발행 안내",
+      "authority": "한국천주교주교회의 전례위원회",
+      "edition": "2018-05-15 발행 안내",
+      "language": "한국어",
+      "type": "공식 서지·목차 안내",
+      "url": "https://cbck.or.kr/documents/other/402681",
+      "checked": "서지·국내 사용 배경·차례 확인",
+      "limit": "이 URL은 총지침 전문이 아닌 도서 소개; 한국어 총지침 전체 판독 완료로 표시하지 않음"
+    },
+    {
+      "id": "OLM",
+      "title": "미사 독서 목록 지침 — Ordo Lectionum Missae, Praenotanda",
+      "authority": "교황청 문헌 / 한국천주교주교회의 한국어 게재",
+      "edition": "1981-01-21",
+      "language": "한국어",
+      "type": "독서 목록 지침",
+      "url": "https://cbck.or.kr/documents/other/402071",
+      "checked": "11–14,19–23,46–47,64–69,78항 중심 선별 확인",
+      "limit": "전문 열람 가능. 모든 날짜의 독서 배정표를 앱에 검증·수입한 것은 아님"
+    },
+    {
+      "id": "MS",
+      "title": "거룩한 전례의 음악에 관한 훈령 — Musicam sacram",
+      "authority": "교황청 예부성성",
+      "edition": "1967-03-05",
+      "language": "영어",
+      "type": "성음악 훈령",
+      "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_instr_19670305_musicam-sacram_en.html",
+      "checked": "15–19,23–24,26–36항 중심 선별 확인",
+      "limit": "당시 전례 개혁의 문맥과 이후 미사 경본·한국 지침을 함께 읽음"
+    },
+    {
+      "id": "K-MUSIC",
+      "title": "한국 천주교 성음악 지침 — 개정판",
+      "authority": "주교회의 전례위원회 / 한국천주교중앙협의회",
+      "edition": "제2판 1쇄 2017-12-01 / 제2판 2쇄 2018-03-23",
+      "language": "한국어",
+      "type": "한국 성음악 지침",
+      "url": "https://ebook.cbck.or.kr/gallery/view.asp?seq=214687",
+      "checked": "표제·판권·목차와 인쇄쪽 26,27,28,31,35,38,41 선별 직접 판독",
+      "limit": "이미지 전자책 52면. 연속 전쪽 판독 아님; 읽은 면에 이어지는 문장은 미확인으로 구분",
+      "pageMap": {
+        "26": 28,
+        "27": 29,
+        "28": 30,
+        "31": 33,
+        "35": 37,
+        "38": 40,
+        "41": 43
+      }
+    },
+    {
+      "id": "K-CALENDAR",
+      "title": "전례력의 이해 — 전례일의 등급·순위와 한국의 이동 경축",
+      "authority": "한국천주교주교회의 매일미사",
+      "edition": "2026-10-23 열람",
+      "language": "한국어",
+      "type": "공식 해설·규범 인용",
+      "url": "https://missa.cbck.or.kr/LiturgyInfo",
+      "checked": "등급·순위표, 겹치는 전례일, 대축일 이동 관련 항목",
+      "limit": "전례주년과 전례력 일반 규범 전문을 별도 확보한 것은 아님; 연도별 고유 전례력 대조 필요"
+    },
+    {
+      "id": "ORDO",
+      "title": "미사 통상문 — 한국어 로마 미사 경본",
+      "authority": "한국천주교주교회의 / 한국천주교중앙협의회",
+      "edition": "2017년 대림부터 사용하는 한국어 제3판 계열",
+      "language": "한국어",
+      "type": "공식 예식 본문·지시문",
+      "url": "https://missale.cbck.or.kr/OrdoMissae",
+      "checked": "시작 예식의 인사 대안·성수 예식 대체·참회와 자비송 연결 지시 확인",
+      "limit": "전문은 앱에 새로 복제하지 않음; 모든 기도 양식의 세부 교감 완료 아님"
+    },
+    {
+      "id": "DAILY",
+      "title": "매일미사 일러두기",
+      "authority": "한국천주교주교회의 매일미사",
+      "edition": "2026-10-23 열람",
+      "language": "한국어",
+      "type": "공식 수록·선택 기준 안내",
+      "url": "https://missa.cbck.or.kr/DailyMissaInfo",
+      "checked": "고유 기도문 반복·선택, 독서 배정, 보편 지향 기도 항목 확인",
+      "limit": "월간 HWP의 실제 내용 판독과 날짜별 원문 검증을 대신하지 않음"
+    }
+  ]
+}

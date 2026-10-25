@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-18",
+  "userIncipits": {
+    "대영광송": "레레레레레도레 솔파레도 레레",
+    "거룩하시도다": "라라라라솔라 솔솔솔솔파솔",
+    "신앙의 신비여": "파파파솔솔솔 라라라라라솔파솔레",
+    "하느님의 어린양": "라 라솔라 솔 솔라솔파레도"
+  },
+  "sources": [
+    "https://missale.cbck.or.kr/Sound",
+    "https://gregobase.selapa.net/usage.php?id=ky"
+  ],
+  "examinedGabcCount": 164,
+  "method": "Exploratory diatonic interval comparison, collapsing repeated pitches to accommodate Korean syllables; Latin Gloria/Sanctus/Agnus candidates. Rhythmic/vernacular adaptation not conclusively identified.",
+  "result": "No full opening match confirmed. Partial internal matches do not establish identity. Memorial acclamation unresolved; not treated as a medieval Kyriale movement.",
+  "confirmedCatholicHymnNumbers": {
+    "복음 환호송": 365
+  },
+  "notes": "Do not replace parish scores with a guessed Gloria XV, Sanctus XVIII, Agnus XVIII, or Mass VIII. Official CBCK Sound has Korean chant score/audio options; direct remote score image inspection unavailable in current tools."
+}

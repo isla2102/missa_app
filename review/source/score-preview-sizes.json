@@ -1,0 +1,530 @@
+{
+  "../docs/교중미사악보/reengraved/agnus.svg": [
+    1050.0,
+    905.0
+  ],
+  "../docs/교중미사악보/reengraved/alleluia-365.svg": [
+    1050.0,
+    131.0
+  ],
+  "../docs/교중미사악보/reengraved/amen.svg": [
+    506.0,
+    126.0
+  ],
+  "../docs/교중미사악보/reengraved/doxology.svg": [
+    1050.0,
+    285.0
+  ],
+  "../docs/교중미사악보/reengraved/gloria-a.svg": [
+    1050.0,
+    910.0
+  ],
+  "../docs/교중미사악보/reengraved/gloria-b.svg": [
+    1050.0,
+    912.0
+  ],
+  "../docs/교중미사악보/reengraved/gloria-c.svg": [
+    1050.0,
+    913.0
+  ],
+  "../docs/교중미사악보/reengraved/gloria-d.svg": [
+    1050.0,
+    750.0
+  ],
+  "../docs/교중미사악보/reengraved/gloria-v26.svg": [
+    1050.0,
+    3545.0
+  ],
+  "../docs/교중미사악보/reengraved/gloria.svg": [
+    1050.0,
+    3545.0
+  ],
+  "../docs/교중미사악보/reengraved/kyrie.svg": [
+    1050.0,
+    913.0
+  ],
+  "../docs/교중미사악보/reengraved/lords-a.svg": [
+    1050.0,
+    908.0
+  ],
+  "../docs/교중미사악보/reengraved/lords-b.svg": [
+    1050.0,
+    595.0
+  ],
+  "../docs/교중미사악보/reengraved/lords-prayer-v26.svg": [
+    1050.0,
+    1523.0
+  ],
+  "../docs/교중미사악보/reengraved/lords-prayer.svg": [
+    1050.0,
+    1523.0
+  ],
+  "../docs/교중미사악보/reengraved/memorial-easter.svg": [
+    1050.0,
+    287.0
+  ],
+  "../docs/교중미사악보/reengraved/memorial-lent.svg": [
+    1050.0,
+    285.0
+  ],
+  "../docs/교중미사악보/reengraved/memorial-ordinary.svg": [
+    1050.0,
+    285.0
+  ],
+  "../docs/교중미사악보/reengraved/sanctus.svg": [
+    1050.0,
+    750.0
+  ],
+  "../docs/교중미사악보/reengraved/autofit/agnus.svg": [
+    841.8897637795277,
+    196.62672167085648
+  ],
+  "../docs/교중미사악보/reengraved/autofit/alleluia-365.svg": [
+    841.8897637795277,
+    80.1268227137137
+  ],
+  "../docs/교중미사악보/reengraved/autofit/amen.svg": [
+    841.8897637795277,
+    80.18097256630676
+  ],
+  "../docs/교중미사악보/reengraved/autofit/doxology.svg": [
+    841.8897637795277,
+    71.08787504766573
+  ],
+  "../docs/교중미사악보/reengraved/autofit/gloria.svg": [
+    841.8897637795277,
+    972.2003872108145
+  ],
+  "../docs/교중미사악보/reengraved/autofit/kyrie.svg": [
+    841.8897637795277,
+    413.6519709620935
+  ],
+  "../docs/교중미사악보/reengraved/autofit/lords-prayer.svg": [
+    841.8897637795277,
+    341.1748175525016
+  ],
+  "../docs/교중미사악보/reengraved/autofit/memorial-easter.svg": [
+    841.8897637795277,
+    198.53406828225454
+  ],
+  "../docs/교중미사악보/reengraved/autofit/memorial-lent.svg": [
+    841.8897637795277,
+    196.7411792667639
+  ],
+  "../docs/교중미사악보/reengraved/autofit/memorial-ordinary.svg": [
+    841.8897637795277,
+    198.53607536021815
+  ],
+  "../docs/교중미사악보/reengraved/autofit/sanctus.svg": [
+    841.8897637795277,
+    199.49258489167863
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/agnus.svg": [
+    841.8897637795277,
+    232.81269176685225
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/alleluia-365.svg": [
+    841.8897637795277,
+    92.75325252393245
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/amen.svg": [
+    841.8897637795277,
+    93.77689101670889
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/doxology.svg": [
+    841.8897637795277,
+    82.75610480435518
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/gloria.svg": [
+    841.8897637795277,
+    1159.5999087931823
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/kyrie.svg": [
+    841.8897637795277,
+    491.1510680531704
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/lords-prayer.svg": [
+    841.8897637795277,
+    405.85686650988924
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/memorial-easter.svg": [
+    841.8897637795277,
+    235.1382018518344
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/memorial-lent.svg": [
+    841.8897637795277,
+    232.96078697685832
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/memorial-ordinary.svg": [
+    841.8897637795277,
+    235.14412555661949
+  ],
+  "../docs/교중미사악보/reengraved/autofit-large/sanctus.svg": [
+    841.8897637795277,
+    238.75787518831112
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/agnus.svg": [
+    841.8897637795277,
+    440.1878330753314
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/alleluia-365.svg": [
+    841.8897637795277,
+    150.68393916513864
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/amen.svg": [
+    841.8897637795277,
+    161.352318118649
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/doxology.svg": [
+    841.8897637795277,
+    150.67478389733853
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/gloria.svg": [
+    841.8897637795277,
+    2194.7242918904494
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/kyrie.svg": [
+    841.8897637795277,
+    887.8044705522801
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/lords-prayer.svg": [
+    841.8897637795277,
+    756.9282249660022
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/memorial-easter.svg": [
+    841.8897637795277,
+    444.8824684116559
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/memorial-lent.svg": [
+    841.8897637795277,
+    440.73353912804663
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/memorial-ordinary.svg": [
+    841.8897637795277,
+    444.8922056831918
+  ],
+  "../docs/교중미사악보/reengraved/autofit-readable/sanctus.svg": [
+    841.8897637795277,
+    446.6986466355252
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/agnus.svg": [
+    595.2755905511812,
+    343.5277922498015
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/alleluia-365.svg": [
+    595.2755905511812,
+    119.57474921799133
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/amen.svg": [
+    595.2755905511812,
+    126.90718384621506
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/doxology.svg": [
+    595.2755905511812,
+    119.5686723539057
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/gloria.svg": [
+    595.2755905511812,
+    2481.6653604219214
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/kyrie.svg": [
+    595.2755905511812,
+    688.7104692580812
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/lords-prayer.svg": [
+    595.2755905511812,
+    586.2491356154356
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/memorial-easter.svg": [
+    595.2755905511812,
+    346.7534906755803
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/memorial-lent.svg": [
+    595.2755905511812,
+    343.90199288615776
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/memorial-ordinary.svg": [
+    595.2755905511812,
+    346.7599707960308
+  ],
+  "../docs/교중미사악보/reengraved/measured-a4/sanctus.svg": [
+    595.2755905511812,
+    348.04270340275326
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/agnus.svg": [
+    841.8897637795277,
+    440.1878330753314
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/alleluia-365.svg": [
+    841.8897637795277,
+    150.68393916513864
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/amen.svg": [
+    841.8897637795277,
+    161.352318118649
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/doxology.svg": [
+    841.8897637795277,
+    150.67478389733853
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/gloria.svg": [
+    841.8897637795277,
+    3187.9976095340453
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/kyrie.svg": [
+    841.8897637795277,
+    887.8044705522801
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/lords-prayer.svg": [
+    841.8897637795277,
+    756.9282249660022
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/memorial-easter.svg": [
+    841.8897637795277,
+    444.8824684116559
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/memorial-lent.svg": [
+    841.8897637795277,
+    440.73353912804663
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/memorial-ordinary.svg": [
+    841.8897637795277,
+    444.8922056831918
+  ],
+  "../docs/교중미사악보/reengraved/measured-source/sanctus.svg": [
+    841.8897637795277,
+    446.6986466355252
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/agnus.svg": [
+    595.2755905511812,
+    343.5277922498015
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/alleluia-365.svg": [
+    595.2755905511812,
+    119.57474921799133
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/amen.svg": [
+    595.2755905511812,
+    126.90718384621506
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/doxology.svg": [
+    595.2755905511812,
+    119.5686723539057
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/gloria.svg": [
+    595.2755905511812,
+    2370.365906193328
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/kyrie.svg": [
+    595.2755905511812,
+    688.7104692580812
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/lords-prayer.svg": [
+    595.2755905511812,
+    586.2491356154356
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/memorial-easter.svg": [
+    595.2755905511812,
+    346.7534906755803
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/memorial-lent.svg": [
+    595.2755905511812,
+    343.90199288615776
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/memorial-ordinary.svg": [
+    595.2755905511812,
+    346.7599707960308
+  ],
+  "../docs/교중미사악보/reengraved/phrased-a4/sanctus.svg": [
+    595.2755905511812,
+    348.04270340275326
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/agnus.svg": [
+    841.8897637795277,
+    440.1878330753314
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/alleluia-365.svg": [
+    841.8897637795277,
+    150.68393916513864
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/amen.svg": [
+    841.8897637795277,
+    161.352318118649
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/doxology.svg": [
+    841.8897637795277,
+    150.67478389733853
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/gloria.svg": [
+    841.8897637795277,
+    3044.264038074125
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/kyrie.svg": [
+    841.8897637795277,
+    887.8044705522801
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/lords-prayer.svg": [
+    841.8897637795277,
+    756.9282249660022
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/memorial-easter.svg": [
+    841.8897637795277,
+    444.8824684116559
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/memorial-lent.svg": [
+    841.8897637795277,
+    440.73353912804663
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/memorial-ordinary.svg": [
+    841.8897637795277,
+    444.8922056831918
+  ],
+  "../docs/교중미사악보/reengraved/phrased-source/sanctus.svg": [
+    841.8897637795277,
+    446.6986466355252
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/agnus.svg": [
+    595.2755905511812,
+    343.5277922498015
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/alleluia-365.svg": [
+    595.2755905511812,
+    119.57474921799133
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/amen.svg": [
+    595.2755905511812,
+    126.90718384621506
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/doxology.svg": [
+    595.2755905511812,
+    119.5686723539057
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/gloria.svg": [
+    595.2755905511812,
+    2370.365906193328
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/kyrie.svg": [
+    595.2755905511812,
+    688.7104692580812
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/lords-prayer.svg": [
+    595.2755905511812,
+    586.2491356154356
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/memorial-easter.svg": [
+    595.2755905511812,
+    349.59888766578456
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/memorial-lent.svg": [
+    595.2755905511812,
+    346.747389876362
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/memorial-ordinary.svg": [
+    595.2755905511812,
+    238.89606724862946
+  ],
+  "../docs/교중미사악보/reengraved/semantic-a4/sanctus.svg": [
+    595.2755905511812,
+    691.657824739555
+  ],
+  "../docs/교중미사악보/reengraved/semantic-memorial/memorial-easter.svg": [
+    841.8897637795277,
+    432.0143335861
+  ],
+  "../docs/교중미사악보/reengraved/semantic-memorial/memorial-lent.svg": [
+    841.8897637795277,
+    427.8654043024906
+  ],
+  "../docs/교중미사악보/reengraved/semantic-memorial/memorial-ordinary.svg": [
+    841.8897637795277,
+    289.1149996662771
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/agnus.svg": [
+    841.8897637795277,
+    440.1878330753314
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/alleluia-365.svg": [
+    841.8897637795277,
+    150.68393916513864
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/amen.svg": [
+    841.8897637795277,
+    161.352318118649
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/doxology.svg": [
+    841.8897637795277,
+    150.67478389733853
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/gloria.svg": [
+    841.8897637795277,
+    3044.264038074125
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/kyrie.svg": [
+    841.8897637795277,
+    887.8044705522801
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/lords-prayer.svg": [
+    841.8897637795277,
+    756.9282249660022
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/memorial-easter.svg": [
+    841.8897637795277,
+    432.0143335861
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/memorial-lent.svg": [
+    841.8897637795277,
+    427.8654043024906
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/memorial-ordinary.svg": [
+    841.8897637795277,
+    289.1149996662771
+  ],
+  "../docs/교중미사악보/reengraved/semantic-source/sanctus.svg": [
+    841.8897637795277,
+    875.1216272414553
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/agnus.svg": [
+    595.2755905511812,
+    343.5277922498015
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/alleluia-365.svg": [
+    595.2755905511812,
+    119.57474921799133
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/amen.svg": [
+    595.2755905511812,
+    126.90718384621506
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/doxology.svg": [
+    595.2755905511812,
+    119.5686723539057
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/gloria.svg": [
+    595.2755905511812,
+    1699.720191009207
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/kyrie.svg": [
+    595.2755905511812,
+    688.7104692580812
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/lords-prayer.svg": [
+    595.2755905511812,
+    586.2491356154356
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/memorial-easter.svg": [
+    595.2755905511812,
+    346.7534906755803
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/memorial-lent.svg": [
+    595.2755905511812,
+    343.90199288615776
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/memorial-ordinary.svg": [
+    595.2755905511812,
+    346.7599707960308
+  ],
+  "../docs/교중미사악보/reengraved/uniform-a4/sanctus.svg": [
+    595.2755905511812,
+    348.04270340275326
+  ]
+}

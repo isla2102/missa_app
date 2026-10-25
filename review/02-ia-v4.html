@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MISSA · 2단계 정보 구조 검토 v4</title>
+<style>
+@layer tokens, base, layout, components, responsive, utilities;
+@layer tokens {
+ :root { --draft-toc-target: 1.5rem; --draft-toc-gap: .125rem; --draft-gap: .75rem; --draft-padding: 1rem; --draft-panel: 28rem; --draft-target: 2.75rem; --focus-ring: 3px solid currentColor; }
+}
+@layer base {
+ * { box-sizing: border-box; }
+ body { margin: 0; }
+ button, input, select { font: inherit; min-height: var(--draft-target); max-width: 100%; }
+ button { cursor: pointer; }
+ :focus-visible { outline: var(--focus-ring); outline-offset: 2px; }
+}
+@layer layout {
+ .reader { height: 100dvh; display: grid; grid-template-rows: auto auto minmax(0, 1fr) auto; padding: var(--draft-padding); gap: var(--draft-gap); }
+ .reader__header, .reader__row, .reader__footer { display: flex; align-items: center; flex-wrap: wrap; gap: var(--draft-gap); }
+ .reader__header, .reader__footer { justify-content: space-between; }
+ .reader__title { margin: 0; }
+ .reader__notice { margin: 0; }
+ .reader__body { min-height: 0; display: grid; grid-template-rows: auto minmax(0, 1fr) auto; gap: var(--draft-gap); }
+ .reader__book { min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--draft-gap); }
+ .reader__page { min-height: 0; border: 1px solid; padding: var(--draft-padding); overflow: auto; overflow-wrap: anywhere; }
+ .reader__page-title { margin-block: 0 var(--draft-gap); }
+ .reader__turns { display: flex; justify-content: space-between; gap: var(--draft-gap); }
+ .reader__drawer { margin-inline-start: auto; margin-inline-end: 0; width: min(100%, var(--draft-panel)); max-height: 100%; overflow: auto; padding: var(--draft-padding); }
+ .reader__field { display: grid; gap: var(--draft-gap); margin-block: var(--draft-gap); }
+}
+@layer components {
+ .reader__toc-link { display: inline-block; min-height: var(--draft-toc-target); padding-block: var(--draft-toc-gap); }
+ .reader__toc-link[aria-current="location"] { font-weight: bold; text-decoration-thickness: 2px; }
+}
+</style>
+</head>
+
+<body><main class="reader">
+<header class="reader__header">
+ <div class="reader__row"><h1 class="reader__title">MISSA</h1><span>내 본당</span><button type="button" data-panel="toc">목차</button></div>
+ <div class="reader__row"><label for="date">날짜</label><input id="date" type="date" value="2026-10-18" data-js="date"><label for="slot">회차</label><select id="slot" data-js="slot"><option>새벽미사</option><option>교중미사</option><option>주일 저녁 젊은이 미사</option></select><label for="mode">모드</label><select id="mode" data-js="mode"><option value="beginner">예비신자</option><option value="regular">일반 신자</option></select></div>
+ <nav class="reader__row" aria-label="성가와 기도"><button type="button" data-panel="hymn">성가</button><button type="button" data-panel="prayer">주요 기도문</button></nav>
+</header>
+<p class="reader__notice" data-js="context" role="status"></p>
+<section class="reader__body" aria-labelledby="part-title">
+ <h2 class="reader__title" id="part-title" data-js="part-title">시작 예식</h2>
+ <div class="reader__book" data-js="book"></div>
+ <nav class="reader__turns" aria-label="현재 예식 안에서 페이지 넘기기"><button type="button" data-js="page-prev">← 앞쪽 두 페이지</button><span data-js="page-context"></span><button type="button" data-js="page-next">뒤쪽 두 페이지 →</button></nav>
+</section>
+<footer class="reader__footer">
+ <nav class="reader__row" aria-label="미사 순서 이동"><button type="button" data-js="part-prev"></button><span data-js="part-current" aria-current="step"></span><button type="button" data-js="part-next"></button></nav>
+ <nav class="reader__row" aria-label="리더 도구"><button type="button" data-panel="settings">보기 설정</button><button type="button" data-panel="info">안내</button></nav>
+</footer>
+<dialog class="reader__drawer" data-js="drawer" aria-labelledby="drawer-title"><div class="reader__header"><h2 id="drawer-title" data-js="drawer-title">목차</h2><button type="button" data-js="close">닫기</button></div><div data-js="drawer-body"></div></dialog>
+</main>
+<script>
+'use strict';
+const find = name => document.querySelector(`[data-js="${name}"]`);
+const parts = [
+ {title:'시작 예식', pages:[['입당 · 성호경과 인사','공식 본문을 연결할 첫 번째 쪽입니다.'],['참회 예식 · 자비송 · 대영광송 · 본기도','같은 시작 예식의 이어지는 두 번째 쪽입니다.']]},
+ {title:'말씀 전례', pages:[['독서 · 화답송','말씀 전례의 첫 번째 쪽입니다.'],['복음 환호송 · 복음','말씀 전례의 두 번째 쪽입니다.'],['강론 · 신앙 고백','말씀 전례의 세 번째 쪽입니다.'],['보편 지향 기도','말씀 전례의 네 번째 쪽입니다.']]},
+ {title:'성찬 전례', pages:[['예물 준비 · 예물 기도','성찬 전례의 첫 번째 쪽입니다.'],['감사 기도','성찬 전례의 두 번째 쪽입니다.'],['주님의 기도 · 평화 예식','성찬 전례의 세 번째 쪽입니다.'],['영성체 · 영성체 후 기도','성찬 전례의 네 번째 쪽입니다.']]},
+ {title:'마침 예식', pages:[['공지 · 강복','마침 예식의 첫 번째 쪽입니다.'],['파견 · 파견 성가','마침 예식의 이어지는 두 번째 쪽입니다.']]}
+];
+
+const contents = [
+ [['입당 성가',0],['성호경',0],['인사',0],['참회 예식',1],['자비송',1],['대영광송',1],['본기도',1]],
+ [['제1독서',0],['화답송',0],['제2독서',0],['복음 환호송',1],['복음',1],['강론',2],['신앙 고백',2],['보편 지향 기도',3]],
+ [['예물 준비 · 봉헌 성가',0],['예물 기도',0],['감사 기도',1],['주님의 기도',2],['평화 예식',2],['영성체 예식 · 영성체 성가',3],['영성체 후 기도',3]],
+ [['공지 사항',0],['강복',0],['파견',1],['파견 성가',1]]
+].map((items, partIndex) => items.map(([title, page], index) => ({id:`part-${partIndex}-item-${index}`, title, page})));
+let selectedItem = null;
+function jumpToItem(partIndex, item) {
+ part = partIndex; spread = Math.floor(item.page / 2); selectedItem = item.id;
+ render(); find('drawer').close();
+}
+
+let part = 0, spread = 0, opener = null;
+const position = parts.map(() => 0);
+const titles = {toc:'미사 목차',hymn:'회차별 성가',prayer:'주요 기도문',settings:'보기 설정',info:'안내 · 검토 v4'};
+function context() { find('context').textContent = `${find('slot').value} · 공통 주일 문서 · 공식 본문 미연동 · 정보 구조 검토 v4`; }
+function render() {
+ if (!contents[part].some(item => item.id === selectedItem && Math.floor(item.page / 2) === spread)) {
+  selectedItem = contents[part].find(item => item.page === spread * 2)?.id ?? null;
+ }
+ const current = parts[part]; find('part-title').textContent = current.title;
+ find('book').replaceChildren();
+ current.pages.slice(spread * 2, spread * 2 + 2).forEach(([title, description], i) => {
+  const page = document.createElement('article'); page.className = 'reader__page';
+  page.setAttribute('aria-label', `${current.title} ${spread * 2 + i + 1}쪽`);
+  const h = document.createElement('h3'); h.className = 'reader__page-title'; h.textContent = title;
+  const list = document.createElement('ul');
+  contents[part].filter(item => item.page === spread * 2 + i).forEach(item => {
+   const li = document.createElement('li'); li.id = item.id; li.tabIndex = -1;
+   li.textContent = item.title;
+   if (item.id === selectedItem) { li.setAttribute('aria-current','location'); li.textContent += ' ← 선택 위치'; }
+   list.append(li);
+  });
+  const p = document.createElement('p'); p.textContent = description;
+  const note = document.createElement('p'); note.textContent = '조판 위치를 설명하는 자리표시자입니다. 공식 전례문이 아닙니다.';
+  page.append(h,list,p,note);
+  if (find('mode').value === 'beginner') { const hint = document.createElement('p'); hint.textContent = '예비신자 안내도 현재 예식의 본문 흐름 안에 포함됩니다.'; page.append(hint); }
+  find('book').append(page);
+ });
+ find('part-current').textContent = `현재: ${current.title}`;
+ find('part-prev').textContent = part ? `← ${parts[part-1].title}` : '미사 시작'; find('part-prev').disabled = part === 0;
+ find('part-next').textContent = part < parts.length-1 ? `${parts[part+1].title} →` : '미사 마침'; find('part-next').disabled = part === parts.length-1;
+ find('page-context').textContent = `${current.title} · ${spread*2+1}–${Math.min(spread*2+2,current.pages.length)}쪽`;
+ find('page-prev').disabled = spread === 0; find('page-next').disabled = (spread+1)*2 >= current.pages.length;
+ position[part] = spread;
+}
+function go(index) { selectedItem = null; part = index; spread = position[part]; render(); }
+function showPanel(which, trigger) {
+ opener = trigger; const body = find('drawer-body'); body.replaceChildren(); find('drawer-title').textContent = titles[which];
+ const text = value => { const p = document.createElement('p'); p.textContent = value; body.append(p); };
+ if (which === 'toc') {
+  text('예식별 세부 순서입니다. 항목을 누르면 해당 순서가 있는 두 페이지로 이동합니다. 적용 여부가 달라지는 항목은 실제 전례 데이터에 따라 조정할 예정입니다.');
+  const nav = document.createElement('nav'); nav.setAttribute('aria-label','미사 전체 세부 목차');
+  parts.forEach((item, partIndex) => {
+   const group = document.createElement('section'); const heading = document.createElement('h3'); heading.textContent = item.title;
+   const list = document.createElement('ol');
+   contents[partIndex].forEach(entry => {
+    const li = document.createElement('li'); const link = document.createElement('a');
+    link.className = 'reader__toc-link'; link.href = `#${entry.id}`; link.textContent = entry.title;
+    if (entry.id === selectedItem) { link.setAttribute('aria-current','location'); link.textContent += ' · 현재 위치'; }
+    link.onclick = event => { event.preventDefault(); jumpToItem(partIndex,entry); }; li.append(link); list.append(li);
+   });
+   group.append(heading,list); nav.append(group);
+  }); body.append(nav);
+ }
+ if (which === 'hymn') { text(`${find('slot').value} · 미등록`); ['입당','봉헌','영성체','파견'].forEach(role => text(`${role} 성가 · 미등록`)); }
+ if (which === 'prayer') text('성호경 · 주님의 기도 · 성모송 · 영광송. 공식 원문은 아직 연결하지 않았습니다.');
+ if (which === 'settings') {
+  text('우측 하단에서 여는 e-book 보기 설정입니다. 이 단계는 항목 위치를 검토하며 실제 글자 크기·테마 적용은 후속 디자인 단계에서 구현합니다.');
+  const size = document.createElement('label'); size.className = 'reader__field'; size.textContent = '글자 크기 (배치 예시)'; const range = document.createElement('input'); range.type = 'range'; range.disabled = true; size.append(range); body.append(size);
+  const theme = document.createElement('label'); theme.className = 'reader__field'; theme.textContent = '배경 테마 (배치 예시)'; const select = document.createElement('select'); select.disabled = true; ['밝게','어둡게','종이'].forEach(name => { const option = document.createElement('option'); option.textContent = name; select.append(option); }); theme.append(select); body.append(theme);
+ }
+ if (which === 'info') {
+  text('현재 예식의 내용이 왼쪽→오른쪽 두 페이지로 이어집니다. 길어지면 같은 예식 안에서 페이지를 넘깁니다. 아래 예식 이름 버튼은 이전·다음 예식으로 이동합니다.');
+  text('날짜·전례력 자동 판별은 미구현입니다. 본문은 조판 위치를 보여주는 개발용 예시입니다. 실제 조판기는 이후 글자·화면 크기에 맞게 페이지를 나누고 문단 식별자로 위치를 복원해야 합니다.');
+  text('목차 제안 A: 우측 Drawer(현재 체험). 대안 B: 목차 상시 고정(본문 가용 폭 감소). 두 페이지 공간을 확보하는 A를 추천합니다.');
+  text('테마와 글자 크기는 이번 정보 구조 단계에서 확정하지 않습니다. 화면 조작은 승인으로 기록되지 않습니다.');
+ }
+ find('drawer').showModal();
+}
+find('part-prev').onclick = () => go(Math.max(0,part-1));
+find('part-next').onclick = () => go(Math.min(parts.length-1,part+1));
+find('page-prev').onclick = () => { selectedItem = null; spread = Math.max(0,spread-1); render(); };
+find('page-next').onclick = () => { selectedItem = null; spread = Math.min(Math.ceil(parts[part].pages.length/2)-1,spread+1); render(); };
+find('mode').onchange = render; find('slot').onchange = context;
+find('date').onchange = () => { context(); find('context').textContent += ' · 선택 날짜의 공식 전례는 미확인'; };
+document.querySelectorAll('[data-panel]').forEach(button => button.onclick = () => showPanel(button.dataset.panel,button));
+find('close').onclick = () => find('drawer').close();
+find('drawer').addEventListener('close', () => { const target = selectedItem && document.getElementById(selectedItem); if (target) target.focus({preventScroll:true}); else opener?.focus(); });
+context(); render();
+</script></body></html>

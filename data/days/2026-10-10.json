@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-10",
+  "date": "2026-10-10",
+  "observance": "연중 제27주간 토요일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261010"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님, 모든 것이 당신의 권능 안에 있어, 당신 뜻을 거스를 자 없나이다.\n당신이 하늘과 땅을 지으시고 하늘 아래 모든 것을 만드셨으니,\n당신은 만물의 주님이시옵니다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 영원하신 하느님,\n저희 공로와 소망보다 더 큰 은혜를 베풀어 주시니\n저희 기도를 들으시어\n양심의 가책을 받은 저희 죄를 용서하시고\n감히 청하지 못하는 은혜도 내려 주소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n주님께서 세우신 이 제사를 받아들이시어\n저희가 정성을 다하여 마땅히 거행하는 이 거룩한 신비로\n저희를 거룩하게 하시고 주님의 구원을 이루소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "당신을 바라는 이에게, 당신을 찾는 영혼에게 주님은 좋으신 분.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "전능하신 하느님,\n성체를 받아 모신 저희가 이 성사의 힘으로 자라나\n마침내 그리스도와 하나 되게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<여러분은 모두 믿음으로 하느님의 자녀가 되었습니다.>",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 갈라티아서 말씀입니다.3,22-29",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분, 22 성경은 모든 것을 죄 아래 가두어 놓았습니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "그리하여 예수 그리스도에 대한 믿음을 통하여,",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "믿는 이들이 약속을 받게 되었습니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "23 믿음이 오기 전에는 우리가 율법 아래 갇혀,",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "믿음이 계시될 때까지 율법의 감시를 받아 왔습니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "24 그리하여 율법은 우리가 믿음으로 의롭게 되도록,",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "그리스도께서 오실 때까지 우리의 감시자 노릇을 하였습니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "25 그러나 믿음이 온 뒤로 우리는 더 이상 감시자 아래 있지 않습니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "26 여러분은 모두 그리스도 예수님 안에서",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "믿음으로 하느님의 자녀가 되었습니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "27 그리스도와 하나 되는 세례를 받은 여러분은 다 그리스도를 입었습니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "28 그래서 유다인도 그리스인도 없고,",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "종도 자유인도 없으며, 남자도 여자도 없습니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "여러분은 모두 그리스도 예수님 안에서 하나입니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "29 여러분이 그리스도께 속한다면,",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "여러분이야말로 아브라함의 후손이며 약속에 따른 상속자입니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261010"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 105(104),2-3.4-5.6-7(◎ 8ㄴ 참조)",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님은 당신의 계약 영원히 기억하셨네.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 그분께 노래하여라, 찬미 노래 불러라. 그 모든 기적 이야기하여라. 거룩하신 그 이름 자랑하여라. 주님을 찾는 마음은 기뻐하여라. ◎",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 주님과 그 권능을 구하여라. 언제나 그 얼굴을 찾아라. 그분이 이루신 기적과 이적을, 그분 입으로 내리신 판결을 기억하여라. ◎",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 그분의 종 아브라함의 후손들아, 그분이 뽑으신 야곱의 자손들아! 그분은 주 우리 하느님, 그분의 판결이 온 세상에 미치네. ◎",
+          "sourceRef": "goodnews-20261010"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 11,28 참조",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 하느님 말씀을 듣고 지키는 이들은 행복하여라.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261010"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<선생님을 배었던 모태는 행복합니다. 하느님의 말씀을 듣는 이들이 오히려 행복하다.>",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.11,27-28",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "예수님께서 군중에게 27 말씀을 하고 계실 때에",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "군중 속에서 어떤 여자가 목소리를 높여,",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "“선생님을 배었던 모태와 선생님께 젖을 먹인 가슴은 행복합니다.” 하고",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "예수님께 말하였다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "28 그러자 예수님께서 이르셨다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "“하느님의 말씀을 듣고 지키는 이들이 오히려 행복하다.”",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261010"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261010"
+        }
+      ]
+    }
+  ]
+}

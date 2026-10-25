@@ -1,0 +1,5642 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "label": "2026-11-01 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 schema"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 Word liturgy unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 입당송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 입당송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 본기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 본기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 예물 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 예물 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 영성체송 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 영성체송 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 영성체 후 기도 record hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 영성체 후 기도 HWP source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 본기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 본기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 본기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 예물 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 예물 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 예물 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 영성체 후 기도 body"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 영성체 후 기도 one Amen"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 영성체 후 기도 local source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 Gospel maintained"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 named default Mass"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 named default Mass"
+    },
+    {
+      "pass": true,
+      "label": "Dec24 day prayer not vigil"
+    },
+    {
+      "pass": true,
+      "label": "October18 existing two collects"
+    },
+    {
+      "pass": true,
+      "label": "Christmas date reload"
+    },
+    {
+      "pass": true,
+      "label": "Christmas page reload"
+    }
+  ],
+  "errors": [],
+  "dates": 61
+}

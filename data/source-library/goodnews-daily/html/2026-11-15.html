@@ -1,0 +1,1621 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="Pragma" content="no-cache" />
+
+
+<link rel="stylesheet" href="/hostm/inc/css/Hosting_board.css" />
+<link rel="shortcut icon" href="/include/images/index/gn-icon.jpg">
+<link rel="apple-touch-icon" href="/include/images/index/gn-icon.jpg">
+
+<link href="/common/css/base.css" rel="stylesheet" type="text/css" />
+<link href="/common/css/comm.css" rel="stylesheet" type="text/css" />
+<link href="/common/css/layout.css" rel="stylesheet" type="text/css" />
+<link href="/common/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="/common/css/slick.css" rel="stylesheet" type="text/css" />
+<link href="/common/css/common_data.css" rel="stylesheet" type="text/css" />
+
+
+
+<link href="/common/css/goodnews/goodnews.css" rel="stylesheet" type="text/css" />
+
+
+<script language="javascript" src="/common/js/jquery-1.11.0.min.js"></script>
+<script language="javascript" src="/common/js/common.js"></script>
+<script language="javascript" src="/common/js/slick.js"></script>
+<script language="javascript" src="https://common.catholic.or.kr/include/scripts/include.js"></script>
+<script language="javascript" src="/js/jquery-ui.js"></script> 
+<script language="javascript" src="/js/jquery.cookie.js"></script>
+<script language="javascript" src="/js/jquery.easing.1.3.js"></script>
+<script language="javascript" src="/js/bible.js"></script>
+<script language="javascript" src="/js/common_board_add.js"></script>
+<script language="javascript" src="/js/jquery.form.js"></script> 
+<script language="javascript" src="/js/font.js"></script>
+<script language="javascript" src="/js/font_size_set.js"></script>
+<script language="javascript" src="https://common.catholic.or.kr/include/js/iframe/js/iframeResizer.contentWindow.min.js"></script>
+
+
+<meta property="og:site_name" content="" />
+<meta property="fb:app_id" id="fb_app_id" content="APP_ID" />
+<meta property="og:type" id="og_type" content="website" />
+
+<meta property="og:url" id="og_url" content="http://maria.catholic.or.kr/mi_pr/missa/missa.asp?menu=missa&gomonth=2026-11-15&missatype=DA" />
+<meta property="og:image" id="fb_image" content="http://maria.catholic.or.kr/mi_pr/missa/missa.asp?menu=missa&gomonth=2026-11-15&missatype=DA" />
+<meta property="og:description" content="가톨릭굿뉴스 가톨릭정보 입니다." />
+<link rel="image_src" href="http://maria.catholic.or.kr/mi_pr/missa/missa.asp?menu=missa&gomonth=2026-11-15&missatype=DA" />
+
+<title>GoodNews 가톨릭정보</title>
+<script>
+/*
+function loginGo(){ 	
+	window.location = 'https://www.catholic.or.kr/oauth/login.asp?redirect_url=https://maria.catholic.or.kr%2Fmi%5Fpr%2Fmissa%2Fmissa%2Easp%3Fmenu%3Dmissa%26gomonth%3D2026%2D11%2D15%26missatype%3DDA'; 
+};
+*/
+function loginGo(){ 	
+	window.location = 'https://www.catholic.or.kr/oauth/login.asp?redirect_url=https://maria.catholic.or.kr%2Fmi%5Fpr%2Fmissa%2Fmissa%2Easp%3Fmenu%3Dmissa%26gomonth%3D2026%2D11%2D15%26missatype%3DDA'; 
+};
+
+
+function isMy(cc_id){
+	if ( cc_id == '' && '' != '' ) {
+		return true;
+	} else {
+		return false;
+	}
+}
+var go_URL =   'http://maria.catholic.or.kr/mi_pr/missa/missa.asp?menu=missa&gomonth=2026-11-15&missatype=DA';
+var isLogin = false;
+</script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-52J53FG');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body >
+
+
+<div id="wrapper">
+
+	<!-- header -->
+<script>
+function OpenMenu(n){
+	$("#g_scont").css("display","block");
+	$("div[name=g_smn]").css("display","none");
+	$("#g_smn"+n).css("display" , "block");
+}
+
+function CloseMenu(n) {		
+	$("div[name=g_smn]").css("display","none");
+	if (n != null && n !=''  )	{
+		$("#g_smn"+n).css("display" , "block");
+	}
+}
+
+function pop_message() {		
+	w=open('https://club.catholic.or.kr/community/asp/main/message/rmessage.asp?fwhere=club','message','width=740,height=740,scrollbars=yes'); 
+	w.focus()
+}
+</script>
+	<div id="header" >
+        <div class="header_area">
+            <div class="util_area">
+                <ul class="util">
+                    <li class="last"><a href="http://www.catholic.or.kr" target="">굿뉴스</a></li>
+                    <li><a href="https://aos.catholic.or.kr" target="_blank">서울대교구</a></li>
+                    <li><a href="https://info.catholic.or.kr" target="_self">가톨릭정보</a></li>
+                    <li><a href="https://news.catholic.or.kr" target="_self">뉴스</a></li>
+                    <li><a href="https://photo.catholic.or.kr" target="_self">가톨릭갤러리</a></li>
+                    <li><a href="https://pds.catholic.or.kr/pds/" target="_self">자료실</a></li>
+                    <li><a href="https://bbs.catholic.or.kr/bbs/" target="_self">게시판</a></li>
+                    <li><a href="https://club.catholic.or.kr" target="_self">클럽</a></li>
+                    <li><a href="https://mail.catholic.or.kr/mailGate.ds?act=sso&domain=catholic.or.kr&id=&pw=&language=kr&noPw=1" target="_self">메일</a></li>
+                    
+                </ul>
+                
+				<div class="mber_box">
+                        
+                	
+                        <span class="lg_bf">
+                            <a href="javascript:void(0);" onclick="loginGo();" class="login">로그인</a>
+                        </span>
+                    
+                    
+                    <ul class="mber_mybar">
+                        <li><a href="#none" onclick="View_Cap(''); return false;">미니캡슐</a></li>
+                        <li><a href="/bible/ebible/ebible.asp?mn=2">성경쓰기</a></li>
+                        <li><a href="#none" onclick="pop_message(); return false;">쪽 지</a></li>
+                        <li><a href="http://bbs.catholic.or.kr/bbs/mypage_list.asp">전용게시판</a></li>
+                        <li><a href="http://mail.catholic.or.kr/mailGate.ds?act=sso&domain=catholic.or.kr&id=&pw=&language=kr&noPw=1" target="_self">메 일</a></li>
+                        <li><a href="http://mygoodnews.catholic.or.kr/">MyGoodnews</a></li>
+                        <li><a href="http://club.catholic.or.kr/">클 럽</a></li>
+                    </ul>
+				</div>
+            </div>
+            
+            <script type="text/javascript">
+				$('.mg').click(function(){
+					var mbar = $(this).parent().next();
+					var arw = $(this).find('img').attr('src');
+
+					if (mbar.css('display') == 'none'){
+						$(this).find('img').attr('src',arw.replace("_dw","_up"))
+					}else {
+						$(this).find('img').attr('src',arw.replace("_up","_dw"));
+					}
+
+					mbar.toggle();
+					$(this).toggleClass('active');
+				})
+			</script>
+			
+			
+            
+            <h1 class="logo mt0"><a href="/mi_pr/"><img src="/common/images/comm/logo_07.png" alt="Good News 가톨릭정보" /></a></h1>
+			<ul class="nav">
+                <li>
+                   <a href="/bible" >성경</a>
+                    <!-- 성경 하위메뉴 -->
+                    <div class="nav_area depth1">
+                        <h3 class="nav_tit">BIBLE</h3>
+                        <div class="nav_box">
+                            <ul>
+                                <li><strong class="n_tit"><a href="/bible/read/bible_list.asp?m=1">성경읽기</a></strong></li>
+								<li><a href="/bible/read/bible_list.asp?m=1">구약성경</a></li>
+								<li><a href="/bible/read/bible_list.asp?m=2">신약성경</a></li>
+								<li><a href="/bible/read/bible_list.asp?m=11">NAB</a></li>
+								<li><a href="/bible/read/bible_list.asp?m=3">구약성서</a></li>
+								<li><a href="/bible/read/bible_list.asp?m=4">신약성서</a></li>
+								<li><a href="/bible/read/bible_list.asp?m=5">200주년기념성서</a></li>
+                            </ul>
+
+                            <ul>
+                                <li><strong class="n_tit"><a href="/bible/ebible/ebible.asp?mn=2">성경쓰기</a></strong></li>
+								<li><a href="/bible/ebible/ebible.asp?mn=1">매일성경쓰기</a></li>
+                                <li><a href="/bible/ebible/ebible.asp?mn=2">개인성경쓰기</a></li>
+                                <li><a href="/bible/ebible/ebible.asp?mn=3">NAB쓰기</a></li>
+								<li><a href="/bible/ebible/ebible.asp?mn=4">클럽성경쓰기</a></li>
+                                <li><a href="/bible/ebible/ebible.asp?mn=5">함께성경쓰기</a></li>
+                                <li><a href="/bible/statistics/stati.asp">통계보기</a></li>
+                            </ul>
+
+                            <ul>
+                                <li><strong class="n_tit"><a href="/bible/search/bible_search.asp">성경정보</a></strong></li>
+                                <li><a href="/bible/search/bible_search.asp">성경 검색</a></li>
+								<li><a href="/bible/compare/cmp_list.asp?m=3">성경-성서-NAB 비교</a></li>
+								<li><a href="/bible/compare_four/cmp_list.asp">4대복음서 대조</a></li>
+								<li><a href="/bible/explain/explain_list.asp">성서해설(공동번역)</a></li>
+                            </ul>
+
+                            <ul>
+                                <li><strong class="n_tit"><a href="/bible/share/share_list.asp">커뮤니티</a></strong></li>
+								<li><a href="/bible/share/share_list.asp">말씀나누기</a></li>
+								<li><a href="/bible/bbs/bbs_list.asp?menu=ebible_bbs2">성경쓰기 느낌나누기</a></li>
+								<li><a href="/bible/bbs/bbs_list.asp?menu=4772">성경 묻고답하기</a></li>
+                                <li><a href="/bible/bbs/bbs_list.asp?menu=4797">성경 자료실</a></li>
+                                <li><a href="/bible/bmk/my_bible_bmk.asp">My 성경 책갈피</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 성경 하위메뉴 -->
+                </li>
+                <li>
+                    <a href="/sa_ho/saint.asp" >성인</a>
+                    <!-- 성인 하위메뉴 -->
+                    <div class="nav_area depth2">
+                        <h3 class="nav_tit">SAINT</h3>
+                        <div class="nav_box">
+                            <ul>
+                                <li><strong class="n_tit"><a href="/sa_ho/list/list.asp?menugubun=saint&today=on">성인소개</a></strong></li>
+                                <li><a href="/sa_ho/list/list.asp?menugubun=saint&today=on">오늘의 성인</a></li>
+								<li><a href="/sa_ho/list/list.asp?menugubun=saint&today=to">내일의 성인</a></li>
+								<li><a href="/sa_ho/list/list.asp?menugubun=saint&today=off&today_tmp=&ctxtCommand=&ctxtLogOn=&ctxtSexcode=&ctxtChukday=&ctxtGaladay=20&Orggubun=101&ctxtHigh=&ctxtLow=&ctxtChecked=Checked&oldrow=&curpage=&ctxtOrder=name1%2Cgaladaym%2Cgaladayd&ctxtOrderType=&ctxtSaintId=&ctxtSCode=&ctxtSearchNm=&ctxtChukmm=9&ctxtChukdd=20&ctxtPosition=&ctxtCity=%ED%95%9C%EA%B5%AD%28korea%29">103위 성인</a></li>
+								<li><a href="/sa_ho/list/list.asp?menugubun=saint&today=off&today_tmp=&ctxtCommand=&ctxtLogOn=&ctxtSexcode=&ctxtChukday=&ctxtGaladay=29&Orggubun=101&ctxtHigh=&ctxtLow=&ctxtChecked=Checked&oldrow=&curpage=&ctxtOrder=name1%2Cgaladaym%2Cgaladayd&ctxtOrderType=&ctxtSaintId=&ctxtSCode=&ctxtSearchNm=&ctxtChukmm=5&ctxtChukdd=29&ctxtPosition=&ctxtCity=%ED%95%9C%EA%B5%AD%28korea%29">복자 124위</a></li>
+							</ul>
+							<ul>
+								<li><strong class="n_tit"><a href="/sa_ho/list/list.asp?menugubun=saint">성인정보</a></strong></li>
+                                <li><a href="/sa_ho/list/list.asp?menugubun=saint">성인 목록</a></li>
+                                <li><a href="/sa_ho/album/album_list.asp?menugubun=saint">성인 앨범</a></li>
+                                <li><a href="/sa_ho/board/board_list.asp?menugubun=saint&bbsgubun=pds">성인 자료실</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 성인 하위메뉴 -->
+                </li>
+                <li>
+                    <a href="/sa_ho/holyplace.asp" >성지</a>
+                    <!-- 성지 하위메뉴 -->
+                    <div class="nav_area depth2">
+                        <h3 class="nav_tit">HOLYPLACE</h3>
+                        <div class="nav_box">
+                            <ul>
+                                <li><strong class="n_tit"><a href="/sa_ho/list/list.asp?menugubun=holyplace">성지소개</a></strong></li>
+                                <li><a href="/sa_ho/list/list.asp?menugubun=holyplace">성지/사적지 목록</a></li>
+                                <li><a href="/sa_ho/album/album_list.asp?menugubun=holyplace">성지/사적지 앨범</a></li>
+								<li><a href="/sa_ho/board/board_list.asp?menugubun=holyplace&bbsgubun=pds">성지/사적지 자료실</a></li>
+                                <li><a href="/sa_ho/board/board_list.asp?menugubun=holyplace&bbsgubun=bbs">성지/사적지 게시판</a></li>
+                            </ul>
+							<ul>
+                                <li><strong class="n_tit"><a href="/sa_ho/holyplace.asp">성지순례</a></strong></li>
+                                <li><a href="/sa_ho/holyplace.asp#sunggi_tit" class="holyp">천주교 서울 순례길 안내</a></li>
+                                <li><a href="/sa_ho/holyplace.asp#holyp_prayer" class="holyp_prayer">기도문</a></li>
+								<li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 성지 하위메뉴 -->
+                </li>
+                <li>
+                    <a href="/sungga" >성가</a>
+                    <!-- 성가 하위메뉴 -->
+                    <div class="nav_area depth1">
+                        <h3 class="nav_tit">CHANT</h3>
+                        <div class="nav_box">
+                            
+                            <ul>
+								<li><strong class="n_tit"><a href="/sungga/music/sungga_music.asp" style="min-width: 110px;">가톨릭 성가음악</a></strong></li>
+								<li><a href="/sungga/music/sungga_music.asp?searchField=100&menustepField=&menufineField=">성가 정의</a></li>
+								<li><a href="/sungga/music/sungga_music.asp?searchField=200&menustepField=&menufineField=">교회음악사</a></li>
+								<li><a href="/sungga/music/sungga_music.asp?searchField=300&menustepField=&menufineField=">전례속의 성가</a></li>
+								<li><a href="/sungga/music/sungga_music.asp?searchField=400&menustepField=&menufineField=">반주악기</a></li>
+								<li><a href="/sungga/music/sungga_music.asp?searchField=500&menustepField=&menufineField=">성가대운영</a></li>
+								<li><a href="/sungga/music/sungga_music.asp?searchField=600&menustepField=&menufineField=">성가마당</a></li>
+								<li><a href="/sungga/music/sungga_music.asp?searchField=700&menustepField=&menufineField=">링크사이트</a></li>
+                            </ul>
+
+                            <ul>
+								<li><strong class="n_tit"><a href="/sungga/search/sungga_search.asp" style="min-width: 110px;">성가음원</a></strong></li>
+								<li><a href="/sungga/search/sungga_search.asp">가톨릭 성가 검색</a></li>
+								<li><a href="/sungga/answersong/answersong.asp">시편 성가</a></li>
+                                <li><a href="/sungga/ccm/main.asp">CCM 생활성가</a></strong></li>
+								<li><a href="/sungga/bbs/bbs_list.asp?menu=9754">그레고리안</a></strong></li>
+								<li><a href="/sungga/bbs/bbs_list.asp?menu=9755">기타</a></strong></li>
+                            </ul>
+
+                            <ul>
+								<li><strong class="n_tit"><a href="/sungga/bbs/bbs_list.asp?menu=4827" style="min-width: 110px;">성가자료</a></strong></li>
+								<li><a href="/sungga/bbs/bbs_list.asp?menu=4827">악보</a></li>
+								<li><a href="/sungga/bbs/bbs_list.asp?menu=4807">전례음악</a></li>
+								<li><a href="/sungga/bbs/bbs_list.asp?menu=4828">화답송/복음환호송</a></li>
+								<li><a href="/sungga/bbs/bbs_list.asp?menu=9758">성가대 영상 모음</a></li>
+                            </ul>
+
+						    <ul>
+								<li><strong class="n_tit"><a href="/sungga/search/sungga_search.asp" style="min-width: 110px;">성가게시판</a></strong></li>
+								<li><a href="/sungga/bbs/bbs_list.asp?menu=chant_bbs1">공지사항</a></li>
+								<li><a href="/sungga/bbs/bbs_list.asp?menu=4774">게시판</a></li>
+							</ul>
+                        </div>
+                    </div>
+                    <!--// 성가 하위메뉴 -->
+                </li>
+                <li>
+                    <a href="/dictionary" >가톨릭길라잡이</a>
+                    <!-- 가톨릭길라잡이 하위메뉴 -->
+                    <div class="nav_area depth1">
+                        <h3 class="nav_tit">DICTIONARY</h3>
+                        <div class="nav_box">
+                            <ul>
+                                <li><strong class="n_tit"><a href="/dictionary/term/term_search.asp">사전</a></strong></li>
+								<li><a href="https://encyclopedia.catholic.or.kr" target="_blank">한국가톨릭대사전<img src="../../inc/images/icon-new.gif"></a></li>
+                                <li><a href="/dictionary/term/term_search.asp?group=01">한국가톨릭대사전(OLD)</a></li>
+                                <li><a href="/dictionary/term/term_search.asp?group=02">전례사전</a></li>
+                                <li><a href="/dictionary/term/term_search.asp?group=03">천주교 용어사전</a></li>
+								<li><a href="/dictionary/term/term_search.asp?group=04">천주교 용어자료집</a></li>
+                            </ul>
+                            <ul>
+                                <li><strong class="n_tit"><a href="/dictionary/doctrine/doctrine_list.asp">교리서</a></strong></li>
+                                <li><a href="/dictionary/doctrine/doctrine_list.asp">가톨릭 교리서</a></li>
+                                <li><a href="/dictionary/catechism/catechism_list.asp">가톨릭 교리서 요약본</a></li>
+								<li><a href="/dictionary/bbs/bbs_list.asp?menu=4798">교리자료실</a></li>
+                            </ul>
+                            <ul>
+                                <li><strong class="n_tit"><a href="/dictionary/doctrine/doctrine_list.asp?menu=canon">교회법</a></strong></li>
+                                <li><a href="/dictionary/doctrine/doctrine_list.asp?menu=canon">교회법전</a></li>
+								<li><a href="/dictionary/bbs/bbs_list.asp?menu=4818">교회법자료실</a></li>
+                            </ul>
+                            <ul>
+                                <li><strong class="n_tit"><a href="/dictionary/doctrine/doctrine_list.asp?menu=concil">문헌</a></strong></li>
+                                <li><a href="/dictionary/doctrine/doctrine_list.asp?menu=concil">바티칸 공의회 문헌</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 가톨릭길라잡이 하위메뉴 -->
+                </li>
+                <li>
+                    <a href="/audio" >소리광장</a>
+                    <!-- 소리광장 하위메뉴 -->
+                    <div class="nav_area depth2">
+                        <h3 class="nav_tit">GOODNEWS AUDIO</h3>
+                        <div class="nav_box">
+                            <ul>
+                                <li><strong class="n_tit"><a href="/audio/playlist/playlist.asp?menu=missa" style="min-width: 100px;">플레이리스트</a></strong></li>
+								<li><a href="/audio/playlist/playlist.asp?menu=missa">매일미사</a></li>
+								<li><a href="/audio/playlist/playlist.asp?menu=sungmu">성무일도</a></li>
+								<li><a href="/audio/playlist/playlist.asp?menu=jubo">주보</a></li>
+								<li><a href="/audio/playlist/playlist.asp?menu=bible">성경</a></li>
+								<li><a href="/audio/playlist/playlist.asp?menu=prayer">기도문</a></li>
+								<li><a href="/audio/playlist/playlist.asp?menu=sungga">성가</a></li>
+                                <li><a href="/audio/book/audiobook_list.asp">소리도서</a></li>
+							</ul>
+							<ul>
+								<li><strong class="n_tit"><a href="/audio/pick/my_audio_pick.asp" style="min-width: 100px;">MY</a></strong></li>
+                                <li><a href="/audio/pick/my_audio_pick.asp">담기리스트</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 소리광장 하위메뉴 -->	
+                </li>
+                <li>
+                    <a href="/mi_pr" class='active'>미사/기도서</a>
+                    <!-- 미사/기도서 하위메뉴 -->
+                    <div class="nav_area depth1">
+                        <h3 class="nav_tit">MASS / PRAYER</h3>
+                        <div class="nav_box">
+                            <ul>
+                                <li><strong class="n_tit"><a href="/mi_pr/missa/missa.asp">매일미사</a></strong></li>
+                                <li><a href="/mi_pr/missa/missa.asp">오늘의 미사</a></li>
+								<li><a href="/mi_pr/missa/lecture_list.asp">오늘의 강론</a></li>
+                                <li><a href="/mi_pr/missa/jeon_list.asp">전례력으로 찾기</a></li>
+								<li><a href="/mi_pr/missa/ordinary.asp">미사통상문</a></li>
+								<li><a href="/mi_pr/missa/bbs_list.asp?menu=4770">우리들의 묵상 | 체험</a></li>
+								<li><a href="/mi_pr/missa/bbs_list.asp?menu=4801">전례 | 미사</a></li>
+								<li><a href="/mi_pr/missa/bbs_list.asp?menu=8903&mwtype=S">소리매일미사</a></li>
+                            </ul>
+							<ul>
+                                <li><strong class="n_tit"><a href="/mi_pr/sungmu/sungmu.asp">성무일도</a></strong></li>
+                                <li><a href="/mi_pr/sungmu/sungmu.asp">성무일도</a></li>
+                            </ul>
+                            <ul>
+                                <li><strong class="n_tit"><a href="/mi_pr/prayer/prayer.asp">기도서</a></strong></li>
+								<li><a href="/mi_pr/prayer/prayer.asp?sgubun=w">주요기도</a></li>
+								<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=4&ingId=21">성월기도</a></li>
+								<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=5&ingId=27">호칭기도</a></li>
+								<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=6&ingId=34">여러가지기도</a></li>
+								<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=7&ingId=20">고해성사</a></li>
+								<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=8&ingId=67">묵주기도</a></li>
+								<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=9&ingId=32">십자가의 길</a></li>
+								<!--<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=10&ingId=33">위령기도</a></li>-->
+								<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=10&ingId=33">상장예식(위령)</a></li>
+								<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=11&ingId=68">공소예절</a></li>
+								<!--<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=14&ingId=104">성무예절서</a></li>-->
+								<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=29">VADEMECUM</a></li>
+								<li><a href="/mi_pr/prayer/prayer.asp?menu=prayer&pgubun=19">가정기도 길잡이(new)</a></li>
+							</ul>
+							<ul>
+                                <li><strong class="n_tit"><a href="/mi_pr/sacrament/sacrament.asp">7성사</a></strong></li>
+								<li><a href="/mi_pr/sacrament/sacrament.asp?key=0">성사</a></li>
+								<li><a href="/mi_pr/sacrament/sacrament.asp?key=1">세례성사</a></li>
+								<li><a href="/mi_pr/sacrament/sacrament.asp?key=2">견진성사</a></li>
+								<li><a href="/mi_pr/sacrament/sacrament.asp?key=3">성체성사</a></li>
+								<li><a href="/mi_pr/sacrament/sacrament.asp?key=4">고해성사</a></li>
+								<li><a href="/mi_pr/sacrament/sacrament.asp?key=5">혼인성사</a></li>
+								<li><a href="/mi_pr/sacrament/sacrament.asp?key=6">병자성사</a></li>
+								<li><a href="/mi_pr/sacrament/sacrament.asp?key=7">성품성사</a></li>
+								<li><a href="/mi_pr/sacrament/sacrament.asp?key=8">준성사</a></li>
+								<li><a href="/mi_pr/sacrament/faq.asp?fgubun=0&page=1">FAQ</a></li>
+								<li><a href="/bible/bbs/bbs_list.asp?menu=4772&view=&help=&htype=&submenu=96&searchkey=N&searchtext=">묻고답하기</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 미사/기도서 하위메뉴 -->
+                </li>
+                <li>
+                    <a href="/jubo" >주보</a>
+                    <!-- 주보 하위메뉴 -->
+                    <div class="nav_area depth8">
+                        <h3 class="nav_tit">WEEKLY</h3>
+                        <div class="nav_box">
+                            <ul>
+                                <li><strong class="n_tit"><a href="/jubo/">주보 안내</a></strong></li>
+								<li><a href="/jubo/">전국 주보</a></li>
+                                <li><a href="/jubo/jubo_list.asp">전례 주일별 주보</a></li>
+								<li><a href="/jubo/jubo_list.asp?jgubun=G">교구별 주보</a></li>
+                            </ul>
+							<ul>
+                                <li><strong class="n_tit"><a href="/jubo/jubo_list.asp">주보 검색</a></strong></li>
+                                <li><a href="/jubo/jubo_list.asp?jgubun=S">통합 검색</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 주보 하위메뉴 -->
+                </li>
+				<li>
+					<a href="#" onclick="window.open('/sound/bgsound.asp','배경음악','resizable=no width=700 height=250');return false"><img src="/common/images/comm/ico_lis_sound.png" title="player" alt="player"></a>
+                </li>
+            </ul>
+
+            <a href="#none" class="btn_nav"><img src="/common/images/comm/btn_menu.gif" alt="메뉴" /></a>
+            
+            <div class="tt_nav">
+            	
+					<ul>
+						<li><strong>성경</strong></li>
+						
+						<li><a href="/bible/read/bible_list.asp?m=1">성경읽기</a></li>
+						
+						<li><a href="/bible/search/bible_search.asp">성경검색</a></li>
+						
+						<li><a href="/bible/compare/cmp_list.asp?m=3">성경비교</a></li>
+						
+						<li><a href="/bible/compare_four/cmp_list.asp">4대복음서 대조</a></li>
+						
+						<li><a href="/bible/explain/explain_list.asp">성서해설(공동번역)</a></li>
+						
+						<li><a href="/bible/bbs/bbs_list.asp?menu=4797">성경 자료실</a></li>
+						
+						<li><a href="/bible/bbs/bbs_list.asp?menu=4772">성경 묻고답하기</a></li>
+						
+						<li><a href="/bible/share/share_list.asp">말씀나누기</a></li>
+						
+						<li><a href="/bible/bbs/bbs_list.asp?menu=ebible_bbs2">성경쓰기 느낌나누기</a></li>
+						
+						<li><a href="/bible/bmk/my_bible_bmk.asp">My 성경 책갈피</a></li>
+						
+						<li><a href="/bible/ebible/wr_day.asp">성경쓰기</a></li>
+						
+					</ul>
+				
+					<ul>
+						<li><strong>성인</strong></li>
+						
+						<li><a href="/sa_ho/list/list.asp?menugubun=saint&today=on">오늘의 성인</a></li>
+						
+						<li><a href="/sa_ho/list/list.asp?menugubun=saint">성인 목록</a></li>
+						
+						<li><a href="/sa_ho/album/album_list.asp?menugubun=saint">성인 앨범</a></li>
+						
+						<li><a href="/sa_ho/board/board_list.asp?menugubun=saint&bbsgubun=pds">성인 자료실</a></li>
+						
+					</ul>
+				
+					<ul>
+						<li><strong>성지</strong></li>
+						
+						<li><a href="/sa_ho/list/list.asp?menugubun=holyplace">성지/사적지 목록</a></li>
+						
+						<li><a href="/sa_ho/album/album_list.asp?menugubun=holyplace">성지/사적지 앨범</a></li>
+						
+						<li><a href="/sa_ho/board/board_list.asp?menugubun=holyplace&bbsgubun=pds">성지/사적지 자료실</a></li>
+						
+						<li><a href="/sa_ho/board/board_list.asp?menugubun=holyplace&bbsgubun=bbs">성지/사적지 게시판</a></li>
+						
+					</ul>
+				
+					<ul>
+						<li><strong>성가</strong></li>
+						
+						<li><a href="/sungga/music/sungga_music.asp">가톨릭 성가음악</a></li>
+						
+						<li><a href="/sungga/search/sungga_search.asp">가톨릭 성가 검색</a></li>
+						
+						<li><a href="/sungga/bbs/bbs_list.asp?menu=4827">악보감상실</a></li>
+						
+						<li><a href="/sungga/bbs/bbs_list.asp?menu=4807">전례음악자료실</a></li>
+						
+						<li><a href="/sungga/classify/ccm.asp">CCM 생활성가</a></li>
+						
+						<li><a href="/sungga/bbs/bbs_list.asp?menu=9754">그레고리안 성가</a></li>
+						
+						<li><a href="/sungga/bbs/bbs_list.asp?menu=9755">기타 성가</a></li>
+						
+						<li><a href="/sungga/bbs/bbs_list.asp?menu=chant_bbs1">공지사항</a></li>
+						
+						<li><a href="/sungga/bbs/bbs_list.asp?menu=4828">화답송/복음환호송</a></li>
+						
+						<li><a href="/sungga/bbs/bbs_list.asp?menu=4774">성가 게시판</a></li>
+						
+						<li><a href="/sungga/answersong/answersong.asp">시편 성가</a></li>
+						
+					</ul>
+				
+					<ul>
+						<li><strong>가톨릭길라잡이</strong></li>
+						
+						<li><a href="https://encyclopedia.catholic.or.kr">가톨릭대사전(NEW)</a></li>
+						
+						<li><a href="/dictionary/term/term_search.asp?group=01">가톨릭대사전(OLD)</a></li>
+						
+						<li><a href="/dictionary/term/term_search.asp?group=02">전례사전</a></li>
+						
+						<li><a href="/dictionary/term/term_search.asp?group=03">천주교용어사전</a></li>
+						
+						<li><a href="/dictionary/term/term_search.asp?group=04">천주교 용어자료집</a></li>
+						
+						<li><a href="/dictionary/doctrine/doctrine_list.asp">가톨릭 교리서</a></li>
+						
+						<li><a href="/dictionary/catechism/catechism_list.asp">가톨릭 교리서 요약</a></li>
+						
+						<li><a href="/dictionary/doctrine/doctrine_list.asp?menu=canon">교회법</a></li>
+						
+						<li><a href="/dictionary/doctrine/doctrine_list.asp?menu=concil">바티칸공의회문헌</a></li>
+						
+					</ul>
+				
+					<ul>
+						<li><strong>소리광장</strong></li>
+						
+						<li><a href="/audio/playlist/playlist.asp?menu=missa">플레이리스트</a></li>
+						
+						<li><a href="/audio/book/audiobook_list.asp">소리도서</a></li>
+						
+						<li><a href="/audio/pick/my_audio_pick.asp">담기</a></li>
+						
+					</ul>
+				
+					<ul>
+						<li><strong>미사/기도서</strong></li>
+						
+						<li><a href="/mi_pr/missa/missa.asp">매일미사</a></li>
+						
+						<li><a href="/mi_pr/sungmu/sungmu.asp">성무일도</a></li>
+						
+						<li><a href="/mi_pr/prayer/prayer.asp">가톨릭기도서</a></li>
+						
+						<li><a href="/mi_pr/sacrament/sacrament.asp">7성사</a></li>
+						
+					</ul>
+				
+					<ul>
+						<li><strong>주보</strong></li>
+						
+						<li><a href="/jubo/">전국 주보</a></li>
+						
+						<li><a href="/jubo/jubo_list.asp">전례 주일별 주보</a></li>
+						
+						<li><a href="/jubo/jubo_list.asp?jgubun=G">교구별 주보</a></li>
+						
+						<li><a href="/jubo/jubo_list.asp?jgubun=S">주보 통합검색</a></li>
+						
+					</ul>
+				
+                <div class="tt_foot"><a href="#none"><img src="/common/images/comm/btn_nav_close.gif" alt="닫기" /></a></div>
+			</div>
+		</div>
+    </div>
+	<!-- //header -->
+    
+    <!-- missa_visual -->
+    <div class="read_visual missa_visual type3">
+        <h2>매일미사</h2>
+    </div>
+    <!-- // missa_visual -->
+
+    <!-- container -->
+    <div id="container">
+    
+        <!--div class="menu_ico type1"><a href="#none">전체메뉴</a></div-->
+        <div class="all_menu02 type1">
+<ul class="left_menu">
+    
+    
+		<li><a href="/mi_pr/missa/missa.asp">매일미사</a></li>
+        <li><a href="/mi_pr/sungmu/sungmu.asp">성무일도</a></li>
+        <li><a href="/mi_pr/prayer/prayer.asp">가톨릭기도서</a></li>
+        <li><a href="/mi_pr/sacrament/sacrament.asp">7성사</a></li>
+        
+	
+</ul>
+        </div>
+        
+        <ul class="list_c2 type1">
+<style type="text/css">    
+	.list_c2.type1 > li {width: 170px;}
+	.list_c2.type1 li.bg_pst01 {width: 200px;}
+
+	.best {font-weight:bold;font-size: 12px; color:#fff;line-height: 24px; margin-bottom:12px;/*background: #f26426;8*/ border-radius:2px; text-align:center;
+	padding: 2px 7px;}
+
+
+  
+
+</style>
+
+	<li class="active  p1"><a href="/mi_pr/missa/missa.asp">오늘의 미사</a></li>
+    <li class=" p7"><a href="/mi_pr/missa/lecture_list.asp">오늘의강론 <small class="best">소리</small>&nbsp;<img src="/common/images/comm/ico_lis_sound.png" title="player" alt="player"></a></li>
+    <li class=" p2"><a href="/mi_pr/missa/jeon_list.asp">전례력으로 찾기</a></li>
+    <li class=" p3"><a href="/mi_pr/missa/ordinary.asp">미사통상문</a></li>
+    <li class=" p4"><a href="/mi_pr/missa/bbs_list.asp?menu=4770">우리들의 묵상 | 체험</a></li>
+    <li class=" p5"><a href="/mi_pr/missa/bbs_list.asp?menu=4801">전례 | 미사</a></li>
+    <li class=" p6"><a href="/mi_pr/missa/bbs_list.asp?menu=missa_pds1&mwtype=S">소리매일미사</a></li>
+	
+
+        </ul>
+        
+        <!-- contant -->
+        <div class="contents missa">
+            
+            <!-- every_wrap -->
+            <div class="every_wrap">
+            
+
+<script language="javascript" src="/common/js/jquery-1.11.0.min.js"></script>
+
+<script>
+////////////////////////////////////
+//calendar에서 div창 띄우는 로직
+////////////////////////////////////
+
+function DateSelect(type, nDay, data)	
+{
+	var nYear;
+	var nMonth;
+	if (type=="year") {
+		nYear = data;
+		nMonth = $("select[name=nMonth]").val();
+		console.log($("select[name=nMonth]").val());
+	} else { //month
+		nYear = $("select[name=nYear]").val();
+		nMonth = data;
+		console.log($("select[name=nYear]").val());
+	}
+    //var nYear2 = document.contents.nYear.value;
+    //alert(nYear);
+    //location.replace('?schcode=' + schcode + '&goMonth=' + nYear2 + '-' + nMonth + '-' + nDay);
+    location.replace('?goMonth=' + nYear + '-' + nMonth + '-' + nDay);
+	//location.replace ('?schcode='+schcode+'&goMonth='+nYear+nMonth+nDay);
+}
+
+function YMSelect()	
+{
+    //var nYear2 = document.contents.nYear.value;
+    //alert(nYear);
+    //location.replace('?schcode=' + schcode + '&goMonth=' + nYear2 + '-' + nMonth + '-' + nDay);
+  //  location.replace('?goMonth=' + nYear + '-' + nMonth + '-' + nDay);
+	//location.replace ('?schcode='+schcode+'&goMonth='+nYear+nMonth+nDay);
+}
+
+</script>
+
+
+<div class="left_date">
+    <div class="date_box ac">
+    
+        
+        <select name="nYear" onChange="DateSelect('year', '1', this.value);" class="select_a1 type1 w70" title="년 선택">
+        	
+                <option value="2027"  >2027 </option>
+            
+                <option value="2026"  selected  >2026 </option>
+            
+                <option value="2025"  >2025 </option>
+            
+                <option value="2024"  >2024 </option>
+            
+                <option value="2023"  >2023 </option>
+            
+                <option value="2022"  >2022 </option>
+            
+                <option value="2021"  >2021 </option>
+            
+                <option value="2020"  >2020 </option>
+            
+                <option value="2019"  >2019 </option>
+            
+                <option value="2018"  >2018 </option>
+            
+                <option value="2017"  >2017 </option>
+            
+                <option value="2016"  >2016 </option>
+            
+                <option value="2015"  >2015 </option>
+            
+                <option value="2014"  >2014 </option>
+            
+                <option value="2013"  >2013 </option>
+            
+                <option value="2012"  >2012 </option>
+            
+                <option value="2011"  >2011 </option>
+            
+                <option value="2010"  >2010 </option>
+            
+                <option value="2009"  >2009 </option>
+            
+                <option value="2008"  >2008 </option>
+            
+                <option value="2007"  >2007 </option>
+            
+                <option value="2006"  >2006 </option>
+            
+                <option value="2005"  >2005 </option>
+            
+                <option value="2004"  >2004 </option>
+            
+                <option value="2003"  >2003 </option>
+            
+                <option value="2002"  >2002 </option>
+            
+                <option value="2001"  >2001 </option>
+            
+                <option value="2000"  >2000 </option>
+            
+                <option value="1999"  >1999 </option>
+            
+                <option value="1998"  >1998 </option>
+            
+        </select>
+        년
+
+        <select name="nMonth" onChange="DateSelect('month', '1', this.value);" class="select_a1 type2" title="월 선택">
+        	
+					<option value="1"  >1 </option>
+				
+					<option value="2"  >2 </option>
+				
+					<option value="3"  >3 </option>
+				
+					<option value="4"  >4 </option>
+				
+					<option value="5"  >5 </option>
+				
+					<option value="6"  >6 </option>
+				
+					<option value="7"  >7 </option>
+				
+					<option value="8"  >8 </option>
+				
+					<option value="9"  >9 </option>
+				
+					<option value="10"  >10 </option>
+				
+					<option value="11"  selected  >11 </option>
+				
+					<option value="12"  >12 </option>
+				
+        </select>
+        월
+
+		
+			<a href="?schcode=&mode=month&goMonth=2026-10-01&missatype=DA" class="d_btn btn_l"></a>
+	        <a href="?schcode=&mode=month&goMonth=2026-12-01&missatype=DA" class="d_btn btn_r"></a>
+		
+        
+
+        <p class="date_btn">
+            <a href="?menu=missa&gomonth=2026-11-14&missatype=DA" class="btn_c7">전날</a>
+            <a href="?menu=missa&missatype=DA" class="btn_c8">오늘</a>
+            <a href="?menu=missa&gomonth=2026-11-16&missatype=DA" class="btn_c7">다음날</a>
+        </p>
+    </div>
+
+    <div class="everyday">
+		
+        <ul class="eday ">
+        	
+                        <li class="">
+                            <span class="date">&nbsp;1일(<span class="sun">일</span>)</span>
+                            <a href ="?menu=missa&missaid=16920&gomonth=2026-11-01&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">백</span>)모든 성인 대축일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16950&gomonth=2026-11-01&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Solemnity of All Saints
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">&nbsp;2일(월)</span>
+                            <a href ="?menu=missa&missaid=16921&gomonth=2026-11-02&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">자</span>)죽은 모든 이를 기억하는 위령의 날 - 첫째 미사
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16951&gomonth=2026-11-02&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                The Commemoration of All the Faithful Departed(All Souls)
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">&nbsp;3일(화)</span>
+                            <a href ="?menu=missa&missaid=16922&gomonth=2026-11-03&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제31주간 화요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16952&gomonth=2026-11-03&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Tuesday of the Thirty-first Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">&nbsp;4일(수)</span>
+                            <a href ="?menu=missa&missaid=16923&gomonth=2026-11-04&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">백</span>)성 가롤로 보로메오 주교 기념일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16953&gomonth=2026-11-04&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Memorial of Saint Charles Borromeo, Bishop
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">&nbsp;5일(목)</span>
+                            <a href ="?menu=missa&missaid=16924&gomonth=2026-11-05&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제31주간 목요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16954&gomonth=2026-11-05&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Thursday of the Thirty-first Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">&nbsp;6일(금)</span>
+                            <a href ="?menu=missa&missaid=16925&gomonth=2026-11-06&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제31주간 금요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16955&gomonth=2026-11-06&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Friday of the Thirty-first Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="pb30 bar">
+                            <span class="date">&nbsp;7일(<span class="sat">토</span>)</span>
+                            <a href ="?menu=missa&missaid=16926&gomonth=2026-11-07&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제31주간 토요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16956&gomonth=2026-11-07&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Saturday of the Thirty-first Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">&nbsp;8일(<span class="sun">일</span>)</span>
+                            <a href ="?menu=missa&missaid=16927&gomonth=2026-11-08&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제32주일(평신도 주일)
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16957&gomonth=2026-11-08&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Thirty-second Sunday in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">&nbsp;9일(월)</span>
+                            <a href ="?menu=missa&missaid=16928&gomonth=2026-11-09&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">백</span>)라테라노 대성전 봉헌 축일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16958&gomonth=2026-11-09&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Feast of the Dedication of the Lateran Basilica in Rome
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">10일(화)</span>
+                            <a href ="?menu=missa&missaid=16929&gomonth=2026-11-10&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">백</span>)성 대 레오 교황 학자 기념일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16959&gomonth=2026-11-10&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Memorial of Saint Leo the Great, Pope and Doctor of the Church
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">11일(수)</span>
+                            <a href ="?menu=missa&missaid=16930&gomonth=2026-11-11&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">백</span>)투르의 성 마르티노 주교 기념일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16960&gomonth=2026-11-11&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Memorial of Saint Martin of Tours, Bishop
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">12일(목)</span>
+                            <a href ="?menu=missa&missaid=16931&gomonth=2026-11-12&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">홍</span>)성 요사팟 주교 순교자 기념일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16961&gomonth=2026-11-12&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Memorial of Saint Josaphat, Bishop and Martyr
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">13일(금)</span>
+                            <a href ="?menu=missa&missaid=16932&gomonth=2026-11-13&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제32주간 금요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16962&gomonth=2026-11-13&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Memorial of Saint Frances Xavier Cabrini, Virgin [In the Dioceses of the United States]
+                            </a>
+                    </li>
+                        <li class="pb30 bar">
+                            <span class="date">14일(<span class="sat">토</span>)</span>
+                            <a href ="?menu=missa&missaid=16933&gomonth=2026-11-14&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제32주간 토요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16963&gomonth=2026-11-14&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Saturday of the Thirty-second Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class=" active ">
+                            <span class="date">15일(일)</span>
+                            <a href ="?menu=missa&missaid=16934&gomonth=2026-11-15&missatype=DA"
+                            class="active"
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제33주일(세계 가난한 이의 날)
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16964&gomonth=2026-11-15&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Thirty-third Sunday in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">16일(월)</span>
+                            <a href ="?menu=missa&missaid=16935&gomonth=2026-11-16&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제33주간 월요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16965&gomonth=2026-11-16&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Monday of the Thirty-third Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">17일(화)</span>
+                            <a href ="?menu=missa&missaid=16936&gomonth=2026-11-17&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">백</span>)헝가리의 성녀 엘리사벳 수도자 기념일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16966&gomonth=2026-11-17&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Memorial of Saint Elizabeth of Hungary, Religious
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">18일(수)</span>
+                            <a href ="?menu=missa&missaid=16937&gomonth=2026-11-18&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제33주간 수요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16967&gomonth=2026-11-18&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Wednesday of the Thirty-third Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">19일(목)</span>
+                            <a href ="?menu=missa&missaid=16938&gomonth=2026-11-19&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제33주간 목요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16968&gomonth=2026-11-19&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Thursday of the Thirty-third Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">20일(금)</span>
+                            <a href ="?menu=missa&missaid=16939&gomonth=2026-11-20&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제33주간 금요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16969&gomonth=2026-11-20&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Friday of the Thirty-third Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="pb30 bar">
+                            <span class="date">21일(<span class="sat">토</span>)</span>
+                            <a href ="?menu=missa&missaid=16940&gomonth=2026-11-21&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">백</span>)복되신 동정 마리아의 자헌 기념일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16970&gomonth=2026-11-21&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Memorial of the Presentation of the Blessed Virgin Mary
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">22일(<span class="sun">일</span>)</span>
+                            <a href ="?menu=missa&missaid=16941&gomonth=2026-11-22&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">백</span>)온 누리의 임금이신 우리 주 예수 그리스도 왕 대축일(성서 주간)
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16971&gomonth=2026-11-22&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                The Solemnity of Our Lord Jesus Christ, King of the Universe
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">23일(월)</span>
+                            <a href ="?menu=missa&missaid=16942&gomonth=2026-11-23&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제34주간 월요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16972&gomonth=2026-11-23&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Monday of the Thirty-fourth Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">24일(화)</span>
+                            <a href ="?menu=missa&missaid=16943&gomonth=2026-11-24&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">홍</span>)성 안드레아 둥락 사제와 동료 순교자들 기념일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16973&gomonth=2026-11-24&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Memorial of Saint Andrew Dung-Lac, Priest, and Companions, Martyrs
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">25일(수)</span>
+                            <a href ="?menu=missa&missaid=16944&gomonth=2026-11-25&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제34주간 수요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16974&gomonth=2026-11-25&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Wednesday of the Thirty-fourth Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">26일(목)</span>
+                            <a href ="?menu=missa&missaid=16945&gomonth=2026-11-26&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제34주간 목요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16975&gomonth=2026-11-26&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Thursday of the Thirty-fourth Week in Ordinary Time-Thanksgiving
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">27일(금)</span>
+                            <a href ="?menu=missa&missaid=16946&gomonth=2026-11-27&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제34주간 금요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16976&gomonth=2026-11-27&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Friday of the Thirty-fourth Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="pb30 bar">
+                            <span class="date">28일(<span class="sat">토</span>)</span>
+                            <a href ="?menu=missa&missaid=16947&gomonth=2026-11-28&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">녹</span>)연중 제34주간 토요일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16977&gomonth=2026-11-28&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Saturday of the Thirty-fourth Week in Ordinary Time
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">29일(<span class="sun">일</span>)</span>
+                            <a href ="?menu=missa&missaid=16948&gomonth=2026-11-29&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">자</span>)대림 제1주일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16978&gomonth=2026-11-29&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                First Sunday of Advent
+                            </a>
+                    </li>
+                        <li class="">
+                            <span class="date">30일(월)</span>
+                            <a href ="?menu=missa&missaid=16949&gomonth=2026-11-30&missatype=DA"
+                            class=""
+                            style="width: 200px;">
+                                (<span class="daycolor">홍</span>)성 안드레아 사도 축일
+                            </a>
+                    
+                            <a href ="?menu=missa&missaid=16979&gomonth=2026-11-30&missatype=DA"
+                            class=" en "
+                            style="width: 190px;">
+                                Feast of Saint Andrew, Apostle
+                            </a>
+                    
+         
+        </ul>
+    </div>
+	<img src="/mi_pr/images/cbck_logo.png" alt="cbcklogo" class="cbcklogo">
+</div>
+
+
+            
+                <div class="misa_cont">
+
+<script>
+function openPlist_missa(brType, vDay, vMid, mType) { // ExoBUD™ MP(II) List Popping Up
+		window.open("http://sorimissa.catholic.or.kr/sound/sorimissa_listmp_new.asp?strDay=" + vDay + "&strMid=" + vMid + "&missatype=" + mType, "mplist", "top=125px, left=320px, width=260 , height=250 ,scrollbars=auto , resizable=no , copyhistory=no");
+}
+function openPlist_missa2(brType, vDay, vMid, mType) { // ExoBUD™ MP(II) List Popping Up
+		window.open("http://sorimissa.catholic.or.kr/sound/sorimissa_listmp_new.asp?strDay=" + vDay + "&strMid=" + vMid + "&missatype=" + mType, "mplist", "top=125px, left=320px, width=260 , height=223 ,scrollbars=auto , resizable=no , copyhistory=no");
+}
+function missa_youtube() { // ExoBUD™ MP(II) List Popping Up
+		$("#missa_youtube").css("display","block");
+}
+
+</script>
+
+
+
+<form name="contents" method="POST" ACTION="default.asp" target="_self" style="margin-bottom:80px;">
+    <input  type=hidden name=goMonth value="2026-11-15" >
+    <input  type=hidden name=ctxtCurMid value="" >
+    <input  type=hidden name=ctxtIndex >
+    <input  type=hidden name=missatype value="DA">
+
+
+    
+    <p class="today">
+		2026년 11월 15일 주일
+    </p>
+
+ 
+			<p class="m_t_today01">[(녹) 연중 제33주일(세계 가난한 이의 날)]</p>
+		
+			<!--<ul class="list_c1  list_c4  mt0">-->
+			<ul class="list_c1 list_c5 mt0">
+            	
+					<li class="active"><a href="javascript:openPlist_missa('', '20261115', '', 'DA')" > 영어매일미사</a></li>
+                 
+				<li class=""><a href="javascript:missa_youtube();">TV매일미사</a></li>
+				<li class=""><a href="http://missa.cbck.or.kr/liturgy" target="_blank" >전례력</a></li>
+				<li class=""><a href="/mi_pr/missa/ordinary.asp?day=20261115&missaid=16934" target="_blank">미사통상문</a></li>
+				<li class=""><a href='javascript:print_view();' >인쇄</a></li>
+			    
+			    
+			    
+			    
+			    
+			    <!--span class="fl">
+				<a href="javascript:openPlist_missa('', '20261115', '', 'DA')" class="btn_missa">소리매일미사</a>
+				<a href="http://www.cpbc.co.kr/CMS/tv/program/pro_sub.php?src=%2FCMS%2Ftv%2Fprogram%2Fpreview_list.php%3Fprogram_fid%3D178%26menu_fid%3D4627&program_fid=178&menu_fid=4627&cid=&yyyymm=" target="_blank" class="btn_missa">TV매일미사</a>
+				<a href="http://missa.cbck.or.kr/liturgy" target="_blank" class="btn_missa">전례력</a>
+			    </span>
+			    <span class="fr">
+				<a href="/mi_pr/missa/ordinary.asp?day=20261115&missaid=16934" target="_blank" class="btn_missa">미사통상문</a>
+					<a href='javascript:print_view();' class="btn_missa">출력</a>
+			    </span-->
+			</ul>
+			
+	  	<!-- button -->
+        
+  		<!--  button -->
+
+<!--  오늘미사의 성가 -->
+
+
+		<div style="padding:50px;">
+			<span style="font-size:25px;">TV매일미사 업로드 준비중 입니다.</span>
+		</div>
+
+    
+    <div class="recomd">
+        
+        	<p class="tit">굿뉴스 추천 성가</p>
+        
+        <table class="rcmd">
+            <caption>굿뉴스 추천 성가</caption>
+            <colgroup>
+                <col style="width:16%" />
+                <col style="width:7%" />
+                <col style="width:28%" />
+                <col style="width:16%" />
+                <col style="width:7%" />
+                <col style="width:26%" />
+            </colgroup>
+            <tbody>
+            	
+                	<tr>
+                        <th scope="row">
+							입당 성가
+						</th>
+                        <td>
+							
+	                            <a href="/sungga/search/sungga_view.asp?ctxtIndex=48">48번</a>
+                            
+                        </td>
+                        <td class="tt">
+                        	
+                                <a href="/sungga/search/sungga_view.asp?ctxtIndex=48">주 우리에게 사랑과 자유를</a>
+                                
+						</td>
+
+                        <th scope="row">
+							영성체 성가
+						</th>
+                        <td>
+							
+	                            <a href="/sungga/search/sungga_view.asp?ctxtIndex=46">46번</a>
+                            
+                        </td>
+                        <td class="tt">
+                        	
+                                <a href="/sungga/search/sungga_view.asp?ctxtIndex=46">사랑의 송가</a>
+                                
+						</td>
+                    </tr>
+				
+                	<tr>
+                        <th scope="row">
+							예물준비 성가
+						</th>
+                        <td>
+							
+	                            <a href="/sungga/search/sungga_view.asp?ctxtIndex=41">41번</a>
+                            
+                        </td>
+                        <td class="tt">
+                        	
+                                <a href="/sungga/search/sungga_view.asp?ctxtIndex=41">형제에게 베푼 것</a>
+                                
+						</td>
+
+                        <th scope="row">
+							
+						</th>
+                        <td>
+							
+	                            <a href="/sungga/search/sungga_view.asp?ctxtIndex=31">31번</a>
+                            
+                        </td>
+                        <td class="tt">
+                        	
+                                <a href="/sungga/search/sungga_view.asp?ctxtIndex=31">이 크신 모든 은혜</a>
+                                
+						</td>
+                    </tr>
+				
+                	<tr>
+                        <th scope="row">
+							
+						</th>
+                        <td>
+							
+	                            <a href="/sungga/search/sungga_view.asp?ctxtIndex=446">446번</a>
+                            
+                        </td>
+                        <td class="tt">
+                        	
+                                <a href="/sungga/search/sungga_view.asp?ctxtIndex=446">우리는 주의 사랑을</a>
+                                
+						</td>
+
+                        <th scope="row">
+							
+						</th>
+                        <td>
+							
+	                            <a href="/sungga/search/sungga_view.asp?ctxtIndex=436">436번</a>
+                            
+                        </td>
+                        <td class="tt">
+                        	
+                                <a href="/sungga/search/sungga_view.asp?ctxtIndex=436">주 날개 밑</a>
+                                
+						</td>
+                    </tr>
+				
+                	<tr>
+                        <th scope="row">
+							
+						</th>
+                        <td>
+							
+                        </td>
+                        <td class="tt">
+                        	
+						</td>
+
+                        <th scope="row">
+							파견 성가
+						</th>
+                        <td>
+							
+	                            <a href="/sungga/search/sungga_view.asp?ctxtIndex=65">65번</a>
+                            
+                        </td>
+                        <td class="tt">
+                        	
+                                <a href="/sungga/search/sungga_view.asp?ctxtIndex=65">예루살렘 복되고</a>
+                                
+						</td>
+                    </tr>
+				
+            </tbody>
+        </table>
+    </div>
+
+<!-- 여기까지 -->
+		
+
+							<h3 class="bd_tit mt30 mb10">입당송</h3>
+							<div class="board_layout type6">
+								<span>예레 29,11.12.14 참조<br>주님이 말씀하신다. 나는 재앙이 아니라 평화를 주노라. 나를 부르면 너희 기도를 들어 주고, 사로잡힌 너희를 모든 곳에서 데려오리라.</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">본기도</h3>
+							<div class="board_layout type6">
+								<span>주 하느님,<br>저희를 도와주시어<br>언제나 모든 선의 근원이신 주님을 기쁜 마음으로 섬기며<br>완전하고 영원한 행복을 누리게 하소서.<br>성부와 성령과 함께 천주로서<br>영원히 살아 계시며 다스리시는 성자<br>우리 주 예수 그리스도를 통하여 비나이다.</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">제1독서</h3>
+							<div class="board_layout type6">
+								<span>&lt;훌륭한 아내는 제 손으로 즐거이 일한다.&gt;<br>▥ 잠언의 말씀입니다.31,10-13.19-20.30-31<br>10 훌륭한 아내를 누가 얻으리오? 그 가치는 산호보다 높다.<br>11 남편은 그를 마음으로 신뢰하고 소득이 모자라지 않는다.<br>12 그 아내는 한평생 남편에게 해 끼치는 일 없이 잘해 준다.<br>13 양모와 아마를 구해다가 제 손으로 즐거이 일한다.<br>19 한 손으로는 물레질하고 다른 손으로는 실을 잣는다.<br>20 가난한 이에게 손을 펼치고 불쌍한 이에게 손을 내밀어 도와준다.<br>30 우아함은 거짓이고 아름다움은 헛것이지만 주님을 경외하는 여인은 칭송을 받는다.<br>31 그 손이 거둔 결실을 그에게 돌리고 그가 한 일을 성문에서 칭송하여라.<br>주님의 말씀입니다.<br>◎ 하느님, 감사합니다.</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">화답송</h3>
+							<div class="board_layout type6">
+								<span>시편 128(127),1-2.3.4-5(◎ 1ㄱ 참조)<br>◎ 행복하여라, 주님을 경외하는 모든 사람!<br>○ 행복하여라, 주님을 경외하는 사람, 그분의 길을 걷는 모든 사람! 네 손으로 벌어 네가 먹으리니, 너는 행복하여라, 너는 복을 받으리라. ◎<br>○ 너의 집 안방에 있는 아내는, 풍성한 포도나무 같고, 너의 밥상에 둘러앉은 아들들은  올리브 나무 햇순 같구나. ◎<br>○ 보라, 주님을 경외하는 사람은, 이렇듯 복을 받으리라. 주님은 시온에서 너에게 복을 내리시리라. 너는 한평생 모든 날에, 예루살렘의 번영을 보리라. ◎</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">제2독서</h3>
+							<div class="board_layout type6">
+								<span>&lt;주님의 날이 여러분을 도둑처럼 덮치지는 않을 것입니다.&gt;<br>▥ 사도 바오로의 테살로니카 1서 말씀입니다.5,1-6<br>1 형제 여러분,<br>그 시간과 그 때에 관해서는 여러분에게 더 쓸 필요가 없습니다.<br>2 주님의 날이 마치 밤도둑처럼 온다는 것을 여러분 자신도 잘 알고 있습니다.<br>3 사람들이 “평화롭다, 안전하다.” 할 때, 아기를 밴 여자에게 진통이 오는 것처럼<br>갑자기 그들에게 파멸이 닥치는데, 아무도 그것을 피하지 못할 것입니다.<br>4 그러나 형제 여러분, 여러분은 어둠 속에 있지 않으므로,<br>그날이 여러분을 도둑처럼 덮치지는 않을 것입니다.<br>5 여러분은 모두 빛의 자녀이며 낮의 자녀입니다.<br>우리는 밤이나 어둠에 속한 사람이 아닙니다.<br>6 그러므로 이제 우리는 다른 사람들처럼 잠들지 말고,<br>맑은 정신으로 깨어 있도록 합시다.<br>주님의 말씀입니다.<br>◎ 하느님, 감사합니다.</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">복음 환호송</h3>
+							<div class="board_layout type6">
+								<span>요한 15,4.5 참조<br>◎ 알렐루야.<br>○ 주님이 말씀하신다. 내 안에 머물러라. 내 안에 머무르고 나도 그 안에 머무르는 사람은 많은 열매를 맺으리라.<br>◎ 알렐루야.</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">복음</h3>
+							<div class="board_layout type6">
+								<span>&lt;네가 작은 일에 성실하였으니, 와서 네 주인과 함께 기쁨을 나누어라.&gt;<br>✠ 마태오가 전한 거룩한 복음입니다.25,14-30<br>그때에 예수님께서 제자들에게 이런 비유를 들어 말씀하셨다.<br>14 “하늘 나라는 어떤 사람이 여행을 떠나면서<br>종들을 불러 재산을 맡기는 것과 같다.<br>15 그는 각자의 능력에 따라 한 사람에게는 다섯 탈렌트,<br>다른 사람에게는 두 탈렌트,<br>또 다른 사람에게는 한 탈렌트를 주고 여행을 떠났다.<br>16 다섯 탈렌트를 받은 이는 곧 가서 그 돈을 활용하여 다섯 탈렌트를 더 벌었다.<br>17 두 탈렌트를 받은 이도 그렇게 하여 두 탈렌트를 더 벌었다.<br>18 그러나 한 탈렌트를 받은 이는 물러가서 땅을 파고 주인의 그 돈을 숨겼다.<br>19 오랜 뒤에 종들의 주인이 와서 그들과 셈을 하게 되었다.<br>20 다섯 탈렌트를 받은 이가 나아가서 다섯 탈렌트를 더 바치며,<br>‘주인님, 저에게 다섯 탈렌트를 맡기셨는데,<br>보십시오, 다섯 탈렌트를 더 벌었습니다.’ 하고 말하였다.<br>21 그러자 주인이 그에게 일렀다. ‘잘하였다, 착하고 성실한 종아!<br>네가 작은 일에 성실하였으니 이제 내가 너에게 많은 일을 맡기겠다.<br>와서 네 주인과 함께 기쁨을 나누어라.’<br>22 두 탈렌트를 받은 이도 나아가서, ‘주인님, 저에게 두 탈렌트를 맡기셨는데,<br>보십시오, 두 탈렌트를 더 벌었습니다.’ 하고 말하였다.<br>23 그러자 주인이 그에게 일렀다. ‘잘하였다, 착하고 성실한 종아!<br>네가 작은 일에 성실하였으니 이제 내가 너에게 많은 일을 맡기겠다.<br>와서 네 주인과 함께 기쁨을 나누어라.’<br>24 그런데 한 탈렌트를 받은 이는 나아가서 이렇게 말하였다.<br>‘주인님, 저는 주인님께서 모진 분이시어서, 심지 않은 데에서 거두시고<br>뿌리지 않은 데에서 모으신다는 것을 알고 있었습니다.<br>25 그래서 두려운 나머지 물러가서 주인님의 탈렌트를 땅에 숨겨 두었습니다.<br>보십시오, 주인님의 것을 도로 받으십시오.’<br>26 그러자 주인이 그에게 대답하였다.<br>‘이 악하고 게으른 종아! 내가 심지 않은 데에서 거두고<br>뿌리지 않은 데에서 모으는 줄로 알고 있었다는 말이냐?<br>27 그렇다면 내 돈을 대금업자들에게 맡겼어야지.<br>그리하였으면 내가 돌아왔을 때에 내 돈에 이자를 붙여 돌려받았을 것이다.<br>28 저자에게서 그 한 탈렌트를 빼앗아 열 탈렌트를 가진 이에게 주어라.<br>29 누구든지 가진 자는 더 받아 넉넉해지고,<br>가진 것이 없는 자는 가진 것마저 빼앗길 것이다.<br>30 그리고 저 쓸모없는 종은 바깥 어둠 속으로 내던져 버려라.<br>거기에서 그는 울며 이를 갈 것이다.’”<br>주님의 말씀입니다.<br>◎ 그리스도님, 찬미합니다.<br>&lt;또는&gt;<br>&lt;네가 작은 일에 성실하였으니, 와서 네 주인과 함께 기쁨을 나누어라.&gt;<br>✠ 마태오가 전한 거룩한 복음입니다.<br>25,14-15.19-21<br>그때에 예수님께서 제자들에게 이런 비유를 들어 말씀하셨다.<br>14 “하늘 나라는 어떤 사람이 여행을 떠나면서<br>종들을 불러 재산을 맡기는 것과 같다.<br>15 그는 각자의 능력에 따라 한 사람에게는 다섯 탈렌트,<br>다른 사람에게는 두 탈렌트,<br>또 다른 사람에게는 한 탈렌트를 주고 여행을 떠났다.<br>19 오랜 뒤에 종들의 주인이 와서 그들과 셈을 하게 되었다.<br>20 다섯 탈렌트를 받은 이가 나아가서 다섯 탈렌트를 더 바치며,<br>‘주인님, 저에게 다섯 탈렌트를 맡기셨는데,<br>보십시오, 다섯 탈렌트를 더 벌었습니다.’ 하고 말하였다.<br>21 그러자 주인이 그에게 일렀다. ‘잘하였다, 착하고 성실한 종아!<br>네가 작은 일에 성실하였으니<br>이제 내가 너에게 많은 일을 맡기겠다.<br>와서 네 주인과 함께 기쁨을 나누어라.’”<br>주님의 말씀입니다.<br>◎ 그리스도님, 찬미합니다.</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">보편지향기도</h3>
+							<div class="board_layout type6">
+								<span>&lt;각 공동체 스스로 준비한 기도를 바치는 것이 바람직하다.&gt;<br></span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">예물기도</h3>
+							<div class="board_layout type6">
+								<span>주님,<br>지극히 높으신 주님께 바치는 이 예물을 굽어보시어<br>저희가 오롯이 주님을 사랑하며 살다가 영원한 생명을 얻게 하소서.<br>우리 주 그리스도를 통하여 비나이다.</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">감사송</h3>
+							<div class="board_layout type6">
+								<span>&lt;연중 주일 감사송 3 : 사람이신 그리스도를 통한 인류 구원&gt;<br>거룩하신 아버지, 전능하시고 영원하신 주 하느님,<br>언제나 어디서나 아버지께 감사함이<br>참으로 마땅하고 옳은 일이며 저희 도리요 구원의 길이옵니다.<br>아버지께서는 우리 주 그리스도를 통하여<br>주님의 무한한 영광을 보여 주셨으니<br>그리스도의 천주성으로<br>죽을 운명을 지닌 인간을 도와주시고<br>그 인성으로 저희를 죽음과 멸망에서 구원하셨나이다.<br>그리스도를 통하여<br>주님 앞에서 천사들의 군대가 영원히 기뻐하며<br>주님의 위엄을 흠숭하오니<br>저희도 환호하며 그들과 소리를 모아 주님을 찬미하나이다.</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">영성체송</h3>
+							<div class="board_layout type6">
+								<span>시편 73(72),28<br>저는 하느님 곁에 있어 행복하옵니다. 주 하느님을 피신처로 삼으리이다.<br>&lt;또는&gt;<br>마르 11,23.24 참조<br>주님이 말씀하신다. 내가 진실로 너희에게 말한다. 너희가 기도하며 청하는 것은 무엇이든 이미 받은 줄로 믿어라. 너희에게 그대로 이루어지리라.</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">영성체 후 묵상</h3>
+							<div class="board_layout type6">
+								<span>&lt;그리스도와 일치를 이루는 가운데 잠시 마음속으로 기도합시다.&gt;</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10">영성체 후 기도</h3>
+							<div class="board_layout type6">
+								<span>주님,<br>이 거룩하신 성체를 받아 모시고 간절히 비오니<br>성자께서 당신 자신을 기억하여 거행하라 명하신 이 성사로<br>저희가 언제나 주님의 사랑을 실천하게 하소서.<br>우리 주 그리스도를 통하여 비나이다.</span>
+							</div>
+							
+							<h3 class="bd_tit mt30 mb10 sstop">오늘의 묵상</h3>
+							<div class="board_layout type6">
+								<span class="sstop">
+									※2021년 11월부터 한국천주교주교회의의 요청으로 오늘의 묵상 제공을 중단합니다.
+								</span>
+							</div>		
+							
+</form>
+        
+        
+<iframe name="frmASP" style="DISPLAY:none;"></iframe>
+<SCRIPT Language="javascript">
+function print_view(){				
+	window.open("missa_print.asp?goMonth=2026-11-15&ctxtCurMid=16934&missatype=DA","","width=800,height=800,scrollbars=1,top=0,left=0");
+}
+</SCRIPT>
+
+
+                </div>
+            
+            </div>
+            <!-- //every_wrap 종료 -->
+
+        </div>
+        <!--// contant -->
+    </div>
+    <!--// container -->
+    
+    <!-- Quick -->
+<script>
+function goMyGyoguJubo(user_id, gyoguCode) {
+	if ( user_id=="" ) {
+		window.location = 'https://www.catholic.or.kr/oauth/login.asp?redirect_url=http://maria.catholic.or.kr%2Fmi%5Fpr%2Fmissa%2Fmissa%2Easp%3Fmenu%3Dmissa%26gomonth%3D2026%2D11%2D15%26missatype%3DDA'; 
+		return false;
+	}
+	
+	if ( gyoguCode=="" ) {
+		alert("등록된 교구 정보가 없습니다.\n개인정보수정 페이지에서 교구/본당을 등록해주세요.");
+	} else {
+		location.href="/jubo/my_gyogu_jubo.asp?gyoguCode="+gyoguCode;
+	}
+	
+}
+function biblestart(){		
+	window.open("http://ebible.catholic.or.kr/html/ebible.asp","GoodNewseBible","width=1024,height=768,scrollbars=yes,resizable=yes,top=0,left=0");	
+	return;
+}
+function returnlogin(){
+	location.href="https://www.catholic.or.kr/oauth/login.asp?redirect_url=http://info.catholic.or.kr/bible/taja";
+}
+</script>
+<ul class="quick">
+    <li><img src="/common/images/comm/ico_quick.gif" alt="quick" /></li>
+
+    <li><a href="https://maria.catholic.or.kr/bible/ebible/ebible.asp?mn=2" class="type6">성경쓰기</a></li>
+    <li><a href="http://maria.catholic.or.kr/mi_pr/" target="_self" class="type7">미사/기도서</a></li>
+    <li><a href="http://maria.catholic.or.kr/bible/bbs/bbs_view.asp?num=1&id=1915897&ref=4688&menu=ebible_bbs2" target="_self" class="type5">글자크기</br>조절</a></li>
+    <li><a href="/bible/share/share_list.asp">말씀나누기</a></li>
+    <li><a href="/bible/bmk/my_bible_bmk.asp" class="type2">성경책갈피</a></li>
+    <li><a href="#none" onclick="goMyGyoguJubo('', ''); return false;" class="type3">내 교구<br />주보보기</a></li>
+    
+</ul>
+    <!--// Quick -->
+    
+    <!-- footer -->
+<div id="footer">
+    <div class="inner">
+        <ul class="foot_info">
+            <li><a href="http://rule.catholic.or.kr" target="_blank">이용약관</a></li>
+            <li><a href="http://rule.catholic.or.kr/privacy.asp" target="_blank" style="font-weight:bold;color:#1a5c2e;">개인정보 처리방침</a></li>
+            <li>
+			<!--<a href="http://mail.catholic.or.kr/pageLinker.ds?act=frame&mode=messenger&linkPage=mailWrite&subject=&to=goodnews%40catholic.or.kr">운영자에게 메일보내기
+			</a>-->
+			<a href="javascript:void(0);" >goodnews@catholic.or.kr</a>
+			</li>					
+			<li class="last"><a href="http://aos.catholic.or.kr/">천주교 서울대교구</a></li>
+        </ul>
+        <div class="address">
+            천주교 서울대교구 ⓒ GoodNews
+        </div>
+    </div>
+</div>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52J53FG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9XRQ36L1YE"></script>
+-->
+
+
+<script>
+ // window.dataLayer = window.dataLayer || [];
+ // function gtag(){dataLayer.push(arguments);}
+ // gtag('js', new Date());
+ // gtag('config', 'G-9XRQ36L1YE');
+</script>
+
+
+<!-- Google tag (gtag.js) -->
+
+
+
+    <!-- //footer -->
+
+</div>
+
+	<div id="getsend" style="visibility: hidden;"></div>
+	<iframe src="about:" height="0" width="0" name="filedownsend" style="    border: 0px;    height: 0px;    width: 0px;    display: none;"></iframe>
+    <iframe name="frmASP" style="DISPLAY:none"></iframe>
+</body>
+</html>
+<script>
+$(document).ready(function(e) {
+	var window_title = '11.15_(녹) 연중 제33주일(세계 가난한 이의 날) - ';
+	document.title = window_title + ' 가톨릭정보 - 가톨릭굿뉴스';
+});
+</script>
+
+

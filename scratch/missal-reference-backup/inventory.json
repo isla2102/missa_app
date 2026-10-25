@@ -1,0 +1,3299 @@
+{
+  "createdAt": "2026-10-23",
+  "originalFiles": [
+    {
+      "originalPath": "매일미사고유기도문/매일미사202610_고유기도문.hwp",
+      "libraryPath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "bytes": 184832,
+      "sha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "kind": "monthly-propers",
+      "contentStatus": "user-provided-not-yet-parsed",
+      "signatureHex": "d0cf11e0a1b11ae1",
+      "copyVerified": true
+    },
+    {
+      "originalPath": "매일미사고유기도문/매일미사202611_고유기도문.hwp",
+      "libraryPath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "bytes": 125440,
+      "sha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "kind": "monthly-propers",
+      "contentStatus": "user-provided-not-yet-parsed",
+      "signatureHex": "d0cf11e0a1b11ae1",
+      "copyVerified": true
+    },
+    {
+      "originalPath": "매일미사고유기도문/매일미사202612_고유기도문.hwp",
+      "libraryPath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "bytes": 129024,
+      "sha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "kind": "monthly-propers",
+      "contentStatus": "user-provided-not-yet-parsed",
+      "signatureHex": "d0cf11e0a1b11ae1",
+      "copyVerified": true
+    },
+    {
+      "originalPath": "굿뉴스성가번호표/2026년 10월 성가표(수정보완판).hwp",
+      "libraryPath": "data/source-library/hymn-schedules/originals/2026년 10월 성가표(수정보완판).hwp",
+      "bytes": 80896,
+      "sha256": "fb3cb38fdf46e95e4786981ee0c3a3bbbfb53726b6d885d3ccae011656ffe1de",
+      "kind": "hymn-schedules",
+      "contentStatus": "user-provided-not-yet-parsed",
+      "signatureHex": "d0cf11e0a1b11ae1",
+      "copyVerified": true
+    },
+    {
+      "originalPath": "굿뉴스성가번호표/2026년 11월 성가표(수정보완판).hwp",
+      "libraryPath": "data/source-library/hymn-schedules/originals/2026년 11월 성가표(수정보완판).hwp",
+      "bytes": 82944,
+      "sha256": "66a7217425b0c03336a08228d4d41dd29646d3b12e19f72eae34b3b1474dd032",
+      "kind": "hymn-schedules",
+      "contentStatus": "user-provided-not-yet-parsed",
+      "signatureHex": "d0cf11e0a1b11ae1",
+      "copyVerified": true
+    },
+    {
+      "originalPath": "굿뉴스성가번호표/2026년 11월 성가표.hwp",
+      "libraryPath": "data/source-library/hymn-schedules/originals/2026년 11월 성가표.hwp",
+      "bytes": 82432,
+      "sha256": "452987895fa8e65cb3648f783bd431da71746edf168e6ac4d9250fc37d2e8e73",
+      "kind": "hymn-schedules",
+      "contentStatus": "user-provided-not-yet-parsed",
+      "signatureHex": "d0cf11e0a1b11ae1",
+      "copyVerified": true
+    },
+    {
+      "originalPath": "가톨릭성가/가톨릭성가(ENC).zip",
+      "libraryPath": "data/source-library/catholic-hymns/originals/가톨릭성가(ENC).zip",
+      "bytes": 7618837,
+      "sha256": "9703213a78cc15e1620c9a3899c065e24efa6be5888d67df27466fc23a06edde",
+      "kind": "catholic-hymns",
+      "contentStatus": "user-provided-not-yet-parsed",
+      "signatureHex": "504b030414000000",
+      "copyVerified": true
+    },
+    {
+      "originalPath": "미사통상문_서울대교구.docx",
+      "libraryPath": "data/source-library/ordinary/originals/미사통상문_서울대교구.docx",
+      "bytes": 42937,
+      "sha256": "1f6dc36f292b09def5755ac3e28977d67379e2810caf1a75edcb9c2c75f25efd",
+      "kind": "ordinary",
+      "contentStatus": "user-provided-docx-compared",
+      "copyVerified": true
+    },
+    {
+      "originalPath": "미사통상문_한국천주교주교회.docx",
+      "libraryPath": "data/source-library/ordinary/originals/미사통상문_한국천주교주교회.docx",
+      "bytes": 1635626,
+      "sha256": "56d5cdfa1623af461d4171091772ebf5ad24ab0a3e654c93f31c48d6fcbaaaf7",
+      "kind": "ordinary",
+      "contentStatus": "user-provided-docx-compared",
+      "copyVerified": true
+    }
+  ],
+  "encCount": 525,
+  "encFiles": [
+    {
+      "name": "18 주님을 부르던 날_시편138.enc",
+      "bytes": 18617,
+      "sha256": "a6d6c568a9e455964add1500f6c1a6b6d63f3204f96746080bafe85c60554cd5",
+      "path": "data/source-library/catholic-hymns/enc/18 주님을 부르던 날_시편138.enc"
+    },
+    {
+      "name": "299 한  몸이 되게 축복을.enc",
+      "bytes": 16877,
+      "sha256": "48617082dd28900a68a46259eaec4917fbd1347b389f12bee503b457b8e95d0e",
+      "path": "data/source-library/catholic-hymns/enc/299 한  몸이 되게 축복을.enc"
+    },
+    {
+      "name": "329 미사시작_슈베르트.enc",
+      "bytes": 21407,
+      "sha256": "0b71e544570594351e67c948bc4a03d61b3f5bfb7c1a7a5e6a33f4bbddfe8607",
+      "path": "data/source-library/catholic-hymns/enc/329 미사시작_슈베르트.enc"
+    },
+    {
+      "name": "497 하느님의 어린양.enc",
+      "bytes": 19441,
+      "sha256": "d883b34591ce673b9ec9898b11a9004c6a3d631ed5a0509be26cb18fc0a71960",
+      "path": "data/source-library/catholic-hymns/enc/497 하느님의 어린양.enc",
+      "existingReference": "docs/references/catholic-enc/497 하느님의 어린양.enc"
+    },
+    {
+      "name": "1 나는 믿나이다.enc",
+      "bytes": 20335,
+      "sha256": "e4401b9d86bdb8fe0a6f89f5f6f540914383486505a71afec18fb1f460c32c45",
+      "path": "data/source-library/catholic-hymns/enc/1 나는 믿나이다.enc"
+    },
+    {
+      "name": "2 주 하느님 크시도다.enc",
+      "bytes": 24357,
+      "sha256": "56e1206241fb178ce51acbca3d1586aa22b2cd13193badbf64d0dbee76a02e32",
+      "path": "data/source-library/catholic-hymns/enc/2 주 하느님 크시도다.enc"
+    },
+    {
+      "name": "3 빛의 하느님.enc",
+      "bytes": 21025,
+      "sha256": "8f280f3d58d4169c646b2c0f0922bf62fb28ee7c9c9eb9b5d04da47babe6eee8",
+      "path": "data/source-library/catholic-hymns/enc/3 빛의 하느님.enc"
+    },
+    {
+      "name": "4 찬양하라.enc",
+      "bytes": 18749,
+      "sha256": "9a8f8b008b00c4a7e8d3e01d6e649fbab47f4d23f3d52e7f5cf9bfb34385fb5c",
+      "path": "data/source-library/catholic-hymns/enc/4 찬양하라.enc"
+    },
+    {
+      "name": "5 찬미의 기도.enc",
+      "bytes": 18939,
+      "sha256": "546f7a0e2bc84a5d07990bc7b5bb4db3aafc954221612b2e8e9f3d6e6cdf1619",
+      "path": "data/source-library/catholic-hymns/enc/5 찬미의 기도.enc"
+    },
+    {
+      "name": "6 찬미 노래 부르며.enc",
+      "bytes": 17935,
+      "sha256": "d5156e38e45cac847b32ced0b48fd02a863d362447e758ea4f3bd2ef92491c1f",
+      "path": "data/source-library/catholic-hymns/enc/6 찬미 노래 부르며.enc"
+    },
+    {
+      "name": "7 주님께 새로운 노래를(2009년6월).enc",
+      "bytes": 25596,
+      "sha256": "544ff61cf38e752ed1e361792f1f2d214551681541ad0499ca6007104bd86917",
+      "path": "data/source-library/catholic-hymns/enc/7 주님께 새로운 노래를(2009년6월).enc"
+    },
+    {
+      "name": "8 이른 아침.enc",
+      "bytes": 22527,
+      "sha256": "71d12f39f44ff72910d180740b3d2041f833dac290f1737264ee082f72d19580",
+      "path": "data/source-library/catholic-hymns/enc/8 이른 아침.enc"
+    },
+    {
+      "name": "9 우리 모두 함께 모여.enc",
+      "bytes": 20683,
+      "sha256": "7e6b7687e92658b55f3f043fc7cd90a57b5f2afe7d84f0c84a1bca723130c17b",
+      "path": "data/source-library/catholic-hymns/enc/9 우리 모두 함께 모여.enc"
+    },
+    {
+      "name": "10 주를 찬미해.enc",
+      "bytes": 15713,
+      "sha256": "d891dfb7ba421ffebdc9e523ffa0b555385d475bf21977018beab4eeebe346cd",
+      "path": "data/source-library/catholic-hymns/enc/10 주를 찬미해.enc"
+    },
+    {
+      "name": "11 주 하느님.enc",
+      "bytes": 19379,
+      "sha256": "7a0ccf3a0bb360d898088935cef3f131b98aa42eb9d7f3296ea16127bcb73780",
+      "path": "data/source-library/catholic-hymns/enc/11 주 하느님.enc"
+    },
+    {
+      "name": "12 주님을 기리나이다_시편92.enc",
+      "bytes": 23177,
+      "sha256": "f0900a4e73c6a6870fdc6f2b3fb05eee985c9cdc4ebd9e8e98e3c6514128d595",
+      "path": "data/source-library/catholic-hymns/enc/12 주님을 기리나이다_시편92.enc"
+    },
+    {
+      "name": "13 주님을  그리나이다_시편42.enc",
+      "bytes": 19745,
+      "sha256": "7838e95ecc511cf8dc966cb85b6b495760eb55b2af516d8d7d536dc23a0e7027",
+      "path": "data/source-library/catholic-hymns/enc/13 주님을  그리나이다_시편42.enc"
+    },
+    {
+      "name": "14 주께 찬양드리세.enc",
+      "bytes": 13369,
+      "sha256": "c04256a878dbf2598b2255394fd1b25aabd22377b00476e06e161743b7956bd4",
+      "path": "data/source-library/catholic-hymns/enc/14 주께 찬양드리세.enc"
+    },
+    {
+      "name": "15 주님을 찬미하라.enc",
+      "bytes": 28285,
+      "sha256": "ff3d02e370ddf1e180c6cec96bc12ec3427ab84ab9d14dbfdc8927bafce1eb7a",
+      "path": "data/source-library/catholic-hymns/enc/15 주님을 찬미하라.enc"
+    },
+    {
+      "name": "16 온 세상아 주님을.enc",
+      "bytes": 13683,
+      "sha256": "96248f3a4c7f683f62f3b6340b41329c7e6570adc3a8bc189506bd4a2ab849dc",
+      "path": "data/source-library/catholic-hymns/enc/16 온 세상아 주님을.enc"
+    },
+    {
+      "name": "17 정의의 하느님_시편72.enc",
+      "bytes": 16843,
+      "sha256": "57a1e7aec537102486ee2ab714352f84bd9a83369cd1adb1c7fca6b8d9f66950",
+      "path": "data/source-library/catholic-hymns/enc/17 정의의 하느님_시편72.enc"
+    },
+    {
+      "name": "18 주님을 부르던 날 시편138.enc",
+      "bytes": 18617,
+      "sha256": "a6d6c568a9e455964add1500f6c1a6b6d63f3204f96746080bafe85c60554cd5",
+      "path": "data/source-library/catholic-hymns/enc/18 주님을 부르던 날 시편138.enc"
+    },
+    {
+      "name": "19 주를 따르리.enc",
+      "bytes": 20775,
+      "sha256": "8f363ea75103477b6a1285b97fc44ae0e52ecdf1c397f60d7c4c8dbed6cafe75",
+      "path": "data/source-library/catholic-hymns/enc/19 주를 따르리.enc"
+    },
+    {
+      "name": "20 어두움을 밝히소서.enc",
+      "bytes": 18273,
+      "sha256": "fb4b6b4185e33bb177496b5f6ecb32fbcb16937afdfa63eb338e273395c9f03b",
+      "path": "data/source-library/catholic-hymns/enc/20 어두움을 밝히소서.enc"
+    },
+    {
+      "name": "21 지극히 전능하신 주여.enc",
+      "bytes": 19577,
+      "sha256": "b6d60cc4692e58bde75697f2b9f35e76e17eee36e11d340760716919b171aff1",
+      "path": "data/source-library/catholic-hymns/enc/21 지극히 전능하신 주여.enc"
+    },
+    {
+      "name": "22 천지 생기기 전_요한1-2-12.enc",
+      "bytes": 23629,
+      "sha256": "ee0380cfda546e1be41924930d610ce7113060af44c43b2387abb4329fcbd326",
+      "path": "data/source-library/catholic-hymns/enc/22 천지 생기기 전_요한1-2-12.enc"
+    },
+    {
+      "name": "23 온 세상 다스리심.enc",
+      "bytes": 28651,
+      "sha256": "55b39209995d450223d676f611be0742e86e68765b49ec9aba2496e63354cec1",
+      "path": "data/source-library/catholic-hymns/enc/23 온 세상 다스리심.enc"
+    },
+    {
+      "name": "24 내 맘의 천주여.enc",
+      "bytes": 20425,
+      "sha256": "a07f0276b4728da5bc3e92b057c6b0fe428bf77929fe9d31cf176ca994215f80",
+      "path": "data/source-library/catholic-hymns/enc/24 내 맘의 천주여.enc"
+    },
+    {
+      "name": "25 사랑의 하느님.enc",
+      "bytes": 18047,
+      "sha256": "1d717910ebae53fb722d4cfb016d20593a6c0b0b5ae4f70a35f32c67eddfafef",
+      "path": "data/source-library/catholic-hymns/enc/25 사랑의 하느님.enc"
+    },
+    {
+      "name": "26 이끌어주소서.enc",
+      "bytes": 18601,
+      "sha256": "95540af00a845acacbfd5bb7e290ad317951be89620a1ca6de4432e0eac9c873",
+      "path": "data/source-library/catholic-hymns/enc/26 이끌어주소서.enc"
+    },
+    {
+      "name": "27 이 세상 덧없이.enc",
+      "bytes": 23345,
+      "sha256": "6a1aba0ff75fe31f804020dd68193d6c9399fd04a9744253d79e99110aafacaa",
+      "path": "data/source-library/catholic-hymns/enc/27 이 세상 덧없이.enc"
+    },
+    {
+      "name": "28 불의가 세상을 덮쳐도.enc",
+      "bytes": 20617,
+      "sha256": "e483e19a588a80f08508d53403de662a24f8c68c9d2a8912c593924ecb61656d",
+      "path": "data/source-library/catholic-hymns/enc/28 불의가 세상을 덮쳐도.enc"
+    },
+    {
+      "name": "29 주 예수 따르기로.enc",
+      "bytes": 19161,
+      "sha256": "5deae7d326048a925628585c1c4241057cda044d1caf6a61715f31fc354e9d57",
+      "path": "data/source-library/catholic-hymns/enc/29 주 예수 따르기로.enc"
+    },
+    {
+      "name": "30 승리의 십자가.enc",
+      "bytes": 18281,
+      "sha256": "51e67bf27d3bad75912ec49ac3a56a7892e70a850dd0a4d451ca18362e0908b7",
+      "path": "data/source-library/catholic-hymns/enc/30 승리의 십자가.enc"
+    },
+    {
+      "name": "31 이 크신 모든 은혜.enc",
+      "bytes": 18621,
+      "sha256": "75cef3f97a634be05a879f6b9094db405b33e5efd4b792c708f1113895fa73f0",
+      "path": "data/source-library/catholic-hymns/enc/31 이 크신 모든 은혜.enc"
+    },
+    {
+      "name": "32 언제나 주님과 함께.enc",
+      "bytes": 24013,
+      "sha256": "b399e6232a215af1f041284f876152341288aa8fefe60475d30f8528258a0fff",
+      "path": "data/source-library/catholic-hymns/enc/32 언제나 주님과 함께.enc"
+    },
+    {
+      "name": "33 우리 주 예수 그리스도.enc",
+      "bytes": 13617,
+      "sha256": "550b0a3b4480c73910eedd6eb449d720545ff189441d09d768c3d03dcbbd2f78",
+      "path": "data/source-library/catholic-hymns/enc/33 우리 주 예수 그리스도.enc"
+    },
+    {
+      "name": "34 길이요 진리요 생명이신 주.enc",
+      "bytes": 19441,
+      "sha256": "8df0df79f0207168b88489f49f6cb4d3116f3a06840d6d56c9754dff4cd1be61",
+      "path": "data/source-library/catholic-hymns/enc/34 길이요 진리요 생명이신 주.enc"
+    },
+    {
+      "name": "35 나는 포도나무요_요한15,1-10.enc",
+      "bytes": 20437,
+      "sha256": "003dc592ab3b87ddfd27930503e412fd17a9361fde2f48ec686e744b7fd20dcc",
+      "path": "data/source-library/catholic-hymns/enc/35 나는 포도나무요_요한15,1-10.enc"
+    },
+    {
+      "name": "36 거룩한 예수마음(2009년6월).enc",
+      "bytes": 15518,
+      "sha256": "47c5ff417657b595ea2ec5fcbf7fc09986308e50bcd631cba15cbbea4308c010",
+      "path": "data/source-library/catholic-hymns/enc/36 거룩한 예수마음(2009년6월).enc"
+    },
+    {
+      "name": "37 행복한 사람들_루가6,20-26.enc",
+      "bytes": 27215,
+      "sha256": "cb352e7bee767b59b686a44e2261fc62e2dc1bc9d48e4ceb0b114e21d6cf3a3f",
+      "path": "data/source-library/catholic-hymns/enc/37 행복한 사람들_루가6,20-26.enc"
+    },
+    {
+      "name": "38 행복하여라_마태5,3-10.enc",
+      "bytes": 16345,
+      "sha256": "f83b9b5b58410ef1019ab97a018ceeb74624119cff1de8032c449437b724ca89",
+      "path": "data/source-library/catholic-hymns/enc/38 행복하여라_마태5,3-10.enc"
+    },
+    {
+      "name": "39 하나 되게 하소서_요한17.enc",
+      "bytes": 21869,
+      "sha256": "bca2d273a02492a3be04febfa16bf1fddf463b886911da37eee9972461ffc6b6",
+      "path": "data/source-library/catholic-hymns/enc/39 하나 되게 하소서_요한17.enc"
+    },
+    {
+      "name": "40 구하시오 받으리라_마태7,7-8.enc",
+      "bytes": 17531,
+      "sha256": "7629301ea1dd16506aee215e0d367a3633b038a33377dc12ca13d8c0e6404494",
+      "path": "data/source-library/catholic-hymns/enc/40 구하시오 받으리라_마태7,7-8.enc"
+    },
+    {
+      "name": "41 형제에게 베푼 것.enc",
+      "bytes": 22665,
+      "sha256": "11fe94b36eb4729e9862a09a896ee262b3f93fdc760fd657bab75f7aabb0cfde",
+      "path": "data/source-library/catholic-hymns/enc/41 형제에게 베푼 것.enc"
+    },
+    {
+      "name": "42 가장 미소한 자를 대접하라_마태25,35-40.enc",
+      "bytes": 27633,
+      "sha256": "e6650aeda11963b43de13c3d3dc43ecb2bca538a75bcafcabd023c19e36f56b7",
+      "path": "data/source-library/catholic-hymns/enc/42 가장 미소한 자를 대접하라_마태25,35-40.enc"
+    },
+    {
+      "name": "43 영원한 생명.enc",
+      "bytes": 21087,
+      "sha256": "fdfe2f78b2662a533ccfc54b519aa0e379f3dfbf8c0407d47ae5295a29795897",
+      "path": "data/source-library/catholic-hymns/enc/43 영원한 생명.enc"
+    },
+    {
+      "name": "44 평화를 주옵소서.enc",
+      "bytes": 20169,
+      "sha256": "8af7ecbd368cb37dea8f2e6ab2f663c6fa3e94e27f9fc9cdf0378a3510c61429",
+      "path": "data/source-library/catholic-hymns/enc/44 평화를 주옵소서.enc"
+    },
+    {
+      "name": "45 참 사랑_고린13,1-13.enc",
+      "bytes": 19071,
+      "sha256": "71c13b15b991acf1e67febbfd31921403e0fefded593ad41790df6df0880b07d",
+      "path": "data/source-library/catholic-hymns/enc/45 참 사랑_고린13,1-13.enc"
+    },
+    {
+      "name": "46 사랑의 송가_1고린13.enc",
+      "bytes": 23139,
+      "sha256": "1cb418a8592c960da1de21df8cc531673d035b6ac30f6ca2ad64d6735465d67e",
+      "path": "data/source-library/catholic-hymns/enc/46 사랑의 송가_1고린13.enc"
+    },
+    {
+      "name": "47 형제여 손을 들어.enc",
+      "bytes": 18491,
+      "sha256": "67039b2362d26eca53f9149f8f16ece9af141312a2f572f8abf7abba16b29fb2",
+      "path": "data/source-library/catholic-hymns/enc/47 형제여 손을 들어.enc"
+    },
+    {
+      "name": "48 주 우리에게 사랑과 자유를.enc",
+      "bytes": 18945,
+      "sha256": "f84be2053733d6473238f21264b7af7c49711b47df0cec823b7ae8e01d95054c",
+      "path": "data/source-library/catholic-hymns/enc/48 주 우리에게 사랑과 자유를.enc"
+    },
+    {
+      "name": "49 옹기장이.enc",
+      "bytes": 17115,
+      "sha256": "7edc0f604b323e78cb59cece256d3d85983fa67199613ec1fb3b95b4ec66c569",
+      "path": "data/source-library/catholic-hymns/enc/49 옹기장이.enc"
+    },
+    {
+      "name": "50 주님은 나의 목자_시편23.enc",
+      "bytes": 17681,
+      "sha256": "5a5d849b2c535c3794d2a1ea7e44373777c8f8a9068793ebbd55aa987b32d42d",
+      "path": "data/source-library/catholic-hymns/enc/50 주님은 나의 목자_시편23.enc"
+    },
+    {
+      "name": "51 주 나의 목자 되시니_시23.enc",
+      "bytes": 16769,
+      "sha256": "9892033382a3a035362025e3cdadd87f63ed0191d14816b3e8135c569dba027f",
+      "path": "data/source-library/catholic-hymns/enc/51 주 나의 목자 되시니_시23.enc"
+    },
+    {
+      "name": "52 주님 나의 주님.enc",
+      "bytes": 17603,
+      "sha256": "90cd8963f91b980e2744ffb96e60b1ebb07142f89b3c0866a5d421d3085ea484",
+      "path": "data/source-library/catholic-hymns/enc/52 주님 나의 주님.enc"
+    },
+    {
+      "name": "53 주는 나의 목자시니_시23.enc",
+      "bytes": 18571,
+      "sha256": "f0597366f507cbd1b2b593ec66f59bb66148bf14a30e5a4cce2c41f42dc1b237",
+      "path": "data/source-library/catholic-hymns/enc/53 주는 나의 목자시니_시23.enc"
+    },
+    {
+      "name": "54 주님은 나의 목자-시23.enc",
+      "bytes": 17355,
+      "sha256": "a25eda5829414f1cf03962c392e5cb344f3783611a56a39451fd0e45c81e1abe",
+      "path": "data/source-library/catholic-hymns/enc/54 주님은 나의 목자-시23.enc"
+    },
+    {
+      "name": "55 착하신 목자_요한10,11-15.enc",
+      "bytes": 21745,
+      "sha256": "8f854b36b30b3e11950ec78226cb0f8d18539728dd44fd3f7ba52e731ea946dc",
+      "path": "data/source-library/catholic-hymns/enc/55 착하신 목자_요한10,11-15.enc"
+    },
+    {
+      "name": "56 목자를 따라서.enc",
+      "bytes": 21297,
+      "sha256": "910cd90218dacfdd2f208e73d49053c96282e237224a7712c04d4830a2705493",
+      "path": "data/source-library/catholic-hymns/enc/56 목자를 따라서.enc"
+    },
+    {
+      "name": "57 우리는 목장의 백성이로세_시95.enc",
+      "bytes": 24880,
+      "sha256": "b8d088cb1c1f80d0ea5632f509c56a65110495a226dc13343495b28aa188e3ef",
+      "path": "data/source-library/catholic-hymns/enc/57 우리는 목장의 백성이로세_시95.enc"
+    },
+    {
+      "name": "58 이 몸은 애타게 당신을 찾습니다_시42.enc",
+      "bytes": 26627,
+      "sha256": "1655b5aae2b8b096adae3b36329d6396a44f4d8617c4cf19d67b41507b9b97cb",
+      "path": "data/source-library/catholic-hymns/enc/58 이 몸은 애타게 당신을 찾습니다_시42.enc"
+    },
+    {
+      "name": "59 주께선 나의 피난처.enc",
+      "bytes": 18033,
+      "sha256": "4db5fb7ef96c352ab8f615256e59b62ffb5bfa7b969464a618ab693572cc5005",
+      "path": "data/source-library/catholic-hymns/enc/59 주께선 나의 피난처.enc"
+    },
+    {
+      "name": "60 주의 이름 찬양하라_시 113.enc",
+      "bytes": 21139,
+      "sha256": "a79fc37d96c399cdb4daca7f042bb40f20be2786774ea7ddad55e2fc1e28a831",
+      "path": "data/source-library/catholic-hymns/enc/60 주의 이름 찬양하라_시 113.enc"
+    },
+    {
+      "name": "61 주 예수와 바꿀 수는 없네.enc",
+      "bytes": 23667,
+      "sha256": "a5b7384ce3382d75451e7f5f94bb91538c32bafeba9a81af9789f884773f65bd",
+      "path": "data/source-library/catholic-hymns/enc/61 주 예수와 바꿀 수는 없네.enc"
+    },
+    {
+      "name": "62 주님의 뜻을 이루소서.enc",
+      "bytes": 16013,
+      "sha256": "26e82f3082bff4e43e7f0d0452a28f2168d1e8d0f56e6c78bd2e321dd095aab6",
+      "path": "data/source-library/catholic-hymns/enc/62 주님의 뜻을 이루소서.enc"
+    },
+    {
+      "name": "63 온  세상에 전파하리.enc",
+      "bytes": 24665,
+      "sha256": "19ff10ff22215d0269d8b116c245bc38e8d43cac1726b7338476b2ef1351aa17",
+      "path": "data/source-library/catholic-hymns/enc/63 온  세상에 전파하리.enc"
+    },
+    {
+      "name": "64 이스라엘 들으라.enc",
+      "bytes": 19125,
+      "sha256": "189231490ffb597da61bda43535e7fb73c6f6282d81c44eb3d1a937bb1eb1927",
+      "path": "data/source-library/catholic-hymns/enc/64 이스라엘 들으라.enc"
+    },
+    {
+      "name": "65 예루살렘 복되고.enc",
+      "bytes": 19905,
+      "sha256": "c1c0ef8e7d4e69add6049b683b366b28b1bcb1f74afe9cb41024da4cf45120c8",
+      "path": "data/source-library/catholic-hymns/enc/65 예루살렘 복되고.enc"
+    },
+    {
+      "name": "66 주의 백성 모여오라.enc",
+      "bytes": 17859,
+      "sha256": "8469cf915358c36b8add17f04e16601debe8c3660ac039cf5567345b16d7fe15",
+      "path": "data/source-library/catholic-hymns/enc/66 주의 백성 모여오라.enc"
+    },
+    {
+      "name": "67 성전오른편에서_에제47,1-2.ENC",
+      "bytes": 16527,
+      "sha256": "66d81d1578c42c9aa0413dbc9c5e5e3a90dfcf63309fa29c5206c2f34f713420",
+      "path": "data/source-library/catholic-hymns/enc/67 성전오른편에서_에제47,1-2.ENC"
+    },
+    {
+      "name": "68 기쁨과 평화 넘치는 곳.enc",
+      "bytes": 18519,
+      "sha256": "aab4bcf0d92c67ea0b398f59a2807be434ea7118b8c2318e193873030b8a85b7",
+      "path": "data/source-library/catholic-hymns/enc/68 기쁨과 평화 넘치는 곳.enc"
+    },
+    {
+      "name": "69 지극히 거룩한 성전.enc",
+      "bytes": 18401,
+      "sha256": "b3e016e2941d2b91571ea29eca8da8b7bf39d8414f01db89c1e7d963092492a8",
+      "path": "data/source-library/catholic-hymns/enc/69 지극히 거룩한 성전.enc"
+    },
+    {
+      "name": "70 평화를 구하는 기도.enc",
+      "bytes": 21707,
+      "sha256": "6a6ffa290a82b8a52ffedf0c963ad900dfd4b05e03aa2f0643efb7da34cf84c0",
+      "path": "data/source-library/catholic-hymns/enc/70 평화를 구하는 기도.enc"
+    },
+    {
+      "name": "71 평화의 기도.enc",
+      "bytes": 26517,
+      "sha256": "2529cfef9cd47eeee6a1d30d95d1761c4bbadeb506a893274fa600f65dcfcb2a",
+      "path": "data/source-library/catholic-hymns/enc/71 평화의 기도.enc"
+    },
+    {
+      "name": "72 다볼산의 예수(2009년6월).enc",
+      "bytes": 18844,
+      "sha256": "d6579d71f32681ef198bf82e33f8c140aa48e9fee10e655073479e8a9acfe7c6",
+      "path": "data/source-library/catholic-hymns/enc/72 다볼산의 예수(2009년6월).enc"
+    },
+    {
+      "name": "73 만민의 왕 그리스도.enc",
+      "bytes": 19539,
+      "sha256": "91fb92872a75a65d7833e022415dd04792de7746d3baa4de448eafd1df3eb5bc",
+      "path": "data/source-library/catholic-hymns/enc/73 만민의 왕 그리스도.enc"
+    },
+    {
+      "name": "74 참 왕이신 그리스도(2009년6월).enc",
+      "bytes": 27670,
+      "sha256": "619d0ef573a66798970ab701e27a76f46e9ec049ae40e93d51a9dcf6f10a8eaf",
+      "path": "data/source-library/catholic-hymns/enc/74 참 왕이신 그리스도(2009년6월).enc"
+    },
+    {
+      "name": "75 주 그리스도 우리 왕.enc",
+      "bytes": 20235,
+      "sha256": "8ab930d2f7a9283ba22eea575f0373d5db654a9feee7dcc8432b7dcd989ccd0d",
+      "path": "data/source-library/catholic-hymns/enc/75 주 그리스도 우리 왕.enc"
+    },
+    {
+      "name": "76 그리스도 왕국_마태 13,31-33.enc",
+      "bytes": 21749,
+      "sha256": "929d66ca304d66d72e04ec32770fa566e4e42a02b84a8f2a9c784ac28ed51e34",
+      "path": "data/source-library/catholic-hymns/enc/76 그리스도 왕국_마태 13,31-33.enc"
+    },
+    {
+      "name": "77 주 천주의 권능과.enc",
+      "bytes": 21035,
+      "sha256": "cec843911a124958f8739ecc06d9154d42ddf86e5e8483a53631af7b83cef01a",
+      "path": "data/source-library/catholic-hymns/enc/77 주 천주의 권능과.enc"
+    },
+    {
+      "name": "78 영광의 왕께 찬미를.enc",
+      "bytes": 19849,
+      "sha256": "c1446d402e40dcf528973cbf2fe495b95f59fc7dd4aada037227fb0d7e2bcf1b",
+      "path": "data/source-library/catholic-hymns/enc/78 영광의 왕께 찬미를.enc"
+    },
+    {
+      "name": "79 그리스도 승리(2009년6월).enc",
+      "bytes": 13094,
+      "sha256": "f2069cf90827803610edbb1576780c0bac396742534ced01867ff3ffdd3da59b",
+      "path": "data/source-library/catholic-hymns/enc/79 그리스도 승리(2009년6월).enc"
+    },
+    {
+      "name": "80 거룩하신 성삼이여.enc",
+      "bytes": 16539,
+      "sha256": "07e1657cfec99ee3b1f3ff83464f4db5d476d02575dee55bc1015fffcefb691e",
+      "path": "data/source-library/catholic-hymns/enc/80 거룩하신 성삼이여.enc"
+    },
+    {
+      "name": "81 영광의 주 성삼위.enc",
+      "bytes": 17529,
+      "sha256": "bee5eb3acf4ea4056bdabcae15e1dd2b223f1529b08a7a1811cd402b46929128",
+      "path": "data/source-library/catholic-hymns/enc/81 영광의 주 성삼위.enc"
+    },
+    {
+      "name": "82 주 찬미.enc",
+      "bytes": 26697,
+      "sha256": "fb084ef1d607c68ca2f717b1d2bd3fdcd320ff077d6b4d0162b4d2493349876a",
+      "path": "data/source-library/catholic-hymns/enc/82 주 찬미.enc"
+    },
+    {
+      "name": "83 주 찬미하라(2009-6-22).enc",
+      "bytes": 40972,
+      "sha256": "8bfc8757ff9814710a497318322052de561083dec5298e222e2d8e6d7fbce259",
+      "path": "data/source-library/catholic-hymns/enc/83 주 찬미하라(2009-6-22).enc"
+    },
+    {
+      "name": "84 얼마나 좋은고(2009-6-22).enc",
+      "bytes": 19138,
+      "sha256": "6b40efc445ceb5d71c5c5dd7a29c4db9bcd036d765381d3401d1cdc2c7c7256f",
+      "path": "data/source-library/catholic-hymns/enc/84 얼마나 좋은고(2009-6-22).enc"
+    },
+    {
+      "name": "85 즈가리야의 노래(2009-7-7).enc",
+      "bytes": 12038,
+      "sha256": "85d1fb779a1bca9bcf435fb1f0b19ad5c1c62c172476511335857c614087e494",
+      "path": "data/source-library/catholic-hymns/enc/85 즈가리야의 노래(2009-7-7).enc"
+    },
+    {
+      "name": "86 오늘 밤에(2009-7-7).enc",
+      "bytes": 16582,
+      "sha256": "45dbc34b0c95f3f3a1c9021fabb8dbb50c7e0e0caaf3a66968305c9dec7c0b42",
+      "path": "data/source-library/catholic-hymns/enc/86 오늘 밤에(2009-7-7).enc"
+    },
+    {
+      "name": "87 이 밤을 축복하옵소서(2009-7-7).enc",
+      "bytes": 20488,
+      "sha256": "f505482b492d108cf654834de27b09946b4e6bee0ec66659b81919b15f63da6c",
+      "path": "data/source-library/catholic-hymns/enc/87 이 밤을 축복하옵소서(2009-7-7).enc"
+    },
+    {
+      "name": "88 임하소서 구세주여(2009-7-7).enc",
+      "bytes": 16534,
+      "sha256": "e17e13ff79e51c9852579e0e2f404fa75e34c35b0bf848fb515acf572bee8976",
+      "path": "data/source-library/catholic-hymns/enc/88 임하소서 구세주여(2009-7-7).enc"
+    },
+    {
+      "name": "89 주 하느님 자비로이(2009-7-7).enc",
+      "bytes": 15466,
+      "sha256": "1b3634e98c450103b3f9d43f3b886ca3207db73c907eb093b73b9e5e5339b259",
+      "path": "data/source-library/catholic-hymns/enc/89 주 하느님 자비로이(2009-7-7).enc"
+    },
+    {
+      "name": "90 구세주 보내주소서(2009-7-7).enc",
+      "bytes": 14720,
+      "sha256": "c3acb64493abf576fc6cf2b7542aadc3bb817c8bda364afe2d19e82034f96e2c",
+      "path": "data/source-library/catholic-hymns/enc/90 구세주 보내주소서(2009-7-7).enc"
+    },
+    {
+      "name": "91 구세주 빨리 오사(2009-7-7).enc",
+      "bytes": 25376,
+      "sha256": "b3e52a7147ab438182612e5f750251ec724e05b991ade558fe80db8df5ec4e20",
+      "path": "data/source-library/catholic-hymns/enc/91 구세주 빨리 오사(2009-7-7).enc"
+    },
+    {
+      "name": "92 구세주 내 주 천주여(2009-7-7).enc",
+      "bytes": 15284,
+      "sha256": "ef43252ce3b464bdab187eb9b7eb2103dfb1b8329865f670071f140325850135",
+      "path": "data/source-library/catholic-hymns/enc/92 구세주 내 주 천주여(2009-7-7).enc"
+    },
+    {
+      "name": "93 임하소서 임마누엘(2009-7-9).enc",
+      "bytes": 18596,
+      "sha256": "0a0332b8b51008cf2e60ce0b1f0923b1014a36bf1fbe3bf9b59a22ae95f781b5",
+      "path": "data/source-library/catholic-hymns/enc/93 임하소서 임마누엘(2009-7-9).enc"
+    },
+    {
+      "name": "94 하늘은 이슬비처럼(2009-7-9).enc",
+      "bytes": 23850,
+      "sha256": "09677d155e40a3b350e0aa693290f81ced87769a2f35f248c2cdb0172d475275",
+      "path": "data/source-library/catholic-hymns/enc/94 하늘은 이슬비처럼(2009-7-9).enc"
+    },
+    {
+      "name": "95 별들을 지어내신 주(2009-7-12).enc",
+      "bytes": 20640,
+      "sha256": "4d09397ed0376e0e82865732d79cab89d9c0f8680e1b9e124effb3b792c97653",
+      "path": "data/source-library/catholic-hymns/enc/95 별들을 지어내신 주(2009-7-12).enc"
+    },
+    {
+      "name": "96 하느님 약속하신 분(2009-7-12).enc",
+      "bytes": 15156,
+      "sha256": "916ac9c171bfd7e0da256e866b526f54f0132ba5970bc8e0deffc0c1122c110a",
+      "path": "data/source-library/catholic-hymns/enc/96 하느님 약속하신 분(2009-7-12).enc"
+    },
+    {
+      "name": "97 구원의 메시아(2009-7-12).enc",
+      "bytes": 19450,
+      "sha256": "0fe71190975bad8e9763b4cf87cc0c747e78706ba94678e13cc5da57741628dd",
+      "path": "data/source-library/catholic-hymns/enc/97 구원의 메시아(2009-7-12).enc"
+    },
+    {
+      "name": "98 이사야 말씀하신(2009-7-12).enc",
+      "bytes": 18194,
+      "sha256": "17d56322b49740be1885b60f8f66c9171ead0bfa618bffee0e98be7e1653d819",
+      "path": "data/source-library/catholic-hymns/enc/98 이사야 말씀하신(2009-7-12).enc"
+    },
+    {
+      "name": "99 고요한 밤 거룩한 밤(2009-7-12).enc",
+      "bytes": 18978,
+      "sha256": "b6c881681a6bb1a463361f708e41379464fa0afa71ef30a79cf993e74d0ec4a0",
+      "path": "data/source-library/catholic-hymns/enc/99 고요한 밤 거룩한 밤(2009-7-12).enc"
+    },
+    {
+      "name": "100 동방의 별(2009-7-12).enc",
+      "bytes": 17848,
+      "sha256": "a6c6b9fb577a4ef2f6960c2d1c61ac63f64c8527d50ace732429b1dfc189a59a",
+      "path": "data/source-library/catholic-hymns/enc/100 동방의 별(2009-7-12).enc"
+    },
+    {
+      "name": "101 글로리아 높으신 이의 탄생(2009-7-13).enc",
+      "bytes": 20420,
+      "sha256": "74859192e1e819d217275a5c92cddc948cf9accaeab282638a646ea9109a970e",
+      "path": "data/source-library/catholic-hymns/enc/101 글로리아 높으신 이의 탄생(2009-7-13).enc"
+    },
+    {
+      "name": "102 어서 가 경배하세(2009-7-13).enc",
+      "bytes": 19250,
+      "sha256": "91f33dddfdd3898287af763258cb59288147fbff02a18d7cb18305f489457b1c",
+      "path": "data/source-library/catholic-hymns/enc/102 어서 가 경배하세(2009-7-13).enc"
+    },
+    {
+      "name": "103 오늘 아기 예수(2009-7-13).enc",
+      "bytes": 18072,
+      "sha256": "24ed4c5f71362bb2d6e4b3d4ebf6fb5e077d22780edc30f3507534cd1f0f4488",
+      "path": "data/source-library/catholic-hymns/enc/103 오늘 아기 예수(2009-7-13).enc"
+    },
+    {
+      "name": "104 사랑하올 아기 예수(2009-7-13).enc",
+      "bytes": 14556,
+      "sha256": "bc1c39f000de27a620ce5f7dd5b504b9dc945c391095914b09dae3a14f775d25",
+      "path": "data/source-library/catholic-hymns/enc/104 사랑하올 아기 예수(2009-7-13).enc"
+    },
+    {
+      "name": "105 사랑의 아기 예수(2009-7-13).enc",
+      "bytes": 16230,
+      "sha256": "352ad3ef0037834837822aa14c87d977991292150a05593d2e9db9007f0985fa",
+      "path": "data/source-library/catholic-hymns/enc/105 사랑의 아기 예수(2009-7-13).enc"
+    },
+    {
+      "name": "106 찬바람 스치는 마구간(2009-7-13).enc",
+      "bytes": 17816,
+      "sha256": "6ccc027682956f4e322356d313d1d930cecc48f368f4a85f60dcfe32843c59e3",
+      "path": "data/source-library/catholic-hymns/enc/106 찬바람 스치는 마구간(2009-7-13).enc"
+    },
+    {
+      "name": "107 천사의 찬송(2009-7-13).enc",
+      "bytes": 22648,
+      "sha256": "f2021cdade4a09f7420038ec1e1a1a4a3ec5bc0b458034a3a5e9470cfd949861",
+      "path": "data/source-library/catholic-hymns/enc/107 천사의 찬송(2009-7-13).enc"
+    },
+    {
+      "name": "108 오 작은 고을 베들레헴(2009-7-13).enc",
+      "bytes": 20264,
+      "sha256": "0465866a74438a6c4aeb7d67d79b9188ffb23044d1e3046d14b8cd34befd81e6",
+      "path": "data/source-library/catholic-hymns/enc/108 오 작은 고을 베들레헴(2009-7-13).enc"
+    },
+    {
+      "name": "109 귀여운 아기들(2009-7-13).enc",
+      "bytes": 18012,
+      "sha256": "b4ca732f13b4f26fdbe310a70fda463e32693aa60a11e463eb5ad41926cf8fd6",
+      "path": "data/source-library/catholic-hymns/enc/109 귀여운 아기들(2009-7-13).enc"
+    },
+    {
+      "name": "110 경사롭다(2009-7-13).enc",
+      "bytes": 31110,
+      "sha256": "b42f8f8edef483c5032b926f08c439955678c9b7172e133a2d1305427c95fa2c",
+      "path": "data/source-library/catholic-hymns/enc/110 경사롭다(2009-7-13).enc"
+    },
+    {
+      "name": "111 하늘높은 곳에 영광(2009-7-14).enc",
+      "bytes": 32586,
+      "sha256": "8022a090a889b2f7f6d19732fe02ba25ee8fae0825fc6c4a1b44bf4f41234428",
+      "path": "data/source-library/catholic-hymns/enc/111 하늘높은 곳에 영광(2009-7-14).enc"
+    },
+    {
+      "name": "112 구유에 누워계시니(2009-7-14).enc",
+      "bytes": 26426,
+      "sha256": "8e6b23d826e7033a4126741230edc1525d626b97ad9f3dce00d57c88a9c3d1b8",
+      "path": "data/source-library/catholic-hymns/enc/112 구유에 누워계시니(2009-7-14).enc"
+    },
+    {
+      "name": "113 성 요셉과 성 마리아(2009-7-14).enc",
+      "bytes": 21280,
+      "sha256": "a7fd4d854e254e2e08e767797ca05a1959ed5bc56d6858c2b181b904ca7d6af8",
+      "path": "data/source-library/catholic-hymns/enc/113 성 요셉과 성 마리아(2009-7-14).enc"
+    },
+    {
+      "name": "114 나자렛 성가정(2009-7-14).enc",
+      "bytes": 17686,
+      "sha256": "ed875838a6db0ed8339b2b83c7c02633ebb5d2924798b447fb42451f93bf969c",
+      "path": "data/source-library/catholic-hymns/enc/114 나자렛 성가정(2009-7-14).enc"
+    },
+    {
+      "name": "115 수난 기약 다다르니(2009-7-14).enc",
+      "bytes": 19532,
+      "sha256": "ead485e181d57cb45227c919cbcc855684b60e193632ca2d26c5e8090e1e9a9b",
+      "path": "data/source-library/catholic-hymns/enc/115 수난 기약 다다르니(2009-7-14).enc"
+    },
+    {
+      "name": "116 주 예수 바라보라(2009-7-14).enc",
+      "bytes": 21868,
+      "sha256": "aca664c0e498eabe00addde4b58d771534c5f2ee2ea082645cbfbb6f1f801fd6",
+      "path": "data/source-library/catholic-hymns/enc/116 주 예수 바라보라(2009-7-14).enc"
+    },
+    {
+      "name": "117 지극한 근심에(2009-7-15).enc",
+      "bytes": 19968,
+      "sha256": "a0c5b593a3ba1f69bc29e55eef8693ff12ece2e8bf1f9692197dd1b80375428a",
+      "path": "data/source-library/catholic-hymns/enc/117 지극한 근심에(2009-7-15).enc"
+    },
+    {
+      "name": "118 골고타 언덕(2009-7-15).enc",
+      "bytes": 15728,
+      "sha256": "6dc48648960d81b55179097f32bbfd2981d426de5b11fd41935b75a17979f305",
+      "path": "data/source-library/catholic-hymns/enc/118 골고타 언덕(2009-7-15).enc"
+    },
+    {
+      "name": "119 주님은 우리 위해(2009-7-15).enc",
+      "bytes": 20016,
+      "sha256": "e417cfede61b62690a98569f5d1f1dbaaa54dc7e33bceae12067c90ce8ae6cd1",
+      "path": "data/source-library/catholic-hymns/enc/119 주님은 우리 위해(2009-7-15).enc"
+    },
+    {
+      "name": "120 수난의 예수(2009-7-16).enc",
+      "bytes": 20400,
+      "sha256": "b7e7cb6475859bc0951ac0109248d143fc2473d839f9378eac12951029808d16",
+      "path": "data/source-library/catholic-hymns/enc/120 수난의 예수(2009-7-16).enc"
+    },
+    {
+      "name": "121 한 많은 슬픔에(2009-7-16).enc",
+      "bytes": 20370,
+      "sha256": "c7dc8847db7500ad7bf5b584ca613535d0fe0f27954e5d5a707082df6d36d183",
+      "path": "data/source-library/catholic-hymns/enc/121 한 많은 슬픔에(2009-7-16).enc"
+    },
+    {
+      "name": "122 구원의 십자가(2009-7-16).enc",
+      "bytes": 14608,
+      "sha256": "9af69241c390f3136b89a2c85cf6049bbac62d846c77d5b5591e30bb101d385a",
+      "path": "data/source-library/catholic-hymns/enc/122 구원의 십자가(2009-7-16).enc"
+    },
+    {
+      "name": "123 십자가 지고 가시는(2009-7-16).enc",
+      "bytes": 18778,
+      "sha256": "1e7bb96a141e2183f25edc0628512bc4ed08b8a51432a12a027ea702f26e6c4f",
+      "path": "data/source-library/catholic-hymns/enc/123 십자가 지고 가시는(2009-7-16).enc"
+    },
+    {
+      "name": "124 은혜로운 회개의 때(2009-7-16).enc",
+      "bytes": 19972,
+      "sha256": "e8c88229fc33eeab46f74720901d1085635bff265486153eac288201846ae8a5",
+      "path": "data/source-library/catholic-hymns/enc/124 은혜로운 회개의 때(2009-7-16).enc"
+    },
+    {
+      "name": "125 거룩한 주의 십자가(2009-7-17).enc",
+      "bytes": 19452,
+      "sha256": "5a1fe7a1779cb18d0ea7889648151db57c6f2e0f08a40a668f3ff0e46c6bb690",
+      "path": "data/source-library/catholic-hymns/enc/125 거룩한 주의 십자가(2009-7-17).enc"
+    },
+    {
+      "name": "126 메시아의 수난(2009-7-17).enc",
+      "bytes": 22296,
+      "sha256": "2bc5a82081c7a11a3108b285a3c8f937092d830932050d01096eae8fe11ce670",
+      "path": "data/source-library/catholic-hymns/enc/126 메시아의 수난(2009-7-17).enc"
+    },
+    {
+      "name": "127 십자가 바라보며(2009-7-17).enc",
+      "bytes": 20878,
+      "sha256": "d3ad989162de53328507dbcb413ebc03d3639922df8dd7fe5525e30cb4d63d07",
+      "path": "data/source-library/catholic-hymns/enc/127 십자가 바라보며(2009-7-17).enc"
+    },
+    {
+      "name": "128 형제여 기뻐하라 알렐루야(2009-7-17).enc",
+      "bytes": 18342,
+      "sha256": "7bde5899ffb09dd52deedc6fbe10cadb94550a55857403ef2a36a59bccbfd643",
+      "path": "data/source-library/catholic-hymns/enc/128 형제여 기뻐하라 알렐루야(2009-7-17).enc"
+    },
+    {
+      "name": "129 알렐루야 노래하자.enc",
+      "bytes": 19848,
+      "sha256": "c839146847257fe54b18a85e59cfcb5d83d5b420689669fe088b6498b4ec58aa",
+      "path": "data/source-library/catholic-hymns/enc/129 알렐루야 노래하자.enc"
+    },
+    {
+      "name": "130 예수 부활하셨네(2009-7-17).enc",
+      "bytes": 20370,
+      "sha256": "6d03e5b76db72777ca7af29bbe1c2d5318e4dee7a6ec7347f02f3692e3f79947",
+      "path": "data/source-library/catholic-hymns/enc/130 예수 부활하셨네(2009-7-17).enc"
+    },
+    {
+      "name": "131 찬미 노래 드리자.enc",
+      "bytes": 16319,
+      "sha256": "1bab274dd625bc66c038fb4f44109a9caa3de836fb5512069682ea552ee4266a",
+      "path": "data/source-library/catholic-hymns/enc/131 찬미 노래 드리자.enc"
+    },
+    {
+      "name": "132 감사의 송가를(2009-7-17).enc",
+      "bytes": 16232,
+      "sha256": "4fe8e494fa0cf2abddcc12b952851727a7e99e21cb8e748f1c0faff5f1a4029d",
+      "path": "data/source-library/catholic-hymns/enc/132 감사의 송가를(2009-7-17).enc"
+    },
+    {
+      "name": "133 부활 송가(2009-7-17).enc",
+      "bytes": 17746,
+      "sha256": "4b859e96f0da543f415d9a3f054245a4676c35c7f7d1de63a04315822fa8b086",
+      "path": "data/source-library/catholic-hymns/enc/133 부활 송가(2009-7-17).enc"
+    },
+    {
+      "name": "134 거룩하다 부활이여(2009-7-17).enc",
+      "bytes": 20158,
+      "sha256": "f07a8cc1be6446093ac1fed78b9e3c7432c2607ef81bf7e8420f3a13823d7359",
+      "path": "data/source-library/catholic-hymns/enc/134 거룩하다 부활이여(2009-7-17).enc"
+    },
+    {
+      "name": "135 알렐루야 알렐루야 주 예수(2009-7-17).enc",
+      "bytes": 19056,
+      "sha256": "2289bbdde1d070fcaba81f1d95e1a1e233b9d67dfbc9d5f21b4fc04af378d559",
+      "path": "data/source-library/catholic-hymns/enc/135 알렐루야 알렐루야 주 예수(2009-7-17).enc"
+    },
+    {
+      "name": "136 예수 부활하셨도다.enc",
+      "bytes": 22695,
+      "sha256": "5c76128a96040d8107ae632945c7c9074e130fff7b9f5afa22c6709d20e72ea6",
+      "path": "data/source-library/catholic-hymns/enc/136 예수 부활하셨도다.enc"
+    },
+    {
+      "name": "137 부활하신 주 예수(2009-7-17).enc",
+      "bytes": 19860,
+      "sha256": "c5f5102bf0eb9358cb7a6840c950f93b49bd63720f3c1d06b8764aaddc00bd7b",
+      "path": "data/source-library/catholic-hymns/enc/137 부활하신 주 예수(2009-7-17).enc"
+    },
+    {
+      "name": "138 만왕의 왕(2009-7-17).enc",
+      "bytes": 14754,
+      "sha256": "927a78157d56eff4a2dc716614b0af0e4ab57425e0dfbf65184a0719a3b6959d",
+      "path": "data/source-library/catholic-hymns/enc/138 만왕의 왕(2009-7-17).enc"
+    },
+    {
+      "name": "139 알렐루야(2009-7-17).enc",
+      "bytes": 16792,
+      "sha256": "c5890fd76dc322c870fe7a094b1ba323e313e2c98b94b389e8e492e82332bfb8",
+      "path": "data/source-library/catholic-hymns/enc/139 알렐루야(2009-7-17).enc"
+    },
+    {
+      "name": "140 주의 승천 찬미하세.enc",
+      "bytes": 21479,
+      "sha256": "6b3c8587c7714ed5d26d8654958173ea863c2d08f1559383498beca6b5c6eb3d",
+      "path": "data/source-library/catholic-hymns/enc/140 주의 승천 찬미하세.enc"
+    },
+    {
+      "name": "141 죽음을 이긴.enc",
+      "bytes": 24952,
+      "sha256": "fd9a4219671fd9a8bc3fa4f7e1d12f58afe704d57d15964b43faeec28baa6b81",
+      "path": "data/source-library/catholic-hymns/enc/141 죽음을 이긴.enc"
+    },
+    {
+      "name": "142 오소서 성령이여.enc",
+      "bytes": 17411,
+      "sha256": "dcd0124ad223012c5dbc6e1eb1a76a5434b39d89b2b0c266b44a035f38fc6267",
+      "path": "data/source-library/catholic-hymns/enc/142 오소서 성령이여.enc"
+    },
+    {
+      "name": "143 진리의 성령.enc",
+      "bytes": 17141,
+      "sha256": "a3f2591a5bc547a2338fc37fb56d44daddf1f9bbae6cdcde8a80782e41b8c902",
+      "path": "data/source-library/catholic-hymns/enc/143 진리의 성령.enc"
+    },
+    {
+      "name": "144 주의 얼이.enc",
+      "bytes": 17753,
+      "sha256": "790dad321a724bce4e1a44971d30bced7051de3ba7af9b83dc3e3c80a00ac70d",
+      "path": "data/source-library/catholic-hymns/enc/144 주의 얼이.enc"
+    },
+    {
+      "name": "145 임하소서 성령이여.enc",
+      "bytes": 20245,
+      "sha256": "df70048084142e357b7048bf4fc4189dd93d9a8cdee6306013c83aaecbfcd9d3",
+      "path": "data/source-library/catholic-hymns/enc/145 임하소서 성령이여.enc"
+    },
+    {
+      "name": "146 임하소서 성령이여(2009-7-20).enc",
+      "bytes": 19948,
+      "sha256": "a6c1a8cf1596c1ebf85fa86f81a6f9f9f16a4782e0c29fb6873ba9f71d6317f0",
+      "path": "data/source-library/catholic-hymns/enc/146 임하소서 성령이여(2009-7-20).enc"
+    },
+    {
+      "name": "147 임하소서 성령이여.enc",
+      "bytes": 15927,
+      "sha256": "f92c8274fe3179166571b4ca27d577de85357a7e47c10cf5fd4549408d00ce30",
+      "path": "data/source-library/catholic-hymns/enc/147 임하소서 성령이여.enc"
+    },
+    {
+      "name": "148 위로자 성령.enc",
+      "bytes": 19955,
+      "sha256": "66c83982e34395f767a2ce1defd6ae5f470d0af59bd169405e0d1c9b0fdfec09",
+      "path": "data/source-library/catholic-hymns/enc/148 위로자 성령.enc"
+    },
+    {
+      "name": "149 어두움의 빛이신 성령.enc",
+      "bytes": 13997,
+      "sha256": "cd95bbdeb39b5f282530398bc0efa2720c624b0e7cac3497cb2298ae5f5dbbb5",
+      "path": "data/source-library/catholic-hymns/enc/149 어두움의 빛이신 성령.enc"
+    },
+    {
+      "name": "150 모든 은혜 근원이신 성령.enc",
+      "bytes": 16401,
+      "sha256": "6d1b257e57233638cb4c0cec2b07f86001c7eca277ab5b20223688fb2dc3b841",
+      "path": "data/source-library/catholic-hymns/enc/150 모든 은혜 근원이신 성령.enc"
+    },
+    {
+      "name": "151 주여 임하소서.enc",
+      "bytes": 17649,
+      "sha256": "bed8d0839e93f5aac21e9c865ae01ab88ca099a39b326d8f16144f2d7cf24362",
+      "path": "data/source-library/catholic-hymns/enc/151 주여 임하소서.enc"
+    },
+    {
+      "name": "152 오 지극한 신비여.enc",
+      "bytes": 14709,
+      "sha256": "42f97a03c5ec1c40afa761deffb733235fa2a3cbe791f8f00f480744000ca8cd",
+      "path": "data/source-library/catholic-hymns/enc/152 오 지극한 신비여.enc"
+    },
+    {
+      "name": "153 오소서 주 예수여.enc",
+      "bytes": 16087,
+      "sha256": "7b3fdb9eeb33f9aaf1ed9e973898b9e2ce03ec234869f19f043cd91cefc28072",
+      "path": "data/source-library/catholic-hymns/enc/153 오소서 주 예수여.enc"
+    },
+    {
+      "name": "154 주여 어서 오소서.enc",
+      "bytes": 13961,
+      "sha256": "e7a5c8d20dc63c0fa67aeae42b1bd7251ac96f5d3d3f6f730c1c68deb5672772",
+      "path": "data/source-library/catholic-hymns/enc/154 주여 어서 오소서.enc"
+    },
+    {
+      "name": "155 우리 주 예수.enc",
+      "bytes": 13167,
+      "sha256": "e0140f4cc7ec49f9bbbecaac82b2185d5c8f894141d341c7acd8e18ff4e4fa34",
+      "path": "data/source-library/catholic-hymns/enc/155 우리 주 예수.enc"
+    },
+    {
+      "name": "156 한 말씀만 하소서.enc",
+      "bytes": 25579,
+      "sha256": "8c51d1ff2fe99df9663ebecd5a128cfe49fb59960e1b126c9c268df08d62e86d",
+      "path": "data/source-library/catholic-hymns/enc/156 한 말씀만 하소서.enc"
+    },
+    {
+      "name": "157 예수 우리 맘에 오소서.enc",
+      "bytes": 13543,
+      "sha256": "4dae43660d8c4c6b7750afe3e276fa24772e278802b2f0e690486c9fbb32f72a",
+      "path": "data/source-library/catholic-hymns/enc/157 예수 우리 맘에 오소서.enc"
+    },
+    {
+      "name": "158 구세주 예수 그리스도.enc",
+      "bytes": 17887,
+      "sha256": "4233fec457eba4be0748f92d7cf374b31f2ae37cb362f436ca46c9f152939e85",
+      "path": "data/source-library/catholic-hymns/enc/158 구세주 예수 그리스도.enc"
+    },
+    {
+      "name": "159 세상의 참된 행복.enc",
+      "bytes": 14313,
+      "sha256": "0ea67a49d0898b56fe37905a8c89bd2fd29476896701fec1bf1a9bf30a8d4ac8",
+      "path": "data/source-library/catholic-hymns/enc/159 세상의 참된 행복.enc"
+    },
+    {
+      "name": "160 하느님의 어린양.enc",
+      "bytes": 19437,
+      "sha256": "7095af3d48b7d73b4f947a28c2ba98d2cc0c4f24404d714099f4e61c631973ef",
+      "path": "data/source-library/catholic-hymns/enc/160 하느님의 어린양.enc",
+      "existingReference": "docs/references/catholic-enc/160 하느님의 어린양.enc"
+    },
+    {
+      "name": "161 성체를 찬송하세.enc",
+      "bytes": 14025,
+      "sha256": "f28dc1f786b3635f2d17a9e3a6259b4b76251eab86b52ebf2083413a713fde2b",
+      "path": "data/source-library/catholic-hymns/enc/161 성체를 찬송하세.enc"
+    },
+    {
+      "name": "162 성체 성혈 그 신비.enc",
+      "bytes": 24609,
+      "sha256": "ad6e3336004d49be515ea8f9825cbe15525f7265f9f40f9cba1da7828ba2d7ad",
+      "path": "data/source-library/catholic-hymns/enc/162 성체 성혈 그 신비.enc"
+    },
+    {
+      "name": "163 생명의 성체여.enc",
+      "bytes": 19537,
+      "sha256": "225475a1505aea47818df1eb8c43e1a68e29bec6698cf922c14438452701515e",
+      "path": "data/source-library/catholic-hymns/enc/163 생명의 성체여.enc"
+    },
+    {
+      "name": "164 떡과 술의 형상에.enc",
+      "bytes": 20233,
+      "sha256": "2f8490bba6fe44659c942bfadbbc839817e38173d93a0b3831bb33e2e19e4074",
+      "path": "data/source-library/catholic-hymns/enc/164 떡과 술의 형상에.enc"
+    },
+    {
+      "name": "165 주의 잔치.enc",
+      "bytes": 19559,
+      "sha256": "e9bb10906576a0f4014369900ecd41d00b26cbb9a9dfee9d6d1577a36a07e5f5",
+      "path": "data/source-library/catholic-hymns/enc/165 주의 잔치.enc"
+    },
+    {
+      "name": "166 생명의 양식_요한6.enc",
+      "bytes": 21011,
+      "sha256": "c992d621016cc02fc4c6463b8e046bc74604b1f8826b4d9577dc4576f399f30d",
+      "path": "data/source-library/catholic-hymns/enc/166 생명의 양식_요한6.enc"
+    },
+    {
+      "name": "167 생명이신 천상 양식.enc",
+      "bytes": 17279,
+      "sha256": "d380f20e4d3e399bdf97924f80731e485a8d3f2ca1f6a765db04c7e18f0252ef",
+      "path": "data/source-library/catholic-hymns/enc/167 생명이신 천상 양식.enc"
+    },
+    {
+      "name": "168 오묘하온 성체.enc",
+      "bytes": 19171,
+      "sha256": "273240459fb12300c72f2b261b080f4012a916761cc3541df8fb872cd3f72979",
+      "path": "data/source-library/catholic-hymns/enc/168 오묘하온 성체.enc"
+    },
+    {
+      "name": "169 사랑의 성사.enc",
+      "bytes": 18241,
+      "sha256": "f28851ce10252a0ea7de7c1528324aecb95b897c50238127bdba3e8e829a4745",
+      "path": "data/source-library/catholic-hymns/enc/169 사랑의 성사.enc"
+    },
+    {
+      "name": "170 자애로운 예수.enc",
+      "bytes": 18355,
+      "sha256": "4d52f22b0b5fb9503dd7dc5b3341d4a138b03bb1585de542fe631d5fb4f84fb7",
+      "path": "data/source-library/catholic-hymns/enc/170 자애로운 예수.enc"
+    },
+    {
+      "name": "171 오 거룩한 생명의 샘.enc",
+      "bytes": 18510,
+      "sha256": "3904511753781557ff8411577f503fc64531e85f4db6561714b8d23ef460243a",
+      "path": "data/source-library/catholic-hymns/enc/171 오 거룩한 생명의 샘.enc"
+    },
+    {
+      "name": "172 그리스도의 영혼.enc",
+      "bytes": 16095,
+      "sha256": "41fb426a08514a39a745b932aa7d96ece6884f643b0c558c4d8bb9d30ac7dfa5",
+      "path": "data/source-library/catholic-hymns/enc/172 그리스도의 영혼.enc"
+    },
+    {
+      "name": "173 사랑의 주여 오소서.enc",
+      "bytes": 26149,
+      "sha256": "e39e718cb79042c501f075a38b3123b8bc6c3a383a032ab9b39f3d594161298f",
+      "path": "data/source-library/catholic-hymns/enc/173 사랑의 주여 오소서.enc"
+    },
+    {
+      "name": "174 사랑의 신비.enc",
+      "bytes": 21509,
+      "sha256": "ac3762360d2d8648c7eb3e44e63717a1a6a84175be45bd261e5ff0e28b692791",
+      "path": "data/source-library/catholic-hymns/enc/174 사랑의 신비.enc"
+    },
+    {
+      "name": "175 이보다 더 큰 은혜와.enc",
+      "bytes": 21041,
+      "sha256": "aa23647e1bf661d8c504e7080c9234f4414049b6b7bfbcca81f1d6d2a0c8d421",
+      "path": "data/source-library/catholic-hymns/enc/175 이보다 더 큰 은혜와.enc"
+    },
+    {
+      "name": "176 믿음 소망 사랑.enc",
+      "bytes": 20165,
+      "sha256": "0ca1daf8b22e2cadfeaf1b7c9296d0975f70cf356a8625fb72e7bd4c1c4333c3",
+      "path": "data/source-library/catholic-hymns/enc/176 믿음 소망 사랑.enc"
+    },
+    {
+      "name": "177 만나을 먹은 이스라엘 백성.enc",
+      "bytes": 26339,
+      "sha256": "17945ea5529a0831becdf10212dd82bae95f01a668da388051d1334cb405952e",
+      "path": "data/source-library/catholic-hymns/enc/177 만나을 먹은 이스라엘 백성.enc"
+    },
+    {
+      "name": "178 성체 앞에.enc",
+      "bytes": 19462,
+      "sha256": "6d2e45c43e868360a7492072183a89f036ca19d9295abf7252b985777d9114b8",
+      "path": "data/source-library/catholic-hymns/enc/178 성체 앞에.enc"
+    },
+    {
+      "name": "179 주의 사랑 전하리.enc",
+      "bytes": 28539,
+      "sha256": "deaa40e80ddd997681e6dc0797a5713bba25000efcd2b84c1aa3bd81c05ab633",
+      "path": "data/source-library/catholic-hymns/enc/179 주의 사랑 전하리.enc"
+    },
+    {
+      "name": "180 주님의 작은 그릇.enc",
+      "bytes": 24449,
+      "sha256": "3fe29c112d0979a6cfe7843ece7860b1feac33751f4d823e2c6426dd9b8db9dd",
+      "path": "data/source-library/catholic-hymns/enc/180 주님의 작은 그릇.enc"
+    },
+    {
+      "name": "181 신비로운 몸과 피.enc",
+      "bytes": 22157,
+      "sha256": "2eef4036946469572ffdf449747a314276a585b86824ded1f24f291da5eee196",
+      "path": "data/source-library/catholic-hymns/enc/181 신비로운 몸과 피.enc"
+    },
+    {
+      "name": "182 신묘하온 이 영적.enc",
+      "bytes": 24849,
+      "sha256": "3dc87b23652995ba6f6c122cf792d6ab4479f30cda660519890d0baaad717428",
+      "path": "data/source-library/catholic-hymns/enc/182 신묘하온 이 영적.enc"
+    },
+    {
+      "name": "183 구원을 위한 희생.enc",
+      "bytes": 16709,
+      "sha256": "f7f28debb3752f6abb4c9aa6212561ebf67daf36b8e9c1d8b61ecbd9a9ba03ba",
+      "path": "data/source-library/catholic-hymns/enc/183 구원을 위한 희생.enc"
+    },
+    {
+      "name": "184 구원을 위한 희생.enc",
+      "bytes": 12495,
+      "sha256": "aa80dec5954976cdad2dbcb6f1da03c29c761b139bc3cf1863ebd2586997c862",
+      "path": "data/source-library/catholic-hymns/enc/184 구원을 위한 희생.enc"
+    },
+    {
+      "name": "185 구원의 희생자.enc",
+      "bytes": 25055,
+      "sha256": "8d87cf26c5a62b5282f2f5cdc038af543a77f4f9d31a0569f971748313250f78",
+      "path": "data/source-library/catholic-hymns/enc/185 구원의 희생자.enc"
+    },
+    {
+      "name": "186 구원을 위한 희생.enc",
+      "bytes": 14891,
+      "sha256": "64a80b09765ad6c49597b2a0c7930073f0138423ecba554eea08dce77f20086b",
+      "path": "data/source-library/catholic-hymns/enc/186 구원을 위한 희생.enc"
+    },
+    {
+      "name": "187 천사의 양식.enc",
+      "bytes": 17873,
+      "sha256": "b338a0923e958f85d5dd6c65965ffd959931b4ac1328fd96c829fbb5584b3ae7",
+      "path": "data/source-library/catholic-hymns/enc/187 천사의 양식.enc"
+    },
+    {
+      "name": "188 천사의 양식.enc",
+      "bytes": 17623,
+      "sha256": "759f29b5dd0bfb388a14a210d3944d3a0bbd36e24a972516dbde9e5426662418",
+      "path": "data/source-library/catholic-hymns/enc/188 천사의 양식.enc"
+    },
+    {
+      "name": "189 지존하신 성체.enc",
+      "bytes": 18687,
+      "sha256": "7e234a8b249f299736e49079c3c602734878f833f53421a541bc9b2c133d7927",
+      "path": "data/source-library/catholic-hymns/enc/189 지존하신 성체.enc"
+    },
+    {
+      "name": "190 지존하신 성체(2009-7-21).enc",
+      "bytes": 24004,
+      "sha256": "f8691587e512b7835cdc5742934ee75d0de35ae03e6230715e1e115dfa291566",
+      "path": "data/source-library/catholic-hymns/enc/190 지존하신 성체(2009-7-21).enc"
+    },
+    {
+      "name": "191 지존하신 성체(2009-7-21).enc",
+      "bytes": 27102,
+      "sha256": "d94fa4acec4bd679fbfbf754e6e3e204d554b6fd37398913e112f0c58f5db5b2",
+      "path": "data/source-library/catholic-hymns/enc/191 지존하신 성체(2009-7-21).enc"
+    },
+    {
+      "name": "192 지존하신 성체(2009-7-21).enc",
+      "bytes": 18108,
+      "sha256": "bfccc5ba59061d7f9508150c3967cd4d2f0d4c07a2c41e47f4ede6635ba7ded3",
+      "path": "data/source-library/catholic-hymns/enc/192 지존하신 성체(2009-7-21).enc"
+    },
+    {
+      "name": "193 지존하신 성체(2009-7-21).enc",
+      "bytes": 18778,
+      "sha256": "590de7c2c6f665023e94af95ba6d50c486f3bc7ad4e01a97ee087e9538a1c500",
+      "path": "data/source-library/catholic-hymns/enc/193 지존하신 성체(2009-7-21).enc"
+    },
+    {
+      "name": "194 성체 안에 계신  예수.enc",
+      "bytes": 34137,
+      "sha256": "661f46543ad04c3ed2873e0d0f0175ffbc770199624f6adc94e4bfe82661478c",
+      "path": "data/source-library/catholic-hymns/enc/194 성체 안에 계신  예수.enc"
+    },
+    {
+      "name": "195 천주 성자 예수 흠숭합니다(2009-7-22).enc",
+      "bytes": 21972,
+      "sha256": "5d0530d424ee08c630c9e990aca2697e1d44879fcd85895a34c0f3d69660e15e",
+      "path": "data/source-library/catholic-hymns/enc/195 천주 성자 예수 흠숭합니다(2009-7-22).enc"
+    },
+    {
+      "name": "196 오 착한 예수.enc",
+      "bytes": 17395,
+      "sha256": "9c7051f4272672d0c2f89f7f5d090c0bce66b37d8976006cc5ca737f881b6b24",
+      "path": "data/source-library/catholic-hymns/enc/196 오 착한 예수.enc"
+    },
+    {
+      "name": "197 나그네 양식이요.enc",
+      "bytes": 19803,
+      "sha256": "13a08e75b9c1d73c8e58a7183c742ffae38a186840873689d5dec3593c5c430a",
+      "path": "data/source-library/catholic-hymns/enc/197 나그네 양식이요.enc"
+    },
+    {
+      "name": "198 성체 안에 계신 주님.enc",
+      "bytes": 16339,
+      "sha256": "e9c2e76ba33979289edf91148a834c7cea74f2697a8bfce5aa9aa666408a59e7",
+      "path": "data/source-library/catholic-hymns/enc/198 성체 안에 계신 주님.enc"
+    },
+    {
+      "name": "199 예수 마음.enc",
+      "bytes": 16007,
+      "sha256": "ed703c2e81e5e120e836184371ab13a952ab6367f2a785fd17083f9281978d8e",
+      "path": "data/source-library/catholic-hymns/enc/199 예수 마음.enc"
+    },
+    {
+      "name": "200 열절하신 주의 사랑.enc",
+      "bytes": 21879,
+      "sha256": "19b5763a5369f8f71096a2c21aef55e46066ebdf6d7cf86e9c5ed82db5e3f258",
+      "path": "data/source-library/catholic-hymns/enc/200 열절하신 주의 사랑.enc"
+    },
+    {
+      "name": "201 은총의 샘.enc",
+      "bytes": 19060,
+      "sha256": "8df795bb267d96221149e5b49471411c28c17ffceb65ce9d3c1158bcddf4e404",
+      "path": "data/source-library/catholic-hymns/enc/201 은총의 샘.enc"
+    },
+    {
+      "name": "202 구세주의 성심이여.enc",
+      "bytes": 20467,
+      "sha256": "8082ca24ebabe489b4e517c7ff6e9e6a5f209a91579cd5ed2ac756d11b01f29d",
+      "path": "data/source-library/catholic-hymns/enc/202 구세주의 성심이여.enc"
+    },
+    {
+      "name": "203 오 거룩한 마음.enc",
+      "bytes": 18777,
+      "sha256": "786c851bc8dbd97a6b2c5059e3828d2410431a8f2448ff7c90db2443e38c2dc6",
+      "path": "data/source-library/catholic-hymns/enc/203 오 거룩한 마음.enc"
+    },
+    {
+      "name": "204 주의 성심 홀로.enc",
+      "bytes": 14735,
+      "sha256": "f52b06b3788921b794f1ec9bc5df135ef8e080c265c4d0e76967a9493cf3dc86",
+      "path": "data/source-library/catholic-hymns/enc/204 주의 성심 홀로.enc"
+    },
+    {
+      "name": "205 사랑의 성심.enc",
+      "bytes": 15659,
+      "sha256": "33e40c646f872add66388a105053cc6f538d9fa0758f5ece57c7b98cdcf1b4c0",
+      "path": "data/source-library/catholic-hymns/enc/205 사랑의 성심.enc"
+    },
+    {
+      "name": "206 성심의 사랑.enc",
+      "bytes": 22685,
+      "sha256": "4430b640edf75cd38d02982e19f79f48831b0b944e2b5edd33dc76d03313767a",
+      "path": "data/source-library/catholic-hymns/enc/206 성심의 사랑.enc"
+    },
+    {
+      "name": "207 주의 성심.enc",
+      "bytes": 20475,
+      "sha256": "932f9f68fe4c552b31763e7ef6571700d541047ef9cdc2e5f82b2cb7eef85c85",
+      "path": "data/source-library/catholic-hymns/enc/207 주의 성심.enc"
+    },
+    {
+      "name": "208 간절한 주의 사랑.enc",
+      "bytes": 19911,
+      "sha256": "0e7bc1e39b48fcb6ab2b6f793944c27e18283870d81abdd6e0c4374873ef63c3",
+      "path": "data/source-library/catholic-hymns/enc/208 간절한 주의 사랑.enc"
+    },
+    {
+      "name": "209 사랑하올 예수 성심이여.enc",
+      "bytes": 15515,
+      "sha256": "1b0f0042b17056b49c8359487371860ca1ffc6acb84b27443ff46aa0e5ec51a4",
+      "path": "data/source-library/catholic-hymns/enc/209 사랑하올 예수 성심이여.enc"
+    },
+    {
+      "name": "210 나의 생명 드리니.enc",
+      "bytes": 15887,
+      "sha256": "f88cb62e7c01d469fb475a64f02aa737d88d22b133120a035c5dec801a50d480",
+      "path": "data/source-library/catholic-hymns/enc/210 나의 생명 드리니.enc"
+    },
+    {
+      "name": "211 주여 나의 몸과 맘.enc",
+      "bytes": 17995,
+      "sha256": "dcbeeb1222ea3b264b4f4fb725cb84bb1e196b3fe4e30657e358cd3cdf6f1aaa",
+      "path": "data/source-library/catholic-hymns/enc/211 주여 나의 몸과 맘.enc"
+    },
+    {
+      "name": "212 너그러이 받으소서.enc",
+      "bytes": 15841,
+      "sha256": "5ffc2c35bd8219ce4c5f38dbfcdcaf01ee02836236ddceb611de1c974498e20c",
+      "path": "data/source-library/catholic-hymns/enc/212 너그러이 받으소서.enc"
+    },
+    {
+      "name": "213 제단에 예물을 드리려 할 때_마태 5,23-24.enc",
+      "bytes": 17091,
+      "sha256": "f74c76a221cd822638ecab22fde904737342dbd5262592d303055c2c39d946bf",
+      "path": "data/source-library/catholic-hymns/enc/213 제단에 예물을 드리려 할 때_마태 5,23-24.enc"
+    },
+    {
+      "name": "214 주께 드리네.enc",
+      "bytes": 25306,
+      "sha256": "90e815f57052757a7192f400a097dbfccd24b97b97980abad0eff21ed56b4ba8",
+      "path": "data/source-library/catholic-hymns/enc/214 주께 드리네.enc"
+    },
+    {
+      "name": "215 영원하신 성부.enc",
+      "bytes": 19175,
+      "sha256": "4d50fc6fa3a3d7e12810ef917fcf8c0e564ef2d0efad938d105e685abf3eb92a",
+      "path": "data/source-library/catholic-hymns/enc/215 영원하신 성부.enc"
+    },
+    {
+      "name": "216 십자가에 제헌되신.enc",
+      "bytes": 19321,
+      "sha256": "52df0a851b7e9bcebd682dfe3da34f2661d43a52c4d8bcda96a6f7bb77525e1a",
+      "path": "data/source-library/catholic-hymns/enc/216 십자가에 제헌되신.enc"
+    },
+    {
+      "name": "217 정성 어린 우리 제물.enc",
+      "bytes": 21223,
+      "sha256": "a8afc7e2b20193d193a69a03a9666df761b78d00cf53ed76b1d2468785a106b3",
+      "path": "data/source-library/catholic-hymns/enc/217 정성 어린 우리 제물.enc"
+    },
+    {
+      "name": "218 주여 당신 종이 여기.enc",
+      "bytes": 27647,
+      "sha256": "e76a173084c944dc2066147c028f48ed88b385db67452400f350561963883179",
+      "path": "data/source-library/catholic-hymns/enc/218 주여 당신 종이 여기.enc"
+    },
+    {
+      "name": "219 주여 몸과 맘 다 바치오니.enc",
+      "bytes": 16959,
+      "sha256": "1b5712596439c6cee586a1ab77855b977813239e1946ccac44189b490a1bcb7d",
+      "path": "data/source-library/catholic-hymns/enc/219 주여 몸과 맘 다 바치오니.enc"
+    },
+    {
+      "name": "220 생활한 제물.enc",
+      "bytes": 17007,
+      "sha256": "0ab07e9bdc0469e81b5d0fb6fb5d04c4ba73f2372e40f1bec2a782bbdffe775c",
+      "path": "data/source-library/catholic-hymns/enc/220 생활한 제물.enc"
+    },
+    {
+      "name": "221 받아주소서.enc",
+      "bytes": 21911,
+      "sha256": "b14f02686d1a83e96afd0a78a880b448ea045f01b398ccac0d9d0da64de66216",
+      "path": "data/source-library/catholic-hymns/enc/221 받아주소서.enc"
+    },
+    {
+      "name": "222 주여 나를 가엾이 보아주소서(2009-7-22).enc",
+      "bytes": 17220,
+      "sha256": "af88fb5e7b51e81e9c137fa183aa7bb545549dc5a6521a9806bb94881147786a",
+      "path": "data/source-library/catholic-hymns/enc/222 주여 나를 가엾이 보아주소서(2009-7-22).enc"
+    },
+    {
+      "name": "223 주여 용서하여 주소서(2009-7-27).enc",
+      "bytes": 25334,
+      "sha256": "7cf6b0988d9afb46f35f2d64082a1d246937a9cc4d0fc72bf3b78c9c8a740066",
+      "path": "data/source-library/catholic-hymns/enc/223 주여 용서하여 주소서(2009-7-27).enc"
+    },
+    {
+      "name": "224 하느님 나를 불쌍히 여기소서(2009-7-27).enc",
+      "bytes": 24262,
+      "sha256": "b780d905457b7119fc96c492ac24bfd868f5ae09c4a43eb4bc83b93f1dd401ef",
+      "path": "data/source-library/catholic-hymns/enc/224 하느님 나를 불쌍히 여기소서(2009-7-27).enc"
+    },
+    {
+      "name": "225 주여 돌보소서(2009-7-28).enc",
+      "bytes": 16970,
+      "sha256": "cf3b6c81694be4c0a1bd7c90efe2a8e205be2c757c075454a6b9d0725b288465",
+      "path": "data/source-library/catholic-hymns/enc/225 주여 돌보소서(2009-7-28).enc"
+    },
+    {
+      "name": "226 하느님 자비하시니_시51.enc",
+      "bytes": 21799,
+      "sha256": "1530686afad9c98bc97cb345bf31428e8ba773d619488813b6e1d31cd8261c20",
+      "path": "data/source-library/catholic-hymns/enc/226 하느님 자비하시니_시51.enc"
+    },
+    {
+      "name": "227 나는 부활이요 생명이니라_요한11,25.enc",
+      "bytes": 16862,
+      "sha256": "845181184909e1916d86c48c8076a130d530c0dddc821574944ad834eeb0e0a0",
+      "path": "data/source-library/catholic-hymns/enc/227 나는 부활이요 생명이니라_요한11,25.enc"
+    },
+    {
+      "name": "228 이 세상 떠난 형제.enc",
+      "bytes": 20945,
+      "sha256": "12eb5f03f940ef1e4384f50b7960b7a32d5b748a6488d057342bb2438c8a5fa3",
+      "path": "data/source-library/catholic-hymns/enc/228 이 세상 떠난 형제.enc"
+    },
+    {
+      "name": "229 죽음에서 생명에로.enc",
+      "bytes": 20567,
+      "sha256": "96905fd465b5d64cf12172c59e0e16f52530cc3b370dcd74370bd269338b9d30",
+      "path": "data/source-library/catholic-hymns/enc/229 죽음에서 생명에로.enc"
+    },
+    {
+      "name": "230 평안함을 주소서.enc",
+      "bytes": 14085,
+      "sha256": "31c1ef4044914c7a15301625c7a9c2d7f3410d3bf5363ba0fe187dce42c13caa",
+      "path": "data/source-library/catholic-hymns/enc/230 평안함을 주소서.enc"
+    },
+    {
+      "name": "231 영원한 안식을 주소서.enc",
+      "bytes": 22749,
+      "sha256": "e1cdb61f936d9ab031c2ec1055ba2a69f02ac795907f8ef14ca7bdfe384b7555",
+      "path": "data/source-library/catholic-hymns/enc/231 영원한 안식을 주소서.enc"
+    },
+    {
+      "name": "232 살아서 나를 믿는 이.enc",
+      "bytes": 13475,
+      "sha256": "755c09049b605831aa98129252aa6d2458f9443651d999b20ab3ce9a8728dc88",
+      "path": "data/source-library/catholic-hymns/enc/232 살아서 나를 믿는 이.enc"
+    },
+    {
+      "name": "233 주의 영원한 빛을.enc",
+      "bytes": 14893,
+      "sha256": "0da72a526793deb07f5fd6d232732fa472f0efeb15df917f8067753b56b87818",
+      "path": "data/source-library/catholic-hymns/enc/233 주의 영원한 빛을.enc"
+    },
+    {
+      "name": "234 우리 자모.enc",
+      "bytes": 19345,
+      "sha256": "cb465f6d0fa0fef536f8dc0419ca2f010b0ea04af26e204d83987a07273d69ff",
+      "path": "data/source-library/catholic-hymns/enc/234 우리 자모.enc"
+    },
+    {
+      "name": "235 인자하신 성 마리아여.enc",
+      "bytes": 15937,
+      "sha256": "ed2d1929ed23e7ca299eed69f5ebc900aaf53069df4d7917d02c7cf95a607054",
+      "path": "data/source-library/catholic-hymns/enc/235 인자하신 성 마리아여.enc"
+    },
+    {
+      "name": "236 사랑하올 어머니.enc",
+      "bytes": 18467,
+      "sha256": "9e46be961063989a3a253bb6484b873ae39f578258df11a91dec2ecdca64cb85",
+      "path": "data/source-library/catholic-hymns/enc/236 사랑하올 어머니.enc"
+    },
+    {
+      "name": "237 주 예수 어머니.enc",
+      "bytes": 18281,
+      "sha256": "5a9686cdd741738e67cc8719b99c5fd5bd96ddb1937de97b2da030cd5372cba0",
+      "path": "data/source-library/catholic-hymns/enc/237 주 예수 어머니.enc"
+    },
+    {
+      "name": "238 자모신 마리아.enc",
+      "bytes": 20661,
+      "sha256": "f24d2a37a8eff21549ed7a0523a80110883c4bf7e86752e81e42dfa17573e3dd",
+      "path": "data/source-library/catholic-hymns/enc/238 자모신 마리아.enc"
+    },
+    {
+      "name": "239 거룩한 어머니.enc",
+      "bytes": 20345,
+      "sha256": "b4c7e7dc00472703e17d18f9753a27c863c5c5b3aa4d22064a6c3b34f817958b",
+      "path": "data/source-library/catholic-hymns/enc/239 거룩한 어머니.enc"
+    },
+    {
+      "name": "240 복되신  마리아.enc",
+      "bytes": 19911,
+      "sha256": "be3a402c292539563759fa1858d41ff0c3b930b4cd087e4f2f303ccf2443817b",
+      "path": "data/source-library/catholic-hymns/enc/240 복되신  마리아.enc"
+    },
+    {
+      "name": "241 바다의 별이신 성모.enc",
+      "bytes": 20363,
+      "sha256": "cfd7003592ec69446f82cead235ec34b0bf678fa065fa5de4d7716a6972b14f9",
+      "path": "data/source-library/catholic-hymns/enc/241 바다의 별이신 성모.enc"
+    },
+    {
+      "name": "242 바다의 별이신(2009-7-27).enc",
+      "bytes": 15768,
+      "sha256": "f77285dce4feeeec497fad2566079297a54e5d8651edd7b3f58d376974fc71b3",
+      "path": "data/source-library/catholic-hymns/enc/242 바다의 별이신(2009-7-27).enc"
+    },
+    {
+      "name": "243 마리아 모후여.enc",
+      "bytes": 15687,
+      "sha256": "70b353277ed4b7e079c004f32b29de208c7891868d52df70d1da524fcde8e80c",
+      "path": "data/source-library/catholic-hymns/enc/243 마리아 모후여.enc"
+    },
+    {
+      "name": "244 성모의 성월.enc",
+      "bytes": 18829,
+      "sha256": "555eb94be3f506ce458d17d4d8ee10d3e8763e921caa6740438476fd2b95b980",
+      "path": "data/source-library/catholic-hymns/enc/244 성모의 성월.enc"
+    },
+    {
+      "name": "245 맑은 하늘 오월은(2009-7-28).enc",
+      "bytes": 18612,
+      "sha256": "319bca15e16ee79b6b624d9a58aab0a53d0f02f8cb8a83511db473864fdc9d7c",
+      "path": "data/source-library/catholic-hymns/enc/245 맑은 하늘 오월은(2009-7-28).enc"
+    },
+    {
+      "name": "246 창파에 뜬 일엽주(2009-7-28).enc",
+      "bytes": 18362,
+      "sha256": "53168230d80cce4a673dc72d9f9a999f336e2ae55603b93125ae1557459bee10",
+      "path": "data/source-library/catholic-hymns/enc/246 창파에 뜬 일엽주(2009-7-28).enc"
+    },
+    {
+      "name": "247 애덕의 모여(2009-7-29).enc",
+      "bytes": 19292,
+      "sha256": "0e816c66659141fda3477806a598ab2c1cbe38a93cd02ca105fb440b733d8da7",
+      "path": "data/source-library/catholic-hymns/enc/247 애덕의 모여(2009-7-29).enc"
+    },
+    {
+      "name": "248 한 생을 주님 위해(2009-7-29).enc",
+      "bytes": 18416,
+      "sha256": "6e50ec15fdb6b1b867c53c80f0774e5ea7bfb134529ce0ccf5f455af0a1d768e",
+      "path": "data/source-library/catholic-hymns/enc/248 한 생을 주님 위해(2009-7-29).enc"
+    },
+    {
+      "name": "249 지극히 거룩한 동정녀(2009-7-29).enc",
+      "bytes": 22586,
+      "sha256": "ef41ae23a36c6bc5df203721d7a4b3bc993ff5032271166c133b63d760d89b92",
+      "path": "data/source-library/catholic-hymns/enc/249 지극히 거룩한 동정녀(2009-7-29).enc"
+    },
+    {
+      "name": "250 굽어보소서 성모여(2009-7-29).enc",
+      "bytes": 21458,
+      "sha256": "a478ebdf9ed3aefef7739276401dd75ab1cc79790634fbaec7c0b38b0f2baffc",
+      "path": "data/source-library/catholic-hymns/enc/250 굽어보소서 성모여(2009-7-29).enc"
+    },
+    {
+      "name": "251 무변해상(2009-7-31).enc",
+      "bytes": 20388,
+      "sha256": "a88e07e04270afb1f7bf1491d50f883024eb4bc25a75aa03195ed9984f93cd2f",
+      "path": "data/source-library/catholic-hymns/enc/251 무변해상(2009-7-31).enc"
+    },
+    {
+      "name": "252 성모여 우리 위해.enc",
+      "bytes": 16949,
+      "sha256": "3f20a40e36463b5fe0ed6f12e0a92efa4e33f44353b4df9b64292b99c247a21c",
+      "path": "data/source-library/catholic-hymns/enc/252 성모여 우리 위해.enc"
+    },
+    {
+      "name": "253 네 머리를 꾸미오리(2009-7-31).enc",
+      "bytes": 16226,
+      "sha256": "998d21cb0b3116a5e00ba9ac3e4f5cd58bfa18bfc5979e4e4f2ccc5a7dd263b4",
+      "path": "data/source-library/catholic-hymns/enc/253 네 머리를 꾸미오리(2009-7-31).enc"
+    },
+    {
+      "name": "254 하늘의 여왕.enc",
+      "bytes": 21113,
+      "sha256": "d08645dbb93502b72f51938e9e1e57b666abc55e52e82673ba400c1f76fc22ee",
+      "path": "data/source-library/catholic-hymns/enc/254 하늘의 여왕.enc"
+    },
+    {
+      "name": "255 하늘의 여왕.enc",
+      "bytes": 17583,
+      "sha256": "500f65abc494b16417bb20f42386821d7edd087b069411ef44ff176b1274a24c",
+      "path": "data/source-library/catholic-hymns/enc/255 하늘의 여왕.enc"
+    },
+    {
+      "name": "256 천상의 어머니(2009-7-31).enc",
+      "bytes": 21406,
+      "sha256": "3d1a1a9f9aba53a8598b44b87ff9f324d2cf02278317d7459cbfcc9a728b8b3f",
+      "path": "data/source-library/catholic-hymns/enc/256 천상의 어머니(2009-7-31).enc"
+    },
+    {
+      "name": "257 나의 기쁨 마리아여(2009-7-31).enc",
+      "bytes": 17634,
+      "sha256": "27c8716f5f2084a2ca2cd84c938276756a8cb0f46f46f0d1d238e9c546b18779",
+      "path": "data/source-library/catholic-hymns/enc/257 나의 기쁨 마리아여(2009-7-31).enc"
+    },
+    {
+      "name": "258 구세주의 어머니여(2009-7-31).enc",
+      "bytes": 16050,
+      "sha256": "c72ee9de84a5c5c44543cd7f30f8bc9e1c8796b43d350c6c7cf4a472d7773975",
+      "path": "data/source-library/catholic-hymns/enc/258 구세주의 어머니여(2009-7-31).enc"
+    },
+    {
+      "name": "259 성모 승천(2009-8-1).enc",
+      "bytes": 20670,
+      "sha256": "743efaae970991eb1c41bec3459e7f0593a12c00d40597272b1496bcb7fd5031",
+      "path": "data/source-library/catholic-hymns/enc/259 성모 승천(2009-8-1).enc"
+    },
+    {
+      "name": "260 영광의 성모(2009-8-5).enc",
+      "bytes": 19546,
+      "sha256": "754a53a83b3a852ef29a4ff53b6c0327897090fb70f8e66fe1009e7991eec45a",
+      "path": "data/source-library/catholic-hymns/enc/260 영광의 성모(2009-8-5).enc"
+    },
+    {
+      "name": "261 죄 없이 잉태되신 마리아(2009-8-5).enc",
+      "bytes": 18846,
+      "sha256": "dcda4e092af2f3e727c4dc43b351517657c9f157ef235538868488f5f042973d",
+      "path": "data/source-library/catholic-hymns/enc/261 죄 없이 잉태되신 마리아(2009-8-5).enc"
+    },
+    {
+      "name": "262 고통의 어머니(2009-8-5).enc",
+      "bytes": 15690,
+      "sha256": "81667ee3da76e732449865b172223c6a2dd97bd01c5a2cc0c0200a7cbaf682fa",
+      "path": "data/source-library/catholic-hymns/enc/262 고통의 어머니(2009-8-5).enc"
+    },
+    {
+      "name": "263 십자가 길의 성모(2009-8-6).enc",
+      "bytes": 21742,
+      "sha256": "fb69e064df76d8aecae7ca08010f91a7b38a65eeba76ceaa187f0932ec65d160",
+      "path": "data/source-library/catholic-hymns/enc/263 십자가 길의 성모(2009-8-6).enc"
+    },
+    {
+      "name": "264 그 외아들(2009-8-9).enc",
+      "bytes": 21020,
+      "sha256": "2119924460c1b57ec2e03abf4662b35a66ba31aef43698923f68ef8cb6b68d35",
+      "path": "data/source-library/catholic-hymns/enc/264 그 외아들(2009-8-9).enc"
+    },
+    {
+      "name": "265 성모송(2009-8-10).enc",
+      "bytes": 21330,
+      "sha256": "1d396eb827b71c3153a52ffc679ea3d1a4df5b1c24abb7597ca8b94c7194c36b",
+      "path": "data/source-library/catholic-hymns/enc/265 성모송(2009-8-10).enc"
+    },
+    {
+      "name": "266 성모송(2009-8-10).enc",
+      "bytes": 26176,
+      "sha256": "eb9c7c0985d1f28f97b13a4fe013430512d5a554b82443aaf0e38f33222caf6e",
+      "path": "data/source-library/catholic-hymns/enc/266 성모송(2009-8-10).enc"
+    },
+    {
+      "name": "267 성모송(2009-8-11).enc",
+      "bytes": 49124,
+      "sha256": "988cb16ab30ae68a332d0d202bfcfb22f4faf3d880ce817194ef607397035e95",
+      "path": "data/source-library/catholic-hymns/enc/267 성모송(2009-8-11).enc"
+    },
+    {
+      "name": "268 여인 중에 복되신 성모(2009-8-11).enc",
+      "bytes": 18068,
+      "sha256": "5b02d414743809e3c7d4684d2f0cd9197ab5e544c62870d8813e848921a7ed01",
+      "path": "data/source-library/catholic-hymns/enc/268 여인 중에 복되신 성모(2009-8-11).enc"
+    },
+    {
+      "name": "269 마리아의 노래(2009-8-11).enc",
+      "bytes": 14604,
+      "sha256": "36f2115d123c5f968de23a0743895dca8a9bac16cd7a09347d722d0ce1b51495",
+      "path": "data/source-library/catholic-hymns/enc/269 마리아의 노래(2009-8-11).enc"
+    },
+    {
+      "name": "270 로사리오의 기도(2009-8-12).enc",
+      "bytes": 17084,
+      "sha256": "0b9fb4d3437ec9d5dda5e545bf3090760d527e632816fea93fbf40b18218a5bb",
+      "path": "data/source-library/catholic-hymns/enc/270 로사리오의 기도(2009-8-12).enc"
+    },
+    {
+      "name": "271 로사리오 기도드릴 때.enc",
+      "bytes": 22421,
+      "sha256": "14866a783b5cc8bacca5d405680a4682e07c321d56abc414c44d3f6a54478d13",
+      "path": "data/source-library/catholic-hymns/enc/271 로사리오 기도드릴 때.enc"
+    },
+    {
+      "name": "272 은총이 가득하신 마리아님(2009-8-12).enc",
+      "bytes": 38046,
+      "sha256": "f319e6736ba2758ab1517b7c19f8491b346ddf602d857a7a1f04687cfe290349",
+      "path": "data/source-library/catholic-hymns/enc/272 은총이 가득하신 마리아님(2009-8-12).enc"
+    },
+    {
+      "name": "273 성모송(2009-8-12).enc",
+      "bytes": 19040,
+      "sha256": "5ee3b6764621946f1dca8c784f5f5fe34d8e95d3f1cfe2bd643902ff91bce3e2",
+      "path": "data/source-library/catholic-hymns/enc/273 성모송(2009-8-12).enc"
+    },
+    {
+      "name": "274 성모송_Arcadelt.enc",
+      "bytes": 29631,
+      "sha256": "1f316291a2a121d328c16f8cf4f2b8ab4797b494fff084e22686a76074179a0e",
+      "path": "data/source-library/catholic-hymns/enc/274 성모송_Arcadelt.enc"
+    },
+    {
+      "name": "275 바다의 별이신신 성모(2009-8-25).enc",
+      "bytes": 15588,
+      "sha256": "fc27df16d5fcfedf750a9aabc941e3af0f6fdb9438303e9d785872e5a14b5765",
+      "path": "data/source-library/catholic-hymns/enc/275 바다의 별이신신 성모(2009-8-25).enc"
+    },
+    {
+      "name": "276 하늘의 여왕(2009-8-25).enc",
+      "bytes": 20894,
+      "sha256": "949566e3779fd572f1c794c364acb9cce168f29c1cda56396f7d5303e37019dc",
+      "path": "data/source-library/catholic-hymns/enc/276 하늘의 여왕(2009-8-25).enc"
+    },
+    {
+      "name": "277 하늘의 여왕(2009-8-26).enc",
+      "bytes": 18596,
+      "sha256": "8bd3fddb9541ac784884937636504a6671e8d3d745465408cb8c30d63f7957e9",
+      "path": "data/source-library/catholic-hymns/enc/277 하늘의 여왕(2009-8-26).enc"
+    },
+    {
+      "name": "278 모후이시며(2009-8-27).enc",
+      "bytes": 27208,
+      "sha256": "f926ac3db58a4ea26e5af159abec9415d91013147d9e1d6e769547a883b16519",
+      "path": "data/source-library/catholic-hymns/enc/278 모후이시며(2009-8-27).enc"
+    },
+    {
+      "name": "279 천상의 모후(2009-8-27).enc",
+      "bytes": 13932,
+      "sha256": "409d8376aa134f2179a6e93e55aa7f56013a25c57b7d3d10a274f3b015fa3f48",
+      "path": "data/source-library/catholic-hymns/enc/279 천상의 모후(2009-8-27).enc"
+    },
+    {
+      "name": "280 성요셉 찬양하세(2009-8-30).enc",
+      "bytes": 20678,
+      "sha256": "1f717940efdd1e8ac51519dcb91931643bbd16f0f91dae9cfc8ee760ab6519ec",
+      "path": "data/source-library/catholic-hymns/enc/280 성요셉 찬양하세(2009-8-30).enc"
+    },
+    {
+      "name": "281 성요셉(2009-8-30).enc",
+      "bytes": 18064,
+      "sha256": "3cf02567f85fed5d76ef5227d1b57fe725c0d6f1fd6596dbf7fcc8244de8cdc5",
+      "path": "data/source-library/catholic-hymns/enc/281 성요셉(2009-8-30).enc"
+    },
+    {
+      "name": "282 의로운 성 요셉(2009-8-30).enc",
+      "bytes": 28348,
+      "sha256": "4e8ab8b9b59bbad3a805e86ea82ac669877eec72d9929cdd781350720715fe01",
+      "path": "data/source-library/catholic-hymns/enc/282 의로운 성 요셉(2009-8-30).enc"
+    },
+    {
+      "name": "283 순교자 찬가.enc",
+      "bytes": 23621,
+      "sha256": "d0dd1012a3cd1ab67ed513540e33fde1d71d627c660c9a28d85c6613dc621e15",
+      "path": "data/source-library/catholic-hymns/enc/283 순교자 찬가.enc"
+    },
+    {
+      "name": "284 무궁무진세에(2009-8-30).enc",
+      "bytes": 47394,
+      "sha256": "1e342d72ad2425c2d15d5dc1603293a105d9ab731c8cd93c55e8ade09ccbc669",
+      "path": "data/source-library/catholic-hymns/enc/284 무궁무진세에(2009-8-30).enc"
+    },
+    {
+      "name": "285 103위 순교 성인.enc",
+      "bytes": 26033,
+      "sha256": "5aac250024e417995ed2bd8e187a2bea715455c31730d965548567311932f241",
+      "path": "data/source-library/catholic-hymns/enc/285 103위 순교 성인.enc"
+    },
+    {
+      "name": "286 순교자의 믿음.enc",
+      "bytes": 18565,
+      "sha256": "239700d01adce7a3834a8cbeb20f706a195b62e4b4b0b77c7014e259b6bf3789",
+      "path": "data/source-library/catholic-hymns/enc/286 순교자의 믿음.enc"
+    },
+    {
+      "name": "287 성안드레아 김대건 신부 노래(2009-9-2).enc",
+      "bytes": 26762,
+      "sha256": "e0f3d157a0354898ae31255caac0dc6d2ef4db71e89aa43a95baaf1393c65589",
+      "path": "data/source-library/catholic-hymns/enc/287 성안드레아 김대건 신부 노래(2009-9-2).enc"
+    },
+    {
+      "name": "288 성인 찬미가(2009-9-4).enc",
+      "bytes": 31988,
+      "sha256": "d118d1183b9defd216fba9018782a42aadbb666e610f3ac21531e5aae19e227c",
+      "path": "data/source-library/catholic-hymns/enc/288 성인 찬미가(2009-9-4).enc"
+    },
+    {
+      "name": "289 병인 순교자 노래(2009-9-7).enc",
+      "bytes": 21966,
+      "sha256": "c0f407fef77c9217dc04f0b55c3a369c2ad315da7bbbed9bafabfb16727090f2",
+      "path": "data/source-library/catholic-hymns/enc/289 병인 순교자 노래(2009-9-7).enc"
+    },
+    {
+      "name": "290 복음을 전한  사도들.enc",
+      "bytes": 21649,
+      "sha256": "cae9c89ff31c7c1d31b939dd4848d28b53c4acfbe3a8d596f9fa34dc589701ff",
+      "path": "data/source-library/catholic-hymns/enc/290 복음을 전한  사도들.enc"
+    },
+    {
+      "name": "291 사도 성 베드로와 바오로.enc",
+      "bytes": 17243,
+      "sha256": "9487765b570c73fa02d647412b86a7f9409f402c71ab2b06b054c08008a1afe8",
+      "path": "data/source-library/catholic-hymns/enc/291 사도 성 베드로와 바오로.enc"
+    },
+    {
+      "name": "292 성녀 소화 데레사(2009-9-7).enc",
+      "bytes": 26724,
+      "sha256": "7c2514228445a552c27e4ebc955a1c67dc62a69a35ba9ea1edc1d4f42febcd4d",
+      "path": "data/source-library/catholic-hymns/enc/292 성녀 소화 데레사(2009-9-7).enc"
+    },
+    {
+      "name": "293 보호 천사(2009-9-9).enc",
+      "bytes": 18195,
+      "sha256": "800aa93641a41b3b6c965b1dd6f760904d38b01adc9086c6bdf887fd10e76896",
+      "path": "data/source-library/catholic-hymns/enc/293 보호 천사(2009-9-9).enc"
+    },
+    {
+      "name": "294 모든 성인 성녀시여.enc",
+      "bytes": 20635,
+      "sha256": "a62b0697f9decc011525dfab67053a5fe4681be986cd32e11128e960b5cb1655",
+      "path": "data/source-library/catholic-hymns/enc/294 모든 성인 성녀시여.enc"
+    },
+    {
+      "name": "295 성인 호칭 기도(2009-9-12).enc",
+      "bytes": 17835,
+      "sha256": "d937c2355792e365b0deb472b1671c5109c0c7019560645e08d4c6d4795cf3ce",
+      "path": "data/source-library/catholic-hymns/enc/295 성인 호칭 기도(2009-9-12).enc"
+    },
+    {
+      "name": "296 새 신자 환영.enc",
+      "bytes": 19345,
+      "sha256": "d34c43a7ab2095029fe561ef7aebf4c0303a50d4e0cfd43c486fd6a897cb5498",
+      "path": "data/source-library/catholic-hymns/enc/296 새 신자 환영.enc"
+    },
+    {
+      "name": "297 새로 난 한  형제.enc",
+      "bytes": 20229,
+      "sha256": "05b180a33d245b7de03179ebdd1c03e4a21253c55acd4db904be4aa1d830e833",
+      "path": "data/source-library/catholic-hymns/enc/297 새로 난 한  형제.enc"
+    },
+    {
+      "name": "298 은혜로운 오늘.enc",
+      "bytes": 19725,
+      "sha256": "41f64a83932e06b21df89110f38f88086751a2418a78fad7627986760d02220e",
+      "path": "data/source-library/catholic-hymns/enc/298 은혜로운 오늘.enc"
+    },
+    {
+      "name": "299 한 몸이 되게 축복을(2009-9-9).enc",
+      "bytes": 15796,
+      "sha256": "1613fa1102a1b4fa75100e09b915293c05a2f8b8b93a8f6a7dc9a5c9be25764b",
+      "path": "data/source-library/catholic-hymns/enc/299 한 몸이 되게 축복을(2009-9-9).enc"
+    },
+    {
+      "name": "299 한 몸이 되게 축복을.enc",
+      "bytes": 16877,
+      "sha256": "48617082dd28900a68a46259eaec4917fbd1347b389f12bee503b457b8e95d0e",
+      "path": "data/source-library/catholic-hymns/enc/299 한 몸이 되게 축복을.enc"
+    },
+    {
+      "name": "300 사제의 마음.enc",
+      "bytes": 21247,
+      "sha256": "d73612cc939b21f4c76f1c0a4659ec21f79bd19f55fd11beaf19312f6d7dd4e5",
+      "path": "data/source-library/catholic-hymns/enc/300 사제의 마음.enc"
+    },
+    {
+      "name": "301 오늘 이 축제 날에.enc",
+      "bytes": 22787,
+      "sha256": "9c4e93fdb01672c06a13d155978981260e02ee8d6e2414753607a80e0aee54cc",
+      "path": "data/source-library/catholic-hymns/enc/301 오늘 이 축제 날에.enc"
+    },
+    {
+      "name": "302 사제.enc",
+      "bytes": 22943,
+      "sha256": "9cad5f1f93ff343b23fb19bb5fee37b1852741c43a26da407954dab904104b36",
+      "path": "data/source-library/catholic-hymns/enc/302 사제.enc"
+    },
+    {
+      "name": "303 십자가 주님 따라.enc",
+      "bytes": 24945,
+      "sha256": "89dc6c1f3e2ac235d81b909efe1a840cbcf4eb6cb939f6ed8b68d69d7c314e06",
+      "path": "data/source-library/catholic-hymns/enc/303 십자가 주님 따라.enc"
+    },
+    {
+      "name": "304 보아라 우리의 대사제.enc",
+      "bytes": 23245,
+      "sha256": "873bc9c902b234a63abc3b7b626fcfcd4791aa51efbb8312b8c7ec724a54db4b",
+      "path": "data/source-library/catholic-hymns/enc/304 보아라 우리의 대사제.enc"
+    },
+    {
+      "name": "305 사제요 대제관(2009-9-12).enc",
+      "bytes": 29543,
+      "sha256": "c8eb5852d4fa3c7ac15bb56dbd8efd1392d6c103a8e2775f7f11994022457b49",
+      "path": "data/source-library/catholic-hymns/enc/305 사제요 대제관(2009-9-12).enc"
+    },
+    {
+      "name": "306 자비송-김대붕(2009-9-13).enc",
+      "bytes": 19643,
+      "sha256": "26b04c5f15a51c0074b1d140da4ced6db035ec1881944c358614b84f0189a353",
+      "path": "data/source-library/catholic-hymns/enc/306 자비송-김대붕(2009-9-13).enc",
+      "existingReference": "docs/references/catholic-enc/306 자비송-김대붕(2009-9-13).enc"
+    },
+    {
+      "name": "307 대영광송(2009-9-13).enc",
+      "bytes": 48323,
+      "sha256": "ad1bab1be99aaa9db78028840b473249f061e9f80cec0d2a5bd2cf846e290d27",
+      "path": "data/source-library/catholic-hymns/enc/307 대영광송(2009-9-13).enc",
+      "existingReference": "docs/references/catholic-enc/307 대영광송(2009-9-13).enc"
+    },
+    {
+      "name": "308 거룩하시도다(2009-9-18).enc",
+      "bytes": 21673,
+      "sha256": "1ae2aee929fa408a61da26781ffab1902e198498e8f6d01694c350b9c14144c7",
+      "path": "data/source-library/catholic-hymns/enc/308 거룩하시도다(2009-9-18).enc",
+      "existingReference": "docs/references/catholic-enc/308 거룩하시도다(2009-9-18).enc"
+    },
+    {
+      "name": "309 하느님의 어린양(2009-9-18).enc",
+      "bytes": 16861,
+      "sha256": "e434f9ea294311353939a0ae8dfde69d05ba4e376f9cc3879b387dc8d876d4e8",
+      "path": "data/source-library/catholic-hymns/enc/309 하느님의 어린양(2009-9-18).enc",
+      "existingReference": "docs/references/catholic-enc/309 하느님의 어린양(2009-9-18).enc"
+    },
+    {
+      "name": "310 자비송-손상오(2009-9-18).enc",
+      "bytes": 10707,
+      "sha256": "88bf262a74423662cf154c37870fb7ae7c86c17ac6afad34b00fc41693d1822d",
+      "path": "data/source-library/catholic-hymns/enc/310 자비송-손상오(2009-9-18).enc",
+      "existingReference": "docs/references/catholic-enc/310 자비송-손상오(2009-9-18).enc"
+    },
+    {
+      "name": "311 대영광송(2009-9-24).enc",
+      "bytes": 40851,
+      "sha256": "5f8e123b74bd0ed2b45bcdb4c12be7b1f577fd9d6e5487502adc8339f7f88678",
+      "path": "data/source-library/catholic-hymns/enc/311 대영광송(2009-9-24).enc",
+      "existingReference": "docs/references/catholic-enc/311 대영광송(2009-9-24).enc"
+    },
+    {
+      "name": "312 거룩하시도다(2009-9-24).enc",
+      "bytes": 19553,
+      "sha256": "fb8661e838273aad102ab9c407774840d845e17c9f63178435dc43d77e1a2ec3",
+      "path": "data/source-library/catholic-hymns/enc/312 거룩하시도다(2009-9-24).enc",
+      "existingReference": "docs/references/catholic-enc/312 거룩하시도다(2009-9-24).enc"
+    },
+    {
+      "name": "313 하느님의 어린양(2009-9-24).enc",
+      "bytes": 13829,
+      "sha256": "3922bd85718868d748ba036da923e56c2cdaa578f8abba158f6f705fcefd0b1e",
+      "path": "data/source-library/catholic-hymns/enc/313 하느님의 어린양(2009-9-24).enc",
+      "existingReference": "docs/references/catholic-enc/313 하느님의 어린양(2009-9-24).enc"
+    },
+    {
+      "name": "314 신앙의 신비여(2009-9-24).enc",
+      "bytes": 10951,
+      "sha256": "5ad591ace24afaeebf7106bea7ec2f4a56c5aa198e13c87dcef7ade6929b1fc8",
+      "path": "data/source-library/catholic-hymns/enc/314 신앙의 신비여(2009-9-24).enc",
+      "existingReference": "docs/references/catholic-enc/314 신앙의 신비여(2009-9-24).enc"
+    },
+    {
+      "name": "315 자비송-이문근(2009-9-27).enc",
+      "bytes": 17067,
+      "sha256": "73057d5a828e7ec1e7e8771bfeea4a5ce6bf881b43d094ce6635f01bcbaa6fe9",
+      "path": "data/source-library/catholic-hymns/enc/315 자비송-이문근(2009-9-27).enc",
+      "existingReference": "docs/references/catholic-enc/315 자비송-이문근(2009-9-27).enc"
+    },
+    {
+      "name": "316 대영광송(2009-9-27).enc",
+      "bytes": 44457,
+      "sha256": "9d986eb7da4c31e4dd48c6c7f7ef8360d971c6d294fdc3209527753fa3ee4cc9",
+      "path": "data/source-library/catholic-hymns/enc/316 대영광송(2009-9-27).enc",
+      "existingReference": "docs/references/catholic-enc/316 대영광송(2009-9-27).enc"
+    },
+    {
+      "name": "317 거룩하시도다(2009-9-27).enc",
+      "bytes": 16821,
+      "sha256": "70cc8a61ee4c161a26e779f7dcfca9add0e8c0fd3b4ea608436c19a8b3e95437",
+      "path": "data/source-library/catholic-hymns/enc/317 거룩하시도다(2009-9-27).enc",
+      "existingReference": "docs/references/catholic-enc/317 거룩하시도다(2009-9-27).enc"
+    },
+    {
+      "name": "318 주님의 기도(2009-9-27).enc",
+      "bytes": 22993,
+      "sha256": "179a17c57afdbf9931032b6b0748043c664ab82123cfc30e77e323c4a316840f",
+      "path": "data/source-library/catholic-hymns/enc/318 주님의 기도(2009-9-27).enc",
+      "existingReference": "docs/references/catholic-enc/318 주님의 기도(2009-9-27).enc"
+    },
+    {
+      "name": "319 하느님의 어린양(2009-9-27).enc",
+      "bytes": 13897,
+      "sha256": "980060472649b01d84f32a01fa546beaf374088a2c42bf9cfd3101ac435f2356",
+      "path": "data/source-library/catholic-hymns/enc/319 하느님의 어린양(2009-9-27).enc",
+      "existingReference": "docs/references/catholic-enc/319 하느님의 어린양(2009-9-27).enc"
+    },
+    {
+      "name": "320 자비송-이문근(2009-9-27).enc",
+      "bytes": 16591,
+      "sha256": "db361099a3271db93aa52b30503a8d8e7a5db1bcffdabb3b0fa2e1609b6ac87c",
+      "path": "data/source-library/catholic-hymns/enc/320 자비송-이문근(2009-9-27).enc",
+      "existingReference": "docs/references/catholic-enc/320 자비송-이문근(2009-9-27).enc"
+    },
+    {
+      "name": "321 대영광송(2009-9-28).enc",
+      "bytes": 46069,
+      "sha256": "43e61ac039a835f2a7e693905ad5ed359400f9d4914931239f574e228496b7a0",
+      "path": "data/source-library/catholic-hymns/enc/321 대영광송(2009-9-28).enc",
+      "existingReference": "docs/references/catholic-enc/321 대영광송(2009-9-28).enc"
+    },
+    {
+      "name": "322 거룩하시도다(2009-9-30).enc",
+      "bytes": 17511,
+      "sha256": "3dc8d7d09209cd42830861b1d0559026167b6af26bb55801eb3980856658230d",
+      "path": "data/source-library/catholic-hymns/enc/322 거룩하시도다(2009-9-30).enc",
+      "existingReference": "docs/references/catholic-enc/322 거룩하시도다(2009-9-30).enc"
+    },
+    {
+      "name": "323 주님의 기도(2009-9-30).enc",
+      "bytes": 23743,
+      "sha256": "ee5aa831e80549abcb51cc73cda12ad5005c538942de46f984a3f7596842bdec",
+      "path": "data/source-library/catholic-hymns/enc/323 주님의 기도(2009-9-30).enc",
+      "existingReference": "docs/references/catholic-enc/323 주님의 기도(2009-9-30).enc"
+    },
+    {
+      "name": "324 하느님의 어린양(2009-10-6).enc",
+      "bytes": 17365,
+      "sha256": "38851bcf8de1e03a66e8af0eb51f5ab2079e3208e71943d69944c070af059e02",
+      "path": "data/source-library/catholic-hymns/enc/324 하느님의 어린양(2009-10-6).enc",
+      "existingReference": "docs/references/catholic-enc/324 하느님의 어린양(2009-10-6).enc"
+    },
+    {
+      "name": "325 자비송-이문근(2009-10-6).enc",
+      "bytes": 17089,
+      "sha256": "add4fc1788de6125761326b9facd0d0b018a32cf33f93f7a6ebd2d5d81f5fceb",
+      "path": "data/source-library/catholic-hymns/enc/325 자비송-이문근(2009-10-6).enc",
+      "existingReference": "docs/references/catholic-enc/325 자비송-이문근(2009-10-6).enc"
+    },
+    {
+      "name": "326 대영광송(2009-10-7).enc",
+      "bytes": 51087,
+      "sha256": "9b4439417f6592004d9ea0c0c9f5045a26b6a7b769cebb87c35898a8d95ba926",
+      "path": "data/source-library/catholic-hymns/enc/326 대영광송(2009-10-7).enc",
+      "existingReference": "docs/references/catholic-enc/326 대영광송(2009-10-7).enc"
+    },
+    {
+      "name": "327 거룩하시도다(2009-10-12).enc",
+      "bytes": 19469,
+      "sha256": "31792820c3de0b4d51d264a0d527546762765fb2f0a394c8db85a43d97f94a5c",
+      "path": "data/source-library/catholic-hymns/enc/327 거룩하시도다(2009-10-12).enc",
+      "existingReference": "docs/references/catholic-enc/327 거룩하시도다(2009-10-12).enc"
+    },
+    {
+      "name": "328 하느님의 어린양(2009-10-12).enc",
+      "bytes": 16361,
+      "sha256": "809e72b4f2211254ece0490924b3ea336190bdf0c1422df5709ee28557e0bb37",
+      "path": "data/source-library/catholic-hymns/enc/328 하느님의 어린양(2009-10-12).enc",
+      "existingReference": "docs/references/catholic-enc/328 하느님의 어린양(2009-10-12).enc"
+    },
+    {
+      "name": "329 미사시작_슈베르트(2011-1-20).enc",
+      "bytes": 20525,
+      "sha256": "3cde06906d89284e52d2a477f9e2ef0ba7f6e8d70f3aa9315843d8ef29fabdf6",
+      "path": "data/source-library/catholic-hymns/enc/329 미사시작_슈베르트(2011-1-20).enc"
+    },
+    {
+      "name": "330 영광송(2009-10-12).enc",
+      "bytes": 19395,
+      "sha256": "90f0711cdbb6713d58e31dd738b2734fc1fe709a085a2b6c40a24336431df0cb",
+      "path": "data/source-library/catholic-hymns/enc/330 영광송(2009-10-12).enc"
+    },
+    {
+      "name": "331 복음환호송(2009-10-12).enc",
+      "bytes": 22605,
+      "sha256": "286db98b05df2da30fd512d76e56d3317e11a2720d9609e9d80b18440fbf55fc",
+      "path": "data/source-library/catholic-hymns/enc/331 복음환호송(2009-10-12).enc",
+      "existingReference": "docs/references/catholic-enc/331 복음환호송(2009-10-12).enc"
+    },
+    {
+      "name": "332 봉헌_슈베르트.enc",
+      "bytes": 15449,
+      "sha256": "76e7e586456e01490f87bcbfa1a00ce2230fcf809c4337ae953d71cd7d1ead93",
+      "path": "data/source-library/catholic-hymns/enc/332 봉헌_슈베르트.enc"
+    },
+    {
+      "name": "333 거룩하시도다.enc",
+      "bytes": 16645,
+      "sha256": "088717b54c1dfc69aefed50d755d656ec9567f97a274b00256b1a03563fecf93",
+      "path": "data/source-library/catholic-hymns/enc/333 거룩하시도다.enc",
+      "existingReference": "docs/references/catholic-enc/333 거룩하시도다.enc"
+    },
+    {
+      "name": "334 사랑의 성체성사.enc",
+      "bytes": 23099,
+      "sha256": "cf89b3d9c32336954dfac4858bf81adba47e16ee05c9ba4e74e54a8d7d81e1de",
+      "path": "data/source-library/catholic-hymns/enc/334 사랑의 성체성사.enc"
+    },
+    {
+      "name": "335 하느님의 어린양.enc",
+      "bytes": 21673,
+      "sha256": "b6befbfd4313b8df6dcd1ea5e187ef1208466560efcd76236c9599c39f3ed3c4",
+      "path": "data/source-library/catholic-hymns/enc/335 하느님의 어린양.enc",
+      "existingReference": "docs/references/catholic-enc/335 하느님의 어린양.enc"
+    },
+    {
+      "name": "336 마침 성가(2009-10-12).enc",
+      "bytes": 26333,
+      "sha256": "274f0129b7fbf2f2fe3e91942af7a18625e95d1076bce9392dc55e94fe3238d4",
+      "path": "data/source-library/catholic-hymns/enc/336 마침 성가(2009-10-12).enc"
+    },
+    {
+      "name": "337 미사 시작-하이든(2009-10-12).enc",
+      "bytes": 23465,
+      "sha256": "9760a081e78556aaa5dd7c5078f1c008ebef56866e2bae9783612226f53fcb2a",
+      "path": "data/source-library/catholic-hymns/enc/337 미사 시작-하이든(2009-10-12).enc"
+    },
+    {
+      "name": "338 영광송(2009-10-28).enc",
+      "bytes": 20475,
+      "sha256": "2a677d032dd4002ac873eefad06cfa594973bf6e6d464ee02ef74f6521ba15f3",
+      "path": "data/source-library/catholic-hymns/enc/338 영광송(2009-10-28).enc"
+    },
+    {
+      "name": "339 복음 환호송(2009-10-28).enc",
+      "bytes": 19657,
+      "sha256": "fed4d455950085ef6c23e8b74e0f3bfb990814eacef1daa149b0b7f229425020",
+      "path": "data/source-library/catholic-hymns/enc/339 복음 환호송(2009-10-28).enc",
+      "existingReference": "docs/references/catholic-enc/339 복음 환호송(2009-10-28).enc"
+    },
+    {
+      "name": "340 봉헌(2009-10-28).enc",
+      "bytes": 22051,
+      "sha256": "66af9865947dca5757ab2371af8e40d95136c5faf5a87e3a4bded9d898de7c6c",
+      "path": "data/source-library/catholic-hymns/enc/340 봉헌(2009-10-28).enc"
+    },
+    {
+      "name": "341 거룩하시도다(2009-10-28).enc",
+      "bytes": 18075,
+      "sha256": "831d02283c643d04af1b958d1244f63c083fc8c3e61ca232153f5f10afa46371",
+      "path": "data/source-library/catholic-hymns/enc/341 거룩하시도다(2009-10-28).enc",
+      "existingReference": "docs/references/catholic-enc/341 거룩하시도다(2009-10-28).enc"
+    },
+    {
+      "name": "342 제물 드리니(2009-10-28).enc",
+      "bytes": 22595,
+      "sha256": "eec18c76e188498b0a02b9adf0af3716053a12d212caf359035216317579efd9",
+      "path": "data/source-library/catholic-hymns/enc/342 제물 드리니(2009-10-28).enc"
+    },
+    {
+      "name": "343 하느님의 어린양(2009-10-28).enc",
+      "bytes": 21645,
+      "sha256": "730d87ddd20324a7dd2e01fa1a726f9ecb24f0bc4aadbc6fc8f758bb10cc98a7",
+      "path": "data/source-library/catholic-hymns/enc/343 하느님의 어린양(2009-10-28).enc",
+      "existingReference": "docs/references/catholic-enc/343 하느님의 어린양(2009-10-28).enc"
+    },
+    {
+      "name": "343 하느님의 어린양.enc",
+      "bytes": 22143,
+      "sha256": "a877f41f2bc30d63854d1d366b319cd053d61fa727074b30e5ec7c4e0591fa6f",
+      "path": "data/source-library/catholic-hymns/enc/343 하느님의 어린양.enc",
+      "existingReference": "docs/references/catholic-enc/343 하느님의 어린양.enc"
+    },
+    {
+      "name": "344 영성체(2009-10-28).enc",
+      "bytes": 25219,
+      "sha256": "6704c260ab59762bef3a9647d47f3b853e15862087076a9a71c40a0446cff9e5",
+      "path": "data/source-library/catholic-hymns/enc/344 영성체(2009-10-28).enc"
+    },
+    {
+      "name": "344 영성체.enc",
+      "bytes": 24759,
+      "sha256": "eb8c34ed003c7b169c6a6970b533bc6b76b1cd65ac1b434ff698590b46728e5b",
+      "path": "data/source-library/catholic-hymns/enc/344 영성체.enc"
+    },
+    {
+      "name": "345 미사 끝(2009-10-28).enc",
+      "bytes": 23589,
+      "sha256": "3222146d214fb94d96c377b2367b68c6c95819f409b6e363d29a67c42bd22c16",
+      "path": "data/source-library/catholic-hymns/enc/345 미사 끝(2009-10-28).enc"
+    },
+    {
+      "name": "346 미사시작(혼인)-이문근(2009-10-31).enc",
+      "bytes": 20093,
+      "sha256": "ac926e3aea2b3afcaab56941e01c21f33d4efa9a7fcb410ac00f65d5824e31f4",
+      "path": "data/source-library/catholic-hymns/enc/346 미사시작(혼인)-이문근(2009-10-31).enc"
+    },
+    {
+      "name": "347 봉 헌(2009-10-31).enc",
+      "bytes": 20629,
+      "sha256": "8607414c4d5863e889694e45f513527ef9755dcdf11fd473fdadeb2eb4ae144c",
+      "path": "data/source-library/catholic-hymns/enc/347 봉 헌(2009-10-31).enc"
+    },
+    {
+      "name": "348 거룩하시도다(2009-11-4).enc",
+      "bytes": 18017,
+      "sha256": "31408d56b55b42de48fd5108941714f5234f038ee1a4137bc25596165216e307",
+      "path": "data/source-library/catholic-hymns/enc/348 거룩하시도다(2009-11-4).enc",
+      "existingReference": "docs/references/catholic-enc/348 거룩하시도다(2009-11-4).enc"
+    },
+    {
+      "name": "349 마침성가(2009-11-4).enc",
+      "bytes": 19755,
+      "sha256": "6cf4d80229845cc919ee5ec88ef9377b1fa17616359d59dc34461a700b212921",
+      "path": "data/source-library/catholic-hymns/enc/349 마침성가(2009-11-4).enc"
+    },
+    {
+      "name": "350 자비송(위령)-김대붕(2009-12-3).enc",
+      "bytes": 17679,
+      "sha256": "1ae08c3ee71b81dfdec960abf0ac2b3eca46cd6bef585424f3d9edb732dfc77e",
+      "path": "data/source-library/catholic-hymns/enc/350 자비송(위령)-김대붕(2009-12-3).enc",
+      "existingReference": "docs/references/catholic-enc/350 자비송(위령)-김대붕(2009-12-3).enc"
+    },
+    {
+      "name": "351 거룩하시도다(2009-12-3).enc",
+      "bytes": 18787,
+      "sha256": "106176d3709f912a76535e28ca87d1d840792e3828f935c7e253deb14c92c7f6",
+      "path": "data/source-library/catholic-hymns/enc/351 거룩하시도다(2009-12-3).enc",
+      "existingReference": "docs/references/catholic-enc/351 거룩하시도다(2009-12-3).enc"
+    },
+    {
+      "name": "352 하느님의 어린양(2009-12-3).enc",
+      "bytes": 17289,
+      "sha256": "d6ee75feea580529f22d526e0a6f82e4787b98ccf3057fcbfbdc12a2e6a42e96",
+      "path": "data/source-library/catholic-hymns/enc/352 하느님의 어린양(2009-12-3).enc",
+      "existingReference": "docs/references/catholic-enc/352 하느님의 어린양(2009-12-3).enc"
+    },
+    {
+      "name": "353 입당송(위령)-최병철(2009-12-3).enc",
+      "bytes": 27047,
+      "sha256": "8b680bd926096c8800876e69cdcde0fd19f6ca880aa856ab626dcddbc0617cef",
+      "path": "data/source-library/catholic-hymns/enc/353 입당송(위령)-최병철(2009-12-3).enc"
+    },
+    {
+      "name": "354 자비송(2009-12-3).enc",
+      "bytes": 21284,
+      "sha256": "f6a9b443bbdeb5c8f3d1c12f58e850ae19c114592491df229c4e855934d62522",
+      "path": "data/source-library/catholic-hymns/enc/354 자비송(2009-12-3).enc",
+      "existingReference": "docs/references/catholic-enc/354 자비송(2009-12-3).enc"
+    },
+    {
+      "name": "355 화답송(2010-11-1).enc",
+      "bytes": 18577,
+      "sha256": "3b571a0b13e3e56df93094f9adbc76324743484106b660cccf4dd8a3c8fa71cf",
+      "path": "data/source-library/catholic-hymns/enc/355 화답송(2010-11-1).enc"
+    },
+    {
+      "name": "356 연송(2010-11-1).enc",
+      "bytes": 18735,
+      "sha256": "a0f55f192cbc6bf0b1ef243ca152f952b186ffa2133b5a24b16607bfd25c7e97",
+      "path": "data/source-library/catholic-hymns/enc/356 연송(2010-11-1).enc"
+    },
+    {
+      "name": "357 거룩하시도다(2010-11-1).enc",
+      "bytes": 23281,
+      "sha256": "cfa6b8ef26f3695f26b43971f9035782811e2013d4467c0cae4ca7aef6841b02",
+      "path": "data/source-library/catholic-hymns/enc/357 거룩하시도다(2010-11-1).enc",
+      "existingReference": "docs/references/catholic-enc/357 거룩하시도다(2010-11-1).enc"
+    },
+    {
+      "name": "358 하느님의 어린양(2011-1-20).enc",
+      "bytes": 17547,
+      "sha256": "a70d7a96d274bb71a365f1fea0e02b80bf244482719c383097800d9989502a8c",
+      "path": "data/source-library/catholic-hymns/enc/358 하느님의 어린양(2011-1-20).enc",
+      "existingReference": "docs/references/catholic-enc/358 하느님의 어린양(2011-1-20).enc"
+    },
+    {
+      "name": "359 영성체송(2011-1-20).enc",
+      "bytes": 16889,
+      "sha256": "a206a94cf15096cf702dc45031a548333ae826f796ca107ac1ad3e7e0e0293b4",
+      "path": "data/source-library/catholic-hymns/enc/359 영성체송(2011-1-20).enc"
+    },
+    {
+      "name": "360 화답송(2012-4-23).enc",
+      "bytes": 18591,
+      "sha256": "7d95b63a9fd0da11193910e045b0cdffb5e601bed20f2692568d66721df89a0f",
+      "path": "data/source-library/catholic-hymns/enc/360 화답송(2012-4-23).enc"
+    },
+    {
+      "name": "361 화답송(2012-7-9).enc",
+      "bytes": 9949,
+      "sha256": "eefe91e7a02e6294fde6697c0949854f7e4cc149d12f4f19295364206502abf3",
+      "path": "data/source-library/catholic-hymns/enc/361 화답송(2012-7-9).enc"
+    },
+    {
+      "name": "362 화답송(2012-7-9).enc",
+      "bytes": 11035,
+      "sha256": "32358f37c65a6b5b53d369a7d012dfea2d0b87018b960ff8aa4328eea657da72",
+      "path": "data/source-library/catholic-hymns/enc/362 화답송(2012-7-9).enc"
+    },
+    {
+      "name": "363 예수님의 말씀을(2012-7-9).enc",
+      "bytes": 20468,
+      "sha256": "462249f15a0b8af4852f3a5cd40ba64268cce3afaa1bf65e179890dbb9bcbc7e",
+      "path": "data/source-library/catholic-hymns/enc/363 예수님의 말씀을(2012-7-9).enc"
+    },
+    {
+      "name": "364 복음환호송(2012-7-14).enc",
+      "bytes": 19550,
+      "sha256": "8dadf870a8bde815480b05f28e3e00e9906a9b289c9c1315944885cb972d07ba",
+      "path": "data/source-library/catholic-hymns/enc/364 복음환호송(2012-7-14).enc",
+      "existingReference": "docs/references/catholic-enc/364 복음환호송(2012-7-14).enc"
+    },
+    {
+      "name": "365 복음환호송(2014-4-25).enc",
+      "bytes": 18468,
+      "sha256": "678709a6cf60abeb7e335aa4b2e992d6b08a747a48d2bc4b092d1490c1c28fcd",
+      "path": "data/source-library/catholic-hymns/enc/365 복음환호송(2014-4-25).enc",
+      "existingReference": "docs/references/catholic-enc/365 복음환호송(2014-4-25).enc"
+    },
+    {
+      "name": "366 복음환호송(2014-4-25).enc",
+      "bytes": 18744,
+      "sha256": "68dbf2fb12bc0c7b23acfcfff69b3fb11c1a807be034f68448aec920d43f2166",
+      "path": "data/source-library/catholic-hymns/enc/366 복음환호송(2014-4-25).enc",
+      "existingReference": "docs/references/catholic-enc/366 복음환호송(2014-4-25).enc"
+    },
+    {
+      "name": "367-368 보편지향기도 응답(2014-4-26).enc",
+      "bytes": 20230,
+      "sha256": "086d3407122d7bfb041d9c948b9a022d81bfc8e0852cd258a07c24cedbe5ee2b",
+      "path": "data/source-library/catholic-hymns/enc/367-368 보편지향기도 응답(2014-4-26).enc"
+    },
+    {
+      "name": "369-370 보편지향기도 응답(2014-4-26).enc",
+      "bytes": 19494,
+      "sha256": "16fa5c59d7d604c3eb1932f817592c36ccd81ce43da29664364a5a51a4b04713",
+      "path": "data/source-library/catholic-hymns/enc/369-370 보편지향기도 응답(2014-4-26).enc"
+    },
+    {
+      "name": "371-372 보편지향-신앙의(2014-4-26).enc",
+      "bytes": 24862,
+      "sha256": "f0a7f0c81a6709dda0a84b96ba30bff170d2cffb48c11fccf26beb29abd5e021",
+      "path": "data/source-library/catholic-hymns/enc/371-372 보편지향-신앙의(2014-4-26).enc"
+    },
+    {
+      "name": "373 신앙의 신비여(2014-4-26).enc",
+      "bytes": 21842,
+      "sha256": "68e4b0372d361c2f29846ca1bece6f2cb709fb049f1b853ce8c5b94004e8376e",
+      "path": "data/source-library/catholic-hymns/enc/373 신앙의 신비여(2014-4-26).enc",
+      "existingReference": "docs/references/catholic-enc/373 신앙의 신비여(2014-4-26).enc"
+    },
+    {
+      "name": "374 신앙의 신비여(2014-4-26).enc",
+      "bytes": 22090,
+      "sha256": "b93791d45854b94173f18502ae1673ea2e035a0e9eee04295125424231144db2",
+      "path": "data/source-library/catholic-hymns/enc/374 신앙의 신비여(2014-4-26).enc",
+      "existingReference": "docs/references/catholic-enc/374 신앙의 신비여(2014-4-26).enc"
+    },
+    {
+      "name": "375 신앙의 신비여(2014-4-26).enc",
+      "bytes": 25534,
+      "sha256": "507f524a9b0c5757fb2501c1cda7acfc7b7e582891d1d2bd693aee283008d342",
+      "path": "data/source-library/catholic-hymns/enc/375 신앙의 신비여(2014-4-26).enc",
+      "existingReference": "docs/references/catholic-enc/375 신앙의 신비여(2014-4-26).enc"
+    },
+    {
+      "name": "376 신앙의 신비여(2014-4-26).enc",
+      "bytes": 22444,
+      "sha256": "98a5f4c5623ad1732b6a1ad06295393dd57c08fc3f393f2c5e1eef4c10c11487",
+      "path": "data/source-library/catholic-hymns/enc/376 신앙의 신비여(2014-4-26).enc",
+      "existingReference": "docs/references/catholic-enc/376 신앙의 신비여(2014-4-26).enc"
+    },
+    {
+      "name": "377-379 아멘(2014-4-27).enc",
+      "bytes": 21354,
+      "sha256": "52af94040330f2e50ca40b708c1036458ce39fbf83f99b983b698d27494e20fc",
+      "path": "data/source-library/catholic-hymns/enc/377-379 아멘(2014-4-27).enc",
+      "existingReference": "docs/references/catholic-enc/377-379 아멘(2014-4-27).enc"
+    },
+    {
+      "name": "380-382 아멘(2014-4-27).enc",
+      "bytes": 19296,
+      "sha256": "c8a340cd13b3264b1f2fa15051b0f6e45560b861183eca9e81cedb96bb88e9da",
+      "path": "data/source-library/catholic-hymns/enc/380-382 아멘(2014-4-27).enc",
+      "existingReference": "docs/references/catholic-enc/380-382 아멘(2014-4-27).enc"
+    },
+    {
+      "name": "383-385 아멘(2014-4-27).enc",
+      "bytes": 22372,
+      "sha256": "01513ddd59142bc59074566f9438e00dfd194739ac53287ec12501a95e047c24",
+      "path": "data/source-library/catholic-hymns/enc/383-385 아멘(2014-4-27).enc",
+      "existingReference": "docs/references/catholic-enc/383-385 아멘(2014-4-27).enc"
+    },
+    {
+      "name": "386 아멘(2014-4-27).enc",
+      "bytes": 18480,
+      "sha256": "4ed3b4aa646431606c2b0befa67bac9d666db05bc8bf84750712225b620da8af",
+      "path": "data/source-library/catholic-hymns/enc/386 아멘(2014-4-27).enc",
+      "existingReference": "docs/references/catholic-enc/386 아멘(2014-4-27).enc"
+    },
+    {
+      "name": "387 주님의 기도.enc",
+      "bytes": 28301,
+      "sha256": "b6883255a14f5a98b32e3014a65b991c1050e94141319a755367d26319da11a9",
+      "path": "data/source-library/catholic-hymns/enc/387 주님의 기도.enc",
+      "existingReference": "docs/references/catholic-enc/387 주님의 기도.enc"
+    },
+    {
+      "name": "388 주님의 기도(2014-4-27).enc",
+      "bytes": 40126,
+      "sha256": "fc80e9a533598ea2c4a7d5279a03088135c9b4231b43160e02ac20d42a229af5",
+      "path": "data/source-library/catholic-hymns/enc/388 주님의 기도(2014-4-27).enc",
+      "existingReference": "docs/references/catholic-enc/388 주님의 기도(2014-4-27).enc"
+    },
+    {
+      "name": "389 주님께 나라와(2014-4-27).enc",
+      "bytes": 17182,
+      "sha256": "eef8bf820a7585f39b49546d6cb8d6e395840b308e2c742932875f5fcf7b2bfb",
+      "path": "data/source-library/catholic-hymns/enc/389 주님께 나라와(2014-4-27).enc"
+    },
+    {
+      "name": "390 주님께 나라와(2014-4-27).enc",
+      "bytes": 18904,
+      "sha256": "34ddff38b7325e1fb7a190378f6ea36c0161c3e30134eba6d52f45a0ec3393f5",
+      "path": "data/source-library/catholic-hymns/enc/390 주님께 나라와(2014-4-27).enc"
+    },
+    {
+      "name": "391-392 교회선법여덟가지(2014-4-28).enc",
+      "bytes": 18216,
+      "sha256": "c748d4c92088e1e2f3439e871a268bb3e027d6a46a333207e70c2f0024f2a06c",
+      "path": "data/source-library/catholic-hymns/enc/391-392 교회선법여덟가지(2014-4-28).enc"
+    },
+    {
+      "name": "393-394 교회선법여덟가지(2014-4-28).enc",
+      "bytes": 18136,
+      "sha256": "8a27ef7f75762f4b5b9a2459729353e763201415be8eb9ff007be7222fb9d74a",
+      "path": "data/source-library/catholic-hymns/enc/393-394 교회선법여덟가지(2014-4-28).enc"
+    },
+    {
+      "name": "395-396 교회선법여덟가지(2014-4-28).enc",
+      "bytes": 18004,
+      "sha256": "bd7eb334fecabbd772297054def888f72c29d90a3363d95c3e295465c9d1ccc3",
+      "path": "data/source-library/catholic-hymns/enc/395-396 교회선법여덟가지(2014-4-28).enc"
+    },
+    {
+      "name": "397-398 교회선법여덟가지(2014-4-28).enc",
+      "bytes": 17680,
+      "sha256": "05f42799155d1cf6ba211ccc38cd3679d1855095c39db046fe325326f689e483",
+      "path": "data/source-library/catholic-hymns/enc/397-398 교회선법여덟가지(2014-4-28).enc"
+    },
+    {
+      "name": "399 주님 안에 하나.enc",
+      "bytes": 17943,
+      "sha256": "4cf8a81fb58e59795286eb56cf8a90ed086f0ae037bf543408ebf51229bb22de",
+      "path": "data/source-library/catholic-hymns/enc/399 주님 안에 하나.enc"
+    },
+    {
+      "name": "400 주님과 나는.enc",
+      "bytes": 18935,
+      "sha256": "1e50735abd3717910e339a29052f90ae20503ac2e935102b1d44b9990026c2ca",
+      "path": "data/source-library/catholic-hymns/enc/400 주님과 나는.enc"
+    },
+    {
+      "name": "401 주를 찬미하여라_시148.enc",
+      "bytes": 19995,
+      "sha256": "54f1e140b9e4ea01cb712672583df9d7c4cc0fe9993b59066063730303bb6b59",
+      "path": "data/source-library/catholic-hymns/enc/401 주를 찬미하여라_시148.enc"
+    },
+    {
+      "name": "402 세상은 아름다워라.enc",
+      "bytes": 13661,
+      "sha256": "169e5ecd1fde89a6b35a1e6df39665ef2fcb361dc1927d60a392d0a4125fcfd7",
+      "path": "data/source-library/catholic-hymns/enc/402 세상은 아름다워라.enc"
+    },
+    {
+      "name": "403 가난한 자입니다.enc",
+      "bytes": 18317,
+      "sha256": "928dbc932c4b4aac56eadeb4d2c6abb632ee2a36e1683d7cb16be2e6fd01340f",
+      "path": "data/source-library/catholic-hymns/enc/403 가난한 자입니다.enc"
+    },
+    {
+      "name": "404 나는 주님을 찾습니다.enc",
+      "bytes": 15129,
+      "sha256": "1ebd01efc192fb8494a1bc60105040e19f3fdabf7c121faea328e8973d52613c",
+      "path": "data/source-library/catholic-hymns/enc/404 나는 주님을 찾습니다.enc"
+    },
+    {
+      "name": "405 찬란한 광명이 내리던 날.enc",
+      "bytes": 17693,
+      "sha256": "00bbeaaaab3db6c8bf3f18c14eea62701b3a575a8e8b6cfbc0b446ad941ee99e",
+      "path": "data/source-library/catholic-hymns/enc/405 찬란한 광명이 내리던 날.enc"
+    },
+    {
+      "name": "406 세상에 외치고 싶어(4부).enc",
+      "bytes": 18948,
+      "sha256": "b2c34a5c16d8ec8e0ed5ba186fa9229f1b21dc1fe8b2f94ff993a1365e881909",
+      "path": "data/source-library/catholic-hymns/enc/406 세상에 외치고 싶어(4부).enc"
+    },
+    {
+      "name": "406 세상에 외치고 싶어.enc",
+      "bytes": 16923,
+      "sha256": "47d95ac1faba78ae4760b19d867d96fa38dec98aff13cc5d1545abbd9d91668e",
+      "path": "data/source-library/catholic-hymns/enc/406 세상에 외치고 싶어.enc"
+    },
+    {
+      "name": "407 하나이신 천주.enc",
+      "bytes": 20901,
+      "sha256": "63fb11a592815f2c8bd60927ca21af953cb6e9e4ad8791332576c417225fd225",
+      "path": "data/source-library/catholic-hymns/enc/407 하나이신 천주.enc"
+    },
+    {
+      "name": "408 주의 영광.enc",
+      "bytes": 23339,
+      "sha256": "2dbe08970d4db81ff88840d2c515676cb5fa6b4c7256501625846d39b5a68b9b",
+      "path": "data/source-library/catholic-hymns/enc/408 주의 영광.enc"
+    },
+    {
+      "name": "409 아침 저녁.enc",
+      "bytes": 20077,
+      "sha256": "8921545c4ab38bada90b91800ca1479d632065994cf0dd0c199a99057b0a0513",
+      "path": "data/source-library/catholic-hymns/enc/409 아침 저녁.enc"
+    },
+    {
+      "name": "410 예수 생각.enc",
+      "bytes": 15993,
+      "sha256": "88797ed15261c3ab4ba67d02f784dbbb0faa15709c9fcfa98776c1487759d87f",
+      "path": "data/source-library/catholic-hymns/enc/410 예수 생각.enc"
+    },
+    {
+      "name": "411 무궁세 우리 주를.enc",
+      "bytes": 20473,
+      "sha256": "500d0d559f0245eb43102ecd7391a039498d4d7744837f6de903388cf51a8d52",
+      "path": "data/source-library/catholic-hymns/enc/411 무궁세 우리 주를.enc"
+    },
+    {
+      "name": "412 만물의 이름 초월해.enc",
+      "bytes": 19191,
+      "sha256": "e139db661e85fb6bd88b9d21d5d9e97c998ff3b9fdb13de54b4fc1479b9d315a",
+      "path": "data/source-library/catholic-hymns/enc/412 만물의 이름 초월해.enc"
+    },
+    {
+      "name": "413 예루살렘 내  복된 집.enc",
+      "bytes": 17173,
+      "sha256": "1c8fccf6100de4f482a9a1226e84f22b6ce386d64c2eaded7bb7320252646594",
+      "path": "data/source-library/catholic-hymns/enc/413 예루살렘 내  복된 집.enc"
+    },
+    {
+      "name": "414 사랑하는 사람은 누구나_요한 4,7-12.enc",
+      "bytes": 18837,
+      "sha256": "9365fe464a1fb2c64c76d953b3af8c4be775f5c19e61ff8ac07f8492609a1a48",
+      "path": "data/source-library/catholic-hymns/enc/414 사랑하는 사람은 누구나_요한 4,7-12.enc"
+    },
+    {
+      "name": "415 사랑이 없으면_1고린13.enc",
+      "bytes": 20856,
+      "sha256": "78b5381a9bcbad5e52e65b4fa097cc051309620585952c8bbc3b6e5cb063a5a2",
+      "path": "data/source-library/catholic-hymns/enc/415 사랑이 없으면_1고린13.enc"
+    },
+    {
+      "name": "416 좋기도 좋을시고(2014-4-28).enc",
+      "bytes": 29226,
+      "sha256": "d2273088b65dbfdb8e883e0e86377f285d89316afaf18cd7c801b72a6243a2ef",
+      "path": "data/source-library/catholic-hymns/enc/416 좋기도 좋을시고(2014-4-28).enc"
+    },
+    {
+      "name": "417 주여 영광과 찬미를_다니3,57-58.enc",
+      "bytes": 24445,
+      "sha256": "1bc838ec2ba8446527e654626c966379b919fac844e0c846d38d224fcb2e456b",
+      "path": "data/source-library/catholic-hymns/enc/417 주여 영광과 찬미를_다니3,57-58.enc"
+    },
+    {
+      "name": "418 새로운 노래를(2014-4-28).enc",
+      "bytes": 23406,
+      "sha256": "3b811b3a86153954ba8023c3fd5974c6eaf236c81320197ddf08b9a813ce15bd",
+      "path": "data/source-library/catholic-hymns/enc/418 새로운 노래를(2014-4-28).enc"
+    },
+    {
+      "name": "419 밀알 하나가_요한12,24-25.enc",
+      "bytes": 15143,
+      "sha256": "54eea10ddcb6e28f5c63aff8c3e8ea5c8b2e135272728af94c6d07b91d6ecc73",
+      "path": "data/source-library/catholic-hymns/enc/419 밀알 하나가_요한12,24-25.enc"
+    },
+    {
+      "name": "420 주님을 항상 내 앞에 모시오니(2014-4-28).enc",
+      "bytes": 26682,
+      "sha256": "5f0d5184170c7828aa2b80fbefc9f39bd9a9e788af3c7605790e1648db2ffeeb",
+      "path": "data/source-library/catholic-hymns/enc/420 주님을 항상 내 앞에 모시오니(2014-4-28).enc"
+    },
+    {
+      "name": "421 나는 세상의 빛입니댜_요한8,12.enc",
+      "bytes": 23692,
+      "sha256": "460b8b6887376363a2b0fa7b8be68cb9ef82c66ab8bbdb0489524b4b423118b8",
+      "path": "data/source-library/catholic-hymns/enc/421 나는 세상의 빛입니댜_요한8,12.enc"
+    },
+    {
+      "name": "422 당신을 애틋이 찾나이다_시63.enc",
+      "bytes": 17541,
+      "sha256": "58391fecd2529e1fb4e292cac4d029a1c53c138805d1c24166c96652ba975272",
+      "path": "data/source-library/catholic-hymns/enc/422 당신을 애틋이 찾나이다_시63.enc"
+    },
+    {
+      "name": "423 천년도 당신 눈에는_시90.enc",
+      "bytes": 19485,
+      "sha256": "7e2a0c19cc6e3ae40ff59ccb8dcea262a063b2495ef0e3ccc9494542ad658588",
+      "path": "data/source-library/catholic-hymns/enc/423 천년도 당신 눈에는_시90.enc"
+    },
+    {
+      "name": "424 주님을 찬양하라 예루살렘아_시147.enc",
+      "bytes": 14757,
+      "sha256": "8ab6413f19f21914ffb5146ec612d025023382bf402c92d5f4080145b8df8970",
+      "path": "data/source-library/catholic-hymns/enc/424 주님을 찬양하라 예루살렘아_시147.enc"
+    },
+    {
+      "name": "425 만군의 주님이여_시84.enc",
+      "bytes": 17981,
+      "sha256": "5b284bf6f68ca675b11e920452b20fcae1c3501b275238dae2d54a44c6146bda",
+      "path": "data/source-library/catholic-hymns/enc/425 만군의 주님이여_시84.enc"
+    },
+    {
+      "name": "426 주님의 집에 가자 할 때.enc",
+      "bytes": 15379,
+      "sha256": "1116a14d7f7add466d87de246fe4872488eb1451999c69585630f6c12a403ec2",
+      "path": "data/source-library/catholic-hymns/enc/426 주님의 집에 가자 할 때.enc"
+    },
+    {
+      "name": "427 나는 거니오리다(2014-4-28).enc",
+      "bytes": 22904,
+      "sha256": "b437dadee5dcae70db8b9ea0dbc3c3f5ab63e9b4113d8ad705d5ebe794892c30",
+      "path": "data/source-library/catholic-hymns/enc/427 나는 거니오리다(2014-4-28).enc"
+    },
+    {
+      "name": "428 무엇을 먹을까_마태 6,31-33.enc",
+      "bytes": 21153,
+      "sha256": "fdf935cc7f54054434f8dcce385690a1299f55ae77827a0c1bc99dc8430f1340",
+      "path": "data/source-library/catholic-hymns/enc/428 무엇을 먹을까_마태 6,31-33.enc"
+    },
+    {
+      "name": "429 알렐루야_시150.enc",
+      "bytes": 19751,
+      "sha256": "551482c0750bd36ad190361af95b1b5ca195b3ebc86806617e5e3f6638c42a8c",
+      "path": "data/source-library/catholic-hymns/enc/429 알렐루야_시150.enc"
+    },
+    {
+      "name": "430 기쁨으로 주님 섬겨드려라(2014-4-28).enc",
+      "bytes": 24178,
+      "sha256": "94d9e4da1b9f10c500884588a918baec44a800ec3a325241925ee479bc03d1df",
+      "path": "data/source-library/catholic-hymns/enc/430 기쁨으로 주님 섬겨드려라(2014-4-28).enc"
+    },
+    {
+      "name": "431 찬미의 송가_시148.enc",
+      "bytes": 17475,
+      "sha256": "469ab2c9a73916fd824ca753b2101f48a94c42bf8fdf46bdd552730fefb0abaf",
+      "path": "data/source-library/catholic-hymns/enc/431 찬미의 송가_시148.enc"
+    },
+    {
+      "name": "432 주여 날 인도하소서.enc",
+      "bytes": 19685,
+      "sha256": "00dfbc8f26deb8ef5007d6900dfd399e738a2d87eae97b1c0afda94834ec932f",
+      "path": "data/source-library/catholic-hymns/enc/432 주여 날 인도하소서.enc"
+    },
+    {
+      "name": "433 주님은 나의 목자_시23.enc",
+      "bytes": 20599,
+      "sha256": "c2fcf7a8cd6c6a1c4af1104196d83584e497f5e001d50dfc687ff7d13899e87a",
+      "path": "data/source-library/catholic-hymns/enc/433 주님은 나의 목자_시23.enc"
+    },
+    {
+      "name": "434 산상교훈_마태 5,1-12.enc",
+      "bytes": 14689,
+      "sha256": "b93d6ed3a7184e37f1534541737bfb3d60780e9eb3e3617d6537d8ce18fd14b4",
+      "path": "data/source-library/catholic-hymns/enc/434 산상교훈_마태 5,1-12.enc"
+    },
+    {
+      "name": "435 어린이처럼(2014-4-28).enc",
+      "bytes": 20104,
+      "sha256": "811510cabb397a2301492b8e034fc086db7f327e57d9715724bfe537fd37308b",
+      "path": "data/source-library/catholic-hymns/enc/435 어린이처럼(2014-4-28).enc"
+    },
+    {
+      "name": "436 주 날개 밑.enc",
+      "bytes": 21593,
+      "sha256": "a0e1fc9f2058403922488cbd3297c541cd4e37d541e0331536450bca0f73c046",
+      "path": "data/source-library/catholic-hymns/enc/436 주 날개 밑.enc"
+    },
+    {
+      "name": "437 찬양하라 주님의 이름을_시113.enc",
+      "bytes": 14075,
+      "sha256": "878128244284a7e467f173d9b26968f51c430ad5386609ff27a448f4716cb80d",
+      "path": "data/source-library/catholic-hymns/enc/437 찬양하라 주님의 이름을_시113.enc"
+    },
+    {
+      "name": "438 주께 감사드리자.enc",
+      "bytes": 12467,
+      "sha256": "c642ca267c12192315c2c866bdf40695fc3187e42aae7156718ff65a3446ec1a",
+      "path": "data/source-library/catholic-hymns/enc/438 주께 감사드리자.enc"
+    },
+    {
+      "name": "439 부드러운 주의 손이.enc",
+      "bytes": 20253,
+      "sha256": "ea9d7c6662200edbd139484d221a36e0e7e3c459da8e0f81c6a517a79f9f7c93",
+      "path": "data/source-library/catholic-hymns/enc/439 부드러운 주의 손이.enc"
+    },
+    {
+      "name": "440 주님의 발자국 아는가.enc",
+      "bytes": 14589,
+      "sha256": "1d8c604aba250c0b05ed2937903e3cccc477e1e957110ca56dddbb4b7dc4c6ff",
+      "path": "data/source-library/catholic-hymns/enc/440 주님의 발자국 아는가.enc"
+    },
+    {
+      "name": "441 주의 나라 임하면.enc",
+      "bytes": 17355,
+      "sha256": "a834140d54cf9c83936b21204e28fc6bfaa288382c305ce12ec2eb242ac0f771",
+      "path": "data/source-library/catholic-hymns/enc/441 주의 나라 임하면.enc"
+    },
+    {
+      "name": "442 주는 우리 행복.enc",
+      "bytes": 19343,
+      "sha256": "0140842048cf15f861a3fa9412640deece52c7aa542f7cd3578d24513da3fb48",
+      "path": "data/source-library/catholic-hymns/enc/442 주는 우리 행복.enc"
+    },
+    {
+      "name": "443 자애로우신 주님_시103.enc",
+      "bytes": 15425,
+      "sha256": "3488df35ddded44a2ff763d03a2ae22f03e6ddd24b43262b2f0da67896eed463",
+      "path": "data/source-library/catholic-hymns/enc/443 자애로우신 주님_시103.enc"
+    },
+    {
+      "name": "444 나는 주를 의지하리라.enc",
+      "bytes": 14987,
+      "sha256": "4acac77093146d4ca63da40dcae7d98973f3b83c2ce9078ed7bd9df05f806d07",
+      "path": "data/source-library/catholic-hymns/enc/444 나는 주를 의지하리라.enc"
+    },
+    {
+      "name": "445 예수님 따르기로.enc",
+      "bytes": 15617,
+      "sha256": "e6e8d09832429fc1a5fbf3193a8dff2671d1926662a3600976f943a83d51ea2b",
+      "path": "data/source-library/catholic-hymns/enc/445 예수님 따르기로.enc"
+    },
+    {
+      "name": "446 우리는 주의 사랑을.enc",
+      "bytes": 18021,
+      "sha256": "73f6f05aaaedf9ba246ff7fa27c840faa51e5145b0a4bc4831c5ebc5d32ffd5b",
+      "path": "data/source-library/catholic-hymns/enc/446 우리는 주의 사랑을.enc"
+    },
+    {
+      "name": "447 찬미 예수님.enc",
+      "bytes": 21977,
+      "sha256": "35b428974169860aa570bfc6a8e4e6ba25450b46c322dd767d35b81965f78301",
+      "path": "data/source-library/catholic-hymns/enc/447 찬미 예수님.enc"
+    },
+    {
+      "name": "448 능하신 말씀을.enc",
+      "bytes": 15783,
+      "sha256": "d53b210d9f57758da64fa2b20babdd14883546c016b07917eba4575383959de7",
+      "path": "data/source-library/catholic-hymns/enc/448 능하신 말씀을.enc"
+    },
+    {
+      "name": "449 부름받은 젊은이(2014-4-28).enc",
+      "bytes": 28714,
+      "sha256": "0a7f8ae1b4cbf6cc3647aa4c2a3b192d29198f32e555b47175574396acce84d8",
+      "path": "data/source-library/catholic-hymns/enc/449 부름받은 젊은이(2014-4-28).enc"
+    },
+    {
+      "name": "450 만방에 나아가서.enc",
+      "bytes": 16627,
+      "sha256": "ff262050623f64defb7be8799f25a0ddf4a55f0b53a0466aa09335d95296ceea",
+      "path": "data/source-library/catholic-hymns/enc/450 만방에 나아가서.enc"
+    },
+    {
+      "name": "451 주께 나아가리다.enc",
+      "bytes": 14067,
+      "sha256": "174e19f18bacb613c0a3cb7006c6419428fd69ba797e78f1de00a511ef29506b",
+      "path": "data/source-library/catholic-hymns/enc/451 주께 나아가리다.enc"
+    },
+    {
+      "name": "452 위험에 빠진 자에게.enc",
+      "bytes": 17099,
+      "sha256": "837a5d3cd1e89bca1372a0fa0267112d40ed201727c92f419ec6cfb007f44ca5",
+      "path": "data/source-library/catholic-hymns/enc/452 위험에 빠진 자에게.enc"
+    },
+    {
+      "name": "453 푸르른 시냇가의.enc",
+      "bytes": 20951,
+      "sha256": "0ae65cba4fdbef655bcd001c04068f7656f2c50ba8a092be2b4b4f23d47baf42",
+      "path": "data/source-library/catholic-hymns/enc/453 푸르른 시냇가의.enc"
+    },
+    {
+      "name": "454 기쁜 나의 집(2014-4-28).enc",
+      "bytes": 22556,
+      "sha256": "c86e8da96cdb073445460e5262124f2b874844289a617f0bd75267637c315b1f",
+      "path": "data/source-library/catholic-hymns/enc/454 기쁜 나의 집(2014-4-28).enc"
+    },
+    {
+      "name": "455 주님을 따르려 모여 있는 우리.enc",
+      "bytes": 16717,
+      "sha256": "d968f69b58bc5768a97c653e81a0c5b0e834f90685d1b30e218ad0b2d1b5456c",
+      "path": "data/source-library/catholic-hymns/enc/455 주님을 따르려 모여 있는 우리.enc"
+    },
+    {
+      "name": "456 둘이나 셋이 모인 곳에(2014-4-28).enc",
+      "bytes": 18668,
+      "sha256": "0792b10045b409fc112d8c4b7c2d8e6a3b91037c60498ab95ae5de946b1a392b",
+      "path": "data/source-library/catholic-hymns/enc/456 둘이나 셋이 모인 곳에(2014-4-28).enc"
+    },
+    {
+      "name": "457 일하며 기도하리다.enc",
+      "bytes": 15845,
+      "sha256": "8313869fb3df517e09fa07ce2e2b108fc1e9a5ee10a26d4f179c34bd976e9224",
+      "path": "data/source-library/catholic-hymns/enc/457 일하며 기도하리다.enc"
+    },
+    {
+      "name": "458 주의 말씀 듣고.enc",
+      "bytes": 13845,
+      "sha256": "c27655949e4bf19ad6889a8512a7009574971cc522d0058af589434f0ce1cf44",
+      "path": "data/source-library/catholic-hymns/enc/458 주의 말씀 듣고.enc"
+    },
+    {
+      "name": "459 너희는 가진 것 팔아_마태6,19-21.enc",
+      "bytes": 20463,
+      "sha256": "f8dc9e062ea2faa21b29acafe992e61e5ae4bc818c2515e65f13f5b0eafde3be",
+      "path": "data/source-library/catholic-hymns/enc/459 너희는 가진 것 팔아_마태6,19-21.enc"
+    },
+    {
+      "name": "460 오묘한 포도나무.enc",
+      "bytes": 17557,
+      "sha256": "fe019ab041b1ea66353e0e9417bd370eb457383d40f5d7326da66b6e57c92022",
+      "path": "data/source-library/catholic-hymns/enc/460 오묘한 포도나무.enc"
+    },
+    {
+      "name": "461 나는 주님 포도밭.enc",
+      "bytes": 19139,
+      "sha256": "bbb7560d1ef6e0dbd996db1958ea2403467dc13bb2c3c89f75262e7f9549614a",
+      "path": "data/source-library/catholic-hymns/enc/461 나는 주님 포도밭.enc"
+    },
+    {
+      "name": "462 이 세상 지나가고.enc",
+      "bytes": 19715,
+      "sha256": "612c1ec41fd07e674056b6745e36e79b2ee671d16a52bc1f7e7a43f1327c6215",
+      "path": "data/source-library/catholic-hymns/enc/462 이 세상 지나가고.enc"
+    },
+    {
+      "name": "463 순례자의 노래.enc",
+      "bytes": 14149,
+      "sha256": "edfe9539657e7013fb964d5ed26e888aebc8548d81ddc4e0cfa2ad77b6d826a9",
+      "path": "data/source-library/catholic-hymns/enc/463 순례자의 노래.enc"
+    },
+    {
+      "name": "464 예수의 이름.enc",
+      "bytes": 18577,
+      "sha256": "cc26279aba351b4dc988aa04bcbda8ab4c8e85388407f58c43c458df07cede34",
+      "path": "data/source-library/catholic-hymns/enc/464 예수의 이름.enc"
+    },
+    {
+      "name": "465 구원의 희생(2014-4-28).enc",
+      "bytes": 25884,
+      "sha256": "34af5369891ed37291e3573bfa463ef8355fe467a869a124ea7cf0072dbe6afc",
+      "path": "data/source-library/catholic-hymns/enc/465 구원의 희생(2014-4-28).enc"
+    },
+    {
+      "name": "466 위대한 선물이여(2014-4-28).enc",
+      "bytes": 23722,
+      "sha256": "33391665e463f3e7f412e62f245fd6dedf2c2bd1a539e864cc6007eefa77322e",
+      "path": "data/source-library/catholic-hymns/enc/466 위대한 선물이여(2014-4-28).enc"
+    },
+    {
+      "name": "467 만민에게 전하자_이사58,6.enc",
+      "bytes": 20543,
+      "sha256": "7374c32aec64e20e2807c6285cdab6a455c2820a989b40d3964187968ff9a757",
+      "path": "data/source-library/catholic-hymns/enc/467 만민에게 전하자_이사58,6.enc"
+    },
+    {
+      "name": "468 그리스도는 나의바위(2014-4-29).enc",
+      "bytes": 29712,
+      "sha256": "1eb20266a75f3d4a57f55991e480583e819b7c4e3f870a521f9858b48a918124",
+      "path": "data/source-library/catholic-hymns/enc/468 그리스도는 나의바위(2014-4-29).enc"
+    },
+    {
+      "name": "469 사랑하면 알리라(2014-4-28).enc",
+      "bytes": 21614,
+      "sha256": "e1fddca7edbdecd48ee6490d43d61167c26b841091018ba506bb4126777556b7",
+      "path": "data/source-library/catholic-hymns/enc/469 사랑하면 알리라(2014-4-28).enc"
+    },
+    {
+      "name": "470 주님은 나의 목자_시23.enc",
+      "bytes": 39311,
+      "sha256": "11067dcc187543d8c9c2a8a45443ae6a3d0533da2558d65f28d8b3cf1c9471b2",
+      "path": "data/source-library/catholic-hymns/enc/470 주님은 나의 목자_시23.enc"
+    },
+    {
+      "name": "471 강물처럼 흐르는 사랑.enc",
+      "bytes": 12041,
+      "sha256": "78da5193cc5c98b8a1db7d8ea1c82fea7748eb8d7cf518b06aed406b7a9076ec",
+      "path": "data/source-library/catholic-hymns/enc/471 강물처럼 흐르는 사랑.enc"
+    },
+    {
+      "name": "472 주님 저 하늘 펼치시고.enc",
+      "bytes": 18725,
+      "sha256": "1ea5c5c83d85f28c3381a86692d2532257bb6816805c8ed98bb7affc1a82d34b",
+      "path": "data/source-library/catholic-hymns/enc/472 주님 저 하늘 펼치시고.enc"
+    },
+    {
+      "name": "473 세상의 빛이시며.enc",
+      "bytes": 13215,
+      "sha256": "3d41f5dd4ab4a5f5e1dbaab41b70797e9b6b80497eabf2250b1f44397670ce55",
+      "path": "data/source-library/catholic-hymns/enc/473 세상의 빛이시며.enc"
+    },
+    {
+      "name": "474 주여 사랑으로 하나 되게.enc",
+      "bytes": 15599,
+      "sha256": "1132c5bb14c09a26b36a933163f4fd816f9f30c8963fb776ae15f0d4bec4dfd8",
+      "path": "data/source-library/catholic-hymns/enc/474 주여 사랑으로 하나 되게.enc"
+    },
+    {
+      "name": "475 알렐루야(2014-4-29).enc",
+      "bytes": 22700,
+      "sha256": "12ff42b14840ed8518b49b0d8d2de77840d60ba68e89c23c93c007d8e0a151b3",
+      "path": "data/source-library/catholic-hymns/enc/475 알렐루야(2014-4-29).enc"
+    },
+    {
+      "name": "476 위대하신 왕이여.enc",
+      "bytes": 17667,
+      "sha256": "24a660d49f77257b412c1618d470d914980ad6d4df7eb85c1547dae8b70adf18",
+      "path": "data/source-library/catholic-hymns/enc/476 위대하신 왕이여.enc"
+    },
+    {
+      "name": "477 그 소리 온 땅으로(2014-4-29).enc",
+      "bytes": 31058,
+      "sha256": "d331432e7919bee0aade000c74fab07ce64013dc473dddab58bec52b22130549",
+      "path": "data/source-library/catholic-hymns/enc/477 그 소리 온 땅으로(2014-4-29).enc"
+    },
+    {
+      "name": "478 주님께 영광을 드리자.enc",
+      "bytes": 13995,
+      "sha256": "35327ffa3a63d0d96927f8997e7f1252998ac4aa0a40d2a19d634d4450e5f2a8",
+      "path": "data/source-library/catholic-hymns/enc/478 주님께 영광을 드리자.enc"
+    },
+    {
+      "name": "479 기쁜 날.enc",
+      "bytes": 15581,
+      "sha256": "70509eb662995129c2f1059c61aa298e3483e5932a63c5f46645c63c6f45d7a7",
+      "path": "data/source-library/catholic-hymns/enc/479 기쁜 날.enc"
+    },
+    {
+      "name": "480 믿음으로.enc",
+      "bytes": 12821,
+      "sha256": "96b20b633c6b91bcd485434a93047c441c796070d95c0024404478b9d99d0bdb",
+      "path": "data/source-library/catholic-hymns/enc/480 믿음으로.enc"
+    },
+    {
+      "name": "481 요르단 강에서.enc",
+      "bytes": 14541,
+      "sha256": "eaab09f910cc926d8f5d83c5f9578ace0b83daf10a5008cb88d4a6daeff2af35",
+      "path": "data/source-library/catholic-hymns/enc/481 요르단 강에서.enc"
+    },
+    {
+      "name": "482 일월성신 내시고(2014-4-29).enc",
+      "bytes": 23668,
+      "sha256": "cca5ab54d231b8416945a95f433c849b8bffaf42d011d6308d8ac3225f560f85",
+      "path": "data/source-library/catholic-hymns/enc/482 일월성신 내시고(2014-4-29).enc"
+    },
+    {
+      "name": "483 사천 년 고대하던(2014-4-29).enc",
+      "bytes": 25722,
+      "sha256": "2eb9e9a0a08d93f4e28f52108388daec7e578df52969f7110716ebafae7ea0fb",
+      "path": "data/source-library/catholic-hymns/enc/483 사천 년 고대하던(2014-4-29).enc"
+    },
+    {
+      "name": "484 기쁘다 구주 오셨네(2014-4-29).enc",
+      "bytes": 28602,
+      "sha256": "761b454b8d3cbcc2694c9961f2d8bc9af09a256f1d31c4b0aed03942fbdc6a7b",
+      "path": "data/source-library/catholic-hymns/enc/484 기쁘다 구주 오셨네(2014-4-29).enc"
+    },
+    {
+      "name": "485 동방에 나타난 별(2014-4-29).enc",
+      "bytes": 27522,
+      "sha256": "34fdd3a0a8f973b14e451dd009e40de0318e05e2e7f3574fd2d377828efcbace",
+      "path": "data/source-library/catholic-hymns/enc/485 동방에 나타난 별(2014-4-29).enc"
+    },
+    {
+      "name": "486 거룩한 밤(2014-4-29).enc",
+      "bytes": 35812,
+      "sha256": "ac2f8363282f85c5e0002a617dc86dd6003843fcfd4a107d6ae037ccf785fe0a",
+      "path": "data/source-library/catholic-hymns/enc/486 거룩한 밤(2014-4-29).enc"
+    },
+    {
+      "name": "487 동방박사 세사람(편곡).enc",
+      "bytes": 65690,
+      "sha256": "4911f5d3a41588236580bbe312f6625731fea7954f11aa1877195d5f0b7bca62",
+      "path": "data/source-library/catholic-hymns/enc/487 동방박사 세사람(편곡).enc"
+    },
+    {
+      "name": "487 동방의 세 박사(2014-4-29).enc",
+      "bytes": 29268,
+      "sha256": "782894df275e7c6e838fcd0bec5cf346471b21c7c2e8c5977eb6798931c34c1a",
+      "path": "data/source-library/catholic-hymns/enc/487 동방의 세 박사(2014-4-29).enc"
+    },
+    {
+      "name": "488 하늘의 사신(2014-4-29).enc",
+      "bytes": 21760,
+      "sha256": "a557cdaea4ca91832e9e1e5bf69f3e967bfb6d494b8a984ac26e46fa07478447",
+      "path": "data/source-library/catholic-hymns/enc/488 하늘의 사신(2014-4-29).enc"
+    },
+    {
+      "name": "489 보았나 십자가의 주님을(2014-4-30).enc",
+      "bytes": 25186,
+      "sha256": "b921c15be051d636d30d4de3b37179c2a9fdba992716efa51c1d68e99eb82a89",
+      "path": "data/source-library/catholic-hymns/enc/489 보았나 십자가의 주님을(2014-4-30).enc"
+    },
+    {
+      "name": "490 십자가에 가까이(2014-4-30).enc",
+      "bytes": 24162,
+      "sha256": "38f756d668154f7cdf6abdbe55ab7289437ca773a43b5e0a370fa3ac2a0eff34",
+      "path": "data/source-library/catholic-hymns/enc/490 십자가에 가까이(2014-4-30).enc"
+    },
+    {
+      "name": "491 십자가 아래에(2014-4-30).enc",
+      "bytes": 20458,
+      "sha256": "00d560b6f3926be1198c055b3ffc802275b93300892f98ff06ae288c7f616f73",
+      "path": "data/source-library/catholic-hymns/enc/491 십자가 아래에(2014-4-30).enc"
+    },
+    {
+      "name": "492 이날이 주께서 마련하신날(2014-4-30).enc",
+      "bytes": 25284,
+      "sha256": "69c89c9b3cfb8caf795de789da2ec4e7018388c34929f69041c97fc340cc31ed",
+      "path": "data/source-library/catholic-hymns/enc/492 이날이 주께서 마련하신날(2014-4-30).enc"
+    },
+    {
+      "name": "493 살아계신 주 성령.enc",
+      "bytes": 17369,
+      "sha256": "b43d4283f2c6762b0acc87fc7b3fc6e2a7fef521ebbcca6a26a09de7ad2b790e",
+      "path": "data/source-library/catholic-hymns/enc/493 살아계신 주 성령.enc"
+    },
+    {
+      "name": "494 사랑의 불을 놓으소서.enc",
+      "bytes": 14189,
+      "sha256": "fda0dbc72544c34ecd54f8c6b1646dcb200ae901413d730e349cfc53a7cd1829",
+      "path": "data/source-library/catholic-hymns/enc/494 사랑의 불을 놓으소서.enc"
+    },
+    {
+      "name": "495 성령이여 햇살같이.enc",
+      "bytes": 14895,
+      "sha256": "1d839821311c874c0e83a1af89692338a9f06d39f43ce7fa94b1cd269af8139d",
+      "path": "data/source-library/catholic-hymns/enc/495 성령이여 햇살같이.enc"
+    },
+    {
+      "name": "496 주님은 우리 사랑하셨네.enc",
+      "bytes": 24213,
+      "sha256": "a46b6f5214a5707f818fb09e89e6179392b8148a179a3a75535728b6a4c5db52",
+      "path": "data/source-library/catholic-hymns/enc/496 주님은 우리 사랑하셨네.enc"
+    },
+    {
+      "name": "497 우리를 위하여.enc",
+      "bytes": 25708,
+      "sha256": "e7e92a02ec6dabee9e6a8304caac5af1070a8d722d54dc9e907f6ec13afdc7d9",
+      "path": "data/source-library/catholic-hymns/enc/497 우리를 위하여.enc"
+    },
+    {
+      "name": "498 예수여 기리리다.enc",
+      "bytes": 18911,
+      "sha256": "b2da67aa76ff418f7c92deacbd07e92979c811b829f7f5d620af83147198779f",
+      "path": "data/source-library/catholic-hymns/enc/498 예수여 기리리다.enc"
+    },
+    {
+      "name": "499 만찬의 신비.enc",
+      "bytes": 19719,
+      "sha256": "e1ce0350e3409d2f80ef93f851c8057ab1fd33d26b1c433153b20f1bfd795256",
+      "path": "data/source-library/catholic-hymns/enc/499 만찬의 신비.enc"
+    },
+    {
+      "name": "500 평화의 하느님.enc",
+      "bytes": 14895,
+      "sha256": "8d6cbe929b457eb33d36a191c7b50945e9610feeda1ee50f32ee03f23cfb85a2",
+      "path": "data/source-library/catholic-hymns/enc/500 평화의 하느님.enc"
+    },
+    {
+      "name": "501 받으소서 우리 마음.enc",
+      "bytes": 13681,
+      "sha256": "63493ca8e63cab6187bb52b8c2c353b1419a69d6d6620322fecf627672051636",
+      "path": "data/source-library/catholic-hymns/enc/501 받으소서 우리 마음.enc"
+    },
+    {
+      "name": "502 주의 빵을 서로 나누세.enc",
+      "bytes": 16521,
+      "sha256": "98cbb637cb1fd4b2672b67d9a293701337d1157876794c5945c77e48efb451d9",
+      "path": "data/source-library/catholic-hymns/enc/502 주의 빵을 서로 나누세.enc"
+    },
+    {
+      "name": "503 생명의 양식.enc",
+      "bytes": 57195,
+      "sha256": "f155b1b82325dbbea850c25989d71998d4f2292b0c44980fa60e04b2616e2c0c",
+      "path": "data/source-library/catholic-hymns/enc/503 생명의 양식.enc"
+    },
+    {
+      "name": "504 우리와 함게 주여.enc",
+      "bytes": 17079,
+      "sha256": "5b065749c635e435c883795d4060a9ecd9ede505dbf918dd4861702cba242c9f",
+      "path": "data/source-library/catholic-hymns/enc/504 우리와 함게 주여.enc"
+    },
+    {
+      "name": "505 최후의 만찬.enc",
+      "bytes": 14731,
+      "sha256": "5225c2a5468406e90d680b58f09b9945004a7704bfee236e7658cf3fe8b278e2",
+      "path": "data/source-library/catholic-hymns/enc/505 최후의 만찬.enc"
+    },
+    {
+      "name": "506 사랑으로 오신 주여.enc",
+      "bytes": 12997,
+      "sha256": "8a93649e7f4e71a227e58bb7c18b06007f8e9ae9455b3f80720075c90473cc44",
+      "path": "data/source-library/catholic-hymns/enc/506 사랑으로 오신 주여.enc"
+    },
+    {
+      "name": "507 오 에스까 비아또룸(2014-4-30).enc",
+      "bytes": 25982,
+      "sha256": "156d5284c9c8e41d84bd6389879c3a46755cbe5e293f071e61f74dda63110355",
+      "path": "data/source-library/catholic-hymns/enc/507 오 에스까 비아또룸(2014-4-30).enc"
+    },
+    {
+      "name": "508 아베 베룸(2014-5-1).enc",
+      "bytes": 27692,
+      "sha256": "ea1d956cdbf836b6026355afc6a3eae76668ef314de81d027e68190aef013ccc",
+      "path": "data/source-library/catholic-hymns/enc/508 아베 베룸(2014-5-1).enc"
+    },
+    {
+      "name": "509 성심이여.enc",
+      "bytes": 22751,
+      "sha256": "cb82f10ba0c6c413ea01362a53d035dc0bff9f671343ba34becfdec59d94da82",
+      "path": "data/source-library/catholic-hymns/enc/509 성심이여.enc"
+    },
+    {
+      "name": "510 주님께 올리는 기도_시141.enc",
+      "bytes": 28198,
+      "sha256": "5ad03dab87002711cc32e09b05a9390cd8251ed32abfce2ca259e013d9549706",
+      "path": "data/source-library/catholic-hymns/enc/510 주님께 올리는 기도_시141.enc"
+    },
+    {
+      "name": "511 미약하온 우리 제물.enc",
+      "bytes": 16789,
+      "sha256": "a25733c77f95d371c03bc99e7212c1b4c41427c31ff23c7d3a8a0781a553692f",
+      "path": "data/source-library/catholic-hymns/enc/511 미약하온 우리 제물.enc"
+    },
+    {
+      "name": "512 주여 우리는 지금.enc",
+      "bytes": 15035,
+      "sha256": "54788ae850d2c196ee09d6fdce2991bc39aa7d1d0a4573fe04e88b2a126028ab",
+      "path": "data/source-library/catholic-hymns/enc/512 주여 우리는 지금.enc"
+    },
+    {
+      "name": "513 면병과 포도주.enc",
+      "bytes": 13121,
+      "sha256": "2cee576400b5cfe0258a7e70ed716df667cb8aab236185d422ba9067fb534135",
+      "path": "data/source-library/catholic-hymns/enc/513 면병과 포도주.enc"
+    },
+    {
+      "name": "514 주여 대령했나이다(2014-5-1).enc",
+      "bytes": 24738,
+      "sha256": "38010f7ff3a7e5aaa52c6efb082588ced0ae959015c6f09657dd0498cfc1bcfc",
+      "path": "data/source-library/catholic-hymns/enc/514 주여 대령했나이다(2014-5-1).enc"
+    },
+    {
+      "name": "515 주여 자비를 베푸시어(2014-5-1).enc",
+      "bytes": 22148,
+      "sha256": "f2f042e769900a9cfb27d28424cb30b8bde280274049504b9c9f276e526fd22d",
+      "path": "data/source-library/catholic-hymns/enc/515 주여 자비를 베푸시어(2014-5-1).enc"
+    },
+    {
+      "name": "516 주여 당신 얼굴을(2014-5-1).enc",
+      "bytes": 21494,
+      "sha256": "8eb46274a098042b2e32a5cf9149026025cbef89ff6b2d0050f8a0a675ffb1ba",
+      "path": "data/source-library/catholic-hymns/enc/516 주여 당신 얼굴을(2014-5-1).enc"
+    },
+    {
+      "name": "517 내가 절망 속에_시130.enc",
+      "bytes": 20939,
+      "sha256": "8cad3342dc9f955b52e43b7722d0336fa02a0e916e2eee129ddec751ce694959",
+      "path": "data/source-library/catholic-hymns/enc/517 내가 절망 속에_시130.enc"
+    },
+    {
+      "name": "518 선한사람 아흔아홉(2014-5-1).enc",
+      "bytes": 20654,
+      "sha256": "d13f0d28817a9547ae601b04509e8d103c888ab2ebf54ee7db42837cee5d2eda",
+      "path": "data/source-library/catholic-hymns/enc/518 선한사람 아흔아홉(2014-5-1).enc"
+    },
+    {
+      "name": "519 영원한 안식을(2014-5-1).enc",
+      "bytes": 23068,
+      "sha256": "248bfe27d422d2ae05c1cc83263cd1b6b7c3f54e155663e01c17ccf541047d64",
+      "path": "data/source-library/catholic-hymns/enc/519 영원한 안식을(2014-5-1).enc"
+    },
+    {
+      "name": "520 오늘 이 세상 떠난(2014-5-1).enc",
+      "bytes": 23114,
+      "sha256": "9397a455ce3c8becc861ba51302f41f0866598c63d7f3902142a388b1fd0a6cf",
+      "path": "data/source-library/catholic-hymns/enc/520 오늘 이 세상 떠난(2014-5-1).enc"
+    },
+    {
+      "name": "521 고통도 없으리라(2014-5-2).enc",
+      "bytes": 26914,
+      "sha256": "2cc719403a9db1d8f68061b7f68fd5b57a2e0f1d8a83964fc9315861ade8aec7",
+      "path": "data/source-library/catholic-hymns/enc/521 고통도 없으리라(2014-5-2).enc"
+    },
+    {
+      "name": "522 성모송(2014-5-2).enc",
+      "bytes": 29474,
+      "sha256": "885c9d7324d08cf2aff7513046081198558fa83d97fb76fb2e4740ef0011e020",
+      "path": "data/source-library/catholic-hymns/enc/522 성모송(2014-5-2).enc"
+    },
+    {
+      "name": "523 지존하신 천주성모(2014-5-2).enc",
+      "bytes": 21530,
+      "sha256": "a2a1b3c1cde345324344b12b57b5efab1630bda0480f89ae9a12693f020f8d5f",
+      "path": "data/source-library/catholic-hymns/enc/523 지존하신 천주성모(2014-5-2).enc"
+    },
+    {
+      "name": "524 성 마리아는(2014-5-2).enc",
+      "bytes": 23376,
+      "sha256": "602362da3f2812d8129154b794a365f8f79346cb7153da646db468dcf4b361a8",
+      "path": "data/source-library/catholic-hymns/enc/524 성 마리아는(2014-5-2).enc"
+    },
+    {
+      "name": "525 거룩한 동정녀(2014-5-2).enc",
+      "bytes": 23314,
+      "sha256": "8f43c69e7e49a40a652b9d32c7061441b65afa4c4f1c002778feff8d26e14513",
+      "path": "data/source-library/catholic-hymns/enc/525 거룩한 동정녀(2014-5-2).enc"
+    },
+    {
+      "name": "526 즐기소서(2014-5-2).enc",
+      "bytes": 28268,
+      "sha256": "36e76991d9b0c1a376f24f43dc7a47e35e28a1517fbe0dbd3871bc3050bc9db4",
+      "path": "data/source-library/catholic-hymns/enc/526 즐기소서(2014-5-2).enc"
+    },
+    {
+      "name": "527 내 영혼이 주님 안에서(2014-5-2).enc",
+      "bytes": 19774,
+      "sha256": "e5a4794a6fb1cca8492bafeb6549f5e6c7fa233d9d0935b93327b187904a06a9",
+      "path": "data/source-library/catholic-hymns/enc/527 내 영혼이 주님 안에서(2014-5-2).enc"
+    },
+    {
+      "name": "528 축하합니다.enc",
+      "bytes": 18377,
+      "sha256": "552466a04f2c13e081e5a92de7493fdd53b74a472f381017ece100f59c27e923",
+      "path": "data/source-library/catholic-hymns/enc/528 축하합니다.enc"
+    },
+    {
+      "name": "529 이 땅에 빛을.enc",
+      "bytes": 19437,
+      "sha256": "808f0220259cf1e9fa230101eaa9de6c486874aa99a012fd16c360a09be4905f",
+      "path": "data/source-library/catholic-hymns/enc/529 이 땅에 빛을.enc"
+    }
+  ],
+  "policy": "Original locations preserved; library copies SHA256 verified; ENC not converted or executed."
+}

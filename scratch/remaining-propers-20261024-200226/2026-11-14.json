@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-14",
+  "date": "2026-11-14",
+  "observance": "(녹) 연중 제32주간 토요일",
+  "sourceRefs": [
+    "goodnews-20261114"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<우리가 형제들을 돌보아 주어야 합니다. 그렇게 하여 우리는 진리의 협력자가 됩니다.>",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 3서의 말씀입니다.5-8",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "사랑하는 가이오스,",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "5 그대는 형제들을 위하여, 특히 낯선 이들을 위하여",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "무슨 일을 하든 다 성실히 하고 있습니다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "6 그들이 교회 모임에서 그대의 사랑에 관하여 증언하였습니다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "그들이 하느님께 맞갖도록 그대의 도움을 받아",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "여행을 계속할 수 있게 해 주었으면 좋겠습니다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "7 그들은 그리스도를 위하여 길을 나선 사람들로,",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "이교인들에게서는 아무것도 받지 않습니다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "8 그러므로 우리가 그러한 이들을 돌보아 주어야 합니다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "그렇게 하여 우리는 진리의 협력자가 되는 것입니다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261114"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 112(111),1ㄴㄷ-2.3-4.5-6(◎ 1ㄴ)",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 행복하여라, 주님을 경외하는 이!",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 행복하여라, 주님을 경외하고, 그분 계명을 큰 즐거움으로 삼는 이! 그의 후손은 땅에서 융성하고, 올곧은 세대는 복을 받으리라. ◎",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 부귀영화 그의 집에 넘치고, 그의 의로움 길이 이어지리라. 올곧은 이들에게는 어둠 속에서 빛이 솟으리라. 그 빛은 너그럽고 자비로우며 의롭다네. ◎",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 잘되리라, 후하게 꾸어 주고, 자기 일을 바르게 처리하는 이! 그는 언제나 흔들리지 않으리니, 영원히 의인으로 기억되리라. ◎",
+          "sourceRef": "goodnews-20261114"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "2테살 2,14 참조",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 하느님이 복음을 통하여 우리를 부르시어 우리 주 예수 그리스도의 영광을 차지하게 하셨네.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261114"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<하느님께서는 당신께 선택된 이들이 부르짖으면 올바른 판결을 내려 주실 것이다.>",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.18,1-8",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 1 예수님께서는 낙심하지 말고 끊임없이 기도해야 한다는 뜻으로",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "제자들에게 비유를 말씀하셨다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "2 “어떤 고을에 하느님도 두려워하지 않고",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "사람도 대수롭지 않게 여기는 한 재판관이 있었다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "3 또 그 고을에는 과부가 한 사람 있었는데 그는 줄곧 그 재판관에게 가서,",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "‘저와 저의 적대자 사이에 올바른 판결을 내려 주십시오.’ 하고 졸랐다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "4 재판관은 한동안 들어주려고 하지 않다가 마침내 속으로 말하였다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "‘나는 하느님도 두려워하지 않고 사람도 대수롭지 않게 여기지만,",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "5 저 과부가 나를 이토록 귀찮게 하니",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "그에게는 올바른 판결을 내려 주어야겠다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "그렇게 하지 않으면 끝까지 찾아와서 나를 괴롭힐 것이다.’”",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "6 주님께서 다시 이르셨다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "“이 불의한 재판관이 하는 말을 새겨들어라.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "7 하느님께서 당신께 선택된 이들이 밤낮으로 부르짖는데",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "그들에게 올바른 판결을 내려 주지 않으신 채, 그들을 두고 미적거리시겠느냐?",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "8 내가 너희에게 말한다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "하느님께서는 그들에게 지체 없이 올바른 판결을 내려 주실 것이다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "그러나 사람의 아들이 올 때에",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "이 세상에서 믿음을 찾아볼 수 있겠느냐?”",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261114"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261114"
+        }
+      ]
+    }
+  ]
+}

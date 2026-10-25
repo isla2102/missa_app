@@ -1,0 +1,2237 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "label": "2026-10-01 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 selected full preface"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 no embedded Sanctus"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 selected full preface"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 no embedded Sanctus"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 selected full preface"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 no embedded Sanctus"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 selected full preface"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 no embedded Sanctus"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 selected full preface"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 no embedded Sanctus"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 selected full preface"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 no embedded Sanctus"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 Gloria flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 Creed flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 Gloria TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 Creed TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 missing proper preface explicit"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 generic preface not substituted"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 Sanctus once"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 known seasonal case"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 known seasonal case"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 known seasonal case"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 known seasonal case"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,7978 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "label": "2026-10-01 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 raw source hash"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 schema and source references"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 제1독서 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 제1독서 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 복음 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 복음 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 화답송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 화답송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 복음 환호송 GoodNews source"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 복음 환호송 source paragraph equality"
+    },
+    {
+      "pass": true,
+      "label": "inapplicable status forbidden on prayer"
+    },
+    {
+      "pass": true,
+      "label": "inapplicable reading must have no body"
+    },
+    {
+      "pass": true,
+      "label": "92 linked dates"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-01 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-02 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-03 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-04 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-05 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-06 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-07 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-08 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-09 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-10 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 복음 option1 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 복음 option1 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 복음 option1 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-11 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-12 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-13 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-14 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-15 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-16 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-17 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-18 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-19 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-20 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-21 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-22 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-23 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-24 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-25 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-26 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-27 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-28 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-29 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-30 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-10-31 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-03 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-04 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-05 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-06 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-07 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제2독서 option1 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제2독서 option1 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 제2독서 option1 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 제1독서 option1 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 제1독서 option1 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 제1독서 option1 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-09 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-10 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-11 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-12 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-13 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-14 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 복음 option1 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 복음 option1 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 복음 option1 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-16 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-17 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-18 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-19 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-20 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-21 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-23 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-24 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-25 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-26 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-27 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-28 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-30 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-01 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-02 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-03 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-04 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-05 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-06 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-07 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-08 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-09 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-10 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-11 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-12 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-13 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-14 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-15 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-16 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-17 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-18 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-19 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-20 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 제1독서 option1 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 제1독서 option1 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 제1독서 option1 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-21 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-22 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-23 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-24 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-25 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-26 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제1독서 option1 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제1독서 option1 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제1독서 option1 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제2독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제2독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제2독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제2독서 option1 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제2독서 option1 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 제2독서 option1 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 복음 option1 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 복음 option1 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 복음 option1 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-27 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-28 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-29 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-30 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 own document"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 header groups do not overlap"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 제1독서 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 제1독서 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 제1독서 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 absent second reading hidden in flow"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 absent second reading hidden in TOC"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 복음 option0 one closing"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 복음 option0 one response"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 복음 option0 own citation"
+    },
+    {
+      "pass": true,
+      "label": "2026-12-31 psalm/acclamation linked"
+    },
+    {
+      "pass": true,
+      "label": "outside range no borrowed Gospel"
+    },
+    {
+      "pass": true,
+      "label": "actual two Gospel option buttons"
+    },
+    {
+      "pass": true,
+      "label": "actual Gospel option click"
+    },
+    {
+      "pass": true,
+      "label": "alternative selected semantics"
+    },
+    {
+      "pass": true,
+      "label": "actual Oct24 Gospel visible"
+    },
+    {
+      "pass": true,
+      "label": "date restored"
+    },
+    {
+      "pass": true,
+      "label": "Gospel position restored"
+    }
+  ],
+  "errors": [],
+  "dates": 92,
+  "sourceDefaults": [
+    {
+      "date": "2026-11-02",
+      "sourceRef": "goodnews-20261102",
+      "observance": "[(자) 죽은 모든 이를 기억하는 위령의 날 - 첫째 미사]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    },
+    {
+      "date": "2026-12-25",
+      "sourceRef": "goodnews-20261225",
+      "observance": "[(백) 주님 성탄 대축일 - 밤 미사]",
+      "variantCounts": {
+        "제1독서": 1,
+        "제2독서": 1,
+        "화답송": 1,
+        "복음 환호송": 1,
+        "복음": 1
+      },
+      "deferredNotes": {
+        "제1독서": [],
+        "제2독서": [],
+        "화답송": [],
+        "복음 환호송": [],
+        "복음": []
+      },
+      "secondReading": "present",
+      "existingPrayersPreserved": true
+    }
+  ]
+}

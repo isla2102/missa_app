@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-30",
+  "date": "2026-10-30",
+  "observance": "연중 제30주간 금요일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261030"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님을 찾는 마음은 기뻐하여라.\n주님과 그 권능을 구하여라. 언제나 그 얼굴을 찾아라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 영원하신 하느님,\n저희 안에 믿음과 희망과 사랑이 자라나게 하시고\n저희가 하느님의 계명을 지켜 영원한 생명을 얻게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n주님께 올리는 이 예물을 굽어보시고\n저희가 바치는 제사가 주님께 영광이 되게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "당신의 구원에 우리가 환호하며, 하느님 이름으로 깃발을 높이리이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n성체성사의 은혜를 풍부히 내려 주시어\n저희가 거행하는 이 신비를 그대로 실천하게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<여러분 가운데에서 좋은 일을 시작하신 분께서 그리스도의 날까지 그 일을 완성하실 것입니다.>",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 필리피서 시작입니다.1,1-11",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "1 그리스도 예수님의 종 바오로와 티모테오가",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "그리스도 예수님 안에서 사는 필리피의 모든 성도에게,",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "그리고 감독들과 봉사자들에게 인사합니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "2 하느님 우리 아버지와 주 예수 그리스도에게서",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "은총과 평화가 여러분에게 내리기를 빕니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "3 나는 여러분을 기억할 때마다 나의 하느님께 감사를 드립니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "4 그리고 기도할 때마다",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "늘 여러분 모두를 위하여 기쁜 마음으로 기도를 드립니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "5 여러분이 첫날부터 지금까지 복음을 전하는 일에 동참하고 있기 때문입니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "6 여러분 가운데에서 좋은 일을 시작하신 분께서",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "그리스도 예수님의 날까지 그 일을 완성하시리라고 나는 확신합니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "7 내가 여러분 모두를 이렇게 생각하는 것이 나로서는 당연합니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "여러분이 내 마음속에 자리 잡고 있기 때문입니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "내가 갇혀 있을 때나, 복음을 수호하고 확증할 때나",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "여러분은 모두 나와 함께 은총에 동참한 사람들입니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "8 사실 나는 그리스도 예수님의 애정으로",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "여러분 모두를 몹시 그리워하고 있습니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "하느님께서 나의 증인이십니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "9 그리고 내가 기도하는 것은,",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "여러분의 사랑이 지식과 온갖 이해로 더욱더 풍부해져",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "10 무엇이 옳은지 분별할 줄 알게 되는 것입니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "그리하여 여러분이 순수하고 나무랄 데 없는 사람으로",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "그리스도의 날을 맞이하고,",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "11 예수 그리스도를 통하여 오는 의로움의 열매를 가득히 맺어,",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "하느님께 영광과 찬양을 드릴 수 있게 되기를 바랍니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261030"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 111(110),1ㄴㄷㄹ-2.3-4.5-6(◎ 2ㄱ)",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님이 하신 일들 크기도 하여라.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님을 찬송하리라. 올곧은 이들의 모임, 그 집회에서, 내 마음 다하여 찬송하리라. 주님이 하신 일들 크기도 하여라. 그 일 좋아하는 이들이 모두 깨치네. ◎",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 그분 업적은 엄위롭고 존귀하네. 그분 의로움은 영원히 이어지네. 당신 기적들 기억하게 하시니, 주님은 너그럽고 자비로우시다. ◎",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 당신 경외하는 이들에게 양식을 주시고, 언제나 당신 계약을 기억하시네. 위대하신 그 일들 당신 백성에게 알리시고, 민족들의 소유를 그들에게 주셨네. ◎",
+          "sourceRef": "goodnews-20261030"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "요한 10,27 참조",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 내 양들은 내 목소리를 알아듣는다. 나는 그들을 알고 그들은 나를 따른다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261030"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<아들이나 소가 우물에 빠지면 안식일일지라도 끌어내지 않겠느냐?>",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.14,1-6",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "1 예수님께서 어느 안식일에",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "바리사이들의 지도자 가운데 한 사람의 집에 가시어",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "음식을 잡수실 때 일이다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "그들이 예수님을 지켜보고 있는데,",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "2 마침 그분 앞에 수종을 앓는 사람이 있었다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "3 예수님께서 율법 교사들과 바리사이들에게,",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "“안식일에 병을 고쳐 주는 것이 합당하냐, 합당하지 않으냐?” 하고 물으셨다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "4 그들은 잠자코 있었다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "예수님께서는 그의 손을 잡고 병을 고쳐서 돌려보내신 다음,",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "5 그들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "“너희 가운데 누가 아들이나 소가 우물에 빠지면",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "안식일일지라도 바로 끌어내지 않겠느냐?”",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "6 그들은 이 말씀에 아무 대답도 하지 못하였다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261030"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261030"
+        }
+      ]
+    }
+  ]
+}

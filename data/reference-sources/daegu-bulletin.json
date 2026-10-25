@@ -1,0 +1,16 @@
+{
+  "provider": "GOODNEWS",
+  "diocese": "대구대교구",
+  "dioceseCode": "21",
+  "indexUrl": "https://maria.catholic.or.kr/jubo/jubo_list.asp?jgubun=G&s_gyocode=21",
+  "storagePolicy": "source-links-no-bulk-copy",
+  "issues": [
+    {
+      "date": "2026-10-18",
+      "viewUrl": "https://maria.catholic.or.kr/jubo/jubo_view.asp?ju_no=9092",
+      "pdfUrl": "https://maria.catholic.or.kr/jubo/down/down.asp?filenm=261018.pdf&gyocode=21",
+      "filename": "261018.pdf",
+      "checkedOn": "2026-10-19"
+    }
+  ]
+}

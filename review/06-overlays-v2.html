@@ -1,0 +1,244 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MISSA · 6단계 메뉴·안내·악보 시안 v2</title><style>@layer tokens, base, layout, components, responsive, utilities;
+@layer tokens {
+ :root {
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-25: .625rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --radius-12: .75rem;
+  --hit-44: 2.75rem;
+  --layout-padding: var(--space-4);
+  --layout-gap: var(--space-3);
+  --content-padding: var(--space-25);
+  --control-padding-compact: var(--space-1);
+  --control-padding-block: var(--space-2);
+  --control-padding-inline: var(--space-25);
+  --control-hit: var(--hit-44);
+  --shape-rounded: var(--radius-12);
+  --reader-padding: var(--layout-padding);
+  --reader-gap: var(--layout-gap);
+  --reader-item-gap: var(--layout-gap);
+  --reader-content-inset: var(--content-padding);
+  --reader-header-control-padding: var(--control-padding-compact);
+  --reader-control-padding-block: var(--control-padding-block);
+  --reader-control-padding-inline: var(--control-padding-inline);
+  --reader-control-hit: var(--control-hit);
+  --reader-radius: var(--shape-rounded);
+  --font-family-sans: 'Malgun Gothic', system-ui, sans-serif;
+  --font-family-serif: Batang, 'Times New Roman', serif;
+  --font-size-18: 1.125rem;
+  --line-height-160: 1.6;
+  --font-ui: var(--font-family-sans);
+  --font-body: var(--font-family-serif);
+  --font-body-size: var(--font-size-18);
+  --font-body-leading: var(--line-height-160);
+  --reader-ui-font: var(--font-ui);
+  --reader-body-font: var(--font-body);
+  --reader-body-size: var(--font-body-size);
+  --reader-body-leading: var(--font-body-leading);
+ }
+ :root[data-reader-font="sans"] { --font-body: var(--font-family-sans); }
+}
+
+@layer tokens {
+ :root {
+  --foundation-theme-bg: #EEE7DA;
+  --foundation-theme-surface: #F7F1E7;
+  --foundation-theme-ink: #25342E;
+  --foundation-theme-muted: #4C5C52;
+  --foundation-theme-accent: #70283F;
+  --foundation-theme-soft: #DEE6DB;
+  --foundation-theme-line: #72816F;
+  --foundation-theme-on-accent: #FFFFFF;
+  --foundation-scroll-min: 10rem;
+  --foundation-reading-min: 22rem;
+  --foundation-psalm-min: 14rem;
+  --foundation-hymn-number-width: 5rem;
+  --foundation-hymn-label-width: 6rem;
+  --foundation-reading-note-z: 2;
+  --foundation-reading-note-size: .875rem;
+  --foundation-header-gap: .375rem;
+  --foundation-header-compact-size: .875rem;
+  --foundation-brand-size: 1.5rem;
+  --foundation-preview-portrait-width: 48rem;
+  --foundation-preview-portrait-height: 64rem;
+  --foundation-preview-landscape-width: 64rem;
+  --foundation-preview-landscape-height: 48rem;
+  --foundation-dialogue-width: 12rem;
+  --foundation-score-action-z: 2;
+  --foundation-score-action-font: 0.75rem;
+  --foundation-score-action-padding: 0.25rem;
+  --foundation-score-action-hit: 1.5rem;
+  --foundation-modal-width: 90rem;
+  --foundation-modal-height: 92dvh;
+  --foundation-marker-width: 1.25rem;
+  --foundation-marker-gap: .375rem;
+  --foundation-choice-card-z: 0;
+  --foundation-choice-marker-z: 1;
+  --foundation-choice-marker-space: 1.25rem;
+  --foundation-response-weight: 700;
+  --foundation-response-border: 2px;
+  --foundation-toc-target: 1.5rem;
+  --foundation-toc-gap: .125rem;
+  --foundation-rail-max: 16rem;
+  --foundation-score-height: 3rem;
+  --foundation-panel: 28rem;
+  --foundation-focus-ring: 3px solid currentColor;
+  --ui-theme-bg: var(--foundation-theme-bg);
+  --ui-theme-surface: var(--foundation-theme-surface);
+  --ui-theme-ink: var(--foundation-theme-ink);
+  --ui-theme-muted: var(--foundation-theme-muted);
+  --ui-theme-accent: var(--foundation-theme-accent);
+  --ui-theme-soft: var(--foundation-theme-soft);
+  --ui-theme-line: var(--foundation-theme-line);
+  --ui-theme-on-accent: var(--foundation-theme-on-accent);
+  --ui-score-paper: var(--ui-theme-surface);
+  --ui-scroll-min: var(--foundation-scroll-min);
+  --ui-reading-min: var(--foundation-reading-min);
+  --ui-psalm-min: var(--foundation-psalm-min);
+  --ui-hymn-number-width: var(--foundation-hymn-number-width);
+  --ui-hymn-label-width: var(--foundation-hymn-label-width);
+  --ui-reading-note-z: var(--foundation-reading-note-z);
+  --ui-reading-note-size: var(--foundation-reading-note-size);
+  --ui-header-gap: var(--foundation-header-gap);
+  --ui-header-compact-size: var(--foundation-header-compact-size);
+  --ui-brand-size: var(--foundation-brand-size);
+  --ui-preview-portrait-width: var(--foundation-preview-portrait-width);
+  --ui-preview-portrait-height: var(--foundation-preview-portrait-height);
+  --ui-preview-landscape-width: var(--foundation-preview-landscape-width);
+  --ui-preview-landscape-height: var(--foundation-preview-landscape-height);
+  --ui-dialogue-width: var(--foundation-dialogue-width);
+  --ui-score-action-z: var(--foundation-score-action-z);
+  --ui-score-action-font: var(--foundation-score-action-font);
+  --ui-score-action-padding: var(--foundation-score-action-padding);
+  --ui-score-action-hit: var(--foundation-score-action-hit);
+  --ui-modal-width: var(--foundation-modal-width);
+  --ui-modal-height: var(--foundation-modal-height);
+  --ui-marker-width: var(--foundation-marker-width);
+  --ui-marker-gap: var(--foundation-marker-gap);
+  --ui-choice-card-z: var(--foundation-choice-card-z);
+  --ui-choice-marker-z: var(--foundation-choice-marker-z);
+  --ui-choice-marker-space: var(--foundation-choice-marker-space);
+  --ui-guide-ink: var(--ui-theme-accent);
+  --ui-guide-surface: var(--ui-theme-soft);
+  --ui-response-weight: var(--foundation-response-weight);
+  --ui-response-border: var(--foundation-response-border);
+  --ui-toc-target: var(--foundation-toc-target);
+  --ui-toc-gap: var(--foundation-toc-gap);
+  --ui-rail-max: var(--foundation-rail-max);
+  --ui-score-height: var(--foundation-score-height);
+  --ui-panel: var(--foundation-panel);
+  --state-focus-ring: var(--foundation-focus-ring);
+  --reader-theme-bg: var(--ui-theme-bg);
+  --reader-theme-surface: var(--ui-theme-surface);
+  --reader-theme-ink: var(--ui-theme-ink);
+  --reader-theme-muted: var(--ui-theme-muted);
+  --reader-theme-accent: var(--ui-theme-accent);
+  --reader-theme-soft: var(--ui-theme-soft);
+  --reader-theme-line: var(--ui-theme-line);
+  --reader-theme-on-accent: var(--ui-theme-on-accent);
+  --reader-score-paper: var(--ui-score-paper);
+  --reader-scroll-min: var(--ui-scroll-min);
+  --reader-reading-min: var(--ui-reading-min);
+  --reader-psalm-min: var(--ui-psalm-min);
+  --reader-hymn-number-width: var(--ui-hymn-number-width);
+  --reader-hymn-label-width: var(--ui-hymn-label-width);
+  --reader-reading-note-z: var(--ui-reading-note-z);
+  --reader-reading-note-size: var(--ui-reading-note-size);
+  --reader-header-gap: var(--ui-header-gap);
+  --reader-header-compact-size: var(--ui-header-compact-size);
+  --reader-brand-size: var(--ui-brand-size);
+  --reader-preview-portrait-width: var(--ui-preview-portrait-width);
+  --reader-preview-portrait-height: var(--ui-preview-portrait-height);
+  --reader-preview-landscape-width: var(--ui-preview-landscape-width);
+  --reader-preview-landscape-height: var(--ui-preview-landscape-height);
+  --reader-dialogue-width: var(--ui-dialogue-width);
+  --reader-score-action-z: var(--ui-score-action-z);
+  --reader-score-action-font: var(--ui-score-action-font);
+  --reader-score-action-padding: var(--ui-score-action-padding);
+  --reader-score-action-hit: var(--ui-score-action-hit);
+  --reader-modal-width: var(--ui-modal-width);
+  --reader-modal-height: var(--ui-modal-height);
+  --reader-marker-width: var(--ui-marker-width);
+  --reader-marker-gap: var(--ui-marker-gap);
+  --reader-choice-card-z: var(--ui-choice-card-z);
+  --reader-choice-marker-z: var(--ui-choice-marker-z);
+  --reader-choice-marker-space: var(--ui-choice-marker-space);
+  --reader-guide-ink: var(--ui-guide-ink);
+  --reader-guide-surface: var(--ui-guide-surface);
+  --reader-response-weight: var(--ui-response-weight);
+  --reader-response-border: var(--ui-response-border);
+  --reader-toc-target: var(--ui-toc-target);
+  --reader-toc-gap: var(--ui-toc-gap);
+  --reader-rail-max: var(--ui-rail-max);
+  --reader-score-height: var(--ui-score-height);
+  --reader-panel: var(--ui-panel);
+  --focus-ring: var(--state-focus-ring);
+ }
+ :root[data-reader-theme="b"] {
+  --foundation-theme-bg: #DDD3C0;
+  --foundation-theme-surface: #E9DFCD;
+  --foundation-theme-ink: #29352D;
+  --foundation-theme-muted: #4F5C4E;
+  --foundation-theme-accent: #70283F;
+  --foundation-theme-soft: #D2DCCB;
+  --foundation-theme-line: #6E7A68;
+ }
+ :root[data-reader-theme="c"] {
+  --foundation-score-paper: #E9DFCD;
+  --ui-score-paper: var(--foundation-score-paper);
+  --foundation-theme-bg: #272225;
+  --foundation-theme-surface: #312A2D;
+  --foundation-theme-ink: #EEE2D8;
+  --foundation-theme-muted: #C9B8B0;
+  --foundation-theme-accent: #E0A3B5;
+  --foundation-theme-soft: #40353A;
+  --foundation-theme-line: #A58B91;
+  --foundation-theme-on-accent: #312027;
+  color-scheme: dark;
+ }
+}
+
+@layer tokens {
+ :root {
+  --foundation-selected-tint: 12%;
+  --state-selected-surface: color-mix(in srgb, var(--ui-theme-accent) var(--foundation-selected-tint), var(--ui-theme-surface));
+  --state-selected-ink: var(--ui-theme-accent);
+  --state-selected-border: var(--ui-theme-accent);
+  --button-selected-surface: var(--state-selected-surface);
+  --button-selected-ink: var(--state-selected-ink);
+  --button-selected-border: var(--state-selected-border);
+ }
+}
+
+@layer tokens {
+ :root {
+  --foundation-neutral-disabled-ink: #737373;
+  --foundation-neutral-disabled-line: #BBBBBB;
+  --state-disabled-ink: var(--foundation-neutral-disabled-ink);
+  --state-disabled-line: var(--foundation-neutral-disabled-line);
+  --button-disabled-ink: var(--state-disabled-ink);
+  --button-disabled-line: var(--state-disabled-line);
+ }
+ :root[data-reader-theme="c"] {
+  --foundation-neutral-disabled-ink: #AAAAAA;
+  --foundation-neutral-disabled-line: #666666;
+ }
+}
+
+@layer tokens { :root {--draft-max:72rem;--draft-frame:64rem;--draft-height:40rem;--draft-side:11rem;--draft-card-min:17rem;--draft-border:1px;--draft-strong:2px;--draft-small:.875rem;--draft-dim:color-mix(in srgb,var(--reader-theme-ink) 60%,var(--reader-theme-surface));--draft-selected:color-mix(in srgb,var(--reader-theme-accent) 12%,var(--reader-theme-surface));--draft-border-color:var(--reader-theme-line);--draft-weight:700;} }
+@layer base { * {box-sizing:border-box;} body {margin:0;background:var(--reader-theme-bg);color:var(--reader-theme-ink);font-family:var(--reader-ui-font);line-height:1.6;} h1,h2,h3,p {margin:0;} button,select {font:inherit;color:inherit;min-height:var(--reader-control-hit);padding:var(--reader-control-padding-block) var(--reader-control-padding-inline);border-radius:var(--reader-radius);border:var(--draft-border) solid var(--draft-border-color);background:var(--reader-theme-surface);} button {cursor:pointer;}  :focus-visible {outline:var(--focus-ring);outline-offset:var(--space-1);} a {color:var(--reader-theme-accent);} }
+@layer layout { .show {max-width:var(--draft-max);padding:var(--reader-padding);margin:auto;display:grid;gap:var(--reader-gap);} .show__row {display:flex;align-items:center;flex-wrap:wrap;gap:var(--reader-gap);} .show__cards {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,var(--draft-card-min)),1fr));gap:var(--reader-gap);} .show__card {display:grid;align-content:start;gap:var(--reader-gap);border:var(--draft-border) solid var(--reader-theme-line);border-radius:var(--reader-radius);padding:var(--reader-padding);background:var(--reader-theme-surface);} .show__viewport {overflow:auto;} .scene {width:var(--draft-frame);height:var(--draft-height);display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:var(--reader-gap);padding:var(--reader-padding);border:var(--draft-border) solid var(--reader-theme-line);background:var(--reader-theme-bg);} .scene__header {display:flex;align-items:center;justify-content:space-between;gap:var(--reader-gap);} .scene__workspace {display:grid;grid-template-columns:minmax(0,1fr) var(--draft-side);gap:var(--reader-gap);min-height:0;} .scene__book {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--reader-gap);min-height:0;} .scene__page {overflow:auto;min-height:0;padding:var(--reader-padding);border:var(--draft-border) solid var(--reader-theme-line);border-radius:var(--reader-radius);background:var(--reader-theme-surface);} .scene__rail {padding:var(--reader-padding);border:var(--draft-border) solid var(--reader-theme-line);border-radius:var(--reader-radius);} .scene__body {font:var(--reader-body-size)/var(--reader-body-leading) var(--reader-body-font);margin-block:var(--reader-gap);} .scene__title {color:var(--reader-theme-accent);} }
+@layer components { .choice {display:flex;gap:var(--space-1);flex-wrap:wrap;margin-block:var(--reader-gap);} .control:disabled {cursor:default;color:var(--button-disabled-ink);border-color:var(--button-disabled-line);border-style:solid;} .control {color:var(--reader-theme-accent);border-color:var(--reader-theme-line);} .control[aria-pressed="true"] {font-weight:var(--draft-weight);} .control[aria-pressed="true"]::before {content:'✓ ';} .control--primary {background:var(--reader-theme-accent);color:var(--reader-theme-on-accent);border-color:var(--reader-theme-accent);} .show[data-style="b"] {--choice-fill:var(--reader-theme-accent);--choice-ink:var(--reader-theme-on-accent);--choice-border:var(--reader-theme-accent);} .show[data-style="b"] {--choice-fill:var(--button-selected-surface);--choice-ink:var(--reader-theme-accent);--choice-border:var(--reader-theme-accent);} .show[data-style="c"] {--choice-fill:transparent;--choice-ink:var(--reader-theme-accent);--choice-border:transparent;} .choice__button[aria-pressed="true"] {background:var(--choice-fill);color:var(--choice-ink);border-color:var(--choice-border);} .show[data-style="c"] .choice__button {border-color:transparent;background:transparent;} .show[data-style="c"] .choice__button[aria-pressed="true"] {text-decoration:underline;text-underline-offset:var(--space-1);} .show__small {font-size:var(--draft-small);} .scene__response {padding:var(--reader-content-inset);border-radius:var(--reader-radius);background:var(--reader-theme-accent);color:var(--reader-theme-on-accent);} .show__focus {outline:var(--focus-ring);outline-offset:var(--space-1);} .show__sample {padding:var(--reader-content-inset);border:var(--draft-border) solid var(--reader-theme-line);border-radius:var(--reader-radius);} }
+@layer tokens { :root {--draft-field-bg:var(--reader-theme-surface);--draft-label:6rem;--draft-settings:26rem;} } @layer base { input {font:inherit;min-height:var(--reader-control-hit);padding:var(--reader-control-padding-block) var(--reader-control-padding-inline);border:1px solid var(--reader-theme-line);border-radius:var(--reader-radius);background:var(--draft-field-bg);color:var(--reader-theme-ink);min-inline-size:0;max-inline-size:100%;} dialog {color:var(--reader-theme-ink);background:var(--reader-theme-surface);border:1px solid var(--reader-theme-line);border-radius:var(--reader-radius);} } @layer layout { .form-scene {width:var(--draft-frame);padding:var(--reader-padding);display:grid;gap:var(--reader-gap);border:1px solid var(--reader-theme-line);border-radius:var(--reader-radius);} .form-scene__header {display:flex;align-items:center;flex-wrap:wrap;justify-content:space-between;gap:var(--reader-gap);} .form-scene__pages {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--reader-gap);} .field {display:grid;grid-template-columns:var(--draft-label) minmax(0,1fr);align-items:center;gap:var(--reader-gap);} .field__input {width:100%;} .settings {margin-inline-start:auto;margin-inline-end:0;width:min(100%,var(--draft-settings));max-height:100%;padding:var(--reader-padding);} .settings__body {display:grid;gap:var(--reader-gap);margin-block:var(--reader-gap);} .settings__field {display:grid;gap:var(--space-1);} .form-scene__sample {font:var(--reader-body-size)/var(--reader-body-leading) var(--reader-body-font);} } @layer components { .show[data-fields="soft"] {--draft-field-bg:var(--button-selected-surface);} .field__input[aria-invalid="true"] {border-color:var(--reader-theme-accent);outline:1px solid var(--reader-theme-accent);} .field__error {color:var(--reader-theme-accent);} input:disabled {color:var(--button-disabled-ink);border-color:var(--button-disabled-line);} .settings::backdrop {background:color-mix(in srgb,var(--reader-theme-ink) 30%,transparent);} [hidden] {display:none;} }
+@layer tokens { :root {--draft-info-width:32rem;--draft-drawer-width:28rem;--draft-dialog-height:90dvh;--draft-score-width:90rem;--draft-overlay:color-mix(in srgb,var(--reader-theme-ink) 30%,transparent);} }
+@layer layout { .overlay {max-inline-size:calc(100% - var(--reader-gap));max-block-size:var(--draft-dialog-height);padding:var(--reader-padding);width:var(--draft-info-width);} .overlay[open] {display:grid;grid-template-rows:auto minmax(0,1fr);gap:var(--reader-gap);} .overlay__header {display:flex;align-items:center;justify-content:space-between;gap:var(--reader-gap);} .overlay__body {overflow:auto;min-block-size:0;display:grid;align-content:start;gap:var(--reader-gap);} .overlay--drawer {width:var(--draft-drawer-width);height:var(--draft-dialog-height);margin-inline-start:auto;margin-inline-end:0;} .overlay--score {width:min(calc(100% - var(--reader-gap)),var(--draft-score-width));height:var(--draft-dialog-height);} .overlay__score-scroll {overflow:auto;min-block-size:0;} .overlay__image {display:block;width:100%;max-width:none;height:auto;background:var(--reader-score-paper);} .overlay__caption {text-align:end;font-size:var(--draft-small);} .overlay__list {display:grid;gap:var(--reader-gap);} }
+@layer components { .overlay::backdrop {background:var(--draft-overlay);} .overlay__heading {color:var(--reader-theme-accent);} .overlay__figure {margin:0;} .overlay__paragraph {font:var(--reader-body-size)/var(--reader-body-leading) var(--reader-body-font);} .overlay__link {text-align:start;} }
+</style></head><body><main class="show" data-style="b"><h1>메뉴·안내창·악보 확대</h1><p>버튼 B · 종이 바탕 · 둥근 모서리 유지</p><div class="show__row"><label for="theme">배경</label><select id="theme"><option value="a">미색</option><option value="b">종이색</option><option value="c">와인 다크</option></select></div><div class="show__cards"><article class="show__card"><h2>메뉴</h2><p>오른쪽 패널에서 성가·기도문·보기 설정으로 이동합니다.</p><button class="control" type="button" data-open="menu">☰ 메뉴 열기</button></article><article class="show__card"><h2>안내창</h2><p>짧은 설명을 중앙에서 보거나, 오른쪽에서 본문과 함께 비교합니다.</p><button class="control" type="button" data-open="guide">안내 열기</button></article><article class="show__card"><h2>악보 확대</h2><p>악보는 모달 폭에 맞춰 표시합니다. 추가 확대 버튼 없이 제목·닫기만 위에 고정합니다.</p><button class="control" type="button" data-open="score">악보 크게 보기</button></article></div><section class="show__card"><h2>안내창 위치 비교</h2><div class="choice" role="group" aria-label="안내 위치"><button class="control choice__button" type="button" data-layout="center" aria-pressed="true" aria-label="A 중앙">A · 중앙 · 추천</button><button class="control choice__button" type="button" data-layout="side" aria-pressed="false" aria-label="B 오른쪽">B · 오른쪽</button></div><p>A는 짧은 설명에 집중하기 좋고, B는 긴 설명을 읽는 공간이 넉넉합니다. 선택 후 ‘안내 열기’를 눌러보세요.</p></section><p class="show__sample" role="status" data-js="status">시안입니다. 실제 앱의 편성·설정은 바꾸지 않습니다.</p><p class="show__small">Esc 또는 닫기 → 열었던 버튼으로 초점 복귀 · 악보 안쪽 스크롤 · 새 모션 없음</p><a href="06-forms-v1.html">이전 입력칸 시안</a></main>
+<dialog class="overlay overlay--drawer" id="menu" aria-labelledby="menu-title"><header class="overlay__header"><h2 id="menu-title" class="overlay__heading">메뉴</h2><button class="control" type="button" data-close>닫기</button></header><div class="overlay__body"><nav class="overlay__list" aria-label="앱 메뉴"><button class="control overlay__link" type="button" data-menu="회차별 성가">회차별 성가</button><button class="control overlay__link" type="button" data-menu="주요 기도문">주요 기도문</button><button class="control overlay__link" type="button" data-menu="보기 설정">보기 설정</button><button class="control overlay__link" type="button" data-menu="자료·출처">자료·출처</button></nav><p class="show__small">각 항목은 이동 상태만 확인하는 예시입니다.</p></div></dialog>
+<dialog class="overlay" id="guide" aria-labelledby="guide-title"><header class="overlay__header"><h2 class="overlay__heading" id="guide-title">대영광송 안내</h2><button class="control" type="button" data-close>닫기</button></header><div class="overlay__body"><p class="overlay__paragraph">안내를 열면 본문에서 차지하던 긴 설명을 이곳에서 확인합니다.</p><p class="overlay__paragraph">닫은 뒤에는 읽던 본문으로 돌아갑니다. 이 문단은 안내창 배치를 확인하기 위한 예시입니다.</p><p class="show__small">안내 버튼과 본문의 위치를 바꾸지 않고 필요한 설명만 표시합니다.</p></div></dialog>
+<dialog class="overlay overlay--score" id="score" aria-labelledby="score-title"><header class="overlay__header"><h2 class="overlay__heading" id="score-title">자비송</h2><div class="show__row"><button class="control" type="button" data-close>닫기</button></div></header><div class="overlay__score-scroll" tabindex="0" aria-label="악보 스크롤"><figure class="overlay__figure"><img class="overlay__image" src="../docs/교중미사악보/reengraved/semantic-a4/kyrie.svg" alt="자비송 악보 · 사진 판독 후 재조판, 본당 최종 교정 전"><figcaption class="overlay__caption">교중미사 재조판 · 본당 최종 교정 전</figcaption></figure></div></dialog>
+<script>
+const dialogs=[...document.querySelectorAll('dialog')],openers=new Map();document.querySelector('#theme').onchange=e=>document.documentElement.dataset.readerTheme=e.target.value;document.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{const d=document.getElementById(b.dataset.open);openers.set(d,b);d.showModal();});document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>b.closest('dialog').close());dialogs.forEach(d=>d.addEventListener('close',()=>openers.get(d)?.focus()));document.querySelectorAll('[data-layout]').forEach(b=>b.onclick=()=>{document.querySelector('#guide').classList.toggle('overlay--drawer',b.dataset.layout==='side');document.querySelectorAll('[data-layout]').forEach(n=>n.setAttribute('aria-pressed',String(n===b)));});document.querySelectorAll('[data-menu]').forEach(b=>b.onclick=()=>{document.querySelector('[data-js="status"]').textContent=b.dataset.menu+' 선택 예시 · 실제 화면 이동은 하지 않습니다.';b.closest('dialog').close();});
+</script></body></html>

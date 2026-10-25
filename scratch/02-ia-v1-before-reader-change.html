@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MISSA · 2단계 정보 구조 검토 v1</title>
+<style>
+@layer tokens, base, layout, components, responsive, utilities;
+@layer tokens {
+  :root { --draft-space: 1rem; --draft-wide: 72rem; --draft-panel: 30rem; --draft-target: 2.75rem; --focus-ring: 3px solid currentColor; }
+}
+@layer base {
+  * { box-sizing: border-box; }
+  body { margin: var(--draft-space); overflow-wrap: anywhere; }
+  button, input, select { font: inherit; min-height: var(--draft-target); max-width: 100%; }
+  button { cursor: pointer; }
+  :focus-visible { outline: var(--focus-ring); outline-offset: 2px; }
+}
+@layer layout {
+  .review { max-width: var(--draft-wide); margin-inline: auto; }
+  .review__row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--draft-space); }
+  .review__choices { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: var(--draft-space); }
+  .review__card { border: 1px solid; padding: var(--draft-space); margin-block: var(--draft-space); }
+  .review__book { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--draft-space); }
+  .review__drawer { margin-inline-start: auto; margin-inline-end: 0; width: min(100%, var(--draft-panel)); max-height: 100%; overflow: auto; padding: var(--draft-space); }
+  .review__field { display: grid; gap: var(--draft-space); margin-block: var(--draft-space); }
+}
+</style>
+</head>
+<body><main class="review">
+<header><p>MISSA / REVIEW 02 / v1 / 2026-10-18</p><h1>미사에 집중하는 화면 구성</h1>
+<p>정보 구조와 이동 경로를 검토합니다. 색·폰트·최종 레이아웃은 이후 단계에서 정합니다. 전례문·실제 성가·시간표는 포함하지 않았습니다.</p>
+<nav class="review__row" aria-label="검토 문서"><a href="#choices">구조 비교</a><a href="#preview">A안 동선 체험</a><a href="#checks">검토 기준</a><a href="#approval">승인할 내용</a></nav></header>
+<section id="choices"><h2>보조 기능에 접근하는 두 가지 경로</h2>
+<p>공통 결정: 내 본당 하나 · 상단 날짜/회차/모드 · 연속 본문 두 페이지 · 오른쪽 오버레이 Drawer.</p>
+<div class="review__choices">
+<article class="review__card"><h3>A안 · 기능 바로 열기 (추천)</h3><p>리더 → 목차 / 성가 / 기도 / 보기 설정 / 안내 → 해당 Drawer.</p><ul><li>성가와 기도에 한 번에 접근합니다.</li><li>개발용 예시는 안내 안으로 분리합니다.</li><li>항목이 늘면 탐색 항목의 정리가 필요합니다.</li></ul><p>미사 중 빠르게 열고 본문으로 돌아가는 개인용 MVP에 적합합니다.</p></article>
+<article class="review__card"><h3>B안 · 하나의 메뉴에서 찾기</h3><p>리더 → 보조 메뉴 → 목차 / 성가 / 기도 / 보기 설정 / 안내.</p><ul><li>리더의 탐색 진입점이 하나입니다.</li><li>각 기능을 열기까지 한 단계 더 필요합니다.</li><li>추가 기능을 메뉴 아래에 모으기 쉽습니다.</li></ul><p>후속 확장에는 유리하지만 현재 다섯 기능을 열 때 이동이 늘어납니다.</p></article>
+</div></section>
+<section id="preview"><h2>A안 동선 체험</h2><p>회차와 모드를 바꿔도 아래 공통 문서와 현재 펼침은 유지됩니다. 이 체험에는 성가 편집·전례 엔진·로컬 설정 저장 기능이 없습니다.</p>
+<div class="review__card">
+<p>내 본당 · 실제 이름 미설정 · 시간 미확인</p>
+<div class="review__row">
+<label for="date">날짜</label><input id="date" data-js="date" type="date" value="2026-10-18">
+<label for="slot">미사 회차</label><select id="slot" data-js="slot"><option>새벽미사</option><option>교중미사</option><option>주일 저녁 젊은이 미사</option></select>
+<label for="mode">사용자 모드</label><select id="mode" data-js="mode"><option value="beginner">예비신자</option><option value="regular">일반 신자</option></select>
+</div>
+<p data-js="context" role="status"></p><p>공통 문서: 주일 순서 구조 예시 · 공식 전례력 미연동</p>
+<div class="review__book" data-js="book"></div>
+<nav class="review__row" aria-label="본문 탐색"><button type="button" data-js="prev">이전 펼침</button><span data-js="page"></span><button type="button" data-js="next">다음 펼침</button><button type="button" data-panel="toc">목차</button><button type="button" data-panel="hymn">성가</button><button type="button" data-panel="prayer">주요 기도문</button><button type="button" data-panel="settings">보기 설정</button><button type="button" data-panel="info">안내</button></nav>
+</div>
+</section>
+<section id="checks"><h2>검토 기준과 예외 처리 제안</h2><ul>
+<li>회차별로 전례일·본문·순서·안내 규칙은 동일. 입당·봉헌·영성체·파견 성가만 분리합니다.</li>
+<li>본문의 좌우는 연속된 두 쪽입니다. 작은 화면에서는 둘 다 세로로 보여 누락하지 않습니다.</li>
+<li>Drawer는 본문 위에 열고, 닫을 때 원래 버튼으로 키보드 초점을 돌립니다. Escape로 닫을 수 있습니다.</li>
+<li>제안: 평일 개발 예시에서는 주일 회차 편집을 비활성화하고 ‘회차 미적용’으로 표시합니다. 선택한 주일 회차는 기억합니다. 다시 주일 예시로 돌아오면 복원하며 날짜는 자동 변경하지 않습니다.</li>
+<li>날짜 선택 시 미연동 상태를 표시합니다. 자동 판별이 구현되기 전에는 선택 날짜의 공식 전례라고 주장하지 않습니다.</li>
+</ul><p>사전 점검: 의미론적 제목·입력 레이블·키보드 초점·기본 44px 상당 조작 영역을 고려했습니다. 디자인 시스템 대조는 4단계 이후 대상이며, 전체 접근성 적합 판정은 아직 수행하지 않았습니다.</p></section>
+<section id="approval"><h2>승인할 내용</h2><p>A안의 직접 접근 구조와 평일 개발 예시의 ‘회차 미적용’ 정책을 추천합니다. 검토 후 채팅에서 ‘A안 승인’ 또는 수정할 부분을 알려 주세요. 화면 조작은 승인으로 저장되지 않습니다.</p></section>
+<dialog class="review__drawer" data-js="drawer" aria-labelledby="drawer-title"><div class="review__row"><h2 id="drawer-title" data-js="drawer-title">보조 패널</h2><button type="button" data-js="close">닫고 본문으로</button></div><div data-js="drawer-body"></div></dialog>
+</main>
+<script>
+'use strict';
+const find = name => document.querySelector(`[data-js="${name}"]`);
+const sections = ['시작 예식', '말씀 전례', '성찬 전례', '마침 예식'];
+let spread = 0;
+let opener = null;
+let scenario = 'sunday';
+const titles = {toc:'미사 목차', hymn:'회차별 성가', prayer:'주요 기도문', settings:'보기 설정', info:'안내 · 개발용 예시'};
+function context() {
+  find('context').textContent = scenario === 'weekday' ? '개발용 평일 예시 · 주일 회차 미적용 · 날짜 자동 변경 없음' : `${find('slot').value} · 네 성가 배정만 변경 · 같은 주일 문서`;
+}
+function renderBook() {
+  find('book').replaceChildren();
+  sections.slice(spread * 2, spread * 2 + 2).forEach((title, i) => {
+    const article = document.createElement('article'); article.className = 'review__card';
+    const heading = document.createElement('h3'); heading.textContent = title;
+    const p = document.createElement('p'); p.textContent = `연속 본문 ${spread * 2 + i + 1}쪽 · 공식 본문 연결 예정`;
+    article.append(heading, p);
+    if (find('mode').value === 'beginner') { const hint = document.createElement('p'); hint.textContent = '예비신자 안내가 본문 흐름 안에 표시되는 영역'; article.append(hint); }
+    find('book').append(article);
+  });
+  find('page').textContent = `${spread + 1} / 2 펼침`; find('prev').disabled = spread === 0; find('next').disabled = spread === 1;
+}
+function closePanel() { find('drawer').close(); }
+function showPanel(which, trigger) {
+  opener = trigger; const body = find('drawer-body'); body.replaceChildren(); find('drawer-title').textContent = titles[which];
+  const text = value => { const p = document.createElement('p'); p.textContent = value; body.append(p); };
+  if (which === 'toc') sections.forEach((title, i) => { const b = document.createElement('button'); b.type = 'button'; b.textContent = title; b.onclick = () => { spread = Math.floor(i / 2); renderBook(); closePanel(); }; const p = document.createElement('p'); p.append(b); body.append(p); });
+  if (which === 'hymn') { text(scenario === 'weekday' ? '개발용 평일 예시: 주일 회차 성가 편집 미적용' : `${find('slot').value}의 성가 편성`); ['입당', '봉헌', '영성체', '파견'].forEach(role => text(`${role} 성가 · 미등록`)); text('번호·제목·개인 가사/메모·출처 URL 편집 기능은 후속 구현 대상입니다.'); }
+  if (which === 'prayer') text('주요 기도문 목록 → 선택한 기도문. 공식 원문은 아직 연결되지 않았습니다.');
+  if (which === 'settings') text('보기 설정에 글자 크기·다크 모드를 모읍니다. 이 단계에서는 항목 위치만 검토하며 값이나 테마를 제안하지 않습니다.');
+  if (which === 'info') {
+    text('공식 콘텐츠 미연동 · 아래 선택은 개발용 순서 예시입니다. 날짜 기반 전례 판별이 아닙니다.');
+    const label = document.createElement('label'); label.className = 'review__field'; label.textContent = '개발용 예시';
+    const select = document.createElement('select'); [['sunday','주일 공통 순서 예시'],['weekday','평일 예시 · 주일 회차 미적용']].forEach(([value, name]) => { const option = document.createElement('option'); option.value = value; option.textContent = name; select.append(option); }); select.value = scenario;
+    select.onchange = () => { scenario = select.value; find('slot').disabled = scenario === 'weekday'; context(); }; label.append(select); body.append(label);
+    text('평일 선택은 충돌 처리 정책 체험입니다. 본문 영역은 IA 검토용 구조이며 실제 평일 전례로 전환되지 않습니다.');
+  }
+  find('drawer').showModal();
+}
+find('prev').onclick = () => { spread = Math.max(0, spread - 1); renderBook(); };
+find('next').onclick = () => { spread = Math.min(1, spread + 1); renderBook(); };
+find('slot').onchange = context;
+find('mode').onchange = renderBook;
+find('date').onchange = () => { find('context').textContent = '선택 날짜의 공식 전례는 미연동입니다. 회차 선택으로 날짜는 바뀌지 않습니다.'; };
+document.querySelectorAll('[data-panel]').forEach(button => button.onclick = () => showPanel(button.dataset.panel, button));
+find('close').onclick = closePanel;
+find('drawer').addEventListener('close', () => { if (opener) opener.focus(); });
+context(); renderBook();
+</script></body></html>

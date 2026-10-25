@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-10-28",
+  "date": "2026-10-28",
+  "observance": "성 시몬과 성 유다(타대오) 사도 축일",
+  "sourceRefs": [
+    "user-hwp-202610",
+    "goodnews-20261028"
+  ],
+  "sections": [
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님은 이 거룩한 사람들을 참사랑으로 뽑으시고, 영원한 영광을 주셨네.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "하느님,\n복된 사도들을 통하여 구원의 신비를 저희에게 알려 주셨으니\n거룩한 시몬과 유다의 전구를 들으시고 자비를 베푸시어\n하느님을 믿는 백성이 나날이 늘어나 교회가 끊임없이 발전하게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n거룩한 시몬과 유다 사도의 영광을 기리며 이 예물을 드리오니\n저희 믿음을 새롭게 하시어 거룩한 제사를 합당히 거행하게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "주님이 말씀하신다. 누구든지 나를 사랑하면 내 말을 지키리니, 내 아버지도 그를 사랑하시고, 우리가 가서 그와 함께 살리라.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 성체를 받아 모시고 성령 안에서 간절히 청하오니\n시몬과 유다 사도의 순교를 기념하는 저희를\n주님의 사랑으로 지켜 주소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202610"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<여러분은 사도들의 기초 위에 세워진 건물입니다.>",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 에페소서 말씀입니다.2,19-22",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "형제 여러분, 19 여러분은 이제 더 이상 외국인도 아니고 이방인도 아닙니다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "성도들과 함께 한 시민이며 하느님의 한 가족입니다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "20 여러분은 사도들과 예언자들의 기초 위에 세워진 건물이고,",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그리스도 예수님께서는 바로 모퉁잇돌이십니다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "21 그리스도 안에서 전체가 잘 결합된 이 건물이 주님 안에서",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "거룩한 성전으로 자라납니다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "22 여러분도 그리스도 안에서 성령을 통하여",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "하느님의 거처로 함께 지어지고 있습니다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261028"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 19(18),2-3.4-5ㄱㄴ(◎ 5ㄱ)",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 그 소리 온 누리에 퍼져 나가네.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 하늘은 하느님의 영광을 말하고, 창공은 그분의 솜씨를 알리네. 낮은 낮에게 말을 건네고, 밤은 밤에게 앎을 전하네. ◎",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 말도 없고 이야기도 없으며, 목소리조차 들리지 않지만, 그 소리 온 누리에 퍼져 나가고, 그 말은 땅끝까지 번져 나가네. ◎",
+          "sourceRef": "goodnews-20261028"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 찬미하나이다, 주 하느님. 주님이신 하느님을 찬양하나이다. 영광에 빛나는 사도들의 모임이 주님을 기리나이다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261028"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<예수님께서는 제자들 가운데에서 열둘을 뽑아 사도라고 부르셨다.>",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.6,12-19",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "12 그 무렵 예수님께서는 기도하시려고 산으로 나가시어,",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "밤을 새우며 하느님께 기도하셨다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "13 그리고 날이 새자 제자들을 부르시어 그들 가운데에서 열둘을 뽑으셨다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "그들을 사도라고도 부르셨는데,",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "14 그들은 베드로라고 이름을 지어 주신 시몬, 그의 동생 안드레아,",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "그리고 야고보, 요한, 필립보, 바르톨로메오,",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "15 마태오, 토마스, 알패오의 아들 야고보, 열혈당원이라고 불리는 시몬,",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "16 야고보의 아들 유다, 또 배신자가 된 유다 이스카리옷이다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "17 예수님께서 그들과 함께 산에서 내려가 평지에 서시니,",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "그분의 제자들이 많은 군중을 이루고,",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "온 유다와 예루살렘, 그리고 티로와 시돈의 해안 지방에서 온 백성이",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "큰 무리를 이루고 있었다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "18 그들은 예수님의 말씀도 듣고 질병도 고치려고 온 사람들이었다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "그리하여 더러운 영들에게 시달리는 이들도 낫게 되었다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "19 군중은 모두 예수님께 손을 대려고 애를 썼다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "그분에게서 힘이 나와 모든 사람을 고쳐 주었기 때문이다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261028"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261028"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "checks": [
+    {
+      "pass": true,
+      "label": "2026-11-01 other sections unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 other sections unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 other sections unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 other sections unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 other sections unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 other sections unchanged"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 four petitions"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 CBCK source link"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-01 no invented conclusion"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 four petitions"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 CBCK source link"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-02 no invented conclusion"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 four petitions"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 CBCK source link"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-08 no invented conclusion"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 four petitions"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 CBCK source link"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-15 no invented conclusion"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 four petitions"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 CBCK source link"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-22 no invented conclusion"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 four petitions"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 CBCK source link"
+    },
+    {
+      "pass": true,
+      "label": "2026-11-29 no invented conclusion"
+    },
+    {
+      "pass": true,
+      "label": "Nov1 real prayer visible"
+    }
+  ],
+  "errors": []
+}

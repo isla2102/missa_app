@@ -1,0 +1,415 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-04",
+  "date": "2026-11-04",
+  "observance": "(백) 성 가롤로 보로메오 주교 기념일",
+  "sourceRefs": [
+    "goodnews-20261104"
+  ],
+  "sections": [
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<여러분 자신의 구원을 위하여 힘쓰십시오. 하느님은 여러분 안에서 활동하시어 의지를 일으키시고 그것을 실천하게도 하시는 분이십니다.>",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 필리피서 말씀입니다.2,12-18",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "12 사랑하는 여러분, 여러분은 늘 순종하였습니다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "내가 함께 있을 때만이 아니라 지금처럼 떨어져 있을 때에는",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "더욱더 그러하였습니다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그러므로 두렵고 떨리는 마음으로",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "여러분 자신의 구원을 위하여 힘쓰십시오.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "13 하느님은 당신 호의에 따라 여러분 안에서 활동하시어,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "의지를 일으키시고 그것을 실천하게도 하시는 분이십니다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "14 무슨 일이든 투덜거리거나 따지지 말고 하십시오.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "15 그리하여 비뚤어지고 뒤틀린 이 세대에서",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "허물 없는 사람, 순결한 사람, 하느님의 흠 없는 자녀가 되어,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "이 세상에서 별처럼 빛날 수 있도록 하십시오.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "16 생명의 말씀을 굳게 지니십시오.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "그러면 내가 헛되이 달음질하거나 헛되이 애쓴 것이 되지 않아,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "그리스도의 날에 자랑할 수 있게 될 것입니다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "17 내가 설령 하느님께 올리는 포도주가 되어",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "여러분이 봉헌하는 믿음의 제물 위에 부어진다 하여도,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "나는 기뻐할 것입니다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "여러분 모두와 함께 기뻐할 것입니다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "18 여러분도 마찬가지로 기뻐하십시오. 나와 함께 기뻐하십시오.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261104"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 27(26),1.4.13-14(◎ 1ㄱ)",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님은 나의 빛, 나의 구원이시다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님은 나의 빛, 나의 구원. 나 누구를 두려워하랴? 주님은 내 생명의 요새. 나 누구를 무서워하랴? ◎",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 주님께 청하는 오직 한 가지, 나 그것을 얻고자 하니, 내 한평생 주님의 집에 살며, 주님의 아름다움 바라보고, 그분의 성전 우러러보는 것이라네. ◎",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 저는 산 이들의 땅에서, 주님의 어지심을 보리라 믿나이다. 주님께 바라라. 힘내어 마음을 굳게 가져라. 주님께 바라라. ◎",
+          "sourceRef": "goodnews-20261104"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "1베드 4,14 참조",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 그리스도의 이름 때문에 모욕을 당하면 너희는 행복하리니 하느님의 성령이 너희 위에 머물러 계시리라.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261104"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<자기 소유를 다 버리지 않는 사람은 내 제자가 될 수 없다.>",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.14,25-33",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 25 많은 군중이 예수님과 함께 길을 가는데,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "예수님께서 그들에게 돌아서서 이르셨다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "26 “누구든지 나에게 오면서",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "자기 아버지와 어머니, 아내와 자녀, 형제와 자매,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "심지어 자기 목숨까지 미워하지 않으면, 내 제자가 될 수 없다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "27 누구든지 제 십자가를 짊어지고 내 뒤를 따라오지 않는 사람은",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "내 제자가 될 수 없다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "28 너희 가운데 누가 탑을 세우려고 하면,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "공사를 마칠 만한 경비가 있는지 먼저 앉아서 계산해 보지 않느냐?",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "29 그러지 않으면 기초만 놓은 채 마치지 못하여,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "보는 이마다 그를 비웃기 시작하며,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "30 ‘저 사람은 세우는 일을 시작만 해 놓고 마치지는 못하였군.’ 할 것이다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "31 또 어떤 임금이 다른 임금과 싸우러 가려면,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "이만 명을 거느리고 자기에게 오는 그를 만 명으로 맞설 수 있는지",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "먼저 앉아서 헤아려 보지 않겠느냐?",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "32 맞설 수 없겠으면,",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "그 임금이 아직 멀리 있을 때에 사신을 보내어 평화 협정을 청할 것이다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "33 이와 같이 너희 가운데에서 누구든지 자기 소유를 다 버리지 않는 사람은",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "내 제자가 될 수 없다.”",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261104"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261104"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

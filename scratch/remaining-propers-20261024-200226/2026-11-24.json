@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-24",
+  "date": "2026-11-24",
+  "observance": "(홍) 성 안드레아 둥락 사제와 동료 순교자들 기념일",
+  "sourceRefs": [
+    "goodnews-20261124"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<땅의 곡식이 무르익어 수확할 때가 왔습니다.>",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 묵시록의 말씀입니다.14,14-19",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "나 요한이 14 보니 흰 구름이 있고",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "그 구름 위에는 사람의 아들 같은 분이 앉아 계셨는데,",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "머리에는 금관을 쓰고 손에는 날카로운 낫을 들고 계셨습니다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "15 또 다른 천사가 성전에서 나와, 구름 위에 앉아 계신 분께 큰 소리로 외쳤습니다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "“낫을 대어 수확을 시작하십시오. 땅의 곡식이 무르익어 수확할 때가 왔습니다.”",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "16 그러자 구름 위에 앉아 계신 분이 땅 위로 낫을 휘두르시어",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "땅의 곡식을 수확하셨습니다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "17 또 다른 천사가 하늘에 있는 성전에서 나왔는데,",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "그도 날카로운 낫을 들고 있었습니다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "18 또 다른 천사가 제단에서 나왔는데, 그는 불에 대한 권한을 지닌 천사였습니다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "그가 날카로운 낫을 든 천사에게 큰 소리로 외쳤습니다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "“그 날카로운 낫을 대어 땅의 포도나무에서 포도송이들을 거두어들이십시오.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "포도가 다 익었습니다.”",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "19 그러자 그 천사가 땅 위로 낫을 휘둘러 땅의 포도를 거두어들이고서는,",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "하느님 분노의 큰 포도 확에다 던져 넣었습니다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261124"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 96(95),10.11-12.13(◎ 13ㄴ 참조)",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 세상을 다스리러 주님이 오신다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 겨레들에게 말하여라. “주님은 임금이시다. 누리는 정녕 굳게 세워져 흔들리지 않고, 그분은 민족들을 올바르게 심판하신다.” ◎",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 하늘은 기뻐하고 땅은 즐거워하여라. 바다와 그 안에 가득 찬 것들은 소리쳐라. 들과 그 안에 있는 것도 모두 기뻐 뛰고, 숲속의 나무들도 모두 환호하여라. ◎",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 그분이 오신다. 주님 앞에서 환호하여라. 세상을 다스리러 그분이 오신다. 그분은 누리를 의롭게, 민족들을 진리로 다스리신다. ◎",
+          "sourceRef": "goodnews-20261124"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "묵시 2,10 참조",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님이 말씀하신다. 너는 죽을 때까지 충실하여라. 내가 생명의 화관을 너에게 주리라.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261124"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<돌 하나도 다른 돌 위에 남아 있지 않을 것이다.>",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.21,5-11",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 5 몇몇 사람이 성전을 두고,",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "그것이 아름다운 돌과 자원 예물로 꾸며졌다고 이야기하자,",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "예수님께서 이르셨다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "6 “너희가 보고 있는 저것들이,",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "돌 하나도 다른 돌 위에 남아 있지 않고 다 허물어질 때가 올 것이다.”",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "7 그들이 예수님께 물었다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "“스승님, 그러면 그런 일이 언제 일어나겠습니까?",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "또 그 일이 벌어지려고 할 때에 어떤 표징이 나타나겠습니까?”",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "8 예수님께서 이르셨다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "“너희는 속는 일이 없도록 조심하여라. 많은 사람이 내 이름으로 와서,",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "‘내가 그리스도다.’, 또 ‘때가 가까웠다.’ 하고 말할 것이다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "그들 뒤를 따라가지 마라.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "9 그리고 너희는 전쟁과 반란이 일어났다는 소문을 듣더라도 무서워하지 마라.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "그러한 일이 반드시 먼저 벌어지겠지만 그것이 바로 끝은 아니다.”",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "10 이어서 그들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "“민족과 민족이 맞서 일어나고 나라와 나라가 맞서 일어나며,",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "11 큰 지진이 발생하고 곳곳에 기근과 전염병이 생길 것이다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "그리고 하늘에서는 무서운 일들과 큰 표징들이 일어날 것이다.”",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261124"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261124"
+        }
+      ]
+    }
+  ]
+}

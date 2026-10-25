@@ -1,0 +1,1235 @@
+{
+  "days": [
+    {
+      "date": "2026-10-01",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-02",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-03",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-04",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [
+        "<대영광송>",
+        "<신경>",
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-05",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-06",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-07",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<복되신 동정 마리아 감사송 1 또는 2>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [
+        "<복되신 동정 마리아 감사송 1 또는 2>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-08",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-09",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-10",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-11",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [
+        "<대영광송>",
+        "<신경>",
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-12",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-13",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-14",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-15",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-16",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-17",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-18",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [
+        "<대영광송>",
+        "<신경>",
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-19",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-20",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-21",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-22",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-23",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-24",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-25",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [
+        "<대영광송>",
+        "<신경>",
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-26",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-27",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-28",
+      "gloria": true,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<사도 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [
+        "<대영광송>",
+        "<사도 감사송>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-29",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-30",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-10-31",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202610_고유기도문.hwp",
+      "sourceSha256": "f5c9856dc6075927533ad8a9711cefab668e96e7450084d232bf092a0416209b",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-01",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [
+        "<대영광송>",
+        "<신경>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-02",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<위령 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [
+        "<위령 감사송>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-03",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-04",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-05",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-06",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-07",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-08",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [
+        "<대영광송>",
+        "<신경>",
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-09",
+      "gloria": true,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [
+        "<대영광송>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-10",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-11",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-12",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-13",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-14",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-15",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [
+        "<대영광송>",
+        "<신경>",
+        "<연중 주일 감사송 가운데 하나를 자유롭게 선택한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-16",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-17",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-18",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-19",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-20",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-21",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<복되신 동정 마리아 감사송 1 또는 2>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [
+        "<복되신 동정 마리아 감사송 1 또는 2>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-22",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [
+        "<대영광송>",
+        "<신경>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-23",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-24",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-25",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-26",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-27",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-28",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-29",
+      "gloria": false,
+      "creed": true,
+      "gloriaExplicitlyAbsent": true,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [
+        "<대영광송 없음>",
+        "<신경>",
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-11-30",
+      "gloria": true,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<사도 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202611_고유기도문.hwp",
+      "sourceSha256": "7d62a055d9125b62b6cf964ad13731c2671bee05f6d8e5efdcb3ec934590eaed",
+      "directives": [
+        "<대영광송>",
+        "<사도 감사송>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-01",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-02",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-03",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1 또는 성인 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1 또는 성인 감사송>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-04",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-05",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-06",
+      "gloria": false,
+      "creed": true,
+      "gloriaExplicitlyAbsent": true,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대영광송 없음>",
+        "<신경>",
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-07",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1 또는 성인 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1 또는 성인 감사송>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-08",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대영광송>",
+        "<신경>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-09",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-10",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-11",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-12",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-13",
+      "gloria": false,
+      "creed": true,
+      "gloriaExplicitlyAbsent": true,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대영광송 없음>",
+        "<신경>",
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-14",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1 또는 성인 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1 또는 성인 감사송>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-15",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-16",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 1>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 1>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-17",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 2>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 2>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-18",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 2>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 2>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-19",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 2>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 2>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-20",
+      "gloria": false,
+      "creed": true,
+      "gloriaExplicitlyAbsent": true,
+      "prefaceHints": [
+        "<대림 감사송 2>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대영광송 없음>",
+        "<신경>",
+        "<대림 감사송 2>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-21",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 2>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 2>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-22",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 2>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 2>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-23",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 2>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 2>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-24",
+      "gloria": false,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<대림 감사송 2>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대림 감사송 2>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-25",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<주님 성탄 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<주님 성탄 대축일에 모든 사제는 세 대의 미사를 거행하거나 공동 집전할 수 있다. 다만 제때에 그 미사를 드려야 한다.>",
+        "<대영광송>",
+        "<신경. “성령으로 인하여 동정 마리아” 부분에서 모두 깊은 절을 한다.>",
+        "<주님 성탄 감사송>",
+        "<감사 기도 제1양식(로마 전문)에서는 고유 성인 기도를 한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-26",
+      "gloria": true,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<주님 성탄 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대영광송>",
+        "<주님 성탄 감사송>",
+        "<감사 기도 제1양식(로마 전문)에서는 고유 성인 기도를 한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-27",
+      "gloria": true,
+      "creed": true,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<주님 성탄 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대영광송>",
+        "<신경>",
+        "<주님 성탄 감사송>",
+        "<감사 기도 제1양식(로마 전문)에서는 고유 성인 기도를 한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-28",
+      "gloria": true,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<주님 성탄 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대영광송>",
+        "<주님 성탄 감사송>",
+        "<감사 기도 제1양식(로마 전문)에서는 고유 성인 기도를 한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-29",
+      "gloria": true,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<주님 성탄 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대영광송>",
+        "<주님 성탄 감사송>",
+        "<감사 기도 제1양식(로마 전문)에서는 고유 성인 기도를 한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-30",
+      "gloria": true,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<주님 성탄 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대영광송>",
+        "<주님 성탄 감사송>",
+        "<감사 기도 제1양식(로마 전문)에서는 고유 성인 기도를 한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    },
+    {
+      "date": "2026-12-31",
+      "gloria": true,
+      "creed": false,
+      "gloriaExplicitlyAbsent": false,
+      "prefaceHints": [
+        "<주님 성탄 감사송>"
+      ],
+      "sourcePath": "data/source-library/monthly-propers/originals/매일미사202612_고유기도문.hwp",
+      "sourceSha256": "66db6a7349b2209bc4bc7a6ddf8266a076b3fa60b2dcb75767c9385fb99cb762",
+      "directives": [
+        "<대영광송>",
+        "<주님 성탄 감사송>",
+        "<감사 기도 제1양식(로마 전문)에서는 고유 성인 기도를 한다.>"
+      ],
+      "scope": "source-selected default Mass; source marker presence/absence, not all possible local celebrations"
+    }
+  ],
+  "scope": "default Mass in provided HWP; source instructions, not a complete canon-law calendar engine"
+}

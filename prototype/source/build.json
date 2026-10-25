@@ -1,0 +1,148 @@
+{
+  "baseline": "review/02-ia-v84.html",
+  "output": "prototype/index.html",
+  "bindings": {
+    "dailyDocuments": {
+      "paths": [
+        "data/days/2026-10-01.json",
+        "data/days/2026-10-02.json",
+        "data/days/2026-10-03.json",
+        "data/days/2026-10-04.json",
+        "data/days/2026-10-05.json",
+        "data/days/2026-10-06.json",
+        "data/days/2026-10-07.json",
+        "data/days/2026-10-08.json",
+        "data/days/2026-10-09.json",
+        "data/days/2026-10-10.json",
+        "data/days/2026-10-11.json",
+        "data/days/2026-10-12.json",
+        "data/days/2026-10-13.json",
+        "data/days/2026-10-14.json",
+        "data/days/2026-10-15.json",
+        "data/days/2026-10-16.json",
+        "data/days/2026-10-17.json",
+        "data/days/2026-10-18.json",
+        "data/days/2026-10-19.json",
+        "data/days/2026-10-20.json",
+        "data/days/2026-10-21.json",
+        "data/days/2026-10-22.json",
+        "data/days/2026-10-23.json",
+        "data/days/2026-10-24.json",
+        "data/days/2026-10-25.json",
+        "data/days/2026-10-26.json",
+        "data/days/2026-10-27.json",
+        "data/days/2026-10-28.json",
+        "data/days/2026-10-29.json",
+        "data/days/2026-10-30.json",
+        "data/days/2026-10-31.json",
+        "data/days/2026-11-01.json",
+        "data/days/2026-11-02.json",
+        "data/days/2026-11-03.json",
+        "data/days/2026-11-04.json",
+        "data/days/2026-11-05.json",
+        "data/days/2026-11-06.json",
+        "data/days/2026-11-07.json",
+        "data/days/2026-11-08.json",
+        "data/days/2026-11-09.json",
+        "data/days/2026-11-10.json",
+        "data/days/2026-11-11.json",
+        "data/days/2026-11-12.json",
+        "data/days/2026-11-13.json",
+        "data/days/2026-11-14.json",
+        "data/days/2026-11-15.json",
+        "data/days/2026-11-16.json",
+        "data/days/2026-11-17.json",
+        "data/days/2026-11-18.json",
+        "data/days/2026-11-19.json",
+        "data/days/2026-11-20.json",
+        "data/days/2026-11-21.json",
+        "data/days/2026-11-22.json",
+        "data/days/2026-11-23.json",
+        "data/days/2026-11-24.json",
+        "data/days/2026-11-25.json",
+        "data/days/2026-11-26.json",
+        "data/days/2026-11-27.json",
+        "data/days/2026-11-28.json",
+        "data/days/2026-11-29.json",
+        "data/days/2026-11-30.json",
+        "data/days/2026-12-01.json",
+        "data/days/2026-12-02.json",
+        "data/days/2026-12-03.json",
+        "data/days/2026-12-04.json",
+        "data/days/2026-12-05.json",
+        "data/days/2026-12-06.json",
+        "data/days/2026-12-07.json",
+        "data/days/2026-12-08.json",
+        "data/days/2026-12-09.json",
+        "data/days/2026-12-10.json",
+        "data/days/2026-12-11.json",
+        "data/days/2026-12-12.json",
+        "data/days/2026-12-13.json",
+        "data/days/2026-12-14.json",
+        "data/days/2026-12-15.json",
+        "data/days/2026-12-16.json",
+        "data/days/2026-12-17.json",
+        "data/days/2026-12-18.json",
+        "data/days/2026-12-19.json",
+        "data/days/2026-12-20.json",
+        "data/days/2026-12-21.json",
+        "data/days/2026-12-22.json",
+        "data/days/2026-12-23.json",
+        "data/days/2026-12-24.json",
+        "data/days/2026-12-25.json",
+        "data/days/2026-12-26.json",
+        "data/days/2026-12-27.json",
+        "data/days/2026-12-28.json",
+        "data/days/2026-12-29.json",
+        "data/days/2026-12-30.json",
+        "data/days/2026-12-31.json"
+      ]
+    },
+    "dailySources": {
+      "path": "data/sources.json",
+      "array": false
+    },
+    "dailyMissaSnapshot": {
+      "path": "docs/references/daily-missa-20261018.json",
+      "array": false
+    },
+    "reengravedPrincipalScores": {
+      "path": "docs/교중미사악보/reengraved/registry.json",
+      "array": false
+    },
+    "scorePreviewSizes": {
+      "path": "review/source/score-preview-sizes.json",
+      "array": false
+    },
+    "majorPrayerCatalog": {
+      "path": "data/reference-sources/major-prayers.json",
+      "array": false
+    },
+    "bulletinProvider": {
+      "path": "data/reference-sources/daegu-bulletin.json",
+      "array": false
+    },
+    "hymnScheduleCatalog": {
+      "path": "data/reference-sources/hymn-schedule-2026q4.json",
+      "array": false
+    },
+    "missalOrdinary": {
+      "path": "data/reference-sources/missal-ordinary.json",
+      "array": false
+    },
+    "liturgicalCalendar": {
+      "path": "data/reference-sources/liturgical-calendar-2026q4.json",
+      "array": false
+    },
+    "dailyRubrics": {
+      "path": "data/reference-sources/daily-rubrics-2026q4.json",
+      "array": false
+    }
+  },
+  "modules": {
+    "READER_STATE": "review/source/reader-state.cjs",
+    "DAILY_DOCUMENT": "review/source/daily-document.cjs",
+    "HYMN_STATE": "review/source/hymn-state.cjs",
+    "HYMN_BACKUP": "review/source/hymn-backup.cjs"
+  }
+}

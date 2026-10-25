@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-29",
+  "date": "2026-11-29",
+  "observance": "(자) 대림 제1주일",
+  "sourceRefs": [
+    "goodnews-20261129",
+    "user-hwp-202611"
+  ],
+  "sections": [
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<아, 주님께서 하늘을 찢고 내려오신다면!>",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.63,16ㄹ-17.19ㄷㄹ; 64,2ㄴ-7",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "16 주님, 당신만이 저희 아버지시고",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "예로부터 당신 이름은 ‘우리의 구원자’이십니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "17 주님, 어찌하여 저희를 당신의 길에서 벗어나게 하십니까?",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "어찌하여 저희 마음이 굳어져 당신을 경외할 줄 모르게 만드십니까?",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "당신 종들을 생각하시어,",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "당신의 재산인 이 지파들을 생각하시어 돌아오소서.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "19 아, 당신께서 하늘을 찢고 내려오신다면!",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "당신 앞에서 산들이 뒤흔들리리이다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "64,2 당신께서 내려오셨을 때 산들이 당신 앞에서 뒤흔들렸습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "3 당신 아닌 다른 신이 자기를 고대하는 이들을 위하여 이런 일을 한다는 것은",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "예로부터 아무도 들어 보지 못하였고 아무도 귀로 듣지 못하였으며",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "어떠한 눈도 보지 못하였습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "4 당신께서는 의로운 일을 즐겨 하는 이들을,",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "당신의 길을 걸으며 당신을 기억하는 이들을 받아들이셨습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "그러나 저희는 죄를 지었고 당신께서는 진노하셨습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "당신의 길 위에서 저희가 늘 구원을 받았건만",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "5 이제 저희는 모두 부정한 자처럼 되었고",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "저희의 의로운 행동이라는 것들도 모두 개짐과 같습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "저희는 모두 나뭇잎처럼 시들어",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "저희의 죄악이 바람처럼 저희를 휩쓸어 갔습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "6 당신 이름 부르며 경배드리는 자 없고",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "당신을 붙잡으려고 움직이는 자도 없습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "당신께서 저희를 외면하시고",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "text",
+          "text": "저희 죄악의 손에 내버리셨기 때문입니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p27",
+          "role": "text",
+          "text": "7 그러나 주님, 당신은 저희 아버지십니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p28",
+          "role": "text",
+          "text": "저희는 진흙, 당신은 저희를 빚으신 분",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p29",
+          "role": "text",
+          "text": "저희는 모두 당신 손의 작품입니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p30",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-1-p31",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261129"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-2-p1",
+          "role": "text",
+          "text": "<우리 주 예수 그리스도께서 나타나시기를 기다리고 있습니다.>",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 코린토 1서 말씀입니다.1,3-9",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p3",
+          "role": "text",
+          "text": "형제 여러분,",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p4",
+          "role": "text",
+          "text": "3 하느님 우리 아버지와 주 예수 그리스도에게서",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p5",
+          "role": "text",
+          "text": "은총과 평화가 여러분에게 내리기를 빕니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p6",
+          "role": "text",
+          "text": "4 나는 하느님께서 그리스도 예수님 안에서 여러분에게 베푸신 은총을 생각하며,",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p7",
+          "role": "text",
+          "text": "여러분을 두고 늘 나의 하느님께 감사를 드립니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p8",
+          "role": "text",
+          "text": "5 여러분은 그리스도 안에서 어느 모로나 풍요로워졌습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p9",
+          "role": "text",
+          "text": "어떠한 말에서나 어떠한 지식에서나 그렇습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p10",
+          "role": "text",
+          "text": "6 그리스도에 관한 증언이 여러분 가운데에 튼튼히 자리를 잡은 것입니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p11",
+          "role": "text",
+          "text": "7 그리하여 여러분은 어떠한 은사도 부족함이 없이,",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p12",
+          "role": "text",
+          "text": "우리 주 예수 그리스도께서 나타나시기를 기다리고 있습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p13",
+          "role": "text",
+          "text": "8 그분께서는 또한 여러분을 끝까지 굳세게 하시어,",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p14",
+          "role": "text",
+          "text": "우리 주 예수 그리스도의 날에 흠잡을 데가 없게 해 주실 것입니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p15",
+          "role": "text",
+          "text": "9 하느님은 성실하신 분이십니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p16",
+          "role": "text",
+          "text": "그분께서 당신의 아드님 우리 주 예수 그리스도와 친교를 맺도록",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p17",
+          "role": "text",
+          "text": "여러분을 불러 주셨습니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p18",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "reading-2-p19",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261129"
+        }
+      ]
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 80(79),2ㄱㄷㄹ과 3ㄴㄷ.15-16.18-19(◎ 4)",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 하느님, 저희를 다시 일으켜 주소서. 당신 얼굴을 비추소서. 저희가 구원되리이다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 이스라엘의 목자시여, 귀를 기울이소서. 커룹들 위에 좌정하신 분, 광채와 함께 나타나소서. 당신 권능을 떨치시어 저희를 도우러 오소서. ◎",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 만군의 하느님, 어서 돌아오소서. 하늘에서 굽어살피시고 이 포도나무를 찾아오소서. 당신 오른손이 심으신 나뭇가지를, 당신 위해 키우신 아들을 찾아오소서. ◎",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 당신 오른쪽에 있는 사람에게, 당신 위해 키우신 인간의 아들에게 손을 얹으소서. 저희는 당신을 떠나지 않으오리다. 저희를 살려 주소서. 당신 이름을 부르오리다. ◎",
+          "sourceRef": "goodnews-20261129"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "시편 85(84),8",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 주님, 저희에게 당신 자애를 보여 주시고 당신 구원을 베풀어 주소서.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261129"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<집주인이 언제 돌아올지 모르니 깨어 있어라.>",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마르코가 전한 거룩한 복음입니다.13,33-37",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 제자들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "33 “너희는 조심하고 깨어 지켜라. 그때가 언제 올지 너희가 모르기 때문이다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "34 그것은 먼 길을 떠나는 사람의 경우와 같다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "그는 집을 떠나면서 종들에게 권한을 주어 각자에게 할 일을 맡기고,",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "문지기에게는 깨어 있으라고 분부한다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "35 그러니 깨어 있어라.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "집주인이 언제 돌아올지, 저녁일지, 한밤중일지,",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "닭이 울 때일지, 새벽일지 너희가 모르기 때문이다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "36 주인이 갑자기 돌아와 너희가 잠자는 것을 보는 일이 없게 하여라.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "37 내가 너희에게 하는 이 말은 모든 사람에게 하는 말이다. 깨어 있어라.”",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261129"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261129"
+        }
+      ]
+    },
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "하느님, 당신께 제 영혼 들어 올리나이다. 저의 하느님, 당신께 저를 맡기오니 수치를 당하지 않게 하소서. 원수들이 저를 보고 좋아라 날뛰지 못하게 하소서. 당신께 바라는 이는 아무도 수치를 당하지 않으리이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하신 하느님,\n저희 마음을 이끄시어\n저희가 이 세상에서 옳은 일을 하며\n다시 오시는 그리스도를 맞이하게 하시고\n마침내 하늘 나라에 들어가 그리스도 곁에서 영광을 누리게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님, 저희에게 온갖 선물을 베풀어 주셨으니\n그 가운데에서 저희가 모아 바치는 이 제물을 받아들이시고\n현세에서 저희 믿음을 북돋아 주시어\n후세에서 영원한 구원의 상급을 받게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "주님이 복을 베푸시어, 우리 땅이 열매를 내리라.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님, 이 성찬에 참여한 저희가\n덧없이 지나가는 현세를 살면서도\n지금부터 천상 양식에 맛들여 영원한 것을 사랑하게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "needs-review",
+      "paragraphs": [
+        {
+          "id": "intercessions-p1",
+          "role": "guidance",
+          "text": "<각 공동체 스스로 준비한 기도를 바치는 것이 바람직하다.>",
+          "sourceRef": "goodnews-20261129"
+        }
+      ]
+    }
+  ]
+}

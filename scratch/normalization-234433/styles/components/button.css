@@ -1,0 +1,8 @@
+@layer components {
+ .missa-button { min-block-size: var(--reader-control-hit); padding: var(--reader-control-padding-block) var(--reader-control-padding-inline); border-radius: var(--reader-radius); color: var(--reader-theme-accent); background: var(--reader-theme-surface); border: 1px solid var(--reader-theme-line); font: inherit; }
+ .missa-button[aria-pressed="true"] { color: var(--button-selected-ink); background: var(--button-selected-surface); border-color: var(--button-selected-border); font-weight: var(--reader-response-weight); }
+ .missa-button[aria-pressed="true"]::before { content: '✓ '; }
+ .missa-button--primary { color: var(--button-primary-ink); background: var(--button-primary-surface); border-color: var(--button-primary-line); font-weight: var(--button-primary-weight); }
+ .missa-button:disabled { color: var(--button-disabled-ink); border-color: var(--button-disabled-line); border-style: solid; background: var(--reader-theme-surface); cursor: default; }
+ .missa-button:focus-visible { outline: var(--focus-ring); }
+}

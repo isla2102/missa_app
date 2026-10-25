@@ -1,0 +1,8 @@
+@layer components {
+
+ .missa-input { min-block-size: var(--input-hit); padding: var(--input-padding-block) var(--input-padding-inline); border: var(--input-border-width) solid var(--input-line); border-radius: var(--input-radius); background: var(--input-surface); color: var(--input-ink); font-family: var(--input-font-family); font-size: var(--input-font-size); line-height: var(--input-leading); min-inline-size: 0; max-inline-size: 100%; }
+ .missa-input:focus-visible { outline: var(--focus-ring); outline-offset: var(--focus-offset); }
+ .missa-input:disabled { color: var(--button-disabled-ink); border-color: var(--button-disabled-line); }
+ .missa-input[aria-invalid="true"] { border-color: var(--reader-theme-accent); }
+
+}

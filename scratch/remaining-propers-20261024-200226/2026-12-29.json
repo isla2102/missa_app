@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-29",
+  "date": "2026-12-29",
+  "observance": "(백) 성탄 팔일 축제 제5일",
+  "sourceRefs": [
+    "goodnews-20261229"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<자기 형제를 사랑하는 사람은 빛 속에 머무릅니다.>",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 1서의 말씀입니다.2,3-11",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "사랑하는 여러분, 3 우리가 하느님의 계명을 지키면,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "그것으로 우리가 예수님을 알고 있음을 알게 됩니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "4 “나는 그분을 안다.” 하면서 그분의 계명을 지키지 않는 자는 거짓말쟁이고,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "그에게는 진리가 없습니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "5 그러나 누구든지 그분의 말씀을 지키면,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "그 사람 안에서는 참으로 하느님 사랑이 완성됩니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "그것으로 우리가 그분 안에 있음을 알게 됩니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "6 그분 안에 머무른다고 말하는 사람은",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "자기도 그리스도께서 살아가신 것처럼 그렇게 살아가야 합니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "7 사랑하는 여러분, 내가 여러분에게 써 보내는 것은 새 계명이 아니라,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "여러분이 처음부터 지녀 온 옛 계명입니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "이 옛 계명은 여러분이 들은 그 말씀입니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "8 그러면서도 내가 여러분에게 써 보내는 것은 새 계명입니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "그것은 그리스도께도 또 여러분에게도 참된 사실입니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "어둠이 지나가고 이미 참빛이 비치고 있기 때문입니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "9 빛 속에 있다고 말하면서 자기 형제를 미워하는 사람은",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "아직도 어둠 속에 있는 자입니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "10 자기 형제를 사랑하는 사람은 빛 속에 머무르고,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "그에게는 걸림돌이 없습니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "11 그러나 자기 형제를 미워하는 자는 어둠 속에 있습니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "그는 어둠 속에서 살아가면서 자기가 어디로 가는지 모릅니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "text",
+          "text": "어둠이 그의 눈을 멀게 하였기 때문입니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p25",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "reading-1-p26",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261229"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 96(95),1-2ㄱ.2ㄴ-3.5ㄴ-6(◎ 11ㄱ)",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 하늘은 기뻐하고 땅은 즐거워하여라.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님께 노래하여라, 새로운 노래. 주님께 노래하여라, 온 세상아. 주님께 노래하여라, 그 이름 찬미하여라. ◎",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 나날이 선포하여라, 그분의 구원을. 전하여라, 겨레들에게 그분의 영광을, 모든 민족들에게 그분의 기적을. ◎",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님은 하늘을 지으셨네. 존귀와 위엄이 그분 앞에 있고, 권능과 영화가 그분 성소에 있네. ◎",
+          "sourceRef": "goodnews-20261229"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 2,32 참조",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 그리스도 다른 민족들에게는 계시의 빛이요 당신 백성 이스라엘에게는 영광이시네.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261229"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<그리스도는 다른 민족들에게는 계시의 빛이십니다.>",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.2,22-35",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "22 모세의 율법에 따라 정결례를 거행할 날이 되자,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "예수님의 부모는 아기를 예루살렘으로 데리고 올라가 주님께 바쳤다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "23 주님의 율법에 “태를 열고 나온 사내아이는 모두",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "주님께 봉헌해야 한다.”고 기록된 대로 한 것이다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "24 그들은 또한 주님의 율법에서",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "“산비둘기 한 쌍이나 어린 집비둘기 두 마리를” 바치라고 명령한 대로",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "제물을 바쳤다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "25 그런데 예루살렘에 시메온이라는 사람이 있었다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "이 사람은 의롭고 독실하며 이스라엘이 위로받을 때를 기다리는 이였는데,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "성령께서 그 위에 머물러 계셨다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "26 성령께서는 그에게 주님의 그리스도를 뵙기 전에는",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "죽지 않으리라고 알려 주셨다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "27 그가 성령에 이끌려 성전으로 들어갔다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "그리고 아기에 관한 율법의 관례를 준수하려고",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "부모가 아기 예수님을 데리고 들어오자,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "28 그는 아기를 두 팔에 받아 안고 이렇게 하느님을 찬미하였다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "29 “주님, 이제야 말씀하신 대로 당신 종을 평화로이 떠나게 해 주셨습니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "30 제 눈이 당신의 구원을 본 것입니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "31 이는 당신께서 모든 민족들 앞에서 마련하신 것으로",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "32 다른 민족들에게는 계시의 빛이며",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "당신 백성 이스라엘에게는 영광입니다.”",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "33 아기의 아버지와 어머니는 아기를 두고 하는 이 말에 놀라워하였다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "text",
+          "text": "34 시메온은 그들을 축복하고 나서 아기 어머니 마리아에게 말하였다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p26",
+          "role": "text",
+          "text": "“보십시오,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p27",
+          "role": "text",
+          "text": "이 아기는 이스라엘에서 많은 사람을 쓰러지게도 하고 일어나게도 하며,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p28",
+          "role": "text",
+          "text": "또 반대를 받는 표징이 되도록 정해졌습니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p29",
+          "role": "text",
+          "text": "35 그리하여 당신의 영혼이 칼에 꿰찔리는 가운데,",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p30",
+          "role": "text",
+          "text": "많은 사람의 마음속 생각이 드러날 것입니다.”",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p31",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261229"
+        },
+        {
+          "id": "gospel-p32",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261229"
+        }
+      ]
+    }
+  ]
+}

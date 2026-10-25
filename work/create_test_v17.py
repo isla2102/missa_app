@@ -1,0 +1,10 @@
+from pathlib import Path
+s=Path('work/test-reader-v16.cjs').read_text(encoding='utf-8').replace('02-ia-v16.html','02-ia-v17.html');s=s[:s.index('const hanging=')]
+s+='''
+const hanging=run("liturgyNode")('+ 사제의 긴 본문\\n이어지는 줄\\n◎ 신자의 응답\\n[안내] 가슴을 치며 말한다.\\n계속 바칩니다.');
+const speechRows=walk(hanging).filter(n=>n.classList.contains('reader__speech-row'));assert.equal(speechRows.length,2);assert.equal(speechRows[0].children[0].textContent,'+');assert.equal(speechRows[1].children[0].textContent,'◎');assert.ok(speechRows.every(row=>row.children[1].classList.contains('reader__speech-body')));const guide=walk(hanging).find(n=>n.classList.contains('reader__guidance'));assert.equal(guide.parentElement.className,'reader__speech-body');assert.ok(guide.parentElement.textContent.includes('신자의 응답'));assert.ok(guide.parentElement.textContent.includes('계속 바칩니다.'));
+const entrance=run('renderEntranceScore()');assert.ok(entrance.className.includes('reader__item--score'));assert.ok(entrance.textContent.includes('악보 표시 영역 · mock'));assert.equal(entrance.textContent.includes('자료에'),false);assert.equal(entrance.textContent.includes('오늘 미사의 입당송'),false);assert.ok(walk(entrance).some(n=>n.className==='reader__score-scroll'));assert.ok(walk(entrance).some(n=>n.tagName==='img'&&n.src==='../docs/mock/entrance-score.svg'));
+const ready=run("scoreAssets('아멘')");assert.equal(ready.length,1);assert.equal(ready[0].kind,'engraved');const amen=run("renderPrayerFrame('아멘','아멘')");assert.ok(walk(amen).some(n=>n.attrs['data-score-kind']==='reengraved'));assert.ok(walk(amen).some(n=>n.tagName==='a'&&decodeURI(n.href).endsWith('reengraved/amen.pdf')));assert.equal(walk(amen).filter(n=>n.tagName==='image').length,0);assert.equal(run("scoreAssets('자비송')[0].kind"),undefined);slot.value='dawn';assert.equal(run("scoreAssets('아멘').length"),0);slot.value='main';
+console.log('PASS: guidance nested inside speech body; full-page entrance mock; Amen uses vector edition/PDF link, other photos and parish scope retained.');
+'''
+Path('work/test-reader-v17.cjs').write_text(s,encoding='utf-8',newline='\r\n')

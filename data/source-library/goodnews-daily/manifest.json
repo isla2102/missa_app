@@ -1,0 +1,1171 @@
+{
+  "dates": [
+    {
+      "date": "2026-10-01",
+      "observance": "[(백) 아기 예수의 성녀 데레사 동정 학자 기념일]",
+      "sha256": "ea07f24e66154f7f8266772fed9e8d3ee55bfd2b977b43aa6c67585dbbede0a2",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "observance": "[(백) 수호천사 기념일]",
+      "sha256": "07491f4fc9a5a21efc949cce96f5124ee4341a2cac4ad486bb565d198b4848ef",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-03",
+      "observance": "[(녹) 연중 제26주간 토요일]",
+      "sha256": "1a6f7c29ab037bcc77172dc6445437db1753f1eed7299afbfeefd4dbd25188ee",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-04",
+      "observance": "[(녹) 연중 제27주일]",
+      "sha256": "a00f4051b38fbeec994ca2601026599dbc36f7fac9dbceb9c820ebf6e5bdd14e",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-05",
+      "observance": "[(녹) 연중 제27주간 월요일]",
+      "sha256": "e229a3caa7991ca2505781a55fa7e6709f7c7f1b300e30da3d75458986cb7220",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-06",
+      "observance": "[(녹) 연중 제27주간 화요일]",
+      "sha256": "b41c3ac8f163a62d0708f0fb26013207a8f77e6eb2078c2e9d9b32a3e0663f32",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-07",
+      "observance": "[(백) 묵주 기도의 복되신 동정 마리아 기념일]",
+      "sha256": "adccf056915ed49e79c487e43de554ff11800f591b5c7587487b71fe73eb4779",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "observance": "[(녹) 연중 제27주간 목요일]",
+      "sha256": "4fcf5d367bce76e6f343c1daa3775fd53b140a0e3ccac8804170a22402462c6c",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-09",
+      "observance": "[(녹) 연중 제27주간 금요일]",
+      "sha256": "dc8be7bc86b4ca0ab3b239dd6a2f863a7bce41cb848f354fc4b7be72e17bafcb",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-10",
+      "observance": "[(녹) 연중 제27주간 토요일]",
+      "sha256": "5fe6a95391c56c4ed61e604da3bc45fc2e93202e06b32ae9e0ce8d3a62b49792",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-11",
+      "observance": "[(녹) 연중 제28주일(군인 주일)]",
+      "sha256": "b7ac00159967eadc5302a9744ea18a5bb572ffd14fff678bc674caa23dfd4790",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "observance": "[(녹) 연중 제28주간 월요일]",
+      "sha256": "45197829fc50c0a3b321b26aca072b5ba0da5ee885574f28b91d9a63f9f6e50c",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-13",
+      "observance": "[(녹) 연중 제28주간 화요일]",
+      "sha256": "4d176cc9e26286a8b06afe899d30c9bad45227d6589dd94a2cff911739320a75",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-14",
+      "observance": "[(녹) 연중 제28주간 수요일]",
+      "sha256": "df184bb04d4135965439078d4395554a1b3926e7de29de7c6fa29a3455d68b3b",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-15",
+      "observance": "[(백) 예수의 성녀 데레사 동정 학자 기념일]",
+      "sha256": "07073392f8884411dc7bd7d259d5a906b58279556f3652e04183d53727ff4881",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "observance": "[(녹) 연중 제28주간 금요일]",
+      "sha256": "aaede148d1fbfbf0c8d2f619221e74521651230a035e4aec6a2933a938fdf399",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-17",
+      "observance": "[(홍) 안티오키아의 성 이냐시오 주교 순교자 기념일]",
+      "sha256": "d74e582168e7d7682b18347555daa2dc23a9340df9f8c1eb7359e78dcb73690c",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "observance": "[(녹) 연중 제29주일, 민족들의 복음화를 위한 미사(전교 주일)]",
+      "sha256": "e7b74a2eab8a8ad49ac75eeb5945bf87a4b034680fa13fbb19b5fbabbd68be79",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "화답송": 1
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "observance": "[(녹) 연중 제29주간 월요일]",
+      "sha256": "d66745ca5849b5b61f621247430ba509509203ad6cd3a557b517a3d60e3e621a",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-20",
+      "observance": "[(녹) 연중 제29주간 화요일]",
+      "sha256": "880e54a33073ecd91cb3bd781ce9376e0a4f64e258370ca1bd5a1d00577007bd",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-21",
+      "observance": "[(녹) 연중 제29주간 수요일]",
+      "sha256": "07578078cc92c171233f2f2eb55bf169a1b8b42c7fb5c559a8bc880b325e0738",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-22",
+      "observance": "[(녹) 연중 제29주간 목요일]",
+      "sha256": "90e4a6a9660c4cc19d4dd0572c48fc1b36692da3c95a03dff913b553250d584e",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-23",
+      "observance": "[(녹) 연중 제29주간 금요일]",
+      "sha256": "cc55d1ed3ae98c1fe67cc44903db478708b5cbcdee304aaf83116a1233a7cd6b",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-24",
+      "observance": "[(녹) 연중 제29주간 토요일]",
+      "sha256": "8203d2632d1c79a6db9f6e790c435c89802651fc9839814809cb656e2c3caba5",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-25",
+      "observance": "[(녹) 연중 제30주일]",
+      "sha256": "95ae9fd29f1d1d86f488a3a1dd255f93e4e7132f53b5c567109ada182481b8ce",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-26",
+      "observance": "[(녹) 연중 제30주간 월요일]",
+      "sha256": "5d21f3aa098f4ae15d23e07104f8f3110cccca5acc9c7e7825991521fa20b810",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-27",
+      "observance": "[(녹) 연중 제30주간 화요일]",
+      "sha256": "d18748e5c0bab72e559695ac5a0c125b1df44bde08e869034002b73a93501cd8",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-28",
+      "observance": "[(홍) 성 시몬과 성 유다(타대오) 사도 축일]",
+      "sha256": "8ef11419e17db967a9e57a9dea3f9dd35eef66df6196e354d25a6d465fd76a99",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-29",
+      "observance": "[(녹) 연중 제30주간 목요일]",
+      "sha256": "79a2cb34848122690651b90ce5facfd50bd2ece8661f4051f0213ddb2ad78972",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-30",
+      "observance": "[(녹) 연중 제30주간 금요일]",
+      "sha256": "24cff9429eee1441d9da81ddec47347bd28aaa57f40a5df1013cb95034272c96",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-10-31",
+      "observance": "[(녹) 연중 제30주간 토요일]",
+      "sha256": "ae5d8c7bb27856ba5d71c93324dd40e098f91c66d5d20073bc70bdf8c1c10caa",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-01",
+      "observance": "[(백) 모든 성인 대축일]",
+      "sha256": "d2e3003a3e8d35615c5b1099e1feb24234f34c6663a492a0efae2635c21708bd",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-02",
+      "observance": "[(자) 죽은 모든 이를 기억하는 위령의 날 - 첫째 미사]",
+      "sha256": "ef6b97429dd308748c627f1ca8a148dd4eda250f3bf41a254764d5a8e598f729",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "화답송": 1
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "observance": "[(녹) 연중 제31주간 화요일]",
+      "sha256": "0c6a6d85acd8ca706c6e5c7a9b4ccfa5e70fe57fe4e750cb3548521b1569b6ef",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-04",
+      "observance": "[(백) 성 가롤로 보로메오 주교 기념일]",
+      "sha256": "ab549d6c4efd21277d9efcecbfd2503c94922b44b3d9e6a132830ff2b54c57a0",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "observance": "[(녹) 연중 제31주간 목요일]",
+      "sha256": "ef3eea57ab2471f0e79340ffe52d6340f9032478b39c5cb441b76c025fc77646",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-06",
+      "observance": "[(녹) 연중 제31주간 금요일]",
+      "sha256": "af4110a1069cf4fa78a88d3f841f513b452e3a1c75db0918f01fca0ba63f2a1d",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-07",
+      "observance": "[(녹) 연중 제31주간 토요일]",
+      "sha256": "062dee776095d13649d1ab022bc4f9a0db6850c27d27308e4c63afb70b6d9d95",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-08",
+      "observance": "[(녹) 연중 제32주일(평신도 주일)]",
+      "sha256": "de70b1e069b7c08ce84a74dc1904634801db1fecb8a4130dfe8a8513f1bc079c",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "제2독서": 1
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "observance": "[(백) 라테라노 대성전 봉헌 축일]",
+      "sha256": "43a1ee07502aa237015ddc77d63e054d14a53bddb939be1e25baf1bef31c763d",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "제1독서": 1
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "observance": "[(백) 성 대 레오 교황 학자 기념일]",
+      "sha256": "9698f43dd234eed0ab7629f190b6f26af0b73c6eca397d32cf07503fd64665ea",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "observance": "[(백) 투르의 성 마르티노 주교 기념일]",
+      "sha256": "3900e3e0ce9c4fd812f965d3aed0cfacd7171742644e2a7ebcda8f8e039911f1",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "observance": "[(홍) 성 요사팟 주교 순교자 기념일]",
+      "sha256": "95a7239b37119b3739ec4bfbe097d21c81f5737bfd3f0e63c109909ab0230dc1",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 3
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "observance": "[(녹) 연중 제32주간 금요일]",
+      "sha256": "a41f4ed61b3ec90e350dca9b8218c4cb7001ac02cf89cb5e273d85b44795fbcc",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-14",
+      "observance": "[(녹) 연중 제32주간 토요일]",
+      "sha256": "57018a3787de209d46337aabe1f507f02b5a74409083cfebf6c00c6da4e7a0e1",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-15",
+      "observance": "[(녹) 연중 제33주일(세계 가난한 이의 날)]",
+      "sha256": "35333ec5aabc980c84e4fc5ce288a89c668d79477816e48f38c3c0481e0bfe81",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "observance": "[(녹) 연중 제33주간 월요일]",
+      "sha256": "daeb17780ea0eebd368370d490c710384693acc402e565395314373b9f89f177",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-17",
+      "observance": "[(백) 헝가리의 성녀 엘리사벳 수도자 기념일]",
+      "sha256": "6eadeaf49168662f6d1401e54b825339167aaae6331f66f6b087c97daaaa861f",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "observance": "[(녹) 연중 제33주간 수요일]",
+      "sha256": "ba9767f45ecb3d8b2f26e3f0c9d44850b4722eb15c869e9f65f97dfbf89412f6",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-19",
+      "observance": "[(녹) 연중 제33주간 목요일]",
+      "sha256": "be91b79687b073c0795eeb1945804f5bb5378189aeddc2fbafafd23075a46619",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-20",
+      "observance": "[(녹) 연중 제33주간 금요일]",
+      "sha256": "ad251d85cdab975ffc8937ad8549803446d3f9912c20f9b969bff985e8cec644",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-21",
+      "observance": "[(백) 복되신 동정 마리아의 자헌 기념일]",
+      "sha256": "4ae2518e00b6c61001a02463d1c64edfb3bfc0e2d17161156ef739b89952dd4a",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-22",
+      "observance": "[(백) 온 누리의 임금이신 우리 주 예수 그리스도 왕 대축일(성서 주간)]",
+      "sha256": "69af9006fbc50f6f1d16a89216324f835c494b3f6a260e0e498ab303edd9a988",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-23",
+      "observance": "[(녹) 연중 제34주간 월요일]",
+      "sha256": "6ef8d91d8601a445870f3d43f84c46df90a03388b8ce655cc4ce1474390a3844",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-24",
+      "observance": "[(홍) 성 안드레아 둥락 사제와 동료 순교자들 기념일]",
+      "sha256": "0bf5fc8df7114e750440d8c152b1919140cbd0bc22e688ccacef4fd532cfcd7c",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "observance": "[(녹) 연중 제34주간 수요일]",
+      "sha256": "e884898e094f49200c1cadbabf71712801c0022101aed4b8d0ea93e2b1b9af13",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-26",
+      "observance": "[(녹) 연중 제34주간 목요일]",
+      "sha256": "17dd510044c159abd02f62f0b30658a53362b944da0b86020983451678d2479f",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-27",
+      "observance": "[(녹) 연중 제34주간 금요일]",
+      "sha256": "55475536ff63a646e4765273a21d3c0d99de21362d3c827332008b578c4e1575",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-28",
+      "observance": "[(녹) 연중 제34주간 토요일]",
+      "sha256": "dff13d596caa1df9598a1e64a6a54efe1819d91ac9b37260e4f0968e45e989ed",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-29",
+      "observance": "[(자) 대림 제1주일]",
+      "sha256": "a3b9cff2ed7b08cf50722c3e7676a39fecf4068782209386c3e242b2bdf1225e",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-11-30",
+      "observance": "[(홍) 성 안드레아 사도 축일]",
+      "sha256": "8131ea04b08fd21cc7af0abad434a2567fd69abbde3c88a4af09a48c5d49c0ec",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-01",
+      "observance": "[(자) 대림 제1주간 화요일]",
+      "sha256": "78b049cffaeab561898f80e263896b6a58aaab7147b28465c80e6f35010c684a",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-02",
+      "observance": "[(자) 대림 제1주간 수요일]",
+      "sha256": "c39794a6ebf4edb49c1d92081631adc878b94ff4693b363155dad3c11fcb3e8d",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-03",
+      "observance": "[(백) 성 프란치스코 하비에르 사제 기념일]",
+      "sha256": "4cac6a3c6c84a5a6a34d27d066aea69599d98784f6a1e7174dd296c1de045414",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-12-04",
+      "observance": "[(자) 대림 제1주간 금요일]",
+      "sha256": "14da24b6c0ef1aad082ff57fb3363655f1ca987dc6c038d7ab829e12322d5861",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-05",
+      "observance": "[(자) 대림 제1주간 토요일]",
+      "sha256": "11c6280f32446c354720fb598366d4c79de1a4ac8b0eea79066e253efa8d2a90",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-06",
+      "observance": "[(자) 대림 제2주일(인권 주일, 사회 교리 주간)]",
+      "sha256": "077a0f195e3926e9285f3e9d6126a017edfa7f2bf559aaeb22976afe7a9c9b34",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-07",
+      "observance": "[(백) 성 암브로시오 주교 학자 기념일]",
+      "sha256": "540b4f5bc3df46537363e59c10e541f43867780468f2e7e9e41416dc6ea68531",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-12-08",
+      "observance": "[(백) 한국 교회의 수호자, 원죄 없이 잉태되신 복되신 동정 마리아 대축일]",
+      "sha256": "077226af2b0745fe8097a427a468b9a6614d3a61ae2ca86fbf2e5a8c6c5dc668",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-09",
+      "observance": "[(자) 대림 제2주간 수요일]",
+      "sha256": "ec5f415d82424dc433d5db72d6e8af338fdb00c93864ed32a4afd48922387e18",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-10",
+      "observance": "[(자) 대림 제2주간 목요일]",
+      "sha256": "c21af83183e49d2989b1e9c4c84e6276cb75570b1a15081b92fa385e27c549dc",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-11",
+      "observance": "[(자) 대림 제2주간 금요일]",
+      "sha256": "a68aff1ce5a703886f6c7b2ebab223f4a45f52d766dd3179f4728e955c5eea53",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-12",
+      "observance": "[(자) 대림 제2주간 토요일]",
+      "sha256": "e5420d46aed60708324f7ae4ae18f95efed896d962820017d1d1df8ee0a15749",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-13",
+      "observance": "[(자) 대림 제3주일(자선 주일)]",
+      "sha256": "da31e105a38cb24f1a5a4f4e78d0e2b6d81f11dac52db39d16c07f410d934c48",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-14",
+      "observance": "[(백) 십자가의 성 요한 사제 학자 기념일]",
+      "sha256": "3ad153176f82d2b4b1929f81e4d155f70cbbe6a1878fa7b33a43cea9dac4112b",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-12-15",
+      "observance": "[(자) 대림 제3주간 화요일]",
+      "sha256": "3e8fd96054a892e849c05ce22089861a3972956ea2d083c0507af7960d34467d",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-16",
+      "observance": "[(자) 대림 제3주간 수요일]",
+      "sha256": "a58592265e1384ceadd4c11a401cbbf99beb19161948dce9538f83bd029f2364",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-17",
+      "observance": "[(자) 12월 17일]",
+      "sha256": "9e3f29251cc511013c87ad093b6f5d8dc7af0e6a7b2d498334df94970c1be4b7",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-18",
+      "observance": "[(자) 12월 18일]",
+      "sha256": "3a1d3e6832a47280ce649f6052e9c8b847065d21fe98efb05971794150e9ac0f",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-19",
+      "observance": "[(자) 12월 19일]",
+      "sha256": "992ecc824b561be4b9912a559d9a3ea6f4e3fa1d62882b0999055d01f35d9220",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-20",
+      "observance": "[(자) 대림 제4주일]",
+      "sha256": "5f5afea5da9fed7aa586d02ce24d4f5e056d5d87037839c672c3221ea72e7e2b",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-21",
+      "observance": "[(자) 12월 21일]",
+      "sha256": "1d42a3b785184a764000f3578f66bf0891029de4a7bab94d28f289f6eb14c180",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "제1독서": 1
+      }
+    },
+    {
+      "date": "2026-12-22",
+      "observance": "[(자) 12월 22일]",
+      "sha256": "35c91bfca6f832b1e6d17e9826b6534fb8f268c6e534ed0b8162837f7ce43b2b",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-23",
+      "observance": "[(자) 12월 23일]",
+      "sha256": "e44ea50e751d5a94231ad2593ff96dc26737fb9ef7912c10d1f9d38a522cad82",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-24",
+      "observance": "[(자) 12월 24일]",
+      "sha256": "1b5b5641d4396f18149c2ecd5cd9e93ca2f1fbf12b3ac6857923f19820a462b0",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-25",
+      "observance": "[(백) 주님 성탄 대축일 - 밤 미사]",
+      "sha256": "11a45a0a96dd0270623a6556aceb6159ecf1b71aac474e092f111ebf2edda5d7",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-26",
+      "observance": "[(홍) 성 스테파노 첫 순교자 축일]",
+      "sha256": "05041354a4231b49c52a1280f9d84cc33f9b902cbc00011603b6ad0f80d73d11",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-27",
+      "observance": "[(백) 예수, 마리아, 요셉의 성가정 축일(가정 성화 주간)]",
+      "sha256": "86e6717d08039ba20dcd1181136e043b3954591774330a844094e8cb2537437a",
+      "sections": [
+        "화답송",
+        "제2독서",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {
+        "제2독서": 1,
+        "제1독서": 1,
+        "복음": 1
+      }
+    },
+    {
+      "date": "2026-12-28",
+      "observance": "[(홍) 죄 없는 아기 순교자들 축일]",
+      "sha256": "278216b02e3015b1facb478cf765e303994c2a8571971b5d0b08574e0ed4e094",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-29",
+      "observance": "[(백) 성탄 팔일 축제 제5일]",
+      "sha256": "df77b860bdeb61994fea11f6c31dc31f44685005349ea71e5a197919fe4f4ec5",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-30",
+      "observance": "[(백) 성탄 팔일 축제 제6일]",
+      "sha256": "eff486c8d53d2667985e57159b5a48b19c03b05889bbe73cd59e7e9807f84355",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    },
+    {
+      "date": "2026-12-31",
+      "observance": "[(백) 성탄 팔일 축제 제7일]",
+      "sha256": "080279cabbd7e1ed83ec605cbe427108a54b18a9345c9986be68484818e993c0",
+      "sections": [
+        "화답송",
+        "제1독서",
+        "복음 환호송",
+        "복음"
+      ],
+      "alternatives": {}
+    }
+  ],
+  "count": 92,
+  "scope": "date-default Korean page; daily readings only; alternate source text preserved",
+  "copyright": "release permission deferred; local testing"
+}

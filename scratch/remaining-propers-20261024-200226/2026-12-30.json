@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-30",
+  "date": "2026-12-30",
+  "observance": "(백) 성탄 팔일 축제 제6일",
+  "sourceRefs": [
+    "goodnews-20261230"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<하느님의 뜻을 실천하는 사람은 영원히 남습니다.>",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 요한 1서의 말씀입니다.2,12-17",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "12 자녀 여러분, 내가 여러분에게 이 글을 쓰는 까닭은",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "여러분이 그분의 이름 덕분에 죄를 용서받았기 때문입니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "13 아버지 여러분, 내가 여러분에게 이 글을 쓰는 까닭은",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "처음부터 계신 그분을 여러분이 알고 있기 때문입니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "젊은이 여러분, 내가 여러분에게 이 글을 쓰는 까닭은",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "여러분이 악한 자를 이겼기 때문입니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "14 자녀 여러분, 내가 여러분에게 이 글을 쓴 까닭은",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "여러분이 아버지를 알고 있기 때문입니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "아버지 여러분, 내가 여러분에게 이 글을 쓴 까닭은",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "처음부터 계신 그분을 여러분이 알고 있기 때문입니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "젊은이 여러분, 내가 여러분에게 이 글을 쓴 까닭은",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "여러분이 강하고, 하느님의 말씀이 여러분 안에 머무르며",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "여러분이 악한 자를 이겼기 때문입니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "15 여러분은 세상도 또 세상 안에 있는 것들도 사랑하지 마십시오.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "누가 세상을 사랑하면, 그 사람 안에는 아버지 사랑이 없습니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "16 세상에 있는 모든 것,",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "곧 육의 욕망과 눈의 욕망과 살림살이에 대한 자만은",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "아버지에게서 온 것이 아니라 세상에서 온 것입니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "17 세상은 지나가고 세상의 욕망도 지나갑니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "그러나 하느님의 뜻을 실천하는 사람은 영원히 남습니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261230"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 96(95),7-8ㄱ.8ㄴ-9.10(◎ 11ㄱ)",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 하늘은 기뻐하고 땅은 즐거워하여라.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님께 드려라, 뭇 민족의 가문들아. 주님께 드려라, 영광과 권능을. 주님께 드려라, 그 이름의 영광을. ◎",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 제물 들고 그분 앞뜰로 들어가라. 거룩한 차림으로 주님께 경배하여라. 온 세상아, 그분 앞에서 무서워 떨어라. ◎",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 겨레들에게 말하여라. “주님은 임금이시다. 누리는 정녕 굳게 세워져 흔들리지 않고, 그분은 민족들을 올바르게 심판하신다.” ◎",
+          "sourceRef": "goodnews-20261230"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 거룩한 날이 우리에게 밝았네. 민족들아, 어서 와 주님을 경배하여라. 오늘 큰 빛이 땅 위에 내린다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261230"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<예루살렘의 속량을 기다리는 모든 이에게 그 아기에 대하여 이야기하였다.>",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.2,36-40",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 36 한나라는 예언자가 있었는데,",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "프누엘의 딸로서 아세르 지파 출신이었다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "나이가 매우 많은 이 여자는 혼인하여 남편과 일곱 해를 살고서는,",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "37 여든네 살이 되도록 과부로 지냈다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "그리고 성전을 떠나는 일 없이 단식하고 기도하며 밤낮으로 하느님을 섬겼다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "38 그런데 이 한나도 같은 때에 나아와 하느님께 감사드리며,",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "예루살렘의 속량을 기다리는 모든 이에게 그 아기에 대하여 이야기하였다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "39 주님의 법에 따라 모든 일을 마치고 나서,",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "예수님의 부모는 갈릴래아에 있는 고향 나자렛으로 돌아갔다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "40 아기는 자라면서 튼튼해지고 지혜가 충만해졌으며, 하느님의 총애를 받았다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261230"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261230"
+        }
+      ]
+    }
+  ]
+}

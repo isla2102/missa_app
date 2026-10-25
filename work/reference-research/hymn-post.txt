@@ -1,0 +1,1023 @@
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	GOODNEWS 자료실 - 2026년 10월 묵주기도성월 미사 성가번호표
+
+
+function loginGo(){   
+    // 전체 주소를 생성한 뒤, 통째로 server.URLEncode로 감싸줍니다. (HTTP_URL은 대문자로 변경)
+    window.location = 'https://www.catholic.or.kr/oauth/login.asp?redirect_url=https%3A%2F%2Fbbs%2Ecatholic%2Eor%2Ekr%2Fpdsm%2Fbbs%5Fview%2Easp%3Fnum%3D6%26id%3D212615%26menu%3D4807'; 
+};
+function isMy(cc_id){if ( cc_id == '' && '' != '' ) { return true;} else {return false;} }
+
+// $(document).bind("contextmenu", function(e){	return false; });
+
+var go_URL =   'https://bbs.catholic.or.kr:443/pdsm/bbs_view.asp?num=6&id=212615&menu=4807';
+var isLogin = false;
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-52J53FG');
+
+
+
+
+
+
+		
+
+	var qa_view_chk = false ;
+
+		
+
+
+
+	
+
+	
+		
+
+			
+		
+				
+					안녕하세요.
+					가톨릭인터넷 굿뉴스 입니다.
+					로그인
+				
+			
+
+
+			
+				
+				
+					
+					영성ㅣ교육
+					
+					신앙생활
+					
+					가톨릭문화
+					
+					신학자료
+					
+					교회기관단체
+					
+					일반자료실
+					
+					가톨릭동영상
+					
+					Help Desk
+					
+				
+			
+		
+
+
+		
+			
+			게시판
+			
+		
+		
+		
+			
+			굿뉴스메인
+		
+	
+	
+
+
+
+	$(document).ready(function(){
+		$(".dep2").hide();
+	});
+
+	function onshow(){
+		if ($("#myeyes").val() == 0){
+			$(".dep2").show();
+			$("#myeyes").attr("value","1");
+		}else{
+			$(".dep2").hide();
+			$("#myeyes").attr("value","0");
+		}
+	}
+
+	
+
+	
+
+	
+		
+		
+		
+			
+			자료실
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+			
+			검색
+			
+
+			
+				
+					제목내용작성자ID태그추천수(이상)조회수(이상)
+										
+
+				
+				
+			
+		
+		
+	
+	
+
+	
+
+	
+		오늘의미사
+		(녹) 2026년 10월 19일 (월)연중 제29주간 월요일네가 마련해 둔 것은 누구 차지가 되겠느냐?
+	
+
+	
+
+
+
+
+
+	
+	가톨릭문화
+	
+
+	
+	
+		
+			
+				
+				영성ㅣ교육
+				
+				신앙생활
+				
+				가톨릭문화
+				
+				신학자료
+				
+				교회기관단체
+				
+				일반자료실
+				
+				가톨릭동영상
+				
+			
+		
+	
+	
+
+
+
+	
+	
+		
+성인ㅣ순교자ㅣ성지전례ㅣ교회음악화답송ㅣ복음환호송악보ㅣ감상실성극ㅣ영화ㅣ예술성미술ㅣ교회건축가톨릭 이미지성가대 영상 모음
+		
+	
+	
+
+	var Sum = 0;
+    $(document).ready(function(){      
+		$('#menu_list').each(function(){  
+				var liItems = $(this);
+				Sum = 0;
+				if(liItems.children('li').length >= 1){
+				 $(this).children('li').each(function(i, e){
+					Sum += $(e).outerWidth(true) + 30 ;
+				 });
+				$(this).width(Sum+1);
+				} 
+		});
+
+		$('#menu_list').css("width", Sum + 'px');
+		//$("#menu_list").css( "left" , '-' + $("#view_menu").position().left + 'px' )//
+		// $("#menu_list").css( "left" , '-' + $("#view_menu").position().left + 'px' );
+
+		$("#menu_lists").scrollLeft(  $("#view_menu").position().left);
+
+
+		//$("#menu_list").focus();
+
+		//$('#view_menu").left();
+
+    });
+
+
+
+
+
+
+	
+	
+
+		전례ㅣ교회음악
+		
+			
+				
+			
+		
+		
+		
+		
+
+		
+			function setFontSize(cc_type){
+				var curSize
+
+
+
+				if (cc_type == 'S' )  {
+					$("#font_sm").attr("class","sm");
+					$("#font_lg").attr("class","lg dim");
+					$("#font_xlg").attr("class","xlg dim");
+					$("#cont_view").attr("class","cont");
+
+					curSize = parseInt($('.missaContent').css('font-size')) - 2;
+					$('.missaContent').css('font-size', curSize);
+
+				} else if (cc_type == 'L' ) {
+					$("#font_sm").attr("class","sm dim");
+					$("#font_lg").attr("class","lg");
+					$("#font_xlg").attr("class","xlg dim");
+					$("#cont_view").attr("class","cont lg");
+	
+					curSize = parseInt($('.missaContent').css('font-size'))+2;
+					$('.missaContent').css('font-size', curSize);
+
+			
+
+				} else if (cc_type == 'XL' ) {
+					$("#font_sm").attr("class","sm dim");
+					$("#font_lg").attr("class","lg dim");
+					$("#font_xlg").attr("class","xlg");
+					$("#cont_view").attr("class","cont xlg");
+
+					curSize = parseInt($('.missaContent').css('font-size'))+4;
+					$('.missaContent').css('font-size', curSize);
+
+				}
+			}
+		
+		
+		
+		
+			
+				
+					2026년 10월 묵주기도성월 미사 성가번호표
+				
+				
+					
+						3690
+						윤도관 [ydk8157]
+						
+						2026-09-01
+					
+				
+				
+
+					한 달 일찍 성가번호를 올려드리는 이유는 이 성가번호를 활용하시는 본당의 미사 반주자들의 충분한 연습을 위해서입니다.  미리 출력하시면 더욱 도움이 되시리라 생각됩니다. ** 예전의 성가책(성가책 표지에 '수정판'이라고 되어있음)으로 노래하시는 본당은 두개의 파일중에 "2026년 10월 성가표"를 다운받으시면 됩니다.  ** 저작권 해결 등 새롭게 출판된 "수정보완판"으로 성가를 부르시는 본당은 두 개의 파일 중에 "2026년 10월 성가표(수정보완판)" 이라고 되어있는 파일을 다운 받으시기 바랍니다.   † 성부와 성자와 성령의 이름으로 아멘.
+
+				
+				
+				
+				
+						
+							파일첨부
+							2026년 10월 성가표.hwp ( 159kb )다운로드 수 [1,234]2026년 10월 성가표(수정보완판).hwp ( 81kb )다운로드 수 [3,102]
+						
+						
+						
+							
+								1
+								3,462
+								
+									5
+									
+							
+							
+								
+										추천  1
+									
+							
+						
+						
+							
+							10월성가번호표, 10월매일미사성가번호표, 10월성가번호, 묵주기도성월성가번호, 10월미사성가번호, 10월매일미사성가번호, 성가번호
+					
+						
+						
+						
+											
+					
+						
+					
+					
+			
+			
+				
+				리스트
+				
+			
+		
+
+
+
+
+
+
+
+
+ 
+	var eventsID ='' ;
+	
+	function goBack () {
+	
+		window.location = "bbs_list.asp?menu=4807";
+	
+	// window.history.back();
+	}
+	
+     $(document).ready(function() {
+         // $("head").append("<meta property='og:title' id='fb_title' content='2026%EB%85%84+10%EC%9B%94+%EB%AC%B5%EC%A3%BC%EA%B8%B0%EB%8F%84%EC%84%B1%EC%9B%94+%EB%AF%B8%EC%82%AC+%EC%84%B1%EA%B0%80%EB%B2%88%ED%98%B8%ED%91%9C' /><meta property='og:description'  id='fb_desc' content='2026%EB%85%84+10%EC%9B%94+%EB%AC%B5%EC%A3%BC%EA%B8%B0%EB%8F%84%EC%84%B1%EC%9B%94+%EB%AF%B8%EC%82%AC+%EC%84%B1%EA%B0%80%EB%B2%88%ED%98%B8%ED%91%9C' />");
+		 // 본문 스타일 수정
+		 $("#cont_view table").css("width","auto");
+		 $("#cont_view img").css("border","");
+		 
+		 // $("#cont_view table").css("max-width","85%");
+		 $("#cont_view table").attr("width","");
+		 // $("#cont_view table").attr("width","85%");
+		 // $("#cont_view iframe").css("max-width","85%");
+         
+
+		
+			$("#cont_view a").attr("target" , "_blank");
+		
+
+		 // $("#cont_view div").css("max-width","85%");
+		 // $("#cont_view embed").css("max-width","85%");
+		 
+
+		
+
+
+
+		//게시판 조회수 증가 
+		$.ajax({
+			type: "GET", //"POST",
+			url: '/inc/addReadCount.asp?menucode=gnattboard&id=212615' ,
+			//data: {},
+			//data: {menu:c_type, id:c_id , page: c_page , menuid: menuid, sort:C_Sort , row:c_row},
+
+			dataType: "html",
+			error: function (msg) {
+				//alert('error');
+				//alert(msg.responseText);
+			},
+
+			success: function (msg) {
+				//$(".numbers .view").html(msg); //innerHTML 
+			}
+		});		
+
+
+	});
+
+	function fuSend(cc_type){
+		showPopup ("/exGB/popup_freeuser.asp?id=212615&menu=4807&type="+cc_type,"pop_wrap01 no_mem")
+	}
+
+	function cmtlistView(){
+		if ($("#commentView").css("display") == 'none' ) {
+			$("#commentView").css("display","");
+		} else {
+			$("#commentView").css("display","none");
+		}
+	}
+
+	function cmtlistViewR(){
+		if ($("#commentViewR").css("display") == 'none' ) {
+			$("#commentViewR").css("display","");
+		} else {
+			$("#commentViewR").css("display","none");
+		}
+	}
+
+
+	function applylistView(){
+		if ($("#list_view").css("display") == 'none' ) {
+			$("#list_view").css("display","");
+		} else {
+			$("#list_view").css("display","none");
+		}
+	}
+
+	function ctslistView(idx){
+		if ($("#ctslist_view_"+idx).css("display") == 'none' ) {
+			$("#ctslist_view_"+idx).css("display","block");
+		} else {
+			$("#ctslist_view_"+idx).css("display","none");
+		}
+	}
+
+	function addpage() {
+
+		c_page = $("#mpage").val();
+
+		$.ajax({
+			type: "GET", //"POST",
+			url: '/incm/inc_get_event_list.asp',
+			data: {page: c_page },
+
+			dataType: "html",
+			error:function(request,status,error){
+				alert("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
+			},
+
+			success: function (msg) {
+				//document.getElementById(obj).value = data;
+				//alert(msg);
+				$("#list_view").append(msg); //innerHTML 
+			}
+		});
+
+
+
+	}
+
+
+	function replyAddView(cc_type){
+		if (cc_type == 'Y' ) {
+			getSendDiv('get_bbs_qa_write.asp?menu=4807&seq=212615&id=3690&menunum=3558&in=Y&RTYPE=R','reply_add');
+			$("#reply_add").css("display","");
+			$("#reply_add_view").css("display","none");
+		} else {
+			$("#reply_add").css("display","none");
+			$("#reply_add_view").css("display","");
+			$("#reply_add").html('');
+		}
+	}
+
+	function replyView(cc_type){
+		if (cc_type == 'Y' ) {
+			$("#reply_add").css("display","");
+		} else {
+			$("#reply_add").css("display","none");
+			$("#reply_add").html('');
+		}
+	}
+
+
+function sendRPort() {
+
+	if (! isLogin  )	{ 
+		alert("로그인 후 이용하세요!");
+		loginGo();
+		return false; 
+	}
+
+	showPopup('popup_report.asp?type=B&menu=4807&id=212615', 'pop_wrap01');
+}
+
+function sendRPDel () {
+	if (confirm("정말 취소 하시겠습니까?") != true){   return false; };
+	getSend ("bbs_ex.asp?type=RPD&id=212615&menu=4807");
+}
+
+	
+	 $(document).bind("contextmenu", function(e){	return false; });
+	
+		
+
+
+
+
+
+				
+
+
+
+	
+		
+			
+			
+				Comments
+				*로그인후 등록 가능합니다.
+			
+			
+				
+					찬미예수님!윤도관 신부님을 위해 기도 드립니다.
+					0 / 500
+				
+				
+					이미지첨부
+					 
+					등록
+				
+				
+				
+				
+				
+				
+				
+			
+			
+		
+
+		
+			$("#tccmtm").html( "("+$("#cmtm").val().length + "/500)" );
+
+			$(document).ready(function() { 
+				// bind 'myForm' and provide a simple callback function 
+				$('form[name=cmtform]').ajaxForm(function(msg) { 
+					//alert("Thank you for your comment!"); 
+					$("#getsend").html(msg);
+				}); 
+			}); 
+
+
+
+	// 댓글 수정
+	function cmtEditOK (c_id) {
+		
+			alert ( "로그인 후 등록 하세요!" ) ;
+			loginGo();
+			return false;
+		
+
+
+		if (! chkFileExtChk ($("#file"+c_id ).val()) ){
+			$("#file"+c_id).replaceWith($("#file"+c_id).clone());
+			return false; 
+		}   
+
+		if ( $("#cmtm"+c_id ).val() == '' ) {
+			alert ("댓글을 입력하세요");
+			return false;
+		}
+		cmtResetID= "#cmtform" + c_id ;
+		$("#cmtform" + c_id).submit();
+
+	}
+	function cmtReset() {
+		$(cmtResetID).trigger("reset");
+	}
+
+	function cmtEditCancel (c_id) {
+		$("#cmtm" + c_id ).attr('readonly', true);
+		/*
+		$("#cmtm" + c_id ).css("border" , "0px");
+		$("#cmtm" + c_id ).css("height" , "auto");
+		$("#cmt1_" + c_id ).css("display" , "");
+		$("#cmt2_" + c_id ).css("display" , "");
+		$("#cmt3_" + c_id ).css("display" , "none");
+		$("#cmt4_" + c_id ).css("display" , "none");
+		$("#cmt5_" + c_id ).css("display" , "");
+
+		$("#cmtm" + c_id ).css("display" , "none");
+
+		$("#cmt_b_edit" + c_id ).css("display" , "");
+		$("#cmt_b_edit_c" + c_id ).css("display" , "none");
+		*/
+		$("#cmtv" + c_id ).css("display" , "");
+		$("#cmtdiv" + c_id ).css("display" , "none");
+
+	}
+
+	function cmtCmt (c_id,c_sunseo,c_name,c_uid) {
+		var srtReCmt = '';	
+
+
+
+srtReCmt = srtReCmt +'<form name="cmtform" id="rcmtform' + c_id +'" action="bbs_cmt_ex.asp" method="post" enctype="multipart/form-data">';
+srtReCmt = srtReCmt +'<input type="hidden" value="' + c_id + '" name="ID">';
+srtReCmt = srtReCmt +'<input type="hidden" value="212615" name="seq">';
+srtReCmt = srtReCmt +'<input type="hidden" value="' + c_sunseo + '" name="sunseo">';
+srtReCmt = srtReCmt +'<input type="hidden" value="" name="sub">';
+srtReCmt = srtReCmt +'<input type="hidden" value="R" name="type">';
+srtReCmt = srtReCmt +'<input type="hidden" value="4807" name="menu"><input type="file" name="file"  id="rfile' + c_id + '" style="width:0; height:0; filter:alpha(opacity=0);border: 0;" onchange="fileChange(this)" accept="image/*">';
+srtReCmt = srtReCmt +'<p class="text_wrap">'
+srtReCmt = srtReCmt +'<textarea name="cmmemo" id="rcmtm' + c_id + '" >찬미예수님! '
+if ( ! isMy (c_uid)  ) { srtReCmt = srtReCmt +''+c_name+'님을 위해 기도 드립니다.\n' }
+srtReCmt = srtReCmt +'</textarea>'
+srtReCmt = srtReCmt +'<span class="num" id="tcrcmtm' + c_id +  '">0/500</span>'
+srtReCmt = srtReCmt +'</p>'
+srtReCmt = srtReCmt +'<p class="btm_btns">'
+srtReCmt = srtReCmt +'<a href="javascript:void(0);" class="btn_cancel01" onclick="cmtCmtCancel(' + c_id + ')" >취소</a>'
+srtReCmt = srtReCmt +'<a href="javascript:void(0);" class="btn_upload01" onclick="cmtReSave(' + c_id + ')">올리기</a>'
+srtReCmt = srtReCmt +'</p>'
+
+srtReCmt = srtReCmt +'<p class="btm_btns">'
+srtReCmt = srtReCmt +'<a href="javascript:void(0);" class="btn_plus_img" onclick="$(\'#rfile' + c_id + '\').click();">이미지첨부</a>'
+srtReCmt = srtReCmt +'<span id="rfile' + c_id + 'nm" class="cmfilename"> </span>'
+srtReCmt = srtReCmt +'</p>'
+
+srtReCmt = srtReCmt +'</form>';
+
+$("#recmt"+c_id).html(srtReCmt);
+//$("#tcmmemo" +c_id ).html( $("#cmmemo" +c_id ).val().length );
+$("#recmt"+c_id).css("display","block");
+$("#tcrcmtm"+ c_id ).html( "("+ $("#rcmtm"+c_id ).val().length + "/500)");
+$("#recmtbt_"+c_id).css("display","none");
+ajaxformSend ();
+
+	}
+
+	function cmtReSave (c_id) {
+
+		
+			alert ( "로그인 후 등록 하세요!" ) ;
+			loginGo();
+			return false;
+		
+
+
+		if (! chkFileExtChk ($("#rfile"+c_id ).val()) ){
+			$("#rfile"+c_id).replaceWith($("#rfile"+c_id).clone());
+			return false; 
+		}   
+
+		if ( $("#rcmtm"+c_id ).val() == '' ) {
+			alert ("댓글이 입력하세요");
+			return false;
+		}
+
+		$("#rcmtform" + c_id ).submit();
+	}
+
+
+
+
+
+
+
+		
+		
+
+
+		
+		
+		
+		var pagenum = 1 ;
+		// getSendAddDiv('get_bbs_view_cmt.asp?num=6&id=212615&menu=4807&PAGE=' + ( pagenum )  ,'cmtlist_view' );
+
+		cmtAuto('');
+
+		function cmtAuto(cc_data){
+			$("#tcmtm").html( $("#cmtm").val().length );
+			$("#tccmtm").html( "("+$("#cmtm").val().length + "/500)" );
+			getSendDiv ('get_bbs_view_cmt.asp?num=6&id=212615&menu=4807&re=&PAGE=' + ( pagenum )  + '&last='+cc_data , "cmtlist_view");
+		};
+		function getArrow(cc_div, cc_name){
+			getSendDiv ("/exgb/get_Arrow.asp?member="+cc_name, "cmtm"+cc_div);
+		};
+
+
+		// 댓글 삭제
+		function cmtDel (c_id) {
+			if (confirm("정말 삭제하시겠습니까?") != true){    //확인
+				return false;
+			}
+			getSend ("bbs_cmt_ex.asp?type=D&seq=212615&sub=&menu=4807&id="+c_id);
+
+		}
+
+	// 대댓글 취소
+	function cmtCmtCancel (c_id) {
+		$("#recmt"+c_id).css("display","none");
+		$("#recmt"+c_id).html("");
+		$("#recmtbt_"+c_id).css("display","");
+
+	}
+	function fileChange (cc_ob) {
+		$("#" + cc_ob.getAttribute("id") + "nm").html( cc_ob.value.split(/(\\|\/)/g).pop());
+	}
+
+	function cmtEdit (c_id) {
+
+		$("#cmtv" + c_id ).css("display" , "none");
+		$("#cmtvbt" + c_id ).css("display" , "none");
+		$("#cmtdiv" + c_id ).css("display" , "");
+		
+		$("#tccmtm"+ c_id ).html( "("+ $("#cmtm"+c_id ).val().length + "/500)");
+	
+	}
+
+	function cmtEditCancel (c_id) {
+		$("#cmtv" + c_id ).css("display" , "");
+		$("#cmtvbt" + c_id ).css("display" , "");
+		$("#cmtdiv" + c_id ).css("display" , "none");
+
+	}
+
+	function sendFileDel (cc_id) {
+		if (confirm("정말 삭제 하시겠습니까?") != true){   return false; };
+		getSend ("bbs_cmt_ex.asp?type=FD&seq=212615&menu=4807&id="+cc_id);
+	}
+
+function chkFileExtChk ( cc_file) {
+	var cc_ext = cc_file.slice((Math.max(0, cc_file.lastIndexOf(".")) || Infinity) + 1).toLowerCase() ;
+	
+	if ( cc_ext ==  'exe' ) { alert (cc_file + "\n등록 불가능한 파일입니다."); return false; 	};
+	
+	if ( cc_ext ==  'dll' ) { alert (cc_file + "\n등록 불가능한 파일입니다."); return false; 	};
+	
+	if ( cc_ext ==  'asp' ) { alert (cc_file + "\n등록 불가능한 파일입니다."); return false; 	};
+	
+	if ( cc_ext ==  'vbs' ) { alert (cc_file + "\n등록 불가능한 파일입니다."); return false; 	};
+	
+	if ( cc_ext ==  'bat' ) { alert (cc_file + "\n등록 불가능한 파일입니다."); return false; 	};
+	
+	if ( cc_ext ==  'sh' ) { alert (cc_file + "\n등록 불가능한 파일입니다."); return false; 	};
+	
+	if ( cc_ext ==  'inc' ) { alert (cc_file + "\n등록 불가능한 파일입니다."); return false; 	};
+	
+	return true; 
+}
+
+
+		
+		
+
+	
+		
+				
+
+
+		
+			
+
+					
+						
+							
+								
+								
+								가톨릭성가 반주 음원을 찾으시는 분께						
+							
+							
+								3704
+								임용학
+								2026-10-10
+							
+							
+							
+
+							
+								
+									0
+									171
+									
+									0
+									
+								
+								
+								
+								
+								
+							
+						
+					
+	
+					
+						
+							
+								
+								
+								신앙 속 예술, 예술 속 신앙38: 힐데가르트 성녀의 오 동정녀 교회여						
+							
+							
+								3703
+								주호식
+								2026-10-05
+							
+							
+							
+
+							
+								
+									0
+									98
+									
+									0
+									
+								
+								
+								
+								
+								
+							
+						
+					
+	
+					
+						
+							
+								
+								
+								2026년 11월 위령성월 미사 성가번호표						
+							
+							
+								3702
+								윤도관
+								2026-10-01
+							
+							
+							
+
+							
+								
+									2
+									1,659
+									
+									8
+									
+								
+								
+								
+								
+								
+							
+						
+					
+	
+					
+						
+							
+								
+								
+								26년11월(위령성월)굿뉴스 수정 성가번호 선정						
+							
+							
+								3701
+								김문회
+								2026-10-01
+							
+							
+							
+
+							
+								
+									0
+									506
+									
+									1
+									
+								
+								
+								
+								
+								
+							
+						
+					
+	
+					
+						
+							
+								
+								
+								26년11월(위령성월)굿뉴스 통일 성가번호 선정						
+							
+							
+								3700
+								김문회
+								2026-10-01
+							
+							
+							
+
+							
+								
+									0
+									198
+									
+									0
+									
+								
+								
+								
+								
+								
+							
+						
+					
+	
+
+			
+		
+
+
+			리스트
+			
+
+	
+	
+
+	
+
+	
+		
+			이용약관개인정보취급방침
+			PC버전  |  굿뉴스메인
+		
+		
+	
+
+
+
+
+
+	천주교 서울대교구 ⓒ Catholic Internet GoodNews 
+
+
+
+
+
+
+
+
+
+
+
+ // window.dataLayer = window.dataLayer || [];
+ // function gtag(){dataLayer.push(arguments);}
+ // gtag('js', new Date());
+ // gtag('config', 'G-9XRQ36L1YE');
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+	
+
+
+function showPopup(c_url, c_css ){
+	$("#popupdata").attr("class",c_css);
+	getSendDiv (c_url,"popupdata");
+	$("#popupwin").css("display","");
+}
+
+function closePopup(){
+	$("#popupwin").css("display","none");
+	$("#popupdata").html("");
+}
+
+
+
+
+

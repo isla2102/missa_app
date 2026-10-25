@@ -1,0 +1,453 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-11-06",
+  "date": "2026-11-06",
+  "observance": "(녹) 연중 제31주간 금요일",
+  "sourceRefs": [
+    "goodnews-20261106",
+    "user-hwp-202611"
+  ],
+  "sections": [
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<우리는 구세주를 고대합니다. 그분께서는 우리의 비천한 몸을 당신의 영광스러운 몸과 같은 모습으로 변화시켜 주실 것입니다.>",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 사도 바오로의 필리피서 말씀입니다.3,17―4,1",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "17 형제 여러분, 다 함께 나를 본받는 사람이 되십시오.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "여러분이 우리를 본보기로 삼는 것처럼",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "그렇게 살아가는 다른 이들도 눈여겨보십시오.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "18 내가 이미 여러분에게 자주 말하였고 지금도 눈물을 흘리며 말하는데,",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "많은 사람이 그리스도의 십자가의 원수로 살아가고 있습니다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "19 그들의 끝은 멸망입니다. 그들은 자기네 배를 하느님으로,",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "자기네 수치를 영광으로 삼으며 이 세상 것만 생각합니다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "20 그러나 우리는 하늘의 시민입니다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "그리고 그곳에서 구세주로 오실 주 예수 그리스도를 고대합니다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "21 그리스도께서는 만물을 당신께 복종시키실 수도 있는 그 권능으로,",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "우리의 비천한 몸을 당신의 영광스러운 몸과 같은 모습으로",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "변화시켜 주실 것입니다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "4,1 그러므로 내가 사랑하고 그리워하는 형제 여러분,",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "나의 기쁨이며 화관인 여러분,",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "이렇게 주님 안에 굳건히 서 있으십시오, 사랑하는 여러분!",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261106"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 122(121),1-2.3-4ㄱㄴ.4ㄷㄹ-5(◎ 1 참조)",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 기뻐하며 주님의 집으로 가리라.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ “주님의 집에 가자!” 할 때, 나는 몹시 기뻤노라. 예루살렘아, 네 성문에, 우리 발이 이미 서 있노라. ◎",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 예루살렘은 튼튼한 도성, 견고하게 세워졌네. 그리로 지파들이 올라가네. 주님의 지파들이 올라가네. ◎",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 이스라엘의 법을 따라, 주님의 이름을 찬양하네. 그곳에 심판의 왕좌, 다윗 집안의 왕좌가 놓여 있네. ◎",
+          "sourceRef": "goodnews-20261106"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "1요한 2,5 참조",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 누구든지 그리스도의 말씀을 지키면 그 사람 안에서 참으로 하느님의 사랑이 완성되리라.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261106"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<이 세상의 자녀들이 저희끼리 거래하는 데에는 빛의 자녀들보다 영리하다.>",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 루카가 전한 거룩한 복음입니다.16,1-8",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 1 예수님께서 제자들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "“어떤 부자가 집사를 두었는데, 이 집사가 자기의 재산을 낭비한다는 말을 듣고,",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "2 그를 불러 말하였다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "‘자네 소문이 들리는데 무슨 소린가? 집사 일을 청산하게.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "자네는 더 이상 집사 노릇을 할 수 없네.’",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "3 그러자 집사는 속으로 말하였다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "‘주인이 내게서 집사 자리를 빼앗으려고 하니 어떻게 하지?",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "땅을 파자니 힘에 부치고 빌어먹자니 창피한 노릇이다. 4 옳지, 이렇게 하자.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "내가 집사 자리에서 밀려나면",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "사람들이 나를 저희 집으로 맞아들이게 해야지.’",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "5 그래서 그는 주인에게 빚진 사람들을 하나씩 불러 첫 사람에게 물었다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "‘내 주인에게 얼마를 빚졌소?’",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "6 그가 ‘기름 백 항아리요.’ 하자,",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "집사가 그에게 ‘당신의 빚 문서를 받으시오.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "그리고 얼른 앉아 쉰이라고 적으시오.’ 하고 말하였다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "7 이어서 다른 사람에게 ‘당신은 얼마를 빚졌소?’ 하고 물었다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "그가 ‘밀 백 섬이오.’ 하자,",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "집사가 그에게 ‘당신의 빚 문서를 받아 여든이라고 적으시오.’ 하고 말하였다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "8 주인은 그 불의한 집사를 칭찬하였다. 그가 영리하게 대처하였기 때문이다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "사실 이 세상의 자녀들이 저희끼리 거래하는 데에는",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "빛의 자녀들보다 영리하다.”",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261106"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261106"
+        }
+      ]
+    },
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "주님, 저를 버리지 마소서. 저의 하느님, 저를 멀리하지 마소서. 주님, 제 구원의 힘이시여, 어서 저를 도우소서.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 자비로우신 하느님,\n은총을 베푸시어 저희가 하느님을 합당히 섬기고\n영원한 행복을 바라보며 거침없이 달려가게 하소서.\n성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시는 성자\n우리 주 예수 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n저희가 바치는 이 제물을 거룩한 제사로 받아들이시어\n저희에게 주님의 자비를 가득히 베풀어 주소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "주님, 저에게 생명의 길 가르치시니, 당신 얼굴 뵈오며 기쁨에 넘치리이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n천상의 성사로 저희를 새롭게 하셨으니\n저희에게 주님의 힘찬 능력을 드러내시어\n주님께서 약속하신 은혜를 얻게 하소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202611"
+        }
+      ]
+    }
+  ]
+}

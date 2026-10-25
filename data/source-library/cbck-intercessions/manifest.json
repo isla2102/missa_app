@@ -1,0 +1,49 @@
+{
+  "dates": [
+    {
+      "date": "2026-11-01",
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261101",
+      "sha256": "695841c27c4271cc40dc989c545cb306513f1b2573decd8bc3cadcecf0536a55",
+      "petitions": 4,
+      "unchangedOtherSectionsSha256": "d812cedffd4008bb8d0dccc2fde3662b2bd1f0fb9eb6ab24cd309486fb7b54d8"
+    },
+    {
+      "date": "2026-11-02",
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261102",
+      "sha256": "ab4a88f96038a6fe581eec97aa48233285f236b546d5dc1b493cb0f5792d0f2d",
+      "petitions": 4,
+      "unchangedOtherSectionsSha256": "e51bb612b0078ed0a57de166fa09b76368e3c42fc39a5a96077c5cdcf6e77e52"
+    },
+    {
+      "date": "2026-11-08",
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261108",
+      "sha256": "5937c283cd3ad9f3cf4e11b24123fbc4abc4f52f7a3b7b5dcd64860f50703f0c",
+      "petitions": 4,
+      "unchangedOtherSectionsSha256": "957847f367fbf792b428e2a8b5695eae6ddde0b3bc3020ffe018da194ee72d1e"
+    },
+    {
+      "date": "2026-11-15",
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261115",
+      "sha256": "9ecf36b2bbd600aadad33c8a27ff18a06d1066934111a2c7fda6be977aa59245",
+      "petitions": 4,
+      "unchangedOtherSectionsSha256": "27f5f97a0c87d0832b1e3933d6681fe9673c220976f35298164f56f9312d1d90"
+    },
+    {
+      "date": "2026-11-22",
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261122",
+      "sha256": "81e0dd5145e49e4d9ed29872303055d330d614af08319844869ee25c63b66a5e",
+      "petitions": 4,
+      "unchangedOtherSectionsSha256": "df54f2d0f001cd33ea4e2c601d40c949ad6e195160459f1248ceeba640e5d6ad"
+    },
+    {
+      "date": "2026-11-29",
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261129",
+      "sha256": "243ca27300b6d6b0e55adcdcf122a7cbda6215dbc690765d1f7e15fa2309832c",
+      "petitions": 4,
+      "unchangedOtherSectionsSha256": "b3a373e6d65fc9a6172f882afd39513573b2be1c78d1b4fe79010adc906268fc"
+    }
+  ],
+  "count": 6,
+  "petitions": 24,
+  "scope": "six reviewed date-default Masses only"
+}

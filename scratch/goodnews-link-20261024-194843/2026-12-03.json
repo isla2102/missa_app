@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-03",
+  "date": "2026-12-03",
+  "observance": "(백) 성 프란치스코 하비에르 사제 기념일",
+  "sourceRefs": [
+    "goodnews-20261203"
+  ],
+  "sections": [
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<신의를 지키는 의로운 겨레가 들어간다.>",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.26,1-6",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "1 그날 유다 땅에서는 이러한 노래가 불리리라.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "“우리에게는 견고한 성읍이 있네.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "그분께서 우리를 보호하시려고 성벽과 보루를 세우셨네.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "2 신의를 지키는 의로운 겨레가 들어가게 너희는 성문들을 열어라.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "3 한결같은 심성을 지닌 그들에게 당신께서 평화를, 평화를 베푸시니",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "그들이 당신을 신뢰하기 때문입니다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "4 너희는 길이길이 주님을 신뢰하여라. 주 하느님은 영원한 반석이시다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "5 그분께서는 높은 곳의 주민들을 낮추시고 높은 도시를 헐어 버리셨으며",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "그것을 땅바닥에다 헐어 버리시어 먼지 위로 내던지셨다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "6 발이 그것을 짓밟는다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "빈곤한 이들의 발이, 힘없는 이들의 발길이 그것을 짓밟는다.”",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261203"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 118(117),1과 8-9.19-21.25-27ㄱㄴ(◎ 26ㄱ 참조)",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님의 이름으로 오시는 분, 찬미받으소서.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 주님은 좋으신 분, 찬송하여라. 주님의 자애는 영원하시다. 사람을 믿기보다, 주님께 피신함이 훨씬 낫다네. 제후들을 믿기보다, 주님께 피신함이 훨씬 낫다네. ◎",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 정의의 문을 열어라. 그리로 들어가 나는 주님을 찬송하리라. 이것은 주님의 문, 의인들이 들어가리라. 당신이 제게 응답하시고 구원이 되어 주셨으니, 제가 당신을 찬송하나이다. ◎",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님, 구원을 베풀어 주소서. 주님, 번영을 이루어 주소서. 주님의 이름으로 오는 이는 복되어라. 우리는 주님의 집에서 너희에게 축복하노라. 주님은 하느님, 우리를 비추시네. ◎",
+          "sourceRef": "goodnews-20261203"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "이사 55,6",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 만나 뵐 수 있을 때에 주님을 찾아라. 가까이 계실 때에 그분을 불러라.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261203"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<아버지의 뜻을 실행하는 이라야 하늘 나라에 들어간다.>",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.7,21.24-27",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "그때에 예수님께서 제자들에게 말씀하셨다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "21 “나에게 ‘주님, 주님!’ 한다고 모두 하늘 나라에 들어가는 것이 아니다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "하늘에 계신 내 아버지의 뜻을 실행하는 이라야 들어간다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "24 그러므로 나의 이 말을 듣고 실행하는 이는 모두",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "자기 집을 반석 위에 지은 슬기로운 사람과 같을 것이다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "25 비가 내려 강물이 밀려오고 바람이 불어 그 집에 들이쳤지만 무너지지 않았다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "반석 위에 세워졌기 때문이다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "26 그러나 나의 이 말을 듣고 실행하지 않는 자는 모두",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "자기 집을 모래 위에 지은 어리석은 사람과 같다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "27 비가 내려 강물이 밀려오고 바람이 불어 그 집에 휘몰아치자 무너져 버렸다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "완전히 무너지고 말았다.”",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261203"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261203"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    }
+  ]
+}

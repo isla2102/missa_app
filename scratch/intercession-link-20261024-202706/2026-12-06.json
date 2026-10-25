@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-06",
+  "date": "2026-12-06",
+  "observance": "(자) 대림 제2주일(인권 주일, 사회 교리 주간)",
+  "sourceRefs": [
+    "goodnews-20261206",
+    "user-hwp-202612"
+  ],
+  "sections": [
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<너희는 주님의 길을 닦아라.>",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 이사야서의 말씀입니다.40,1-5.9-11",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "위로하여라, 위로하여라, 나의 백성을.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "─ 너희의 하느님께서 말씀하신다. ─",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "2 예루살렘에게 다정히 말하여라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "이제 복역 기간이 끝나고 죗값이 치러졌으며",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "자기의 모든 죄악에 대하여 주님 손에서 갑절의 벌을 받았다고 외쳐라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "3 한 소리가 외친다. “너희는 광야에 주님의 길을 닦아라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "우리 하느님을 위하여 사막에 길을 곧게 내어라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "4 골짜기는 모두 메워지고 산과 언덕은 모두 낮아져라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "거친 곳은 평지가 되고 험한 곳은 평야가 되어라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "5 이에 주님의 영광이 드러나리니 모든 사람이 다 함께 그것을 보리라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "text",
+          "text": "주님께서 친히 이렇게 말씀하셨다.”",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p14",
+          "role": "text",
+          "text": "9 기쁜 소식을 전하는 시온아, 높은 산으로 올라가라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p15",
+          "role": "text",
+          "text": "기쁜 소식을 전하는 예루살렘아, 너의 목소리를 한껏 높여라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p16",
+          "role": "text",
+          "text": "두려워 말고 소리를 높여라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p17",
+          "role": "text",
+          "text": "유다의 성읍들에게 “너희의 하느님께서 여기에 계시다.” 하고 말하여라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p18",
+          "role": "text",
+          "text": "10 보라, 주 하느님께서 권능을 떨치며 오신다. 당신의 팔로 왕권을 행사하신다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p19",
+          "role": "text",
+          "text": "보라, 그분의 상급이 그분과 함께 오고 그분의 보상이 그분 앞에 서서 온다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p20",
+          "role": "text",
+          "text": "11 그분께서는 목자처럼 당신의 가축들을 먹이시고",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p21",
+          "role": "text",
+          "text": "새끼 양들을 팔로 모아 품에 안으시며",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p22",
+          "role": "text",
+          "text": "젖 먹이는 어미 양들을 조심스럽게 이끄신다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p23",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-1-p24",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261206"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-2-p1",
+          "role": "text",
+          "text": "<우리는 새 하늘과 새 땅을 기다리고 있습니다.>",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p2",
+          "role": "lector",
+          "text": "▥ 베드로 2서의 말씀입니다.3,8-14",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p3",
+          "role": "text",
+          "text": "8 사랑하는 여러분, 이 한 가지를 간과해서는 안 됩니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p4",
+          "role": "text",
+          "text": "주님께는 하루가 천 년 같고 천 년이 하루 같습니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p5",
+          "role": "text",
+          "text": "9 어떤 이들은 미루신다고 생각하지만 주님께서는 약속을 미루지 않으십니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p6",
+          "role": "text",
+          "text": "오히려 여러분을 위하여 참고 기다리시는 것입니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p7",
+          "role": "text",
+          "text": "아무도 멸망하지 않고 모두 회개하기를 바라시기 때문입니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p8",
+          "role": "text",
+          "text": "10 그러나 주님의 날은 도둑처럼 올 것입니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p9",
+          "role": "text",
+          "text": "그날에 하늘은 요란한 소리를 내며 사라지고 원소들은 불에 타 스러지며,",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p10",
+          "role": "text",
+          "text": "땅과 그 안에서 이루어진 모든 것이 드러날 것입니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p11",
+          "role": "text",
+          "text": "11 이렇게 모든 것이 스러질 터인데,",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p12",
+          "role": "text",
+          "text": "여러분은 어떤 사람이 되어야 하겠습니까?",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p13",
+          "role": "text",
+          "text": "거룩하고 신심 깊은 생활을 하면서,",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p14",
+          "role": "text",
+          "text": "12 하느님의 날이 오기를 기다리고 그날을 앞당기도록 해야 하지 않겠습니까?",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p15",
+          "role": "text",
+          "text": "그날이 오면 하늘은 불길에 싸여 스러지고",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p16",
+          "role": "text",
+          "text": "원소들은 불에 타 녹아 버릴 것입니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p17",
+          "role": "text",
+          "text": "13 그러나 우리는 그분의 언약에 따라,",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p18",
+          "role": "text",
+          "text": "의로움이 깃든 새 하늘과 새 땅을 기다리고 있습니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p19",
+          "role": "text",
+          "text": "14 그러므로 사랑하는 여러분, 여러분은 이러한 것들을 기다리고 있으니,",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p20",
+          "role": "text",
+          "text": "티 없고 흠 없는 사람으로 평화로이 그분 앞에 나설 수 있도록 애쓰십시오.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p21",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "reading-2-p22",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261206"
+        }
+      ]
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 85(84),9ㄱㄴㄷ과 10.11-12.13-14(◎ 8 참조)",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님, 저희에게 자비와 구원을 베풀어 주소서.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 하느님 말씀을 나는 듣고자 하노라. 당신 백성, 당신께 충실한 이에게 주님은 진정 평화를 말씀하신다. 그분을 경외하는 이에게 구원이 가까우니 영광은 우리 땅에 머물리라. ◎",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 자애와 진실이 서로 만나고 정의와 평화가 입을 맞추리라. 진실이 땅에서 돋아나고 정의가 하늘에서 굽어보리라. ◎",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 주님이 복을 베푸시어 우리 땅이 열매를 내리라. 정의가 그분 앞을 걸어가고 그분은 그 길로 나아가시리라. ◎",
+          "sourceRef": "goodnews-20261206"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "text",
+          "text": "루카 3,4.6",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "text",
+          "text": "○ 너희는 주님의 길을 마련하여라. 그분의 길을 곧게 내어라. 모든 사람이 하느님의 구원을 보리라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "alleluia-p4",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261206"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<너희는 주님의 길을 곧게 내어라.>",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마르코가 전한 거룩한 복음의 시작입니다.1,1-8",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "1 하느님의 아드님 예수 그리스도의 복음의 시작.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "2 이사야 예언자의 글에",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "“보라, 내가 네 앞에 내 사자를 보내니 그가 너의 길을 닦아 놓으리라.”",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "3 “광야에서 외치는 이의 소리. ‘너희는 주님의 길을 마련하여라.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "그분의 길을 곧게 내어라.’” 하고 기록된 대로,",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "4 세례자 요한이 광야에 나타나",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "죄의 용서를 위한 회개의 세례를 선포하였다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "5 그리하여 온 유다 지방 사람들과 예루살렘 주민들이 모두 그에게 나아가,",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "자기 죄를 고백하며 요르단 강에서 그에게 세례를 받았다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "6 요한은 낙타 털 옷을 입고 허리에 가죽띠를 둘렀으며,",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "메뚜기와 들꿀을 먹고 살았다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "7 그리고 이렇게 선포하였다. “나보다 더 큰 능력을 지니신 분이 내 뒤에 오신다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "나는 몸을 굽혀 그분의 신발 끈을 풀어 드릴 자격조차 없다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "8 나는 너희에게 물로 세례를 주었지만,",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "그분께서는 너희에게 성령으로 세례를 주실 것이다.”",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261206"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261206"
+        }
+      ]
+    },
+    {
+      "id": "entrance-antiphon",
+      "kind": "antiphon",
+      "title": "입당송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "entrance-antiphon-p1",
+          "role": "text",
+          "text": "보라, 시온 백성아. 주님이 민족들을 구원하러 오신다. 주님의 우렁찬 목소리를 듣고, 너희 마음은 기쁨에 넘치리라.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "collect-p1",
+          "role": "priest",
+          "text": "전능하시고 자비로우신 하느님,\n저희가 세상일에 얽매이지 않고 기꺼이 성자를 맞이하여\n천상의 지혜로 성자와 하나 되게 하소서.\n성자께서는 성부와 성령과 함께 천주로서 영원히 살아 계시며 다스리시나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "offertory-p1",
+          "role": "priest",
+          "text": "주님,\n비천한 저희가 드리는 기도와 제물을 굽어보시어\n아무런 공덕이 없는 저희를 너그러이 보호하시며 도와주소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "communion-antiphon",
+      "kind": "antiphon",
+      "title": "영성체송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "communion-antiphon-p1",
+          "role": "text",
+          "text": "예루살렘아, 일어나 높은 곳에 서서, 하느님에게서 너에게 오는 기쁨을 바라보아라.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "postcommunion-p1",
+          "role": "priest",
+          "text": "주님,\n이 신비로운 제사에 참여한 저희를 생명의 양식으로 기르시니\n저희가 지상 것을 슬기롭게 헤아리며\n끊임없이 천상 것을 찾도록 가르쳐 주소서.\n우리 주 그리스도를 통하여 비나이다.",
+          "sourceRef": "user-hwp-202612"
+        }
+      ]
+    }
+  ]
+}

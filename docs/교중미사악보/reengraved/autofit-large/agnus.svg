@@ -1,0 +1,1181 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="841.8897637795277" height="232.81269176685225" viewBox="0 0 841.8897637795277 232.81269176685225"><ns0:g transform="translate(0 8.503937007874017) translate(8.503937007874017 -0.23957236861449083) scale(0.0342246240877844)"><ns0:g class="system">
+            <ns0:g class="section systemMilestone" />
+            <ns0:g class="pb" />
+            <ns0:g class="section systemMilestone" />
+            <ns0:g class="measure">
+               <ns0:g class="staff">
+                  <ns0:path d="M0 540 L8447 540" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 720 L8447 720" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 900 L8447 900" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 1080 L8447 1080" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 1260 L8447 1260" stroke-width="13" stroke="black" />
+                  <ns0:g class="clef">
+                     <ns0:g transform="translate(90, 1080) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                  <ns0:g class="keySig">
+                     <ns0:g class="keyAccid">
+                        <ns0:g transform="translate(735, 900) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                  </ns0:g>
+                  <ns0:g class="layer">
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(1285, 990) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 165c0 5 6 5 12 5s13 0 13 -5v-40h298v40c0 5 7 5 13 5s12 0 12 -5v-330c0 -5 -6 -5 -12 -5s-13 0 -13 5v40h-298v-40c0 -5 -7 -5 -13 -5s-12 0 -12 5v330zM25 0c0 -29 1 -55 25 -55h248c24 0 25 26 25 55s-1 55 -25 55h-248c-24 0 -25 -26 -25 -55z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="label">
+                           <ns0:text x="1105" y="1847" text-anchor="end" font-size="405px" font-family="Malgun">1.</ns0:text>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="1195" y="1847" font-size="405px" font-family="Malgun">하느님의</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(5550, 990) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M5767 962 L5767 360" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(5758, 360) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="5460" y="1847" font-size="405px" font-family="Malgun">어</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(6344, 1080) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M6561 1052 L6561 450" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(6552, 450) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="6254" y="1847" font-size="405px" font-family="Malgun">린</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(7218, 990) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M7435 962 L7435 360" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="7128" y="1847" font-size="405px" font-family="Malgun">양</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                  </ns0:g>
+               </ns0:g>
+               <ns0:g class="dir">
+                  <ns0:text x="1285" y="412" font-size="405px" font-family="Malgun">합송</ns0:text>
+               </ns0:g>
+               <ns0:g class="barLine">
+                  <ns0:path d="M8434 540 L8434 1260" stroke-width="27" stroke="black" />
+               </ns0:g>
+            </ns0:g>
+            <ns0:g class="measure">
+               <ns0:g class="staff">
+                  <ns0:path d="M8447 540 L16315 540" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8447 720 L16315 720" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8447 900 L16315 900" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8447 1080 L16315 1080" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8447 1260 L16315 1260" stroke-width="13" stroke="black" />
+                  <ns0:g class="ledgerLines below">
+                     <ns0:path d="M15038 1440 L15360 1440" stroke-width="22" stroke="black" />
+                  </ns0:g>
+                  <ns0:g class="layer">
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(8765, 1080) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M8982 1052 L8982 450" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="8500" y="1847" font-size="355px" font-family="Malgun">세상의 죄를</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(10616, 1080) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M10833 1052 L10833 450" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(10824, 450) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="10526" y="1847" font-size="405px" font-family="Malgun">없</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(11490, 990) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M11707 962 L11707 360" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(11698, 360) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="11400" y="1847" font-size="405px" font-family="Malgun">애</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(12283, 1080) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M12500 1052 L12500 450" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(12491, 450) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="12193" y="1847" font-size="405px" font-family="Malgun">시</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(13076, 1170) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M13293 1142 L13293 540" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(13284, 540) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="12986" y="1847" font-size="405px" font-family="Malgun">는</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(13869, 1350) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M14086 1322 L14086 720" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="13779" y="1847" font-size="405px" font-family="Malgun">주</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(15086, 1440) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M15303 1412 L15303 810" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="14996" y="1847" font-size="405px" font-family="Malgun">님</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                  </ns0:g>
+               </ns0:g>
+               <ns0:g class="fermata">
+                  <ns0:g transform="translate(14983, 493) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 0c0 0 40 320 300 320s300 -320 300 -320h-32s-38 227 -268 227s-268 -227 -268 -227h-32zM355 52c0 -30 -25 -55 -55 -55s-55 25 -55 55s25 55 55 55s55 -25 55 -55z" stroke="black" />
+      </ns0:g>
+   </ns0:g></ns0:g>
+               <ns0:g class="barLine">
+                  <ns0:path d="M16302 540 L16302 1260" stroke-width="27" stroke="black" />
+               </ns0:g>
+            </ns0:g>
+            <ns0:g class="measure">
+               <ns0:g class="staff">
+                  <ns0:path d="M16315 540 L24102 540" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16315 720 L24102 720" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16315 900 L24102 900" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16315 1080 L24102 1080" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16315 1260 L24102 1260" stroke-width="13" stroke="black" />
+                  <ns0:g class="layer">
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(16633, 1080) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M16850 1052 L16850 450" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(16841, 450) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="16543" y="1847" font-size="405px" font-family="Malgun">자</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(17426, 1080) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M17643 1052 L17643 450" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(17634, 450) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="17336" y="1847" font-size="405px" font-family="Malgun">비</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(18219, 1080) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M18436 1052 L18436 450" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="18129" y="1847" font-size="405px" font-family="Malgun">를</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(19435, 990) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M19652 962 L19652 360" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(19643, 360) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="19345" y="1847" font-size="405px" font-family="Malgun">베</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(20229, 1080) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M20446 1052 L20446 450" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(20437, 450) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="20139" y="1847" font-size="405px" font-family="Malgun">푸</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(21022, 1170) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M21239 1142 L21239 540" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="20932" y="1847" font-size="405px" font-family="Malgun">소</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(22238, 1170) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M22455 1142 L22455 540" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="22148" y="1847" font-size="405px" font-family="Malgun">서</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                  </ns0:g>
+               </ns0:g>
+               <ns0:g class="dir">
+                  <ns0:text x="16633" y="540" font-size="405px" font-family="Malgun" />
+               </ns0:g>
+               <ns0:g class="barLine">
+                  <ns0:path d="M24089 540 L24089 1260" stroke-width="27" stroke="black" />
+               </ns0:g>
+            </ns0:g>
+         </ns0:g>
+         </ns0:g><ns0:g transform="translate(0 8.503937007874017) translate(12.303536124341818 -3.089685485309545) scale(0.03406697745611617)"><ns0:g class="system">
+            <ns0:g class="sb" />
+            <ns0:g class="measure">
+               <ns0:g class="mNum autogenerated">
+                  <ns0:text y="2592" text-anchor="middle" font-size="405px" font-family="Malgun">4</ns0:text>
+               </ns0:g>
+               <ns0:g class="staff">
+                  <ns0:path d="M0 2835 L8447 2835" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 3015 L8447 3015" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 3195 L8447 3195" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 3375 L8447 3375" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 3555 L8447 3555" stroke-width="13" stroke="black" />
+                  <ns0:g class="clef">
+                     <ns0:g transform="translate(90, 3375) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                  <ns0:g class="keySig">
+                     <ns0:g class="keyAccid">
+                        <ns0:g transform="translate(735, 3195) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                  </ns0:g>
+                  <ns0:g class="layer">
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(1285, 3285) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 165c0 5 6 5 12 5s13 0 13 -5v-40h298v40c0 5 7 5 13 5s12 0 12 -5v-330c0 -5 -6 -5 -12 -5s-13 0 -13 5v40h-298v-40c0 -5 -7 -5 -13 -5s-12 0 -12 5v330zM25 0c0 -29 1 -55 25 -55h248c24 0 25 26 25 55s-1 55 -25 55h-248c-24 0 -25 -26 -25 -55z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="label">
+                           <ns0:text x="1105" y="4142" text-anchor="end" font-size="405px" font-family="Malgun">2.</ns0:text>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="1195" y="4142" font-size="405px" font-family="Malgun">하느님의</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(5550, 3285) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M5767 3257 L5767 2655" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(5758, 2655) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="5460" y="4142" font-size="405px" font-family="Malgun">어</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(6344, 3375) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M6561 3347 L6561 2745" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(6552, 2745) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="6254" y="4142" font-size="405px" font-family="Malgun">린</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(7218, 3285) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M7435 3257 L7435 2655" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="7128" y="4142" font-size="405px" font-family="Malgun">양</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                  </ns0:g>
+               </ns0:g>
+               <ns0:g class="dir">
+                  <ns0:text x="1285" y="2707" font-size="405px" font-family="Malgun">합송</ns0:text>
+               </ns0:g>
+               <ns0:g class="barLine">
+                  <ns0:path d="M8434 2835 L8434 3555" stroke-width="27" stroke="black" />
+               </ns0:g>
+            </ns0:g>
+            <ns0:g class="measure">
+               <ns0:g class="staff">
+                  <ns0:path d="M8447 2835 L16315 2835" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8447 3015 L16315 3015" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8447 3195 L16315 3195" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8447 3375 L16315 3375" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8447 3555 L16315 3555" stroke-width="13" stroke="black" />
+                  <ns0:g class="ledgerLines below">
+                     <ns0:path d="M15038 3735 L15360 3735" stroke-width="22" stroke="black" />
+                  </ns0:g>
+                  <ns0:g class="layer">
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(8765, 3375) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M8982 3347 L8982 2745" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="8500" y="4142" font-size="355px" font-family="Malgun">세상의 죄를</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(10616, 3375) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M10833 3347 L10833 2745" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(10824, 2745) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="10526" y="4142" font-size="405px" font-family="Malgun">없</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(11490, 3285) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M11707 3257 L11707 2655" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(11698, 2655) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="11400" y="4142" font-size="405px" font-family="Malgun">애</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(12283, 3375) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M12500 3347 L12500 2745" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(12491, 2745) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="12193" y="4142" font-size="405px" font-family="Malgun">시</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(13076, 3465) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M13293 3437 L13293 2835" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(13284, 2835) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="12986" y="4142" font-size="405px" font-family="Malgun">는</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(13869, 3645) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M14086 3617 L14086 3015" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="13779" y="4142" font-size="405px" font-family="Malgun">주</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(15086, 3735) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M15303 3707 L15303 3105" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="14996" y="4142" font-size="405px" font-family="Malgun">님</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                  </ns0:g>
+               </ns0:g>
+               <ns0:g class="fermata">
+                  <ns0:g transform="translate(14983, 2788) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 0c0 0 40 320 300 320s300 -320 300 -320h-32s-38 227 -268 227s-268 -227 -268 -227h-32zM355 52c0 -30 -25 -55 -55 -55s-55 25 -55 55s25 55 55 55s55 -25 55 -55z" stroke="black" />
+      </ns0:g>
+   </ns0:g></ns0:g>
+               <ns0:g class="barLine">
+                  <ns0:path d="M16302 2835 L16302 3555" stroke-width="27" stroke="black" />
+               </ns0:g>
+            </ns0:g>
+            <ns0:g class="measure">
+               <ns0:g class="staff">
+                  <ns0:path d="M16315 2835 L24102 2835" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16315 3015 L24102 3015" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16315 3195 L24102 3195" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16315 3375 L24102 3375" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16315 3555 L24102 3555" stroke-width="13" stroke="black" />
+                  <ns0:g class="layer">
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(16633, 3375) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M16850 3347 L16850 2745" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(16841, 2745) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="16543" y="4142" font-size="405px" font-family="Malgun">자</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(17426, 3375) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M17643 3347 L17643 2745" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(17634, 2745) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="17336" y="4142" font-size="405px" font-family="Malgun">비</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(18219, 3375) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M18436 3347 L18436 2745" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="18129" y="4142" font-size="405px" font-family="Malgun">를</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(19435, 3285) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M19652 3257 L19652 2655" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(19643, 2655) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="19345" y="4142" font-size="405px" font-family="Malgun">베</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(20229, 3375) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M20446 3347 L20446 2745" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(20437, 2745) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="20139" y="4142" font-size="405px" font-family="Malgun">푸</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(21022, 3465) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M21239 3437 L21239 2835" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="20932" y="4142" font-size="405px" font-family="Malgun">소</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(22238, 3465) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M22455 3437 L22455 2835" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="22148" y="4142" font-size="405px" font-family="Malgun">서</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                  </ns0:g>
+               </ns0:g>
+               <ns0:g class="dir">
+                  <ns0:text x="16633" y="2835" font-size="405px" font-family="Malgun" />
+               </ns0:g>
+               <ns0:g class="barLine">
+                  <ns0:path d="M24089 2835 L24089 3555" stroke-width="27" stroke="black" />
+               </ns0:g>
+            </ns0:g>
+         </ns0:g>
+         </ns0:g><ns0:g transform="translate(0 8.503937007874017) translate(12.303536124341818 -6.243741307860972) scale(0.03406697745611617)"><ns0:g class="system">
+            <ns0:g class="sb" />
+            <ns0:g class="measure">
+               <ns0:g class="mNum autogenerated">
+                  <ns0:text y="4887" text-anchor="middle" font-size="405px" font-family="Malgun">7</ns0:text>
+               </ns0:g>
+               <ns0:g class="staff">
+                  <ns0:path d="M0 5130 L8395 5130" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 5310 L8395 5310" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 5490 L8395 5490" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 5670 L8395 5670" stroke-width="13" stroke="black" />
+                  <ns0:path d="M0 5850 L8395 5850" stroke-width="13" stroke="black" />
+                  <ns0:g class="clef">
+                     <ns0:g transform="translate(90, 5670) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M441 -245c-23 -4 -48 -6 -76 -6c-59 0 -102 7 -130 20c-88 42 -150 93 -187 154c-26 44 -43 103 -48 176c0 6 -1 13 -1 19c0 54 15 111 45 170c29 57 65 106 110 148s96 85 153 127c-3 16 -8 46 -13 92c-4 43 -5 73 -5 89c0 117 16 172 69 257c34 54 64 82 89 82 c21 0 43 -30 69 -92s39 -115 41 -159v-15c0 -109 -21 -162 -67 -241c-13 -20 -63 -90 -98 -118c-13 -9 -25 -19 -37 -29l31 -181c8 1 18 2 28 2c58 0 102 -12 133 -35c59 -43 92 -104 98 -184c1 -7 1 -15 1 -22c0 -123 -87 -209 -181 -248c8 -57 17 -110 25 -162 c5 -31 6 -58 6 -80c0 -30 -5 -53 -14 -70c-35 -64 -88 -99 -158 -103c-5 0 -11 -1 -16 -1c-37 0 -72 10 -108 27c-50 24 -77 59 -80 105v11c0 29 7 55 20 76c18 28 45 42 79 44h6c49 0 93 -42 97 -87v-9c0 -51 -34 -86 -105 -106c17 -24 51 -36 102 -36c62 0 116 43 140 85 c9 16 13 41 13 74c0 20 -1 42 -5 67c-8 53 -18 106 -26 159zM461 939c-95 0 -135 -175 -135 -286c0 -24 2 -48 5 -71c50 39 92 82 127 128c40 53 60 100 60 140v8c-4 53 -22 81 -55 81h-2zM406 119l54 -326c73 25 110 78 110 161c0 7 0 15 -1 23c-7 95 -57 142 -151 142h-12 zM382 117c-72 -2 -128 -47 -128 -120v-7c2 -46 43 -99 75 -115c-3 -2 -7 -5 -10 -10c-70 33 -116 88 -123 172v11c0 68 44 126 88 159c23 17 49 29 78 36l-29 170c-21 -13 -52 -37 -92 -73c-50 -44 -86 -84 -109 -119c-45 -69 -67 -130 -67 -182v-13c5 -68 35 -127 93 -176 s125 -73 203 -73c25 0 50 3 75 9c-19 111 -36 221 -54 331z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                  <ns0:g class="keySig">
+                     <ns0:g class="keyAccid">
+                        <ns0:g transform="translate(735, 5490) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M20 110c32 16 54 27 93 27c26 0 35 -3 54 -13c13 -7 24 -20 27 -38l4 -25c0 -28 -16 -57 -45 -89c-23 -25 -39 -44 -65 -68l-88 -79v644h20v-359zM90 106c-32 0 -48 -10 -70 -29v-194c31 31 54 59 71 84c21 32 32 59 32 84c0 9 1 16 1 20c0 14 -3 21 -11 30l-8 3z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                  </ns0:g>
+                  <ns0:g class="layer">
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(1283, 5580) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 165c0 5 6 5 12 5s13 0 13 -5v-40h298v40c0 5 7 5 13 5s12 0 12 -5v-330c0 -5 -6 -5 -12 -5s-13 0 -13 5v40h-298v-40c0 -5 -7 -5 -13 -5s-12 0 -12 5v330zM25 0c0 -29 1 -55 25 -55h248c24 0 25 26 25 55s-1 55 -25 55h-248c-24 0 -25 -26 -25 -55z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="label">
+                           <ns0:text x="1103" y="6437" text-anchor="end" font-size="405px" font-family="Malgun">3.</ns0:text>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="1193" y="6437" font-size="405px" font-family="Malgun">하느님의</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(5518, 5580) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M5735 5552 L5735 4950" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(5726, 4950) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="5428" y="6437" font-size="405px" font-family="Malgun">어</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(6306, 5670) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M6523 5642 L6523 5040" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(6514, 5040) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="6216" y="6437" font-size="405px" font-family="Malgun">린</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(7174, 5580) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M7391 5552 L7391 4950" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="7084" y="6437" font-size="405px" font-family="Malgun">양</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                  </ns0:g>
+               </ns0:g>
+               <ns0:g class="dir">
+                  <ns0:text x="1283" y="5002" font-size="405px" font-family="Malgun">합송</ns0:text>
+               </ns0:g>
+               <ns0:g class="barLine">
+                  <ns0:path d="M8382 5130 L8382 5850" stroke-width="27" stroke="black" />
+               </ns0:g>
+            </ns0:g>
+            <ns0:g class="measure">
+               <ns0:g class="staff">
+                  <ns0:path d="M8395 5130 L16208 5130" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8395 5310 L16208 5310" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8395 5490 L16208 5490" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8395 5670 L16208 5670" stroke-width="13" stroke="black" />
+                  <ns0:path d="M8395 5850 L16208 5850" stroke-width="13" stroke="black" />
+                  <ns0:g class="ledgerLines below">
+                     <ns0:path d="M14939 6030 L15261 6030" stroke-width="22" stroke="black" />
+                  </ns0:g>
+                  <ns0:g class="layer">
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(8711, 5670) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M8928 5642 L8928 5040" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="8446" y="6437" font-size="355px" font-family="Malgun">세상의 죄를</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(10548, 5670) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M10765 5642 L10765 5040" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(10756, 5040) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="10458" y="6437" font-size="405px" font-family="Malgun">없</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(11416, 5580) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M11633 5552 L11633 4950" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(11624, 4950) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="11326" y="6437" font-size="405px" font-family="Malgun">애</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(12204, 5670) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M12421 5642 L12421 5040" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(12412, 5040) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="12114" y="6437" font-size="405px" font-family="Malgun">시</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(12992, 5760) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M13209 5732 L13209 5130" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(13200, 5130) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="12902" y="6437" font-size="405px" font-family="Malgun">는</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(13779, 5940) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M13996 5912 L13996 5310" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="13689" y="6437" font-size="405px" font-family="Malgun">주</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(14987, 6030) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M15204 6002 L15204 5400" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="14897" y="6437" font-size="405px" font-family="Malgun">님</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                  </ns0:g>
+               </ns0:g>
+               <ns0:g class="fermata">
+                  <ns0:g transform="translate(14884, 5083) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 0c0 0 40 320 300 320s300 -320 300 -320h-32s-38 227 -268 227s-268 -227 -268 -227h-32zM355 52c0 -30 -25 -55 -55 -55s-55 25 -55 55s25 55 55 55s55 -25 55 -55z" stroke="black" />
+      </ns0:g>
+   </ns0:g></ns0:g>
+               <ns0:g class="barLine">
+                  <ns0:path d="M16195 5130 L16195 5850" stroke-width="27" stroke="black" />
+               </ns0:g>
+            </ns0:g>
+            <ns0:g class="measure">
+               <ns0:g class="staff">
+                  <ns0:path d="M16208 5130 L24102 5130" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16208 5310 L24102 5310" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16208 5490 L24102 5490" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16208 5670 L24102 5670" stroke-width="13" stroke="black" />
+                  <ns0:path d="M16208 5850 L24102 5850" stroke-width="13" stroke="black" />
+                  <ns0:g class="layer">
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(16524, 5670) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M16741 5642 L16741 5040" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(16732, 5040) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="16434" y="6437" font-size="405px" font-family="Malgun">평</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(17311, 5670) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M17528 5642 L17528 5040" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(17519, 5040) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="17221" y="6437" font-size="405px" font-family="Malgun">화</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(18099, 5670) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M18316 5642 L18316 5040" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="18009" y="6437" font-size="405px" font-family="Malgun">를</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(19306, 5580) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M19523 5552 L19523 4950" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(19514, 4950) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="19216" y="6437" font-size="405px" font-family="Malgun">주</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(20094, 5670) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M20311 5642 L20311 5040" stroke-width="18" stroke="black" />
+                           <ns0:g class="flag">
+                              <ns0:g transform="translate(20302, 5040) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M179 -646c15 29 29 55 46 102c18 49 30 108 30 138c0 105 -80 173 -168 200c-18 5 -47 9 -87 16v190h22c8 0 33 -61 71 -95c4 -3 -2 3 61 -56c62 -58 122 -137 122 -241c0 -38 -13 -106 -35 -163c-20 -51 -43 -99 -66 -132c-6 -5 -10 -7 -13 -7s-5 2 -5 5l4 10 c1 3 14 25 18 33z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(20882, 5760) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M21099 5732 L21099 5130" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="20792" y="6437" font-size="405px" font-family="Malgun">소</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                     <ns0:g class="note">
+                        <ns0:g class="notehead">
+                           <ns0:g transform="translate(22089, 5760) scale(0.72, 0.72)"><ns0:g>
+         <ns0:path transform="scale(1,-1)" d="M278 64c0 22 -17 39 -43 39c-12 0 -26 -3 -41 -10c-85 -43 -165 -94 -165 -156c5 -25 15 -32 49 -32c67 11 200 95 200 159zM0 -36c0 68 73 174 200 174c66 0 114 -39 114 -97c0 -84 -106 -173 -218 -173c-64 0 -96 32 -96 96z" stroke="black" />
+      </ns0:g>
+      </ns0:g></ns0:g>
+                        <ns0:g class="stem">
+                           <ns0:path d="M22306 5732 L22306 5130" stroke-width="18" stroke="black" />
+                        </ns0:g>
+                        <ns0:g class="verse">
+                           <ns0:g class="syl">
+                              <ns0:text x="21999" y="6437" font-size="405px" font-family="Malgun">서</ns0:text>
+                           </ns0:g>
+                        </ns0:g>
+                     </ns0:g>
+                  </ns0:g>
+               </ns0:g>
+               <ns0:g class="dir">
+                  <ns0:text x="16524" y="5130" font-size="405px" font-family="Malgun" />
+               </ns0:g>
+               <ns0:g class="barLine">
+                  <ns0:path d="M23927 5130 L23927 5850" stroke-width="27" stroke="black" />
+                  <ns0:path d="M24057 5130 L24057 5850" stroke-width="90" stroke="black" />
+               </ns0:g>
+            </ns0:g>
+            <ns0:g class="systemMilestoneEnd pjbj16r" />
+            <ns0:g class="systemMilestoneEnd b1a0tyyc" />
+         </ns0:g>
+         </ns0:g></ns0:svg>

@@ -1,0 +1,266 @@
+{
+  "date": "2026-10-24",
+  "activeScoresReplaced": false,
+  "items": [
+    {
+      "key": "아멘",
+      "season": null,
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/amen.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/amen.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/amen.musicxml"
+      ],
+      "scoreLyrics": "아멘아멘아멘",
+      "referenceText": "◎ 아멘.",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": false,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [
+        "아멘 ×3 → 낭송문 ×1로 비교"
+      ],
+      "scopeNote": "현재 연결된 재조판 자산의 가사 범위. 경본 선율과 같다는 판정이 아님.",
+      "status": "setting-repetition-only"
+    },
+    {
+      "key": "자비송",
+      "season": null,
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/kyrie.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/kyrie.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/kyrie.musicxml"
+      ],
+      "scoreLyrics": "주님자비를베푸소서주님자비를베푸소서그리스도님자비를베푸소서그리스도님자비를베푸소서주님자비를베푸소서주님자비를베푸소서",
+      "referenceText": "+ 주님, 자비를 베푸소서.\n◎ 주님, 자비를 베푸소서.\n+ 그리스도님, 자비를 베푸소서.\n◎ 그리스도님, 자비를 베푸소서.\n+ 주님, 자비를 베푸소서.\n◎ 주님, 자비를 베푸소서.",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": true,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [],
+      "scopeNote": "현재 연결된 재조판 자산의 가사 범위. 경본 선율과 같다는 판정이 아님.",
+      "status": "normalized-equal"
+    },
+    {
+      "key": "주님의 기도 맺음 환호",
+      "season": null,
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/doxology.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/doxology.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/doxology.musicxml"
+      ],
+      "scoreLyrics": "주님께나라와권능과영광이영원히있나이다",
+      "referenceText": "◎ 주님께 나라와 권능과 영광이 영원히 있나이다.",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": true,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [],
+      "scopeNote": "현재 연결된 재조판 자산의 가사 범위. 경본 선율과 같다는 판정이 아님.",
+      "status": "normalized-equal"
+    },
+    {
+      "key": "복음 환호송",
+      "season": null,
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/alleluia-365.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/alleluia-365.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/alleluia-365.musicxml"
+      ],
+      "scoreLyrics": "알렐루야알렐루야알렐루야",
+      "referenceText": "알렐루야, 알렐루야, 알렐루야.",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": true,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [],
+      "scopeNote": "후렴 한 번의 음악적3회 알렐루야 반복을 앱 낭송 후렴3회와 비교. 날짜별 절 구절은 별도.",
+      "status": "normalized-equal"
+    },
+    {
+      "key": "하느님의 어린양",
+      "season": null,
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/agnus.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/agnus.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/agnus.musicxml"
+      ],
+      "scoreLyrics": "하느님의어린양세상의 죄를없애시는주님자비를베푸소서하느님의어린양세상의 죄를없애시는주님자비를베푸소서하느님의어린양세상의 죄를없애시는주님평화를주소서",
+      "referenceText": "◎ 하느님의 어린양, 세상의 죄를 없애시는 주님,\n자비를 베푸소서.\n하느님의 어린양, 세상의 죄를 없애시는 주님,\n자비를 베푸소서.\n하느님의 어린양, 세상의 죄를 없애시는 주님,\n평화를 주소서.",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": true,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [],
+      "scopeNote": "현재 연결된 재조판 자산의 가사 범위. 경본 선율과 같다는 판정이 아님.",
+      "status": "normalized-equal"
+    },
+    {
+      "key": "주님의 기도",
+      "season": null,
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/lords-prayer.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/lords-prayer.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/lords-a.musicxml",
+        "docs/교중미사악보/reengraved/lords-b.musicxml"
+      ],
+      "scoreLyrics": "하늘에계신우리아버지아버지의이름이거룩히빛나시며아버지의나라가오시며아버지의뜻이하늘에서와같이땅에서도이루어지소서오늘저희에게일용할양식을주시고저희에게잘못한이를저희가용서하오니저희죄를용서하시고저희를유혹에빠지지않게하시고악에서악에서구하소서",
+      "referenceText": " 하늘에 계신 우리 아버지,\n아버지의 이름이 거룩히 빛나시며\n아버지의 나라가 오시며\n아버지의 뜻이 하늘에서와 같이\n땅에서도 이루어지소서!\n오늘 저희에게 일용할 양식을 주시고\n저희에게 잘못한 이를 저희가 용서하오니\n저희 죄를 용서하시고\n저희를 유혹에 빠지지 않게 하시고\n악에서 구하소서.\n",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": false,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [
+        "악에서 ×2 → 낭송문 ×1로 비교"
+      ],
+      "scopeNote": "주님의 기도 합송 부분만 비교. 사제 도입·이어지는 기도는 이 악보 범위 밖.",
+      "status": "setting-repetition-only"
+    },
+    {
+      "key": "대영광송",
+      "season": null,
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/gloria.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/gloria.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/gloria-a.musicxml",
+        "docs/교중미사악보/reengraved/gloria-b.musicxml",
+        "docs/교중미사악보/reengraved/gloria-c.musicxml",
+        "docs/교중미사악보/reengraved/gloria-d.musicxml"
+      ],
+      "scoreLyrics": "하늘높은데서는하느님께영광땅에서는주님께서사랑하시는사람들에게평화주하느님하늘의임금님전능하신아버지하느님주님을기리나이다찬미하나이다주님을흠숭하나이다찬양하나이다주님영광크시오니감사하나이다외아들주예수그리스도님주하느님성부의아드님하느님의어린양세상의죄를없애시는주님저희에게자비를베푸소서세상의죄를없애시는주님저희의기도를들어주소서성부오른편에앉아계신주님저희에게자비를베푸소서홀로거룩하시고홀로주님이시며홀로높으신예수그리스도님성령과함께아버지하느님의영광안에계시나이다아멘아멘아멘",
+      "referenceText": "+ 하늘 높은 데서는 하느님께 영광.\n○ 땅에서는 주님께서 사랑하시는 사람들에게 평화.\n● 주 하느님, 하늘의 임금님\n○ 전능하신 아버지 하느님\n● 주님을 기리나이다, 찬미하나이다.\n○ 주님을 흠숭하나이다, 찬양하나이다.\n● 주님 영광 크시오니 감사하나이다.\n○ 외아들 주 예수 그리스도님\n● 주 하느님, 성부의 아드님\n○ 하느님의 어린양\n● 세상의 죄를 없애시는 주님, 저희에게 자비를 베푸소서.\n○ 세상의 죄를 없애시는 주님, 저희의 기도를 들어주소서.\n● 성부 오른편에 앉아 계신 주님, 저희에게 자비를 베푸소서.\n◎ 홀로 거룩하시고, 홀로 주님이시며, 홀로 높으신 예수 그리스도님\n성령과 함께 아버지 하느님의 영광 안에 계시나이다. 아멘.",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": false,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [
+        "아멘 ×3 → 낭송문 ×1로 비교"
+      ],
+      "scopeNote": "현재 연결된 재조판 자산의 가사 범위. 경본 선율과 같다는 판정이 아님.",
+      "status": "setting-repetition-only"
+    },
+    {
+      "key": "거룩하시도다",
+      "season": null,
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/sanctus.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/sanctus.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/sanctus.musicxml"
+      ],
+      "scoreLyrics": "거룩하시도다거룩하시도다거룩하시도다온누리의주하느님하늘과땅에가득찬그영광높은데서호산나주님의이름으로오시는분찬미받으소서높은데서호산나",
+      "referenceText": "◎ 거룩하시도다! 거룩하시도다! 거룩하시도다!\n온 누리의 주 하느님!\n하늘과 땅에 가득 찬 그 영광!\n높은 데서 호산나!\n주님의 이름으로 오시는 분, 찬미받으소서.\n높은 데서 호산나!",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": true,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [],
+      "scopeNote": "현재 연결된 재조판 자산의 가사 범위. 경본 선율과 같다는 판정이 아님.",
+      "status": "normalized-equal"
+    },
+    {
+      "key": "신앙의 신비여",
+      "season": "ordinary",
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/memorial-ordinary.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/memorial-ordinary.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/memorial-ordinary.musicxml"
+      ],
+      "scoreLyrics": "신앙의신비여주님께서오실때까지주님의죽음을전하며부활을선포하나이다",
+      "referenceText": "신앙의 신비여! \n◎ 주님께서 오실 때까지 주님의 죽음을 전하며 부활을 선포하나이다.\n",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": true,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [],
+      "scopeNote": "현재 연결된 재조판 자산의 가사 범위. 경본 선율과 같다는 판정이 아님.",
+      "status": "normalized-equal"
+    },
+    {
+      "key": "신앙의 신비여",
+      "season": "lent",
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/memorial-lent.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/memorial-lent.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/memorial-lent.musicxml"
+      ],
+      "scoreLyrics": "신앙의신비여주님께서오실때까지이빵을먹고이잔을마실적마다주님의죽음을전하나이다",
+      "referenceText": "신앙의 신비여! \n◎ 주님께서 오실 때까지 이 빵을 먹고 이 잔을 마실 적마다 주님의 죽음을 전하나이다.\n",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": true,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [],
+      "scopeNote": "현재 연결된 재조판 자산의 가사 범위. 경본 선율과 같다는 판정이 아님.",
+      "status": "normalized-equal"
+    },
+    {
+      "key": "신앙의 신비여",
+      "season": "easter",
+      "scorePath": "docs/교중미사악보/reengraved/semantic-a4/memorial-easter.svg",
+      "pdfPath": "docs/교중미사악보/reengraved/semantic-a4/memorial-easter.pdf",
+      "musicXmlPaths": [
+        "docs/교중미사악보/reengraved/memorial-easter.musicxml"
+      ],
+      "scoreLyrics": "신앙의신비여십자가와부활로저희를구원하신주님길이영광받으소서",
+      "referenceText": "신앙의 신비여! \n◎ 십자가와 부활로 저희를 구원하신 주님, 길이 영광받으소서.",
+      "normalization": "한글 음절 비교: 띄어쓰기·문장부호·음절 배치·절 번호 제외; 가사 verse 요소만 추출, 역할·템포 표시는 제외",
+      "scoreMatchesMusicXml": true,
+      "literalNormalizedEqual": true,
+      "comparisonEqualAfterListedRepetitions": true,
+      "repetitions": [],
+      "scopeNote": "현재 연결된 재조판 자산의 가사 범위. 경본 선율과 같다는 판정이 아님.",
+      "status": "normalized-equal"
+    }
+  ],
+  "assetHashes": {
+    "docs/교중미사악보/reengraved/amen.musicxml": "0559068345c69d7a8e3014ca5d238d9af7ebf2b27eb5a1db8f65056fa35addc8",
+    "docs/교중미사악보/reengraved/semantic-a4/amen.svg": "4b89f368f9fef410afbcb3d97fda6911bec4d82761b09eeec83d97603fb2a383",
+    "docs/교중미사악보/reengraved/semantic-a4/amen.pdf": "714e7805a3c5e67bdf4e1e435f46592c2fdd544de0f5e862a0e3702af124a6ee",
+    "docs/교중미사악보/reengraved/kyrie.musicxml": "56c64d574def7958d148ae7a6e0565287f99c813ad6ff4697843b9d199da8ac3",
+    "docs/교중미사악보/reengraved/semantic-a4/kyrie.svg": "1495d1699012b189a4e8063ab73a82f32207dcea00f0a346ad2f7d41d4d23019",
+    "docs/교중미사악보/reengraved/semantic-a4/kyrie.pdf": "395f96cd338e7648bd6dd2d4407a2abd5724e11256c45e0c7d0cdec585b90f22",
+    "docs/교중미사악보/reengraved/doxology.musicxml": "f8223a8338d1eb8a812ad935770f7c43fa95594a58edbc09241e031b8ff4e185",
+    "docs/교중미사악보/reengraved/semantic-a4/doxology.svg": "ba6a736420dc10944cf181aacc761165e91760ad1a326bea6e66553cfd229337",
+    "docs/교중미사악보/reengraved/semantic-a4/doxology.pdf": "d6415f5c06000ce17e1671064f71c3f0e0f9864ee77f71f28ce5be68e47d4ddf",
+    "docs/교중미사악보/reengraved/alleluia-365.musicxml": "85c5b0329aa872100cc15a05eba043acda7d985272db41b3d1b9ab4bb917bd1f",
+    "docs/교중미사악보/reengraved/semantic-a4/alleluia-365.svg": "6d60412b29d7bdec6d38460293754a2e427b45e137380a24e09ed0b06ac32469",
+    "docs/교중미사악보/reengraved/semantic-a4/alleluia-365.pdf": "0c7dc4f59cda9fc98dda19b2efce58799696c73eedf08798742cec0c1fdbec01",
+    "docs/교중미사악보/reengraved/agnus.musicxml": "2dd98ee41aff0e69f1dc7a784e85da61ed707c8df63ef1ac7049a29ff8af2341",
+    "docs/교중미사악보/reengraved/semantic-a4/agnus.svg": "23f142214858044f1cca7a173c6e32aa5fc342356d2490249175d83b674e0c6a",
+    "docs/교중미사악보/reengraved/semantic-a4/agnus.pdf": "d5c017c84afd0909ff0a5250a50dbf2b2de8aca28b4ba1c6cca2c58bc85c4e68",
+    "docs/교중미사악보/reengraved/lords-a.musicxml": "afa45b03902c4c1c2c0cfeed10732fd5a01493a3dec7b43105865bc22f23211f",
+    "docs/교중미사악보/reengraved/lords-b.musicxml": "b0ce6bd7dd5dc55662d71e60ad572a7bf5c3f463d3668a9c222487c870f704c3",
+    "docs/교중미사악보/reengraved/semantic-a4/lords-prayer.svg": "5414972b0715eaaf2393d258e37d9963ce37155005bd3b57f9183994ebcfb51f",
+    "docs/교중미사악보/reengraved/semantic-a4/lords-prayer.pdf": "3b5e3e9dcf7e0461a6d7a52dcdacdf0d55c44d2aded4df5b398ca1cf77220582",
+    "docs/교중미사악보/reengraved/gloria-a.musicxml": "5861a56ce971db8a0e743c1a160f895b49c118d08060cf0565e16aec34ab5c6c",
+    "docs/교중미사악보/reengraved/gloria-b.musicxml": "7f1482b6dc38531d06423b55ee53d5e9d532d5ee1eda3cc7028c35adf5e8348c",
+    "docs/교중미사악보/reengraved/gloria-c.musicxml": "01be22ec3325505a6f8d2a8d7564b3d3f641fab7d8765e9fdd6f203e8fe3d8e9",
+    "docs/교중미사악보/reengraved/gloria-d.musicxml": "ef678e589090bc2a474d88b2b9b4645d238fdf936e19181a95a7756b91b9e74e",
+    "docs/교중미사악보/reengraved/semantic-a4/gloria.svg": "6c57ae575375fd5ff9f14d3a0a9e8538ddacda9037ca2e7365b0ce4bc39c3b65",
+    "docs/교중미사악보/reengraved/semantic-a4/gloria.pdf": "cf379e079452ecbf056c21b8f172c24208bfd18820ad346c6ce1bc9f91b38e29",
+    "docs/교중미사악보/reengraved/sanctus.musicxml": "54eae59a6a1edf78e934f02153645d5038dd4e893fe515fc754f2f1dc07f9fc0",
+    "docs/교중미사악보/reengraved/semantic-a4/sanctus.svg": "bb3335d690156c33681241f1b9eb516b9f11c98e856cb5669419a2a89e2f4d22",
+    "docs/교중미사악보/reengraved/semantic-a4/sanctus.pdf": "d06ec53e13c30e90895c8bb6ba806767ec02ddf38489b15f283e005ae9944b99",
+    "docs/교중미사악보/reengraved/memorial-ordinary.musicxml": "bac74bc61b99e32cf8013625d25e036541a5542517795d199469f03b848ea9db",
+    "docs/교중미사악보/reengraved/semantic-a4/memorial-ordinary.svg": "2486f5d42818231aeeb10e461e1ee8f157fa53570c8edcf9000d87d1fb783a2b",
+    "docs/교중미사악보/reengraved/semantic-a4/memorial-ordinary.pdf": "d1f5018783e4b36ebf79814b6577543ede026b40eaef68037ddb5625e37d857a",
+    "docs/교중미사악보/reengraved/memorial-lent.musicxml": "cbc696bd7d3e18f97218b63f46994b5b164ce4fa6ea7458d17e74391bcd18e38",
+    "docs/교중미사악보/reengraved/semantic-a4/memorial-lent.svg": "8312306cd159e2b3cc2ff483fbf7d182d50439c692866e93f7d7be881a4b5ced",
+    "docs/교중미사악보/reengraved/semantic-a4/memorial-lent.pdf": "8a4012d9c59eb3c8cd29cf260459c4514855d8f5db0de100ad17da3be5c598b8",
+    "docs/교중미사악보/reengraved/memorial-easter.musicxml": "5d7e282fb7297aae7431f3e42f78c415233f4cd937f6f902e3951eb80c63d7eb",
+    "docs/교중미사악보/reengraved/semantic-a4/memorial-easter.svg": "62067504b8ce92548da9a788ddd410ee54b589e427c0634bf079e5937aac6774",
+    "docs/교중미사악보/reengraved/semantic-a4/memorial-easter.pdf": "e7ce0e585130ba39badeda3d7f82589c74552c3553a5609ca2d2c8db78105467"
+  },
+  "summary": {
+    "assets": 11,
+    "svgXmlMatches": 11,
+    "normalizedEqual": 8,
+    "repetitionOnly": 3,
+    "needsReview": 0
+  },
+  "limits": [
+    "음표·리듬·음정 교감 및 독립된 두 번째 교정은 미실행.",
+    "인쇄본 사진 전체의 OCR/가사 교감 완료를 뜻하지 않음. 현재 연결된 SVG와 MusicXML 가사를 검사.",
+    "사용자가 입력하는 성가번호의 원격 악보, 화답송 미등록 악보, 신경 및 보편 지향 기도 미등록 악보는 제외.",
+    "문장부호와 띄어쓰기는 음절별 악보 표기의 특성 때문에 자동 일치 판정에서 제외."
+  ]
+}

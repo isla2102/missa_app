@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "documentId": "mass-2026-12-17",
+  "date": "2026-12-17",
+  "observance": "(자) 12월 17일",
+  "sourceRefs": [
+    "goodnews-20261217"
+  ],
+  "sections": [
+    {
+      "id": "collect",
+      "kind": "prayer",
+      "title": "본기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "offertory",
+      "kind": "prayer",
+      "title": "예물 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "postcommunion",
+      "kind": "prayer",
+      "title": "영성체 후 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "preface",
+      "kind": "preface",
+      "title": "감사송",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "intercessions",
+      "kind": "intercession",
+      "title": "보편 지향 기도",
+      "status": "missing",
+      "paragraphs": []
+    },
+    {
+      "id": "reading-1",
+      "kind": "reading",
+      "title": "제1독서",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "reading-1-p1",
+          "role": "text",
+          "text": "<왕홀이 유다에게서 떠나지 않으리라.>",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p2",
+          "role": "lector",
+          "text": "▥ 창세기의 말씀입니다.49.1-2.8-10",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p3",
+          "role": "text",
+          "text": "그 무렵 1 야곱이 아들들을 불러 말하였다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p4",
+          "role": "text",
+          "text": "“너희는 모여들 오너라. 뒷날 너희가 겪을 일을 내가 너희에게 일러 주리라.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p5",
+          "role": "text",
+          "text": "2 야곱의 아들들아, 모여 와 들어라. 너희 아버지 이스라엘의 말을 들어라.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p6",
+          "role": "text",
+          "text": "8 너 유다야, 네 형제들이 너를 찬양하리라.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p7",
+          "role": "text",
+          "text": "네 손은 원수들의 목을 잡고 네 아버지의 아들들이 네 앞에 엎드리리라.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p8",
+          "role": "text",
+          "text": "9 유다는 어린 사자. 내 아들아, 너는 네가 잡은 짐승을 먹고 컸다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p9",
+          "role": "text",
+          "text": "유다가 사자처럼, 암사자처럼 웅크려 엎드리니 누가 감히 그를 건드리랴?",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p10",
+          "role": "text",
+          "text": "10 유다에게 조공을 바치고 민족들이 그에게 순종할 때까지",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p11",
+          "role": "text",
+          "text": "왕홀이 유다에게서, 지휘봉이 그의 다리 사이에서 떠나지 않으리라.”",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p12",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "reading-1-p13",
+          "role": "assembly",
+          "text": "◎ 하느님, 감사합니다.",
+          "sourceRef": "goodnews-20261217"
+        }
+      ]
+    },
+    {
+      "id": "reading-2",
+      "kind": "reading",
+      "title": "제2독서",
+      "status": "not-applicable",
+      "paragraphs": []
+    },
+    {
+      "id": "psalm",
+      "kind": "psalm",
+      "title": "화답송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "psalm-p1",
+          "role": "text",
+          "text": "시편 72(71),1-2.3-4ㄱㄴ.7-8.17(◎ 7ㄴㄷ 참조)",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "psalm-p2",
+          "role": "assembly",
+          "text": "◎ 주님, 이 시대에 정의와 평화가 꽃피게 하소서.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "psalm-p3",
+          "role": "text",
+          "text": "○ 하느님, 당신의 공정을 임금에게, 당신의 정의를 임금의 아들에게 베푸소서. 그가 당신 백성을 정의로, 가련한 이들을 공정으로 다스리게 하소서. ◎",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "psalm-p4",
+          "role": "text",
+          "text": "○ 산들은 백성에게 평화를, 언덕들은 정의를 가져오게 하소서. 그가 가련한 백성의 권리를 보살피고, 불쌍한 이에게 도움을 베풀게 하소서. ◎",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "psalm-p5",
+          "role": "text",
+          "text": "○ 저 달이 다할 그때까지, 정의와 큰 평화가 그의 시대에 꽃피게 하소서. 그가 바다에서 바다까지, 강에서 땅끝까지 다스리게 하소서. ◎",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "psalm-p6",
+          "role": "text",
+          "text": "○ 그의 이름 영원히 이어지며, 그의 이름 해처럼 솟아오르게 하소서. 세상 모든 민족들이 그를 통해 복을 받고, 그를 칭송하게 하소서. ◎",
+          "sourceRef": "goodnews-20261217"
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "kind": "acclamation",
+      "title": "복음 환호송",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "alleluia-p1",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "alleluia-p2",
+          "role": "text",
+          "text": "○ 지극히 높으신 분의 지혜 만물을 힘차고 아름답게 가꾸시는 분, 어서 오소서. 저희에게 슬기의 길을 가르치소서.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "alleluia-p3",
+          "role": "assembly",
+          "text": "◎ 알렐루야.",
+          "sourceRef": "goodnews-20261217"
+        }
+      ]
+    },
+    {
+      "id": "gospel",
+      "kind": "gospel",
+      "title": "복음",
+      "status": "verified",
+      "paragraphs": [
+        {
+          "id": "gospel-p1",
+          "role": "text",
+          "text": "<다윗의 자손이신 예수 그리스도의 족보>",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p2",
+          "role": "priest",
+          "text": "✠ 마태오가 전한 거룩한 복음입니다.1,1-17",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p3",
+          "role": "text",
+          "text": "1 다윗의 자손이시며 아브라함의 자손이신 예수 그리스도의 족보.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p4",
+          "role": "text",
+          "text": "2 아브라함은 이사악을 낳고 이사악은 야곱을 낳았으며",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p5",
+          "role": "text",
+          "text": "야곱은 유다와 그 형제들을 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p6",
+          "role": "text",
+          "text": "3 유다는 타마르에게서 페레츠와 제라를 낳고",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p7",
+          "role": "text",
+          "text": "페레츠는 헤츠론을 낳았으며 헤츠론은 람을 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p8",
+          "role": "text",
+          "text": "4 람은 암미나답을 낳고 암미나답은 나흐손을 낳았으며 나흐손은 살몬을 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p9",
+          "role": "text",
+          "text": "5 살몬은 라합에게서 보아즈를 낳고 보아즈는 룻에게서 오벳을 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p10",
+          "role": "text",
+          "text": "오벳은 이사이를 낳고 6 이사이는 다윗 임금을 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p11",
+          "role": "text",
+          "text": "다윗은 우리야의 아내에게서 솔로몬을 낳고, 7 솔로몬은 르하브암을 낳았으며",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p12",
+          "role": "text",
+          "text": "르하브암은 아비야를 낳고 아비야는 아삽을 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p13",
+          "role": "text",
+          "text": "8 아삽은 여호사팟을 낳고 여호사팟은 여호람을 낳았으며",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p14",
+          "role": "text",
+          "text": "여호람은 우찌야를 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p15",
+          "role": "text",
+          "text": "9 우찌야는 요탐을 낳고 요탐은 아하즈를 낳았으며 아하즈는 히즈키야를 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p16",
+          "role": "text",
+          "text": "10 히즈키야는 므나쎄를 낳고 므나쎄는 아몬을 낳았으며 아몬은 요시야를 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p17",
+          "role": "text",
+          "text": "11 요시야는 바빌론 유배 때에 여호야킨과 그 동생들을 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p18",
+          "role": "text",
+          "text": "12 바빌론 유배 뒤에 여호야킨은 스알티엘을 낳고 스알티엘은 즈루빠벨을 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p19",
+          "role": "text",
+          "text": "13 즈루빠벨은 아비훗을 낳고 아비훗은 엘야킴을 낳았으며 엘야킴은 아조르를 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p20",
+          "role": "text",
+          "text": "14 아조르는 차독을 낳고 차독은 아킴을 낳았으며 아킴은 엘리웃을 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p21",
+          "role": "text",
+          "text": "15 엘리웃은 엘아자르를 낳고 엘아자르는 마탄을 낳았으며 마탄은 야곱을 낳았다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p22",
+          "role": "text",
+          "text": "16 야곱은 마리아의 남편 요셉을 낳았는데,",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p23",
+          "role": "text",
+          "text": "마리아에게서 그리스도라고 불리는 예수님께서 태어나셨다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p24",
+          "role": "text",
+          "text": "17 그리하여 이 모든 세대의 수는 아브라함부터 다윗까지가 십사 대이고,",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p25",
+          "role": "text",
+          "text": "다윗부터 바빌론 유배까지가 십사 대이며,",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p26",
+          "role": "text",
+          "text": "바빌론 유배부터 그리스도까지가 십사 대이다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p27",
+          "role": "text",
+          "text": "주님의 말씀입니다.",
+          "sourceRef": "goodnews-20261217"
+        },
+        {
+          "id": "gospel-p28",
+          "role": "assembly",
+          "text": "◎ 그리스도님, 찬미합니다.",
+          "sourceRef": "goodnews-20261217"
+        }
+      ]
+    }
+  ]
+}

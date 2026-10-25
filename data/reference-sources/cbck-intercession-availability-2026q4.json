@@ -1,0 +1,110 @@
+{
+  "scope": "10 dates with note-only GoodNews snapshots, not all 92 dates or every Mass form",
+  "method": "official web-page reading; section bounded by next heading and numbered petitions checked",
+  "checkedAt": "2026-10-24",
+  "supplementCandidates": 6,
+  "petitionCandidates": 24,
+  "currentlyGuidanceOnly": 4,
+  "rows": [
+    {
+      "date": "2026-11-01",
+      "goodnewsStatus": "note-only-in-current-snapshot",
+      "cbckStatus": "four-petitions-present",
+      "petitions": 4,
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261101",
+      "checkedAt": "2026-10-24",
+      "massForm": "날짜별 기본 미사",
+      "appStatus": "linked-from-cbck"
+    },
+    {
+      "date": "2026-11-02",
+      "goodnewsStatus": "note-only-in-current-snapshot",
+      "cbckStatus": "four-petitions-present",
+      "petitions": 4,
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261102",
+      "checkedAt": "2026-10-24",
+      "massForm": "첫째 미사",
+      "appStatus": "linked-from-cbck"
+    },
+    {
+      "date": "2026-11-08",
+      "goodnewsStatus": "note-only-in-current-snapshot",
+      "cbckStatus": "four-petitions-present",
+      "petitions": 4,
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261108",
+      "checkedAt": "2026-10-24",
+      "massForm": "날짜별 기본 미사",
+      "appStatus": "linked-from-cbck"
+    },
+    {
+      "date": "2026-11-15",
+      "goodnewsStatus": "note-only-in-current-snapshot",
+      "cbckStatus": "four-petitions-present",
+      "petitions": 4,
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261115",
+      "checkedAt": "2026-10-24",
+      "massForm": "날짜별 기본 미사",
+      "appStatus": "linked-from-cbck"
+    },
+    {
+      "date": "2026-11-22",
+      "goodnewsStatus": "note-only-in-current-snapshot",
+      "cbckStatus": "four-petitions-present",
+      "petitions": 4,
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261122",
+      "checkedAt": "2026-10-24",
+      "massForm": "날짜별 기본 미사",
+      "appStatus": "linked-from-cbck"
+    },
+    {
+      "date": "2026-11-29",
+      "goodnewsStatus": "note-only-in-current-snapshot",
+      "cbckStatus": "four-petitions-present",
+      "petitions": 4,
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261129",
+      "checkedAt": "2026-10-24",
+      "massForm": "날짜별 기본 미사",
+      "appStatus": "linked-from-cbck"
+    },
+    {
+      "date": "2026-12-06",
+      "goodnewsStatus": "note-only-in-current-snapshot",
+      "cbckStatus": "guidance-only-at-check-time",
+      "petitions": 0,
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261206",
+      "checkedAt": "2026-10-24",
+      "massForm": "날짜별 기본 미사",
+      "appStatus": "not-imported-from-cbck"
+    },
+    {
+      "date": "2026-12-13",
+      "goodnewsStatus": "note-only-in-current-snapshot",
+      "cbckStatus": "guidance-only-at-check-time",
+      "petitions": 0,
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261213",
+      "checkedAt": "2026-10-24",
+      "massForm": "날짜별 기본 미사",
+      "appStatus": "not-imported-from-cbck"
+    },
+    {
+      "date": "2026-12-20",
+      "goodnewsStatus": "note-only-in-current-snapshot",
+      "cbckStatus": "guidance-only-at-check-time",
+      "petitions": 0,
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261220",
+      "checkedAt": "2026-10-24",
+      "massForm": "날짜별 기본 미사",
+      "appStatus": "not-imported-from-cbck"
+    },
+    {
+      "date": "2026-12-25",
+      "goodnewsStatus": "note-only-in-current-snapshot",
+      "cbckStatus": "guidance-only-at-check-time",
+      "petitions": 0,
+      "url": "https://missa.cbck.or.kr/DailyMissa/20261225",
+      "checkedAt": "2026-10-24",
+      "massForm": "밤 미사",
+      "appStatus": "not-imported-from-cbck"
+    }
+  ]
+}

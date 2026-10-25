@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MISSA · 8단계 통합 검수 (연중·대림·성탄)</title>
+  <link rel="stylesheet" href="../styles/tokens.css">
+  <link rel="stylesheet" href="../styles/components/button.css">
+  <style>
+    @layer tokens {
+      :root {
+        --draft-space-2: .5rem;
+        --draft-space-3: .75rem;
+        --draft-space-4: 1rem;
+        --draft-space-6: 1.5rem;
+        --draft-space-8: 2rem;
+        --draft-width: 76rem;
+        --draft-frame-width: 64rem;
+        --draft-frame-height: 48rem;
+        --draft-title: 1.5rem;
+        --draft-heading: 1.25rem;
+        --draft-note: .875rem;
+        --draft-line: 1px solid var(--ui-theme-line);
+        --draft-scroll-thumb: color-mix(in srgb, var(--ui-theme-muted) 72%, var(--ui-theme-surface));
+        --draft-scroll-track: var(--ui-theme-bg);
+        --draft-review-outline: 2px solid var(--ui-theme-accent);
+      }
+    }
+    @layer base {
+      * { box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--draft-scroll-thumb) var(--draft-scroll-track); }
+      body { margin: 0; font-family: var(--font-ui); color: var(--ui-theme-ink); background: var(--ui-theme-bg); line-height: 1.6; }
+      h1, h2, h3, p { margin: 0; }
+      h1 { font-size: var(--draft-title); }
+      h2 { font-size: var(--draft-heading); }
+      h3 { font-size: 1rem; }
+      a { color: var(--ui-theme-accent); }
+      button, select { font: inherit; }
+      :focus-visible { outline: var(--focus-ring); }
+    }
+    @layer layout {
+      .system { max-width: var(--draft-width); margin-inline: auto; padding: var(--draft-space-6); display: grid; gap: var(--draft-space-6); }
+      .system__cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: var(--draft-space-4); }
+      .system__controls { display: flex; flex-wrap: wrap; align-items: center; gap: var(--draft-space-4); }
+      .date-nav { display: flex; flex-wrap: wrap; gap: var(--draft-space-2); }
+      .date-btn { padding: var(--draft-space-2) var(--draft-space-3); border: var(--draft-line); border-radius: var(--shape-rounded); background: var(--ui-theme-surface); color: var(--ui-theme-ink); cursor: pointer; font-size: var(--draft-note); font-weight: 500; }
+      .date-btn[aria-pressed="true"] { background: var(--ui-theme-accent); color: var(--ui-theme-on-accent); border-color: var(--ui-theme-accent); }
+    }
+    @layer components {
+      .system__card { padding: var(--draft-space-4); border: var(--draft-line); border-radius: var(--shape-rounded); background: var(--ui-theme-surface); display: grid; align-content: start; gap: var(--draft-space-3); }
+      .system__viewport { overflow: auto; padding: var(--draft-space-2); border: var(--draft-line); border-radius: var(--shape-rounded); background: var(--ui-theme-surface); }
+      .system__frame { display: block; width: 1024px; height: 768px; border: 0; margin-inline: auto; }
+      .badge { display: inline-block; padding: .125rem .375rem; border-radius: .25rem; font-size: .75rem; font-weight: bold; }
+      .badge--ordinary { background: #4a7c59; color: #fff; }
+      .badge--advent { background: #5c3c74; color: #fff; }
+      .badge--xmas { background: #c29b38; color: #fff; }
+    }
+  </style>
+</head>
+<body>
+  <main class="system">
+    <header>
+      <h1>8단계 · 날짜별 자료 연결 및 통합 시각 검수</h1>
+      <p>연중·대림·성탄 92일 말씀 전례·고유문·전례 지시문(대영광송·신경·감사송) 통합 확인 화면</p>
+    </header>
+
+    <section class="system__card">
+      <h2>시기별 대표일 바로가기</h2>
+      <p>아래 버튼을 누르면 1024×768 뷰어의 날짜가 즉시 전환되어 각 전례 시기의 고유 흐름을 점검할 수 있습니다.</p>
+      <div class="date-nav" role="toolbar" aria-label="대표일 선택 도구">
+        <button type="button" class="date-btn" data-date="2026-10-18" aria-pressed="true">
+          <span class="badge badge--ordinary">연중</span> 2026-10-18 (전교 주일 · 전문 감사송)
+        </button>
+        <button type="button" class="date-btn" data-date="2026-10-24" aria-pressed="false">
+          <span class="badge badge--ordinary">연중 평일</span> 2026-10-24 (토요일 · 고유 감사송 유지)
+        </button>
+        <button type="button" class="date-btn" data-date="2026-11-01" aria-pressed="false">
+          <span class="badge badge--ordinary">대축일</span> 2026-11-01 (모든 성인 · 대영광송/신경/전문 감사송/보편지향)
+        </button>
+        <button type="button" class="date-btn" data-date="2026-11-29" aria-pressed="false">
+          <span class="badge badge--advent">대림</span> 2026-11-29 (대림 제1주일 · 대영광송 없음/신경/참조 지시/보편지향)
+        </button>
+        <button type="button" class="date-btn" data-date="2026-12-08" aria-pressed="false">
+          <span class="badge badge--advent">대축일</span> 2026-12-08 (원죄 없이 잉태되신 복되신 동정 마리아 · 전문 감사송)
+        </button>
+        <button type="button" class="date-btn" data-date="2026-12-25" aria-pressed="false">
+          <span class="badge badge--xmas">성탄</span> 2026-12-25 (예수 성탄 대축일 밤 미사 · 대영광송/신경/참조 지시)
+        </button>
+      </div>
+    </section>
+
+    <nav class="system__controls">
+      <a href="../prototype/index.html" target="_blank" rel="noopener">실제 앱을 별도 탭에서 열기 ↗</a>
+      <a href="../docs/08-date-coverage.md">92일 날짜 연결 현황</a>
+      <a href="../docs/08-preface-coverage.md">감사송 연결 및 지시 현황</a>
+      <a href="../docs/08-qa.md">8단계 QA 기록</a>
+    </nav>
+
+    <h2>통합 검수 점검 항목</h2>
+    <p role="status" data-review-status>확인 0 / 6</p>
+    <section class="system__cards">
+      <label class="system__card">
+        <span><input type="checkbox" data-review-check="calendar-heading"> 1. 상단 전례력 및 시기 배지</span>
+        <span>상단에 날짜별 시기·주차 정보가 올바르게 표기되고, 미사 양식명은 자료 정보로 분리되어 있는지 확인합니다.</span>
+      </label>
+      <label class="system__card">
+        <span><input type="checkbox" data-review-check="word-liturgy"> 2. 말씀 전례 분기 (제2독서·복음)</span>
+        <span>주일/대축일의 제2독서 표시 및 평일(제2독서 생략)의 올바른 목차·본문 제외를 확인합니다.</span>
+      </label>
+      <label class="system__card">
+        <span><input type="checkbox" data-review-check="intercessions"> 3. 보편 지향 기도 연동</span>
+        <span>지향 본문이 있는 날(10일 40지향)의 출처 표시와 미제공 날짜의 안내 문구를 확인합니다.</span>
+      </label>
+      <label class="system__card">
+        <span><input type="checkbox" data-review-check="preface-policy"> 4. 감사송 처리 정책</span>
+        <span>전문 수록일(6일)의 결합, 참조 지시일의 안내 표기, 평일의 기본 제2양식 감사송 유지를 확인합니다.</span>
+      </label>
+      <label class="system__card">
+        <span><input type="checkbox" data-review-check="gloria-creed"> 5. 대영광송 및 신경 노출</span>
+        <span>대림 제1주일(대영광송 없음/신경 있음), 성탄(둘 다 있음), 평일(둘 다 없음)의 목차/본문 일치를 확인합니다.</span>
+      </label>
+      <label class="system__card">
+        <span><input type="checkbox" data-review-check="parish-scores"> 6. 본당 악보 불변 보존</span>
+        <span>교중미사 자비송·대영광송·주님의 기도 등 본당 재조판 악보 37개 자산이 온전히 유지되는지 확인합니다.</span>
+      </label>
+    </section>
+
+    <h2>1024 × 768 앱 화면 (실시간 검증용)</h2>
+    <div class="system__viewport">
+      <iframe id="app-frame" class="system__frame" src="../prototype/index.html" title="MISSA 8단계 통합 검수용 1024×768 앱"></iframe>
+    </div>
+  </main>
+
+  <script>
+    const reviewKey = 'missa.review.stage8-integration.v1';
+    const checks = [...document.querySelectorAll('[data-review-check]')];
+    let saved = {};
+    try { saved = JSON.parse(localStorage.getItem(reviewKey) || '{}'); } catch {}
+    
+    function updateStatus() {
+      const checkedCount = checks.filter(c => c.checked).length;
+      document.querySelector('[data-review-status]').textContent = `확인 ${checkedCount} / ${checks.length}`;
+    }
+
+    checks.forEach(c => {
+      c.checked = saved?.[c.dataset.reviewCheck] === true;
+      c.addEventListener('change', () => {
+        try {
+          localStorage.setItem(reviewKey, JSON.stringify(Object.fromEntries(checks.map(n => [n.dataset.reviewCheck, n.checked]))));
+        } catch {}
+        updateStatus();
+      });
+    });
+    updateStatus();
+
+    const appFrame = document.getElementById('app-frame');
+    const dateButtons = document.querySelectorAll('.date-btn');
+
+    dateButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        dateButtons.forEach(b => b.setAttribute('aria-pressed', 'false'));
+        btn.setAttribute('aria-pressed', 'true');
+        const targetDate = btn.getAttribute('data-date');
+        
+        // 1. postMessage 전송 (안전한 교차 출처 및 file:// 지원)
+        try {
+          appFrame.contentWindow.postMessage({ type: 'missa-set-date', date: targetDate }, '*');
+        } catch (e) {}
+
+        // 2. iframe src 쿼리 파라미터 갱신 (확실한 리로드 및 날짜 보장)
+        appFrame.src = '../prototype/index.html?date=' + targetDate;
+
+        // 3. 동일 출처일 때 DOM 직접 조작 시도 (fallback)
+        try {
+          const frameDoc = appFrame.contentDocument || appFrame.contentWindow.document;
+          const dateInput = frameDoc?.querySelector('[data-js="date"]');
+          if (dateInput) {
+            dateInput.value = targetDate;
+            dateInput.dispatchEvent(new Event('change'));
+          }
+        } catch (e) {}
+      });
+    });
+  </script>
+</body>
+</html>

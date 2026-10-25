@@ -1,0 +1,13 @@
+{
+  "sourceUrl": "https://missa.cbck.or.kr/Liturgy",
+  "scope": "2026-only-review",
+  "dates": {
+    "baptism": "2026-01-11",
+    "ashWednesday": "2026-02-18",
+    "easter": "2026-04-05",
+    "pentecost": "2026-05-24",
+    "adventFirstSunday": "2026-11-29"
+  },
+  "memorialMapping": "user-provided-parish-booklet-and-request; not a universal mandatory mapping",
+  "eucharisticPrayer": "II, explicitly confirmed by user"
+}

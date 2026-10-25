@@ -1,0 +1,17 @@
+{
+  "method": "whitespace-and-punctuation-insensitive containment; existing alternative retained",
+  "checks": [
+    {
+      "title": "본기도",
+      "pass_": true
+    },
+    {
+      "title": "예물 기도",
+      "pass_": true
+    },
+    {
+      "title": "영성체 후 기도",
+      "pass_": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+@layer components {
+
+ .overlay {width:min(var(--overlay-guide-width),calc(100% - var(--reader-gap)));max-height:var(--overlay-max-height);padding:var(--reader-padding);}
+ .overlay[open] {display:grid;grid-template-rows:auto minmax(0,1fr);gap:var(--reader-gap);}
+ .overlay__header {display:flex;justify-content:space-between;align-items:center;gap:var(--reader-gap);}
+ .overlay__body {overflow:auto;min-block-size:0;display:grid;align-content:start;gap:var(--reader-gap);}
+ .overlay--drawer {width:min(var(--overlay-drawer-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);margin-inline-start:auto;margin-inline-end:0;}
+ .overlay--score {width:min(var(--overlay-score-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);}
+ .overlay__field {display:grid;gap:var(--reader-header-control-padding);}
+ .overlay::backdrop {background:var(--overlay-backdrop);}
+ .overlay__image {display:block;width:100%;height:auto;background:var(--reader-score-paper);}
+ .overlay__figure {margin:0;}
+ .overlay__caption {font-size:var(--overlay-caption-size);text-align:end;}
+ .overlay__scroll {overflow:auto;min-block-size:0;}
+
+}
