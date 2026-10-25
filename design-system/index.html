@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="ko" data-reader-theme="a" data-reader-font="serif">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MISSA · 디자인 시스템 쇼케이스 & 스타터 템플릿</title>
+  <link rel="stylesheet" href="../styles/tokens.css">
+  <link rel="stylesheet" href="../styles/components/button.css">
+  <link rel="stylesheet" href="../styles/components/field.css">
+  <link rel="stylesheet" href="../styles/components/response.css">
+  <link rel="stylesheet" href="../styles/components/overlay.css">
+  <style>
+    /* Showcase Layout Styles */
+    :root {
+      --showcase-max-width: 1200px;
+      --showcase-nav-width: 240px;
+    }
+
+    body {
+      margin: 0;
+      background: var(--reader-theme-bg);
+      color: var(--reader-theme-ink);
+      font-family: var(--reader-ui-font);
+      line-height: var(--line-height-160);
+      transition: background 0.25s ease, color 0.25s ease;
+      box-sizing: border-box;
+      padding-top: calc(1rem + env(safe-area-inset-top, 24px));
+      padding-bottom: max(2rem, env(safe-area-inset-bottom, 24px));
+      padding-inline: max(1.5rem, calc(1rem + env(safe-area-inset-left, 0px)));
+    }
+
+    .showcase-header {
+      max-width: var(--showcase-max-width);
+      margin: 0 auto 2rem auto;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--reader-theme-line);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .showcase-title-group h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: var(--reader-theme-accent);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .showcase-title-group p {
+      margin: 0.25rem 0 0 0;
+      color: var(--reader-theme-muted);
+      font-size: 0.95rem;
+    }
+
+    .showcase-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .showcase-container {
+      max-width: var(--showcase-max-width);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: var(--showcase-nav-width) minmax(0, 1fr);
+      gap: 2.5rem;
+      align-items: start;
+    }
+
+    @media (max-width: 860px) {
+      .showcase-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Sticky Sidebar Navigation */
+    .showcase-nav {
+      position: sticky;
+      top: 2rem;
+      background: var(--reader-theme-surface);
+      border: 1px solid var(--reader-theme-line);
+      border-radius: var(--reader-radius);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .showcase-nav h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 0.875rem;
+      color: var(--reader-theme-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .showcase-nav a {
+      color: var(--reader-theme-ink);
+      text-decoration: none;
+      padding: 0.4rem 0.6rem;
+      border-radius: 0.375rem;
+      font-size: 0.95rem;
+      display: block;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
+
+    .showcase-nav a:hover {
+      background: var(--state-selected-surface);
+      color: var(--reader-theme-accent);
+    }
+
+    /* Main Section Cards */
+    .showcase-content {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+    }
+
+    .showcase-section {
+      background: var(--reader-theme-surface);
+      border: 1px solid var(--reader-theme-line);
+      border-radius: var(--reader-radius);
+      padding: 2rem;
+      scroll-margin-top: 2rem;
+    }
+
+    .section-header {
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px dashed var(--reader-theme-line);
+    }
+
+    .section-header h2 {
+      margin: 0;
+      font-size: 1.4rem;
+      color: var(--reader-theme-accent);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .section-header p {
+      margin: 0.25rem 0 0 0;
+      font-size: 0.9rem;
+      color: var(--reader-theme-muted);
+    }
+
+    /* Color Swatches Grid */
+    .swatch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+
+    .swatch-card {
+      border: 1px solid var(--reader-theme-line);
+      border-radius: var(--reader-radius);
+      overflow: hidden;
+      background: var(--reader-theme-surface);
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .swatch-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .swatch-color {
+      height: 72px;
+      display: flex;
+      align-items: flex-end;
+      padding: 0.5rem;
+      box-sizing: border-box;
+    }
+
+    .swatch-info {
+      padding: 0.75rem;
+      font-size: 0.85rem;
+    }
+
+    .swatch-name {
+      font-weight: 700;
+      color: var(--reader-theme-ink);
+      margin-bottom: 0.2rem;
+    }
+
+    .swatch-var {
+      font-family: monospace;
+      font-size: 0.75rem;
+      color: var(--reader-theme-muted);
+      word-break: break-all;
+    }
+
+    /* Typography Samples */
+    .typo-spec-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    .typo-spec-table th, .typo-spec-table td {
+      border-bottom: 1px solid var(--reader-theme-line);
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    .typo-spec-table th {
+      color: var(--reader-theme-muted);
+      font-weight: 600;
+    }
+
+    .sample-part-title {
+      font-family: var(--reader-ui-font);
+      font-size: var(--reader-system-type-part);
+      line-height: var(--reader-system-leading-heading);
+      font-weight: var(--reader-system-weight-heading);
+      color: var(--reader-theme-accent);
+      margin: 0.5rem 0;
+    }
+
+    .sample-section-title {
+      font-family: var(--reader-ui-font);
+      font-size: var(--reader-system-type-section);
+      line-height: var(--reader-system-leading-heading);
+      font-weight: var(--reader-system-weight-heading);
+      color: var(--reader-item-title-ink);
+      margin: 0.5rem 0;
+    }
+
+    .sample-body-text {
+      font-family: var(--reader-body-font);
+      font-size: var(--reader-body-size);
+      line-height: var(--reader-body-leading);
+      margin: 0.5rem 0;
+    }
+
+    .sample-guidance-text {
+      font-family: var(--reader-ui-font);
+      font-size: var(--reader-guidance-size);
+      line-height: var(--reader-system-leading-body);
+      color: var(--reader-system-note-ink);
+      margin: 0.5rem 0;
+    }
+
+    /* Component Demos */
+    .demo-group {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .demo-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    /* Speech 2-Column Mock */
+    .speech-box {
+      border: 1px solid var(--reader-theme-line);
+      border-radius: var(--reader-radius);
+      padding: 1.25rem;
+      background: var(--reader-theme-surface);
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .speech-row {
+      display: grid;
+      grid-template-columns: var(--reader-marker-width, 1.25rem) minmax(0, 1fr);
+      column-gap: var(--reader-marker-gap, 0.375rem);
+      font-family: var(--reader-body-font);
+      font-size: var(--reader-body-size);
+      line-height: var(--reader-body-leading);
+    }
+
+    .speech-marker {
+      font-family: var(--reader-ui-font);
+      font-weight: 700;
+      color: var(--reader-theme-accent);
+      text-align: right;
+      user-select: none;
+    }
+
+    .speech-body {
+      margin: 0;
+    }
+
+    /* Code Snippet Box */
+    .code-box {
+      position: relative;
+      background: #1E1E1E;
+      color: #D4D4D4;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      font-family: Consolas, Monaco, monospace;
+      font-size: 0.85rem;
+      overflow-x: auto;
+      margin-top: 1rem;
+    }
+
+    .copy-btn {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      background: rgba(255, 255, 255, 0.15);
+      color: #FFF;
+      border: 0;
+      border-radius: 0.25rem;
+      padding: 0.3rem 0.6rem;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: background 0.15s ease;
+    }
+
+    .copy-btn:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Template Cards */
+    .template-card {
+      border: 1px solid var(--reader-theme-line);
+      border-radius: var(--reader-radius);
+      padding: 1.5rem;
+      background: var(--reader-theme-bg);
+      margin-bottom: 1.5rem;
+    }
+
+    .template-card h3 {
+      margin-top: 0;
+      color: var(--reader-theme-accent);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      background: var(--state-selected-surface);
+      color: var(--reader-theme-accent);
+      border: 1px solid var(--reader-theme-accent);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header with Theme & Font Selectors -->
+  <header class="showcase-header">
+    <div class="showcase-title-group">
+      <h1>
+        <span>📖 MISSA</span>
+        <span class="badge">Design System v1.0</span>
+      </h1>
+      <p>매일미사 8단계 검증 완료 디자인 시스템 규격 및 실무 재사용 스타터 템플릿</p>
+    </div>
+
+    <div class="showcase-controls">
+      <label for="themeSelect"><strong>테마:</strong></label>
+      <select id="themeSelect" class="missa-input" style="min-width: 130px;">
+        <option value="a" selected>A · 부드러운 미색</option>
+        <option value="b">B · 짙은 종이색</option>
+        <option value="c">C · 편안한 다크</option>
+      </select>
+
+      <label for="fontSelect"><strong>글꼴:</strong></label>
+      <select id="fontSelect" class="missa-input" style="min-width: 100px;">
+        <option value="serif" selected>명조 (기본)</option>
+        <option value="sans">고딕 (UI)</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="showcase-container">
+    
+    <!-- Sidebar Navigation -->
+    <nav class="showcase-nav" aria-label="쇼케이스 네비게이션">
+      <h3>Design System</h3>
+      <a href="#section-colors">1. 테마 & 색상 토큰</a>
+      <a href="#section-typography">2. 타이포그래피 계층</a>
+      <a href="#section-layout">3. 공간 및 태블릿 여백</a>
+      <a href="#section-buttons">4. 버튼 & 액션</a>
+      <a href="#section-inputs">5. 폼 & 입력 필드</a>
+      <a href="#section-response">6. 신자 합송 (Assembly)</a>
+      <a href="#section-liturgy">7. 전례문 2열 마커 배치</a>
+      <a href="#section-overlays">8. 모달 & 드로어 (Overlay)</a>
+      <a href="#section-templates">9. 재사용 스타터 템플릿</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="showcase-content">
+
+      <!-- 1. Color System -->
+      <section id="section-colors" class="showcase-section">
+        <div class="section-header">
+          <h2>🎨 1. 테마 & 색상 팔레트 (Color Tokens)</h2>
+          <p>미사 전례의 거룩함과 눈의 편안함을 위해 정제된 3종 테마(A 미색, B 종이색, C 다크) 및 시맨틱 토큰</p>
+        </div>
+
+        <div class="swatch-grid">
+          <div class="swatch-card" onclick="copyToken('--reader-theme-bg')">
+            <div class="swatch-color" style="background: var(--reader-theme-bg); border-bottom: 1px solid var(--reader-theme-line);"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">배경 (Canvas)</div>
+              <div class="swatch-var">--reader-theme-bg</div>
+            </div>
+          </div>
+
+          <div class="swatch-card" onclick="copyToken('--reader-theme-surface')">
+            <div class="swatch-color" style="background: var(--reader-theme-surface); border-bottom: 1px solid var(--reader-theme-line);"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">지면 (Paper Surface)</div>
+              <div class="swatch-var">--reader-theme-surface</div>
+            </div>
+          </div>
+
+          <div class="swatch-card" onclick="copyToken('--reader-theme-ink')">
+            <div class="swatch-color" style="background: var(--reader-theme-ink); color: #FFF;"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">본문 글자 (Ink)</div>
+              <div class="swatch-var">--reader-theme-ink</div>
+            </div>
+          </div>
+
+          <div class="swatch-card" onclick="copyToken('--reader-theme-accent')">
+            <div class="swatch-color" style="background: var(--reader-theme-accent); color: #FFF;"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">와인 강조 (Accent)</div>
+              <div class="swatch-var">--reader-theme-accent</div>
+            </div>
+          </div>
+
+          <div class="swatch-card" onclick="copyToken('--reader-theme-line')">
+            <div class="swatch-color" style="background: var(--reader-theme-line);"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">경계선 (Line)</div>
+              <div class="swatch-var">--reader-theme-line</div>
+            </div>
+          </div>
+
+          <div class="swatch-card" onclick="copyToken('--reader-theme-muted')">
+            <div class="swatch-color" style="background: var(--reader-theme-muted); color: #FFF;"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">보조 글자 (Muted)</div>
+              <div class="swatch-var">--reader-theme-muted</div>
+            </div>
+          </div>
+
+          <div class="swatch-card" onclick="copyToken('--state-selected-surface')">
+            <div class="swatch-color" style="background: var(--state-selected-surface); border-bottom: 1px solid var(--reader-theme-accent);"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">선택 면 (Selected)</div>
+              <div class="swatch-var">--state-selected-surface</div>
+            </div>
+          </div>
+
+          <div class="swatch-card" onclick="copyToken('--assembly-surface')">
+            <div class="swatch-color" style="background: var(--assembly-surface); color: var(--assembly-ink);">
+              <span style="font-size:0.75rem; font-weight:700;">합송 강조</span>
+            </div>
+            <div class="swatch-info">
+              <div class="swatch-name">합송 배경 (Assembly)</div>
+              <div class="swatch-var">--assembly-surface</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Typography -->
+      <section id="section-typography" class="showcase-section">
+        <div class="section-header">
+          <h2>🔤 2. 타이포그래피 계층 (Typography Scale)</h2>
+          <p>전례의 장엄함(명조)과 UI의 기능적 가독성(고딕)을 결합한 3계층 서체 시스템</p>
+        </div>
+
+        <table class="typo-spec-table">
+          <thead>
+            <tr>
+              <th>역할</th>
+              <th>적용 토큰</th>
+              <th>폰트 패밀리</th>
+              <th>크기 / 줄간격</th>
+              <th>가중치</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>예식 대제목</strong></td>
+              <td><code>--reader-system-type-part</code></td>
+              <td>고딕 (UI)</td>
+              <td>1.5rem (24px) / 1.3</td>
+              <td>Bold 700</td>
+            </tr>
+            <tr>
+              <td><strong>항목 중제목</strong></td>
+              <td><code>--reader-system-type-section</code></td>
+              <td>고딕 (UI)</td>
+              <td>1.25rem (20px) / 1.3</td>
+              <td>Bold 700</td>
+            </tr>
+            <tr>
+              <td><strong>전례문 본문</strong></td>
+              <td><code>--reader-body-size</code></td>
+              <td>명조 (Body 기본)</td>
+              <td>1.125rem (18px) / 1.6</td>
+              <td>Regular 400</td>
+            </tr>
+            <tr>
+              <td><strong>UI / 컨트롤</strong></td>
+              <td><code>--reader-system-type-ui</code></td>
+              <td>고딕 (UI)</td>
+              <td>1.0rem (16px) / 1.6</td>
+              <td>Regular 400</td>
+            </tr>
+            <tr>
+              <td><strong>원문 지침 / 해설</strong></td>
+              <td><code>--reader-guidance-size</code></td>
+              <td>고딕 (UI)</td>
+              <td>0.875rem (14px) / 1.5</td>
+              <td>Regular 400</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div style="background: var(--reader-theme-bg); padding: 1.5rem; border-radius: var(--reader-radius); border: 1px solid var(--reader-theme-line);">
+          <div class="sample-part-title">시작 예식 (Part Title 24px)</div>
+          <div class="sample-section-title">본기도 (Section Title 20px)</div>
+          <p class="sample-body-text">
+            전능하시고 영원하신 하느님, 주님께서는 하늘과 땅의 모든 것을 다스리시니, 저희의 간절한 기도를 들으시어, 이 시대에 주님의 평화를 주소서. 성부와 성령과 함께 영원히 살아 계시며 다스리시는 성자 우리 주 예수 그리스도를 통하여 비나이다.
+          </p>
+          <p class="sample-guidance-text">
+            [원문 지침] 사제는 손을 모으고 기도하며, 신자들은 함께 아멘으로 응답한다.
+          </p>
+        </div>
+      </section>
+
+      <!-- 3. Tablet Safe Area & Layout -->
+      <section id="section-layout" class="showcase-section">
+        <div class="section-header">
+          <h2>📐 3. 공간 및 태블릿 여백 (Tablet Insets & Spacing)</h2>
+          <p>iPad Safari "홈 화면에 추가" PWA 전체화면 및 가로 2페이지 펼침에 최적화된 안전 여백 규격</p>
+        </div>
+
+        <div class="demo-group">
+          <ul style="margin: 0; padding-inline-start: 1.25rem; line-height: 1.8;">
+            <li><strong>상단 상태바 안전영역 (Top Safe Area):</strong> <code>calc(1rem + env(safe-area-inset-top, 24px))</code> = <strong>총 40px</strong> (상태바 시계·배터리와 헤더 겹침 완벽 방지)</li>
+            <li><strong>좌우 여백 (Side Margins):</strong> <code>max(1.5rem, calc(1rem + env(safe-area-inset-left, 0px)))</code> = <strong>24px (1.5rem)</strong> (화면 끝에 달라붙지 않고 안정감을 주는 마진)</li>
+            <li><strong>하단 안전영역 (Bottom Safe Area):</strong> <code>max(1rem, env(safe-area-inset-bottom, 0px))</code> = <strong>16px</strong> (홈 제스처 바 침범 방지)</li>
+            <li><strong>두 페이지 간격 (Page Gap):</strong> <code>--reader-gap: 1rem</code> (16px)</li>
+            <li><strong>모서리 곡률 (Radius):</strong> <code>--reader-radius: 0.75rem</code> (12px 일관 적용)</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 4. Buttons -->
+      <section id="section-buttons" class="showcase-section">
+        <div class="section-header">
+          <h2>🔘 4. 버튼 및 상호작용 (Buttons & Actions)</h2>
+          <p>B타입 은은한 와인 틴트 + 체크/선택 상태 및 Primary 저장 액션 버튼</p>
+        </div>
+
+        <div class="demo-group">
+          <div class="demo-row">
+            <button type="button" class="missa-button">일반 버튼 (Default)</button>
+            <button type="button" class="missa-button" aria-pressed="true">선택된 탭 (Selected: pressed=true)</button>
+            <button type="button" class="missa-button missa-button--primary">주요 저장/확인 (Primary)</button>
+            <button type="button" class="missa-button" disabled>비활성 버튼 (Disabled)</button>
+          </div>
+
+          <div class="demo-row" style="margin-top: 1rem;">
+            <button type="button" class="missa-button">← 이전</button>
+            <button type="button" class="missa-button">다음 →</button>
+            <button type="button" class="missa-button" aria-label="메뉴 열기">☰ 메뉴</button>
+            <button type="button" class="missa-button" style="color: var(--reader-theme-accent);">🔄 새로고침</button>
+          </div>
+        </div>
+
+        <div class="code-box">
+          <button class="copy-btn" onclick="copySnippet('btn-snippet')">복사</button>
+          <pre id="btn-snippet"><code>&lt;!-- 기본 버튼 --&gt;
+&lt;button type="button" class="missa-button"&gt;기본 버튼&lt;/button&gt;
+
+&lt;!-- 선택된 상태 (와인 12% 면 + 볼드) --&gt;
+&lt;button type="button" class="missa-button" aria-pressed="true"&gt;선택 버튼&lt;/button&gt;
+
+&lt;!-- Primary 강조 버튼 (편성 저장, 완료) --&gt;
+&lt;button type="button" class="missa-button missa-button--primary"&gt;편성 저장&lt;/button&gt;</code></pre>
+        </div>
+      </section>
+
+      <!-- 5. Forms & Inputs -->
+      <section id="section-inputs" class="showcase-section">
+        <div class="section-header">
+          <h2>📝 5. 폼 & 입력 필드 (Form Controls)</h2>
+          <p>지면 바탕(Surface) + 얇은 실선 테두리 + 0.75rem 둥근 모서리의 일관된 입력 컨트롤</p>
+        </div>
+
+        <div class="demo-group">
+          <div class="demo-row">
+            <div>
+              <label style="display:block; font-size:0.85rem; margin-bottom:0.25rem;">텍스트 입력:</label>
+              <input type="text" class="missa-input" value="입당 성가 38번" placeholder="내용을 입력하세요">
+            </div>
+
+            <div>
+              <label style="display:block; font-size:0.85rem; margin-bottom:0.25rem;">날짜 선택:</label>
+              <input type="date" class="missa-input" value="2026-10-18">
+            </div>
+
+            <div>
+              <label style="display:block; font-size:0.85rem; margin-bottom:0.25rem;">회차 드롭다운:</label>
+              <select class="missa-input">
+                <option value="dawn">새벽미사</option>
+                <option value="main" selected>교중미사</option>
+                <option value="youth">주일 저녁 젊은이 미사</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="code-box">
+          <button class="copy-btn" onclick="copySnippet('input-snippet')">복사</button>
+          <pre id="input-snippet"><code>&lt;input type="text" class="missa-input" placeholder="성가 번호"&gt;
+&lt;input type="date" class="missa-input" value="2026-10-18"&gt;
+&lt;select class="missa-input"&gt;
+  &lt;option value="main" selected&gt;교중미사&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+        </div>
+      </section>
+
+      <!-- 6. Assembly Response -->
+      <section id="section-response" class="showcase-section">
+        <div class="section-header">
+          <h2>🗣️ 6. 신자 합송 강조 (Assembly Response)</h2>
+          <p>미사 중 모든 신자가 한목소리로 함께 바치는 구절을 위한 짙은 와인 채움 강조 블록</p>
+        </div>
+
+        <div class="demo-group">
+          <div class="missa-response" style="font-size: 1.125rem; font-weight: 700;">
+            ◎ 주님, 저희의 기도를 들어주소서.
+          </div>
+
+          <div class="missa-response" style="font-size: 1.125rem; font-weight: 700; margin-top: 0.5rem;">
+            ◎ 그리스도님, 찬미합니다.
+          </div>
+        </div>
+
+        <div class="code-box">
+          <button class="copy-btn" onclick="copySnippet('response-snippet')">복사</button>
+          <pre id="response-snippet"><code>&lt;!-- 신자 합송 박스 --&gt;
+&lt;div class="missa-response"&gt;
+  ◎ 주님, 저희의 기도를 들어주소서.
+&lt;/div&gt;</code></pre>
+        </div>
+      </section>
+
+      <!-- 7. Liturgy 2-Column Marker Layout -->
+      <section id="section-liturgy" class="showcase-section">
+        <div class="section-header">
+          <h2>📜 7. 전례문 2열 마커 배치 (Liturgy Speech Grid)</h2>
+          <p>사제 기호(✠, +), 신자 응답(◎), 성경 절 번호(17)를 1열 마커로 정렬하고 본문을 2열로 분리 조판</p>
+        </div>
+
+        <div class="speech-box">
+          <div class="speech-row">
+            <span class="speech-marker">+</span>
+            <p class="speech-body">주님께서 여러분과 함께.</p>
+          </div>
+          <div class="speech-row">
+            <span class="speech-marker">◎</span>
+            <p class="speech-body">또한 사제의 영과 함께.</p>
+          </div>
+          <div class="speech-row">
+            <span class="speech-marker">✠</span>
+            <p class="speech-body">루카가 전한 거룩한 복음입니다.</p>
+          </div>
+          <div class="speech-row">
+            <span class="speech-marker">◎</span>
+            <p class="speech-body">주님, 영광 받으소서.</p>
+          </div>
+          <div class="speech-row" style="margin-top: 0.5rem;">
+            <span class="speech-marker">17</span>
+            <p class="speech-body">그때에 주님께서는 다른 제자 일흔두 명을 지명하시어, 몸소 가시려는 모든 고을과 고장으로 당신에 앞서 둘씩 보내셨다.</p>
+          </div>
+          <div class="speech-row">
+            <span class="speech-marker">18</span>
+            <p class="speech-body">그리고 그들에게 말씀하셨다. “수확할 것은 많은데 일꾼은 적다. 그러니 수확할 밭의 주인님께 일꾼들을 보내 주시라고 청하여라.”</p>
+          </div>
+        </div>
+
+        <div class="code-box">
+          <button class="copy-btn" onclick="copySnippet('liturgy-snippet')">복사</button>
+          <pre id="liturgy-snippet"><code>&lt;div class="reader__speech-row"&gt;
+  &lt;span class="reader__speech-marker"&gt;+&lt;/span&gt;
+  &lt;p class="reader__speech-body"&gt;주님께서 여러분과 함께.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="reader__speech-row"&gt;
+  &lt;span class="reader__speech-marker"&gt;17&lt;/span&gt;
+  &lt;p class="reader__speech-body"&gt;그때에 예수님께서 말씀하셨다...&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+      </section>
+
+      <!-- 8. Modals & Overlays -->
+      <section id="section-overlays" class="showcase-section">
+        <div class="section-header">
+          <h2>🪟 8. 모달 & 오버레이 (Dialogs & Overlays)</h2>
+          <p>HTML5 시맨틱 <code>&lt;dialog&gt;</code> 기반의 시스템 표준 중앙 팝업 및 내부 스크롤</p>
+        </div>
+
+        <div class="demo-group">
+          <div class="demo-row">
+            <button type="button" class="missa-button missa-button--primary" onclick="document.getElementById('demoModal').showModal()">
+              모달 다이얼로그 열기 (테스트)
+            </button>
+          </div>
+        </div>
+
+        <!-- Sample Dialog -->
+        <dialog id="demoModal" class="overlay">
+          <div class="overlay__header">
+            <h3 class="overlay__title" style="color: var(--reader-theme-accent);">전례 시기 안내</h3>
+            <button type="button" class="missa-button" onclick="document.getElementById('demoModal').close()">닫기</button>
+          </div>
+          <div class="overlay__body">
+            <p><strong>연중 시기 (Ordinary Time):</strong></p>
+            <p>연중 시기는 그리스도의 신비 전체를 기념하는 기본 시기입니다. 초록색 제의를 입으며 하느님 나라의 성장과 일상 속 신앙 실천을 묵상합니다.</p>
+            <div style="background: var(--state-selected-surface); padding: 0.75rem; border-radius: var(--reader-radius); border: 1px solid var(--reader-theme-accent);">
+              💡 시스템 정규화된 <code>.overlay__body</code> 클래스로 기본 gap 및 안정적인 스크롤이 보장됩니다.
+            </div>
+          </div>
+        </dialog>
+
+        <div class="code-box">
+          <button class="copy-btn" onclick="copySnippet('modal-snippet')">복사</button>
+          <pre id="modal-snippet"><code>&lt;dialog class="overlay" id="myDialog"&gt;
+  &lt;div class="overlay__header"&gt;
+    &lt;h3 class="overlay__title"&gt;모달 제목&lt;/h3&gt;
+    &lt;button type="button" class="missa-button" onclick="this.closest('dialog').close()"&gt;닫기&lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div class="overlay__body"&gt;
+    &lt;p&gt;모달 본문 내용...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/dialog&gt;</code></pre>
+        </div>
+      </section>
+
+      <!-- 9. Ready-to-use Templates -->
+      <section id="section-templates" class="showcase-section">
+        <div class="section-header">
+          <h2>🚀 9. 즉시 재사용 스타터 템플릿 (Ready-to-use Templates)</h2>
+          <p>새로운 화면을 개발할 때 복사하여 즉시 활용할 수 있는 검증된 HTML 스캐폴드</p>
+        </div>
+
+        <!-- Template 1: Reading Page -->
+        <div class="template-card">
+          <h3>📄 템플릿 A: 전례 독서 / 기도문 뷰어 페이지</h3>
+          <p>헤더, 2페이지 가로 펼침 본문, 하단 이전/다음 네비게이션이 포함된 기본 리더 화면</p>
+          <div class="code-box">
+            <button class="copy-btn" onclick="copySnippet('template-a')">코드 복사</button>
+            <pre id="template-a"><code>&lt;!doctype html&gt;
+&lt;html lang="ko" data-reader-theme="a" data-reader-font="serif"&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"&gt;
+  &lt;title&gt;매일미사 뷰어&lt;/title&gt;
+  &lt;link rel="stylesheet" href="../styles/tokens.css"&gt;
+  &lt;link rel="stylesheet" href="../styles/components/button.css"&gt;
+  &lt;link rel="stylesheet" href="../styles/components/field.css"&gt;
+  &lt;link rel="stylesheet" href="../styles/components/response.css"&gt;
+  &lt;style&gt;
+    body {
+      margin: 0;
+      background: var(--reader-theme-bg);
+      color: var(--reader-theme-ink);
+      font-family: var(--reader-ui-font);
+      box-sizing: border-box;
+      padding-top: calc(1rem + env(safe-area-inset-top, 24px));
+      padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+      padding-inline: max(1.5rem, calc(1rem + env(safe-area-inset-left, 0px)));
+    }
+    .reader-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--reader-gap);
+      height: calc(100vh - 120px);
+    }
+    .reader-card {
+      background: var(--reader-theme-surface);
+      border-radius: var(--reader-radius);
+      border: 1px solid var(--reader-theme-line);
+      padding: var(--reader-padding);
+      overflow-y: auto;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;"&gt;
+    &lt;h1 style="margin: 0; color: var(--reader-theme-accent);"&gt;MISSA&lt;/h1&gt;
+    &lt;nav&gt;
+      &lt;button type="button" class="missa-button"&gt;성가&lt;/button&gt;
+      &lt;button type="button" class="missa-button"&gt;기도문&lt;/button&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
+
+  &lt;main class="reader-grid"&gt;
+    &lt;article class="reader-card"&gt;
+      &lt;h2 style="color: var(--reader-theme-accent);"&gt;제1독서&lt;/h2&gt;
+      &lt;p style="font-family: var(--reader-body-font); font-size: var(--reader-body-size); line-height: var(--reader-body-leading);"&gt;
+        이사야서의 말씀입니다...
+      &lt;/p&gt;
+    &lt;/article&gt;
+    &lt;article class="reader-card"&gt;
+      &lt;h2 style="color: var(--reader-theme-accent);"&gt;화답송&lt;/h2&gt;
+      &lt;div class="missa-response"&gt;
+        ◎ 주님, 제 영혼이 당신을 그리워하나이다.
+      &lt;/div&gt;
+    &lt;/article&gt;
+  &lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+          </div>
+        </div>
+
+        <!-- Template 2: Settings Form -->
+        <div class="template-card">
+          <h3>⚙️ 템플릿 B: 설정 및 성가 편성 폼</h3>
+          <p>성가 번호 입력, 회차 선택, 저장/취소 액션 버튼이 배치된 폼 화면</p>
+          <div class="code-box">
+            <button class="copy-btn" onclick="copySnippet('template-b')">코드 복사</button>
+            <pre id="template-b"><code>&lt;form class="settings-form" style="display: grid; gap: 1rem; max-width: 480px;"&gt;
+  &lt;label style="display: grid; gap: 0.35rem;"&gt;
+    &lt;span&gt;미사 날짜&lt;/span&gt;
+    &lt;input type="date" class="missa-input" value="2026-10-18"&gt;
+  &lt;/label&gt;
+
+  &lt;label style="display: grid; gap: 0.35rem;"&gt;
+    &lt;span&gt;입당 성가 번호&lt;/span&gt;
+    &lt;input type="text" class="missa-input" placeholder="예: 38"&gt;
+  &lt;/label&gt;
+
+  &lt;div style="display: flex; gap: 0.5rem; justify-content: flex-end; margin-top: 0.5rem;"&gt;
+    &lt;button type="button" class="missa-button"&gt;취소&lt;/button&gt;
+    &lt;button type="submit" class="missa-button missa-button--primary"&gt;편성 저장&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+  </div>
+
+  <script>
+    // Theme Switcher Logic
+    const themeSelect = document.getElementById('themeSelect');
+    themeSelect.addEventListener('change', (e) => {
+      document.documentElement.setAttribute('data-reader-theme', e.target.value);
+    });
+
+    // Font Switcher Logic
+    const fontSelect = document.getElementById('fontSelect');
+    fontSelect.addEventListener('change', (e) => {
+      document.documentElement.setAttribute('data-reader-font', e.target.value);
+    });
+
+    // Copy Token to Clipboard
+    function copyToken(tokenVar) {
+      navigator.clipboard.writeText(`var(${tokenVar})`).then(() => {
+        alert(`복사 완료: var(${tokenVar})`);
+      });
+    }
+
+    // Copy Code Snippet
+    function copySnippet(elementId) {
+      const code = document.getElementById(elementId).innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert('HTML 코드가 클립보드에 복사되었습니다!');
+      });
+    }
+  </script>
+</body>
+</html>
