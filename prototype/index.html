@@ -1555,7 +1555,7 @@ find('part-next').onclick = () => go(Math.min(parts.length-1,part+1));
 find('page-prev').onclick = () => turnSpread(-1);
 find('page-next').onclick = () => turnSpread(1);
 find('mode').onchange = render; find('slot').onchange = () => { setViewerOrientation(viewerOrientation);context(); render(); };
-find('date').onchange = () => {captureReaderScroll();persistReader();collectView=0;loadReaderDate(find('date').value);readerDate=null;context();render();};
+find('date').onchange = () => {captureReaderScroll();persistReader();collectView=0;readerScrolls={};position.fill(null);part=0;spread=0;currentAnchor=contents[0][0].id;readerDate=null;context();render({anchorKey:currentAnchor});};
 document.querySelectorAll('[data-panel]').forEach(button => button.onclick = () => showPanel(button.dataset.panel,button));
 find('close').onclick = () => find('drawer').close();
 find('drawer').addEventListener('close', () => { render(); const target = selectedItem && document.getElementById(selectedItem); if(opener?.isConnected)opener.focus({preventScroll:true});else if(target)target.focus({preventScroll:true}); });
@@ -1594,7 +1594,7 @@ const urlDateParam=new URLSearchParams(location.search).get('date');
 if(/^\d{4}-\d{2}-\d{2}$/.test(urlDateParam||'')){
  find('date').value=urlDateParam;
 }else{
- try{const saved=localStorage.getItem('missa.reader.selected-date.v1');if(/^\d{4}-\d{2}-\d{2}$/.test(saved||'')){const field=find('date'),fallback=field.value;field.value=saved;if(!field.value)field.value=fallback;}}catch{}
+ const today=new Date();find('date').value=[today.getFullYear(),String(today.getMonth()+1).padStart(2,'0'),String(today.getDate()).padStart(2,'0')].join('-');
 }
 loadReaderDate(find('date').value,true);
 find('book').addEventListener('scroll',readerScrolled,true);
