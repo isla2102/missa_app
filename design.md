@@ -607,3 +607,8 @@ Flutter·SQLite·JSON은 권장 아키텍처이며 현재 구현된 앱 스택�
 ## 2026-10-25 MVP 개발 정보 제거 확정
 - 사용자요청:자료상태·개발정보영역은참고용이므로MVP표시에서제거.접힘기본정책을대체.
 - details마크업제거,리더grid를헤더/본문2행으로정리해빈행없음.검수데이터와도구유지,개발용방향버튼참조제거.
+
+
+## 2026-10-25 iPad 튜토리얼 절반 높이 요청
+- 사용자재요청:기존iPad높이의절반.튜토리얼전용45dvh명시(공통90dvh의절반).기초foundation-tutorial-height→ui-tutorial-height→overlay-tutorial-height.
+- 이전fit-content정책대체.본문minmax(0,1fr)스크롤,제목/버튼행유지.다른모달높이불변.
