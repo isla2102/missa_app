@@ -1,0 +1,60 @@
+{
+  "status": "draft",
+  "palettes": [
+    {
+      "id": "navy",
+      "name": "잉크 네이비",
+      "bg": "#EDF0F4",
+      "surface": "#FAFBFD",
+      "ink": "#202B3B",
+      "muted": "#526176",
+      "accent": "#2D4E78",
+      "note": "#76521F",
+      "description": "차분하고 또렷한 인상 · 밝은 종이와 짙은 푸른 포인트"
+    },
+    {
+      "id": "forest",
+      "name": "포레스트 그린",
+      "bg": "#EAF0E8",
+      "surface": "#F7FAF4",
+      "ink": "#21352B",
+      "muted": "#52695A",
+      "accent": "#31634B",
+      "note": "#77531F",
+      "description": "안정적이고 자연스러운 인상 · 따뜻한 녹색 계열"
+    },
+    {
+      "id": "plum",
+      "name": "딥 플럼",
+      "bg": "#F0EAF0",
+      "surface": "#FCF8FC",
+      "ink": "#352839",
+      "muted": "#6D5870",
+      "accent": "#714579",
+      "note": "#79501E",
+      "description": "고요하고 깊이 있는 인상 · 와인보다 보랏빛이 선명한 포인트"
+    },
+    {
+      "id": "terracotta",
+      "name": "테라코타",
+      "bg": "#F3EAE3",
+      "surface": "#FFFAF5",
+      "ink": "#382B25",
+      "muted": "#765D50",
+      "accent": "#9B482E",
+      "note": "#725321",
+      "description": "온기 있는 인상 · 밝은 크림 바탕과 흙빛 붉은 포인트"
+    },
+    {
+      "id": "petrol",
+      "name": "페트롤 블루",
+      "bg": "#E7F0EF",
+      "surface": "#F5FBFA",
+      "ink": "#203537",
+      "muted": "#4D686A",
+      "accent": "#23646B",
+      "note": "#79521E",
+      "description": "정돈되고 청량한 인상 · 청록과 짙은 푸른 녹색 포인트"
+    }
+  ]
+}
