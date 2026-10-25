@@ -1190,3 +1190,15 @@
   - `tools/verify-stage8-fixes.cjs`: 복음 12개 행 2열 분리, 전례시기 모달 시스템 정규화, 10·11월 성가 연결 ALL PASS.
   - `tools/verify-hymn-auto-score.cjs`: 대표일 전환 및 추천 성가 본문 악보 자동 노출 ALL PASS.
 - 다음: Git 커밋 및 사용자 터미널 `git push`로 원격 배포 반영 후 iPad 실기기 새로고침 확인.
+
+## 2026-10-25 Codex 작업 인수인계 및 에이전트 지침 갱신
+- 사용자 요청:
+  1. 홈 화면 PWA용 새로고침 버튼 추가 계획을 `.ai-workspace/handoff.md`에 기록하고 Codex에서 이어갈 수 있도록 준비.
+  2. 안티그래비티 지침에 "명령 실행(또는 실행 허가 요청) 시 한국어로 먼저 작업 내용을 설명한 뒤 코드를 요청"하도록 규칙 갱신.
+  3. `progress.md`, `design.md`, `handoff.md`, `Project_Status.md` 등 인수인계 문서 일괄 동기화.
+- 지침 및 문서 반영:
+  - `ANTIGRAVITY.md` & `AGENTS.md` & `.ai-workspace/agent.md`: "명령 실행 지침: 모든 터미널 명령어 실행(또는 실행 허가 요청) 전에는 반드시 한국어로 먼저 실행할 작업 내용에 대해 명확히 설명한 뒤, 코드블록 또는 명령어를 제시한다." 명시.
+  - `.ai-workspace/handoff.md`: PWA 홈 화면 전체화면 모드용 새로고침 버튼(`location.reload()`) 추가 작업을 Codex 후속 과제로 명시.
+  - `.ai-workspace/design.md`: 태블릿 상단 상태바 안전영역(40px), 좌우 여백(24px), 하단 여백, 가로 100% 규격 확정 기록.
+  - `.ai-workspace/Project_Status.md`: 최신 상태 동기화 완료.
+- 다음: Codex 세션으로 인수인계 및 홈 화면 PWA 새로고침 버튼 추가 작업 진행.
