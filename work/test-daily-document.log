@@ -1,2 +1,0 @@
-PASS document validation, date isolation, duplicate IDs, source refs, missing text, override rejection, anchor fallback.
-PASS real fixture cross references.

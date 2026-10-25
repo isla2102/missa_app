@@ -1,7 +1,34 @@
-# AI Symlink Junctions
-/.claude
-/.codex
-/.gemini
-/.antigravity
-/.antigravity-ide
-/.ai-workspace/global_skills
+# AI Agent Workspaces & Runtimes (Local Only)
+.ai-workspace/
+.codex/
+.claude/
+.gemini/
+.antigravity/
+.antigravity-ide/
+.system_generated/
+scratch/
+
+# Temporary Working Artifacts & Experimental Scripts
+work/
+*.log
+*.tmp
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Archives & Binaries (Backups)
+*.zip
+*.tar.gz
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment & Editor Secrets
+.env
+.env.*
+.vscode/
+.idea/

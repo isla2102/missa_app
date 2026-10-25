@@ -1,6 +1,0 @@
-from pathlib import Path
-entry='''\n\n## 2026-10-18 합송·안내 분리 v13\n- 사용자 4개 코멘트 반영 제안. ◎로 시작하는 합송과 이어지는 여러 줄 본문을 별도 카드로 표시. “합송 · 함께 바칩니다” 라벨, 굵은 본문·두꺼운 테두리로 강조. 글자 데이터 원본은 변경하지 않음.\n- 인사는 사제 선택지 3개와 공통 합송 카드 1개로 구성. 동일 응답 반복 제거. 참회 선택지 1은 형제들에게~빌어 주소서 및 마지막 아멘을 두 합송 카드로 표시. 중간 행동 안내는 같은 합송 안에서 안내 스타일로 구분. 선택지 2와 연결된 자비송 호칭 응답도 동일 파서 적용.\n- 모든 본문 흐름·낭송 카드·주요 기도문 패널·두 신경에 공통 규칙 적용. 페이지 분리 시 합송 역할을 다음 조각에 전달. 일반 모드에서는 안내만 숨기며 본문 유지. 사진 악보 원본은 변경하지 않음.\n- 안내 색 구분은 이번 사용자의 명시 요청 범위에 한해 --draft-guide-ink / --draft-guide-surface 임시 변수로 제안. 안내 라벨을 함께 사용하여 색에만 의존하지 않음. 제품 팔레트·타이포 확정은 여전히 후속 단계.\n- 검사: node --check work/review-ia-v13-check.js, node work/test-assembly-v13.cjs 통과. 참회 합송 경계, 원문 전체 ◎ 역할, 인사 3+1, 예식 전체 DOM 모의 렌더링, 신경·호칭 응답·페이지 계속 역할·일반 모드 검증. 실제 브라우저 높이/페이지 배치/접근성 전체 검증 미완료. v12 보존, review/02-ia-v13.html 검토 대기.\n'''
-for name in ['docs/progress.md','design.md','ENGINEERING.md','README.md']:
- p=Path(name);Path('scratch/'+p.name+'.before-v13').write_bytes(p.read_bytes())
- text=entry if name!='README.md' else '\n\n## 최신 검토 v13\nreview/02-ia-v13.html: 합송 강조 카드·안내 분리, 인사 사제 선택지 3개와 공통 합송 1개. 검사: node work/test-assembly-v13.cjs. 실제 브라우저 레이아웃 검증은 남아 있습니다.\n'
- p.write_text(p.read_text(encoding='utf-8')+text,encoding='utf-8',newline='\r\n')

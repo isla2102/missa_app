@@ -1,5 +1,0 @@
-from pathlib import Path
-p=Path('work/update_review_v14.py');s=p.read_text(encoding='utf-8').replace("section.className='reader__item';", "section.className='reader__item reader__item--collect';",1).replace("card.className='reader__content-card';card.setAttribute('data-content-source','cbck-daily-collect');", "card.className='reader__content-card reader__collect-scroll';card.setAttribute('tabindex','0');card.setAttribute('aria-label','매일미사 본기도 본문');card.setAttribute('data-content-source','cbck-daily-collect');",1)
-s=s.replace(" .reader__season-badge {", " .reader__item--collect { block-size: calc(100cqh - (2 * var(--draft-padding)) - 2px); display: grid; grid-template-rows: auto auto minmax(0, 1fr) auto; gap: var(--draft-item-gap); }\\n .reader__collect-scroll { min-block-size: 0; overflow: auto; overscroll-behavior: contain; }\\n .reader__season-badge {")
-s=s.replace("Path('review/02-ia-v14.html').write_text", "s=s.replace(\"if(block.item?.title==='신앙 고백')return [block];\",\"if(['신앙 고백','본기도'].includes(block.item?.title))return [block];\")\nPath('review/02-ia-v14.html').write_text")
-p.write_text(s,encoding='utf-8',newline='\r\n')
