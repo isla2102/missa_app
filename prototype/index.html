@@ -741,13 +741,18 @@
 @layer components {
 
  .overlay {width:min(var(--overlay-guide-width),calc(100% - var(--reader-gap)));max-height:var(--overlay-max-height);padding:var(--reader-padding);}
- .overlay[open] {display:grid;grid-template-rows:auto minmax(0,1fr);gap:var(--reader-gap);}
+ .overlay[open] {display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);gap:var(--reader-gap);}
  .overlay--tutorial[open] {height:var(--overlay-tutorial-height);max-height:var(--overlay-tutorial-height);min-height:0;grid-template-rows:auto minmax(0,1fr) auto;gap:var(--overlay-tutorial-gap);}
  .overlay--nested[open] {width:min(var(--overlay-drawer-width),calc(100% - var(--reader-gap)));height:fit-content;grid-template-rows:auto minmax(0,1fr);}
  .overlay--nested::backdrop {background:var(--overlay-nested-backdrop);}
  .overlay__title {margin:0;font-size:var(--reader-system-type-section);line-height:var(--reader-system-leading-heading);}
- .overlay__header {display:flex;justify-content:space-between;align-items:center;gap:var(--reader-gap);}
- .overlay__body {overflow:auto;min-block-size:0;display:grid;align-content:start;gap:var(--reader-gap);}
+ .overlay__header {min-inline-size:0;display:flex;justify-content:space-between;align-items:center;gap:var(--reader-gap);}
+ .overlay__body {overflow:auto;min-block-size:0;min-inline-size:0;display:grid;grid-template-columns:minmax(0,1fr);align-content:start;gap:var(--reader-gap);overflow-wrap:anywhere;}
+ .overlay__body--panel {display:block;}
+ .overlay__content {display:grid;grid-template-columns:minmax(0,1fr);gap:var(--reader-gap);min-inline-size:0;}
+ .overlay__content--gutter {inline-size:calc(100% - var(--reader-system-scroll-size));}
+ .overlay :where(h2,h3,p,form,label,section,div,ul,nav,input,select,button,a) {min-inline-size:0;max-inline-size:100%;overflow-wrap:anywhere;}
+ .overlay button {white-space:normal;}
  .overlay--drawer {width:min(var(--overlay-panel-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);margin-inline-start:auto;margin-inline-end:0;}
  .overlay--score {width:min(var(--overlay-score-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);}
  .overlay__field {display:grid;gap:var(--reader-header-control-padding);}
@@ -775,7 +780,7 @@
 <nav class="reader__row reader__tools" aria-label="리더 도구"><button type="button" data-panel="settings" class="missa-button reader__icon-button" aria-label="보기 설정" title="보기 설정"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m9.5 3-.6 2.3-1.7 1-2.3-.6-2.5 4.3 1.7 1.7v2l-1.7 1.7 2.5 4.3 2.3-.6 1.7 1 .6 2.3h5l.6-2.3 1.7-1 2.3.6 2.5-4.3-1.7-1.7v-2l1.7-1.7-2.5-4.3-2.3.6-1.7-1L14.5 3z"/><circle cx="12" cy="12.5" r="3"/></svg></button><button type="button" data-panel="info" class="missa-button">안내</button></nav>
 <button type="button" class="reader__toc-toggle missa-button" data-js="toc-toggle" aria-expanded="true" aria-controls="prototype-toc" aria-label="목차 접기" title="목차 접기"><svg class="reader__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16m-5-12 3 4-3 4"/></svg></button><aside id="prototype-toc" class="reader__rail" aria-label="미사 목차"><nav data-js="toc-rail" aria-label="미사 전체 세부 목차"></nav></aside></div>
 
-<dialog class="reader__drawer overlay overlay--drawer" data-js="drawer" aria-labelledby="drawer-title"><div class="reader__header overlay__header"><h2 id="drawer-title" data-js="drawer-title">목차</h2><button type="button" data-js="close" class="missa-button">닫기</button></div><div class="overlay__body" data-js="drawer-body"></div></dialog>
+<dialog class="reader__drawer overlay overlay--drawer" data-js="drawer" aria-labelledby="drawer-title"><div class="reader__header overlay__header"><h2 id="drawer-title" data-js="drawer-title">목차</h2><button type="button" data-js="close" class="missa-button">닫기</button></div><div class="overlay__body overlay__body--panel"><div class="overlay__content" data-js="drawer-body"></div></div></dialog>
 </main>
 <dialog class="reader__tutorial overlay overlay--tutorial" data-js="tutorial" aria-labelledby="tutorial-title"><div class="overlay__header"><h2 class="overlay__title" id="tutorial-title" data-js="tutorial-title">미사 뷰어 사용 안내</h2><p data-js="tutorial-step" role="status"></p></div><p class="overlay__body" data-js="tutorial-copy"></p><nav class="reader__row" aria-label="튜토리얼 단계"><button type="button" data-js="tutorial-prev" class="missa-button">이전</button><button type="button" data-js="tutorial-next" class="missa-button">다음</button><button type="button" data-js="tutorial-later" class="missa-button">나중에 보기</button></nav></dialog>
 <dialog class="reader__score-modal overlay overlay--score" data-js="score-modal" aria-labelledby="score-modal-title"><div class="reader__modal-heading overlay__header"><h2 id="score-modal-title" data-js="score-modal-title">악보 크게 보기</h2><button type="button" data-js="score-modal-close" class="missa-button">닫기</button></div><div class="reader__score-modal-body overlay__scroll" data-js="score-modal-body"></div></dialog>
@@ -1264,13 +1269,13 @@ function appendHymnEditor(body){
  const heading=document.createElement('p');heading.textContent=find('date').value+' · '+selectedSlotName()+' · 사용자 편성';body.append(heading);
  const form=document.createElement('form'),inputs={},status=document.createElement('p');form.className='reader__hymn-form';status.setAttribute('role','status');
  for(const [title,role] of Object.entries(hymnTitles)){const label=document.createElement('label');label.className='reader__hymn-field';const name=document.createElement('span');name.textContent=title;label.append(name);const input=document.createElement('input');input.type='text';input.setAttribute('aria-label',title+' 편성 번호');input.value=currentHymns()[role].join(', ');inputs[role]=input;label.append(input);form.append(label);}
- const save=createReaderButton('', 'primary');save.type='submit';save.classList.add('reader__hymn-save');save.textContent='편성 저장';form.append(save);body.append(form,status);appendHymnBackupControls(body);
+ const save=createReaderButton('', 'primary');save.type='submit';save.classList.add('reader__hymn-save');save.textContent='편성 저장';form.append(save);body.append(form,status);
  let undo=null;const undoButton=createReaderButton();undoButton.type='button';undoButton.textContent='적용 취소';undoButton.hidden=true;body.append(undoButton);
  const commit=value=>{try{const previous=currentHymns();if(hymnRoles.every(role=>JSON.stringify(previous[role])===JSON.stringify(value[role]))){status.textContent='현재 편성과 같습니다.';return true;}saveCurrentHymns(value);undo=previous;for(const role of hymnRoles)inputs[role].value=value[role].join(', ');undoButton.hidden=false;status.textContent='저장했습니다.';scheduleReflow(currentAnchor);return true;}catch{status.textContent='저장하지 못했습니다. 브라우저 저장소 설정을 확인해 주세요.';return false;}};
  form.onsubmit=event=>{event.preventDefault();try{const value={};for(const role of hymnRoles)value[role]=parseHymnNumbers(inputs[role].value);commit(value);}catch(error){status.textContent=error.message;}};
  undoButton.onclick=()=>{if(undo&&commit(undo)){undo=null;undoButton.hidden=true;status.textContent='이전 편성으로 복원했습니다.';}};
  const legacyButton=createReaderButton();legacyButton.type='button';legacyButton.textContent='구버전 번호 가져오기 검토';body.append(legacyButton);legacyButton.onclick=()=>{try{const legacy=readLegacyHymnNumbers(localStorage,find('date').value,find('slot').value);if(!legacy){status.textContent='현재 날짜·회차의 구버전 내 본당 편성이 없습니다. 다른 파일·브라우저의 저장소는 여기서 읽을 수 없습니다.';return;}const box=document.createElement('div'),note=document.createElement('p');note.textContent='번호만 가져옵니다. 구버전 제목·가사·메모·URL은 원래 저장소에 유지되며, 새 번호 백업에는 포함되지 않습니다.';box.append(note);for(const [title,role] of Object.entries(hymnTitles)){const line=document.createElement('p');line.textContent=title+' · '+(currentHymns()[role].join(', ')||'미등록')+' → '+(legacy[role].join(', ')||'미등록');box.append(line);}const apply=createReaderButton();apply.type='button';apply.textContent='구버전 번호 적용';apply.onclick=()=>{if(commit(legacy))box.remove();};const cancel=createReaderButton();cancel.type='button';cancel.textContent='가져오기 취소';cancel.onclick=()=>box.remove();box.append(apply,cancel);body.append(box);}catch(error){status.textContent='가져오지 못했습니다 · '+error.message;}};
- appendHymnRecommendations(body,commit);
+ body.append(externalSourceLink(hymnScheduleCatalog.sourceUrl,'성가표 출처'));
 }
 function hymnAssignmentKey(title){return find('date').value+'|'+find('slot').value+'|'+title;}
 function hymnScoreAsset(number,title){return {kind:'remote',title:'가톨릭성가 '+number+'번 · '+title,path:'https://maria.catholic.or.kr/sungga/Files/img/2012/201204'+String(number).padStart(4,'0')+'.jpg'};}
@@ -1590,6 +1595,7 @@ function showPanel(which, trigger) {
   const refs=document.createElement('p');[['../docs/references/교중미사_통상문_텍스트_초안.md','텍스트 참조'],['../docs/references/교중미사_통상문_텍스트_초안.json','텍스트 데이터']].forEach(([url,name])=>{const a=document.createElement('a');a.href=encodeURI(url);a.target='_blank';a.rel='noopener noreferrer';a.textContent=name;refs.append(a,document.createTextNode(' '));});body.append(refs);
  }
  applyComponentStyles(find('drawer'));if(!find('drawer').open)find('drawer').showModal();
+ const panelContent=find('drawer-body');panelContent.classList.remove('overlay__content--gutter');requestAnimationFrame(()=>{if(!find('drawer').open)return;const scroller=panelContent.parentElement;if(panelContent.getBoundingClientRect().width>scroller.clientWidth+1)panelContent.classList.add('overlay__content--gutter');});
 }
 
 const tutorialKey='missa.reader.symbol-tutorial.v1';
