@@ -30,7 +30,7 @@
     },
     {
       "id": "youth",
-      "label": "중·고등부 미사",
+      "label": "저녁미사",
       "weekdays": [
         0
       ],
@@ -54,5 +54,6 @@
       ],
       "time": "19:30"
     }
-  ]
+  ],
+  "automaticSelection": "nearest-start"
 }

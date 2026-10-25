@@ -7,13 +7,22 @@ const bulletinProvider = {{bulletinProvider}};
 const hymnScheduleCatalog = {{hymnScheduleCatalog}};
 const parishConfig = {{parishConfig}};
 function selectedParishName(){try{return localStorage.getItem('missa.parish.name.v1')?.trim()||parishConfig.name;}catch{return parishConfig.name;}}
+let parishSessionDate=null;
+function automaticParishSession(sessions,date,now=new Date()){
+ const today=[now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');
+ const fallback=sessions.find(session=>session.id===parishConfig.defaultSession)||sessions[0];
+ if(date!==today||parishConfig.automaticSelection!=='nearest-start')return fallback?.id;
+ const minutes=now.getHours()*60+now.getMinutes();
+ return sessions.filter(session=>/^\d{2}:\d{2}$/.test(session.time||'')).map(session=>({id:session.id,start:Number(session.time.slice(0,2))*60+Number(session.time.slice(3))})).sort((a,b)=>Math.abs(a.start-minutes)-Math.abs(b.start-minutes)||b.start-a.start)[0]?.id||fallback?.id;
+}
 function updateParishSessions(){
  const select=find('slot'),previous=select.value,date=find('date').value;
  const weekday=new Date(date+'T12:00:00').getDay();
  const sessions=parishConfig.sessions.filter(session=>session.weekdays===null||session.weekdays.includes(weekday));
  select.replaceChildren();
- sessions.forEach(session=>{const option=document.createElement('option');option.value=session.id;option.textContent=(session.time?session.time+' · ':'')+session.label;select.append(option);});
- if(sessions.some(session=>session.id===previous))select.value=previous;else if(sessions.some(session=>session.id===parishConfig.defaultSession))select.value=parishConfig.defaultSession;
+ sessions.forEach(session=>{const option=document.createElement('option');option.value=session.id;option.textContent=session.label;select.append(option);});
+ if(parishSessionDate!==date)select.value=automaticParishSession(sessions,date)||parishConfig.defaultSession;else if(sessions.some(session=>session.id===previous))select.value=previous;else select.value=automaticParishSession(sessions,date)||parishConfig.defaultSession;
+ parishSessionDate=date;
  if(!sessions.length){const option=document.createElement('option');option.value=parishConfig.defaultSession;option.textContent='선택 날짜 미사 일정 없음';select.append(option);}
  select.disabled=!sessions.length;find('parish-name').textContent=selectedParishName();
 }

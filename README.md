@@ -306,3 +306,6 @@ v78: 본문명조18px기준/1.6/기본여백. 보기설정→본문글꼴에서�
 
 
 본당명은보기설정에서직접입력·저장하며새로고침후유지됩니다.기본값은config/parish.json의name입니다.검사:`node tools/check-parish-name.cjs`.
+
+
+오늘미사초기선택은현재시각과가장가까운회차이며필터는미사명만표시합니다.수동선택유지.검사:`node tools/check-auto-session.cjs`.
