@@ -290,3 +290,6 @@ v78: 본문명조18px기준/1.6/기본여백. 보기설정→본문글꼴에서�
 
 
 날짜동작:기본진입·새로고침은오늘(기기시간대),날짜필터변경은시작예식첫페이지.검수용`?date=YYYY-MM-DD`는지정날짜우선.검사:`node tools/check-date-navigation.cjs`.
+
+
+스크롤가용폭검사:`node tools/check-scroll-width.cjs`(Chrome/WebKit).일반·겹침형스크롤바의제목/본문폭대조.

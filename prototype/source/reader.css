@@ -142,6 +142,7 @@
  .reader__fixed-heading { position:static; flex-shrink:0; min-block-size:var(--reader-system-heading-row); margin:0; padding:0; }
  .reader__fixed-heading .reader__item-heading { margin:0; }
  .reader__page-scroll { min-block-size:0; inline-size:calc(100% + var(--reader-system-page-scroll-outset)); margin-inline-end:calc(-1 * var(--reader-system-page-scroll-outset)); padding-inline-end:var(--reader-system-scroll-size); overflow:auto; border-radius:0; flex:1; scrollbar-gutter:stable; }
+ .reader__page-scroll.is-overlay-scrollbar { padding-inline-end:var(--reader-system-page-scroll-outset); }
  .reader__score-source { position:absolute; inset-block-end:var(--reader-system-space-2); inset-inline-end:var(--reader-system-space-2); z-index:var(--reader-system-score-overlay-z); display:block; text-align: end; font-size: var(--reader-score-action-font); margin-block-start: var(--reader-header-gap); }
  .reader__score-enlarge { --button-font-size:var(--reader-system-button-option-size); --button-hit:var(--reader-system-button-option-hit); --button-leading:var(--reader-system-button-line); --button-padding-block:var(--reader-system-space-1); position:absolute; inset-block-start:0; inset-inline-end:0; z-index:var(--reader-system-score-overlay-z); margin:0; flex-shrink:0; }
  .reader__book--continuous { display: block; overflow: auto; }
