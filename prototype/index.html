@@ -1559,12 +1559,19 @@ find('date').onchange = () => {captureReaderScroll();persistReader();collectView
 document.querySelectorAll('[data-panel]').forEach(button => button.onclick = () => showPanel(button.dataset.panel,button));
 find('close').onclick = () => find('drawer').close();
 find('drawer').addEventListener('close', () => { render(); const target = selectedItem && document.getElementById(selectedItem); if(opener?.isConnected)opener.focus({preventScroll:true});else if(target)target.focus({preventScroll:true}); });
-let observedBookSize='';
-if(typeof ResizeObserver!=='undefined')new ResizeObserver(entries=>{
- const rect=entries[0].contentRect;const size=`${Math.round(rect.width)}|${Math.round(rect.height)}`;
- if(size!==observedBookSize){observedBookSize=size;scheduleReflow();}
-}).observe(find('book'));
-window.addEventListener('resize',()=>scheduleReflow());
+let viewportReflowTimer=null;
+function bookSizeKey(){const book=find('book');return `${book.clientWidth}|${book.clientHeight}`;}
+let observedBookSize=bookSizeKey();
+function scheduleViewportReflow(){
+ if(viewportReflowTimer!==null)clearTimeout(viewportReflowTimer);
+ viewportReflowTimer=setTimeout(()=>{
+  viewportReflowTimer=null;const size=bookSizeKey();
+  if(find('book').clientWidth<2||find('book').clientHeight<2||size===observedBookSize)return;
+  observedBookSize=size;scheduleReflow();
+ },150);
+}
+if(typeof ResizeObserver!=='undefined')new ResizeObserver(scheduleViewportReflow).observe(find('book'));
+window.addEventListener('resize',scheduleViewportReflow);
 document.fonts?.ready.then(()=>scheduleReflow());
 find('tutorial-prev').onclick=()=>{tutorialIndex=Math.max(0,tutorialIndex-1);paintTutorial();};
 find('tutorial-next').onclick=nextTutorial;

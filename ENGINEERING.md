@@ -512,3 +512,7 @@ Stage 3 구현 완료. Stage 4 증거 docs/04-verification.md 작성 및 검토 
 
 ## 2026-10-25 PWA 새로고침
 - 보기 설정에서 location.reload,기존컴포넌트재사용.저장소유지.브라우저검사5/통합45 PASS.실기기검수대기.
+
+
+## 2026-10-25 뷰포트 재배치 안정화
+- 동일본문크기resize무시,150ms안정화후재배치.Chrome/WebKit유휴및변경검사통과.iPad증상은실기기재확인필요.

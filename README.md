@@ -284,3 +284,6 @@ v78: 본문명조18px기준/1.6/기본여백. 보기설정→본문글꼴에서�
 ### 홈 화면 앱 새로고침
 보기 설정 → 앱 새로고침.저장한 날짜·성가 편성을 유지하며 페이지를 다시 불러옵니다.
 검사:`node tools/check-pwa-reload.cjs`.캐시 강제삭제나오프라인업데이트기능은아닙니다.
+
+
+화면크기안정화검사:`node tools/check-resize-stability.cjs`(Chrome/WebKit필요).반복resize알림과실제크기변경을구분합니다.
