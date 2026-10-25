@@ -1,0 +1,78 @@
+{
+  "status": "draft",
+  "concept": "neutral reading surfaces with distinct primary/secondary accents",
+  "palettes": [
+    {
+      "id": "linen-wine",
+      "name": "리넨 와인",
+      "bg": "#F1EFE9",
+      "surface": "#FFFCF6",
+      "ink": "#272624",
+      "muted": "#66635D",
+      "accent": "#752F48",
+      "note": "#4D675F",
+      "onAccent": "#FFFCF6",
+      "description": "추천 · 따뜻한 중립 종이 + 버건디 + 절제된 세이지. 현재 MISSA의 정체성을 가장 자연스럽게 발전시킵니다."
+    },
+    {
+      "id": "white-cobalt",
+      "name": "화이트 코발트",
+      "bg": "#F0F1F2",
+      "surface": "#FFFFFF",
+      "ink": "#24272B",
+      "muted": "#626870",
+      "accent": "#2F4FA0",
+      "note": "#805126",
+      "onAccent": "#FFFFFF",
+      "description": "깨끗한 백색 + 명료한 코발트 + 차분한 구리빛 안내. 현대적인 독서 앱에 가까운 인상입니다."
+    },
+    {
+      "id": "stone-olive",
+      "name": "스톤 올리브",
+      "bg": "#EEECE6",
+      "surface": "#FBFAF6",
+      "ink": "#292824",
+      "muted": "#68655E",
+      "accent": "#59622D",
+      "note": "#85503A",
+      "onAccent": "#FBFAF6",
+      "description": "중립 석회색 + 짙은 올리브 + 흙빛 안내. 배경의 녹색 기운을 빼고 전통적인 차분함을 남깁니다."
+    },
+    {
+      "id": "chalk-terra",
+      "name": "초크 테라코타",
+      "bg": "#F0EFEC",
+      "surface": "#FFFEFC",
+      "ink": "#2B2826",
+      "muted": "#6C645F",
+      "accent": "#A1442D",
+      "note": "#426570",
+      "onAccent": "#FFFEFC",
+      "description": "밝은 초크색 + 구운 흙빛 포인트 + 푸른 회색 안내. 따뜻함과 선명한 조작감을 함께 보여줍니다."
+    },
+    {
+      "id": "charcoal-gold",
+      "name": "차콜 골드",
+      "bg": "#1E1F21",
+      "surface": "#292A2D",
+      "ink": "#EEECE7",
+      "muted": "#BBB9B3",
+      "accent": "#D1B277",
+      "note": "#9FC4BD",
+      "onAccent": "#242424",
+      "description": "추천 · 무채색 차콜 + 무광 황금 + 부드러운 청록 안내. 배경을 와인색으로 물들이지 않은 어두운 독서 테마입니다."
+    },
+    {
+      "id": "night-violet",
+      "name": "나이트 바이올렛",
+      "bg": "#191B20",
+      "surface": "#25282F",
+      "ink": "#F1EFE9",
+      "muted": "#BEC0C7",
+      "accent": "#B9ACF0",
+      "note": "#D5BE8D",
+      "onAccent": "#211D2D",
+      "description": "무채색 야간 바탕 + 밝은 바이올렛 + 샌드색 안내. 종교적 색 의미를 자동 부여하지 않는 차분한 현대적 해석입니다."
+    }
+  ]
+}
