@@ -6,6 +6,7 @@ const majorPrayerCatalog = {{majorPrayerCatalog}};
 const bulletinProvider = {{bulletinProvider}};
 const hymnScheduleCatalog = {{hymnScheduleCatalog}};
 const parishConfig = {{parishConfig}};
+function selectedParishName(){try{return localStorage.getItem('missa.parish.name.v1')?.trim()||parishConfig.name;}catch{return parishConfig.name;}}
 function updateParishSessions(){
  const select=find('slot'),previous=select.value,date=find('date').value;
  const weekday=new Date(date+'T12:00:00').getDay();
@@ -14,7 +15,7 @@ function updateParishSessions(){
  sessions.forEach(session=>{const option=document.createElement('option');option.value=session.id;option.textContent=(session.time?session.time+' · ':'')+session.label;select.append(option);});
  if(sessions.some(session=>session.id===previous))select.value=previous;else if(sessions.some(session=>session.id===parishConfig.defaultSession))select.value=parishConfig.defaultSession;
  if(!sessions.length){const option=document.createElement('option');option.value=parishConfig.defaultSession;option.textContent='선택 날짜 미사 일정 없음';select.append(option);}
- select.disabled=!sessions.length;find('parish-name').textContent=parishConfig.name;
+ select.disabled=!sessions.length;find('parish-name').textContent=selectedParishName();
 }
 
 
@@ -725,6 +726,16 @@ function showPanel(which, trigger) {
  }
  if(which==='menu'){[['hymn','성가'],['prayer','주요 기도문'],['settings','보기 설정'],['info','안내']].forEach(([panel,label])=>{const b=createReaderButton();b.type='button';b.textContent=label;b.onclick=()=>showPanel(panel,trigger);body.append(b);});}
  if (which === 'settings') {
+  const parishForm=document.createElement('form');parishForm.className='reader__field';
+  const parishLabel=document.createElement('label');parishLabel.textContent='본당명';
+  const parishInput=document.createElement('input');parishInput.type='text';parishInput.maxLength=40;parishInput.required=true;parishInput.value=selectedParishName();parishInput.setAttribute('aria-label','본당명');parishLabel.append(parishInput);
+  const parishStatus=document.createElement('p');parishStatus.setAttribute('role','status');
+  const parishSave=createReaderButton('본당명 저장');parishSave.type='submit';
+  const parishReset=createReaderButton('기본 본당명 사용');
+  parishForm.onsubmit=event=>{event.preventDefault();const name=parishInput.value.trim();if(!name){parishStatus.textContent='본당명을 입력해 주세요.';return;}try{localStorage.setItem('missa.parish.name.v1',name);find('parish-name').textContent=name;parishInput.value=name;parishStatus.textContent='본당명을 저장했습니다. 미사 일정은 기존 설정을 유지합니다.';}catch{parishStatus.textContent='저장하지 못했습니다. 브라우저 저장소를 확인해 주세요.';}};
+  parishReset.onclick=()=>{try{localStorage.removeItem('missa.parish.name.v1');parishInput.value=selectedParishName();find('parish-name').textContent=selectedParishName();parishStatus.textContent='설정파일의 기본 본당명으로 되돌렸습니다.';}catch{parishStatus.textContent='기본 본당명으로 되돌리지 못했습니다.';}};
+  parishForm.append(parishLabel,parishSave,parishReset,parishStatus);body.append(parishForm);
+
   text('뷰어 방향 미리보기로 화면을 가로·세로 크기로 바꿔 볼 수 있습니다. 세로 화면이 창보다 높으면 브라우저를 스크롤하세요. 실제 기기의 터치·브라우저 UI까지 재현하지는 않습니다.');
   const orientationGroup=document.createElement('div');orientationGroup.className='reader__row';orientationGroup.setAttribute('role','group');orientationGroup.setAttribute('aria-label','뷰어 방향 미리보기');
   [['landscape','가로 1024 × 768'],['portrait','세로 768 × 1024'],['auto','현재 화면에 맞춤']].forEach(([value,label])=>{const b=createReaderButton();b.type='button';b.textContent=label;b.setAttribute('aria-pressed',String(orientationPreference===value));b.onclick=()=>{find('drawer').close();setViewerOrientation(value);find('part-next').focus({preventScroll:true});};orientationGroup.append(b);});body.append(orientationGroup);

@@ -303,3 +303,6 @@ v78: 본문명조18px기준/1.6/기본여백. 보기설정→본문글꼴에서�
 
 ### 본당 미사 일정
 `config/parish.json`에서본당명·요일·시간·회차를수정한뒤빌드·배포합니다.사용법은config/README.md참조.검사:`node tools/check-parish-config.cjs`.기존회차ID는성가저장호환을위해유지합니다.
+
+
+본당명은보기설정에서직접입력·저장하며새로고침후유지됩니다.기본값은config/parish.json의name입니다.검사:`node tools/check-parish-name.cjs`.
