@@ -514,7 +514,7 @@ function jumpToItem(partIndex, item) {
 let part = 0, spread = 0, opener = null;
 const position = parts.map(() => null);
 const titles = {toc:'미사 목차',hymn:'회차별 성가',prayer:'주요 기도문',menu:'메뉴',settings:'보기 설정',info:'안내 · 프로토타입'};
-function context() { updateParishSessions();updateLiturgicalHeading();updateContentReadiness();find('context').textContent = `${selectedSlotName()} · 날짜별 공통 미사 문서 · 통상문 경본 대조 1차 완료 · 날짜별 자료 상태는 아래 표시 · Hi-fi 프로토타입 v1`; }
+function context() { updateParishSessions();updateLiturgicalHeading();updateContentReadiness(); }
 function renderToc() {
  const visibleIds=viewerOrientation==='portrait'?new Set([selectedItem]):new Set(layouts.slice(spread*2,spread*2+2).flatMap(page=>page.blocks.map(block=>block.tocId)));const nav=find('toc-rail');const rail=nav.parentElement;const previousScroll=rail.scrollTop;let activeLink=null;nav.replaceChildren();
  parts.forEach((item,partIndex)=>{
@@ -719,9 +719,6 @@ function setViewerOrientation(value){
  if(!['auto','portrait','landscape'].includes(value))return;
  captureReaderScroll();persistReader();orientationPreference=value;viewerOrientation=value==='auto'?(window.innerHeight>window.innerWidth?'portrait':'landscape'):value;find('reader').setAttribute('data-orientation',viewerOrientation);
  updateParishSessions();Array.from(find('mode').options).forEach(option=>{option.textContent=viewerOrientation==='portrait'?(option.value==='beginner'?'예비':'일반'):(option.value==='beginner'?'예비신자':'일반 신자');});
- find('viewport-status').textContent=value==='auto'?'':'뷰어 미리보기 · '+(value==='portrait'?'세로 768 × 1024':'가로 1024 × 768')+' · 좁은 창에서는 너비 축소';
- find('viewport-rotate').hidden=value==='auto';find('viewport-reset').hidden=value==='auto';
- find('viewport-rotate').textContent=value==='portrait'?'가로로 전환':'세로로 전환';
  if(typeof requestAnimationFrame==='function')scheduleReflow(currentAnchor);
 }
 
@@ -782,8 +779,6 @@ function nextTutorial(){if(tutorialIndex===tutorialSteps.length-1)finishTutorial
 
 find('toc-toggle').onclick=function(){const workspace=find('book').closest('.reader__workspace');const collapsed=workspace.classList.toggle('is-toc-collapsed');this.setAttribute('aria-expanded',String(!collapsed));this.setAttribute('aria-label',collapsed?'목차 펼치기':'목차 접기');this.title=collapsed?'목차 펼치기':'목차 접기';const path=this.querySelector('path');path.setAttribute('d',collapsed?'M15 4v16m-4-12-3 4 3 4':'M15 4v16m-5-12 3 4-3 4');scheduleReflow(currentAnchor);};
 find('header-menu').onclick=event=>showPanel('menu',event.currentTarget);
-find('viewport-rotate').onclick=()=>setViewerOrientation(viewerOrientation==='portrait'?'landscape':'portrait');
-find('viewport-reset').onclick=()=>{setViewerOrientation('auto');find('part-next').focus({preventScroll:true});};
 bindPageSwipe(find('book'));
 find('part-prev').onclick = () => go(Math.max(0,part-1));
 find('part-next').onclick = () => go(Math.min(parts.length-1,part+1));
