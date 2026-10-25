@@ -174,7 +174,9 @@
   --reader-reading-note-size: var(--ui-reading-note-size);
   --reader-header-gap: var(--reader-system-space-2);
   --reader-header-compact-size: var(--ui-header-compact-size);
-  --reader-brand-size: var(--ui-brand-size);
+  --foundation-logo-font-size: 2rem;
+  --ui-logo-font-size: var(--foundation-logo-font-size);
+  --reader-brand-size: var(--ui-logo-font-size);
   --reader-preview-portrait-width: var(--ui-preview-portrait-width);
   --reader-preview-portrait-height: var(--ui-preview-portrait-height);
   --reader-preview-landscape-width: var(--ui-preview-landscape-width);

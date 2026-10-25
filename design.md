@@ -563,3 +563,8 @@ Flutter·SQLite·JSON은 권장 아키텍처이며 현재 구현된 앱 스택�
 ## 2026-10-25 기기 방향·버튼 확정 변경
 - 기본자동기기방향,수동가로/세로선택유지.세로도전체뷰포트100dvh사용.기존고정검수크기정책대체.
 - 메뉴SVG는reader-system-space-6(24px),버튼action-hit(44px).목차main-hit(40px),justify-self:end.기존토큰재사용,새기초값없음.
+
+
+## 2026-10-25 MISSA 로고 폰트 크기
+- 사용자요청으로로고를일반제목에서분리.전용크기2rem(32px).기초foundation-logo-font-size→의미ui-logo-font-size→컴포넌트reader-brand-size의3계층.
+- 공통제목규칙보다뒤에서로고크기적용.색·글꼴·굵기유지.브랜드식별성을위해본문·섹션제목보다크게설정.
