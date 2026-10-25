@@ -17,3 +17,6 @@
 
 
 `automaticSelection: nearest-start`는오늘날짜초기선택시현재기기시각과가장가까운시작시간의미사를고릅니다.동률은이후시각.오늘아닌날은defaultSession또는첫회차.같은날짜의수동선택유지.시간은필터에표시하지않고계산에만사용합니다.
+
+
+sessions.shortLabel은세로필터축약명입니다.가로에서는label을사용하고,값이없으면세로도label로표시합니다.

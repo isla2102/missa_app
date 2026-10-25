@@ -20,7 +20,7 @@ function updateParishSessions(){
  const weekday=new Date(date+'T12:00:00').getDay();
  const sessions=parishConfig.sessions.filter(session=>session.weekdays===null||session.weekdays.includes(weekday));
  select.replaceChildren();
- sessions.forEach(session=>{const option=document.createElement('option');option.value=session.id;option.textContent=session.label;select.append(option);});
+ sessions.forEach(session=>{const option=document.createElement('option');option.value=session.id;option.textContent=viewerOrientation==='portrait'?(session.shortLabel||session.label):session.label;select.append(option);});
  if(parishSessionDate!==date)select.value=automaticParishSession(sessions,date)||parishConfig.defaultSession;else if(sessions.some(session=>session.id===previous))select.value=previous;else select.value=automaticParishSession(sessions,date)||parishConfig.defaultSession;
  parishSessionDate=date;
  if(!sessions.length){const option=document.createElement('option');option.value=parishConfig.defaultSession;option.textContent='선택 날짜 미사 일정 없음';select.append(option);}
@@ -718,6 +718,7 @@ let viewerOrientation=window.innerHeight>window.innerWidth?'portrait':'landscape
 function setViewerOrientation(value){
  if(!['auto','portrait','landscape'].includes(value))return;
  captureReaderScroll();persistReader();orientationPreference=value;viewerOrientation=value==='auto'?(window.innerHeight>window.innerWidth?'portrait':'landscape'):value;find('reader').setAttribute('data-orientation',viewerOrientation);
+ updateParishSessions();Array.from(find('mode').options).forEach(option=>{option.textContent=viewerOrientation==='portrait'?(option.value==='beginner'?'예비':'일반'):(option.value==='beginner'?'예비신자':'일반 신자');});
  find('viewport-status').textContent=value==='auto'?'':'뷰어 미리보기 · '+(value==='portrait'?'세로 768 × 1024':'가로 1024 × 768')+' · 좁은 창에서는 너비 축소';
  find('viewport-rotate').hidden=value==='auto';find('viewport-reset').hidden=value==='auto';
  find('viewport-rotate').textContent=value==='portrait'?'가로로 전환':'세로로 전환';

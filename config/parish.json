@@ -10,7 +10,8 @@
       "weekdays": [
         6
       ],
-      "time": "18:00"
+      "time": "18:00",
+      "shortLabel": "저녁"
     },
     {
       "id": "dawn",
@@ -18,7 +19,8 @@
       "weekdays": [
         0
       ],
-      "time": "06:30"
+      "time": "06:30",
+      "shortLabel": "새벽"
     },
     {
       "id": "main",
@@ -26,7 +28,8 @@
       "weekdays": [
         0
       ],
-      "time": "10:30"
+      "time": "10:30",
+      "shortLabel": "교중"
     },
     {
       "id": "youth",
@@ -34,7 +37,8 @@
       "weekdays": [
         0
       ],
-      "time": "18:00"
+      "time": "18:00",
+      "shortLabel": "저녁"
     },
     {
       "id": "weekday-morning",
@@ -43,7 +47,8 @@
         3,
         5
       ],
-      "time": "10:00"
+      "time": "10:00",
+      "shortLabel": "평일"
     },
     {
       "id": "weekday-evening",
@@ -52,7 +57,8 @@
         2,
         4
       ],
-      "time": "19:30"
+      "time": "19:30",
+      "shortLabel": "평일"
     }
   ],
   "automaticSelection": "nearest-start"
