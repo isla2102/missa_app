@@ -5,9 +5,11 @@
   --foundation-dialog-drawer: 28rem;
   --foundation-dialog-score: 90rem;
   --foundation-dialog-height: 90dvh;
-  --foundation-tutorial-height: 45dvh;
+  --foundation-tutorial-height: 30dvh;
   --ui-tutorial-height: var(--foundation-tutorial-height);
   --overlay-tutorial-height: var(--ui-tutorial-height);
+  --ui-tutorial-gap: var(--foundation-reader-system-space-6);
+  --overlay-tutorial-gap: var(--ui-tutorial-gap);
   --foundation-overlay-shade: 30%;
   --action-surface: var(--ui-theme-surface);
   --action-ink: var(--ui-theme-accent);

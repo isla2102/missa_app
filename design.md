@@ -612,3 +612,7 @@ Flutter·SQLite·JSON은 권장 아키텍처이며 현재 구현된 앱 스택�
 ## 2026-10-25 iPad 튜토리얼 절반 높이 요청
 - 사용자재요청:기존iPad높이의절반.튜토리얼전용45dvh명시(공통90dvh의절반).기초foundation-tutorial-height→ui-tutorial-height→overlay-tutorial-height.
 - 이전fit-content정책대체.본문minmax(0,1fr)스크롤,제목/버튼행유지.다른모달높이불변.
+
+
+## 2026-10-25 튜토리얼30% 및 읽기 간격
+- 사용자확정변경:높이30dvh(45대체).제목/본문/버튼간격24px:기존foundation-reader-system-space-6→ui-tutorial-gap→overlay-tutorial-gap.기존8px사용이지만설명모달맥락에좁아전용의미토큰으로정규화.
