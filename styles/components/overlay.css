@@ -8,7 +8,7 @@
  .overlay__title {margin:0;font-size:var(--reader-system-type-section);line-height:var(--reader-system-leading-heading);}
  .overlay__header {display:flex;justify-content:space-between;align-items:center;gap:var(--reader-gap);}
  .overlay__body {overflow:auto;min-block-size:0;display:grid;align-content:start;gap:var(--reader-gap);}
- .overlay--drawer {width:min(var(--overlay-drawer-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);margin-inline-start:auto;margin-inline-end:0;}
+ .overlay--drawer {width:min(var(--overlay-panel-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);margin-inline-start:auto;margin-inline-end:0;}
  .overlay--score {width:min(var(--overlay-score-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);}
  .overlay__field {display:grid;gap:var(--reader-header-control-padding);}
  .overlay::backdrop {background:var(--overlay-backdrop);}

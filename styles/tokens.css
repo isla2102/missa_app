@@ -15,6 +15,9 @@
 
   --foundation-dialog-guide: 32rem;
   --foundation-dialog-drawer: 28rem;
+  --foundation-panel-width: 22.5rem;
+  --ui-panel-width: var(--foundation-panel-width);
+  --overlay-panel-width: var(--ui-panel-width);
   --foundation-dialog-score: 90rem;
   --foundation-dialog-height: 90dvh;
   --foundation-tutorial-height: 30dvh;

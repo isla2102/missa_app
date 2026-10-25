@@ -622,3 +622,7 @@ Flutter·SQLite·JSON은 권장 아키텍처이며 현재 구현된 앱 스택�
 - 사용자튜토리얼30%/24px현재안좋다고승인.
 - 도움말버튼32px정원(option-hit),radius999px전용3계층토큰,면#171C18/글자#EEE2D8,테두리0.
 - 설명은overlay--nested:부모32rem보다좁은기존28rem폭,내용높이,60%어두운배경토큰.네이티브dialogtop-layer로부모유지,닫으면부모버튼포커스복귀.
+
+
+## 2026-10-25 주요 패널360px
+- 사용자승인:성가/주요기도문/보기설정/안내448→360px(22.5rem).foundation-panel-width→ui-panel-width→overlay-panel-width추가.전례설명중첩창28rem유지.
