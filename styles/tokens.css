@@ -1,6 +1,19 @@
 @layer tokens, base, layout, components, responsive, utilities;
 @layer tokens {
  :root {
+  --ui-modal-padding: var(--foundation-reader-system-space-6);
+  --ui-modal-gap: var(--foundation-reader-system-space-6);
+  --ui-modal-title: var(--foundation-reader-system-type-section);
+  --ui-modal-body: var(--foundation-reader-system-type-ui);
+  --ui-modal-note: var(--foundation-reader-system-type-note);
+  --ui-modal-control: var(--foundation-reader-system-button-main-hit);
+  --overlay-padding: var(--ui-modal-padding);
+  --overlay-gap: var(--ui-modal-gap);
+  --overlay-title-size: var(--ui-modal-title);
+  --overlay-body-size: var(--ui-modal-body);
+  --overlay-note-size: var(--ui-modal-note);
+  --overlay-control-height: var(--ui-modal-control);
+
   --foundation-radius-circle: 999px;
   --foundation-help-on-dark: #EEE2D8;
   --ui-help-radius: var(--foundation-radius-circle);

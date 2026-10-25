@@ -140,6 +140,9 @@
     },
     "parishConfig": {
       "path": "config/parish.json"
+    },
+    "prayerTexts": {
+      "path": "data/reference-sources/prayer-texts.json"
     }
   },
   "modules": {

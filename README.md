@@ -318,3 +318,6 @@ MVP리더는자료상태·개발정보패널을표시하지않습니다.자료�
 
 
 MVP성가패널은백업·복원/참고표상세를표시하지않고,저장편성또는성가표추천번호를입력란에채웁니다.성가표출처유지.검사:`node tools/check-mvp-hymn-panel.cjs`, `node tools/check-panel-width.cjs`.
+
+
+모달공통규칙은styles/tokens.css와styles/components/overlay.css에서관리합니다.주요기도문전용본문은data/reference-sources/prayer-texts.json(원문지시제외파생데이터).검사:`node tools/check-modal-library.cjs`.성가패널하단에서본당재조판악보를펼쳐봅니다.

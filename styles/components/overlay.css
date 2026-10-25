@@ -1,10 +1,18 @@
 @layer components {
 
- .overlay {width:min(var(--overlay-guide-width),calc(100% - var(--reader-gap)));max-height:var(--overlay-max-height);padding:var(--reader-padding);}
- .overlay[open] {display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);gap:var(--reader-gap);}
+ .overlay {width:min(var(--overlay-guide-width),calc(100% - var(--reader-gap)));max-height:var(--overlay-max-height);padding:var(--overlay-padding);font-size:var(--overlay-body-size);line-height:var(--reader-system-leading-body);--button-hit:var(--overlay-control-height);--button-font-size:var(--overlay-note-size);--button-padding-block:var(--reader-system-space-2);--input-hit:var(--overlay-control-height);--input-padding-block:var(--reader-system-space-2);--input-leading:var(--reader-system-button-line);}
+ .overlay[open] {display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);gap:var(--overlay-gap);}
  .overlay--tutorial[open] {height:var(--overlay-tutorial-height);max-height:var(--overlay-tutorial-height);min-height:0;grid-template-rows:auto minmax(0,1fr) auto;gap:var(--overlay-tutorial-gap);}
  .overlay--nested[open] {width:min(var(--overlay-drawer-width),calc(100% - var(--reader-gap)));height:fit-content;grid-template-rows:auto minmax(0,1fr);}
  .overlay--nested::backdrop {background:var(--overlay-nested-backdrop);}
+ .overlay h2 {margin:0;font-size:var(--overlay-title-size);line-height:var(--reader-system-leading-heading);font-weight:var(--reader-system-weight-heading);}
+ .overlay h3 {margin:0;font-size:var(--reader-system-type-ui);line-height:var(--reader-system-leading-heading);}
+ .overlay p {margin:0;}
+ .overlay label {display:grid;gap:var(--reader-system-space-2);font-size:var(--overlay-note-size);}
+ .overlay input, .overlay select {font-size:var(--overlay-body-size);}
+ .overlay [role="status"]:empty {display:none;}
+ .overlay .reader__field {margin:0;gap:var(--reader-system-space-2);}
+ .overlay__header button {flex-shrink:0;}
  .overlay__title {margin:0;font-size:var(--reader-system-type-section);line-height:var(--reader-system-leading-heading);}
  .overlay__header {min-inline-size:0;display:flex;justify-content:space-between;align-items:center;gap:var(--reader-gap);}
  .overlay__body {overflow:auto;min-block-size:0;min-inline-size:0;display:grid;grid-template-columns:minmax(0,1fr);align-content:start;gap:var(--reader-gap);overflow-wrap:anywhere;}
@@ -15,6 +23,12 @@
  .overlay button {white-space:normal;}
  .overlay--drawer {width:min(var(--overlay-panel-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);margin-inline-start:auto;margin-inline-end:0;}
  .overlay--score {width:min(var(--overlay-score-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);}
+ .overlay__prayer-text {white-space:pre-line;}
+ .overlay__section {display:grid;gap:var(--reader-system-space-4);min-inline-size:0;}
+ .overlay__section[hidden] {display:none;}
+ .overlay__choices {display:flex;flex-wrap:wrap;gap:var(--reader-system-space-2);}
+ .overlay__disclosure {min-inline-size:0;}
+ .overlay__disclosure summary {cursor:pointer;font-size:var(--overlay-note-size);padding-block:var(--reader-system-space-2);}
  .overlay__field {display:grid;gap:var(--reader-header-control-padding);}
  .overlay::backdrop {background:var(--overlay-backdrop);}
  .overlay__image {display:block;width:100%;height:auto;background:var(--reader-score-paper);}

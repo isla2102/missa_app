@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "scope": "existing local missal text; rubrics and speaker markers excluded; no new wording",
+  "items": [
+    {
+      "id": "prayer-1",
+      "title": "성호경",
+      "text": "성부와 성자와 성령의 이름으로.\n아멘.",
+      "status": "available",
+      "sourceKey": "성호경",
+      "sourcePath": "data/reference-sources/missal-ordinary.json"
+    },
+    {
+      "id": "prayer-2",
+      "title": "주님의 기도",
+      "text": "하늘에 계신 우리 아버지,\n아버지의 이름이 거룩히 빛나시며\n아버지의 나라가 오시며\n아버지의 뜻이 하늘에서와 같이\n땅에서도 이루어지소서!\n오늘 저희에게 일용할 양식을 주시고\n저희에게 잘못한 이를 저희가 용서하오니\n저희 죄를 용서하시고\n저희를 유혹에 빠지지 않게 하시고\n악에서 구하소서.",
+      "status": "available",
+      "sourceKey": "주님의 기도",
+      "sourcePath": "data/reference-sources/missal-ordinary.json"
+    },
+    {
+      "id": "prayer-3",
+      "title": "성모송",
+      "text": "",
+      "status": "missing",
+      "sourceKey": "성모송",
+      "sourcePath": "data/reference-sources/missal-ordinary.json"
+    },
+    {
+      "id": "prayer-4",
+      "title": "영광송",
+      "text": "",
+      "status": "missing",
+      "sourceKey": "영광송",
+      "sourcePath": "data/reference-sources/missal-ordinary.json"
+    },
+    {
+      "id": "prayer-5",
+      "title": "사도 신경",
+      "text": "전능하신 천주 성부\n천지의 창조주를 저는 믿나이다.\n그 외아들 우리 주 예수 그리스도님\n성령으로 인하여 동정 마리아께 잉태되어 나시고\n본시오 빌라도 통치 아래서 고난을 받으시고\n십자가에 못 박혀 돌아가시고 묻히셨으며\n저승에 가시어 사흗날에 죽은 이들 가운데서 부활하시고\n하늘에 올라 전능하신 천주 성부 오른편에 앉으시며\n그리로부터 산 이와 죽은 이를 심판하러 오시리라 믿나이다.\n성령을 믿으며\n거룩하고 보편된 교회와 모든 성인의 통공을 믿으며\n죄의 용서와 육신의 부활을 믿으며\n영원한 삶을 믿나이다.\n아멘.",
+      "status": "available",
+      "sourceKey": "신앙 고백",
+      "sourcePath": "data/reference-sources/missal-ordinary.json"
+    },
+    {
+      "id": "prayer-6",
+      "title": "니케아 신경",
+      "text": "한 분이신 하느님을\n저는 믿나이다.\n전능하신 아버지, 하늘과 땅과 유형무형한 만물의 창조주를 믿나이다.\n또한 한 분이신 주 예수 그리스도, 하느님의 외아들\n영원으로부터 성부에게서 나신 분을 믿나이다.\n하느님에게서 나신 하느님, 빛에서 나신 빛\n참하느님에게서 나신 참하느님으로서, 창조되지 않고 나시어\n성부와 한 본체로서 만물을 창조하셨음을 믿나이다.\n성자께서는 저희 인간을 위하여, 저희 구원을 위하여\n하늘에서 내려오셨음을 믿나이다.\n또한 성령으로 인하여 동정 마리아에게서 육신을 취하시어\n사람이 되셨음을 믿나이다.\n본시오 빌라도 통치 아래서 저희를 위하여\n십자가에 못 박혀 수난하고 묻히셨으며\n성서 말씀대로 사흗날에 부활하시어\n하늘에 올라 성부 오른편에 앉아 계심을 믿나이다.\n그분께서는 산 이와 죽은 이를 심판하러 영광 속에 다시 오시리니\n그분의 나라는 끝이 없으리이다.\n또한 주님이시며 생명을 주시는 성령을 믿나이다.\n성령께서는 성부와 성자에게서 발하시고\n성부와 성자와 더불어 영광과 흠숭을 받으시며\n예언자들을 통하여 말씀하셨나이다.\n하나이고 거룩하고 보편되며 사도로부터 이어 오는 교회를 믿나이다.\n죄를 씻는 유일한 세례를 믿으며\n죽은 이들의 부활과 내세의 삶을 기다리나이다. 아멘.",
+      "status": "available",
+      "sourceKey": "신앙 고백",
+      "sourcePath": "data/reference-sources/missal-ordinary.json"
+    },
+    {
+      "id": "prayer-7",
+      "title": "자비송",
+      "text": "주님, 자비를 베푸소서.\n주님, 자비를 베푸소서.\n그리스도님, 자비를 베푸소서.\n그리스도님, 자비를 베푸소서.\n주님, 자비를 베푸소서.\n주님, 자비를 베푸소서.",
+      "status": "available",
+      "sourceKey": "자비송",
+      "sourcePath": "data/reference-sources/missal-ordinary.json"
+    },
+    {
+      "id": "prayer-8",
+      "title": "대영광송",
+      "text": "하늘 높은 데서는 하느님께 영광.\n땅에서는 주님께서 사랑하시는 사람들에게 평화.\n주 하느님, 하늘의 임금님\n전능하신 아버지 하느님\n주님을 기리나이다, 찬미하나이다.\n주님을 흠숭하나이다, 찬양하나이다.\n주님 영광 크시오니 감사하나이다.\n외아들 주 예수 그리스도님\n주 하느님, 성부의 아드님\n하느님의 어린양\n세상의 죄를 없애시는 주님, 저희에게 자비를 베푸소서.\n세상의 죄를 없애시는 주님, 저희의 기도를 들어주소서.\n성부 오른편에 앉아 계신 주님, 저희에게 자비를 베푸소서.\n홀로 거룩하시고, 홀로 주님이시며, 홀로 높으신 예수 그리스도님\n성령과 함께 아버지 하느님의 영광 안에 계시나이다. 아멘.",
+      "status": "available",
+      "sourceKey": "대영광송",
+      "sourcePath": "data/reference-sources/missal-ordinary.json"
+    },
+    {
+      "id": "prayer-9",
+      "title": "거룩하시도다",
+      "text": "거룩하시도다! 거룩하시도다! 거룩하시도다!\n온 누리의 주 하느님!\n하늘과 땅에 가득 찬 그 영광!\n높은 데서 호산나!\n주님의 이름으로 오시는 분, 찬미받으소서.\n높은 데서 호산나!",
+      "status": "available",
+      "sourceKey": "거룩하시도다",
+      "sourcePath": "data/reference-sources/missal-ordinary.json"
+    },
+    {
+      "id": "prayer-10",
+      "title": "하느님의 어린양",
+      "text": "하느님의 어린양, 세상의 죄를 없애시는 주님,\n자비를 베푸소서.\n하느님의 어린양, 세상의 죄를 없애시는 주님,\n자비를 베푸소서.\n하느님의 어린양, 세상의 죄를 없애시는 주님,\n평화를 주소서.",
+      "status": "available",
+      "sourceKey": "하느님의 어린양",
+      "sourcePath": "data/reference-sources/missal-ordinary.json"
+    }
+  ]
+}

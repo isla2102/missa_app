@@ -3,6 +3,7 @@ function createReaderButton(label='',variant='default'){const button=document.cr
 const localStorage=(()=>{const native=window.localStorage,key='missa.prototype.v1.snapshot';let data={};try{const raw=native.getItem(key);if(raw){const parsed=JSON.parse(raw);if(parsed&&typeof parsed==='object'&&!Array.isArray(parsed))data=parsed;}else{for(let i=0;i<native.length;i++){const k=native.key(i);if(k?.startsWith('missa.')&&!k.startsWith('missa.prototype.'))data[k]=native.getItem(k);}}}catch{}const save=()=>native.setItem(key,JSON.stringify(data));return {get length(){return Object.keys(data).length;},key:i=>Object.keys(data)[i]??null,getItem:k=>Object.hasOwn(data,k)?String(data[k]):null,setItem(k,v){const previous=data[k],had=Object.hasOwn(data,k);data[k]=String(v);try{save();}catch(e){if(had)data[k]=previous;else delete data[k];throw e;}},removeItem(k){const previous=data[k],had=Object.hasOwn(data,k);delete data[k];try{save();}catch(e){if(had)data[k]=previous;throw e;}},clear(){const previous=data;data={};try{save();}catch(e){data=previous;throw e;}}};})();
 function applyComponentStyles(root){root.querySelectorAll('button').forEach(b=>{b.classList.add('missa-button');if(b.hasAttribute('aria-pressed')&&!b.hasAttribute('aria-label'))b.setAttribute('aria-label',b.textContent);});root.querySelectorAll('input, select').forEach(n=>n.classList.add('missa-input'));}
 const majorPrayerCatalog = {{majorPrayerCatalog}};
+const prayerTexts = {{prayerTexts}};
 const bulletinProvider = {{bulletinProvider}};
 const hymnScheduleCatalog = {{hymnScheduleCatalog}};
 const parishConfig = {{parishConfig}};
@@ -445,7 +446,6 @@ function appendHymnEditor(body){
  const commit=value=>{try{const previous=currentHymns();if(hymnRoles.every(role=>JSON.stringify(previous[role])===JSON.stringify(value[role]))){status.textContent='현재 편성과 같습니다.';return true;}saveCurrentHymns(value);undo=previous;for(const role of hymnRoles)inputs[role].value=value[role].join(', ');undoButton.hidden=false;status.textContent='저장했습니다.';scheduleReflow(currentAnchor);return true;}catch{status.textContent='저장하지 못했습니다. 브라우저 저장소 설정을 확인해 주세요.';return false;}};
  form.onsubmit=event=>{event.preventDefault();try{const value={};for(const role of hymnRoles)value[role]=parseHymnNumbers(inputs[role].value);commit(value);}catch(error){status.textContent=error.message;}};
  undoButton.onclick=()=>{if(undo&&commit(undo)){undo=null;undoButton.hidden=true;status.textContent='이전 편성으로 복원했습니다.';}};
- const legacyButton=createReaderButton();legacyButton.type='button';legacyButton.textContent='구버전 번호 가져오기 검토';body.append(legacyButton);legacyButton.onclick=()=>{try{const legacy=readLegacyHymnNumbers(localStorage,find('date').value,find('slot').value);if(!legacy){status.textContent='현재 날짜·회차의 구버전 내 본당 편성이 없습니다. 다른 파일·브라우저의 저장소는 여기서 읽을 수 없습니다.';return;}const box=document.createElement('div'),note=document.createElement('p');note.textContent='번호만 가져옵니다. 구버전 제목·가사·메모·URL은 원래 저장소에 유지되며, 새 번호 백업에는 포함되지 않습니다.';box.append(note);for(const [title,role] of Object.entries(hymnTitles)){const line=document.createElement('p');line.textContent=title+' · '+(currentHymns()[role].join(', ')||'미등록')+' → '+(legacy[role].join(', ')||'미등록');box.append(line);}const apply=createReaderButton();apply.type='button';apply.textContent='구버전 번호 적용';apply.onclick=()=>{if(commit(legacy))box.remove();};const cancel=createReaderButton();cancel.type='button';cancel.textContent='가져오기 취소';cancel.onclick=()=>box.remove();box.append(apply,cancel);body.append(box);}catch(error){status.textContent='가져오지 못했습니다 · '+error.message;}};
  body.append(externalSourceLink(hymnScheduleCatalog.sourceUrl,'성가표 출처'));
 }
 function hymnAssignmentKey(title){return find('date').value+'|'+find('slot').value+'|'+title;}
@@ -722,15 +722,25 @@ function setViewerOrientation(value){
  if(typeof requestAnimationFrame==='function')scheduleReflow(currentAnchor);
 }
 
+
+function fitPanelContent(){const content=find('drawer-body');if(!find('drawer').open)return;const scroller=content.parentElement;if(content.getBoundingClientRect().width>scroller.clientWidth+1)content.classList.add('overlay__content--gutter');}
+function appendPrayerLibrary(body){
+ const choices=document.createElement('div');choices.className='overlay__choices';choices.setAttribute('role','group');choices.setAttribute('aria-label','기도문 선택');
+ const panel=document.createElement('section');panel.className='overlay__section';panel.id='prayer-library-text';panel.hidden=true;
+ const heading=document.createElement('h3'),text=document.createElement('p');text.className='overlay__prayer-text';panel.append(heading,text);
+ prayerTexts.items.forEach(item=>{const button=createReaderButton(item.title+(item.status==='missing'?' · 준비 중':''));button.disabled=item.status==='missing';button.setAttribute('aria-expanded','false');button.setAttribute('aria-controls',panel.id);button.onclick=()=>{const expanded=button.getAttribute('aria-expanded')==='true';choices.querySelectorAll('button').forEach(b=>b.setAttribute('aria-expanded','false'));panel.hidden=expanded;if(!expanded){button.setAttribute('aria-expanded','true');heading.textContent=item.title;text.textContent=item.text;}requestAnimationFrame(fitPanelContent);};choices.append(button);});
+ const sources=document.createElement('details');sources.className='overlay__disclosure';const summary=document.createElement('summary');summary.textContent='출처 · 굿뉴스 주요기도문';sources.append(summary);appendMajorPrayerSources(sources);body.append(choices,panel,sources);
+}
+function appendParishScoreLibrary(body){
+ const section=document.createElement('section');section.className='overlay__section';const heading=document.createElement('h3');heading.textContent='본당 성가 · 악보';section.append(heading);
+ Object.entries(reengravedPrincipalScores).forEach(([title,assets])=>{if(!assets.length)return;const details=document.createElement('details');details.className='overlay__disclosure';const summary=document.createElement('summary');summary.textContent=title;details.append(summary);let loaded=false;details.ontoggle=()=>{if(details.open&&!loaded){loaded=true;assets.forEach(asset=>details.append(renderPhoto(asset)));}requestAnimationFrame(fitPanelContent);};section.append(details);});body.append(section);
+}
+
 function showPanel(which, trigger) {
  opener = trigger; const body = find('drawer-body'); body.replaceChildren(); find('drawer-title').textContent = titles[which];
  const text = value => { const p = document.createElement('p'); p.textContent = value; body.append(p); };
- if (which === 'hymn') { appendHymnEditor(body); }
- if (which === 'prayer') {
-  appendMajorPrayerSources(body);
-  text('기도문 본문과 본당별 기도문 성가·악보를 카드에 표시합니다. 교중미사 사진 악보를 임시로 배치했습니다. 본문은 사용자 인쇄물의 판독 초안이며 공식 원문 대조 전입니다.');
-  ['성호경','자비송','대영광송','거룩하시도다','신앙의 신비여','아멘','주님의 기도','주님의 기도 맺음 환호','하느님의 어린양','성모송','영광송'].forEach(title=>body.append(renderPrayerFrame(title,title,title!=='성호경')));
- }
+ if (which === 'hymn') { const heading=document.createElement('h3');heading.textContent='회차별 성가';body.append(heading);appendHymnEditor(body);appendParishScoreLibrary(body); }
+ if (which === 'prayer') { appendPrayerLibrary(body); }
  if(which==='menu'){[['hymn','성가'],['prayer','주요 기도문'],['settings','보기 설정'],['info','안내']].forEach(([panel,label])=>{const b=createReaderButton();b.type='button';b.textContent=label;b.onclick=()=>showPanel(panel,trigger);body.append(b);});}
  if (which === 'settings') {
   const parishForm=document.createElement('form');parishForm.className='reader__field';
