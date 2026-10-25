@@ -1162,3 +1162,17 @@
   - 메타태그 적용: `shell.html` 및 `prototype/index.html`에 `apple-touch-icon`, `apple-mobile-web-app-title` ("매일미사"), `apple-mobile-web-app-capable`, `black-translucent` 상태바 적용.
   - 로컬 서빙 데몬: `tools/serve-mvp.cjs` 백그라운드 구동 완료 (`http://192.168.45.49:3000/prototype/index.html`).
 - 상태: 실기기(iPad) Safari 홈 화면 추가 및 전체화면 테스트 준비 완료.
+
+## 2026-10-25 원본 리소스 폴더 구조화 및 Git 배포 저장소 정리
+- 승인/요청: 사용자 "원본 리소스들은 폴더구조에 맞게 정리를 해줘", Git 저장소 추적 제외 요청.
+- 원본 리소스 구조화 (`resources/`):
+  - `resources/roman-missal/`: 로마 미사 경본·지침·통상문 PDF/DOCX (12종)
+  - `resources/daily-propers/`: 매일미사 월별 기도문 HWP (2026년 10·11·12월)
+  - `resources/hymn-schedules/`: 월별 성가표 HWP (2026년 10·11월)
+  - `resources/catholic-enc-scores/`: 가톨릭성가 원본 압축파일 (`가톨릭성가(ENC).zip`)
+  - `resources/legacy-v0.2-specs/`: 구버전 기획·명세 원본 문서 (v0.2 명세 및 스키마)
+- Git 및 배포 저장소 최적화:
+  - `.gitignore` 정비: `resources/`, `work/`, `.ai-workspace/`, `*.zip`, `*.hwp`, `*.docx`, `*.pdf` 등록.
+  - Git 인덱스 정리: `git rm --cached`로 원격 추적에서만 제외하고 로컬 원본 파일은 100% 영구 보존.
+  - 커밋 완료: `2b9401a chore: organize raw resources into resources/ and exclude from git tracking`.
+- 다음: 사용자 터미널에서 `git push` 실행 후 GitHub Pages 배포 확인 및 iPad Safari 홈 화면 테스트.
