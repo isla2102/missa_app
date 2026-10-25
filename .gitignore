@@ -8,6 +8,15 @@
 .system_generated/
 scratch/
 
+# Raw Resources & Archives (Not needed for live demo execution)
+resources/
+data/source-library/
+*.zip
+*.tar.gz
+*.hwp
+*.docx
+*.pdf
+
 # Temporary Working Artifacts & Experimental Scripts
 work/
 *.log
@@ -17,10 +26,6 @@ work/
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Large Archives & Binaries (Backups)
-*.zip
-*.tar.gz
 
 # OS Generated Files
 .DS_Store
