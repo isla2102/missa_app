@@ -59,6 +59,8 @@ const { chromium } = require('C:/Users/imsup/.cache/codex-runtimes/codex-primary
     console.log('\n--- [2] 복음 열 정렬 (1·2열 분리) 검증 ---');
     await page.locator('[data-js="part-next"]').click();
     await pause();
+    await page.locator('[data-js="page-next"]').click();
+    await pause();
 
     const gospelItem = page.locator('.reader__item--reading').filter({ hasText: '복음' });
     const isGospelReadingClass = await gospelItem.count() > 0;

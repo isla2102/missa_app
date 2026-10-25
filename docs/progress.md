@@ -1176,3 +1176,17 @@
   - Git 인덱스 정리: `git rm --cached`로 원격 추적에서만 제외하고 로컬 원본 파일은 100% 영구 보존.
   - 커밋 완료: `2b9401a chore: organize raw resources into resources/ and exclude from git tracking`.
 - 다음: 사용자 터미널에서 `git push` 실행 후 GitHub Pages 배포 확인 및 iPad Safari 홈 화면 테스트.
+
+## 2026-10-25 태블릿 상단 상태바 안전영역 및 좌우 여백(24px) 반영
+- 승인/요청: 사용자 "1. 네 (상단 상태바 여백 확보), 2. 100% 아니고 좌우 여백을 적절히 반영은 해야지".
+- 구현:
+  - 상단 상태바 안전영역: `padding-block-start: calc(var(--reader-system-space-4) + env(safe-area-inset-top, 24px));` 적용 (기본 16px 패딩 + iPad 상태바 24px = 총 40px 확보로 시계·배터리와 헤더 겹침 완벽 해소).
+  - 하단 홈 바 안전영역: `padding-block-end: max(var(--reader-system-space-4), env(safe-area-inset-bottom, 0px));` 적용.
+  - 좌우 여백: `padding-inline: max(var(--reader-system-space-6), calc(var(--reader-system-space-4) + env(safe-area-inset-left, 0px)));` 적용 (화면 끝에 붙지 않고 24px / 1.5rem의 단정하고 편안한 여백 유지).
+  - 태블릿 가로 화면 맞춤: PC 검토용 1024px(`64rem`) 고정 박스로 인해 텅 비던 100~300px 마진을 해소하고, `inline-size: 100%; block-size: 100dvh;`로 태블릿 기기 전체 해상도에 맞추어 두 페이지가 꽉 차게 렌더링되도록 개선.
+  - 기본 높이 보장: `html, body { height: 100%; }` 선언 추가로 뷰포트 높이 계산 안정화.
+- 검증:
+  - `tools/check-stage8-integration.cjs`: 45개 검사 항목 100% ALL PASS (0 failures, 0 errors).
+  - `tools/verify-stage8-fixes.cjs`: 복음 12개 행 2열 분리, 전례시기 모달 시스템 정규화, 10·11월 성가 연결 ALL PASS.
+  - `tools/verify-hymn-auto-score.cjs`: 대표일 전환 및 추천 성가 본문 악보 자동 노출 ALL PASS.
+- 다음: Git 커밋 및 사용자 터미널 `git push`로 원격 배포 반영 후 iPad 실기기 새로고침 확인.

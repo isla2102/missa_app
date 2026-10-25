@@ -494,7 +494,7 @@
 @layer base {
 
  * { scrollbar-width:auto; scrollbar-color:auto; box-sizing: border-box; border-color: var(--reader-theme-line); }
- body { font-family: var(--reader-ui-font); margin: 0; color: var(--reader-theme-ink); background: var(--reader-theme-bg); }
+ html, body { height: 100%; } body { font-family: var(--reader-ui-font); margin: 0; color: var(--reader-theme-ink); background: var(--reader-theme-bg); }
  p { margin:0; }
  a { color: var(--reader-theme-accent); }
  dialog { border-color:var(--reader-system-line); border-radius: var(--reader-radius); color: var(--reader-theme-ink); background: var(--reader-system-surface-panel); }
@@ -510,9 +510,9 @@
  .reader__workspace.is-toc-collapsed { grid-template-columns:minmax(0,1fr) var(--reader-system-rail-compact); }
  .reader__workspace.is-toc-collapsed .reader__book { grid-column:1; }
 
- .reader { height: 100dvh; display: grid; grid-template-rows: auto auto minmax(0, 1fr); padding: var(--reader-system-shell-inset); gap: var(--reader-gap); }
+ .reader { height: 100dvh; display: grid; grid-template-rows: auto auto minmax(0, 1fr); padding-block-start: calc(var(--reader-system-space-4) + env(safe-area-inset-top, 24px)); padding-block-end: max(var(--reader-system-space-4), env(safe-area-inset-bottom, 0px)); padding-inline: max(var(--reader-system-space-6), calc(var(--reader-system-space-4) + env(safe-area-inset-left, 0px))); gap: var(--reader-gap); box-sizing: border-box; }
  .reader[data-orientation="portrait"] { inline-size: min(100%, var(--reader-preview-portrait-width)); block-size: var(--reader-preview-portrait-height); margin-inline: auto; }
- .reader[data-orientation="landscape"] { inline-size: min(100%, var(--reader-preview-landscape-width)); block-size: var(--reader-preview-landscape-height); margin-inline: auto; }
+ .reader[data-orientation="landscape"] { inline-size: 100%; block-size: 100dvh; margin-inline: auto; }
  .reader__header, .reader__row, .reader__footer { display: flex; align-items: center; flex-wrap: wrap; gap: var(--reader-gap); }
  .reader__header, .reader__footer { justify-content: space-between; }
  .reader__header--navigation { display:grid; grid-template-columns:auto minmax(0,1fr) auto; align-items:center; gap:var(--reader-system-space-2); overflow-x:auto; }
