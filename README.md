@@ -299,3 +299,7 @@ v78: 본문명조18px기준/1.6/기본여백. 보기설정→본문글꼴에서�
 
 
 세로모드는전체미사를연속스크롤하며하단페이지넘김은숨깁니다.가로는두페이지넘김유지.검사:`node tools/check-portrait-continuous.cjs`.
+
+
+### 본당 미사 일정
+`config/parish.json`에서본당명·요일·시간·회차를수정한뒤빌드·배포합니다.사용법은config/README.md참조.검사:`node tools/check-parish-config.cjs`.기존회차ID는성가저장호환을위해유지합니다.

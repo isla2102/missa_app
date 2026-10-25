@@ -5,6 +5,18 @@ function applyComponentStyles(root){root.querySelectorAll('button').forEach(b=>{
 const majorPrayerCatalog = {{majorPrayerCatalog}};
 const bulletinProvider = {{bulletinProvider}};
 const hymnScheduleCatalog = {{hymnScheduleCatalog}};
+const parishConfig = {{parishConfig}};
+function updateParishSessions(){
+ const select=find('slot'),previous=select.value,date=find('date').value;
+ const weekday=new Date(date+'T12:00:00').getDay();
+ const sessions=parishConfig.sessions.filter(session=>session.weekdays===null||session.weekdays.includes(weekday));
+ select.replaceChildren();
+ sessions.forEach(session=>{const option=document.createElement('option');option.value=session.id;option.textContent=(session.time?session.time+' · ':'')+session.label;select.append(option);});
+ if(sessions.some(session=>session.id===previous))select.value=previous;else if(sessions.some(session=>session.id===parishConfig.defaultSession))select.value=parishConfig.defaultSession;
+ if(!sessions.length){const option=document.createElement('option');option.value=parishConfig.defaultSession;option.textContent='선택 날짜 미사 일정 없음';select.append(option);}
+ select.disabled=!sessions.length;find('parish-name').textContent=parishConfig.name;
+}
+
 
 'use strict';
 const find = name => document.querySelector(`[data-js="${name}"]`);
@@ -492,7 +504,7 @@ function jumpToItem(partIndex, item) {
 let part = 0, spread = 0, opener = null;
 const position = parts.map(() => null);
 const titles = {toc:'미사 목차',hymn:'회차별 성가',prayer:'주요 기도문',menu:'메뉴',settings:'보기 설정',info:'안내 · 프로토타입'};
-function context() { updateLiturgicalHeading();updateContentReadiness();find('context').textContent = `${selectedSlotName()} · 날짜별 공통 미사 문서 · 통상문 경본 대조 1차 완료 · 날짜별 자료 상태는 아래 표시 · Hi-fi 프로토타입 v1`; }
+function context() { updateParishSessions();updateLiturgicalHeading();updateContentReadiness();find('context').textContent = `${selectedSlotName()} · 날짜별 공통 미사 문서 · 통상문 경본 대조 1차 완료 · 날짜별 자료 상태는 아래 표시 · Hi-fi 프로토타입 v1`; }
 function renderToc() {
  const visibleIds=viewerOrientation==='portrait'?new Set([selectedItem]):new Set(layouts.slice(spread*2,spread*2+2).flatMap(page=>page.blocks.map(block=>block.tocId)));const nav=find('toc-rail');const rail=nav.parentElement;const previousScroll=rail.scrollTop;let activeLink=null;nav.replaceChildren();
  parts.forEach((item,partIndex)=>{

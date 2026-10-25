@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "name": "내 본당",
+  "scheduleStatus": "confirmed",
+  "defaultSession": "main",
+  "sessions": [
+    {
+      "id": "saturday",
+      "label": "토요일 저녁미사",
+      "weekdays": [
+        6
+      ],
+      "time": "18:00"
+    },
+    {
+      "id": "dawn",
+      "label": "새벽미사",
+      "weekdays": [
+        0
+      ],
+      "time": "06:30"
+    },
+    {
+      "id": "main",
+      "label": "교중미사",
+      "weekdays": [
+        0
+      ],
+      "time": "10:30"
+    },
+    {
+      "id": "youth",
+      "label": "중·고등부 미사",
+      "weekdays": [
+        0
+      ],
+      "time": "18:00"
+    },
+    {
+      "id": "weekday-morning",
+      "label": "평일미사",
+      "weekdays": [
+        3,
+        5
+      ],
+      "time": "10:00"
+    },
+    {
+      "id": "weekday-evening",
+      "label": "평일미사",
+      "weekdays": [
+        2,
+        4
+      ],
+      "time": "19:30"
+    }
+  ]
+}

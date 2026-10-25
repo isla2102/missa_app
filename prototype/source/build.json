@@ -137,6 +137,9 @@
     "dailyRubrics": {
       "path": "data/reference-sources/daily-rubrics-2026q4.json",
       "array": false
+    },
+    "parishConfig": {
+      "path": "config/parish.json"
     }
   },
   "modules": {
