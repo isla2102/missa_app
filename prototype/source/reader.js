@@ -40,10 +40,10 @@ const parts = [
 const contents = [
  [['입당 성가',0],['성호경',0],['인사',0],['참회 예식',1],['자비송',1],['대영광송',1],['본기도',1]],
  [['제1독서',0],['화답송',0],['제2독서',0],['복음 환호송',1],['복음',1],['강론',2],['신앙 고백',2],['보편 지향 기도',3]],
- [['봉헌 성가',0],['예물 기도',0],['감사기도 제2양식',1],['주님의 기도',2],['평화 예식',2],['영성체 예식 · 영성체 성가',3],['영성체 후 기도',3]],
+ [['봉헌 성가',0],['예물 기도',0],['감사기도 제2양식',1],['주님의 기도',2],['평화 예식',2],['영성체 예식',3],['영성체 후 기도',3]],
  [['공지 사항',0],['강복',0],['파견',1],['파견 성가',1]]
 ].map((items, partIndex) => items.map(([title, page], index) => ({id:`part-${partIndex}-item-${index}`, title, page})));
-const frameSpecs = {"입당 성가": {"kind": "hymn", "source": "hymnSet", "role": "entrance"}, "성호경": {"kind": "prayer", "source": "ordinary", "prayerId": "성호경", "scoreSlot": false}, "인사": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 인사 양식에 따라 참여합니다."}, "참회 예식": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 참회 예식 양식에 따라 참여합니다."}, "자비송": {"kind": "prayer", "source": "ordinary", "condition": "선택한 예식에 따라 적용", "prayerId": "자비송", "scoreSlot": true}, "대영광송": {"kind": "prayer", "source": "ordinary", "condition": "전례일에 따라 포함 여부 결정", "prayerId": "대영광송", "scoreSlot": true}, "본기도": {"kind": "proper", "source": "liturgicalDay"}, "제1독서": {"kind": "proper", "source": "liturgicalDay"}, "화답송": {"kind": "proper", "source": "liturgicalDay"}, "제2독서": {"kind": "proper", "source": "liturgicalDay", "condition": "전례일에 따라 적용"}, "복음 환호송": {"kind": "proper", "source": "liturgicalDay"}, "복음": {"kind": "proper", "source": "liturgicalDay"}, "강론": {"kind": "choice", "source": "celebrant", "guide": "사제 또는 부제의 강론을 듣습니다."}, "신앙 고백": {"kind": "prayer", "source": "celebrant", "guide": "적용되는 전례일에 선택된 신앙 고백 양식으로 참여합니다.", "prayerId": "신앙 고백", "scoreSlot": true}, "보편 지향 기도": {"kind": "choice", "source": "parish", "guide": "본당에서 준비한 기도 지향에 따라 함께 기도합니다."}, "예물 준비 · 봉헌 성가": {"kind": "hymn", "source": "hymnSet", "role": "offertory"}, "예물 기도": {"kind": "proper", "source": "liturgicalDay"}, "감사 기도": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 감사 기도 양식에 따라 참여합니다."}, "주님의 기도": {"kind": "prayer", "source": "ordinary", "prayerId": "주님의 기도", "scoreSlot": true}, "평화 예식": {"kind": "choice", "source": "celebrant", "guide": "사제의 안내에 따라 평화 예식에 참여합니다."}, "영성체 예식 · 영성체 성가": {"kind": "proper", "source": "liturgicalDay", "role": "communion"}, "영성체 후 기도": {"kind": "proper", "source": "liturgicalDay"}, "공지 사항": {"kind": "choice", "source": "parish", "guide": "본당 공지가 있으면 안내를 듣습니다."}, "강복": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 강복 양식에 따라 참여합니다."}, "파견": {"kind": "choice", "source": "celebrant", "guide": "선택된 파견 양식에 따라 응답합니다."}, "파견 성가": {"kind": "hymn", "source": "hymnSet", "role": "recessional"}};
+const frameSpecs = {"입당 성가": {"kind": "hymn", "source": "hymnSet", "role": "entrance"}, "성호경": {"kind": "prayer", "source": "ordinary", "prayerId": "성호경", "scoreSlot": false}, "인사": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 인사 양식에 따라 참여합니다."}, "참회 예식": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 참회 예식 양식에 따라 참여합니다."}, "자비송": {"kind": "prayer", "source": "ordinary", "condition": "선택한 예식에 따라 적용", "prayerId": "자비송", "scoreSlot": true}, "대영광송": {"kind": "prayer", "source": "ordinary", "condition": "전례일에 따라 포함 여부 결정", "prayerId": "대영광송", "scoreSlot": true}, "본기도": {"kind": "proper", "source": "liturgicalDay"}, "제1독서": {"kind": "proper", "source": "liturgicalDay"}, "화답송": {"kind": "proper", "source": "liturgicalDay"}, "제2독서": {"kind": "proper", "source": "liturgicalDay", "condition": "전례일에 따라 적용"}, "복음 환호송": {"kind": "proper", "source": "liturgicalDay"}, "복음": {"kind": "proper", "source": "liturgicalDay"}, "강론": {"kind": "choice", "source": "celebrant", "guide": "사제 또는 부제의 강론을 듣습니다."}, "신앙 고백": {"kind": "prayer", "source": "celebrant", "guide": "적용되는 전례일에 선택된 신앙 고백 양식으로 참여합니다.", "prayerId": "신앙 고백", "scoreSlot": true}, "보편 지향 기도": {"kind": "choice", "source": "parish", "guide": "본당에서 준비한 기도 지향에 따라 함께 기도합니다."}, "예물 준비 · 봉헌 성가": {"kind": "hymn", "source": "hymnSet", "role": "offertory"}, "예물 기도": {"kind": "proper", "source": "liturgicalDay"}, "감사 기도": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 감사 기도 양식에 따라 참여합니다."}, "주님의 기도": {"kind": "prayer", "source": "ordinary", "prayerId": "주님의 기도", "scoreSlot": true}, "평화 예식": {"kind": "choice", "source": "celebrant", "guide": "사제의 안내에 따라 평화 예식에 참여합니다."}, "영성체 예식": {"kind": "proper", "source": "liturgicalDay", "role": "communion"}, "영성체 후 기도": {"kind": "proper", "source": "liturgicalDay"}, "공지 사항": {"kind": "choice", "source": "parish", "guide": "본당 공지가 있으면 안내를 듣습니다."}, "강복": {"kind": "choice", "source": "celebrant", "guide": "사제가 선택한 강복 양식에 따라 참여합니다."}, "파견": {"kind": "choice", "source": "celebrant", "guide": "선택된 파견 양식에 따라 응답합니다."}, "파견 성가": {"kind": "hymn", "source": "hymnSet", "role": "recessional"}};
 contents[2].splice(1,0,{id:'part-2-item-0-preparation',title:'예물 준비 기도',page:0});
 contents[2].splice(contents[2].findIndex(x=>x.id==='part-2-item-5')+1,0,{id:'part-2-item-5-hymn',title:'영성체 성가',page:3});
 frameSpecs['봉헌 성가']={kind:'hymn',source:'hymnSet'};frameSpecs['예물 준비 기도']={kind:'prayer',source:'ordinary'};frameSpecs['감사기도 제2양식']=frameSpecs['감사 기도'];frameSpecs['영성체 성가']={kind:'hymn',source:'hymnSet'};
@@ -307,7 +307,7 @@ function ordinaryText(key, mode='beginner') {
  if(key==='보편 지향 기도 응답')return '◎ 주님, 저희의 기도를 들어주소서.';
  const keys=key==='거룩하시도다 · 신앙의 신비여'?['거룩하시도다','신앙의 신비여']:[key];
  let text=keys.map(name=>localOrdinaryReference.records.find(record=>record.key===name)?.text || '[제공 통상문 자료에 이 본문 없음]').join('\n\n');
- if(key==='영성체 예식 · 영성체 성가')text=text.split('\n').filter(line=>!line.startsWith('[자료에 오늘 영성체송')).join('\n');
+ if(key==='영성체 예식')text=text.split('\n').filter(line=>!line.startsWith('[자료에 오늘 영성체송')).join('\n');
  if(key==='감사 기도')text=text.replace('(타대오와 요한보스코)','(타대오와 협력 주교들)');
  if(key==='감사 기도')text=text.split('\n').filter(line=>!line.startsWith('[자료 안내] 인쇄본에 감사기도') && line!=='[감사송 대화]' && line!=='[감사기도 제2양식 고유 감사송 · 선택 가능]').join('\n');
  return mode==='regular'?text.split('\n').filter(line=>!line.startsWith('[안내]')).join('\n'):text;
@@ -497,8 +497,8 @@ function renderItem(item) {
    const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-content-source','parish-bulletin-score');const p=document.createElement('p');p.textContent='주보 화답송 악보 표시 영역 · 악보 미등록';const note=document.createElement('p');note.textContent='주보 악보를 연결하면 이 카드 안에 표시합니다.';card.append(p,note);section.append(card);
   }else if(item.title==='본기도'){
    const card=document.createElement('div');card.className='reader__content-card';const p=document.createElement('p');p.className='reader__item-text';p.textContent=ordinaryText('본기도',find('mode').value);card.append(p);section.append(card);
-  }else if(spec.kind==='choice'){const p=document.createElement('p');p.className='reader__item-text';p.textContent=ordinaryText(item.title==='영성체 예식 · 영성체 성가'?'영성체 예식 · 영성체 성가':item.title,find('mode').value);section.append(p);}
-  else {const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-content-source',spec.source);const p=document.createElement('p');p.className='reader__item-text';p.lang='ko';p.textContent=ordinaryText(item.title==='영성체 예식 · 영성체 성가'?'영성체 예식 · 영성체 성가':item.title,find('mode').value);card.append(p);section.append(card);}
+  }else if(spec.kind==='choice'){const p=document.createElement('p');p.className='reader__item-text';p.textContent=ordinaryText(item.title,find('mode').value);section.append(p);}
+  else {const card=document.createElement('div');card.className='reader__content-card';card.setAttribute('data-content-source',spec.source);const p=document.createElement('p');p.className='reader__item-text';p.lang='ko';p.textContent=ordinaryText(item.title,find('mode').value);card.append(p);section.append(card);}
  }
  section.id=item.id;section.tabIndex=-1;
  if(item.id===selectedItem){section.setAttribute('aria-current','location');}
@@ -551,7 +551,7 @@ function flowBlocks(partIndex) {
  const blocks=[];
  contents[partIndex].filter(isItemApplicable).forEach(item=>{
   const addPrayer=(suffix,title)=>blocks.push({key:`${item.id}-${suffix}`,tocId:item.id,prayerTitle:title});
-  if(item.title==='영성체 예식 · 영성체 성가')addPrayer('agnus','하느님의 어린양');
+  if(item.title==='영성체 예식')addPrayer('agnus','하느님의 어린양');
   if(item.title==='참회 예식'){blocks.push({key:item.id,tocId:item.id,penitential:true,group:'참회 예식'});
   }else if(item.title==='인사'){
    variantCards(item.title).forEach((variant,index)=>blocks.push({key:index===0?item.id:`${item.id}-variant-${index+1}`,tocId:item.id,variant:{...variant,text:variant.text+(index===2?'\n◎ 또한 사제의 영과 함께.':''),title:item.title==='인사'?'인사':variant.title},hideHeading:item.title==='인사' && index>0,alternative:item.title==='인사' && index<2,group:item.title}));
@@ -563,7 +563,7 @@ function flowBlocks(partIndex) {
   }else if(item.title==='파견'){
    dismissalChoices().forEach((variant,index)=>blocks.push({key:index?`${item.id}-variant-${index+1}`:item.id,tocId:item.id,variant,hideHeading:index>0,alternative:index<3,group:'파견'}));blocks.push({key:`${item.id}-response`,tocId:item.id,variant:{title:'',text:'◎ 하느님, 감사합니다.'},hideHeading:true,group:'파견 합송'});
   }else if(item.title==='감사기도 제2양식'){
-   const text=ordinaryText(item.title==='영성체 예식 · 영성체 성가'?'영성체 예식 · 영성체 성가':item.title,find('mode').value);
+   const text=ordinaryText(item.title,find('mode').value);
    const first=text.split('[거룩하시도다 · 별도 카드 참조]');const preface=dailyText('감사송');if(preface){const opening=first[0].split('+ 거룩하신 아버지')[0];first[0]=opening+'+ '+preface;}else if(selectedRubrics()?.prefaceHints.length){const opening=first[0].split('+ 거룩하신 아버지')[0];first[0]=opening+'[원문 지침] '+selectedRubrics().prefaceHints.map(t=>t.replace(/^<|>$/g,'')).join(' / ')+'\n[선택 날짜 감사송 전문 미연결 · 집전 사제의 선택에 따릅니다.]';}
    const rest=(first[1]||'').split('[신앙의 신비여 · 별도 카드 참조]');
    blocks.push({key:item.id,tocId:item.id,item,displayText:first[0]});
