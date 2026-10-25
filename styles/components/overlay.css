@@ -2,6 +2,8 @@
 
  .overlay {width:min(var(--overlay-guide-width),calc(100% - var(--reader-gap)));max-height:var(--overlay-max-height);padding:var(--reader-padding);}
  .overlay[open] {display:grid;grid-template-rows:auto minmax(0,1fr);gap:var(--reader-gap);}
+ .overlay--tutorial[open] {height:fit-content;min-height:0;grid-template-rows:auto auto auto;gap:var(--reader-system-space-2);}
+ .overlay__title {margin:0;font-size:var(--reader-system-type-section);line-height:var(--reader-system-leading-heading);}
  .overlay__header {display:flex;justify-content:space-between;align-items:center;gap:var(--reader-gap);}
  .overlay__body {overflow:auto;min-block-size:0;display:grid;align-content:start;gap:var(--reader-gap);}
  .overlay--drawer {width:min(var(--overlay-drawer-width),calc(100% - var(--reader-gap)));height:var(--overlay-max-height);margin-inline-start:auto;margin-inline-end:0;}
