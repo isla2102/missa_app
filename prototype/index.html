@@ -14,6 +14,18 @@
 <style>@layer tokens, base, layout, components, responsive, utilities;
 @layer tokens {
  :root {
+  --foundation-radius-circle: 999px;
+  --foundation-help-on-dark: #EEE2D8;
+  --ui-help-radius: var(--foundation-radius-circle);
+  --ui-help-surface: var(--foundation-reader-system-paper-ink);
+  --ui-help-ink: var(--foundation-help-on-dark);
+  --reader-help-radius: var(--ui-help-radius);
+  --reader-help-surface: var(--ui-help-surface);
+  --reader-help-ink: var(--ui-help-ink);
+  --foundation-nested-shade: 60%;
+  --ui-nested-backdrop: color-mix(in srgb,var(--foundation-reader-system-paper-ink) var(--foundation-nested-shade),transparent);
+  --overlay-nested-backdrop: var(--ui-nested-backdrop);
+
   --foundation-dialog-guide: 32rem;
   --foundation-dialog-drawer: 28rem;
   --foundation-dialog-score: 90rem;
@@ -608,7 +620,7 @@
  .reader__pdf-object { display: block; width: 100%; height: 100%; min-height: 60dvh; }
  .reader__modal-heading { display: flex; justify-content: space-between; align-items: center; gap: var(--reader-gap); }
  .reader__season-period { border: var(--reader-card-border-width) solid var(--reader-card-border-color); padding: var(--reader-content-inset); margin-block: var(--reader-item-gap); }
- .reader__season-help { flex-shrink: 0; }
+ .reader__season-help { --button-hit:var(--reader-system-button-option-hit); --button-radius:var(--reader-help-radius); --button-surface:var(--reader-help-surface); --button-ink:var(--reader-help-ink); --button-border-width:0; inline-size:var(--reader-system-button-option-hit); block-size:var(--reader-system-button-option-hit); padding:0; display:grid; place-items:center; flex-shrink:0; }
  .reader__season-period[aria-current="true"] { border-width: var(--reader-selection-frame-width); }
  .reader__session-select { width: max-content; }
  .reader__score-photo { border: var(--reader-score-border-width) solid var(--reader-card-border-color); background: var(--reader-score-paper); display: block; width: 100%; height: auto; }
@@ -728,6 +740,8 @@
  .overlay {width:min(var(--overlay-guide-width),calc(100% - var(--reader-gap)));max-height:var(--overlay-max-height);padding:var(--reader-padding);}
  .overlay[open] {display:grid;grid-template-rows:auto minmax(0,1fr);gap:var(--reader-gap);}
  .overlay--tutorial[open] {height:var(--overlay-tutorial-height);max-height:var(--overlay-tutorial-height);min-height:0;grid-template-rows:auto minmax(0,1fr) auto;gap:var(--overlay-tutorial-gap);}
+ .overlay--nested[open] {width:min(var(--overlay-drawer-width),calc(100% - var(--reader-gap)));height:fit-content;grid-template-rows:auto minmax(0,1fr);}
+ .overlay--nested::backdrop {background:var(--overlay-nested-backdrop);}
  .overlay__title {margin:0;font-size:var(--reader-system-type-section);line-height:var(--reader-system-leading-heading);}
  .overlay__header {display:flex;justify-content:space-between;align-items:center;gap:var(--reader-gap);}
  .overlay__body {overflow:auto;min-block-size:0;display:grid;align-content:start;gap:var(--reader-gap);}
@@ -762,7 +776,7 @@
 </main>
 <dialog class="reader__tutorial overlay overlay--tutorial" data-js="tutorial" aria-labelledby="tutorial-title"><div class="overlay__header"><h2 class="overlay__title" id="tutorial-title" data-js="tutorial-title">미사 뷰어 사용 안내</h2><p data-js="tutorial-step" role="status"></p></div><p class="overlay__body" data-js="tutorial-copy"></p><nav class="reader__row" aria-label="튜토리얼 단계"><button type="button" data-js="tutorial-prev" class="missa-button">이전</button><button type="button" data-js="tutorial-next" class="missa-button">다음</button><button type="button" data-js="tutorial-later" class="missa-button">나중에 보기</button></nav></dialog>
 <dialog class="reader__score-modal overlay overlay--score" data-js="score-modal" aria-labelledby="score-modal-title"><div class="reader__modal-heading overlay__header"><h2 id="score-modal-title" data-js="score-modal-title">악보 크게 보기</h2><button type="button" data-js="score-modal-close" class="missa-button">닫기</button></div><div class="reader__score-modal-body overlay__scroll" data-js="score-modal-body"></div></dialog>
-<dialog class="reader__tutorial overlay" id="season-help-dialog" data-js="season-help-modal" aria-labelledby="season-help-title" aria-describedby="season-help-text"><div class="reader__modal-heading overlay__header"><h2 id="season-help-title" data-js="season-help-title"></h2><button type="button" data-js="season-help-close" class="missa-button">닫기</button></div><div class="overlay__body"><p id="season-help-text" data-js="season-help-text" class="reader__item-text"></p><a data-js="season-help-source" target="_blank" rel="noopener noreferrer">전례 시기 설명 출처</a></div></dialog>
+<dialog class="reader__tutorial overlay overlay--nested" id="season-help-dialog" data-js="season-help-modal" aria-labelledby="season-help-title" aria-describedby="season-help-text"><div class="reader__modal-heading overlay__header"><h2 id="season-help-title" data-js="season-help-title"></h2><button type="button" data-js="season-help-close" class="missa-button">닫기</button></div><div class="overlay__body"><p id="season-help-text" data-js="season-help-text" class="reader__item-text"></p><a data-js="season-help-source" target="_blank" rel="noopener noreferrer">전례 시기 설명 출처</a></div></dialog>
 <dialog class="reader__tutorial overlay" id="season-dialog" data-js="season-modal" aria-labelledby="season-modal-title"><div class="reader__modal-heading overlay__header"><h2 id="season-modal-title" data-js="season-modal-title">전례 시기</h2><button type="button" data-js="season-modal-close" class="missa-button">닫기</button></div><div class="overlay__body" data-js="season-modal-body"></div></dialog>
 <dialog class="reader__tutorial overlay" data-js="source-dialog" aria-labelledby="source-dialog-title"><div class="reader__modal-heading overlay__header"><h2 id="source-dialog-title" data-js="source-dialog-title">악보 출처</h2><button type="button" data-js="source-dialog-close" class="missa-button">닫기</button></div><div data-js="source-dialog-body"></div></dialog>
 <dialog class="reader__tutorial overlay" data-js="guidance-dialog" aria-labelledby="guidance-title"><div class="reader__modal-heading overlay__header"><h2 id="guidance-title" data-js="guidance-title">안내</h2><button type="button" data-js="guidance-close" class="missa-button">닫기</button></div><p class="overlay__body" data-js="guidance-copy"></p></dialog>
@@ -1016,7 +1030,7 @@ function showSeasonModal(trigger){
    const heading=document.createElement('div');heading.className='overlay__header';
    const h=document.createElement('h3');h.className='reader__item-title';h.textContent=period.title+(current===period?' · 현재 선택한 시기':'');
    if(current===period)h.style.color='var(--reader-theme-accent)';
-   const help=createReaderButton('?');help.type='button';help.setAttribute('aria-label',period.title+' 의미 알아보기');help.setAttribute('aria-haspopup','dialog');help.setAttribute('aria-controls','season-help-dialog');help.title=period.title+'란?';help.onclick=()=>showSeasonHelp(period.key,help);help.hidden=!seasonMeanings[period.key];
+   const help=createReaderButton('?');help.classList.add('reader__season-help');help.type='button';help.setAttribute('aria-label',period.title+' 의미 알아보기');help.setAttribute('aria-haspopup','dialog');help.setAttribute('aria-controls','season-help-dialog');help.title=period.title+'란?';help.onclick=()=>showSeasonHelp(period.key,help);help.hidden=!seasonMeanings[period.key];
    heading.append(h,help);
    const p=document.createElement('p');p.className='reader__item-text';p.textContent=period.description;
    card.append(heading,p);body.append(card);

@@ -616,3 +616,9 @@ Flutter·SQLite·JSON은 권장 아키텍처이며 현재 구현된 앱 스택�
 
 ## 2026-10-25 튜토리얼30% 및 읽기 간격
 - 사용자확정변경:높이30dvh(45대체).제목/본문/버튼간격24px:기존foundation-reader-system-space-6→ui-tutorial-gap→overlay-tutorial-gap.기존8px사용이지만설명모달맥락에좁아전용의미토큰으로정규화.
+
+
+## 2026-10-25 전례시기 도움말 및 중첩모달
+- 사용자튜토리얼30%/24px현재안좋다고승인.
+- 도움말버튼32px정원(option-hit),radius999px전용3계층토큰,면#171C18/글자#EEE2D8,테두리0.
+- 설명은overlay--nested:부모32rem보다좁은기존28rem폭,내용높이,60%어두운배경토큰.네이티브dialogtop-layer로부모유지,닫으면부모버튼포커스복귀.

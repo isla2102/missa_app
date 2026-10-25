@@ -222,7 +222,7 @@ function showSeasonModal(trigger){
    const heading=document.createElement('div');heading.className='overlay__header';
    const h=document.createElement('h3');h.className='reader__item-title';h.textContent=period.title+(current===period?' · 현재 선택한 시기':'');
    if(current===period)h.style.color='var(--reader-theme-accent)';
-   const help=createReaderButton('?');help.type='button';help.setAttribute('aria-label',period.title+' 의미 알아보기');help.setAttribute('aria-haspopup','dialog');help.setAttribute('aria-controls','season-help-dialog');help.title=period.title+'란?';help.onclick=()=>showSeasonHelp(period.key,help);help.hidden=!seasonMeanings[period.key];
+   const help=createReaderButton('?');help.classList.add('reader__season-help');help.type='button';help.setAttribute('aria-label',period.title+' 의미 알아보기');help.setAttribute('aria-haspopup','dialog');help.setAttribute('aria-controls','season-help-dialog');help.title=period.title+'란?';help.onclick=()=>showSeasonHelp(period.key,help);help.hidden=!seasonMeanings[period.key];
    heading.append(h,help);
    const p=document.createElement('p');p.className='reader__item-text';p.textContent=period.description;
    card.append(heading,p);body.append(card);

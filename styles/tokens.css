@@ -1,6 +1,18 @@
 @layer tokens, base, layout, components, responsive, utilities;
 @layer tokens {
  :root {
+  --foundation-radius-circle: 999px;
+  --foundation-help-on-dark: #EEE2D8;
+  --ui-help-radius: var(--foundation-radius-circle);
+  --ui-help-surface: var(--foundation-reader-system-paper-ink);
+  --ui-help-ink: var(--foundation-help-on-dark);
+  --reader-help-radius: var(--ui-help-radius);
+  --reader-help-surface: var(--ui-help-surface);
+  --reader-help-ink: var(--ui-help-ink);
+  --foundation-nested-shade: 60%;
+  --ui-nested-backdrop: color-mix(in srgb,var(--foundation-reader-system-paper-ink) var(--foundation-nested-shade),transparent);
+  --overlay-nested-backdrop: var(--ui-nested-backdrop);
+
   --foundation-dialog-guide: 32rem;
   --foundation-dialog-drawer: 28rem;
   --foundation-dialog-score: 90rem;

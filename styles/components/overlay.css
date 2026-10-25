@@ -3,6 +3,8 @@
  .overlay {width:min(var(--overlay-guide-width),calc(100% - var(--reader-gap)));max-height:var(--overlay-max-height);padding:var(--reader-padding);}
  .overlay[open] {display:grid;grid-template-rows:auto minmax(0,1fr);gap:var(--reader-gap);}
  .overlay--tutorial[open] {height:var(--overlay-tutorial-height);max-height:var(--overlay-tutorial-height);min-height:0;grid-template-rows:auto minmax(0,1fr) auto;gap:var(--overlay-tutorial-gap);}
+ .overlay--nested[open] {width:min(var(--overlay-drawer-width),calc(100% - var(--reader-gap)));height:fit-content;grid-template-rows:auto minmax(0,1fr);}
+ .overlay--nested::backdrop {background:var(--overlay-nested-backdrop);}
  .overlay__title {margin:0;font-size:var(--reader-system-type-section);line-height:var(--reader-system-leading-heading);}
  .overlay__header {display:flex;justify-content:space-between;align-items:center;gap:var(--reader-gap);}
  .overlay__body {overflow:auto;min-block-size:0;display:grid;align-content:start;gap:var(--reader-gap);}
